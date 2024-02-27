@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Oscarinin",
+        "rules": {
+            "FNC": true,
+            "G2": false,
+            "MDK": false,
+            "BDS": false,
+            "VIT": false,
+            "SK": false,
+            "RGE": false,
+            "TH": false,
+            "KC": false,
+            "GX": false
+        }
+    },
+    {
+        "name": "Razork",
+        "rules": {
+            "FNC": true,
+            "G2": false,
+            "MDK": false,
+            "BDS": false,
+            "VIT": false,
+            "SK": false,
+            "RGE": false,
+            "TH": false,
+            "KC": false,
+            "GX": false
+        }
+    },
+    {
+        "name": "Humanoid",
+        "rules": {
+            "FNC": true,
+            "G2": false,
+            "MDK": true,
+            "BDS": false,
+            "VIT": false,
+            "SK": false,
+            "RGE": false,
+            "TH": false,
+            "KC": false,
+            "GX": false
+        }
+    },
+    {
+        "name": "Noah",
+        "rules": {
+            "FNC": true,
+            "G2": false,
+            "MDK": false,
+            "BDS": false,
+            "VIT": false,
+            "SK": false,
+            "RGE": false,
+            "TH": false,
+            "KC": false,
+            "GX": false
+        }
+    },
+    {
+        "name": "Jun",
+        "rules": {
+            "FNC": true,
+            "G2": false,
+            "MDK": false,
+            "BDS": false,
+            "VIT": false,
+            "SK": false,
+            "RGE": false,
+            "TH": false,
+            "KC": false,
+            "GX": false
+        }
+    }
+]
