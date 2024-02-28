@@ -3,16 +3,36 @@
     import DokuSquare from '$lib/components/puzzle/DokuSquare.svelte';
     import Header from '$lib/components/Header.svelte';
     import playerList from '$lib/players.json';
+    import { generate_puzzle } from '$lib/util/puzzle_util';
+    import type { Team } from '$lib/models/Team'
 
-    let columns = [{team: "G2", id: 0}, {team: "KC", id: 1}, {team: "MDK", id: 2}];
+    // let p = generate_puzzle();
+    // while (p == null) {
+    //     console.log("invalid");
+    //     p = generate_puzzle();
+    // }
+    // console.log(p);
 
-    let rows = [{team: "FNC", id: 0}, {team: "RGE", id: 1}, {team: "VIT", id: 2}];
+    let columns: Team[] & {id: number}[];
+    let rows: Team[] & {id: number}[];
+
+    function gen_puz() {
+        let p = generate_puzzle();
+        while (p == null) {
+            console.log("invalid");
+            p = generate_puzzle();
+        }
+        console.log(p);
+        columns = p.cols;
+        rows = p.rows;
+    }
 </script>
 
 
 <Header />
 <div class="content">
     <DokuSquare bind:columns bind:rows />
+    <button on:click={gen_puz}>Get Puzzle</button>
 </div>
 
 <style>

@@ -1,35 +1,40 @@
 <script lang="ts">
+	import type { Team } from '$lib/models/Team';
 	import DokuTile from './DokuTile.svelte';
 	let tile_size = '150px';
 
-	export let columns: { id: number; team: string }[];
-	export let rows: { id: number; team: string }[];
+	export let columns: Team[] & {id: number}[];
+	export let rows: Team[] & {id: number}[];
 
     let lives = 9;
 	let correct = 0;
 	let selectedPlayers: string[] = [];
 </script>
 
+{#if columns && rows}
 <div class="doku-grid" style="--tile-size: {tile_size}">
 	<div class="info-tile"><img src="https://raw.githubusercontent.com/ribeirogab/scuttle-crab/master/examples/logo.png" alt="scuttle crab"/></div>
 	{#each columns as col (col.id)}
-		<div class="info-tile"><span>{col.team}</span></div>
+		<div class="info-tile"><span>{col.team_names[col.team_names.length-1]}</span></div>
 	{/each}
 	<div class="info-tile"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/5/54/Rift_Herald_Render.png" alt="rift herald"/></div>
-	<div class="info-tile"><span>{rows[0].team}</span></div>
+	<div class="info-tile"><span>{rows[0].team_names[rows[0].team_names.length-1]}</span></div>
 	<div class="select-tile-span">
 		{#each rows as row (row.id)}
 			{#each columns as col (col.id)}
-				<DokuTile index={row.id * 3 + col.id} rule1={col.team} rule2={row.team} bind:lives bind:correct bind:selectedPlayers/>
+				<DokuTile index={row.id * 3 + col.id} rule1={col} rule2={row} bind:lives bind:correct bind:selectedPlayers/>
 			{/each}
 		{/each}
 	</div>
 	<div class="info-tile"><span>Uniqueness Rating: 900</span></div>
-	<div class="info-tile"><span>{rows[1].team}</span></div>
+	<div class="info-tile"><span>{rows[1].team_names[rows[1].team_names.length-1]}</span></div>
 	<div class="info-tile"><span>Correct Guesses: {correct}/9</span></div>
-	<div class="info-tile"><span>{rows[2].team}</span></div>
+	<div class="info-tile"><span>{rows[2].team_names[rows[2].team_names.length-1]}</span></div>
 	<div class="info-tile"><span>Guesses Remaining: {lives}/9</span></div>
 </div>
+{:else}
+<div></div>
+{/if}
 
 <style>
 	.doku-grid {

@@ -1,0 +1,1707 @@
+{
+    "chains": [
+        {
+            "team_names": [
+                "Fnatic"
+            ],
+            "players": [
+                "xPeke",
+                "Cyanide",
+                "Shushei",
+                "Lamia",
+                "Mellisan",
+                "CyanideFI",
+                "LamiaZealot",
+                "sOAZ",
+                "Pheilox",
+                "nRated",
+                "YellOwStaR",
+                "Puszu",
+                "Rekkles",
+                "Huni",
+                "Reignover",
+                "Febiven",
+                "Steeelback",
+                "Gamsu",
+                "Spirit",
+                "Noxiak",
+                "Klaj",
+                "Kikis",
+                "Werlyb",
+                "Amazingx",
+                "Broxah",
+                "Caps",
+                "Jesiz",
+                "Bwipo",
+                "Hylissang",
+                "Nemesis",
+                "MagiFelix",
+                "Selfmade",
+                "Nisqy",
+                "Upset",
+                "Adam (Adam Maanane)",
+                "Wunder",
+                "Razork",
+                "Humanoid",
+                "rhuckz",
+                "Oscarinin",
+                "Advienne",
+                "Noah (Oh Hyeon-taek)",
+                "Trymbi",
+                "Jun (Yoon Se-jun)"
+            ]
+        },
+        {
+            "team_names": [
+                "Team gamed!de"
+            ],
+            "players": [
+                "kev1n",
+                "Zylor",
+                "Reyk",
+                "Candy (Adrian Wübbelmann)",
+                "Nyph"
+            ]
+        },
+        {
+            "team_names": [
+                "SK Gaming"
+            ],
+            "players": [
+                "farfain",
+                "ALth0r",
+                "limelight",
+                "Sleezy",
+                "Wickd",
+                "WetDreaM",
+                "Ocelote",
+                "Candy Panda",
+                "Nyph",
+                "Kev1n",
+                "Araneae",
+                "YellOwStaR",
+                "hyrqBot",
+                "ocelote",
+                "CandyPanda",
+                "fredy122",
+                "Svenskeren",
+                "Jesiz",
+                "nRated",
+                "Fox (Hampus Myhre)",
+                "FORG1VENGRE",
+                "Noxiak",
+                "Werlyb",
+                "Selfmade",
+                "Pirean",
+                "Crownshot",
+                "Dreams (Han Min-kook)",
+                "Sacre",
+                "Jenax",
+                "Ventair",
+                "Trick",
+                "LIMIT (Dino Tot)",
+                "ZaZee",
+                "TynX",
+                "Blue (Ersin Gören)",
+                "Jezu",
+                "Treatz",
+                "twohoyrz",
+                "Lilipp",
+                "Gilius",
+                "Sertuss",
+                "JNX",
+                "Gadget",
+                "Irrelevant",
+                "Markoon",
+                "Exakick",
+                "Doss",
+                "ISMA",
+                "Nisqy"
+            ]
+        },
+        {
+            "team_names": [
+                "Tic-Tacs"
+            ],
+            "players": [
+                "Karalius",
+                "sen (European Player)",
+                "fredy122",
+                "yellowpete",
+                "Havoc24"
+            ]
+        },
+        {
+            "team_names": [
+                "Wizards e-Sports Club",
+                "MeetYourMakers"
+            ],
+            "players": [
+                "heiN",
+                "Araneae",
+                "Exter",
+                "BarbaQ",
+                "Kaidoh",
+                "Kubon",
+                "Mokatte",
+                "Czaru",
+                "Makler",
+                "Libik"
+            ]
+        },
+        {
+            "team_names": [
+                "Counter Logic Gaming"
+            ],
+            "players": [
+                "HotshotGG",
+                "Saintvicious",
+                "Salce",
+                "Bigfatlp",
+                "Elementz"
+            ]
+        },
+        {
+            "team_names": [
+                "Frag eXecutors"
+            ],
+            "players": [
+                "Kubon",
+                "Alvado",
+                "Nicker",
+                "iMba (Łukasz Dusza)",
+                "Ismaro"
+            ]
+        },
+        {
+            "team_names": [
+                "Millenium"
+            ],
+            "players": [
+                "sOAZ",
+                "Linak",
+                "Shlaya",
+                "Tidus",
+                "kujaa",
+                "pHeoz",
+                "Naijik",
+                "Arcagød",
+                "Entenzwerg",
+                "Dax",
+                "Doigby",
+                "ImSoFresh",
+                "ShLaYa",
+                "Nanouk",
+                "Dioud",
+                "kev1n",
+                "Araneae",
+                "Kottenx",
+                "Kerp",
+                "Creaton",
+                "Jree",
+                "H0R0",
+                "Ryu",
+                "Kaze (Quentin Gourbeix)",
+                "Djoko",
+                "Pretty",
+                "Tabzz",
+                "Masterwork"
+            ]
+        },
+        {
+            "team_names": [
+                "myRevenge"
+            ],
+            "players": [
+                "Syex",
+                "MeRusMePro",
+                "Brainquiche",
+                "Cerberus",
+                "biggy"
+            ]
+        },
+        {
+            "team_names": [
+                "Team ALTERNATE"
+            ],
+            "players": [
+                "cliff",
+                "unso",
+                "Forellenlord",
+                "CedeoCedeo",
+                "Lycades",
+                "Rainy",
+                "ForellenLord",
+                "Noaphiel",
+                "Fisch",
+                "Kerrp",
+                "Araneae",
+                "Creaton",
+                "Jreee",
+                "Kerp",
+                "WhiteKnight",
+                "Jree"
+            ]
+        },
+        {
+            "team_names": [
+                "TSM"
+            ],
+            "players": [
+                "TheRainMan",
+                "TheOddOne",
+                "Reginald",
+                "Chaox",
+                "Xpecial"
+            ]
+        },
+        {
+            "team_names": [
+                "Absolute Legends"
+            ],
+            "players": [
+                "Kikis",
+                "Veggie",
+                "Celaver",
+                "Puki style",
+                "SuperAZE"
+            ]
+        },
+        {
+            "team_names": [
+                "Counter Logic Gaming Europe"
+            ],
+            "players": [
+                "Wickd",
+                "Snoopeh",
+                "Froggen",
+                "Yellowpete",
+                "Krepo"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Curse Europe"
+            ],
+            "players": [
+                "Angush",
+                "Malunoo",
+                "extinkt",
+                "Sleper",
+                "xinec"
+            ]
+        },
+        {
+            "team_names": [
+                "Mebdi's Minions"
+            ],
+            "players": [
+                "Yamato (Jakob Mebdi)",
+                "Skullomania",
+                "Baronpanda",
+                "kestrel",
+                "jwaow"
+            ]
+        },
+        {
+            "team_names": [
+                "Moscow Five"
+            ],
+            "players": [
+                "Darien",
+                "Diamondprox",
+                "Alex Ich",
+                "Genja",
+                "GoSu Pepper"
+            ]
+        },
+        {
+            "team_names": [
+                "PAH"
+            ],
+            "players": [
+                "hyrqBot",
+                "Kottenx",
+                "Moopz",
+                "Rekkles",
+                "Lounet"
+            ]
+        },
+        {
+            "team_names": [
+                "EloHell"
+            ],
+            "players": [
+                "Kikis",
+                "Veggie",
+                "Shushei",
+                "Van Der Fckk",
+                "Grom"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Acer Poland"
+            ],
+            "players": [
+                "760",
+                "LOL PRO",
+                "Puki style",
+                "Celaver",
+                "SuperAZE"
+            ]
+        },
+        {
+            "team_names": [
+                "against All authority"
+            ],
+            "players": [
+                "fredy122",
+                "ViRtU4l",
+                "ShLaYa",
+                "Nono",
+                "Karalius",
+                "Dioud",
+                "Zarmony"
+            ]
+        },
+        {
+            "team_names": [
+                "Copenhagen Wolves"
+            ],
+            "players": [
+                "NeeGodbro",
+                "Svenskeren",
+                "FLord",
+                "Bjergsen",
+                "TheTess",
+                "Deficio",
+                "YoungBuck",
+                "Shook v2",
+                "cowTard",
+                "Rekkles",
+                "Unlimited (Petar Georgiev)",
+                "Amazing (Maurice Stückenschneider)",
+                "Forg1ven",
+                "FORG1VEN",
+                "Airwaks",
+                "Brokenshard",
+                "Mazzerin",
+                "SorenXD",
+                "Woolite",
+                "Youngbuck",
+                "Soren (Søren Frederiksen)",
+                "Freeze",
+                "Lenny (Lenny Uytterhoeven)",
+                "Shook",
+                "Je suis Kaas",
+                "Wickd",
+                "k0u",
+                "Caedrel",
+                "P1noy",
+                "SirNukesAlot"
+            ]
+        },
+        {
+            "team_names": [
+                "DragonBorns"
+            ],
+            "players": [
+                "Spontexx",
+                "YamatoCannon",
+                "Malunoo",
+                "Dexter",
+                "Shushei",
+                "HosaN",
+                "Muvert"
+            ]
+        },
+        {
+            "team_names": [
+                "Evil Geniuses.EU"
+            ],
+            "players": [
+                "Wickd",
+                "Snoopeh",
+                "Froggen",
+                "yellowpete",
+                "Krepo",
+                "Shacker",
+                "Yellowpete"
+            ]
+        },
+        {
+            "team_names": [
+                "Gambit Gaming"
+            ],
+            "players": [
+                "Darien",
+                "Diamond (Danil Reshetnikov)",
+                "Alex Ich",
+                "Genja",
+                "EDward",
+                "Spontexx",
+                "Darker",
+                "Voidle",
+                "Zorozero",
+                "Hulberto",
+                "nukeduck",
+                "Fury (Jakob Burke)",
+                "Cabochard",
+                "Kubon",
+                "loulex",
+                "niQ",
+                "Hiiva",
+                "Krislund",
+                "EdWard",
+                "Betsy",
+                "P1noy",
+                "Edward",
+                "Diamondprox",
+                "FORG1VEN",
+                "Moopz",
+                "GoSu Pepper"
+            ]
+        },
+        {
+            "team_names": [
+                "Giants Gaming"
+            ],
+            "players": [
+                "Samux",
+                "Morden",
+                "Exter",
+                "Jimbz",
+                "Babeta",
+                "Werlyb",
+                "Fr3deric",
+                "xPePii",
+                "Adryh (Adrián Pérez)",
+                "Rydle",
+                "PePiiNeRO",
+                "Lozark",
+                "G0DFRED",
+                "Atom (Peter Thomsen)",
+                "Smittyj",
+                "k0u",
+                "BetongJocke",
+                "Wisdom",
+                "S0NSTAR",
+                "Hustlin",
+                "Maxlore",
+                "NighT (Na Gun-woo)",
+                "Flaxxish",
+                "Memento",
+                "HeaQ",
+                "Ruin",
+                "Gilius",
+                "Jiizuké",
+                "Minitroupax",
+                "Jactroll",
+                "Djoko",
+                "Betsy",
+                "Steeelback",
+                "Targamas",
+                "SirNukesAlot"
+            ]
+        },
+        {
+            "team_names": [
+                "Anexis eSports"
+            ],
+            "players": [
+                "Xaxus",
+                "eRot1c",
+                "Overpow",
+                "Celaver",
+                "LeoFKorea"
+            ]
+        },
+        {
+            "team_names": [
+                "mousesports"
+            ],
+            "players": [
+                "Kikis",
+                "dexter",
+                "Moopz",
+                "Foo Sharp",
+                "AoD"
+            ]
+        },
+        {
+            "team_names": [
+                "Samurai in Jeans"
+            ],
+            "players": [
+                "YoungBuck",
+                "Kottenx",
+                "extinkt",
+                "Freeze",
+                "Unlimited (Petar Georgiev)"
+            ]
+        },
+        {
+            "team_names": [
+                "Sinners Never Sleep",
+                "Lemondogs"
+            ],
+            "players": [
+                "Zorozero",
+                "Noonia",
+                "nukeduck",
+                "tabzz",
+                "wewillfailer",
+                "dexter",
+                "Tabzz",
+                "mithy"
+            ]
+        },
+        {
+            "team_names": [
+                "TCM Gaming"
+            ],
+            "players": [
+                "Zoller",
+                "ImSoFresh",
+                "Geogeo",
+                "Nanouk",
+                "Migxa",
+                "Jwaow",
+                "Naruterador",
+                "Belgianbeast",
+                "Motroco",
+                "BarneyD"
+            ]
+        },
+        {
+            "team_names": [
+                "Wizards e-Sports Club"
+            ],
+            "players": [
+                "TessLaa",
+                "Carbono",
+                "Drag0n",
+                "Motroco",
+                "mty"
+            ]
+        },
+        {
+            "team_names": [
+                "Ninjas in Pyjamas"
+            ],
+            "players": [
+                "NeeGodbro",
+                "extinkt",
+                "Mimer",
+                "Svenskeren",
+                "Malunoo",
+                "Bjergsen",
+                "TheTess",
+                "Freeeeeze",
+                "Deficio",
+                "Freeze",
+                "Zorozero",
+                "hyrqBot",
+                "Nukeduck",
+                "Mithy",
+                "Hulberto",
+                "NukeDuck",
+                "Profit",
+                "Shook",
+                "Nagne",
+                "HeaQ",
+                "sprattel"
+            ]
+        },
+        {
+            "team_names": [
+                "AT Gaming"
+            ],
+            "players": [
+                "Doris",
+                "Spike Nike",
+                "Janitin",
+                "Slyv3r",
+                "Zychion"
+            ]
+        },
+        {
+            "team_names": [
+                "Kiedys Mialem Team",
+                "H2k-Gaming"
+            ],
+            "players": [
+                "Xaxus",
+                "NIQ 760",
+                "Overpow",
+                "Celaver",
+                "SuperAZE",
+                "Odoamne",
+                "Trashy",
+                "Febiven",
+                "Hjärnan",
+                "AoD",
+                "Jankos",
+                "VandeRnoob",
+                "loulex",
+                "Hjarnan",
+                "Voidle",
+                "Ryu",
+                "kaSing",
+                "BetongJocke",
+                "Selfie",
+                "FORG1VENGRE",
+                "Vander",
+                "Freeze",
+                "FORG1VEN",
+                "Nuclear",
+                "Chei",
+                "Smittyj",
+                "Santorin",
+                "Shook",
+                "Sheriff",
+                "promisq",
+                "Caedrel",
+                "Larssen"
+            ]
+        },
+        {
+            "team_names": [
+                "Heroes Team"
+            ],
+            "players": [
+                "Jokieez",
+                "Kikis",
+                "Sebeks",
+                "Woolite",
+                "Elendix",
+                "Jookiez",
+                "Sebekx"
+            ]
+        },
+        {
+            "team_names": [
+                "Intellectual Playground"
+            ],
+            "players": [
+                "NeeGodbro",
+                "Santorin",
+                "Jesiz",
+                "Gamble",
+                "Roldo"
+            ]
+        },
+        {
+            "team_names": [
+                "Salade Tomate Oignon"
+            ],
+            "players": [
+                "GoB",
+                "Aïrwaks",
+                "Spontexx",
+                "Yuuki (Florent Soler)",
+                "Kujaa",
+                "Airwaks",
+                "eSpontexx",
+                "Yuuki60"
+            ]
+        },
+        {
+            "team_names": [
+                "SUPA HOT CREW",
+                "MeetYourMakers"
+            ],
+            "players": [
+                "Fredy122",
+                "Svenskeren",
+                "Moopz",
+                "Foton",
+                "Migxa",
+                "Syrela",
+                "k0u",
+                "Haydal",
+                "Mimer",
+                "Impaler",
+                "MrRalleZ",
+                "SELFIE",
+                "wewillfailer",
+                "kaSing",
+                "Jwaow",
+                "H0R0",
+                "Blizer300",
+                "kori",
+                "Nisbeth",
+                "Noxiak"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Property"
+            ],
+            "players": [
+                "Xyraz",
+                "PhyssiN",
+                "Hulberto",
+                "Kestrel",
+                "FatMamma",
+                "Infinity (Petter Freyschuss)",
+                "Niqua"
+            ]
+        },
+        {
+            "team_names": [
+                "Black Unicorns"
+            ],
+            "players": [
+                "Erên Jaeger",
+                "ZanCrow",
+                "Suckness",
+                "Eveyor",
+                "Inquisor"
+            ]
+        },
+        {
+            "team_names": [
+                "Cupcake is God"
+            ],
+            "players": [
+                "Deep In Chaos",
+                "Exclsion",
+                "Cupcake (North American Player)",
+                "Nemoksha",
+                "Report Kaggem"
+            ]
+        },
+        {
+            "team_names": [
+                "ex-GamingGear.EU"
+            ],
+            "players": [
+                "Nbs",
+                "Alunir",
+                "Mazzerin",
+                "DeadlyBrother",
+                "Inspirro"
+            ]
+        },
+        {
+            "team_names": [
+                "Mad Gods Gaming"
+            ],
+            "players": [
+                "apaixtosNtinos",
+                "lNightmare",
+                "kernawpasta",
+                "rouamat",
+                "Report Kaggem"
+            ]
+        },
+        {
+            "team_names": [
+                "RoughNeX"
+            ],
+            "players": [
+                "MikeyR",
+                "Mowarth",
+                "Tiridus",
+                "Strategas",
+                "Niko3333"
+            ]
+        },
+        {
+            "team_names": [
+                "RoughNeX Academy"
+            ],
+            "players": [
+                "Woio",
+                "Peanut (Marcus Edborg)",
+                "Hrabia Nervarien",
+                "Anlora",
+                "Fyrbo",
+                "ZipBer"
+            ]
+        },
+        {
+            "team_names": [
+                "Skill Or Luck"
+            ],
+            "players": [
+                "Vizicsacsi",
+                "Kubaos",
+                "Magebane",
+                "C0llide",
+                "Daisuke"
+            ]
+        },
+        {
+            "team_names": [
+                "Yalta Conference"
+            ],
+            "players": [
+                "onlyRETARDSfeed",
+                "Myjot",
+                "chisbug2009",
+                "SirLezi",
+                "KRAWAT Z KONOPI"
+            ]
+        },
+        {
+            "team_names": [
+                "bleiz eSPORTS"
+            ],
+            "players": [
+                "Noxvia",
+                "fatpanda",
+                "aKeLa",
+                "Upsas",
+                "Minde"
+            ]
+        },
+        {
+            "team_names": [
+                "ColliadesPoop"
+            ],
+            "players": [
+                "JDLoL",
+                "TYL Bahamut",
+                "Magebane",
+                "Tsili",
+                "DoMiNaNceLoL"
+            ]
+        },
+        {
+            "team_names": [
+                "EVG-Serv"
+            ],
+            "players": [
+                "ChosenOne",
+                "Raizzo",
+                "Simple nickname",
+                "Silver Carry",
+                "Oxz"
+            ]
+        },
+        {
+            "team_names": [
+                "headshotBG"
+            ],
+            "players": [
+                "Samarov",
+                "napraen",
+                "Smile (Bulgarian Player)",
+                "digggi",
+                "Aloex"
+            ]
+        },
+        {
+            "team_names": [
+                "Karont3 e-Sports Club"
+            ],
+            "players": [
+                "Drag0n",
+                "Econatorz",
+                "neptuNo",
+                "Jimbz",
+                "Tremnek"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Dignitas UK"
+            ],
+            "players": [
+                "NitriX",
+                "Impaler",
+                "DxAlchemist",
+                "Samwise12",
+                "Yerrow"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Ultra Vires"
+            ],
+            "players": [
+                "Nbs",
+                "Alunir",
+                "Mazzerin",
+                "DeadlyBrother",
+                "Karalius"
+            ]
+        },
+        {
+            "team_names": [
+                "The Dark Side"
+            ],
+            "players": [
+                "Warrior Lady",
+                "The Kinky Baron",
+                "Ninja Blast",
+                "YellowFlash",
+                "Demented Clown"
+            ]
+        },
+        {
+            "team_names": [
+                "The Fox Sound"
+            ],
+            "players": [
+                "Zeriouz",
+                "Shaft (Marcel Zimmer)",
+                "Lapras (David Leonardo Mørkøre)",
+                "Crazycaps",
+                "Zychion"
+            ]
+        },
+        {
+            "team_names": [
+                "Kiedys Mialem Team",
+                "Team ROCCAT"
+            ],
+            "players": [
+                "Xaxus",
+                "Jankos",
+                "Overpow",
+                "Celaver",
+                "VandeR",
+                "nukeduck",
+                "Woolite",
+                "Vander",
+                "Steve (Etienne Michels)",
+                "MrRalleZ",
+                "fredy122",
+                "Airwaks",
+                "Betsy",
+                "Safir",
+                "Tabzz",
+                "Edward",
+                "extinkt",
+                "Noxiak",
+                "Parang",
+                "Memento",
+                "Steeelback",
+                "Raise",
+                "Phaxi",
+                "Maxlore",
+                "Hjarnan",
+                "Wadid",
+                "Pridestalker",
+                "Profit",
+                "Blanc (Jin Seong-min)",
+                "HeaQ",
+                "Norskeren"
+            ]
+        },
+        {
+            "team_names": [
+                "Alliance",
+                "Elements",
+                "FC Schalke 04 Esports"
+            ],
+            "players": [
+                "Wickd",
+                "Shook",
+                "Froggen",
+                "Tabzz",
+                "Nyph",
+                "kev1n",
+                "Rekkles",
+                "Krepo",
+                "Jwaow",
+                "Dexter",
+                "PromisQ",
+                "Steve (Etienne Michels)",
+                "Gilius",
+                "Eika",
+                "MrRalleZ",
+                "sprattel",
+                "Fox (Hampus Myhre)",
+                "Smittyj",
+                "Memento",
+                "Caedrel",
+                "Upset",
+                "Norskeren",
+                "Vizicsacsi",
+                "Pride (Milo Wehnes)",
+                "Nukeduck",
+                "Boris",
+                "Amazing (Maurice Stückenschneider)",
+                "Vander",
+                "Odoamne",
+                "Abbedagge",
+                "IgNar",
+                "Trick",
+                "Lurox",
+                "FORG1VEN",
+                "Innaxe",
+                "Dreams (Han Min-kook)",
+                "Neon (Matúš Jakubčík)",
+                "Nukes",
+                "BrokenBlade",
+                "LIMIT (Dino Tot)",
+                "Kirei",
+                "NUCLEARINT"
+            ]
+        },
+        {
+            "team_names": [
+                "Cloud9 Eclipse"
+            ],
+            "players": [
+                "Odoamne",
+                "Santorin",
+                "Febiven",
+                "Hjarnan",
+                "Voidle"
+            ]
+        },
+        {
+            "team_names": [
+                "Denial eSports EU"
+            ],
+            "players": [
+                "Babunia",
+                "Kikis",
+                "niQ",
+                "Woolite",
+                "SuperAZE"
+            ]
+        },
+        {
+            "team_names": [
+                "SK Gaming Prime"
+            ],
+            "players": [
+                "SmittyJ",
+                "Kikis",
+                "Watdefox",
+                "Zyzz",
+                "Zytan",
+                "Beansu",
+                "Trashy",
+                "Godbro",
+                "Steeelbackkk",
+                "BarneyD"
+            ]
+        },
+        {
+            "team_names": [
+                "Unicorns of Love"
+            ],
+            "players": [
+                "Vizicsacsi",
+                "Gilius",
+                "PowerOfEvil",
+                "Vardags",
+                "Hylissang",
+                "Kikis",
+                "H0R0",
+                "Diamondprox",
+                "Djoko",
+                "Rudy (Rudy Beltran)",
+                "loulex",
+                "Fox (Hampus Myhre)",
+                "Steeelback",
+                "Move",
+                "Exileh",
+                "Veritas",
+                "Xerxe",
+                "Samux",
+                "WhiteKnight",
+                "Kold",
+                "Totoro (Eun Jong-seop)",
+                "Neon (Matúš Jakubčík)"
+            ]
+        },
+        {
+            "team_names": [
+                "Gamers2",
+                "G2 Esports"
+            ],
+            "players": [
+                "Jwaow",
+                "k0u",
+                "ocelote",
+                "Yuuki60",
+                "kaSing",
+                "Smittyj",
+                "Kikis",
+                "PerkZ",
+                "Jesse",
+                "Hybrid (Glenn Doornenbal)",
+                "Trick",
+                "Perkz",
+                "Emperor (Kim Jin-hyun)",
+                "Expect",
+                "Zven",
+                "mithy",
+                "Send0o",
+                "Loulex",
+                "Blanc (Jin Seong-min)",
+                "Wunder",
+                "Jankos",
+                "Hjarnan",
+                "Wadid",
+                "Caps",
+                "Mikyx",
+                "promisq",
+                "PERKZ",
+                "P1noy",
+                "Rekkles",
+                "BrokenBlade",
+                "caPs",
+                "Flakked",
+                "Targamas",
+                "Yike",
+                "Hans Sama"
+            ]
+        },
+        {
+            "team_names": [
+                "Reason Gaming"
+            ],
+            "players": [
+                "Kubon",
+                "Xayoo",
+                "Takefun",
+                "Celaver",
+                "Libik"
+            ]
+        },
+        {
+            "team_names": [
+                "Meloncats"
+            ],
+            "players": [
+                "Zeclipse",
+                "Gilius",
+                "Abaria",
+                "Crykee",
+                "Dioud"
+            ]
+        },
+        {
+            "team_names": [
+                "n!faculty",
+                "mousesports"
+            ],
+            "players": [
+                "Xaxus",
+                "Obvious",
+                "SozPurefect",
+                "Sedrion",
+                "MounTain (Patrick Dasberg)",
+                "Beansu",
+                "Dan (Daniel Hockley)",
+                "Jinsh"
+            ]
+        },
+        {
+            "team_names": [
+                "ThunderBot SPARTA"
+            ],
+            "players": [
+                "Steve (Etienne Michels)",
+                "Shaunz",
+                "ShLaYa",
+                "Nono",
+                "Lounet"
+            ]
+        },
+        {
+            "team_names": [
+                "Ascension"
+            ],
+            "players": [
+                "ZvenE",
+                "Mister",
+                "Flezeth",
+                "Ladooscuro",
+                "Angelas"
+            ]
+        },
+        {
+            "team_names": [
+                "Cyber Gaming"
+            ],
+            "players": [
+                "Cejlon",
+                "Idyiom",
+                "Shiage",
+                "Sâyn",
+                "Tarky"
+            ]
+        },
+        {
+            "team_names": [
+                "Different Dimension"
+            ],
+            "players": [
+                "WarriorLady",
+                "AnOnPsyCkO",
+                "Magebane",
+                "Dom1nant",
+                "Wildpanda"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Strix"
+            ],
+            "players": [
+                "MaybeNickName",
+                "K3nSt3r",
+                "Heavenstrike",
+                "SirAlphaQ",
+                "Vioreleeee"
+            ]
+        },
+        {
+            "team_names": [
+                "Tricked Esport"
+            ],
+            "players": [
+                "Babunia",
+                "Mowarth",
+                "Tiridus",
+                "Sa1na",
+                "Niko3333"
+            ]
+        },
+        {
+            "team_names": [
+                "Copenhagen Wolves Academy"
+            ],
+            "players": [
+                "Morsu",
+                "Kirei",
+                "CozQ",
+                "Vizility",
+                "Hybrid (Glenn Doornenbal)"
+            ]
+        },
+        {
+            "team_names": [
+                "Origen",
+                "Astralis"
+            ],
+            "players": [
+                "Soaz",
+                "Amazing (Maurice Stückenschneider)",
+                "xPeke",
+                "Niels",
+                "Mithy",
+                "sOAZ",
+                "PowerOfEvil",
+                "Zven",
+                "FORG1VEN",
+                "Toaster",
+                "Hybrid (Glenn Doornenbal)",
+                "Satorius",
+                "Wisdom",
+                "Cinkrof",
+                "Naehyun",
+                "Tabzz",
+                "Hiiva",
+                "Alphari",
+                "Kold",
+                "Nukeduck",
+                "Patrik",
+                "Zanzarah",
+                "Xerxe",
+                "Upset",
+                "Destiny (Mitchell Shaw)",
+                "Jactroll",
+                "WhiteKnight",
+                "MagiFelix",
+                "Jeskla",
+                "promisq",
+                "nukeduck",
+                "Dajor",
+                "Kobbe",
+                "Vizicsacsi",
+                "JeongHoon",
+                "Finn",
+                "113",
+                "LIDER"
+            ]
+        },
+        {
+            "team_names": [
+                "Splyce",
+                "MAD Lions",
+                "MAD Lions KOI"
+            ],
+            "players": [
+                "Wunderwear",
+                "Trashy",
+                "Sencux",
+                "Kobbe",
+                "Nisbeth",
+                "Wunder",
+                "Mikyx",
+                "Odoamne",
+                "Xerxe",
+                "Nisqy",
+                "kaSing",
+                "Vizicsacsi",
+                "Orome",
+                "Humanoid",
+                "Norskeren",
+                "Shad0w",
+                "Carzzy",
+                "Kaiser",
+                "Armut",
+                "Elyoya",
+                "Reeker",
+                "UNF0RGIVEN",
+                "Chasy",
+                "Hylissang",
+                "Myrwn",
+                "Fresskowy",
+                "Supa",
+                "Alvaro (Álvaro Fernández)"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Vitality"
+            ],
+            "players": [
+                "Cabochard",
+                "Shook",
+                "Nukeduck",
+                "Hjarnan",
+                "KaSing",
+                "Mightybear",
+                "Police (Park Hyeong-gi)",
+                "Reje",
+                "Djoko",
+                "GBM",
+                "Steeelback",
+                "Hachani",
+                "AoD",
+                "Vander",
+                "Gilius",
+                "Jiizuke",
+                "Minitroupax",
+                "Jactroll",
+                "Kikis",
+                "Attila",
+                "Mowgli",
+                "Saken",
+                "Skeanz",
+                "Selfie",
+                "Comp",
+                "Nji",
+                "Milica",
+                "Labrov",
+                "Szygenda",
+                "Crownshot",
+                "SLT",
+                "Selfmade",
+                "LIDER",
+                "Alphari",
+                "Perkz",
+                "Carzzy",
+                "Haru",
+                "Photon",
+                "Bo",
+                "Neon (Matúš Jakubčík)",
+                "Kaiser",
+                "Upset",
+                "Daglas",
+                "Vetheo",
+                "Hylissang"
+            ]
+        },
+        {
+            "team_names": [
+                "Huma"
+            ],
+            "players": [
+                "Werlyb",
+                "Rudy (Rudy Beltran)",
+                "Godbro",
+                "HolyPhoenix",
+                "je suis kaas"
+            ]
+        },
+        {
+            "team_names": [
+                "Misfits Gaming"
+            ],
+            "players": [
+                "Alphari",
+                "Lamabear",
+                "Wisdom",
+                "Selfie",
+                "Hans sama",
+                "IgNar",
+                "KaKAO",
+                "PowerOfEvil",
+                "Hans Sama",
+                "Maxlore",
+                "Sencux",
+                "Mikyx",
+                "Jesiz",
+                "sOAZ",
+                "Febiven",
+                "Gorilla",
+                "Dan Dan",
+                "Kirei",
+                "LIDER",
+                "Neon (Matúš Jakubčík)",
+                "H1IVA",
+                "Doss",
+                "Razork",
+                "Bvoy",
+                "denyk",
+                "FEBIVEN",
+                "Kobbe",
+                "HiRit",
+                "Vetheo",
+                "Vander",
+                "Shlatan",
+                "Mersa",
+                "Irrelevant",
+                "Zanzarah"
+            ]
+        },
+        {
+            "team_names": [
+                "Fnatic Academy",
+                "Ninjas in Pyjamas"
+            ],
+            "players": [
+                "Kikis",
+                "Amazingx",
+                "Nisqy",
+                "MrRallez",
+                "Klaj",
+                "Profit",
+                "Shook",
+                "Nagne",
+                "HeaQ",
+                "sprattel"
+            ]
+        },
+        {
+            "team_names": [
+                "Misfits Academy",
+                "Mysterious Monkeys"
+            ],
+            "players": [
+                "Jisu",
+                "Pridestalker",
+                "CozQ",
+                "Yuuki60",
+                "Dreams (Han Min-kook)",
+                "Kikis",
+                "Lamabear",
+                "Amazing (Maurice Stückenschneider)"
+            ]
+        },
+        {
+            "team_names": [
+                "Excel Esports"
+            ],
+            "players": [
+                "Expect",
+                "Caedrel",
+                "Exile (Fabian Schubert)",
+                "Special",
+                "Jeskla",
+                "kaSing",
+                "Mystiques",
+                "Mickey (Son Young-min)",
+                "Hjarnan",
+                "Patrik",
+                "Tore",
+                "Kryze",
+                "Dan (Daniel Hockley)",
+                "Czekolad",
+                "Markoon",
+                "nukeduck",
+                "denyk",
+                "Advienne",
+                "Finn",
+                "Nukeduck",
+                "Mikyx",
+                "Odoamne",
+                "Xerxe",
+                "Vetheo",
+                "Targamas",
+                "Abbedagge",
+                "LIMIT (Dino Tot)",
+                "Peach"
+            ]
+        },
+        {
+            "team_names": [
+                "Rogue (European Team)",
+                "KOI (Spanish Team)",
+                "Rogue (European Team)"
+            ],
+            "players": [
+                "Profit",
+                "Finn",
+                "Kikis",
+                "Sencux",
+                "HeaQ",
+                "Wadid",
+                "Vander",
+                "Inspired",
+                "Larssen",
+                "Woolite",
+                "Hans sama",
+                "Odoamne",
+                "Trymbi",
+                "Malrang",
+                "Comp",
+                "Szygenda",
+                "Advienne",
+                "Markoon",
+                "Zoelys"
+            ]
+        },
+        {
+            "team_names": [
+                "ALTOKEKW Españita"
+            ],
+            "players": [
+                "Ibai",
+                "Th3Antonio",
+                "Champi",
+                "Extorsus",
+                "xPeke",
+                "Razork",
+                "Flakked",
+                "Noa (Ainhoa Campos)",
+                "Skain"
+            ]
+        },
+        {
+            "team_names": [
+                "Double Crunch Team Italy"
+            ],
+            "players": [
+                "Terenas",
+                "Shad0w",
+                "KenRhen",
+                "Noodlez",
+                "Paulcannon"
+            ]
+        },
+        {
+            "team_names": [
+                "German Pingus"
+            ],
+            "players": [
+                "kev1n",
+                "J0HNNY (Jona Schmitt)",
+                "Don NoWay",
+                "Sola",
+                "Eis"
+            ]
+        },
+        {
+            "team_names": [
+                "LEC Kings"
+            ],
+            "players": [
+                "Wickd",
+                "Ender (Christy Frierson)",
+                "Vedius",
+                "Upset",
+                "MedicCasts"
+            ]
+        },
+        {
+            "team_names": [
+                "Polska Gurom (EU Face-Off)"
+            ],
+            "players": [
+                "Myha",
+                "Jankos",
+                "Overpow",
+                "Puki Style"
+            ]
+        },
+        {
+            "team_names": [
+                "The French Zoo"
+            ],
+            "players": [
+                "Noi",
+                "Chips (Fabien Culié)",
+                "Chap",
+                "Tweekz",
+                "Jezu",
+                "TraYtoN"
+            ]
+        },
+        {
+            "team_names": [
+                "Team BDS"
+            ],
+            "players": [
+                "Adam (Adam Maanane)",
+                "Cinkrof",
+                "NUCLEARINT",
+                "xMatty",
+                "LIMIT (Dino Tot)",
+                "Agresivoo",
+                "Erdote",
+                "Sheo",
+                "nuc",
+                "Crownie",
+                "Labrov",
+                "Ice (Yoon Sang-hoon)",
+                "JNX"
+            ]
+        },
+        {
+            "team_names": [
+                "Team Heretics"
+            ],
+            "players": [
+                "Evi",
+                "Jankos",
+                "Ruby (Lee Sol-min)",
+                "Jackspektra",
+                "Mersa",
+                "Vetheo",
+                "Flakked",
+                "Wunder",
+                "Perkz",
+                "Kaiser"
+            ]
+        },
+        {
+            "team_names": [
+                "GIANTX"
+            ],
+            "players": [
+                "Odoamne",
+                "Peach",
+                "Jackies",
+                "Patrik",
+                "IgNar"
+            ]
+        },
+        {
+            "team_names": [
+                "Karmine Corp"
+            ],
+            "players": [
+                "Cabochard",
+                "Bo",
+                "SAKEN",
+                "Upset",
+                "Targamas"
+            ]
+        }
+    ]
+}
