@@ -1,17 +1,21 @@
 import _player_data from '$lib/data/players.json'
 import _team_data from '$lib/data/teams.json'
 import type { Puzzle, PuzzleRule } from '$lib/models/Puzzle';
-import { Team } from '$lib/models/Team.ts'
+import { Team } from '$lib/models/Team.ts';
 
 const players = _player_data as {
     [key: string]: string[]
 };
 const teams = _team_data["chains"] as Team[];
 
+const min_overlap = import.meta.env.VITE_PUZZLE_MINIMUM_OVERLAP_COUNT;
+
 export function generate_puzzle(): Puzzle | null {
     let columns: Team[] & { id: number }[] = [];
     let rows: Team[] & { id: number }[] = [];
     let _cand_rows: Team[] = [];
+    let _cand_row_int: string[][] = [];
+    let perfect_players: string[] = [];
 
     do {
         // Pick initial column
@@ -25,15 +29,24 @@ export function generate_puzzle(): Puzzle | null {
         // console.log("picked row ", columns[0].team_names[columns[0].team_names.length - 1]);
         teams.forEach(team => {
             let intersect = columns[0].players.filter(value => team.players.includes(value) && columns[0] != team);
-            if (intersect.length > 2) {
+            if (intersect.length >= min_overlap) {
                 _cand_rows.push(team);
+               _cand_row_int.push(intersect);
             }
         });
     } while (_cand_rows.length < 3);
     // Pick three rows
     while (rows.length < 3) {
-        let r = _cand_rows[(Math.floor(Math.random() * _cand_rows.length))];
+        let i = (Math.floor(Math.random() * _cand_rows.length));
+        let r = _cand_rows[i];
         if (!columns.includes(r) && !rows.includes(r)) {
+            let pk = getPlayerListKey(_cand_row_int[i][0]);
+            if (_cand_row_int[i].length == 1 && pk) {
+                if (players[pk].some(p => perfect_players.includes(p))) {
+                    return null;
+                }
+                players[pk].forEach((p) => perfect_players.push(p));
+            }
             rows.push(r);
         }
     }
@@ -43,9 +56,16 @@ export function generate_puzzle(): Puzzle | null {
         let intersect = [];
         let works = true;
         for (let i = 0; i < rows.length; i++) {
-            intersect = rows[i].players.filter(value => team.players.includes(value) && rows[i] != team && columns[0] != team);
-            if (intersect.length < 2) {
+            intersect = rows[i].players.filter(value => team.players.filter(p => !perfect_players.includes(p))
+                .includes(value) && rows[i] != team && columns[0] != team);
+            if (intersect.length < min_overlap) {
                 works = false;
+            }
+            if (intersect.length == 1) {
+                let pk = getPlayerListKey(intersect[0]);
+                if (pk && players[pk].some(p => perfect_players.includes(p))) {
+                    works = false;
+                }
             }
         }
         if (works) _cand_cols.push(team);
@@ -82,8 +102,7 @@ export function zip(a1: any[], a2: any[]) {
 export function is_valid(rule_one: PuzzleRule, rule_two: PuzzleRule, player: string | undefined): number {
     if (player) {
         // Get player alt name list
-        let player_key = Object.keys(players)
-            .find((p: string) => players[p].map(s => s.toLocaleLowerCase()).includes(player.toLocaleLowerCase()));
+        let player_key = getPlayerListKey(player);
         if (player_key) {
             // Test Rule 1
             let pass_rule_one = players[player_key].some(alias => rule_one.players.includes(alias));
@@ -100,3 +119,8 @@ export function is_valid(rule_one: PuzzleRule, rule_two: PuzzleRule, player: str
     }
     return 0;
 };
+
+export function getPlayerListKey(player: string) {
+    return Object.keys(players)
+            .find((p: string) => players[p].map(s => s.toLocaleLowerCase()).includes(player.toLocaleLowerCase()));
+}

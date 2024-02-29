@@ -40,7 +40,7 @@ while True:
         tables="TournamentRosters=TR, Tournaments=T",
         join_on="TR.OverviewPage=T.OverviewPage",
         fields="T.Name, TR.Team, TR.RosterLinks, T.League, T.Region, TR.Roles, T.Date",
-        where="T.Region IN ('Europe', 'EMEA', 'North America', 'Korea') AND T.TournamentLevel='Primary' AND T.Date < '{}'".format(today),
+        where="T.Region IN ('Europe', 'EMEA', 'North America', 'Korea', 'China', 'International') AND T.TournamentLevel='Primary' AND T.Date < '{}'".format(today),
         order_by="T.Date ASC",
         offset=offset_rosters,
         limit=500
