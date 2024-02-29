@@ -5,6 +5,7 @@
     import playerList from '$lib/players.json';
     import { generate_puzzle } from '$lib/util/puzzle_util';
     import type { Team } from '$lib/models/Team'
+	import type { Puzzle } from '$lib/models/Puzzle';
 
     // let p = generate_puzzle();
     // while (p == null) {
@@ -13,25 +14,24 @@
     // }
     // console.log(p);
 
-    let columns: Team[] & {id: number}[];
-    let rows: Team[] & {id: number}[];
+    let puzzle: Puzzle;
 
     function gen_puz() {
-        let p = generate_puzzle();
-        while (p == null) {
+        let candidate_puzzle = generate_puzzle();
+        while (candidate_puzzle == null) {
             console.log("invalid");
-            p = generate_puzzle();
+            candidate_puzzle = generate_puzzle();
         }
-        console.log(p);
-        columns = p.cols;
-        rows = p.rows;
+        puzzle = candidate_puzzle;
     }
 </script>
 
 
 <Header />
 <div class="content">
-    <DokuSquare bind:columns bind:rows />
+    {#if puzzle}
+        <DokuSquare bind:puzzle />  
+    {/if}
     <button on:click={gen_puz}>Get Puzzle</button>
 </div>
 

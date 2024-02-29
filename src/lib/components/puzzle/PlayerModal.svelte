@@ -1,12 +1,17 @@
 <script lang="ts">
 	import _playerList from '$lib/data/players.json';
+	import type { Puzzle, PuzzleRule } from '$lib/models/Puzzle';
+	import { is_valid } from '$lib/util/puzzle_util';
 	// import type { Player } from '$lib/models/Team';
 
 	export let showModal: Boolean; // boolean
 	export let selectedPlayer: string | undefined;
 	export let selectedPlayers: string[];
 	export let lives: number;
+	export let rules: PuzzleRule[];
 	let playerList = _playerList;
+
+	let filter = '';
 
 	let dialog: HTMLDialogElement; // HTMLDialogElement
 
@@ -16,7 +21,7 @@
 		if (player) {
 			if (selectedPlayer) {
 				let curPlr = selectedPlayer;
-				let itemIdx = selectedPlayers.findIndex(x => x === curPlr);
+				let itemIdx = selectedPlayers.findIndex((x) => x === curPlr);
 				selectedPlayers.splice(itemIdx, 1);
 				selectedPlayers = [...selectedPlayers];
 			}
@@ -45,17 +50,25 @@
 		<slot name="header" />
 		<hr />
 		<slot />
+		<input bind:value={filter} />
 		<hr />
-		{#each Object.keys(playerList).sort() as plr}
-			<button on:click={(e) => dialog.close(plr)} disabled={lives <= 0 || selectedPlayers.find(p => p === plr) != undefined}>{plr}</button>
+		{#each Object.keys(playerList)
+			.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+			// change filter.length to not show whole list
+			.filter((s) => s.toLocaleLowerCase().includes(filter.toLocaleLowerCase()) && filter.length > 1) as plr}
+			<button
+				class={`player-modal-button ${is_valid(rules[0], rules[1], plr) == 2 ? 'player-modal-debug-correct' : ''}`}
+				on:click={(e) => dialog.close(plr)}
+				disabled={lives <= 0 || selectedPlayers.find((p) => p === plr) != undefined}>{plr}</button
+			>
 		{/each}
-		<button on:click={() => dialog.close()}>cancel</button>
 	</div>
 </dialog>
 
 <style>
 	dialog {
 		width: 400px;
+		height: 600px;
 		border-radius: 0.2em;
 		border: none;
 		padding: 0;
@@ -90,5 +103,22 @@
 	}
 	button {
 		display: block;
+	}
+	.player-modal-button {
+		width: 100%;
+		margin-bottom: 2px;
+		padding: 8px 8px;
+		text-align: left;
+		border-radius: 0;
+		border: 0;
+	}
+	.player-modal-button:hover {
+		background-color: beige;
+	}
+	.player-modal-debug-correct {
+		background-color: lightgreen;
+	}
+	.player-modal-debug-correct:hover {
+		background-color: greenyellow;
 	}
 </style>

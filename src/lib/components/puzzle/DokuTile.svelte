@@ -1,12 +1,14 @@
 <script lang="ts">
 	// import type { Player } from '$lib/models/Team';
 	import _team_data from '$lib/data/teams.json';
+	import type { PuzzleRule } from '$lib/models/Puzzle';
 	import type { Team } from '$lib/models/Team';
 	import { getLatestTeamDate, getLatestTeamName } from '$lib/models/Team';
+	import { is_valid } from '$lib/util/puzzle_util';
 	import PlayerModal from './PlayerModal.svelte';
 	export let index: number;
-	export let rule1: Team & { id: number };
-	export let rule2: Team & { id: number };
+	export let rule1: PuzzleRule;
+	export let rule2: PuzzleRule;
 	export let lives: number;
 	export let correct: number;
 	export let selectedPlayers: string[];
@@ -37,37 +39,18 @@
 	}
 
 	function checkValid(player: string | undefined): string {
-		if (player) {
-			let team1 = team_data.find((x: Team) => {
-				return (
-					getLatestTeamName(x) == getLatestTeamName(rule1) &&
-					getLatestTeamDate(x) == getLatestTeamDate(rule1)
-				);
-			});
-			console.log("found team1: ", team1);
-			let team2 = team_data.find((x: Team) => {
-				if (getLatestTeamName(x) == getLatestTeamName(rule2) && getLatestTeamDate(x) == getLatestTeamDate(rule2))
-					console.log(getLatestTeamName(x), getLatestTeamName(rule2));
-				return (
-					getLatestTeamName(x) == getLatestTeamName(rule2) &&
-					getLatestTeamDate(x) == getLatestTeamDate(rule2)
-				);
-			});
-			console.log("found team2: ", team2);
-			if (team1 !== undefined && team2 !== undefined) {
-				console.log(team1.players.filter((value) => team2.players.includes(value)));
-			}
-			if (
-				team1 !== undefined &&
-				team2 !== undefined &&
-				team1['players'].includes(player) &&
-				team2['players'].includes(player)
-			) {
+		let validity = is_valid(rule1, rule2, player);
+		switch (validity) {
+			case 2:
 				return 'valid';
-			}
-			return 'invalid';
+			case 1:
+				return 'invalid';
+			case 0:
+				return 'neutral';
+			default:
+				break;
 		}
-		return 'neutral';
+		return '';
 	}
 </script>
 
@@ -78,7 +61,7 @@
 	on:keyup={toggleModal}
 	style="--tile-color: {tile_color}; {stylish}"
 >
-	<PlayerModal bind:showModal bind:selectedPlayer bind:lives bind:selectedPlayers>
+	<PlayerModal bind:showModal bind:selectedPlayer bind:lives bind:selectedPlayers rules={[rule1, rule2]}>
 		<span data-index={index}>Select Player:</span>
 	</PlayerModal>
 	{selectedPlayer ? selectedPlayer : ''}
@@ -90,6 +73,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		text-align: center;
+		max-height: 100%;
+		overflow: hidden;
 	}
 	div:hover {
 		background-color: gainsboro;

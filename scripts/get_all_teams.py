@@ -79,8 +79,6 @@ while i_team < len(res_rosters):
             j_team = next((i for i, v in enumerate(team_chains[i_chain]) if team["Team"] == v["Team"]), None)
             for plr in players:
                 if j_team is not None and plr.lower() not in [s.lower() for s in team_chains[i_chain][j_team]["Players"]]:
-                    if team_chains[i_chain][j_team]["Team"] == "Ninjas in Pyjamas":
-                        print("Adding {} to {} ({})".format(plr, team_chains[i_chain][j_team]["Team"], team_chains[i_chain][j_team]["Date"]))
                     team_chains[i_chain][j_team]["Players"].append(plr)
     else: # If next to handle is a rename
         i_chain = next((i for i, v in enumerate(team_chains) if rename["OriginalName"] == v[-1]["Team"]), None)
@@ -91,7 +89,8 @@ while i_team < len(res_rosters):
             while j_team < len(res_rosters):
                 if res_rosters[j_team]["Date"] is not None and res_rosters[j_team]["Team"] == rename["NewName"]: # Find first roster under new name
                     for plr, rl in zip(res_rosters[j_team]["RosterLinks"].split(";;"), res_rosters[j_team]["Roles"].split(";;")):
-                        players.append(plr) # Collect the players from the first new roster
+                        if (rl in ['Top', 'Jungle', 'Mid', 'Bot', 'Support']): # Collect the players from the first new roster
+                            players.append(plr) 
                     team_chains[i_chain].append({
                             "Team": res_rosters[j_team]["Team"],
                             "Players": players,
@@ -100,6 +99,11 @@ while i_team < len(res_rosters):
                     seen.append(j_team) # Add to seen list to avoid duplicates
                     break # End loop
                 j_team += 1
+            if j_chain is not None: # Rename is changing to existing team name (e.g. NiP ... FNCA->NiP)
+                team_chains[j_chain] += team_chains[i_chain]
+                del(team_chains[i_chain])
+        i_rename += 1
+        continue
     i_team += 1
 
 with codecs.open('teams.json', 'w+', 'utf-8') as f:

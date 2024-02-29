@@ -1,13 +1,16 @@
 import _player_data from '$lib/data/players.json'
 import _team_data from '$lib/data/teams.json'
+import type { Puzzle, PuzzleRule } from '$lib/models/Puzzle';
 import { Team } from '$lib/models/Team.ts'
 
-const players = _player_data;
+const players = _player_data as {
+    [key: string]: string[]
+};
 const teams = _team_data["chains"] as Team[];
 
-export function generate_puzzle() {
-    let columns: Team[] & {id: number}[] = [];
-    let rows: Team[] & {id: number}[] = [];
+export function generate_puzzle(): Puzzle | null {
+    let columns: Team[] & { id: number }[] = [];
+    let rows: Team[] & { id: number }[] = [];
     let _cand_rows: Team[] = [];
 
     do {
@@ -57,7 +60,7 @@ export function generate_puzzle() {
         }
     }
     return {
-        "cols": columns.map((t, i) => {
+        "columns": columns.map((t, i) => {
             return {
                 ...t,
                 'id': i
@@ -74,4 +77,26 @@ export function generate_puzzle() {
 
 export function zip(a1: any[], a2: any[]) {
     return a1.map((x, i) => [x, a2[i]]);
-}; 
+};
+
+export function is_valid(rule_one: PuzzleRule, rule_two: PuzzleRule, player: string | undefined): number {
+    if (player) {
+        // Get player alt name list
+        let player_key = Object.keys(players)
+            .find((p: string) => players[p].map(s => s.toLocaleLowerCase()).includes(player.toLocaleLowerCase()));
+        if (player_key) {
+            // Test Rule 1
+            let pass_rule_one = players[player_key].some(alias => rule_one.players.includes(alias));
+            // Test Rule 2
+            let pass_rule_two = players[player_key].some(alias => rule_two.players.includes(alias));
+            if (pass_rule_one && pass_rule_two) {
+                return 2;
+            }
+        }
+        else {
+            console.log("couldn't find player")
+        }
+        return 1;
+    }
+    return 0;
+};

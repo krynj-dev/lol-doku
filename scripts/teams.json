@@ -2,6 +2,10 @@
     "chains": [
         {
             "team_names": [
+                "compLexity Gaming",
+                "The Brunch Club",
+                "compLexity Gaming",
+                "compLexity.Black",
                 "compLexity Gaming"
             ],
             "players": [
@@ -21,10 +25,18 @@
                 "Westrice",
                 "Kez",
                 "ROBERTxLEE",
-                "Bubbadub"
+                "Bubbadub",
+                "brunch Ü",
+                "Ellie Bee",
+                "Brokenshard",
+                "Mancloud"
             ],
             "team_dates": [
-                "2011"
+                "2011",
+                "2013",
+                "2013",
+                "2014",
+                "2014"
             ]
         },
         {
@@ -122,6 +134,8 @@
         {
             "team_names": [
                 "Rock Solid",
+                "Dignitas",
+                "Clutch Gaming",
                 "Dignitas"
             ],
             "players": [
@@ -185,11 +199,24 @@
                 "IgNar",
                 "Rich (Lee Jae-won)",
                 "Diamond (David Bérubé)",
-                "Poome"
+                "Poome",
+                "Solo (Colin Earnest)",
+                "LirA",
+                "Febiven",
+                "Hakuho",
+                "Moon (Galen Holgate)",
+                "Piglet",
+                "Vulcan (Philippe Laflamme)",
+                "Huni",
+                "Damonte",
+                "Cody Sun",
+                "Grig"
             ],
             "team_dates": [
                 "2011",
-                "2011"
+                "2011",
+                "2018",
+                "2020"
             ]
         },
         {
@@ -413,6 +440,8 @@
         {
             "team_names": [
                 "Wizards e-Sports Club",
+                "MeetYourMakers",
+                "SUPA HOT CREW",
                 "MeetYourMakers"
             ],
             "players": [
@@ -425,11 +454,33 @@
                 "Mokatte",
                 "Czaru",
                 "Makler",
-                "Libik"
+                "Libik",
+                "Fredy122",
+                "Svenskeren",
+                "Moopz",
+                "Foton",
+                "Migxa",
+                "Syrela",
+                "k0u",
+                "Haydal",
+                "Mimer",
+                "Impaler",
+                "MrRalleZ",
+                "SELFIE",
+                "wewillfailer",
+                "kaSing",
+                "Jwaow",
+                "H0R0",
+                "Blizer300",
+                "kori",
+                "Nisbeth",
+                "Noxiak"
             ],
             "team_dates": [
                 "2011",
-                "2013"
+                "2013",
+                "2013",
+                "2015"
             ]
         },
         {
@@ -749,25 +800,6 @@
         },
         {
             "team_names": [
-                "MKZ"
-            ],
-            "players": [
-                "TowerFury",
-                "SunRiver",
-                "MidKing",
-                "losys",
-                "junegi",
-                "PLL",
-                "Procxin",
-                "BetKyo",
-                "Violet (Lim Doo-sung)"
-            ],
-            "team_dates": [
-                "2012"
-            ]
-        },
-        {
-            "team_names": [
                 "NEB"
             ],
             "players": [
@@ -843,7 +875,8 @@
         },
         {
             "team_names": [
-                "Xenics Storm"
+                "Xenics Storm",
+                "MKZ"
             ],
             "players": [
                 "May (Kang Han-wool)",
@@ -869,9 +902,19 @@
                 "SSUN (Oh Yeong-gyo)",
                 "Nexus (Lee Jun-woo)",
                 "Clann",
-                "Road (Yun Han-gil)"
+                "Road (Yun Han-gil)",
+                "TowerFury",
+                "SunRiver",
+                "MidKing",
+                "losys",
+                "junegi",
+                "PLL",
+                "Procxin",
+                "BetKyo",
+                "Violet (Lim Doo-sung)"
             ],
             "team_dates": [
+                "2012",
                 "2012"
             ]
         },
@@ -1574,16 +1617,25 @@
         },
         {
             "team_names": [
-                "Pulse Esports"
+                "Pulse Esports",
+                "Heroes Team"
             ],
             "players": [
                 "Halfers",
                 "Onionbagel",
                 "Kenikth",
                 "SneakyCaStRo",
-                "Evaniskus"
+                "Evaniskus",
+                "Jokieez",
+                "Kikis",
+                "Sebeks",
+                "Woolite",
+                "Elendix",
+                "Jookiez",
+                "Sebekx"
             ],
             "team_dates": [
+                "2013",
                 "2013"
             ]
         },
@@ -1642,25 +1694,6 @@
                 "cosommak"
             ],
             "team_dates": [
-                "2013"
-            ]
-        },
-        {
-            "team_names": [
-                "The Brunch Club",
-                "compLexity Gaming"
-            ],
-            "players": [
-                "Nickwu",
-                "Lautemortis",
-                "Chuuper",
-                "brunch Ü",
-                "Ellie Bee",
-                "pr0lly",
-                "M eye A"
-            ],
-            "team_dates": [
-                "2013",
                 "2013"
             ]
         },
@@ -1982,6 +2015,8 @@
         },
         {
             "team_names": [
+                "mousesports",
+                "n!faculty",
                 "mousesports"
             ],
             "players": [
@@ -1989,10 +2024,20 @@
                 "dexter",
                 "Moopz",
                 "Foo Sharp",
-                "AoD"
+                "AoD",
+                "Xaxus",
+                "Obvious",
+                "SozPurefect",
+                "Sedrion",
+                "MounTain (Patrick Dasberg)",
+                "Beansu",
+                "Dan (Daniel Hockley)",
+                "Jinsh"
             ],
             "team_dates": [
-                "2013"
+                "2013",
+                "2014",
+                "2015"
             ]
         },
         {
@@ -2422,6 +2467,8 @@
         },
         {
             "team_names": [
+                "Ninjas in Pyjamas",
+                "Fnatic Academy",
                 "Ninjas in Pyjamas"
             ],
             "players": [
@@ -2444,10 +2491,17 @@
                 "Shook",
                 "Nagne",
                 "HeaQ",
-                "sprattel"
+                "sprattel",
+                "Kikis",
+                "Amazingx",
+                "Nisqy",
+                "MrRallez",
+                "Klaj"
             ],
             "team_dates": [
-                "2013"
+                "2013",
+                "2017",
+                "2017"
             ]
         },
         {
@@ -2809,23 +2863,6 @@
         },
         {
             "team_names": [
-                "Heroes Team"
-            ],
-            "players": [
-                "Jokieez",
-                "Kikis",
-                "Sebeks",
-                "Woolite",
-                "Elendix",
-                "Jookiez",
-                "Sebekx"
-            ],
-            "team_dates": [
-                "2013"
-            ]
-        },
-        {
-            "team_names": [
                 "Intellectual Playground"
             ],
             "players": [
@@ -2855,38 +2892,6 @@
             ],
             "team_dates": [
                 "2013"
-            ]
-        },
-        {
-            "team_names": [
-                "SUPA HOT CREW",
-                "MeetYourMakers"
-            ],
-            "players": [
-                "Fredy122",
-                "Svenskeren",
-                "Moopz",
-                "Foton",
-                "Migxa",
-                "Syrela",
-                "k0u",
-                "Haydal",
-                "Mimer",
-                "Impaler",
-                "MrRalleZ",
-                "SELFIE",
-                "wewillfailer",
-                "kaSing",
-                "Jwaow",
-                "H0R0",
-                "Blizer300",
-                "kori",
-                "Nisbeth",
-                "Noxiak"
-            ],
-            "team_dates": [
-                "2013",
-                "2015"
             ]
         },
         {
@@ -3755,25 +3760,6 @@
         },
         {
             "team_names": [
-                "compLexity.Black",
-                "compLexity Gaming"
-            ],
-            "players": [
-                "Westrice",
-                "Brokenshard",
-                "pr0lly",
-                "ROBERTxLEE",
-                "Bubbadub",
-                "Kez",
-                "Mancloud"
-            ],
-            "team_dates": [
-                "2014",
-                "2014"
-            ]
-        },
-        {
-            "team_names": [
                 "Team Massive Throwing"
             ],
             "players": [
@@ -3967,6 +3953,8 @@
         {
             "team_names": [
                 "Team 8",
+                "Immortals",
+                "OpTic Gaming",
                 "Immortals"
             ],
             "players": [
@@ -4016,11 +4004,22 @@
                 "Tactical",
                 "Fleshy",
                 "Solo (Colin Earnest)",
-                "Treatz"
+                "Treatz",
+                "zig",
+                "Dhokla",
+                "Akaadian",
+                "LemonNation",
+                "BIG",
+                "Meteos",
+                "Crown",
+                "Asta (Toàn Trần)",
+                "Scarlet (Marcel Wiederhofer)"
             ],
             "team_dates": [
                 "2014",
-                "2016"
+                "2016",
+                "2018",
+                "2020"
             ]
         },
         {
@@ -4195,26 +4194,6 @@
         },
         {
             "team_names": [
-                "Enemy",
-                "Enemy"
-            ],
-            "players": [
-                "cackgod",
-                "Inori",
-                "Wolfe",
-                "otter (Brian Thomas)",
-                "Bodydrop",
-                "Flaresz",
-                "Trashy",
-                "Innox"
-            ],
-            "team_dates": [
-                "2014",
-                "2015"
-            ]
-        },
-        {
-            "team_names": [
                 "Final Five"
             ],
             "players": [
@@ -4379,26 +4358,6 @@
             ],
             "team_dates": [
                 "2014"
-            ]
-        },
-        {
-            "team_names": [
-                "n!faculty",
-                "mousesports"
-            ],
-            "players": [
-                "Xaxus",
-                "Obvious",
-                "SozPurefect",
-                "Sedrion",
-                "MounTain (Patrick Dasberg)",
-                "Beansu",
-                "Dan (Daniel Hockley)",
-                "Jinsh"
-            ],
-            "team_dates": [
-                "2014",
-                "2015"
             ]
         },
         {
@@ -4843,6 +4802,21 @@
         },
         {
             "team_names": [
+                "Enemy"
+            ],
+            "players": [
+                "Flaresz",
+                "Trashy",
+                "Innox",
+                "otter (Brian Thomas)",
+                "Bodydrop"
+            ],
+            "team_dates": [
+                "2015"
+            ]
+        },
+        {
+            "team_names": [
                 "Team Imagine"
             ],
             "players": [
@@ -5087,28 +5061,6 @@
                 "Lourlo",
                 "MikeYeung",
                 "Yusui"
-            ],
-            "team_dates": [
-                "2016"
-            ]
-        },
-        {
-            "team_names": [
-                "NRG Esports"
-            ],
-            "players": [
-                "Cris",
-                "Impact",
-                "Shrimp",
-                "Moon (Galen Holgate)",
-                "GBM",
-                "Altec",
-                "LOD",
-                "KonKwon",
-                "Quas",
-                "Santorin",
-                "ohq",
-                "KiWiKiD"
             ],
             "team_dates": [
                 "2016"
@@ -5451,28 +5403,6 @@
         },
         {
             "team_names": [
-                "Fnatic Academy",
-                "Ninjas in Pyjamas"
-            ],
-            "players": [
-                "Kikis",
-                "Amazingx",
-                "Nisqy",
-                "MrRallez",
-                "Klaj",
-                "Profit",
-                "Shook",
-                "Nagne",
-                "HeaQ",
-                "sprattel"
-            ],
-            "team_dates": [
-                "2017",
-                "2017"
-            ]
-        },
-        {
-            "team_names": [
                 "Misfits Academy",
                 "Mysterious Monkeys"
             ],
@@ -5783,34 +5713,6 @@
         },
         {
             "team_names": [
-                "Clutch Gaming",
-                "Dignitas"
-            ],
-            "players": [
-                "Solo (Colin Earnest)",
-                "LirA",
-                "Febiven",
-                "Apollo (Apollo Price)",
-                "Hakuho",
-                "Moon (Galen Holgate)",
-                "Piglet",
-                "Vulcan (Philippe Laflamme)",
-                "Huni",
-                "Damonte",
-                "Cody Sun",
-                "Grig",
-                "Akaadian",
-                "Froggen",
-                "Johnsun",
-                "aphromoo"
-            ],
-            "team_dates": [
-                "2018",
-                "2020"
-            ]
-        },
-        {
-            "team_names": [
                 "Golden Guardians"
             ],
             "players": [
@@ -5850,38 +5752,6 @@
             ],
             "team_dates": [
                 "2018"
-            ]
-        },
-        {
-            "team_names": [
-                "OpTic Gaming",
-                "Immortals"
-            ],
-            "players": [
-                "zig",
-                "Dhokla",
-                "Akaadian",
-                "PowerOfEvil",
-                "Arrow",
-                "LemonNation",
-                "Allorim",
-                "Gate",
-                "BIG",
-                "Dardoch",
-                "Meteos",
-                "Crown",
-                "Asta (Toàn Trần)",
-                "Scarlet (Marcel Wiederhofer)",
-                "sOAZ",
-                "Xmithie",
-                "Eika",
-                "Altec",
-                "Apollo (Apollo Price)",
-                "Hakuho"
-            ],
-            "team_dates": [
-                "2018",
-                "2020"
             ]
         },
         {
