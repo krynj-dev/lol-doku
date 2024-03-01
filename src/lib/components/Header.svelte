@@ -7,9 +7,7 @@
 		<div class="inline-flex site-title-container">
 			<span>LolDoku</span>
 		</div>
-		<div class="inline-flex thing-on-right">
-			RIGHT TEXT
-		</div>
+		<div class="inline-flex thing-on-right">RIGHT TEXT</div>
 	</div>
 </nav>
 

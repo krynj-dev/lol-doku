@@ -55,7 +55,9 @@
 		{#each Object.keys(playerList)
 			.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
 			// change filter.length to not show whole list
-			.filter((s) => s.toLocaleLowerCase().includes(filter.toLocaleLowerCase()) && filter.length > 1) as plr}
+			.filter((s) => s
+						.toLocaleLowerCase()
+						.includes(filter.toLocaleLowerCase()) && filter.length > 1) as plr}
 			<button
 				class={`player-modal-button ${is_valid(rules[0], rules[1], plr) == 2 ? 'player-modal-debug-correct' : ''}`}
 				on:click={(e) => dialog.close(plr)}

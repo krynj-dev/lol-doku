@@ -3,5 +3,5 @@ declare interface Window {
 }
 
 declare interface ImportMetaEnv {
-	VITE_PUZZLE_MINIMUM_OVERLAP_COUNT: number
-  }
+	VITE_PUZZLE_MINIMUM_OVERLAP_COUNT: number;
+}

@@ -1,2057 +1,561 @@
 {
-    "xPeke": [
-        "xPeke"
-    ],
-    "Shushei": [
-        "Shushei"
-    ],
-    "LamiaZealot": [
-        "LaMiaZlt",
-        "Lamia",
-        "LamiaZealot"
-    ],
-    "Mellisan": [
-        "Mellisan"
-    ],
-    "Cyanide": [
-        "CyanideFI",
-        "Cyanide FI",
-        "Cyanide"
-    ],
-    "sOAZ": [
-        "sOAZ"
-    ],
-    "Pheilox": [
-        "Pheilox"
-    ],
-    "nRated": [
-        "nRated"
-    ],
-    "YellOwStaR": [
-        "YellowS",
-        "YellOwStaR"
-    ],
-    "Puszu": [
-        "Puszu"
-    ],
-    "Rekkles": [
-        "Rekkles"
-    ],
-    "Huni": [
-        "DefinitelyNotHuni",
-        "Huni"
-    ],
-    "Reignover": [
-        "Reign Over",
-        "Reignover"
-    ],
-    "Febiven": [
-        "Febiven"
-    ],
-    "Gamsu": [
-        "깜수",
-        "Gamsu"
-    ],
-    "Spirit": [
-        "Spirit"
-    ],
-    "Noxiak": [
-        "NoXlAK",
-        "Fela Kuti",
-        "Noxiak"
-    ],
-    "Klaj": [
-        "Klajbajk",
-        "Klaj"
-    ],
-    "Kikis": [
-        "Kikis"
-    ],
-    "Werlyb": [
-        "WerIyb",
-        "Werlyb"
-    ],
-    "Amazing (Maurice Stückenschneider)": [
-        "Amazingx",
-        "Amazing (Maurice Stückenschneider)"
-    ],
-    "Broxah": [
-        "Broxah"
-    ],
-    "Caps": [
-        "Craps",
-        "Caps"
-    ],
-    "Bwipo": [
-        "Bwipo"
-    ],
-    "Hylissang": [
-        "Hylissang"
-    ],
-    "Nemesis": [
-        "Nemesisi",
-        "Nemesis"
-    ],
-    "MagiFelix": [
-        "MagiFelix"
-    ],
-    "Selfmade": [
-        "SelfMadeMan",
-        "Niebieski",
-        "Selfmade"
-    ],
-    "Nisqy": [
-        "Nisqy"
-    ],
-    "Upset": [
-        "Ohq v1",
-        "Upset"
-    ],
-    "Adam (Adam Maanane)": [
-        "Ricadam",
-        "Adam (Adam Maanane)"
-    ],
-    "Razork": [
-        "Rαzørk",
-        "Razørk",
-        "Razork"
-    ],
-    "Humanoid": [
-        "Human0id",
-        "Humanoid"
-    ],
-    "rhuckz": [
-        "Rhukz",
-        "rhuckz"
-    ],
-    "Oscarinin": [
-        "Оscarinin",
-        "Øscarinin",
-        "Oskar",
-        "Oscarinin"
-    ],
-    "Advienne": [
-        "Advienne"
-    ],
-    "Noah (Oh Hyeon-taek)": [
-        "HyunTaek",
-        "Hyun Taek",
-        "ADC (Oh Hyeon-taek)",
-        "Noah (Oh Hyeon-taek)"
-    ],
-    "Trymbi": [
-        "Trymbi"
-    ],
-    "Jun (Yoon Se-jun)": [
-        "HP1",
-        "Arthur (Yoon Se-jun)",
-        "Jun (Yoon Se-jun)"
-    ],
-    "kev1n": [
-        "Kevin (Kevin Rubiszewski)",
-        "kev1n"
-    ],
-    "Zylor": [
-        "Zylor"
-    ],
-    "Reyk": [
-        "Reyk"
-    ],
-    "Nyph": [
-        "Nyph1",
-        "Nyph"
-    ],
-    "farfain": [
-        "farfain"
-    ],
-    "ALth0r": [
-        "ALth0r"
-    ],
-    "limelight": [
-        "limelight"
-    ],
-    "SleazyWeazy": [
-        "Sleezy",
-        "SleazyWeazy"
-    ],
-    "Wickd": [
-        "Wickd"
-    ],
-    "Timmy (Tim Buysse)": [
-        "WetDreaM",
-        "Timmy (Tim Buysse)"
-    ],
-    "Ocelote": [
-        "Ocelotee",
-        "Oce",
-        "Ocelote"
-    ],
-    "CandyPanda": [
-        "CndyPnda",
-        "Candy Panda",
-        "Candy (Adrian Wübbelmann)",
-        "CandyPanda"
-    ],
-    "Araneae": [
-        "Araneae"
-    ],
-    "hyrqBot": [
-        "hyrqBot"
-    ],
-    "fredy122": [
-        "Fredy",
-        "Freddy122",
-        "fredy122"
-    ],
-    "Svenskeren": [
-        "Sven (Dennis Johnsen)",
-        "Svenskeren"
-    ],
-    "Forg1ven": [
-        "Forgiven",
-        "FORG1VENx247",
-        "FORG1VENGRE",
-        "FORG1VEN247",
-        "Forg1ven"
-    ],
-    "Pirean": [
-        "Pirean"
-    ],
-    "Crownie": [
-        "Crownshot",
-        "Crownie"
-    ],
-    "Dreams (Han Min-kook)": [
-        "Dreams (Han Min-kook)"
-    ],
-    "Sacre": [
-        "Toni",
-        "Sakre",
-        "Sacre"
-    ],
-    "JNX": [
-        "Jenax3",
-        "Jenax1",
-        "Jenax",
-        "JNX"
-    ],
-    "Ventair": [
-        "Ventair"
-    ],
-    "Trick": [
-        "Snowfall",
-        "Snow (Kim Gang-yun)",
-        "Trick"
-    ],
-    "LIMIT (Dino Tot)": [
-        "LIMIT (Dino Tot)"
-    ],
-    "ZaZee": [
-        "ZaZee"
-    ],
-    "TynX": [
-        "TynXx",
-        "Poong",
-        "TynX"
-    ],
-    "Blue (Ersin Gören)": [
-        "Araxe",
-        "Blue (Ersin Gören)"
-    ],
-    "Jezu": [
-        "Jesus (Jean Massol)",
-        "Jezu"
-    ],
-    "Treatz": [
-        "Treatzftw",
-        "Treatz"
-    ],
-    "twohoyrz": [
-        "Shripelx",
-        "Shripel",
-        "twohoyrz"
-    ],
-    "Lilipp": [
-        "Frozen (Philipp Englert)",
-        "Lilipp"
-    ],
-    "Gilius": [
-        "Gilius"
-    ],
-    "Sertuss": [
-        "Sertuss"
-    ],
-    "Gadget": [
-        "Godget",
-        "Gadget"
-    ],
-    "Irrelevant": [
-        "Polsayir",
-        "Irrelevant Role",
-        "Irrelevant"
-    ],
-    "Markoon": [
-        "Markoon"
-    ],
-    "Exakick": [
-        "Exabench",
-        "Exakick"
-    ],
-    "Doss": [
-        "XXXMOVIN",
-        "Doss"
-    ],
-    "ISMA": [
-        "Ismaaa",
-        "Ismaa",
-        "ISMA"
-    ],
-    "Karalius": [
-        "Karalius"
-    ],
-    "sen (European Player)": [
-        "sen (European Player)"
-    ],
-    "yellowpete": [
-        "yellowpete"
-    ],
-    "Havoc24": [
-        "Havoc24"
-    ],
-    "heiN": [
-        "heiN"
-    ],
-    "Exter": [
-        "Exterminare",
-        "Exter"
-    ],
-    "BarbeQ": [
-        "BarbaQ",
-        "BarbeQ"
-    ],
-    "Kaidoh": [
-        "Kaidoh"
-    ],
-    "Kubon": [
-        "KubonBG",
-        "Kubon"
-    ],
-    "Mokatte": [
-        "Mokatte"
-    ],
-    "Czaru": [
-        "Czaru"
-    ],
-    "Makler": [
-        "Makler"
-    ],
-    "Libik": [
-        "Libik"
-    ],
-    "HotshotGG": [
-        "HotshotGG"
-    ],
-    "Saintvicious": [
-        "Stvicious",
-        "Saint (Brandon DiMarco)",
-        "Saintvicious"
-    ],
-    "Salce": [
-        "Salce"
-    ],
-    "Bigfatlp": [
-        "Jiji",
-        "Bigfatjiji",
-        "Bigfatlp"
-    ],
-    "Elementz": [
-        "Elementz"
-    ],
-    "Alvado": [
-        "Awesome Zamach",
-        "Alvado"
-    ],
-    "Nicker": [
-        "Nicker"
-    ],
-    "iMba (Łukasz Dusza)": [
-        "iMba (Łukasz Dusza)"
-    ],
-    "Ismaro": [
-        "Ismaro"
-    ],
-    "Linak": [
-        "Linak"
-    ],
-    "Shlaya": [
-        "Shlaya"
-    ],
-    "Tidus": [
-        "Tidus"
-    ],
-    "kujaa": [
-        "kujaa"
-    ],
-    "pHeoz": [
-        "pHeoz"
-    ],
-    "Naijik": [
-        "Naijik"
-    ],
-    "Arcagod": [
-        "Arcagød",
-        "Arcagod"
-    ],
-    "Entenzwerg": [
-        "Entenzwerg"
-    ],
-    "Dax": [
-        "Dax"
-    ],
-    "Doigby": [
-        "Doigby"
-    ],
-    "ImSoFresh": [
-        "IFresh",
-        "ImSoFresh"
-    ],
-    "Nanouk": [
-        "Nanouk"
-    ],
-    "Dioud": [
-        "Dioud"
-    ],
-    "Kottenx": [
-        "Kottenx"
-    ],
-    "H0R0": [
-        "Beelzehan",
-        "Bee1zehan",
-        "H0R0"
-    ],
-    "Ryu": [
-        "Ryu"
-    ],
-    "Kaze (Quentin Gourbeix)": [
-        "Kazewadelavega",
-        "Kazewa",
-        "Kaze a tous",
-        "Kaze (Quentin Gourbeix)"
-    ],
-    "Djoko": [
-        "DJODJO KT",
-        "Djoko"
-    ],
-    "Pretty": [
-        "PrettyGRE",
-        "I Look Pretty",
-        "Pretty"
-    ],
-    "Tabzz": [
-        "Tabz",
-        "Tabzz"
-    ],
-    "Masterwork": [
-        "Masterwork"
-    ],
-    "Syex": [
-        "Syex"
-    ],
-    "MeRusMePro": [
-        "MeRusMePro"
-    ],
-    "Brainquiche": [
-        "Brainquiche"
-    ],
-    "Cerberus": [
-        "Cerberus"
-    ],
-    "biggy": [
-        "biggy"
-    ],
-    "cliff": [
-        "Destruct",
-        "cliff"
-    ],
-    "unso": [
-        "unso"
-    ],
-    "CedeoCedeo": [
-        "CedeoCedeo"
-    ],
-    "Lycades": [
-        "Lycades"
-    ],
-    "Rainy": [
-        "Rainy"
-    ],
-    "Noaphiel": [
-        "User:Noaphiel",
-        "Noaphiel"
-    ],
-    "Fisch": [
-        "Fisch"
-    ],
-    "Kerp": [
-        "Kerrp",
-        "Kerpx",
-        "Kerp"
-    ],
-    "Jree": [
-        "Jreex",
-        "Jreee",
-        "Jree"
-    ],
-    "WhiteKnight": [
-        "WhiteKnight108",
-        "WhiteKnight"
-    ],
-    "The Rain Man": [
-        "Trm",
-        "TheRainMan",
-        "The Rain Man"
-    ],
-    "TheOddOne": [
-        "OddOne",
-        "TheOddOne"
-    ],
-    "Reginald": [
-        "ReginaId",
-        "Reginald"
-    ],
-    "Chaox": [
-        "Chaox"
-    ],
-    "Xpecial": [
-        "Xpecial"
-    ],
-    "Veggie": [
-        "Veggie"
-    ],
-    "Celaver": [
-        "Celaver"
-    ],
-    "Puki style": [
-        "Pukistyle",
-        "PUKI STYLEE",
-        "Puki",
-        "Puki style"
-    ],
-    "SuperAZE": [
-        "LimitsOfReversal",
-        "SuperAZE"
-    ],
-    "Snoopeh": [
-        "Snoopeh"
-    ],
-    "Froggen": [
-        "Froggen"
-    ],
-    "Angush": [
-        "Angush"
-    ],
-    "Malunoo": [
-        "Malunoo"
-    ],
-    "extinkt": [
-        "Exinkt",
-        "extinkt"
-    ],
-    "Sleper": [
-        "Sleper"
-    ],
-    "xinec": [
-        "xinec"
-    ],
-    "YamatoCannon": [
-        "YamatoMebdi",
-        "Yamato (Jakob Mebdi)",
-        "YamatoCannon"
-    ],
-    "Skullomania": [
-        "Skullomania"
-    ],
-    "Baronpanda": [
-        "Baronpanda"
-    ],
-    "kestrel": [
-        "kestrel"
-    ],
-    "jwaow": [
-        "Jwow",
-        "Jwaowz",
-        "jwaow"
-    ],
-    "Darien": [
-        "Darien"
-    ],
-    "Alex Ich": [
-        "AlexIch",
-        "Alex Ich"
-    ],
-    "Genja": [
-        "Genja007",
-        "Genja"
-    ],
-    "EDward": [
-        "GoZu",
-        "GoSuPepper",
-        "GoSu Pepper",
-        "EDward"
-    ],
-    "Moopz": [
-        "Moopzy",
-        "Moopz"
-    ],
-    "Lounet": [
-        "Lounet"
-    ],
-    "Grom": [
-        "Grøm",
-        "Grom"
-    ],
-    "Creaton": [
-        "LOL PRO",
-        "Dota Pro",
-        "Creaton"
-    ],
-    "ViRtU4l": [
-        "ViRtU4l"
-    ],
-    "Nono": [
-        "Nono"
-    ],
-    "Zarmony": [
-        "Zarmony"
-    ],
-    "Godbro": [
-        "NeeGodbro",
-        "Godzukee",
-        "Godbrotherz",
-        "Godbro sama",
-        "Godbro"
-    ],
-    "Forellenlord": [
-        "FLord",
-        "F lord",
-        "Forellenlord"
-    ],
-    "Bjergsen": [
-        "XL Bjergsen",
-        "Bjergsen"
-    ],
-    "TheTess": [
-        "TheTess"
-    ],
-    "Deficio": [
-        "Deficio"
-    ],
-    "YoungBuck": [
-        "YoungBuck"
-    ],
-    "Shook": [
-        "ShookL2",
-        "Shook v2",
-        "EnVision",
-        "Shook"
-    ],
-    "cowTard": [
-        "cowTard"
-    ],
-    "Unlimited (Petar Georgiev)": [
-        "MyS Unlimited",
-        "Unlimited (Petar Georgiev)"
-    ],
-    "Airwaks": [
-        "Airwaks"
-    ],
-    "Brokenshard": [
-        "Brokenshard"
-    ],
-    "Mazzerin": [
-        "Mazzerin"
-    ],
-    "Soren (Søren Frederiksen)": [
-        "SorenXD",
-        "Soren (European)",
-        "Soren (Danish)",
-        "S0rensenpai",
-        "Soren (Søren Frederiksen)"
-    ],
-    "Woolite": [
-        "Woolite"
-    ],
-    "Lenny (Lenny Uytterhoeven)": [
-        "Vcom Fan",
-        "The Vcom Fan",
-        "Ienny",
-        "Lenny (Lenny Uytterhoeven)"
-    ],
-    "Kaas": [
-        "Paljas",
-        "KAASBAAS",
-        "KAAs x bAAS",
-        "Je suis Kaas",
-        "Kaas"
-    ],
-    "k0u": [
-        "Kou (Lâm Tịnh Trì)",
-        "k0u"
-    ],
-    "Caedrel": [
-        "Caedrel"
-    ],
-    "Nukes": [
-        "SirNukesAlot",
-        "SirNukesAIot",
-        "SirNukeAlot",
-        "NukesAlot",
-        "Nukes"
-    ],
-    "Dexter": [
-        "Dexter1",
-        "Dexter"
-    ],
-    "HosaN": [
-        "HosaN"
-    ],
-    "Muvert": [
-        "Muvert"
-    ],
-    "Shacker": [
-        "ShackerThe1",
-        "Shacker"
-    ],
-    "Diamondprox": [
-        "Diamondrox",
-        "Diamondez",
-        "Diamond (Danil Reshetnikov)",
-        "Diamondprox"
-    ],
-    "Darker": [
-        "D4rker",
-        "Darker"
-    ],
-    "Voidle": [
-        "Eldiov",
-        "Voidle"
-    ],
-    "Zorozero": [
-        "Zorozero"
-    ],
-    "Hulberto": [
-        "Hulberto"
-    ],
-    "nukeduck": [
-        "Jns1",
-        "Erlendvholm",
-        "Eksde12345",
-        "nukeduck"
-    ],
-    "Fury (Jakob Burke)": [
-        "Fury III",
-        "Fury (Jakob Burke)"
-    ],
-    "Cabochard": [
-        "Coffee is OP",
-        "Cabochard"
-    ],
-    "loulex": [
-        "loulex"
-    ],
-    "P1noy": [
-        "Pinoy",
-        "P1noyszn",
-        "Krislundszn",
-        "Krislund",
-        "Kris Lund",
-        "P1noy"
-    ],
-    "Betsy": [
-        "Betsy"
-    ],
-    "Samux": [
-        "Samux"
-    ],
-    "Morden": [
-        "Mørden",
-        "IamMorden",
-        "Morden"
-    ],
-    "Jimbz": [
-        "Jîmßo",
-        "Jîmß0wnz",
-        "Jimbownz",
-        "Jimbz"
-    ],
-    "Babeta": [
-        "Babeta"
-    ],
-    "Fr3deric": [
-        "Fr3deric"
-    ],
-    "PePiiNeRO": [
-        "xPePii",
-        "Pπ",
-        "PEPINERO",
-        "PePiiNG",
-        "PePii",
-        "PePiiNeRO"
-    ],
-    "Adryh (Adrián Pérez)": [
-        "Adryh (Adrián Pérez)"
-    ],
-    "Rydle": [
-        "Rydle"
-    ],
-    "Lozark": [
-        "Lozark"
-    ],
-    "G0DFRED": [
-        "G0DFRED"
-    ],
-    "Atom (Peter Thomsen)": [
-        "Atombomben",
-        "Atom (Peter Thomsen)"
-    ],
-    "Jaeger": [
-        "Smittyj",
-        "Jaeger"
-    ],
-    "BetongJocke": [
-        "BetongJocke"
-    ],
-    "Wisdom": [
-        "Crack (Kim Tae-wan)",
-        "Wisdom"
-    ],
-    "Sonstar": [
-        "S0NSTAR",
-        "Sonstar"
-    ],
-    "Hustlin": [
-        "Hustlinbeeast",
-        "Hustlinbeast",
-        "HuslinbeasT",
-        "Hustlin"
-    ],
-    "Maxlore": [
-        "Maxlore"
-    ],
-    "NighT (Na Gun-woo)": [
-        "Rabbit (Na Gun-woo)",
-        "Moon (Na Gun-woo)",
-        "MC레빗",
-        "NighT (Na Gun-woo)"
-    ],
-    "Fjoompbun": [
-        "Flaxxish",
-        "Fjoompbun"
-    ],
-    "Memento": [
-        "Memento"
-    ],
-    "HeaQ": [
-        "HeaQ"
-    ],
-    "Ruin": [
-        "Ruin"
-    ],
-    "Jiizuké": [
-        "Jiizuké"
-    ],
-    "Attila": [
-        "Troupax",
-        "Pharaxx",
-        "Minitroupax",
-        "Attila"
-    ],
-    "Jactroll": [
-        "Jactrollz",
-        "Jactroll"
-    ],
-    "Targamas": [
-        "Targamas"
-    ],
-    "Xaxus": [
-        "Xaxus"
-    ],
-    "eRot1c": [
-        "eRot1c"
-    ],
-    "Overpow": [
-        "Remigiusz",
-        "Overpow"
-    ],
-    "Leo (Łukasz Mirek)": [
-        "Leofromkorea",
-        "LeoFKorea",
-        "Leo (Łukasz Mirek)"
-    ],
-    "Foo Sharp": [
-        "Foo Sharp"
-    ],
-    "AoD": [
-        "AoD"
-    ],
-    "Noonia": [
-        "Noonia"
-    ],
-    "wewillfailer": [
-        "Wewilfailer",
-        "Failer",
-        "Bram",
-        "wewillfailer"
-    ],
-    "Zoller": [
-        "Zoller"
-    ],
-    "Geogeo": [
-        "Geogeo"
-    ],
-    "Migxa": [
-        "Migxaaa",
-        "Migxa"
-    ],
-    "Naruterador": [
-        "Naruterador"
-    ],
-    "Belgianbeast": [
-        "Dervz",
-        "Belgianbeast"
-    ],
-    "Motroco": [
-        "Motroco"
-    ],
-    "BarneyD": [
-        "Barney D Stinson",
-        "BarneyD"
-    ],
-    "Jer0m": [
-        "TessLaa",
-        "Jer0m"
-    ],
-    "Carbono": [
-        "Carbonite",
-        "Carbon0",
-        "Carb0no",
-        "Cabono",
-        "Carbono"
-    ],
-    "Innat3": [
-        "Drag0n",
-        "Innat3"
-    ],
-    "mithy": [
-        "mty",
-        "mithy"
-    ],
-    "Mimer": [
-        "Mimer"
-    ],
-    "Freeze": [
-        "Freeeeeze",
-        "Freeze"
-    ],
-    "Profit": [
-        "KIM (Kim Jun-hyung)",
-        "Profit"
-    ],
-    "Nagne": [
-        "Nagne"
-    ],
-    "promisq": [
-        "sprattel",
-        "Promiscuous",
-        "promisq"
-    ],
-    "Doris": [
-        "Doris"
-    ],
-    "Spike Nike": [
-        "Spike Nike"
-    ],
-    "Janitin": [
-        "Janitin"
-    ],
-    "Slyv3r": [
-        "Slyv3r"
-    ],
-    "Zychion": [
-        "Zychion"
-    ],
-    "niQ": [
-        "NiQ760",
-        "NIQ 760",
-        "760",
-        "niQ"
-    ],
-    "Odoamne": [
-        "Odoamne"
-    ],
-    "Kold": [
-        "Trashy",
-        "Kold"
-    ],
-    "Hjärnan": [
-        "Hjärnan"
-    ],
-    "Jankos": [
-        "Jankos"
-    ],
-    "Vander": [
-        "VandeRnoob",
-        "Van Der Fckk",
-        "Vander"
-    ],
-    "Nulu": [
-        "Selfie",
-        "kori",
-        "Nulu"
-    ],
-    "Nuclear": [
-        "JH Joker",
-        "Nuclear"
-    ],
-    "Chei": [
-        "Ink (Choi Sun-ho)",
-        "Chei2",
-        "Boink",
-        "Boing",
-        "Chei"
-    ],
-    "Santorin": [
-        "Santorin"
-    ],
-    "Patrik": [
-        "Thale",
-        "Sheriff",
-        "Godhimself",
-        "Patrik"
-    ],
-    "Larssen": [
-        "Larssen"
-    ],
-    "Sebekx": [
-        "Sebeks",
-        "Sebekx"
-    ],
-    "Elendix": [
-        "Worst Sona EU",
-        "Elendix"
-    ],
-    "Jokieez": [
-        "Jookiez",
-        "Jokiees",
-        "DROP DA B4SS 4M",
-        "Jokieez"
-    ],
-    "Gamble": [
-        "Gamble"
-    ],
-    "Roldo": [
-        "Roldo"
-    ],
-    "GoB": [
-        "GobGG",
-        "GoB GG",
-        "GoB"
-    ],
-    "Aïrwaks": [
-        "Aïrwaks"
-    ],
-    "Yuuki60": [
-        "Yuuki (Florent Soler)",
-        "Yuuki60"
-    ],
-    "Spontexx": [
-        "eSpontexx",
-        "Spontexx"
-    ],
-    "Foton": [
-        "Foton"
-    ],
-    "Syrela": [
-        "Syrela"
-    ],
-    "Impaler": [
-        "JnT Taylor",
-        "Impaler"
-    ],
-    "MrRalleZ": [
-        "MrRalleZ"
-    ],
-    "Blizer300": [
-        "Blizer",
-        "Blizer300"
-    ],
-    "Nisbeth": [
-        "Nisbeth"
-    ],
-    "Xyraz": [
-        "Xyraz"
-    ],
-    "PhyssiN": [
-        "PhyssiN"
-    ],
-    "FatMamma": [
-        "FatMamma"
-    ],
-    "Hjarnan": [
-        "Infinity (Petter Freyschuss)",
-        "Hjärnanbakomallt",
-        "Hjarnaan",
-        "Hjarnan"
-    ],
-    "Niqua": [
-        "Niqua"
-    ],
-    "Erên Jaeger": [
-        "Erên Jaeger"
-    ],
-    "ZanCrow": [
-        "ZanCrow"
-    ],
-    "Suckness": [
-        "Suckness"
-    ],
-    "Eveyor": [
-        "Eveyor"
-    ],
-    "Inquisor": [
-        "Inquisor"
-    ],
-    "Deep In Chaos": [
-        "Deep In Chaos"
-    ],
-    "Exclsion": [
-        "Exclsion"
-    ],
-    "Cupcake (North American Player)": [
-        "Cupcake (North American Player)"
-    ],
-    "Nemoksha": [
-        "Nemoksha"
-    ],
-    "Report Kaggem": [
-        "Report Kaggem"
-    ],
-    "Nbs": [
-        "Nbslol",
-        "Nbs"
-    ],
-    "Alunir": [
-        "Alunir"
-    ],
-    "DeadlyBrother": [
-        "DeadlyBrother"
-    ],
-    "Inspirro": [
-        "Inspirro"
-    ],
-    "apaixtosNtinos": [
-        "apaixtosNtinos"
-    ],
-    "lNightmare": [
-        "lNightmare"
-    ],
-    "kernawpasta": [
-        "kernawpasta"
-    ],
-    "rouamat": [
-        "rouamat"
-    ],
-    "MikeyR": [
-        "MikeyR"
-    ],
-    "Mowarth": [
-        "Mowarth"
-    ],
-    "Tiridus": [
-        "Tiridus"
-    ],
-    "Strategas": [
-        "Strategas"
-    ],
-    "Niko3333": [
-        "Niko3333"
-    ],
-    "Woio": [
-        "Woio"
-    ],
-    "Peanut (Marcus Edborg)": [
-        "Peanut (Marcus Edborg)"
-    ],
-    "Hrabia Nervarien": [
-        "Hrabia Nervarien"
-    ],
-    "Anlora": [
-        "Anlora"
-    ],
-    "Fyrbo": [
-        "Fyrbo"
-    ],
-    "ZipBer": [
-        "ZipBer"
-    ],
-    "Vizicsacsi": [
-        "Vizicsacsi"
-    ],
-    "Kubaos": [
-        "Kubaos"
-    ],
-    "Lolleros": [
-        "Magebane",
-        "Lolleros"
-    ],
-    "Lion (Christos Tsiamis)": [
-        "Supportive Lion",
-        "C0llide",
-        "Lion (Christos Tsiamis)"
-    ],
-    "Daisuke": [
-        "Daisuke"
-    ],
-    "onlyRETARDSfeed": [
-        "onlyRETARDSfeed"
-    ],
-    "Myjot": [
-        "Myjot"
-    ],
-    "chisbug2009": [
-        "chisbug2009"
-    ],
-    "SirLezi": [
-        "SirLezi"
-    ],
-    "KRAWAT Z KONOPI": [
-        "KRAWAT Z KONOPI"
-    ],
-    "Noxvia": [
-        "Noxvia"
-    ],
-    "fatpanda": [
-        "fatpanda"
-    ],
-    "aKeLa": [
-        "aKeLa"
-    ],
-    "Upsas": [
-        "Upsas"
-    ],
-    "Minde": [
-        "Minde"
-    ],
-    "JDLoL": [
-        "JDLoL"
-    ],
-    "Gaara": [
-        "TYL Bahamut",
-        "Gaara"
-    ],
-    "Tiesel": [
-        "Tsili",
-        "Tiesel"
-    ],
-    "DoMiNaNceLoL": [
-        "DoMiNaNceLoL"
-    ],
-    "ChosenOne": [
-        "Istorikas",
-        "ChosenOne"
-    ],
-    "WRDN": [
-        "Warden",
-        "Raizzo",
-        "Mister",
-        "WRDN"
-    ],
-    "KNOK1": [
-        "Simple nickname",
-        "KNOK1"
-    ],
-    "Silver Carry": [
-        "Silver Carry"
-    ],
-    "Oxz": [
-        "Oxz"
-    ],
-    "Samarov": [
-        "Samarov"
-    ],
-    "napraen": [
-        "napraen"
-    ],
-    "Smile (Bulgarian Player)": [
-        "Smile (Bulgarian Player)"
-    ],
-    "digggi": [
-        "digggi"
-    ],
-    "Aloex": [
-        "Aloex"
-    ],
-    "Econatorz": [
-        "Econator",
-        "Econatorz"
-    ],
-    "neptuNo": [
-        "Nept1",
-        "neptuNo"
-    ],
-    "Tremnek": [
-        "Tremnek"
-    ],
-    "NitriX": [
-        "NitriX"
-    ],
-    "DxAlchemist": [
-        "DxAlchemist"
-    ],
-    "Samwise12": [
-        "Samwise",
-        "Samwise12"
-    ],
-    "kaSing": [
-        "YerrowStarr",
-        "Yerrow",
-        "kaSing"
-    ],
-    "The Kinky Baron": [
-        "The Kinky Baron"
-    ],
-    "Ninja Blast": [
-        "Ninja Blast"
-    ],
-    "YellowFlash": [
-        "YellowFlash"
-    ],
-    "Demented Clown": [
-        "Demented Clown"
-    ],
-    "Zeriouz": [
-        "Zeriouz"
-    ],
-    "Shaft (Marcel Zimmer)": [
-        "JohnShaft",
-        "Shaft (Marcel Zimmer)"
-    ],
-    "Lapras (David Leonardo Mørkøre)": [
-        "Lapras (David Leonardo Mørkøre)"
-    ],
-    "Crazycaps": [
-        "Crazycaps"
-    ],
-    "Steve (Etienne Michels)": [
-        "Steve (French)",
-        "Godlikejungler",
-        "Steve (Etienne Michels)"
-    ],
-    "Safir": [
-        "Jebus",
-        "Safir"
-    ],
-    "Parang": [
-        "Parang"
-    ],
-    "Raise": [
-        "Raise"
-    ],
-    "Phaxi": [
-        "Phaxi"
-    ],
-    "Wadid": [
-        "Wadid"
-    ],
-    "Pridestalkr": [
-        "Unlucky Pride",
-        "Pridestalker",
-        "Pride (Milo Wehnes)",
-        "Pridestalkr"
-    ],
-    "Blanc (Jin Seong-min)": [
-        "Modas",
-        "Ham",
-        "Blanc (Jin Seong-min)"
-    ],
-    "Tore": [
-        "Norskeren",
-        "Tore"
-    ],
-    "Eika": [
-        "Eika"
-    ],
-    "Krepo": [
-        "Boris",
-        "Krepo"
-    ],
-    "Abbedagge": [
-        "Abbedagge"
-    ],
-    "IgNar": [
-        "IgNar1",
-        "IgNar"
-    ],
-    "Lurox": [
-        "Lurox"
-    ],
-    "Innaxe": [
-        "Innaxe the God",
-        "Innaxe"
-    ],
-    "Neon (Matúš Jakubčík)": [
-        "Neon (Matúš Jakubčík)"
-    ],
-    "BrokenBlade": [
-        "Broken Blade",
-        "BrokenBlade"
-    ],
-    "Kirei": [
-        "Kirei"
-    ],
-    "nuc": [
-        "NUCLEARINT",
-        "Nuclear9z",
-        "NUCLEAR INT",
-        "Nuclear (Ilias Bizriken)",
-        "nuc"
-    ],
-    "Ippon": [
-        "Babuniaz",
-        "Babunia",
-        "Ippon"
-    ],
-    "Fox (Hampus Myhre)": [
-        "Watdefox",
-        "Fox (Hampus Myhre)"
-    ],
-    "Haydal": [
-        "Zyzz",
-        "Haydal"
-    ],
-    "Zytan": [
-        "Zytan"
-    ],
-    "Beansu": [
-        "Beansu"
-    ],
-    "Steeelback": [
-        "Steelback",
-        "SteeelBackR",
-        "Steeelbackkk",
-        "Steeelback"
-    ],
-    "PowerOfEvil": [
-        "Power of evil",
-        "PowerOfEvil"
-    ],
-    "Vardags": [
-        "Vardags"
-    ],
-    "Mirror": [
-        "Rudy (Rudy Beltran)",
-        "Mirror"
-    ],
-    "Move": [
-        "Su",
-        "Move"
-    ],
-    "Exile (Fabian Schubert)": [
-        "Exileh",
-        "Exile (Fabian Schubert)"
-    ],
-    "Veritas": [
-        "Veritas"
-    ],
-    "Xerxe": [
-        "Xerxe"
-    ],
-    "Totoro (Eun Jong-seop)": [
-        "커소리어스나",
-        "Nontaget",
-        "Totoro (Eun Jong-seop)"
-    ],
-    "PerkZ": [
-        "Uma Jan",
-        "Perks",
-        "Luka the Bazooka",
-        "PerkZ"
-    ],
-    "Jesiz": [
-        "Jesse",
-        "Hipsterjesiz",
-        "Jesiz"
-    ],
-    "Hybrid (Glenn Doornenbal)": [
-        "ZzneB",
-        "Hybrid (Glenn Doornenbal)"
-    ],
-    "Emperor (Kim Jin-hyun)": [
-        "Emperor (Kim Jin-hyun)"
-    ],
-    "Expect": [
-        "Han (Ki Dae-han)",
-        "Expect"
-    ],
-    "Send0o": [
-        "Sendo (Rosendo Fuentes)",
-        "Send0o"
-    ],
-    "Mikyx": [
-        "Mikyx"
-    ],
-    "Flakked": [
-        "Flaккed",
-        "Flaκκed",
-        "FIakked",
-        "Flakked"
-    ],
-    "Yike": [
-        "Yike"
-    ],
-    "Hans Sama": [
-        "Hans",
-        "Hans Sama"
-    ],
-    "Xayoo": [
-        "Xayoo"
-    ],
-    "Takefun": [
-        "Takefuned",
-        "Takefun"
-    ],
-    "Zeclipse": [
-        "Zeclipse"
-    ],
-    "Abaria": [
-        "Abariaa",
-        "Abaria"
-    ],
-    "Krykiet": [
-        "Crykee",
-        "Krykiet"
-    ],
-    "Obvious": [
-        "Obv (Dennis Sørensen)",
-        "Obvious"
-    ],
-    "SozPurefect": [
-        "Soz Purefect",
-        "SoPurefect",
-        "Purefect",
-        "SozPurefect"
-    ],
-    "Sedrion": [
-        "Tarik",
-        "Sedrion"
-    ],
-    "MounTain (Patrick Dasberg)": [
-        "TheMountain",
-        "MounTain (Patrick Dasberg)"
-    ],
-    "Dan (Daniel Hockley)": [
-        "GreatKhaLee",
-        "GamersLegend",
-        "Dan (Daniel Hockley)"
-    ],
-    "Jinsh": [
-        "Jinsh"
-    ],
-    "Shaunz": [
-        "Shaunz"
-    ],
-    "ZvenE": [
-        "ZvenE"
-    ],
-    "Saulius": [
-        "SauliusLTU",
-        "Saulius9",
-        "Flezeth",
-        "Saulius"
-    ],
-    "DarkSide": [
-        "Ladooscuro",
-        "DarkSide"
-    ],
-    "Angelas": [
-        "Angelas"
-    ],
-    "Cejlon": [
-        "Cejlík",
-        "Cejlon"
-    ],
-    "Idyiom": [
-        "Pychiom",
-        "Idyiomm",
-        "Idiommm",
-        "Idiom",
-        "Idyiom"
-    ],
-    "Shiage": [
-        "Shiage"
-    ],
-    "Sâyn": [
-        "Sâyn"
-    ],
-    "Tarky": [
-        "Tarky8",
-        "K0koo",
-        "Tarky"
-    ],
-    "WouLou": [
-        "WarriorLady",
-        "Warrior Lady",
-        "WouLou"
-    ],
-    "AnOnPsyCkO": [
-        "Anonpsycho",
-        "AnOn",
-        "AnOnPsyCkO"
-    ],
-    "Dom1nant": [
-        "MajstorMika",
-        "Dominant",
-        "Acclaimer",
-        "Dom1nant"
-    ],
-    "Wildpanda": [
-        "Wildpanda"
-    ],
-    "MaybeNickName": [
-        "MaybeNickName"
-    ],
-    "K3nSt3r": [
-        "K3nSt3r"
-    ],
-    "Heavenstrike": [
-        "Heavenstrike"
-    ],
-    "SirAlphaQ": [
-        "SirAlphaQ"
-    ],
-    "Vio": [
-        "Vioreleeee",
-        "Vio"
-    ],
-    "Sa1na": [
-        "Sa1na"
-    ],
-    "Morsu": [
-        "Morsu"
-    ],
-    "CozQ": [
-        "Soef",
-        "Hi Its Fatima",
-        "CozQ"
-    ],
-    "Vizility": [
-        "Vizility"
-    ],
-    "Zven": [
-        "Zvanillan",
-        "Sven (Jesper Svenningsen)",
-        "Stæhr",
-        "Phlow",
-        "Niels HD",
-        "Niels",
-        "Zven"
-    ],
-    "Toaster": [
-        "Toaster123",
-        "Gakis",
-        "Toaster"
-    ],
-    "Satorius": [
-        "Deathwing",
-        "Satorius"
-    ],
-    "Cinkrof": [
-        "Cinkrof"
-    ],
-    "Naehyun": [
-        "미드가내현",
-        "Toy",
-        "Naehyun"
-    ],
-    "Alphari": [
-        "Alphari"
-    ],
-    "Zanzarah": [
-        "Zanzarah"
-    ],
-    "Destiny (Mitchell Shaw)": [
-        "Destinyy",
-        "Destiny (Mitchell Shaw)"
-    ],
-    "Jeskla": [
-        "Jesklaaa",
-        "Jesklaa",
-        "JeskIa",
-        "Jeskla"
-    ],
-    "Dajor": [
-        "Dajor"
-    ],
-    "Kobbe": [
-        "K0BBE",
-        "Kobbe"
-    ],
-    "Execute": [
-        "정훈이의 모험",
-        "JeongHoon",
-        "Execute"
-    ],
-    "Finn": [
-        "BlomsterFinn",
-        "Blomster Finn",
-        "Finn"
-    ],
-    "113": [
-        "113"
-    ],
-    "LIDER": [
-        "LlDER",
-        "LIDER"
-    ],
-    "Wunder": [
-        "Wunderwear",
-        "Wunder"
-    ],
-    "Sencux": [
-        "Chres",
-        "Sencux"
-    ],
-    "Orome": [
-        "Orome"
-    ],
-    "Shad0w": [
-        "Shadow (Zhao Zhi-Qiang)",
-        "Shad0w"
-    ],
-    "Carzzy": [
-        "Carzzy"
-    ],
-    "Kaiser": [
-        "Gistick",
-        "Kaiser"
-    ],
-    "Armut": [
-        "Tucake",
-        "Push2win",
-        "Armut"
-    ],
-    "Elyoya": [
-        "Elyoyaa",
-        "EIyoya",
-        "Elyoya"
-    ],
-    "Reeker": [
-        "RKR",
-        "Reeker"
-    ],
-    "UNF0RGIVEN": [
-        "Unforgiven (William Nieminen)",
-        "UNF0RGIVEN"
-    ],
-    "Chasy": [
-        "Chasy"
-    ],
-    "Myrwn": [
-        "Myrwn"
-    ],
-    "Fresskowy": [
-        "Fresskowy"
-    ],
-    "Supa": [
-        "Supa"
-    ],
-    "Alvaro (Álvaro Fernández)": [
-        "AlVaRo710",
-        "Alvaro (Álvaro Fernández)"
-    ],
-    "Mightybear": [
-        "PandaBears",
-        "Moon (Kim Min-su)",
-        "Mightybear"
-    ],
-    "Police (Park Hyeong-gi)": [
-        "Fruit",
-        "Police (Park Hyeong-gi)"
-    ],
-    "Reje": [
-        "Reje51",
-        "R3jeszn",
-        "Critbud",
-        "Cr1tBud",
-        "Reje"
-    ],
-    "GBM": [
-        "Jatt-B-M",
-        "GBMzz",
-        "GankedByMom",
-        "Ganked by Mom",
-        "GBM"
-    ],
-    "Hachani": [
-        "Renewal (Ha Seung-chan)",
-        "Comeback (Ha Seung-chan)",
-        "Hachani"
-    ],
-    "Jiizuke": [
-        "Jizuke",
-        "Italian g0d",
-        "Jiizuke"
-    ],
-    "Mowgli": [
-        "Jaeha",
-        "Mowgli"
-    ],
-    "Saken": [
-        "Shïru (Lucas Fayard)",
-        "Saken"
-    ],
-    "Skeanz": [
-        "Skeanz"
-    ],
-    "Comp": [
-        "Compp",
-        "Competitive",
-        "Comp"
-    ],
-    "Clarence (Cantoursna An)": [
-        "Nji",
-        "Clarence (Cantoursna An)"
-    ],
-    "Milica": [
-        "Milicaa",
-        "Milica Todorovic",
-        "Milica T",
-        "Milica"
-    ],
-    "Labrov": [
-        "Labrovv",
-        "Labr0v",
-        "Labrov"
-    ],
-    "Szygenda": [
-        "Szygenda"
-    ],
-    "SLT": [
-        "Salut a tous",
-        "SLT"
-    ],
-    "Haru": [
-        "Haru"
-    ],
-    "Photon": [
-        "Gyuvee",
-        "Photon"
-    ],
-    "Bo": [
-        "Bo"
-    ],
-    "Daglas": [
-        "Daglas"
-    ],
-    "Vetheo": [
-        "VTO",
-        "Vetheo"
-    ],
-    "HolyPhoenix": [
-        "H0lyPhoenix",
-        "HolyPhoenix"
-    ],
-    "Lamabear": [
-        "Lamabär",
-        "Lamabear"
-    ],
-    "KaKAO": [
-        "KaKA0",
-        "KaKAO"
-    ],
-    "Gorilla": [
-        "Gorilla"
-    ],
-    "Dan Dan": [
-        "Dan Dan DoubleD",
-        "Dan Dan DD",
-        "Dan Dan"
-    ],
-    "Hiiva": [
-        "H1IVA",
-        "Hiiva"
-    ],
-    "Bvoy": [
-        "Repacker",
-        "Bvoy"
-    ],
-    "denyk": [
-        "Denyyk",
-        "denyk"
-    ],
-    "HiRit": [
-        "HiRit1",
-        "HiRit"
-    ],
-    "Shlatan": [
-        "Szlatan",
-        "Shlatan2",
-        "ShIatan",
-        "Shlatan"
-    ],
-    "Mersa": [
-        "Mersa"
-    ],
-    "Jisu": [
-        "Smile (Park Jin-cheol)",
-        "Jay (Park Jin-cheol)",
-        "Jisu"
-    ],
-    "Special": [
-        "Special"
-    ],
-    "Mystiques": [
-        "Mystiq",
-        "Mystiques"
-    ],
-    "Mickey (Son Young-min)": [
-        "메도우이헌터남친",
-        "MickeyGod",
-        "Mickey (Son Young-min)"
-    ],
-    "Kryze": [
-        "Kryze"
-    ],
-    "Czekolad": [
-        "Czekol0id",
-        "CzekoIad",
-        "Czeko",
-        "Czekolad"
-    ],
-    "Peach": [
-        "Peach"
-    ],
-    "Inspired": [
-        "Inspired"
-    ],
-    "Malrang": [
-        "Malrang"
-    ],
-    "Zoelys": [
-        "Zoelys"
-    ],
-    "Ibai": [
-        "Ibai"
-    ],
-    "Th3Antonio": [
-        "Th3Antønio",
-        "Th3Antonio"
-    ],
-    "Champi14": [
-        "Champi",
-        "Champi14"
-    ],
-    "Extorsus": [
-        "Extorsus"
-    ],
-    "Noa (Ainhoa Campos)": [
-        "Noa (Ainhoa Campos)"
-    ],
-    "Skain": [
-        "Skain"
-    ],
-    "Terenas": [
-        "Terenas"
-    ],
-    "KenRhen": [
-        "KenRhen"
-    ],
-    "Noodlez": [
-        "Noodlez"
-    ],
-    "Paolocannone": [
-        "Paulcannon",
-        "Paolocannone"
-    ],
-    "JustJohnny": [
-        "Just Johnny",
-        "Johnny (Jona Schmitt)",
-        "J0HNNY (Jona Schmitt)",
-        "JustJohnny"
-    ],
-    "NoWay (Frederik Hinteregger)": [
-        "Noway4u sir",
-        "Noway4u",
-        "Don NoWay",
-        "NoWay (Frederik Hinteregger)"
-    ],
-    "Sola": [
-        "Solaaaa",
-        "Sola"
-    ],
-    "Eis": [
-        "Eis"
-    ],
-    "Ender (Christy Frierson)": [
-        "Ender (Christy Frierson)"
-    ],
-    "Vedius": [
-        "Vedius"
-    ],
-    "Medic (Aaron Chamberlain)": [
-        "MedicCasts",
-        "Medic (Aaron Chamberlain)"
-    ],
-    "Myha": [
-        "Myha"
-    ],
-    "Noi": [
-        "Noi"
-    ],
-    "Chips (Fabien Culié)": [
-        "Chips (Fabien Culié)"
-    ],
-    "Chap": [
-        "Chapovich",
-        "Chap"
-    ],
-    "Tweekz": [
-        "Tweekz"
-    ],
-    "TraYtoN": [
-        "Trayt0n",
-        "TraYtoN"
-    ],
-    "xMatty": [
-        "xMatty"
-    ],
-    "Agresivoo": [
-        "Agresivoo"
-    ],
-    "Erdote": [
-        "Robercik",
-        "Erdote"
-    ],
-    "Sheo": [
-        "Sheo"
-    ],
-    "Ice (Yoon Sang-hoon)": [
-        "Pump (Yoon Sang-hoon)",
-        "Ice (Yoon Sang-hoon)"
-    ],
-    "Evi": [
-        "Ebihurya",
-        "Evi"
-    ],
-    "Ruby (Lee Sol-min)": [
-        "Fact",
-        "Ruby (Lee Sol-min)"
-    ],
-    "Jackspektra": [
-        "Jackspektra"
-    ],
-    "Jackies": [
-        "Jackisek",
-        "Jackies"
-    ]
+	"xPeke": ["xPeke"],
+	"Shushei": ["Shushei"],
+	"LamiaZealot": ["LaMiaZlt", "Lamia", "LamiaZealot"],
+	"Mellisan": ["Mellisan"],
+	"Cyanide": ["CyanideFI", "Cyanide FI", "Cyanide"],
+	"sOAZ": ["sOAZ"],
+	"Pheilox": ["Pheilox"],
+	"nRated": ["nRated"],
+	"YellOwStaR": ["YellowS", "YellOwStaR"],
+	"Puszu": ["Puszu"],
+	"Rekkles": ["Rekkles"],
+	"Huni": ["DefinitelyNotHuni", "Huni"],
+	"Reignover": ["Reign Over", "Reignover"],
+	"Febiven": ["Febiven"],
+	"Gamsu": ["깜수", "Gamsu"],
+	"Spirit": ["Spirit"],
+	"Noxiak": ["NoXlAK", "Fela Kuti", "Noxiak"],
+	"Klaj": ["Klajbajk", "Klaj"],
+	"Kikis": ["Kikis"],
+	"Werlyb": ["WerIyb", "Werlyb"],
+	"Amazing (Maurice Stückenschneider)": ["Amazingx", "Amazing (Maurice Stückenschneider)"],
+	"Broxah": ["Broxah"],
+	"Caps": ["Craps", "Caps"],
+	"Bwipo": ["Bwipo"],
+	"Hylissang": ["Hylissang"],
+	"Nemesis": ["Nemesisi", "Nemesis"],
+	"MagiFelix": ["MagiFelix"],
+	"Selfmade": ["SelfMadeMan", "Niebieski", "Selfmade"],
+	"Nisqy": ["Nisqy"],
+	"Upset": ["Ohq v1", "Upset"],
+	"Adam (Adam Maanane)": ["Ricadam", "Adam (Adam Maanane)"],
+	"Razork": ["Rαzørk", "Razørk", "Razork"],
+	"Humanoid": ["Human0id", "Humanoid"],
+	"rhuckz": ["Rhukz", "rhuckz"],
+	"Oscarinin": ["Оscarinin", "Øscarinin", "Oskar", "Oscarinin"],
+	"Advienne": ["Advienne"],
+	"Noah (Oh Hyeon-taek)": ["HyunTaek", "Hyun Taek", "ADC (Oh Hyeon-taek)", "Noah (Oh Hyeon-taek)"],
+	"Trymbi": ["Trymbi"],
+	"Jun (Yoon Se-jun)": ["HP1", "Arthur (Yoon Se-jun)", "Jun (Yoon Se-jun)"],
+	"kev1n": ["Kevin (Kevin Rubiszewski)", "kev1n"],
+	"Zylor": ["Zylor"],
+	"Reyk": ["Reyk"],
+	"Nyph": ["Nyph1", "Nyph"],
+	"farfain": ["farfain"],
+	"ALth0r": ["ALth0r"],
+	"limelight": ["limelight"],
+	"SleazyWeazy": ["Sleezy", "SleazyWeazy"],
+	"Wickd": ["Wickd"],
+	"Timmy (Tim Buysse)": ["WetDreaM", "Timmy (Tim Buysse)"],
+	"Ocelote": ["Ocelotee", "Oce", "Ocelote"],
+	"CandyPanda": ["CndyPnda", "Candy Panda", "Candy (Adrian Wübbelmann)", "CandyPanda"],
+	"Araneae": ["Araneae"],
+	"hyrqBot": ["hyrqBot"],
+	"fredy122": ["Fredy", "Freddy122", "fredy122"],
+	"Svenskeren": ["Sven (Dennis Johnsen)", "Svenskeren"],
+	"Forg1ven": ["Forgiven", "FORG1VENx247", "FORG1VENGRE", "FORG1VEN247", "Forg1ven"],
+	"Pirean": ["Pirean"],
+	"Crownie": ["Crownshot", "Crownie"],
+	"Dreams (Han Min-kook)": ["Dreams (Han Min-kook)"],
+	"Sacre": ["Toni", "Sakre", "Sacre"],
+	"JNX": ["Jenax3", "Jenax1", "Jenax", "JNX"],
+	"Ventair": ["Ventair"],
+	"Trick": ["Snowfall", "Snow (Kim Gang-yun)", "Trick"],
+	"LIMIT (Dino Tot)": ["LIMIT (Dino Tot)"],
+	"ZaZee": ["ZaZee"],
+	"TynX": ["TynXx", "Poong", "TynX"],
+	"Blue (Ersin Gören)": ["Araxe", "Blue (Ersin Gören)"],
+	"Jezu": ["Jesus (Jean Massol)", "Jezu"],
+	"Treatz": ["Treatzftw", "Treatz"],
+	"twohoyrz": ["Shripelx", "Shripel", "twohoyrz"],
+	"Lilipp": ["Frozen (Philipp Englert)", "Lilipp"],
+	"Gilius": ["Gilius"],
+	"Sertuss": ["Sertuss"],
+	"Gadget": ["Godget", "Gadget"],
+	"Irrelevant": ["Polsayir", "Irrelevant Role", "Irrelevant"],
+	"Markoon": ["Markoon"],
+	"Exakick": ["Exabench", "Exakick"],
+	"Doss": ["XXXMOVIN", "Doss"],
+	"ISMA": ["Ismaaa", "Ismaa", "ISMA"],
+	"Karalius": ["Karalius"],
+	"sen (European Player)": ["sen (European Player)"],
+	"yellowpete": ["yellowpete"],
+	"Havoc24": ["Havoc24"],
+	"heiN": ["heiN"],
+	"Exter": ["Exterminare", "Exter"],
+	"BarbeQ": ["BarbaQ", "BarbeQ"],
+	"Kaidoh": ["Kaidoh"],
+	"Kubon": ["KubonBG", "Kubon"],
+	"Mokatte": ["Mokatte"],
+	"Czaru": ["Czaru"],
+	"Makler": ["Makler"],
+	"Libik": ["Libik"],
+	"HotshotGG": ["HotshotGG"],
+	"Saintvicious": ["Stvicious", "Saint (Brandon DiMarco)", "Saintvicious"],
+	"Salce": ["Salce"],
+	"Bigfatlp": ["Jiji", "Bigfatjiji", "Bigfatlp"],
+	"Elementz": ["Elementz"],
+	"Alvado": ["Awesome Zamach", "Alvado"],
+	"Nicker": ["Nicker"],
+	"iMba (Łukasz Dusza)": ["iMba (Łukasz Dusza)"],
+	"Ismaro": ["Ismaro"],
+	"Linak": ["Linak"],
+	"Shlaya": ["Shlaya"],
+	"Tidus": ["Tidus"],
+	"kujaa": ["kujaa"],
+	"pHeoz": ["pHeoz"],
+	"Naijik": ["Naijik"],
+	"Arcagod": ["Arcagød", "Arcagod"],
+	"Entenzwerg": ["Entenzwerg"],
+	"Dax": ["Dax"],
+	"Doigby": ["Doigby"],
+	"ImSoFresh": ["IFresh", "ImSoFresh"],
+	"Nanouk": ["Nanouk"],
+	"Dioud": ["Dioud"],
+	"Kottenx": ["Kottenx"],
+	"H0R0": ["Beelzehan", "Bee1zehan", "H0R0"],
+	"Ryu": ["Ryu"],
+	"Kaze (Quentin Gourbeix)": ["Kazewadelavega", "Kazewa", "Kaze a tous", "Kaze (Quentin Gourbeix)"],
+	"Djoko": ["DJODJO KT", "Djoko"],
+	"Pretty": ["PrettyGRE", "I Look Pretty", "Pretty"],
+	"Tabzz": ["Tabz", "Tabzz"],
+	"Masterwork": ["Masterwork"],
+	"Syex": ["Syex"],
+	"MeRusMePro": ["MeRusMePro"],
+	"Brainquiche": ["Brainquiche"],
+	"Cerberus": ["Cerberus"],
+	"biggy": ["biggy"],
+	"cliff": ["Destruct", "cliff"],
+	"unso": ["unso"],
+	"CedeoCedeo": ["CedeoCedeo"],
+	"Lycades": ["Lycades"],
+	"Rainy": ["Rainy"],
+	"Noaphiel": ["User:Noaphiel", "Noaphiel"],
+	"Fisch": ["Fisch"],
+	"Kerp": ["Kerrp", "Kerpx", "Kerp"],
+	"Jree": ["Jreex", "Jreee", "Jree"],
+	"WhiteKnight": ["WhiteKnight108", "WhiteKnight"],
+	"The Rain Man": ["Trm", "TheRainMan", "The Rain Man"],
+	"TheOddOne": ["OddOne", "TheOddOne"],
+	"Reginald": ["ReginaId", "Reginald"],
+	"Chaox": ["Chaox"],
+	"Xpecial": ["Xpecial"],
+	"Veggie": ["Veggie"],
+	"Celaver": ["Celaver"],
+	"Puki style": ["Pukistyle", "PUKI STYLEE", "Puki", "Puki style"],
+	"SuperAZE": ["LimitsOfReversal", "SuperAZE"],
+	"Snoopeh": ["Snoopeh"],
+	"Froggen": ["Froggen"],
+	"Angush": ["Angush"],
+	"Malunoo": ["Malunoo"],
+	"extinkt": ["Exinkt", "extinkt"],
+	"Sleper": ["Sleper"],
+	"xinec": ["xinec"],
+	"YamatoCannon": ["YamatoMebdi", "Yamato (Jakob Mebdi)", "YamatoCannon"],
+	"Skullomania": ["Skullomania"],
+	"Baronpanda": ["Baronpanda"],
+	"kestrel": ["kestrel"],
+	"jwaow": ["Jwow", "Jwaowz", "jwaow"],
+	"Darien": ["Darien"],
+	"Alex Ich": ["AlexIch", "Alex Ich"],
+	"Genja": ["Genja007", "Genja"],
+	"EDward": ["GoZu", "GoSuPepper", "GoSu Pepper", "EDward"],
+	"Moopz": ["Moopzy", "Moopz"],
+	"Lounet": ["Lounet"],
+	"Grom": ["Grøm", "Grom"],
+	"Creaton": ["LOL PRO", "Dota Pro", "Creaton"],
+	"ViRtU4l": ["ViRtU4l"],
+	"Nono": ["Nono"],
+	"Zarmony": ["Zarmony"],
+	"Godbro": ["NeeGodbro", "Godzukee", "Godbrotherz", "Godbro sama", "Godbro"],
+	"Forellenlord": ["FLord", "F lord", "Forellenlord"],
+	"Bjergsen": ["XL Bjergsen", "Bjergsen"],
+	"TheTess": ["TheTess"],
+	"Deficio": ["Deficio"],
+	"YoungBuck": ["YoungBuck"],
+	"Shook": ["ShookL2", "Shook v2", "EnVision", "Shook"],
+	"cowTard": ["cowTard"],
+	"Unlimited (Petar Georgiev)": ["MyS Unlimited", "Unlimited (Petar Georgiev)"],
+	"Airwaks": ["Airwaks"],
+	"Brokenshard": ["Brokenshard"],
+	"Mazzerin": ["Mazzerin"],
+	"Soren (Søren Frederiksen)": [
+		"SorenXD",
+		"Soren (European)",
+		"Soren (Danish)",
+		"S0rensenpai",
+		"Soren (Søren Frederiksen)"
+	],
+	"Woolite": ["Woolite"],
+	"Lenny (Lenny Uytterhoeven)": ["Vcom Fan", "The Vcom Fan", "Ienny", "Lenny (Lenny Uytterhoeven)"],
+	"Kaas": ["Paljas", "KAASBAAS", "KAAs x bAAS", "Je suis Kaas", "Kaas"],
+	"k0u": ["Kou (Lâm Tịnh Trì)", "k0u"],
+	"Caedrel": ["Caedrel"],
+	"Nukes": ["SirNukesAlot", "SirNukesAIot", "SirNukeAlot", "NukesAlot", "Nukes"],
+	"Dexter": ["Dexter1", "Dexter"],
+	"HosaN": ["HosaN"],
+	"Muvert": ["Muvert"],
+	"Shacker": ["ShackerThe1", "Shacker"],
+	"Diamondprox": ["Diamondrox", "Diamondez", "Diamond (Danil Reshetnikov)", "Diamondprox"],
+	"Darker": ["D4rker", "Darker"],
+	"Voidle": ["Eldiov", "Voidle"],
+	"Zorozero": ["Zorozero"],
+	"Hulberto": ["Hulberto"],
+	"nukeduck": ["Jns1", "Erlendvholm", "Eksde12345", "nukeduck"],
+	"Fury (Jakob Burke)": ["Fury III", "Fury (Jakob Burke)"],
+	"Cabochard": ["Coffee is OP", "Cabochard"],
+	"loulex": ["loulex"],
+	"P1noy": ["Pinoy", "P1noyszn", "Krislundszn", "Krislund", "Kris Lund", "P1noy"],
+	"Betsy": ["Betsy"],
+	"Samux": ["Samux"],
+	"Morden": ["Mørden", "IamMorden", "Morden"],
+	"Jimbz": ["Jîmßo", "Jîmß0wnz", "Jimbownz", "Jimbz"],
+	"Babeta": ["Babeta"],
+	"Fr3deric": ["Fr3deric"],
+	"PePiiNeRO": ["xPePii", "Pπ", "PEPINERO", "PePiiNG", "PePii", "PePiiNeRO"],
+	"Adryh (Adrián Pérez)": ["Adryh (Adrián Pérez)"],
+	"Rydle": ["Rydle"],
+	"Lozark": ["Lozark"],
+	"G0DFRED": ["G0DFRED"],
+	"Atom (Peter Thomsen)": ["Atombomben", "Atom (Peter Thomsen)"],
+	"Jaeger": ["Smittyj", "Jaeger"],
+	"BetongJocke": ["BetongJocke"],
+	"Wisdom": ["Crack (Kim Tae-wan)", "Wisdom"],
+	"Sonstar": ["S0NSTAR", "Sonstar"],
+	"Hustlin": ["Hustlinbeeast", "Hustlinbeast", "HuslinbeasT", "Hustlin"],
+	"Maxlore": ["Maxlore"],
+	"NighT (Na Gun-woo)": [
+		"Rabbit (Na Gun-woo)",
+		"Moon (Na Gun-woo)",
+		"MC레빗",
+		"NighT (Na Gun-woo)"
+	],
+	"Fjoompbun": ["Flaxxish", "Fjoompbun"],
+	"Memento": ["Memento"],
+	"HeaQ": ["HeaQ"],
+	"Ruin": ["Ruin"],
+	"Jiizuké": ["Jiizuké"],
+	"Attila": ["Troupax", "Pharaxx", "Minitroupax", "Attila"],
+	"Jactroll": ["Jactrollz", "Jactroll"],
+	"Targamas": ["Targamas"],
+	"Xaxus": ["Xaxus"],
+	"eRot1c": ["eRot1c"],
+	"Overpow": ["Remigiusz", "Overpow"],
+	"Leo (Łukasz Mirek)": ["Leofromkorea", "LeoFKorea", "Leo (Łukasz Mirek)"],
+	"Foo Sharp": ["Foo Sharp"],
+	"AoD": ["AoD"],
+	"Noonia": ["Noonia"],
+	"wewillfailer": ["Wewilfailer", "Failer", "Bram", "wewillfailer"],
+	"Zoller": ["Zoller"],
+	"Geogeo": ["Geogeo"],
+	"Migxa": ["Migxaaa", "Migxa"],
+	"Naruterador": ["Naruterador"],
+	"Belgianbeast": ["Dervz", "Belgianbeast"],
+	"Motroco": ["Motroco"],
+	"BarneyD": ["Barney D Stinson", "BarneyD"],
+	"Jer0m": ["TessLaa", "Jer0m"],
+	"Carbono": ["Carbonite", "Carbon0", "Carb0no", "Cabono", "Carbono"],
+	"Innat3": ["Drag0n", "Innat3"],
+	"mithy": ["mty", "mithy"],
+	"Mimer": ["Mimer"],
+	"Freeze": ["Freeeeeze", "Freeze"],
+	"Profit": ["KIM (Kim Jun-hyung)", "Profit"],
+	"Nagne": ["Nagne"],
+	"promisq": ["sprattel", "Promiscuous", "promisq"],
+	"Doris": ["Doris"],
+	"Spike Nike": ["Spike Nike"],
+	"Janitin": ["Janitin"],
+	"Slyv3r": ["Slyv3r"],
+	"Zychion": ["Zychion"],
+	"niQ": ["NiQ760", "NIQ 760", "760", "niQ"],
+	"Odoamne": ["Odoamne"],
+	"Kold": ["Trashy", "Kold"],
+	"Hjärnan": ["Hjärnan"],
+	"Jankos": ["Jankos"],
+	"Vander": ["VandeRnoob", "Van Der Fckk", "Vander"],
+	"Nulu": ["Selfie", "kori", "Nulu"],
+	"Nuclear": ["JH Joker", "Nuclear"],
+	"Chei": ["Ink (Choi Sun-ho)", "Chei2", "Boink", "Boing", "Chei"],
+	"Santorin": ["Santorin"],
+	"Patrik": ["Thale", "Sheriff", "Godhimself", "Patrik"],
+	"Larssen": ["Larssen"],
+	"Sebekx": ["Sebeks", "Sebekx"],
+	"Elendix": ["Worst Sona EU", "Elendix"],
+	"Jokieez": ["Jookiez", "Jokiees", "DROP DA B4SS 4M", "Jokieez"],
+	"Gamble": ["Gamble"],
+	"Roldo": ["Roldo"],
+	"GoB": ["GobGG", "GoB GG", "GoB"],
+	"Aïrwaks": ["Aïrwaks"],
+	"Yuuki60": ["Yuuki (Florent Soler)", "Yuuki60"],
+	"Spontexx": ["eSpontexx", "Spontexx"],
+	"Foton": ["Foton"],
+	"Syrela": ["Syrela"],
+	"Impaler": ["JnT Taylor", "Impaler"],
+	"MrRalleZ": ["MrRalleZ"],
+	"Blizer300": ["Blizer", "Blizer300"],
+	"Nisbeth": ["Nisbeth"],
+	"Xyraz": ["Xyraz"],
+	"PhyssiN": ["PhyssiN"],
+	"FatMamma": ["FatMamma"],
+	"Hjarnan": ["Infinity (Petter Freyschuss)", "Hjärnanbakomallt", "Hjarnaan", "Hjarnan"],
+	"Niqua": ["Niqua"],
+	"Erên Jaeger": ["Erên Jaeger"],
+	"ZanCrow": ["ZanCrow"],
+	"Suckness": ["Suckness"],
+	"Eveyor": ["Eveyor"],
+	"Inquisor": ["Inquisor"],
+	"Deep In Chaos": ["Deep In Chaos"],
+	"Exclsion": ["Exclsion"],
+	"Cupcake (North American Player)": ["Cupcake (North American Player)"],
+	"Nemoksha": ["Nemoksha"],
+	"Report Kaggem": ["Report Kaggem"],
+	"Nbs": ["Nbslol", "Nbs"],
+	"Alunir": ["Alunir"],
+	"DeadlyBrother": ["DeadlyBrother"],
+	"Inspirro": ["Inspirro"],
+	"apaixtosNtinos": ["apaixtosNtinos"],
+	"lNightmare": ["lNightmare"],
+	"kernawpasta": ["kernawpasta"],
+	"rouamat": ["rouamat"],
+	"MikeyR": ["MikeyR"],
+	"Mowarth": ["Mowarth"],
+	"Tiridus": ["Tiridus"],
+	"Strategas": ["Strategas"],
+	"Niko3333": ["Niko3333"],
+	"Woio": ["Woio"],
+	"Peanut (Marcus Edborg)": ["Peanut (Marcus Edborg)"],
+	"Hrabia Nervarien": ["Hrabia Nervarien"],
+	"Anlora": ["Anlora"],
+	"Fyrbo": ["Fyrbo"],
+	"ZipBer": ["ZipBer"],
+	"Vizicsacsi": ["Vizicsacsi"],
+	"Kubaos": ["Kubaos"],
+	"Lolleros": ["Magebane", "Lolleros"],
+	"Lion (Christos Tsiamis)": ["Supportive Lion", "C0llide", "Lion (Christos Tsiamis)"],
+	"Daisuke": ["Daisuke"],
+	"onlyRETARDSfeed": ["onlyRETARDSfeed"],
+	"Myjot": ["Myjot"],
+	"chisbug2009": ["chisbug2009"],
+	"SirLezi": ["SirLezi"],
+	"KRAWAT Z KONOPI": ["KRAWAT Z KONOPI"],
+	"Noxvia": ["Noxvia"],
+	"fatpanda": ["fatpanda"],
+	"aKeLa": ["aKeLa"],
+	"Upsas": ["Upsas"],
+	"Minde": ["Minde"],
+	"JDLoL": ["JDLoL"],
+	"Gaara": ["TYL Bahamut", "Gaara"],
+	"Tiesel": ["Tsili", "Tiesel"],
+	"DoMiNaNceLoL": ["DoMiNaNceLoL"],
+	"ChosenOne": ["Istorikas", "ChosenOne"],
+	"WRDN": ["Warden", "Raizzo", "Mister", "WRDN"],
+	"KNOK1": ["Simple nickname", "KNOK1"],
+	"Silver Carry": ["Silver Carry"],
+	"Oxz": ["Oxz"],
+	"Samarov": ["Samarov"],
+	"napraen": ["napraen"],
+	"Smile (Bulgarian Player)": ["Smile (Bulgarian Player)"],
+	"digggi": ["digggi"],
+	"Aloex": ["Aloex"],
+	"Econatorz": ["Econator", "Econatorz"],
+	"neptuNo": ["Nept1", "neptuNo"],
+	"Tremnek": ["Tremnek"],
+	"NitriX": ["NitriX"],
+	"DxAlchemist": ["DxAlchemist"],
+	"Samwise12": ["Samwise", "Samwise12"],
+	"kaSing": ["YerrowStarr", "Yerrow", "kaSing"],
+	"The Kinky Baron": ["The Kinky Baron"],
+	"Ninja Blast": ["Ninja Blast"],
+	"YellowFlash": ["YellowFlash"],
+	"Demented Clown": ["Demented Clown"],
+	"Zeriouz": ["Zeriouz"],
+	"Shaft (Marcel Zimmer)": ["JohnShaft", "Shaft (Marcel Zimmer)"],
+	"Lapras (David Leonardo Mørkøre)": ["Lapras (David Leonardo Mørkøre)"],
+	"Crazycaps": ["Crazycaps"],
+	"Steve (Etienne Michels)": ["Steve (French)", "Godlikejungler", "Steve (Etienne Michels)"],
+	"Safir": ["Jebus", "Safir"],
+	"Parang": ["Parang"],
+	"Raise": ["Raise"],
+	"Phaxi": ["Phaxi"],
+	"Wadid": ["Wadid"],
+	"Pridestalkr": ["Unlucky Pride", "Pridestalker", "Pride (Milo Wehnes)", "Pridestalkr"],
+	"Blanc (Jin Seong-min)": ["Modas", "Ham", "Blanc (Jin Seong-min)"],
+	"Tore": ["Norskeren", "Tore"],
+	"Eika": ["Eika"],
+	"Krepo": ["Boris", "Krepo"],
+	"Abbedagge": ["Abbedagge"],
+	"IgNar": ["IgNar1", "IgNar"],
+	"Lurox": ["Lurox"],
+	"Innaxe": ["Innaxe the God", "Innaxe"],
+	"Neon (Matúš Jakubčík)": ["Neon (Matúš Jakubčík)"],
+	"BrokenBlade": ["Broken Blade", "BrokenBlade"],
+	"Kirei": ["Kirei"],
+	"nuc": ["NUCLEARINT", "Nuclear9z", "NUCLEAR INT", "Nuclear (Ilias Bizriken)", "nuc"],
+	"Ippon": ["Babuniaz", "Babunia", "Ippon"],
+	"Fox (Hampus Myhre)": ["Watdefox", "Fox (Hampus Myhre)"],
+	"Haydal": ["Zyzz", "Haydal"],
+	"Zytan": ["Zytan"],
+	"Beansu": ["Beansu"],
+	"Steeelback": ["Steelback", "SteeelBackR", "Steeelbackkk", "Steeelback"],
+	"PowerOfEvil": ["Power of evil", "PowerOfEvil"],
+	"Vardags": ["Vardags"],
+	"Mirror": ["Rudy (Rudy Beltran)", "Mirror"],
+	"Move": ["Su", "Move"],
+	"Exile (Fabian Schubert)": ["Exileh", "Exile (Fabian Schubert)"],
+	"Veritas": ["Veritas"],
+	"Xerxe": ["Xerxe"],
+	"Totoro (Eun Jong-seop)": ["커소리어스나", "Nontaget", "Totoro (Eun Jong-seop)"],
+	"PerkZ": ["Uma Jan", "Perks", "Luka the Bazooka", "PerkZ"],
+	"Jesiz": ["Jesse", "Hipsterjesiz", "Jesiz"],
+	"Hybrid (Glenn Doornenbal)": ["ZzneB", "Hybrid (Glenn Doornenbal)"],
+	"Emperor (Kim Jin-hyun)": ["Emperor (Kim Jin-hyun)"],
+	"Expect": ["Han (Ki Dae-han)", "Expect"],
+	"Send0o": ["Sendo (Rosendo Fuentes)", "Send0o"],
+	"Mikyx": ["Mikyx"],
+	"Flakked": ["Flaккed", "Flaκκed", "FIakked", "Flakked"],
+	"Yike": ["Yike"],
+	"Hans Sama": ["Hans", "Hans Sama"],
+	"Xayoo": ["Xayoo"],
+	"Takefun": ["Takefuned", "Takefun"],
+	"Zeclipse": ["Zeclipse"],
+	"Abaria": ["Abariaa", "Abaria"],
+	"Krykiet": ["Crykee", "Krykiet"],
+	"Obvious": ["Obv (Dennis Sørensen)", "Obvious"],
+	"SozPurefect": ["Soz Purefect", "SoPurefect", "Purefect", "SozPurefect"],
+	"Sedrion": ["Tarik", "Sedrion"],
+	"MounTain (Patrick Dasberg)": ["TheMountain", "MounTain (Patrick Dasberg)"],
+	"Dan (Daniel Hockley)": ["GreatKhaLee", "GamersLegend", "Dan (Daniel Hockley)"],
+	"Jinsh": ["Jinsh"],
+	"Shaunz": ["Shaunz"],
+	"ZvenE": ["ZvenE"],
+	"Saulius": ["SauliusLTU", "Saulius9", "Flezeth", "Saulius"],
+	"DarkSide": ["Ladooscuro", "DarkSide"],
+	"Angelas": ["Angelas"],
+	"Cejlon": ["Cejlík", "Cejlon"],
+	"Idyiom": ["Pychiom", "Idyiomm", "Idiommm", "Idiom", "Idyiom"],
+	"Shiage": ["Shiage"],
+	"Sâyn": ["Sâyn"],
+	"Tarky": ["Tarky8", "K0koo", "Tarky"],
+	"WouLou": ["WarriorLady", "Warrior Lady", "WouLou"],
+	"AnOnPsyCkO": ["Anonpsycho", "AnOn", "AnOnPsyCkO"],
+	"Dom1nant": ["MajstorMika", "Dominant", "Acclaimer", "Dom1nant"],
+	"Wildpanda": ["Wildpanda"],
+	"MaybeNickName": ["MaybeNickName"],
+	"K3nSt3r": ["K3nSt3r"],
+	"Heavenstrike": ["Heavenstrike"],
+	"SirAlphaQ": ["SirAlphaQ"],
+	"Vio": ["Vioreleeee", "Vio"],
+	"Sa1na": ["Sa1na"],
+	"Morsu": ["Morsu"],
+	"CozQ": ["Soef", "Hi Its Fatima", "CozQ"],
+	"Vizility": ["Vizility"],
+	"Zven": ["Zvanillan", "Sven (Jesper Svenningsen)", "Stæhr", "Phlow", "Niels HD", "Niels", "Zven"],
+	"Toaster": ["Toaster123", "Gakis", "Toaster"],
+	"Satorius": ["Deathwing", "Satorius"],
+	"Cinkrof": ["Cinkrof"],
+	"Naehyun": ["미드가내현", "Toy", "Naehyun"],
+	"Alphari": ["Alphari"],
+	"Zanzarah": ["Zanzarah"],
+	"Destiny (Mitchell Shaw)": ["Destinyy", "Destiny (Mitchell Shaw)"],
+	"Jeskla": ["Jesklaaa", "Jesklaa", "JeskIa", "Jeskla"],
+	"Dajor": ["Dajor"],
+	"Kobbe": ["K0BBE", "Kobbe"],
+	"Execute": ["정훈이의 모험", "JeongHoon", "Execute"],
+	"Finn": ["BlomsterFinn", "Blomster Finn", "Finn"],
+	"113": ["113"],
+	"LIDER": ["LlDER", "LIDER"],
+	"Wunder": ["Wunderwear", "Wunder"],
+	"Sencux": ["Chres", "Sencux"],
+	"Orome": ["Orome"],
+	"Shad0w": ["Shadow (Zhao Zhi-Qiang)", "Shad0w"],
+	"Carzzy": ["Carzzy"],
+	"Kaiser": ["Gistick", "Kaiser"],
+	"Armut": ["Tucake", "Push2win", "Armut"],
+	"Elyoya": ["Elyoyaa", "EIyoya", "Elyoya"],
+	"Reeker": ["RKR", "Reeker"],
+	"UNF0RGIVEN": ["Unforgiven (William Nieminen)", "UNF0RGIVEN"],
+	"Chasy": ["Chasy"],
+	"Myrwn": ["Myrwn"],
+	"Fresskowy": ["Fresskowy"],
+	"Supa": ["Supa"],
+	"Alvaro (Álvaro Fernández)": ["AlVaRo710", "Alvaro (Álvaro Fernández)"],
+	"Mightybear": ["PandaBears", "Moon (Kim Min-su)", "Mightybear"],
+	"Police (Park Hyeong-gi)": ["Fruit", "Police (Park Hyeong-gi)"],
+	"Reje": ["Reje51", "R3jeszn", "Critbud", "Cr1tBud", "Reje"],
+	"GBM": ["Jatt-B-M", "GBMzz", "GankedByMom", "Ganked by Mom", "GBM"],
+	"Hachani": ["Renewal (Ha Seung-chan)", "Comeback (Ha Seung-chan)", "Hachani"],
+	"Jiizuke": ["Jizuke", "Italian g0d", "Jiizuke"],
+	"Mowgli": ["Jaeha", "Mowgli"],
+	"Saken": ["Shïru (Lucas Fayard)", "Saken"],
+	"Skeanz": ["Skeanz"],
+	"Comp": ["Compp", "Competitive", "Comp"],
+	"Clarence (Cantoursna An)": ["Nji", "Clarence (Cantoursna An)"],
+	"Milica": ["Milicaa", "Milica Todorovic", "Milica T", "Milica"],
+	"Labrov": ["Labrovv", "Labr0v", "Labrov"],
+	"Szygenda": ["Szygenda"],
+	"SLT": ["Salut a tous", "SLT"],
+	"Haru": ["Haru"],
+	"Photon": ["Gyuvee", "Photon"],
+	"Bo": ["Bo"],
+	"Daglas": ["Daglas"],
+	"Vetheo": ["VTO", "Vetheo"],
+	"HolyPhoenix": ["H0lyPhoenix", "HolyPhoenix"],
+	"Lamabear": ["Lamabär", "Lamabear"],
+	"KaKAO": ["KaKA0", "KaKAO"],
+	"Gorilla": ["Gorilla"],
+	"Dan Dan": ["Dan Dan DoubleD", "Dan Dan DD", "Dan Dan"],
+	"Hiiva": ["H1IVA", "Hiiva"],
+	"Bvoy": ["Repacker", "Bvoy"],
+	"denyk": ["Denyyk", "denyk"],
+	"HiRit": ["HiRit1", "HiRit"],
+	"Shlatan": ["Szlatan", "Shlatan2", "ShIatan", "Shlatan"],
+	"Mersa": ["Mersa"],
+	"Jisu": ["Smile (Park Jin-cheol)", "Jay (Park Jin-cheol)", "Jisu"],
+	"Special": ["Special"],
+	"Mystiques": ["Mystiq", "Mystiques"],
+	"Mickey (Son Young-min)": ["메도우이헌터남친", "MickeyGod", "Mickey (Son Young-min)"],
+	"Kryze": ["Kryze"],
+	"Czekolad": ["Czekol0id", "CzekoIad", "Czeko", "Czekolad"],
+	"Peach": ["Peach"],
+	"Inspired": ["Inspired"],
+	"Malrang": ["Malrang"],
+	"Zoelys": ["Zoelys"],
+	"Ibai": ["Ibai"],
+	"Th3Antonio": ["Th3Antønio", "Th3Antonio"],
+	"Champi14": ["Champi", "Champi14"],
+	"Extorsus": ["Extorsus"],
+	"Noa (Ainhoa Campos)": ["Noa (Ainhoa Campos)"],
+	"Skain": ["Skain"],
+	"Terenas": ["Terenas"],
+	"KenRhen": ["KenRhen"],
+	"Noodlez": ["Noodlez"],
+	"Paolocannone": ["Paulcannon", "Paolocannone"],
+	"JustJohnny": ["Just Johnny", "Johnny (Jona Schmitt)", "J0HNNY (Jona Schmitt)", "JustJohnny"],
+	"NoWay (Frederik Hinteregger)": [
+		"Noway4u sir",
+		"Noway4u",
+		"Don NoWay",
+		"NoWay (Frederik Hinteregger)"
+	],
+	"Sola": ["Solaaaa", "Sola"],
+	"Eis": ["Eis"],
+	"Ender (Christy Frierson)": ["Ender (Christy Frierson)"],
+	"Vedius": ["Vedius"],
+	"Medic (Aaron Chamberlain)": ["MedicCasts", "Medic (Aaron Chamberlain)"],
+	"Myha": ["Myha"],
+	"Noi": ["Noi"],
+	"Chips (Fabien Culié)": ["Chips (Fabien Culié)"],
+	"Chap": ["Chapovich", "Chap"],
+	"Tweekz": ["Tweekz"],
+	"TraYtoN": ["Trayt0n", "TraYtoN"],
+	"xMatty": ["xMatty"],
+	"Agresivoo": ["Agresivoo"],
+	"Erdote": ["Robercik", "Erdote"],
+	"Sheo": ["Sheo"],
+	"Ice (Yoon Sang-hoon)": ["Pump (Yoon Sang-hoon)", "Ice (Yoon Sang-hoon)"],
+	"Evi": ["Ebihurya", "Evi"],
+	"Ruby (Lee Sol-min)": ["Fact", "Ruby (Lee Sol-min)"],
+	"Jackspektra": ["Jackspektra"],
+	"Jackies": ["Jackisek", "Jackies"]
 }

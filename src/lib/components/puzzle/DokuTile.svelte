@@ -61,7 +61,13 @@
 	on:keyup={toggleModal}
 	style="--tile-color: {tile_color}; {stylish}"
 >
-	<PlayerModal bind:showModal bind:selectedPlayer bind:lives bind:selectedPlayers rules={[rule1, rule2]}>
+	<PlayerModal
+		bind:showModal
+		bind:selectedPlayer
+		bind:lives
+		bind:selectedPlayers
+		rules={[rule1, rule2]}
+	>
 		<span data-index={index}>Select Player:</span>
 	</PlayerModal>
 	{selectedPlayer ? selectedPlayer : ''}

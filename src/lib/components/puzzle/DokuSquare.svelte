@@ -5,34 +5,57 @@
 
 	export let puzzle: Puzzle;
 
-    let lives = 9;
+	let lives = 9;
 	let correct = 0;
 	let selectedPlayers: string[] = [];
 </script>
 
 {#if puzzle}
-<div class="doku-grid" style="--tile-size: {tile_size}">
-	<div class="info-tile"><img src="https://raw.githubusercontent.com/ribeirogab/scuttle-crab/master/examples/logo.png" alt="scuttle crab"/></div>
-	{#each puzzle.columns as col (col.id)}
-		<div class="info-tile"><span>{col.team_names[col.team_names.length-1]}</span></div>
-	{/each}
-	<div class="info-tile"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/5/54/Rift_Herald_Render.png" alt="rift herald"/></div>
-	<div class="info-tile"><span>{puzzle.rows[0].team_names[puzzle.rows[0].team_names.length-1]}</span></div>
-	<div class="select-tile-span">
-		{#each puzzle.rows as row (row.id)}
-			{#each puzzle.columns as col (col.id)}
-				<DokuTile index={row.id * 3 + col.id} rule1={col} rule2={row} bind:lives bind:correct bind:selectedPlayers/>
-			{/each}
+	<div class="doku-grid" style="--tile-size: {tile_size}">
+		<div class="info-tile">
+			<img
+				src="https://raw.githubusercontent.com/ribeirogab/scuttle-crab/master/examples/logo.png"
+				alt="scuttle crab"
+			/>
+		</div>
+		{#each puzzle.columns as col (col.id)}
+			<div class="info-tile"><span>{col.team_names[col.team_names.length - 1]}</span></div>
 		{/each}
+		<div class="info-tile">
+			<img
+				src="https://static.wikia.nocookie.net/leagueoflegends/images/5/54/Rift_Herald_Render.png"
+				alt="rift herald"
+			/>
+		</div>
+		<div class="info-tile">
+			<span>{puzzle.rows[0].team_names[puzzle.rows[0].team_names.length - 1]}</span>
+		</div>
+		<div class="select-tile-span">
+			{#each puzzle.rows as row (row.id)}
+				{#each puzzle.columns as col (col.id)}
+					<DokuTile
+						index={row.id * 3 + col.id}
+						rule1={col}
+						rule2={row}
+						bind:lives
+						bind:correct
+						bind:selectedPlayers
+					/>
+				{/each}
+			{/each}
+		</div>
+		<div class="info-tile"><span>Uniqueness Rating: 900</span></div>
+		<div class="info-tile">
+			<span>{puzzle.rows[1].team_names[puzzle.rows[1].team_names.length - 1]}</span>
+		</div>
+		<div class="info-tile"><span>Correct Guesses: {correct}/9</span></div>
+		<div class="info-tile">
+			<span>{puzzle.rows[2].team_names[puzzle.rows[2].team_names.length - 1]}</span>
+		</div>
+		<div class="info-tile"><span>Guesses Remaining: {lives}/9</span></div>
 	</div>
-	<div class="info-tile"><span>Uniqueness Rating: 900</span></div>
-	<div class="info-tile"><span>{puzzle.rows[1].team_names[puzzle.rows[1].team_names.length-1]}</span></div>
-	<div class="info-tile"><span>Correct Guesses: {correct}/9</span></div>
-	<div class="info-tile"><span>{puzzle.rows[2].team_names[puzzle.rows[2].team_names.length-1]}</span></div>
-	<div class="info-tile"><span>Guesses Remaining: {lives}/9</span></div>
-</div>
 {:else}
-<div></div>
+	<div></div>
 {/if}
 
 <style>
@@ -62,22 +85,22 @@
 		justify-content: center;
 	}
 
-    .info-tile img {
-        max-width: 100%;
-        max-height: 100%;
-    }
+	.info-tile img {
+		max-width: 100%;
+		max-height: 100%;
+	}
 
-    .info-tile span {
-        padding: 1rem;
-    }
+	.info-tile span {
+		padding: 1rem;
+	}
 
 	.select-tile-span {
 		grid-area: span 3 / span 3 / span 3 / span 3;
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0px, 1fr));
-        grid-template-rows: repeat(3, minmax(0px, 1fr));
-        gap: 1px;
-        border-radius: 15px;
-        overflow: hidden;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0px, 1fr));
+		grid-template-rows: repeat(3, minmax(0px, 1fr));
+		gap: 1px;
+		border-radius: 15px;
+		overflow: hidden;
 	}
 </style>
