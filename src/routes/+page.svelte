@@ -7,13 +7,6 @@
 	import type { Team } from '$lib/models/Team';
 	import type { Puzzle } from '$lib/models/Puzzle';
 
-	// let p = generate_puzzle();
-	// while (p == null) {
-	//     console.log("invalid");
-	//     p = generate_puzzle();
-	// }
-	// console.log(p);
-
 	let puzzle: Puzzle;
 
 	function gen_puz() {
