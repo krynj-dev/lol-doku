@@ -1,4 +1,5 @@
 import time, codecs, datetime as dt, json, os
+from functools import cmp_to_key
 
 os.makedirs("cooked", exist_ok=True)
 
@@ -9,33 +10,57 @@ def compare_roster_recency(a, b):
     # print(in_a, in_b)
     if in_a[0] and in_b[0]:
         if dt.datetime.strptime(a["Primary"], "%Y-%m-%d") > dt.datetime.strptime(b["Primary"], "%Y-%m-%d"):
-            return True
+            return 1
         else:
-            return False
+            return -1
     elif in_a[0] and not in_b[0]:
-        return True
+        return 1
     elif not in_a[0] and in_b[0]:
-        return False
+        return -1
     elif in_a[1] and in_b[1]:
         if dt.datetime.strptime(a["Secondary"], "%Y-%m-%d") > dt.datetime.strptime(b["Secondary"], "%Y-%m-%d"):
-            return True
+            return 1
         else:
-            return False
+            return -1
     elif in_a[1] and not in_b[1]:
-        return True
+        return 1
     elif not in_a[1] and in_b[1]:
-        return False
+        return -1
     elif in_a[2] and in_b[2]:
         if dt.datetime.strptime(a[""], "%Y-%m-%d") > dt.datetime.strptime(b[""], "%Y-%m-%d"):
-            return True
+            return 1
         else:
-            return False
+            return -1
     elif in_a[2] and not in_b[2]:
-        return True
+        return 1
     elif not in_a[2] and in_b[2]:
-        return False
+        return -1
     else:
-        return True
+        return 1
+
+def get_set_list_key(set_list):
+    def set_list_key(a):
+        is_parent = False
+        is_sibling = False
+        is_child = False
+        for k in set_list.keys():
+            if k != a:
+                if a in set_list[k]["other_names"]:
+                    is_child = True
+                # if a in set_list[k]["sister_teams"]:
+                #     is_sibling = True
+                if a in set_list[k]["future_names"]:
+                    is_parent = True
+            if is_child and is_parent and is_sibling:
+                break
+        if is_child and not is_parent: # starting evolution
+            return -1
+        elif is_child and is_parent: # middle evolution
+            return 0
+        elif not is_child and is_parent: # final evolution
+            return 1
+        return 2 # no evolution line
+    return set_list_key
 
 
 raw_team_data = None
@@ -68,6 +93,7 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                 "short": raw_team["Short"],
                 "region": raw_team["Region"],
                 "image": raw_team["Image"],
+                "future_names": []
             }
         else:
             team_sets[overview_page]["other_names"].append(key)
@@ -100,6 +126,8 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                 team_sets[k_new]["other_names"] += [t for t in team_sets[k_old]["other_names"] if t not in team_sets[k_new]["other_names"]]
                 if k_old not in team_sets[k_new]["other_names"]:
                     team_sets[k_new]["other_names"].append(k_old)
+                if k_new not in team_sets[k_old]["future_names"]:
+                    team_sets[k_old]["future_names"].append(k_new)
                 # print(team_sets[k_new]["other_names"])
             elif k_old is not None:
                 team_sets[name_new] = {
@@ -109,7 +137,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                     "short": None,
                     "region": None,
                     "image": None,
+                    "future_names": []
                 }
+                team_sets[k_old]["future_names"].append(name_new)
             elif k_new is not None:
                 if name_old not in team_sets[k_new]["other_names"]:
                     team_sets[k_new]["other_names"].append(name_old)
@@ -121,8 +151,10 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                     "short": None,
                     "region": None,
                     "image": None,
+                    "future_names": []
                 }
-    
+
+    # Populate Sister Teams
     for raw_sister in raw_sister_data:
         sister_team = raw_sister["Team"]
         assoc_teams = raw_sister["AllTeams"]
@@ -136,10 +168,90 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                         team_sets[k_team]["sister_teams"].append(op_sister)
                 if (sister != team_sets[k_team]["name"] or sister != k_team) and sister not in team_sets[k_team]["sister_teams"]:
                     team_sets[k_team]["sister_teams"].append(sister)
-                
-        
-                            
-            
+
+    slk_func = get_set_list_key(team_sets)
+    
+    # Do merging
+    sorted_list = [k for k in sorted(team_sets.keys(), key=slk_func)]
+
+    cur_phase = -1
+    phase_0_cleanup = []
+    phase_1_begun = False
+    for k in sorted_list:
+        cur_phase = slk_func(k)
+        s = team_sets[k]
+        if cur_phase == -1:
+            give_to = set(s["other_names"] + s["sister_teams"])
+            for receiver in give_to:
+                k_rec = next((k for i, k in enumerate(team_sets) if k == receiver or team_sets[k]["other_names"] == receiver), None)
+                if k_rec is not None:
+                    # Give info over
+                    team_sets[k_rec]["other_names"] = list(set(team_sets[k_rec]["other_names"] + s["other_names"]))
+                    team_sets[k_rec]["sister_teams"] = list(set(team_sets[k_rec]["sister_teams"] + s["sister_teams"]))
+            del(team_sets[k])
+        elif cur_phase == 0:
+            give_to = set(s["other_names"] + s["sister_teams"])
+            for receiver in give_to:
+                k_rec = next((k for i, k in enumerate(team_sets) if k == receiver or team_sets[k]["other_names"] == receiver), None)
+                if k_rec is not None:
+                    # Give info over
+                    team_sets[k_rec]["other_names"] = list(set(team_sets[k_rec]["other_names"] + s["other_names"]))
+                    team_sets[k_rec]["sister_teams"] = list(set(team_sets[k_rec]["sister_teams"] + s["sister_teams"]))
+            phase_0_cleanup.append(k)
+        elif cur_phase >= 1:
+            if not phase_1_begun:
+                for delk in phase_0_cleanup:
+                    del(team_sets[delk])
+                phase_1_begun = True
+            give_to = set(s["other_names"] + s["sister_teams"])
+            for receiver in give_to:
+                k_rec = next((k for i, k in enumerate(team_sets) if k == receiver or team_sets[k]["other_names"] == receiver), None)
+                if k_rec is not None:
+                    # Give info over
+                    team_sets[k_rec]["other_names"] = list(set(team_sets[k_rec]["other_names"] + s["other_names"]))
+                    team_sets[k_rec]["sister_teams"] = list(set(team_sets[k_rec]["sister_teams"] + s["sister_teams"]))
+    
+    # Find which team to merge sister teams into
+    bubble_up = {}
+    ghosts = set()
+    for k in team_sets.keys():
+        assoc_teams = team_sets[k]["sister_teams"]
+    # for raw_sister in raw_sister_data:
+    #     assoc_teams = raw_sister["AllTeams"]
+        k_sisters = [
+            next((k for i, k in enumerate(team_sets) if k == st or st == team_sets[k]["other_names"][0]), st) for st in assoc_teams
+        ]
+        rec_list =[
+            (st, next((roster_recency[k] for i, k in enumerate(roster_recency) if k == k_sisters[st] or k == assoc_teams[st]), None)) for st in range(len(k_sisters))
+        ]
+        for a in [r for r in rec_list if r[1] is None]:
+            kdel = k_sisters[a[0]]
+            if kdel in team_sets.keys():
+                ghosts.add(kdel)
+        rec_list = [r for r in rec_list if r[1] is not None]
+        prio_list = sorted(rec_list, key=lambda x: cmp_to_key(compare_roster_recency)(x[1]), reverse=True)
+        for i in range(1, len(prio_list)):
+            x = prio_list[i][0]
+            master_team = k_sisters[prio_list[0][0]]
+            if k_sisters[x] not in bubble_up:
+                bubble_up[k_sisters[x]] = [master_team]
+            elif master_team not in bubble_up[k_sisters[x]]:
+                bubble_up[k_sisters[x]].append(master_team)
+    for g in ghosts:
+        if next((k for i, k in enumerate(team_sets) if k == g), None) is not None:
+            del(team_sets[g])
+
+    for k in bubble_up.keys():
+        if k not in bubble_up[k] and k in team_sets.keys():
+            for k2 in bubble_up[k]:
+                k2_sets = [g for g in team_sets.keys() if k2 in team_sets[g]["other_names"]]
+                for k3 in k2_sets:
+                    team_sets[k3]["other_names"] = list(set(team_sets[k3]["other_names"] + team_sets[k]["other_names"]))
+
+    for k in bubble_up.keys():
+        if k not in bubble_up[k] and k in team_sets.keys():
+            del(team_sets[k])
+    
     with open('cooked/teams.json', 'w+', encoding='utf-8') as f:
         json.dump(team_sets, f, ensure_ascii=False, indent=4)
     with open('cooked/log.txt', 'w+', encoding='utf-8') as f:
