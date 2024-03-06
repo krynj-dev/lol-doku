@@ -158,7 +158,6 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     for raw_sister in raw_sister_data:
         sister_team = raw_sister["Team"]
         assoc_teams = raw_sister["AllTeams"]
-        log += "{} | {}\n".format(sister_team, assoc_teams)
         k_team = next((k for i, k in enumerate(team_sets) if k == sister_team or sister_team == team_sets[k]["other_names"][0]), None)
         if k_team is not None:
             for sister in assoc_teams:
@@ -189,6 +188,7 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                     team_sets[k_rec]["other_names"] = list(set(team_sets[k_rec]["other_names"] + s["other_names"]))
                     team_sets[k_rec]["sister_teams"] = list(set(team_sets[k_rec]["sister_teams"] + s["sister_teams"]))
             del(team_sets[k])
+            slk_func = get_set_list_key(team_sets)
         elif cur_phase == 0:
             give_to = set(s["other_names"] + s["sister_teams"])
             for receiver in give_to:
@@ -202,6 +202,7 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
             if not phase_1_begun:
                 for delk in phase_0_cleanup:
                     del(team_sets[delk])
+                slk_func = get_set_list_key(team_sets)
                 phase_1_begun = True
             give_to = set(s["other_names"] + s["sister_teams"])
             for receiver in give_to:
@@ -238,8 +239,10 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
             elif master_team not in bubble_up[k_sisters[x]]:
                 bubble_up[k_sisters[x]].append(master_team)
     for g in ghosts:
+        log += "{}\n".format(g)
         if next((k for i, k in enumerate(team_sets) if k == g), None) is not None:
             del(team_sets[g])
+
 
     for k in bubble_up.keys():
         if k not in bubble_up[k] and k in team_sets.keys():
@@ -251,6 +254,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     for k in bubble_up.keys():
         if k not in bubble_up[k] and k in team_sets.keys():
             del(team_sets[k])
+    
+    with open('cooked/bubbles.json', 'w+', encoding='utf-8') as f:
+        json.dump(bubble_up, f, ensure_ascii=False, indent=4)
     
     with open('cooked/teams.json', 'w+', encoding='utf-8') as f:
         json.dump(team_sets, f, ensure_ascii=False, indent=4)
