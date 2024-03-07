@@ -2,28 +2,46 @@
     "Flayn eSports Danish Edition": [
         "Flayn eSports"
     ],
+    "Flayn eSports CZSK Edition": [
+        "Flayn eSports"
+    ],
     "Flayn eSports Dutch": [
         "Flayn eSports"
     ],
     "Flayn eSports Swiss Edition": [
         "Flayn eSports"
     ],
-    "00 Nation": [
+    "00 Prospects": [
         "00 Nation"
     ],
     "100 Thieves Challengers": [
         "100 Thieves"
     ],
-    "100 Thieves Next": [
-        "100 Thieves"
-    ],
     "100 Thieves Academy": [
         "100 Thieves"
     ],
-    "2144 Gaming": [
-        "2144 Danmu Gaming"
+    "100 Thieves Next": [
+        "100 Thieves"
     ],
-    "4Elements Esports": [
+    "17 Academy": [
+        "Machi Esports"
+    ],
+    "MachiX": [
+        "Machi Esports"
+    ],
+    "Machi 17": [
+        "Machi Esports"
+    ],
+    "Machi Crew": [
+        "Machi Esports"
+    ],
+    "2144 Danmu Gaming": [
+        "DAN Gaming"
+    ],
+    "2144 Gaming": [
+        "DAN Gaming"
+    ],
+    "4Elements Scuttle Squad": [
         "4Elements Esports"
     ],
     "5 Ronin Academy": [
@@ -35,23 +53,36 @@
     "Lotus (North American Team)": [
         "5 Seasons"
     ],
-    "Lotus Exiles": [
-        "5 Seasons"
-    ],
     "Black Lotus": [
         "5 Seasons"
     ],
-    "5 Seasons": [
+    "Keep Pathing Bot": [
         "5 Seasons"
+    ],
+    "Lotus Exiles": [
+        "5 Seasons"
+    ],
+    "Falkol Academy": [
+        "Falkol"
+    ],
+    "Falkol Storm": [
+        "Falkol"
     ],
     "7more7 Black": [
         "7more7"
     ],
+    "7more7 White": [
+        "7more7"
+    ],
     "7more7 Pompa Team Academy": [
-        "7more7 Pompa Team Academy"
+        "7more7 Pompa Team"
     ],
     "7th heaven": [
         "DetonatioN FocusMe"
+    ],
+    "ROX Tigers": [
+        "DetonatioN FocusMe",
+        "Hanwha Life Esports"
     ],
     "DetonatioN Rising": [
         "DetonatioN FocusMe"
@@ -62,13 +93,28 @@
     "DetonatioN FocusMe Academy": [
         "DetonatioN FocusMe"
     ],
+    "ROX COOL": [
+        "DetonatioN FocusMe",
+        "ROX Tigers",
+        "Hanwha Life Esports"
+    ],
+    "ROX Caracal": [
+        "DetonatioN FocusMe",
+        "ROX Tigers",
+        "Hanwha Life Esports"
+    ],
+    "Smash It Down": [
+        "DetonatioN FocusMe",
+        "ROX Tigers",
+        "Hanwha Life Esports"
+    ],
     "7th heaven X": [
         "DetonatioN FocusMe"
     ],
-    "Absolute Legends SG": [
+    "Absolute Legends NA": [
         "Absolute Legends"
     ],
-    "Absolute Legends NA": [
+    "Absolute Legends SG": [
         "Absolute Legends"
     ],
     "Absolute Legends CZSK": [
@@ -80,6 +126,9 @@
     "Absolute Legends.Alpha": [
         "Absolute Legends"
     ],
+    "Absolute Legends.Omega": [
+        "Absolute Legends"
+    ],
     "Absolved Female": [
         "Absolved"
     ],
@@ -87,19 +136,45 @@
         "Absolved"
     ],
     "Abyss Esports": [
-        "Abyss Academy"
+        "Abyss Academy",
+        "Bombers"
     ],
     "Abyss Esports White": [
-        "Abyss Academy"
+        "Abyss Academy",
+        "Bombers"
     ],
-    "ad hoc gaming Gentlemen's Club": [
-        "Mysterious Monkeys"
+    "Abyss Academy": [
+        "Bombers"
     ],
-    "ad hoc gaming": [
+    "Bombers Academy": [
+        "Bombers"
+    ],
+    "EDward Gaming Youth Team": [
+        "EDward Gaming"
+    ],
+    "Team Fighter": [
+        "EDward Gaming"
+    ],
+    "Team Hurricane": [
+        "EDward Gaming"
+    ],
+    "AD Gaming": [
+        "EDward Gaming"
+    ],
+    "EDward Esports": [
+        "EDward Gaming"
+    ],
+    "Ad hoc gaming Gentlemen's Club": [
         "Mysterious Monkeys"
     ],
     "Ad hoc gaming": [
         "Mysterious Monkeys"
+    ],
+    "Mysterious Monkeys.ESLM": [
+        "Mysterious Monkeys"
+    ],
+    "Aequilibritas E-Sports Denmark": [
+        "Aequilibritas E-Sports Poland"
     ],
     "Aethra Esports Academy": [
         "Aethra Esports Strijders"
@@ -109,6 +184,21 @@
     ],
     "Aethra Esports Belgium": [
         "Aethra Esports Strijders"
+    ],
+    "Afro Beast": [
+        "Team Afro"
+    ],
+    "BUFF": [
+        "Team Afro"
+    ],
+    "KOI (Spanish Team)": [
+        "Rogue (European Team)"
+    ],
+    "KOI Academy": [
+        "Rogue (European Team)"
+    ],
+    "KOI Amethyst": [
+        "Rogue (European Team)"
     ],
     "AGO ROGUE": [
         "Rogue (European Team)"
@@ -120,45 +210,66 @@
         "Rogue (European Team)"
     ],
     "SuperEsports": [
-        "ahq eSports Club"
+        "Ahq eSports Club"
     ],
-    "ahq Fighter": [
-        "ahq eSports Club"
+    "Ahq Fighter": [
+        "Ahq eSports Club"
     ],
     "Logitech G Snipers": [
-        "ahq eSports Club"
+        "Ahq eSports Club"
     ],
-    "ahq e-Sports Club Korea": [
-        "ahq eSports Club"
+    "Ahq e-Sports Club Korea": [
+        "Ahq eSports Club"
     ],
-    "ahq Girls": [
-        "ahq eSports Club"
+    "Ahq Girls": [
+        "Ahq eSports Club"
+    ],
+    "Ahq Snipers": [
+        "Ahq eSports Club"
+    ],
+    "Ahq eSports Club": [
+        "Ahq eSports Club"
+    ],
+    "Albus NoX Sidus": [
+        "Albus NoX Cometa"
+    ],
+    "Dewish Tnu Team": [
+        "Dewish Team"
     ],
     "Outplayed Academy": [
-        "aNc Outplayed"
+        "ANc Outplayed"
     ],
     "Outplayed Quintessential": [
-        "aNc Outplayed"
+        "ANc Outplayed"
     ],
     "Outplayed White": [
-        "aNc Outplayed"
+        "ANc Outplayed"
     ],
-    "ANEW Academy": [
-        "Zoos Gaming"
+    "ANc Outplayed": [
+        "ANc Outplayed"
+    ],
+    "ANEW Esports": [
+        "ANEW Blaze"
     ],
     "ANEW Rising": [
-        "Zoos Gaming"
+        "ANEW Blaze"
     ],
     "ANEW Dawn": [
-        "Zoos Gaming"
+        "ANEW Blaze"
+    ],
+    "ANEW Academy": [
+        "ANEW Blaze"
     ],
     "ANEW Hope": [
-        "Zoos Gaming"
+        "ANEW Blaze"
+    ],
+    "ANEW Genesis": [
+        "ANEW Blaze"
     ],
     "Angry Bats Academy": [
         "Angry Bats"
     ],
-    "Anorthosis Famagusta Esports": [
+    "Anorthosis Famagusta Esports Academy": [
         "Anorthosis Famagusta Esports"
     ],
     "Anyone's Legend.Young": [
@@ -191,10 +302,10 @@
     "Immortals Area of Effect": [
         "Immortals"
     ],
-    "Area of Effect Not Zoos": [
+    "Area of Effect Cope": [
         "Immortals"
     ],
-    "Area of Effect Cope": [
+    "Area of Effect Not Zoos": [
         "Immortals"
     ],
     "Area of Effect Need Her": [
@@ -203,20 +314,43 @@
     "Area of Effect Vice": [
         "Immortals"
     ],
+    "Area of Effect Brady": [
+        "Immortals"
+    ],
     "Area of Effect Will's Kittens": [
+        "Immortals"
+    ],
+    "Area of Effect Dinka LFGF": [
         "Immortals"
     ],
     "Apex Mission Impossible": [
         "Apex Flame Horizon"
     ],
-    "Apex Gaming": [
+    "Apex Pride": [
         "Apex Gaming"
     ],
     "Arctic Academy": [
-        "Arctic Gaming Mexico"
+        "Arctic Gaming Mexico",
+        "G2 Esports"
     ],
     "Arctic Gaming": [
-        "Arctic Gaming Mexico"
+        "Arctic Gaming Mexico",
+        "G2 Esports"
+    ],
+    "G2 Hel": [
+        "G2 Esports"
+    ],
+    "G2 Arctic": [
+        "G2 Esports"
+    ],
+    "Arctic Gaming Mexico": [
+        "G2 Esports"
+    ],
+    "G2 Heretics": [
+        "G2 Esports"
+    ],
+    "G2 Vodafone": [
+        "G2 Esports"
     ],
     "Arena Quesito": [
         "Team Queso"
@@ -230,34 +364,47 @@
     "Astralis SB": [
         "Astralis"
     ],
-    "ASUS ROG Female": [
-        "ASUS ROG Female"
+    "S2V Esports Academy": [
+        "S2V Esports"
     ],
-    "Atleta Esport": [
+    "ASUS ROG Army": [
+        "S2V Esports"
+    ],
+    "S2V Esports Female": [
+        "S2V Esports"
+    ],
+    "ASUS ROG Female": [
+        "S2V Esports",
+        "ASUS ROG Army"
+    ],
+    "Atleta Esport Academy": [
         "Atleta Esport"
     ],
-    "Avant Academy": [
-        "Avant Gaming"
+    "ATR esports": [
+        "ATR esports Denmark"
     ],
-    "Avant Garde Redemption": [
+    "Avant Academy": [
         "Avant Gaming"
     ],
     "Avant Garde Ascension": [
         "Avant Gaming"
     ],
+    "Avant Garde Redemption": [
+        "Avant Gaming"
+    ],
     "Awesome": [
-        "Awesome"
+        "Spear Gaming"
     ],
     "Awesome Spear Academy": [
-        "Awesome"
+        "Spear Gaming"
     ],
     "Awesome Spear": [
-        "Awesome"
+        "Spear Gaming"
     ],
     "AXIZ Academy": [
         "AXIZ"
     ],
-    "AXIZ CREST": [
+    "AXIZ CREST Academy": [
         "AXIZ CREST"
     ],
     "Axolotl Academy": [
@@ -266,10 +413,13 @@
     "AZIO Black": [
         "AZIO eSports"
     ],
-    "Azubu Blaze": [
+    "AZIO White": [
+        "AZIO eSports"
+    ],
+    "Azubu Frost": [
         "Azubu Blaze"
     ],
-    "Azules Esports": [
+    "Azules Esports Academy": [
         "Azules Esports"
     ],
     "Baby Whales": [
@@ -284,7 +434,16 @@
     "Barrage Esports Retirement Home": [
         "Barrage.NA"
     ],
-    "Berlin International Gaming": [
+    "ESports Connected": [
+        "Seorabeol Gaming"
+    ],
+    "ESC Ever": [
+        "Seorabeol Gaming"
+    ],
+    "ESC Shane": [
+        "Seorabeol Gaming"
+    ],
+    "Berlin International Gaming Chroma": [
         "Berlin International Gaming"
     ],
     "Beşiktaş.Oyun Hizmetleri": [
@@ -296,23 +455,35 @@
     "Beşiktaş Esports Female": [
         "Beşiktaş Esports"
     ],
-    "Beyond Gaming": [
+    "Beyond Gaming Academy": [
         "Beyond Gaming"
     ],
     "Bifrost": [
         "Bifrost White"
     ],
-    "Big Gods": [
+    "Big Gods Jackals": [
         "Big Gods"
     ],
-    "Bilibili Gaming": [
+    "Bilibili Gaming Junior": [
         "Bilibili Gaming"
-    ],
-    "Bombers": [
-        "Bombers"
     ],
     "BrawL.NA": [
         "BrawL eSports"
+    ],
+    "BRION": [
+        "OKSavingsBank BRION"
+    ],
+    "OKSavingsBank BRION Challengers": [
+        "OKSavingsBank BRION"
+    ],
+    "OKSavingsBank BRION Academy": [
+        "OKSavingsBank BRION"
+    ],
+    "BRION Academy": [
+        "OKSavingsBank BRION"
+    ],
+    "BRION Challengers": [
+        "OKSavingsBank BRION"
     ],
     "Brussels Guardians": [
         "Brussels Guardians Academy"
@@ -320,58 +491,64 @@
     "BRUTE Talents": [
         "BRUTE"
     ],
-    "BUFF": [
-        "Afro Beast"
-    ],
     "Burning Core Academy": [
         "Burning Core Toyama"
     ],
-    "CCG Esports": [
-        "CCG Esports"
+    "Bursaspor Esports": [
+        "5 Ronin"
     ],
-    "CERBERUS Esports (Vietnamese Team)": [
+    "Bursaspor Academy": [
+        "5 Ronin"
+    ],
+    "CCG Esports": [
+        "CCG Futures"
+    ],
+    "Puppies Esports": [
         "CERBERUS Esports (Vietnamese Team)"
     ],
     "Chiefs Academy": [
-        "Chiefs Academy"
+        "Chiefs Esports Club"
     ],
     "Chiefs Black": [
-        "Chiefs Academy"
+        "Chiefs Esports Club"
     ],
     "Chilly Mountain Chipmunks": [
         "Chilly Mountain Wolves"
     ],
-    "Chungnam Juego Esports": [
+    "CNJ Esports": [
         "Chungnam Juego Esports"
     ],
     "Chunnam Techno University": [
-        "Chunnam Techno University"
+        "CTU Pathos"
     ],
     "CTU Revolt": [
-        "Chunnam Techno University"
+        "CTU Pathos"
     ],
     "CTU Logos": [
-        "Chunnam Techno University"
+        "CTU Pathos"
     ],
     "CJ Entus Blaze": [
         "CJ Entus"
     ],
-    "CJ Entus": [
+    "CJ Entus Frost": [
         "CJ Entus"
     ],
     "Counter Logic Gaming Europe": [
         "Counter Logic Gaming"
     ],
-    "CLG Faith": [
+    "CLG Challengers": [
         "Counter Logic Gaming"
     ],
-    "CLG Challengers": [
+    "CLG Faith": [
         "Counter Logic Gaming"
     ],
     "CLG Academy": [
         "Counter Logic Gaming"
     ],
-    "Cloud9": [
+    "CLG Black": [
+        "Counter Logic Gaming"
+    ],
+    "Cloud9 Challenger": [
         "Cloud9"
     ],
     "Cloud9 Tempest": [
@@ -389,31 +566,61 @@
     "Cloud9 Amateur": [
         "Cloud9"
     ],
-    "CNB e-Sports Club": [
+    "Clutch Gaming": [
+        "Dignitas"
+    ],
+    "Team Dignitas UK": [
+        "Dignitas"
+    ],
+    "Dignitas Challengers": [
+        "Dignitas"
+    ],
+    "Dignitas Academy": [
+        "Dignitas"
+    ],
+    "Dignitas Mirage": [
+        "Dignitas"
+    ],
+    "Clutch Gaming Academy": [
+        "Dignitas"
+    ],
+    "Team Dignitas EU": [
+        "Dignitas"
+    ],
+    "Team Dignitas OCE": [
+        "Dignitas"
+    ],
+    "CNB Infinity": [
         "CNB e-Sports Club"
     ],
     "CNB Trinity White": [
         "CNB e-Sports Club"
     ],
+    "CNB Trinity Blue": [
+        "CNB e-Sports Club"
+    ],
+    "CompLexity.White": [
+        "CompLexity.Black"
+    ],
+    "CompLexity Gaming": [
+        "CompLexity.Black"
+    ],
     "CompLexity Academy": [
-        "compLexity.White"
+        "CompLexity.Black"
     ],
-    "compLexity Gaming": [
-        "compLexity.White"
+    "CompLexity.Red": [
+        "CompLexity.Black"
     ],
-    "compLexity Academy": [
-        "compLexity.White"
-    ],
-    "compLexity.Red": [
-        "compLexity.White"
-    ],
-    "ConViction Sun": [
-        "ConViction"
+    "CompLexity.Black": [
+        "CompLexity.Black"
     ],
     "ConViction Moon": [
         "ConViction"
     ],
-    "Copenhagen Wolves": [
+    "ConViction Sun": [
+        "ConViction"
+    ],
+    "Copenhagen Wolves Academy": [
         "Copenhagen Wolves"
     ],
     "CowBoySquad Imperials Esports Academy": [
@@ -432,7 +639,7 @@
         "Cruzeiro eSports"
     ],
     "Crypto Esports": [
-        "Crypto Esports"
+        "Crypto Esports.CIS"
     ],
     "CTBC Flying Oyster Academy": [
         "CTBC Flying Oyster"
@@ -440,23 +647,32 @@
     "CTRL PLAY Academy": [
         "CTRL PLAY"
     ],
-    "Cyber Gaming": [
+    "Adonis Esports": [
+        "CERBERUS Esports (Vietnamese Team)"
+    ],
+    "Cube Adonis Hutech": [
+        "CERBERUS Esports (Vietnamese Team)"
+    ],
+    "Cyber Gaming Academy": [
+        "Cyber Gaming"
+    ],
+    "Cyber Gaming Mermaids": [
         "Cyber Gaming"
     ],
     "Cyberground Gaming Academy": [
         "Cyberground Gaming"
     ],
-    "D-City Gaming Stars": [
+    "D-City Gaming Stars Gold": [
         "D-City Gaming Stars"
     ],
     "D-City Gaming Stars Blue": [
         "D-City Gaming Stars"
     ],
     "Dare White": [
-        "Dare Black"
+        "Dare Gaming"
     ],
     "Dare Black": [
-        "Dare Black"
+        "Dare Gaming"
     ],
     "Dark Matter": [
         "Supernova"
@@ -464,29 +680,47 @@
     "Super Nova Sentinels": [
         "Supernova"
     ],
+    "Hyper Nova": [
+        "Supernova"
+    ],
     "Super Nova Academy": [
         "Supernova"
     ],
-    "Dark Passage": [
+    "Dark Passage Academy": [
         "Dark Passage"
     ],
-    "Dark Passage Academy": [
+    "Dark Passage White": [
         "Dark Passage"
     ],
     "Dark Tigers Academy": [
         "Dark Tigers"
     ],
-    "Dawn Esports Shock": [
+    "Dawn Esports Blaze": [
         "Dawn Esports"
     ],
-    "Dawn Esports": [
+    "Dawn Esports Shock": [
         "Dawn Esports"
     ],
     "Deep Cross Gaming Academy": [
         "Deep Cross Gaming"
     ],
+    "LowLandLions.White": [
+        "LowLandLions"
+    ],
+    "LowLandLions.Fire": [
+        "LowLandLions"
+    ],
+    "LowLandLions.Ice": [
+        "LowLandLions"
+    ],
+    "LowLandLions.Black": [
+        "LowLandLions"
+    ],
     "Deliverance Esports": [
         "Deliverance Esports Peru"
+    ],
+    "Echo Fox Academy": [
+        "Echo Fox"
     ],
     "Delta Fox": [
         "Echo Fox"
@@ -501,60 +735,66 @@
         "DeToNator (Southeast Asian Team)"
     ],
     "devils.one Female": [
-        "devils.one"
+        "Devils.one"
     ],
     "Komputronik Gaming Scouting Grounds": [
-        "devils.one"
+        "Devils.one"
     ],
     "DV1 Scouting Grounds": [
-        "devils.one"
+        "Devils.one"
     ],
-    "Dewish Tnu Team": [
-        "Dewish Team"
+    "Devils.one": [
+        "Devils.one"
     ],
     "Different Dimension Blue": [
         "Different Dimension"
     ],
-    "Team Dignitas UK": [
-        "Dignitas"
-    ],
-    "Dignitas Challengers": [
-        "Dignitas"
-    ],
-    "Dignitas Academy": [
-        "Dignitas"
-    ],
-    "Dignitas Mirage": [
-        "Dignitas"
-    ],
-    "Team Dignitas EU": [
-        "Dignitas"
-    ],
-    "Team Dignitas OCE": [
-        "Dignitas"
-    ],
     "Dire Cubs": [
         "Dire Wolves"
     ],
-    "DMG Esports Norway": [
-        "DMG Esports Sweden"
+    "DMG Esports Sweden": [
+        "DMG Esports Norway"
     ],
     "DMG Esports Denmark": [
-        "DMG Esports Sweden"
+        "DMG Esports Norway"
     ],
     "DMG Esports": [
-        "DMG Esports Sweden"
+        "DMG Esports Norway"
     ],
     "DMG Esports United Kingdom": [
-        "DMG Esports Sweden"
+        "DMG Esports Norway"
     ],
     "DMG Esports Finland": [
-        "DMG Esports Sweden"
+        "DMG Esports Norway"
+    ],
+    "DMG Esports Wings": [
+        "DMG Esports Norway"
+    ],
+    "Dominus Esports": [
+        "ThunderTalk Gaming"
+    ],
+    "ThunderTalk Gaming Young": [
+        "ThunderTalk Gaming"
+    ],
+    "Dominus Esports Young": [
+        "ThunderTalk Gaming"
+    ],
+    "Echo Zulu Domme Jongens": [
+        "Team Echo Zulu"
+    ],
+    "Team Echo Zulu Tribe": [
+        "Team Echo Zulu"
+    ],
+    "Team Echo Zulu Academy": [
+        "Team Echo Zulu"
     ],
     "Dplus KIA Challengers": [
         "Dplus KIA"
     ],
     "Dplus KIA Academy": [
+        "Dplus KIA"
+    ],
+    "Dplus Esports Academy": [
         "Dplus KIA"
     ],
     "Dragon Army Academy": [
@@ -564,16 +804,32 @@
         "Dragon Gate Team"
     ],
     "Vici Potential Gaming": [
-        "Vici Gaming"
+        "Vici Gaming",
+        "Rare Atom"
+    ],
+    "Vici Gaming Potential": [
+        "Vici Gaming",
+        "Rare Atom"
     ],
     "Vici Esports": [
-        "Vici Gaming"
+        "Vici Gaming",
+        "Rare Atom"
     ],
     "Dream VGirls": [
-        "Vici Gaming"
+        "Vici Gaming",
+        "Rare Atom"
     ],
     "Vici Gaming 2": [
-        "Vici Gaming"
+        "Vici Gaming",
+        "Rare Atom"
+    ],
+    "Vici Star Gaming": [
+        "Vici Gaming",
+        "Rare Atom"
+    ],
+    "Vici Gaming Academy": [
+        "Vici Gaming",
+        "Rare Atom"
     ],
     "DRX Challengers": [
         "DRX"
@@ -587,11 +843,20 @@
     "Dynasty Academy": [
         "Dynasty"
     ],
-    "E-corp Gaming": [
+    "E-corp Gentle": [
         "E-corp Gaming"
     ],
     "E-corp Glorious": [
         "E-corp Gaming"
+    ],
+    "NaJin White Shield": [
+        "NaJin e-mFire"
+    ],
+    "NaJin Black Sword": [
+        "NaJin e-mFire"
+    ],
+    "E-mFire": [
+        "NaJin e-mFire"
     ],
     "Eclypsia Spirit": [
         "Eclypsia"
@@ -599,19 +864,10 @@
     "Eclypsia.Luna": [
         "Eclypsia"
     ],
-    "EDward Gaming Youth Team": [
-        "EDward Gaming"
+    "Eclypsia.Solaris": [
+        "Eclypsia"
     ],
-    "Team Hurricane": [
-        "EDward Gaming"
-    ],
-    "AD Gaming": [
-        "EDward Gaming"
-    ],
-    "EDward Esports": [
-        "EDward Gaming"
-    ],
-    "EGN Esports": [
+    "EGN Esports Academy": [
         "EGN Esports"
     ],
     "Energy Pacemaker.Carries": [
@@ -620,23 +876,50 @@
     "Energy Pacemaker": [
         "Energy Pacemaker.All"
     ],
-    "YouCantStopMe": [
+    "Energy Pacemaker.YCSM": [
         "Energy Pacemaker.All"
     ],
-    "ESports Connected": [
-        "Seorabeol Gaming"
+    "Team Dynamics": [
+        "Nongshim RedForce"
     ],
-    "ESC Shane": [
-        "Seorabeol Gaming"
+    "Nongshim Esports Academy": [
+        "Nongshim RedForce"
     ],
-    "Estral Esports": [
-        "Estral Esports"
+    "Nongshim RedForce Academy": [
+        "Nongshim RedForce"
+    ],
+    "Team Dynamics Academy": [
+        "Nongshim RedForce"
+    ],
+    "ESCORT P9 Academy": [
+        "ESCORT P9"
+    ],
+    "eStar (Chinese Team)": [
+        "Ultra Prime"
+    ],
+    "Ultra Prime Academy": [
+        "Ultra Prime"
+    ],
+    "EStar Young": [
+        "Ultra Prime"
     ],
     "Estral E-Sports Colombia": [
         "Estral Esports"
     ],
+    "Estral Esports Academy": [
+        "Estral Esports"
+    ],
+    "Estral Esports Aurora": [
+        "Estral Esports"
+    ],
     "ESuba": [
-        "eSuba Academy"
+        "ESuba Academy"
+    ],
+    "eSuba Ladies": [
+        "ESuba Academy"
+    ],
+    "ESuba Academy": [
+        "ESuba Academy"
     ],
     "Evil Geniuses.EU": [
         "Evil Geniuses.NA"
@@ -647,55 +930,70 @@
     "Evil Geniuses Academy": [
         "Evil Geniuses.NA"
     ],
+    "Evil Geniuses Prodigies": [
+        "Evil Geniuses.NA"
+    ],
     "EVOS Valkyrie": [
         "EVOS Esports"
     ],
     "JDXL": [
-        "ExceL Academy"
+        "Excel Esports"
     ],
     "exceL Ladies": [
-        "ExceL Academy"
+        "Excel Esports"
     ],
-    "exceL Academy": [
-        "ExceL Academy"
+    "ExceL Academy": [
+        "Excel Esports"
     ],
     "EYES ON U": [
         "EYES ON U Europe"
     ],
-    "Falkol Academy": [
-        "Falkol"
-    ],
-    "Falkol": [
-        "Falkol"
-    ],
-    "FC Schalke 04 Esports": [
+    "FC Schalke 04 Evolution": [
         "FC Schalke 04 Esports"
     ],
     "FearX Youth": [
         "FearX"
     ],
-    "Fenerbahçe Academy": [
-        "Fenerbahçe Academy"
+    "FearX Academy": [
+        "FearX"
     ],
-    "FENNEL": [
+    "Fenerbahçe Academy": [
+        "Fenerbahçe Esports"
+    ],
+    "FENNEL Academy": [
         "FENNEL"
     ],
-    "KOI Academy": [
-        "KOI Academy"
+    "Flamengo Los Grandes": [
+        "Los Grandes"
     ],
-    "KOI Amethyst": [
-        "KOI Academy"
+    "Flamengo Esports": [
+        "Los Grandes"
+    ],
+    "Flamengo Academy": [
+        "Los Grandes"
+    ],
+    "Los Grandes Academy": [
+        "Los Grandes"
+    ],
+    "Flamengo Los Grandes Academy": [
+        "Los Grandes"
     ],
     "Flash Husky": [
         "Flash Wolves"
     ],
-    "Fluxo": [
+    "Flash Wolves Junior": [
+        "Flash Wolves"
+    ],
+    "Fluxo Academy": [
         "Fluxo"
     ],
     "FlyQuest Challengers": [
         "FlyQuest"
     ],
     "FLY FAM": [
+        "FlyQuest"
+    ],
+    "FlyQuest Academy": [
         "FlyQuest"
     ],
     "Fly5": [
@@ -716,10 +1014,25 @@
     "For The Win Prinfor": [
         "For The Win Evolution"
     ],
-    "FPT Hanoi": [
+    "Maturalni Forsaken": [
+        "Maturalni Forsaken Academy"
+    ],
+    "FPT Ho Chi Minh": [
         "FPT Hanoi"
     ],
-    "Frank Esports": [
+    "FPT University": [
+        "FPT Hanoi"
+    ],
+    "FPT Da Nang": [
+        "FPT Hanoi"
+    ],
+    "FPT Hanoi 2": [
+        "FPT Hanoi"
+    ],
+    "FPT Can Tho": [
+        "FPT Hanoi"
+    ],
+    "Frank Esports Academy": [
         "Frank Esports"
     ],
     "Fukuoka SoftBank HAWKS gaming Academy": [
@@ -728,7 +1041,7 @@
     "FunPlus Phoenix Blaze": [
         "FunPlus Phoenix"
     ],
-    "FURIA": [
+    "FURIA Academy": [
         "FURIA"
     ],
     "Furious Gaming Chile": [
@@ -743,10 +1056,10 @@
     "Furious Gaming Red": [
         "Furious Gaming"
     ],
-    "Future Perfect UA": [
+    "Future Perfect Blue": [
         "WLGaming Esports Academy"
     ],
-    "Future Perfect Blue": [
+    "Future Perfect UA": [
         "WLGaming Esports Academy"
     ],
     "Future Perfect Azure": [
@@ -758,13 +1071,16 @@
     "Future Perfect Purple": [
         "WLGaming Esports Academy"
     ],
+    "Future Perfect WLGaming": [
+        "WLGaming Esports Academy"
+    ],
+    "Future Perfect Demacia": [
+        "WLGaming Esports Academy"
+    ],
     "Future Perfect Ionia": [
         "WLGaming Esports Academy"
     ],
     "Future Perfect Zaun": [
-        "WLGaming Esports Academy"
-    ],
-    "Future Perfect Demacia": [
         "WLGaming Esports Academy"
     ],
     "Future Perfect Noxus": [
@@ -773,32 +1089,35 @@
     "Future Perfect ESLM": [
         "WLGaming Esports Academy"
     ],
-    "G-Rex": [
+    "G-Rex Infinite": [
         "G-Rex"
     ],
-    "G2 Hel": [
-        "G2 Esports"
-    ],
-    "G2 Arctic": [
-        "G2 Esports"
-    ],
-    "G2 Heretics": [
-        "G2 Esports"
-    ],
-    "Galakticos": [
+    "Galakticos Academy": [
         "Galakticos"
     ],
     "Galatasaray Academy": [
-        "Galatasaray Academy"
+        "Galatasaray Esports"
+    ],
+    "Galaxy Racer Esports MENA Male": [
+        "Nigma Galaxy Male"
     ],
     "Galaxy Racer Esports MENA Female": [
+        "Nigma Galaxy Male",
         "Galaxy Racer Esports MENA Male"
     ],
     "Galaxy Racer Esports EU Male": [
+        "Nigma Galaxy Male",
         "Galaxy Racer Esports MENA Male"
     ],
     "Galaxy Racer Esports EU Female": [
+        "Nigma Galaxy Male",
         "Galaxy Racer Esports MENA Male"
+    ],
+    "Nigma Galaxy": [
+        "Nigma Galaxy Male"
+    ],
+    "Nigma Galaxy MENA": [
+        "Nigma Galaxy Male"
     ],
     "Gama E-Sport Dream": [
         "Gama Dream"
@@ -809,17 +1128,48 @@
     "Gambit.CIS Academy": [
         "Gambit Esports"
     ],
+    "Team WE Academy": [
+        "Team WE"
+    ],
+    "Game Talents": [
+        "Team WE"
+    ],
+    "Team WE Future": [
+        "Team WE"
+    ],
+    "Mighty Eagle": [
+        "Team WE"
+    ],
+    "New WE": [
+        "Team WE"
+    ],
+    "Team WE Dreams": [
+        "Team WE"
+    ],
+    "Team WE.i-Rocks": [
+        "Team WE"
+    ],
+    "Team W3": [
+        "Team WE"
+    ],
+    "Team GO Aurora": [
+        "Team GO"
+    ],
+    "GamersOrigin": [
+        "Team GO"
+    ],
     "GamersOrigin Academy": [
+        "Team GO",
         "GamersOrigin"
     ],
-    "GameWard": [
+    "GameWard Academy": [
         "GameWard"
     ],
-    "GC Busan Ascension": [
-        "GC Busan (2020 Korean Team)"
+    "GC Busan Rising Star": [
+        "GC Busan Ascension"
     ],
     "GC Busan (2020 Korean Team)": [
-        "GC Busan (2020 Korean Team)"
+        "GC Busan Ascension"
     ],
     "Gen.G Global Academy": [
         "Gen.G"
@@ -830,16 +1180,19 @@
     "Gentlemen's Academy": [
         "Gentlemen's Gaming"
     ],
-    "GGEsports": [
+    "GGEsports Academy": [
         "GGEsports"
     ],
-    "Giants Academy": [
+    "Vodafone Giants.Spain": [
         "Giants Gaming"
     ],
     "Vodafone Giants Academy": [
         "Giants Gaming"
     ],
     "Vodafone Giants White": [
+        "Giants Gaming"
+    ],
+    "Giants Academy": [
         "Giants Gaming"
     ],
     "GIANTX Academy": [
@@ -857,13 +1210,13 @@
     "Glorious Gaming Belgium": [
         "Glorious Gaming"
     ],
-    "Golden Guardians": [
-        "Golden Guardians"
-    ],
     "Golden Guardians Challengers": [
         "Golden Guardians"
     ],
-    "Gravitas": [
+    "Golden Guardians Academy": [
+        "Golden Guardians"
+    ],
+    "Gravitas Academy": [
         "Gravitas"
     ],
     "Grow uP Girls EU": [
@@ -887,20 +1240,32 @@
     "Hanwha Life Esports Academy": [
         "Hanwha Life Esports"
     ],
-    "Havan Liberty Gaming": [
+    "HR Academy": [
+        "Albus NoX Cometa"
+    ],
+    "Havan Liberty Academy": [
         "Havan Liberty Gaming"
     ],
     "Hive Athens Academy": [
-        "Hive Athens Academy"
-    ],
-    "Hong Kong Attitude": [
-        "Hong Kong Attitude"
+        "Hive Athens EC"
     ],
     "Hong Kong Esports": [
         "Hong Kong Attitude"
     ],
+    "Hong Kong Attitude Mage": [
+        "Hong Kong Attitude"
+    ],
     "Hong Kong Attitude Priest": [
         "Hong Kong Attitude"
+    ],
+    "HWA Gaming": [
+        "Istanbul Wildcats"
+    ],
+    "Istanbul Wildcats Academy": [
+        "Istanbul Wildcats"
+    ],
+    "HWA Gaming Academy": [
+        "Istanbul Wildcats"
     ],
     "Hybrid Esports Benelux": [
         "Hybrid Esports"
@@ -908,25 +1273,36 @@
     "Hybrid Esports UK": [
         "Hybrid Esports"
     ],
-    "Impunity": [
+    "KaBuM! IDM UP": [
+        "KaBuM! IDM Gaming"
+    ],
+    "Imperium Pro Team S": [
+        "Imperium Pro Team Blue"
+    ],
+    "Impunity Legends": [
         "Impunity"
     ],
-    "Inaequalis": [
+    "Inaequalis Academy": [
         "Inaequalis"
     ],
-    "Incredible Miracle 2": [
+    "Incredible Miracle": [
         "DRX"
     ],
     "Incredible Miracle 1": [
-        "DRX"
+        "DRX",
+        "Incredible Miracle"
     ],
-    "INFINITY": [
-        "INFINITY"
+    "Incredible Miracle 2": [
+        "DRX",
+        "Incredible Miracle"
     ],
     "Infinity Esports Academy": [
         "INFINITY"
     ],
     "Infinity Esports Colombia": [
+        "INFINITY"
+    ],
+    "Infinity Esports Costa Rica": [
         "INFINITY"
     ],
     "Inside Games Challengers": [
@@ -935,10 +1311,10 @@
     "Inside Games Academy": [
         "Inside Games"
     ],
-    "INTZ": [
+    "INTZ.Genesis": [
         "INTZ"
     ],
-    "INTZ.Genesis": [
+    "INTZ Red": [
         "INTZ"
     ],
     "INTZ Academy": [
@@ -947,7 +1323,14 @@
     "INTZ Blue": [
         "INTZ"
     ],
-    "Invictus Gaming": [
+    "RED Canids": [
+        "INTZ"
+    ],
+    "RED Academy": [
+        "INTZ",
+        "RED Canids"
+    ],
+    "Invictus Gaming Young": [
         "Invictus Gaming"
     ],
     "Young Glory": [
@@ -956,14 +1339,11 @@
     "Invictus Girls": [
         "Invictus Gaming"
     ],
-    "Ion Squad": [
+    "iG Deadly Fiend Girls": [
+        "Invictus Gaming"
+    ],
+    "Ion Squad Academy": [
         "Ion Squad"
-    ],
-    "Istanbul Wildcats Academy": [
-        "Istanbul Wildcats"
-    ],
-    "Isurus": [
-        "Isurus"
     ],
     "Isurus Academy": [
         "Isurus"
@@ -971,13 +1351,19 @@
     "Isurus Gaming HyperX": [
         "Isurus"
     ],
+    "Isurus Gaming Chile": [
+        "Isurus"
+    ],
     "Taipei Bravo": [
         "J Team"
     ],
-    "Janus Esports": [
-        "Janus Esports"
+    "J Team 2": [
+        "J Team"
     ],
     "Janus Esports Academy": [
+        "Janus Esports"
+    ],
+    "Janus Vipers": [
         "Janus Esports"
     ],
     "Joy Dream": [
@@ -992,29 +1378,41 @@
     "Young Ninjas": [
         "Ninjas in Pyjamas.CN"
     ],
+    "Jin Air Green Wings Falcons": [
+        "Jin Air Green Wings"
+    ],
     "Jin Air Green Wings Stealths": [
         "Jin Air Green Wings"
     ],
-    "Jin Air Green Wings": [
-        "Jin Air Green Wings"
-    ],
     "K1ck White": [
-        "K1CK"
+        "K1ck eSports Club"
+    ],
+    "KaBuM! Black": [
+        "KaBuM! Esports"
     ],
     "KaBuM! Academy": [
         "KaBuM! Esports"
     ],
-    "Kaos Latin Gamers": [
-        "Kaos Latin Gamers"
+    "Karmine Corp Blue": [
+        "Karmine Corp"
     ],
     "Kaos Latin Gamers Academy": [
         "Kaos Latin Gamers"
     ],
-    "Karmine Corp Blue": [
-        "Karmine Corp"
+    "Play Again": [
+        "Kaos Latin Gamers"
     ],
     "Keyd Warriors": [
         "Vivo Keyd"
+    ],
+    "Topsports Gaming": [
+        "Top Esports"
+    ],
+    "Top Esports Challenger": [
+        "Top Esports"
+    ],
+    "King of Future": [
+        "Top Esports"
     ],
     "KT Rolster Challengers": [
         "KT Rolster"
@@ -1028,7 +1426,7 @@
     "KT Rolster Academy": [
         "KT Rolster"
     ],
-    "KV Mechelen Esports": [
+    "KV Mechelen Esports Strijders": [
         "KV Mechelen Esports"
     ],
     "KV Mechelen Esports Academy": [
@@ -1037,19 +1435,19 @@
     "Kwangdong Freecs Challengers": [
         "Kwangdong Freecs"
     ],
-    "Kwangdong Freecs": [
+    "Kwangdong Freecs Academy": [
         "Kwangdong Freecs"
     ],
     "Kx.LM": [
-        "Kx.Cash"
+        "Kx.Happy"
     ],
     "Kx.R": [
-        "Kx.Cash"
+        "Kx.Happy"
     ],
     "Kx.Cash": [
-        "Kx.Cash"
+        "Kx.Happy"
     ],
-    "LDLC OL": [
+    "Tony Parker Adequat Academy": [
         "LDLC OL"
     ],
     "LDM Mexico": [
@@ -1070,17 +1468,32 @@
     "Lemondogs Argentina": [
         "Lemondogs"
     ],
-    "Leviatan": [
+    "Leviatan Esports Chile": [
         "Leviatan"
-    ],
-    "LGD Gaming": [
-        "LGD Gaming"
     ],
     "LGD Gaming Young Team": [
         "LGD Gaming"
     ],
+    "VP Game": [
+        "LGD Gaming"
+    ],
+    "LGD Legend": [
+        "LGD Gaming"
+    ],
+    "LGD Gaming Academy": [
+        "LGD Gaming"
+    ],
     "Liberty Academy": [
         "Liberty"
+    ],
+    "Liiv SANDBOX": [
+        "FearX"
+    ],
+    "Liiv SANDBOX Academy": [
+        "FearX"
+    ],
+    "Liiv SANDBOX Youth": [
+        "FearX"
     ],
     "LNG Academy": [
         "LNG Esports"
@@ -1094,11 +1507,11 @@
     "Snake WuDu": [
         "LNG Esports"
     ],
-    "Snake Two": [
+    "WuDu": [
         "LNG Esports"
     ],
-    "Los Grandes Academy": [
-        "Los Grandes"
+    "Snake Two": [
+        "LNG Esports"
     ],
     "Team Heretics Academy": [
         "Team Heretics"
@@ -1106,23 +1519,11 @@
     "Lotus Esports (2019 North American Team)": [
         "Lotus Bloom"
     ],
-    "LOUD": [
+    "LOUD Academy": [
         "LOUD"
     ],
     "Lowkey Esports": [
         "Lowkey Esports.Vietnam"
-    ],
-    "LowLandLions": [
-        "LowLandLions"
-    ],
-    "LowLandLions.Ice": [
-        "LowLandLions"
-    ],
-    "LowLandLions.Fire": [
-        "LowLandLions"
-    ],
-    "LowLandLions.Black": [
-        "LowLandLions"
     ],
     "Solary Academy": [
         "Solary"
@@ -1130,58 +1531,60 @@
     "Lunary": [
         "Solary"
     ],
-    "17 Academy": [
-        "Machi Esports"
+    "Team Eclypse": [
+        "Solary"
     ],
-    "Dream or Reality": [
-        "Machi Esports"
-    ],
-    "MachiX": [
-        "Machi Esports"
-    ],
-    "Machi 17": [
-        "Machi Esports"
+    "Lynx Academy": [
+        "Lynx (Oceanic Team)"
     ],
     "Macko Academy": [
-        "Macko Academy"
+        "Macko Esports"
     ],
     "MAD Lions E.C. Colombia": [
-        "MAD Lions"
+        "MAD Lions",
+        "MAD Lions KOI"
     ],
     "MAD Lions Madrid": [
-        "MAD Lions"
+        "MAD Lions",
+        "MAD Lions KOI"
     ],
     "MAD Lions E.C.": [
-        "MAD Lions"
+        "MAD Lions",
+        "MAD Lions KOI"
     ],
     "MAD Lions E.C. Mexico": [
-        "MAD Lions"
+        "MAD Lions",
+        "MAD Lions KOI"
     ],
     "MAD Lions Academy": [
-        "MAD Lions"
+        "MAD Lions",
+        "MAD Lions KOI"
+    ],
+    "MAD Lions KOI Female": [
+        "MAD Lions KOI"
     ],
     "Mammoth Academy": [
         "MAMMOTH"
     ],
-    "Maturalni Forsaken": [
-        "Maturalni Forsaken Academy"
-    ],
     "Team MCES Academy": [
-        "MCES Italia"
+        "Team MCES"
     ],
     "MCES Italia": [
-        "MCES Italia"
+        "Team MCES"
     ],
     "MCES Italia Academy": [
-        "MCES Italia"
+        "Team MCES"
     ],
-    "mCon esports Rotterdam Academy": [
+    "MCon esports Rotterdam Academy": [
         "mCon LG UltraGear"
+    ],
+    "MeetYourMakers.LAN": [
+        "MeetYourMakers.TR"
     ],
     "MeetYourMakers": [
         "MeetYourMakers.TR"
     ],
-    "Millenium": [
+    "Millenium Spirit": [
         "Millenium"
     ],
     "Netshoes Miners": [
@@ -1197,7 +1600,11 @@
         "Mirage Alliance"
     ],
     "Mirage Oasis": [
-        "Mirage Sport Électronique"
+        "Mirage Sport Électronique",
+        "Dignitas"
+    ],
+    "Mirage Sport Électronique": [
+        "Dignitas"
     ],
     "Misfits Academy": [
         "Misfits Gaming"
@@ -1206,7 +1613,7 @@
         "Misfits Gaming"
     ],
     "Mkers": [
-        "Mkers"
+        "Mkers Academy"
     ],
     "MnM Gaming Academy": [
         "MNM Gaming"
@@ -1215,31 +1622,42 @@
         "Moscow Five.CIS"
     ],
     "Movistar Riders Academy": [
-        "Movistar KOI"
+        "Movistar Riders"
     ],
     "Movistar Riders Blue": [
-        "Movistar KOI"
+        "Movistar Riders"
     ],
     "Munster Rugby Gaming Academy": [
         "Munster Rugby Gaming"
     ],
-    "MVP": [
-        "MVP"
-    ],
     "MVP Blue": [
         "MVP"
     ],
+    "MVP Ozone": [
+        "MVP"
+    ],
+    "MVP Red": [
+        "MVP"
+    ],
+    "Samsung Galaxy": [
+        "MVP"
+    ],
+    "Samsung Blue": [
+        "MVP",
+        "Samsung Galaxy"
+    ],
+    "Samsung White": [
+        "MVP",
+        "Samsung Galaxy"
+    ],
     "Naguara Mexico": [
-        "Naguara Mexico"
+        "Naguara Team"
     ],
-    "NaJin White Shield": [
-        "Kongdoo Monster"
-    ],
-    "NaJin Black Sword": [
-        "Kongdoo Monster"
+    "Nameless Thieves": [
+        "The Nameless"
     ],
     "Nameless Randoms": [
-        "Nameless Thieves"
+        "The Nameless"
     ],
     "NASR eSports": [
         "NASR eSports Turkey"
@@ -1254,31 +1672,28 @@
         "Natus Vincere.CIS"
     ],
     "Qiao Gu Reapers": [
-        "Newbee Young"
+        "Newbee"
     ],
     "Newbee Young": [
-        "Newbee Young"
+        "Newbee"
     ],
-    "Nigma Galaxy": [
-        "Nigma Galaxy"
-    ],
-    "Nigma Galaxy MENA": [
-        "Nigma Galaxy"
-    ],
-    "Nongshim Esports Academy": [
-        "Nongshim RedForce"
-    ],
-    "Nongshim RedForce Academy": [
-        "Nongshim RedForce"
+    "Nordavind Talent": [
+        "00 Nation"
     ],
     "Nordavind": [
+        "00 Nation",
         "Nordavind Talent"
     ],
     "Nordavind Black": [
+        "00 Nation",
         "Nordavind Talent"
     ],
     "Nordavind White": [
+        "00 Nation",
         "Nordavind Talent"
+    ],
+    "NRG Challengers": [
+        "NRG"
     ],
     "NYYRIKKI Academy": [
         "NYYRIKKI"
@@ -1301,61 +1716,95 @@
     "Oh My Girls A": [
         "Oh My God"
     ],
-    "OKSavingsBank BRION Challengers": [
-        "OKSavingsBank BRION"
+    "Oh My God 2": [
+        "Oh My God"
     ],
-    "OKSavingsBank BRION Academy": [
-        "OKSavingsBank BRION"
+    "OpTic Gaming": [
+        "Immortals"
     ],
-    "ORDER": [
+    "OpTic Gaming Academy": [
+        "Immortals"
+    ],
+    "ORDER Academy": [
         "ORDER"
     ],
+    "Origen": [
+        "Astralis"
+    ],
     "Origen SB": [
+        "Astralis",
         "Origen"
     ],
     "Origen BCN": [
+        "Astralis",
         "Origen"
     ],
     "Origen ESP": [
+        "Astralis",
         "Origen"
     ],
     "Origen Academy": [
+        "Astralis",
         "Origen"
     ],
     "Oyun Hizmetleri CILEKLER": [
         "Oyun Hizmetleri"
     ],
-    "PaiN Gaming": [
-        "paiN Gaming"
+    "PaiN Gaming Academy": [
+        "PaiN Gaming"
     ],
     "paiN Gaming Female": [
-        "paiN Gaming"
+        "PaiN Gaming"
+    ],
+    "PaiN Gaming": [
+        "PaiN Gaming"
+    ],
+    "SuperMassive Esports": [
+        "SuperMassive Blaze"
+    ],
+    "SuperMassive TNG": [
+        "SuperMassive Blaze"
+    ],
+    "SuperMassive Blaze Academy": [
+        "SuperMassive Blaze"
+    ],
+    "SuperMassive Academy": [
+        "SuperMassive Blaze"
     ],
     "Peak Performance Y": [
         "Peak Performance X"
     ],
-    "Pentanet.GG Rise": [
-        "Antic Esports"
+    "Peak Performance": [
+        "Peak Performance X"
     ],
-    "piratesports Academy": [
+    "Pentanet.GG Rise": [
+        "Pentanet.GG"
+    ],
+    "Piratesports Academy": [
+        "Piratesports"
+    ],
+    "Piratesports": [
         "Piratesports"
     ],
     "PlaPro.c58": [
         "RoX (2014 CIS Team)"
     ],
     "Polar Squad Esports": [
-        "Polar Squad Esports"
+        "Polar Squad Esports Female"
+    ],
+    "XTEN Mexico": [
+        "XTEN Esports"
     ],
     "PRIDE Academy": [
         "PRIDE (Polish Team)"
     ],
-    "Prime Sentinel": [
-        "Prime Optimus"
-    ],
     "Prime Optimus": [
-        "Prime Optimus"
+        "Prime Clan"
     ],
-    "PSG Talon": [
+    "Prime Sentinel": [
+        "Prime Clan"
+    ],
+    "PSG Talon Academy": [
         "PSG Talon"
     ],
     "Talon Esports": [
@@ -1365,24 +1814,27 @@
         "PSV Esports"
     ],
     "QLASH Midnight": [
-        "QLASH MENA"
+        "QLASH Egypt"
     ],
     "QLASH Spain": [
-        "QLASH MENA"
+        "QLASH Egypt"
     ],
-    "QLASH": [
-        "QLASH MENA"
+    "QLASH Forge": [
+        "QLASH Egypt"
     ],
     "QLASH Forge Academy": [
-        "QLASH MENA"
+        "QLASH Egypt"
     ],
     "Team QLASH Academy": [
-        "QLASH MENA"
+        "QLASH Egypt"
+    ],
+    "QLASH": [
+        "QLASH Egypt"
     ],
     "Rampage Quintet": [
         "Rampage"
     ],
-    "RPG-KINGDOM": [
+    "KINGDOM": [
         "Rampage"
     ],
     "Rare Atom Period": [
@@ -1391,11 +1843,12 @@
     "Rascal Jester Academy": [
         "Rascal Jester"
     ],
-    "RED Academy": [
-        "RED Canids"
-    ],
     "Renegades: Banditos": [
-        "Renegades"
+        "Renegades",
+        "Misfits Gaming"
+    ],
+    "Renegades": [
+        "Misfits Gaming"
     ],
     "Rensga Academy": [
         "Rensga Esports"
@@ -1412,17 +1865,29 @@
     "Riddle Esports": [
         "Riddle NO"
     ],
-    "Rise Gaming": [
+    "Riddle Esports Academy": [
+        "Riddle NO"
+    ],
+    "Rise Gaming Female": [
         "Rise Gaming"
     ],
-    "ROX COOL": [
-        "ROX Tigers"
+    "Rising Star Gaming": [
+        "GC Busan Ascension"
     ],
-    "ROX Caracal": [
-        "ROX Tigers"
+    "Rising SuperStar Gaming": [
+        "GC Busan Ascension"
     ],
-    "Smash It Down": [
-        "ROX Tigers"
+    "Rogue Warriors": [
+        "Anyone's Legend"
+    ],
+    "Rogue Warriors Shark": [
+        "Anyone's Legend"
+    ],
+    "Royal Youth Academy": [
+        "Royal Youth"
+    ],
+    "Royal Bandits Academy": [
+        "Royal Youth"
     ],
     "Royal Club": [
         "Royal Never Give Up"
@@ -1430,25 +1895,14 @@
     "Royal Club Tian Ci": [
         "Royal Never Give Up"
     ],
-    "Royal Youth Academy": [
-        "Royal Youth"
-    ],
-    "S2V Esports Academy": [
-        "S2V Esports"
-    ],
-    "S2V Esports Female": [
-        "S2V Esports"
-    ],
-    "Samsung White": [
-        "Samsung Galaxy"
-    ],
-    "Samsung Blue": [
-        "Samsung Galaxy"
-    ],
     "SCARZ": [
-        "SCARZ Burning Core"
+        "SCARZ Burning Core",
+        "Burning Core Toyama"
     ],
-    "Sector One": [
+    "SCARZ Burning Core": [
+        "Burning Core Toyama"
+    ],
+    "Sector One Fox": [
         "Sector One"
     ],
     "Sector One Academy": [
@@ -1460,65 +1914,74 @@
     "Sengoku Gaming Academy": [
         "Sengoku Gaming"
     ],
-    "Shadow Battlica": [
-        "Shadow EK"
+    "Shadow EK": [
+        "Shadow Battlica"
     ],
     "Shadow GT": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow ELG": [
-        "Shadow EK"
-    ],
-    "Shadow Corp": [
-        "Shadow EK"
-    ],
-    "Shadow Cool": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow Academy": [
-        "Shadow EK"
+        "Shadow Battlica"
+    ],
+    "Shadow Cool": [
+        "Shadow Battlica"
+    ],
+    "Shadow Corp": [
+        "Shadow Battlica"
     ],
     "Shadow RGS": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow Dawn": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow IBJ": [
-        "Shadow EK"
-    ],
-    "Shadow fOu": [
-        "Shadow EK"
-    ],
-    "Shadow Deeplol": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow Anyche": [
-        "Shadow EK"
+        "Shadow Battlica"
+    ],
+    "Shadow Deeplol": [
+        "Shadow Battlica"
+    ],
+    "Shadow fOu": [
+        "Shadow Battlica"
     ],
     "Shadow Dreamer": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow Zero": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow Battlica Y": [
-        "Shadow EK"
-    ],
-    "Shadow New": [
-        "Shadow EK"
+        "Shadow Battlica"
     ],
     "Shadow Boxing": [
-        "Shadow EK"
+        "Shadow Battlica"
+    ],
+    "Shadow New": [
+        "Shadow Battlica"
     ],
     "Shadow SF": [
-        "Shadow EK"
+        "Shadow Battlica"
+    ],
+    "Shadow LNG": [
+        "Shadow Battlica"
     ],
     "Sin Academy": [
         "Sin Gaming"
     ],
     "Team Singularity Female": [
-        "Team Singularity Female"
+        "Team Singularity"
+    ],
+    "SinoDragon Gaming": [
+        "ThunderTalk Gaming"
+    ],
+    "SinoDragon Prince": [
+        "ThunderTalk Gaming"
     ],
     "SK Gaming Prime": [
         "SK Gaming"
@@ -1526,44 +1989,63 @@
     "SK Gaming Avarosa": [
         "SK Gaming"
     ],
+    "SK Telecom T1": [
+        "T1"
+    ],
     "SK Telecom T1 K": [
+        "T1",
         "SK Telecom T1"
     ],
     "SK Telecom T1 S": [
+        "T1",
         "SK Telecom T1"
-    ],
-    "Sky Gaming": [
-        "Sky Gaming"
-    ],
-    "Splyce Vipers": [
-        "MAD Lions Academy"
-    ],
-    "Starlan Gaming Club": [
-        "Starlan Gaming Club Academy"
-    ],
-    "Striking Vipers": [
-        "Striking Vipers Champions"
-    ],
-    "SuperMassive Esports": [
-        "SuperMassive Blaze"
-    ],
-    "SuperMassive TNG": [
-        "SuperMassive Blaze"
-    ],
-    "SuperMassive Blaze Academy": [
-        "SuperMassive Blaze"
-    ],
-    "SuperMassive Academy": [
-        "SuperMassive Blaze"
-    ],
-    "T1": [
-        "T1"
     ],
     "T1 Esports Academy": [
         "T1"
     ],
+    "T1 Academy": [
+        "T1"
+    ],
+    "Super Star Destroyers": [
+        "Sky Gaming"
+    ],
+    "MAD Lions": [
+        "MAD Lions KOI"
+    ],
+    "Splyce": [
+        "MAD Lions KOI"
+    ],
+    "Splyce Vipers": [
+        "MAD Lions KOI",
+        "Splyce"
+    ],
+    "Starlan Gaming Club": [
+        "Starlan Gaming Club Academy"
+    ],
+    "Striking Vipers Maestros": [
+        "Striking Vipers Champions"
+    ],
+    "Striking Vipers": [
+        "Striking Vipers Champions"
+    ],
+    "Weibo Gaming Youth Team": [
+        "Weibo Gaming"
+    ],
+    "Suning": [
+        "Weibo Gaming"
+    ],
+    "Suning-S": [
+        "Weibo Gaming"
+    ],
+    "Tainted Minds": [
+        "Tectonic"
+    ],
+    "Tectonic Academy": [
+        "Tectonic"
+    ],
     "Tainted Minds Blue": [
-        "Tainted Minds Blue"
+        "Tectonic",
+        "Tainted Minds"
     ],
     "Taipei Assassins": [
         "Taipei Berserkers"
@@ -1571,16 +2053,16 @@
     "Taipei Snipers": [
         "Taipei Berserkers"
     ],
-    "Team 7AM": [
+    "Team 7AM Academy": [
         "Team 7AM"
-    ],
-    "Team Ambition": [
-        "Team Ambition"
     ],
     "Team Ambition Red": [
         "Team Ambition"
     ],
     "Team Ambition Sussy": [
+        "Team Ambition"
+    ],
+    "Team Ambition Black": [
         "Team Ambition"
     ],
     "Team Ambition Blaze": [
@@ -1589,10 +2071,10 @@
     "Team Atlantis Baltics": [
         "Team Atlantis"
     ],
-    "Team AURORA": [
+    "Team AURORA Academy": [
         "Team AURORA"
     ],
-    "Team AURORA Academy": [
+    "Team Orora": [
         "Team AURORA"
     ],
     "Team BDS Academy": [
@@ -1601,20 +2083,14 @@
     "Team Coast Gold": [
         "Team Coast"
     ],
-    "Team Echo Zulu Tribe": [
-        "The Agency"
-    ],
     "Team Flash.Singapore": [
         "Team Flash.Vietnam"
     ],
-    "Team Forge": [
+    "Team Forge Ichnos": [
         "Team Forge"
     ],
     "Team Forge Academy": [
         "Team Forge"
-    ],
-    "Team GO": [
-        "Team GO"
     ],
     "Team Just Alpha": [
         "Team Just"
@@ -1634,11 +2110,14 @@
     "Team Liquid First": [
         "Team Liquid"
     ],
-    "Team Phantasma": [
+    "Team Phantasma Community": [
         "Team Phantasma"
     ],
     "Team Secret (Vietnamese Team) Academy": [
         "Team Secret (Vietnamese Team)"
+    ],
+    "TSM Challengers": [
+        "TSM"
     ],
     "TSM Academy": [
         "TSM"
@@ -1646,7 +2125,7 @@
     "TSM Amateur": [
         "TSM"
     ],
-    "Team Imagine": [
+    "TSM Darkness": [
         "TSM"
     ],
     "Team SoloMid Evo": [
@@ -1655,10 +2134,10 @@
     "Team THRLL": [
         "Team THRLL Academy"
     ],
-    "Team Turquality": [
+    "Team Turquality RED": [
         "Team Turquality"
     ],
-    "Team Vitality": [
+    "Vitality.Bee": [
         "Team Vitality"
     ],
     "Yellow Stripes": [
@@ -1667,37 +2146,16 @@
     "Team Vitality Academy": [
         "Team Vitality"
     ],
-    "Team WE Academy": [
-        "Team WE"
-    ],
-    "Game Talents": [
-        "Team WE"
-    ],
-    "Team W3": [
-        "Team WE"
-    ],
-    "Mighty Eagle": [
-        "Team WE"
-    ],
-    "New WE": [
-        "Team WE"
-    ],
-    "Team WE Dreams": [
-        "Team WE"
-    ],
-    "Positive Energy": [
-        "Team WE"
+    "French Bees": [
+        "Team Vitality"
     ],
     "TEAM4NOT.NA": [
         "TEAM4NOT.OCE"
     ],
-    "Tectonic": [
-        "Tectonic"
-    ],
     "The Kings Moon": [
         "The Kings"
     ],
-    "The Kings": [
+    "The Kings Academy": [
         "The Kings"
     ],
     "The Kings Colombia": [
@@ -1706,26 +2164,22 @@
     "The Kings Legends": [
         "The Kings"
     ],
-    "ThunderTalk Gaming": [
-        "ThunderTalk Gaming"
-    ],
-    "Timeout Esports": [
+    "Timeout Esports Academy": [
         "Timeout Esports"
     ],
     "Titan Catipay": [
-        "Titan Catipay"
+        "Wings of Aurora"
     ],
-    "Top Esports": [
-        "Top Esports"
+    "ToxicFalcons eSports Belgium": [
+        "ToxicFalcons eSports",
+        "Aethra Esports Strijders"
     ],
-    "Topsports Gaming": [
-        "Top Esports"
-    ],
-    "Top Esports Challenger": [
-        "Top Esports"
+    "ToxicFalcons Oldschool": [
+        "ToxicFalcons eSports",
+        "Aethra Esports Strijders"
     ],
     "ToxicFalcons eSports": [
-        "ToxicFalcons eSports Belgium"
+        "Aethra Esports Strijders"
     ],
     "Victory Song Gaming": [
         "Triumphant Song Gaming"
@@ -1733,10 +2187,16 @@
     "UCAM Esports Academy": [
         "UCAM Esports"
     ],
-    "Ultra Prime Academy": [
-        "Ultra Prime"
+    "UCAM Penguins": [
+        "UCAM Esports"
+    ],
+    "UCAM Penguins Academy": [
+        "UCAM Esports"
     ],
     "Unicorns of Love": [
+        "Unicorns of Love.CIS"
+    ],
+    "Unicorns of Love Sexy Edition": [
         "Unicorns of Love.CIS"
     ],
     "V3 Esports Academy": [
@@ -1745,8 +2205,20 @@
     "V3 New Generation": [
         "V3 Esports"
     ],
-    "Vaevictis eSports": [
+    "V3 Esports Youth": [
+        "V3 Esports"
+    ],
+    "Victory Five": [
+        "Ninjas in Pyjamas.CN"
+    ],
+    "V5 87": [
+        "Ninjas in Pyjamas.CN"
+    ],
+    "Vaevictis Syndicate": [
         "Vaevictis eSports"
+    ],
+    "Vici Gaming": [
+        "Rare Atom"
     ],
     "Vikingekrig Academy": [
         "Vikingekrig Esports"
@@ -1754,17 +2226,29 @@
     "Vivo Keyd Stars Academy": [
         "Vivo Keyd Stars"
     ],
-    "vVv Gaming Red": [
-        "VVv Gaming White"
+    "Vorax Liberty": [
+        "Liberty"
+    ],
+    "Vorax": [
+        "Liberty"
+    ],
+    "Vorax Liberty Academy": [
+        "Liberty"
+    ],
+    "Vorax Academy": [
+        "Liberty"
+    ],
+    "VVv Gaming Red": [
+        "VVv Gaming"
+    ],
+    "VVv Gaming White": [
+        "VVv Gaming"
     ],
     "VVv Gaming": [
-        "VVv Gaming White"
+        "VVv Gaming"
     ],
-    "Wayi Spider": [
+    "Wayi Spider China": [
         "Wayi Spider"
-    ],
-    "Weibo Gaming Youth Team": [
-        "Weibo Gaming"
     ],
     "West Point Esports Academy": [
         "West Point Esports Philippines"
@@ -1778,6 +2262,9 @@
     "Wildcard Gaming Developmental": [
         "Wildcard Gaming"
     ],
+    "Wildcard Gaming Red": [
+        "Wildcard Gaming"
+    ],
     "Wildcard Gaming Black": [
         "Wildcard Gaming"
     ],
@@ -1787,31 +2274,37 @@
     "Wind and Rain Balkan": [
         "Wind and Rain"
     ],
-    "Wind and Rain": [
+    "Wind and Rain Germany": [
         "Wind and Rain"
     ],
     "Wind and Rain NA": [
         "Wind and Rain"
     ],
-    "X6tence": [
-        "x6tence"
+    "X6tence Academy": [
+        "X6tence"
     ],
     "x6tence Mexico": [
-        "x6tence"
+        "X6tence"
     ],
-    "X7 Ascent": [
+    "X6tence": [
+        "X6tence"
+    ],
+    "X7 Esports": [
         "X7 Ascent"
     ],
     "XD Prinfor B": [
-        "XD Prinfor B"
-    ],
-    "XTEN Mexico": [
-        "XTEN Esports"
+        "XD Prinfor"
     ],
     "YDN Elysium": [
         "YDN Devils"
     ],
+    "YDN Legion": [
+        "YDN Devils"
+    ],
     "Zenigma Lunar": [
+        "Zenigma"
+    ],
+    "Zenigma Solar": [
         "Zenigma"
     ],
     "Zenigma Eclipse": [
@@ -1823,13 +2316,19 @@
     "Zephyr E-Sport White": [
         "Zephyr Esport"
     ],
-    "Zerolag Esports": [
+    "Zephyr Esport Red": [
+        "Zephyr Esport"
+    ],
+    "Zerolag Esports Academy": [
         "Zerolag Esports"
     ],
     "Zwan Gaming Colombia": [
-        "Zwan Gaming"
+        "Zwan Gaming Mexico"
     ],
     "Zwan Gaming": [
-        "Zwan Gaming"
+        "Zwan Gaming Mexico"
+    ],
+    "PGM Black": [
+        "UCAM Esports"
     ]
 }
