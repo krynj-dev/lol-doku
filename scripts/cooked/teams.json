@@ -169,19 +169,6 @@
         "short": "3DR",
         "sister_teams": []
     },
-    "3DMAX": {
-        "becomes": null,
-        "came_from": null,
-        "image": "3DMAX_Logo.png",
-        "name": "3DMAX",
-        "op": "3DMAX",
-        "other_names": [
-            "3DMAX"
-        ],
-        "region": "Europe",
-        "short": "3DMAX",
-        "sister_teams": []
-    },
     "3sUP Enterprises": {
         "becomes": null,
         "came_from": null,
@@ -332,42 +319,6 @@
         "short": "6SN",
         "sister_teams": []
     },
-    "7more7": {
-        "becomes": "7more7 Pompa Team",
-        "came_from": null,
-        "image": null,
-        "name": "7more7",
-        "op": "7more7",
-        "other_names": [
-            "7more7",
-            "7more7 Black",
-            "7more7 White"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": [
-            "7more7 Black",
-            "7more7 White"
-        ]
-    },
-    "7more7 Pompa Team": {
-        "becomes": "PDW",
-        "came_from": "7more7",
-        "image": "7more7 Pompa Teamlogo square.png",
-        "name": "7more7 Pompa Team",
-        "op": "7more7 Pompa Team",
-        "other_names": [
-            "7more7",
-            "7more7 Pompa Team",
-            "7more7 Pompa Team Academy",
-            "Pompa Team"
-        ],
-        "region": "Europe",
-        "short": "PT7",
-        "sister_teams": [
-            "7more7 Pompa Team Academy"
-        ]
-    },
     "7th heaven": {
         "becomes": "Smash It Down",
         "came_from": "RabbitFive",
@@ -466,21 +417,6 @@
         "short": "AGD",
         "sister_teams": []
     },
-    "AGO esports": {
-        "becomes": "x-kom AGO",
-        "came_from": "x-kom AGO",
-        "image": "AGO esportslogo square.png",
-        "name": "AGO esports",
-        "op": "AGO esports",
-        "other_names": [
-            "AGO Gaming",
-            "AGO esports",
-            "x-kom AGO"
-        ],
-        "region": "EMEA",
-        "short": "AGO",
-        "sister_teams": []
-    },
     "AKIHABARA ENCOUNT": {
         "becomes": null,
         "came_from": null,
@@ -533,58 +469,6 @@
         "region": "North America",
         "short": "STAR",
         "sister_teams": []
-    },
-    "ANEW Blaze": {
-        "becomes": "Zoos Gaming",
-        "came_from": null,
-        "image": "ANEW Blazelogo square.png",
-        "name": "ANEW Blaze",
-        "op": "ANEW Blaze",
-        "other_names": [
-            "ANEW Academy",
-            "ANEW Blaze",
-            "ANEW Dawn",
-            "ANEW Esports",
-            "ANEW Genesis",
-            "ANEW Hope",
-            "ANEW Rising"
-        ],
-        "region": "North America",
-        "short": "ANW.B",
-        "sister_teams": [
-            "ANEW Academy",
-            "ANEW Dawn",
-            "ANEW Esports",
-            "ANEW Genesis",
-            "ANEW Hope",
-            "ANEW Rising"
-        ]
-    },
-    "ANEW Genesis": {
-        "becomes": null,
-        "came_from": null,
-        "image": "ANEW Genesislogo square.png",
-        "name": "ANEW Genesis",
-        "op": "ANEW Genesis",
-        "other_names": [
-            "ANEW Academy",
-            "ANEW Blaze",
-            "ANEW Dawn",
-            "ANEW Esports",
-            "ANEW Genesis",
-            "ANEW Hope",
-            "ANEW Rising"
-        ],
-        "region": "North America",
-        "short": "ANW.G",
-        "sister_teams": [
-            "ANEW Academy",
-            "ANEW Blaze",
-            "ANEW Dawn",
-            "ANEW Esports",
-            "ANEW Hope",
-            "ANEW Rising"
-        ]
     },
     "ANON (North American Team)": {
         "becomes": null,
@@ -700,22 +584,6 @@
         "short": "ASP",
         "sister_teams": []
     },
-    "ASUS ROG Army": {
-        "becomes": "S2V Esports",
-        "came_from": null,
-        "image": "ASUS ROG Armylogo square.png",
-        "name": "ASUS ROG Army",
-        "op": "ASUS ROG Army",
-        "other_names": [
-            "ASUS ROG Army",
-            "ASUS ROG Female"
-        ],
-        "region": "Europe",
-        "short": "ASUS",
-        "sister_teams": [
-            "ASUS ROG Female"
-        ]
-    },
     "AT Gaming": {
         "becomes": null,
         "came_from": null,
@@ -741,23 +609,6 @@
         "region": "Turkey",
         "short": "ATL",
         "sister_teams": []
-    },
-    "ATR esports": {
-        "becomes": null,
-        "came_from": "Attempting to Reconnect",
-        "image": "ATR esportslogo square.png",
-        "name": "ATR esports",
-        "op": "ATR esports",
-        "other_names": [
-            "ATR esports",
-            "ATR esports Denmark",
-            "Attempting to Reconnect"
-        ],
-        "region": "Europe",
-        "short": "ATR",
-        "sister_teams": [
-            "ATR esports Denmark"
-        ]
     },
     "ATR esports Denmark": {
         "becomes": null,
@@ -1270,39 +1121,6 @@
         "short": "AD",
         "sister_teams": []
     },
-    "Ahq Snipers": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Ahq Snipers.jpg",
-        "name": "ahq Snipers",
-        "op": "Ahq Snipers",
-        "other_names": [
-            "Ahq Fighter",
-            "Ahq Girls",
-            "Ahq Snipers",
-            "Ahq e-Sports Club Korea",
-            "Ahq eSports Club",
-            "Corsair",
-            "Logitech G Snipers",
-            "SuperEsports",
-            "SuperEsports (超競學院)",
-            "ahq Fighter",
-            "ahq Girls",
-            "ahq Snipers",
-            "ahq e-Sports Club Korea",
-            "ahq eSports Club"
-        ],
-        "region": "LMS",
-        "short": "ahq S",
-        "sister_teams": [
-            "Ahq Fighter",
-            "Ahq Girls",
-            "Ahq e-Sports Club Korea",
-            "Ahq eSports Club",
-            "Logitech G Snipers",
-            "SuperEsports"
-        ]
-    },
     "Ahq eSports Club": {
         "becomes": null,
         "came_from": "Corsair",
@@ -1764,7 +1582,8 @@
         "op": "Antic Esports",
         "other_names": [
             "Antic Esports",
-            "Pentanet.GG"
+            "Pentanet.GG",
+            "Pentanet.GG Rise"
         ],
         "region": "PCS",
         "short": "ANC",
@@ -2024,19 +1843,6 @@
         "short": "AST",
         "sister_teams": []
     },
-    "Area of Effect eSports": {
-        "becomes": null,
-        "came_from": null,
-        "image": "AoE_logo.jpg",
-        "name": "Area of Effect eSports",
-        "op": "Area of Effect eSports",
-        "other_names": [
-            "Area of Effect eSports"
-        ],
-        "region": "North America",
-        "short": "AOE",
-        "sister_teams": []
-    },
     "Ares Gaming": {
         "becomes": null,
         "came_from": null,
@@ -2127,19 +1933,6 @@
         ],
         "region": "North America",
         "short": "ASN",
-        "sister_teams": []
-    },
-    "As Gordinhas": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Unknown Infobox Image - Team.png",
-        "name": "As Gordinhas",
-        "op": "As Gordinhas",
-        "other_names": [
-            "As Gordinhas"
-        ],
-        "region": "Brazil",
-        "short": "AS G",
         "sister_teams": []
     },
     "Ascendance (Turkish Team)": {
@@ -2246,6 +2039,9 @@
             "Astralis SB",
             "Astralis Talent",
             "Origen",
+            "Origen Academy",
+            "Origen BCN",
+            "Origen ESP",
             "Origen SB"
         ],
         "region": "EMEA",
@@ -2558,20 +2354,6 @@
         ],
         "region": "EMEA",
         "short": "AFN",
-        "sister_teams": []
-    },
-    "Away from Normal Yellow": {
-        "becomes": "Away from Normal",
-        "came_from": "Away from Normal",
-        "image": null,
-        "name": "Away from Normal Yellow",
-        "op": "Away from Normal Yellow",
-        "other_names": [
-            "Away from Normal",
-            "Away from Normal Yellow"
-        ],
-        "region": null,
-        "short": null,
         "sister_teams": []
     },
     "Awesome": {
@@ -3689,23 +3471,6 @@
             "Box Gaming"
         ]
     },
-    "Brave e-Sports": {
-        "becomes": "Remo Brave e-Sports",
-        "came_from": "Remo Brave e-Sports",
-        "image": "Brave e-Sportslogo square.png",
-        "name": "Brave e-Sports",
-        "op": "Brave e-Sports",
-        "other_names": [
-            "Brave e-Sports",
-            "RMA e-Sports",
-            "Remo Brave e-Sports"
-        ],
-        "region": "Brazil",
-        "short": "BRV",
-        "sister_teams": [
-            "Brave Academy"
-        ]
-    },
     "Braves Rising": {
         "becomes": null,
         "came_from": null,
@@ -3888,20 +3653,6 @@
         "short": "BK",
         "sister_teams": []
     },
-    "Byte Esports": {
-        "becomes": "Vanir",
-        "came_from": "Vanir",
-        "image": null,
-        "name": "Byte Esports",
-        "op": "Byte Esports",
-        "other_names": [
-            "Byte Esports",
-            "Vanir"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "CASLA Esports": {
         "becomes": null,
         "came_from": null,
@@ -3990,6 +3741,7 @@
         "name": "CERBERUS Esports",
         "op": "CERBERUS Esports (Vietnamese Team)",
         "other_names": [
+            "Adonis Esports",
             "CERBERUS Esports",
             "CERBERUS Esports (Vietnamese Team)",
             "Cube Adonis",
@@ -4001,20 +3753,6 @@
         "sister_teams": [
             "Puppies Esports"
         ]
-    },
-    "CGG Black Panthers": {
-        "becomes": "Black Panthers eSports",
-        "came_from": "Black Panthers eSports",
-        "image": null,
-        "name": "CGG Black Panthers",
-        "op": "CGG Black Panthers",
-        "other_names": [
-            "Black Panthers eSports",
-            "CGG Black Panthers"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
     },
     "CILEKLER": {
         "becomes": null,
@@ -4077,22 +3815,6 @@
             "CNB Infinity",
             "CNB Trinity Blue",
             "CNB Trinity White"
-        ]
-    },
-    "CNJ Esports": {
-        "becomes": "Saigon Buffalo",
-        "came_from": null,
-        "image": "CNJ Esportslogo profile.png",
-        "name": "CNJ Esports",
-        "op": "CNJ Esports",
-        "other_names": [
-            "CNJ Esports",
-            "Chungnam Juego Esports"
-        ],
-        "region": "Vietnam",
-        "short": "CNJ",
-        "sister_teams": [
-            "Chungnam Juego Esports"
         ]
     },
     "COGnitive Gaming": {
@@ -4159,19 +3881,6 @@
         ],
         "region": "Europe",
         "short": "C4",
-        "sister_teams": []
-    },
-    "CSG Gaming": {
-        "becomes": null,
-        "came_from": null,
-        "image": "CSG Gaminglogo square.png",
-        "name": "CSG Gaming",
-        "op": "CSG Gaming",
-        "other_names": [
-            "CSG Gaming"
-        ],
-        "region": "LAN",
-        "short": "CSG",
         "sister_teams": []
     },
     "CST Team": {
@@ -4407,19 +4116,6 @@
         ],
         "region": "Europe",
         "short": "CG",
-        "sister_teams": []
-    },
-    "CenturySoft": {
-        "becomes": null,
-        "came_from": null,
-        "image": "CenturySoftlogo square.png",
-        "name": "CenturySoft",
-        "op": "CenturySoft",
-        "other_names": [
-            "CenturySoft"
-        ],
-        "region": "LMS",
-        "short": "CSoft",
         "sister_teams": []
     },
     "Cerberus e-Sports Club": {
@@ -4670,19 +4366,6 @@
         "sister_teams": [
             "Chilly Mountain Chipmunks"
         ]
-    },
-    "China e-Sports Academic": {
-        "becomes": null,
-        "came_from": null,
-        "image": "CEA logo.png",
-        "name": "China e-Sports Academic",
-        "op": "China e-Sports Academic",
-        "other_names": [
-            "China e-Sports Academic"
-        ],
-        "region": "China",
-        "short": "CEA",
-        "sister_teams": []
     },
     "Chivas Esports": {
         "becomes": null,
@@ -5408,24 +5091,6 @@
         "short": "CCGE",
         "sister_teams": []
     },
-    "Cube Adonis": {
-        "becomes": "CERBERUS Esports (Vietnamese Team)",
-        "came_from": "Hall of Fame",
-        "image": "Cube Adonislogo square.png",
-        "name": "Cube Adonis",
-        "op": "Cube Adonis",
-        "other_names": [
-            "Adonis Esports",
-            "Cube Adonis",
-            "Hall of Fame"
-        ],
-        "region": "Vietnam",
-        "short": "ADN",
-        "sister_teams": [
-            "Adonis Esports",
-            "Cube Adonis Hutech"
-        ]
-    },
     "Curse Academy": {
         "becomes": null,
         "came_from": null,
@@ -5494,22 +5159,6 @@
         "region": "EMEA",
         "short": "CWE",
         "sister_teams": []
-    },
-    "Cyberground Gaming": {
-        "becomes": "EKO Academy",
-        "came_from": null,
-        "image": "Cyberground Gaminglogo square.png",
-        "name": "Cyberground Gaming",
-        "op": "Cyberground Gaming",
-        "other_names": [
-            "Cyberground Gaming",
-            "Cyberground Gaming Academy"
-        ],
-        "region": "EMEA",
-        "short": "CGG",
-        "sister_teams": [
-            "Cyberground Gaming Academy"
-        ]
     },
     "Cyborg Factory": {
         "becomes": null,
@@ -5814,19 +5463,6 @@
         ],
         "region": "China",
         "short": "DS",
-        "sister_teams": []
-    },
-    "DSC3V": {
-        "becomes": null,
-        "came_from": null,
-        "image": "DSC3Vlogo square.png",
-        "name": "DSC3V",
-        "op": "DSC3V",
-        "other_names": [
-            "DSC3V"
-        ],
-        "region": "Latin America",
-        "short": "D3V",
         "sister_teams": []
     },
     "Da Dancing Demons": {
@@ -6150,23 +5786,6 @@
         "short": "DD",
         "sister_teams": []
     },
-    "DeToNator (Southeast Asian Team)": {
-        "becomes": "SEA Serpents",
-        "came_from": null,
-        "image": "DeToNator (Southeast Asian Team)logo square.png",
-        "name": "DeToNator",
-        "op": "DeToNator (Southeast Asian Team)",
-        "other_names": [
-            "DeToNator",
-            "DeToNator (Japanese Team)",
-            "DeToNator (Southeast Asian Team)"
-        ],
-        "region": "SEA",
-        "short": "DTN",
-        "sister_teams": [
-            "DeToNator (Japanese Team)"
-        ]
-    },
     "Dead Rabbits Club": {
         "becomes": null,
         "came_from": null,
@@ -6396,7 +6015,10 @@
         "op": "Des Moines DMG",
         "other_names": [
             "Des Moines DMG",
-            "Zenigma"
+            "Zenigma",
+            "Zenigma Eclipse",
+            "Zenigma Lunar",
+            "Zenigma Solar"
         ],
         "region": "North America",
         "short": "DMG",
@@ -6710,20 +6332,6 @@
         "short": "DNG",
         "sister_teams": []
     },
-    "Dirt Nap Gaming.JustTheUsual": {
-        "becomes": "Dirt Nap Gaming",
-        "came_from": "Dirt Nap Gaming",
-        "image": null,
-        "name": "Dirt Nap Gaming.JustTheUsual",
-        "op": "Dirt Nap Gaming.JustTheUsual",
-        "other_names": [
-            "Dirt Nap Gaming",
-            "Dirt Nap Gaming.JustTheUsual"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "Disguised": {
         "becomes": null,
         "came_from": null,
@@ -6817,21 +6425,6 @@
         "short": "DOM",
         "sister_teams": []
     },
-    "Domme Jongens Academy": {
-        "becomes": "Echo Zulu Domme Jongens",
-        "came_from": "Domme Jongens",
-        "image": null,
-        "name": "Domme Jongens Academy",
-        "op": "Domme Jongens Academy",
-        "other_names": [
-            "Domme Jongens",
-            "Domme Jongens Academy",
-            "Echo Zulu Domme Jongens"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "DomoSoCute": {
         "becomes": null,
         "came_from": null,
@@ -6909,35 +6502,6 @@
         "region": "Europe",
         "short": "DOXA",
         "sister_teams": []
-    },
-    "Dplus Esports Academy": {
-        "becomes": null,
-        "came_from": "DAMWON Game Academy",
-        "image": "Dplus Esports Academylogo square.png",
-        "name": "Dplus Esports Academy",
-        "op": "Dplus Esports Academy",
-        "other_names": [
-            "DAMWON Game Academy",
-            "DAMWON Gaming",
-            "DAMWON Gaming Academy",
-            "DAMWON Gaming Challengers",
-            "DWG KIA",
-            "DWG KIA Academy",
-            "DWG KIA Challengers",
-            "Dplus Esports Academy",
-            "Dplus KIA",
-            "Dplus KIA  Academy",
-            "Dplus KIA Academy",
-            "Dplus KIA Challengers",
-            "MiraGe Gaming"
-        ],
-        "region": "Korea",
-        "short": "DEA",
-        "sister_teams": [
-            "Dplus KIA",
-            "Dplus KIA Academy",
-            "Dplus KIA Challengers"
-        ]
     },
     "Dplus KIA": {
         "becomes": null,
@@ -7156,19 +6720,6 @@
         ],
         "region": "Europe",
         "short": "DRZ",
-        "sister_teams": []
-    },
-    "Druidz E-Sport Europe": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Druidz E-Sport.png",
-        "name": "Druidz E-Sport Europe",
-        "op": "Druidz E-Sport Europe",
-        "other_names": [
-            "Druidz E-Sport Europe"
-        ],
-        "region": "Europe",
-        "short": "Druidz EU",
         "sister_teams": []
     },
     "Drury University": {
@@ -7437,30 +6988,6 @@
             "E-corp Glorious"
         ]
     },
-    "E-mFire": {
-        "becomes": "Kongdoo Monster",
-        "came_from": "NaJin e-mFire",
-        "image": "EmFire logo.png",
-        "name": "e-mFire",
-        "op": "E-mFire",
-        "other_names": [
-            "E-mFire",
-            "Extreme Dive Gaming",
-            "NaJin Black Sword",
-            "NaJin Shield",
-            "NaJin Sword",
-            "NaJin White Shield",
-            "NaJin e-mFire",
-            "e-mFire"
-        ],
-        "region": "Korea",
-        "short": "EMF",
-        "sister_teams": [
-            "NaJin Black Sword",
-            "NaJin White Shield",
-            "NaJin e-mFire"
-        ]
-    },
     "E-nsane Gaming": {
         "becomes": null,
         "came_from": null,
@@ -7673,6 +7200,7 @@
         "op": "EKO Academy",
         "other_names": [
             "Cyberground Gaming",
+            "Cyberground Gaming Academy",
             "EKO Academy"
         ],
         "region": "EMEA",
@@ -7704,19 +7232,6 @@
         ],
         "region": "Latin America",
         "short": "ELR",
-        "sister_teams": []
-    },
-    "ELROY Gaming": {
-        "becomes": null,
-        "came_from": null,
-        "image": "ELROY Gaminglogo square.png",
-        "name": "ELROY Gaming",
-        "op": "ELROY Gaming",
-        "other_names": [
-            "ELROY Gaming"
-        ],
-        "region": "Korea",
-        "short": "ELG",
         "sister_teams": []
     },
     "ELaB x EXP": {
@@ -7857,22 +7372,6 @@
         "short": "ESC",
         "sister_teams": [
             "ESC Gaming Sigma"
-        ]
-    },
-    "ESCORT P9": {
-        "becomes": "PIGSPORTS",
-        "came_from": null,
-        "image": "ESCORT P9logo square.png",
-        "name": "ESCORT P9",
-        "op": "ESCORT P9",
-        "other_names": [
-            "ESCORT P9",
-            "ESCORT P9 Academy"
-        ],
-        "region": "Europe",
-        "short": "P9",
-        "sister_teams": [
-            "ESCORT P9 Academy"
         ]
     },
     "ESTORM": {
@@ -8060,34 +7559,6 @@
         "short": "EXT",
         "sister_teams": []
     },
-    "EXtreme Divide ExeCuTioNeR": {
-        "becomes": null,
-        "came_from": null,
-        "image": "EMD.png",
-        "name": "eXtreme Divide ExeCuTioNeR",
-        "op": "EXtreme Divide ExeCuTioNeR",
-        "other_names": [
-            "EXtreme Divide ExeCuTioNeR",
-            "eXtreme Divide ExeCuTioNeR"
-        ],
-        "region": "LMS",
-        "short": "eMD.E",
-        "sister_teams": []
-    },
-    "EXtreme Divide e-Sport Team": {
-        "becomes": null,
-        "came_from": null,
-        "image": "eMD Team logo.jpg",
-        "name": "eXtreme Divide e-Sport Team",
-        "op": "EXtreme Divide e-Sport Team",
-        "other_names": [
-            "EXtreme Divide e-Sport Team",
-            "eXtreme Divide e-Sport Team"
-        ],
-        "region": "LMS",
-        "short": "eMD",
-        "sister_teams": []
-    },
     "EXtreme Gamers": {
         "becomes": null,
         "came_from": "Heat Wave",
@@ -8146,19 +7617,6 @@
         "short": "ERG",
         "sister_teams": []
     },
-    "Eat Sleep Game": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Unknown Infobox Image - Team.png",
-        "name": "Eat Sleep Game",
-        "op": "Eat Sleep Game",
-        "other_names": [
-            "Eat Sleep Game"
-        ],
-        "region": "Korea",
-        "short": "EAT",
-        "sister_teams": []
-    },
     "Echo Fox": {
         "becomes": null,
         "came_from": null,
@@ -8208,25 +7666,6 @@
             "Eclypsia Spirit",
             "Eclypsia.Luna",
             "Eclypsia.Solaris"
-        ]
-    },
-    "Eclypsia.Solaris": {
-        "becomes": null,
-        "came_from": "Eclypsia",
-        "image": null,
-        "name": "Eclypsia.Solaris",
-        "op": "Eclypsia.Solaris",
-        "other_names": [
-            "Eclypsia",
-            "Eclypsia.Luna",
-            "Eclypsia.Solaris"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": [
-            "Eclypsia",
-            "Eclypsia Spirit",
-            "Eclypsia.Luna"
         ]
     },
     "Edelweiss Europe": {
@@ -8714,20 +8153,6 @@
         "short": "EAC",
         "sister_teams": []
     },
-    "Esprit Shōnen": {
-        "becomes": null,
-        "came_from": "MS Company",
-        "image": "Esprit Shōnenlogo square.png",
-        "name": "Esprit Shōnen",
-        "op": "Esprit Shōnen",
-        "other_names": [
-            "Esprit Shōnen",
-            "MS Company"
-        ],
-        "region": "EMEA",
-        "short": "ES",
-        "sister_teams": []
-    },
     "Estoril Praia eSports": {
         "becomes": null,
         "came_from": null,
@@ -8759,26 +8184,6 @@
             "Estral E-Sports Colombia",
             "Estral Esports Academy",
             "Estral Esports Aurora"
-        ]
-    },
-    "Estral Esports Aurora": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Estral Esports Auroralogo square.png",
-        "name": "Estral Esports Aurora",
-        "op": "Estral Esports Aurora",
-        "other_names": [
-            "Estral E-Sports Colombia",
-            "Estral Esports",
-            "Estral Esports Aurora",
-            "Faceless Gaming"
-        ],
-        "region": "Latin America",
-        "short": "EST.A",
-        "sister_teams": [
-            "Estral E-Sports Colombia",
-            "Estral Esports",
-            "Estral Esports Academy"
         ]
     },
     "Estúdio XP e-Sports": {
@@ -8899,29 +8304,6 @@
         "region": "Korea",
         "short": "EEW",
         "sister_teams": []
-    },
-    "Evil Geniuses.NA": {
-        "becomes": "Winterfox",
-        "came_from": null,
-        "image": "Evil Geniuses.NAlogo profile.png",
-        "name": "Evil Geniuses",
-        "op": "Evil Geniuses.NA",
-        "other_names": [
-            "Evil Geniuses",
-            "Evil Geniuses Academy",
-            "Evil Geniuses Challengers",
-            "Evil Geniuses Prodigies",
-            "Evil Geniuses.EU",
-            "Evil Geniuses.NA"
-        ],
-        "region": "North America",
-        "short": "EG",
-        "sister_teams": [
-            "Evil Geniuses Academy",
-            "Evil Geniuses Challengers",
-            "Evil Geniuses Prodigies",
-            "Evil Geniuses.EU"
-        ]
     },
     "Evilvice Esports": {
         "becomes": null,
@@ -9519,33 +8901,6 @@
             "FearX Youth"
         ]
     },
-    "FearX Academy": {
-        "becomes": null,
-        "came_from": "Liiv SANDBOX Academy",
-        "image": "FearX Academylogo square.png",
-        "name": "FearX Academy",
-        "op": "FearX Academy",
-        "other_names": [
-            "Breath Meta",
-            "FearX",
-            "FearX Academy",
-            "FearX Youth",
-            "GC Busan SANDBOX",
-            "Liiv SANDBOX",
-            "Liiv SANDBOX Academy",
-            "Liiv SANDBOX Challengers",
-            "Liiv SANDBOX Youth",
-            "SANDBOX Gaming",
-            "SANDBOX Gaming Academy",
-            "Team BattleComics"
-        ],
-        "region": "Korea",
-        "short": "FOX.A",
-        "sister_teams": [
-            "FearX",
-            "FearX Youth"
-        ]
-    },
     "Feel our Skill Female": {
         "becomes": null,
         "came_from": null,
@@ -9599,21 +8954,6 @@
         ],
         "region": "Europe",
         "short": "FES",
-        "sister_teams": []
-    },
-    "Fervent Esports": {
-        "becomes": null,
-        "came_from": "SteelWolves Gaia",
-        "image": "Fervent Esportslogo square.png",
-        "name": "Fervent Esports",
-        "op": "Fervent Esports",
-        "other_names": [
-            "Fervent Esports",
-            "SteelWolves Gaia",
-            "Steelwolves Gaia"
-        ],
-        "region": "SEA",
-        "short": "FV",
         "sister_teams": []
     },
     "Fiction eSports": {
@@ -9764,26 +9104,6 @@
         "sister_teams": [
             "Flash Husky",
             "Flash Wolves Junior"
-        ]
-    },
-    "Flash Wolves Junior": {
-        "becomes": "Flash Husky",
-        "came_from": null,
-        "image": "Flash Wolves logo.png",
-        "name": "Flash Wolves Junior",
-        "op": "Flash Wolves Junior",
-        "other_names": [
-            "Flash Husky",
-            "Flash Wolves",
-            "Flash Wolves Junior",
-            "yoe Flash Wolves",
-            "yoe IRONMEN"
-        ],
-        "region": "LMS",
-        "short": "FWJ",
-        "sister_teams": [
-            "Flash Husky",
-            "Flash Wolves"
         ]
     },
     "Flayn eSports": {
@@ -10790,26 +10110,6 @@
             "Galatasaray Academy"
         ]
     },
-    "Galaxy Racer Esports MENA Male": {
-        "becomes": "Nigma Galaxy Male",
-        "came_from": null,
-        "image": "Galaxy Racer Esports MENA Malelogo square.png",
-        "name": "Galaxy Racer Esports MENA Male",
-        "op": "Galaxy Racer Esports MENA Male",
-        "other_names": [
-            "Galaxy Racer Esports EU Female",
-            "Galaxy Racer Esports EU Male",
-            "Galaxy Racer Esports MENA Female",
-            "Galaxy Racer Esports MENA Male"
-        ],
-        "region": "MENA",
-        "short": "GXR",
-        "sister_teams": [
-            "Galaxy Racer Esports EU Female",
-            "Galaxy Racer Esports EU Male",
-            "Galaxy Racer Esports MENA Female"
-        ]
-    },
     "Gama Dream": {
         "becomes": null,
         "came_from": null,
@@ -10951,22 +10251,6 @@
         "region": "EMEA",
         "short": "GL",
         "sister_teams": []
-    },
-    "GamersOrigin": {
-        "becomes": "Team GO",
-        "came_from": null,
-        "image": "GamersOriginlogo profile.png",
-        "name": "GamersOrigin",
-        "op": "GamersOrigin",
-        "other_names": [
-            "GamersOrigin",
-            "GamersOrigin Academy"
-        ],
-        "region": "Europe",
-        "short": "GO",
-        "sister_teams": [
-            "GamersOrigin Academy"
-        ]
     },
     "Gamespace Mediterranean College Esports": {
         "becomes": null,
@@ -11385,22 +10669,6 @@
         "short": "GET",
         "sister_teams": [
             "Globant Emerald Academy"
-        ]
-    },
-    "Glorious Gaming": {
-        "becomes": "Pertinax Esports",
-        "came_from": null,
-        "image": "Glorious Gaminglogo square.png",
-        "name": "Glorious Gaming",
-        "op": "Glorious Gaming",
-        "other_names": [
-            "Glorious Gaming",
-            "Glorious Gaming Belgium"
-        ],
-        "region": "Europe",
-        "short": "GG",
-        "sister_teams": [
-            "Glorious Gaming Belgium"
         ]
     },
     "Gmae": {
@@ -12146,13 +11414,19 @@
         "name": "Hanwha Life Esports",
         "op": "Hanwha Life Esports",
         "other_names": [
+            "7th heaven",
+            "DetonatioN RabbitFive",
+            "FrenzyX",
             "GE Tigers",
             "HUYA Tigers",
             "Hanwha Life Esports",
             "Hanwha Life Esports Academy",
             "Hanwha Life Esports Challengers",
             "KOO Tigers",
+            "ROX COOL",
             "ROX Tigers",
+            "RabbitFive",
+            "Smash It Down",
             "Tigers"
         ],
         "region": "Korea",
@@ -12900,20 +12174,6 @@
         "short": "ION",
         "sister_teams": []
     },
-    "IQuit-Gaming Greece": {
-        "becomes": null,
-        "came_from": null,
-        "image": "IQuit_logo1.png",
-        "name": "iQuit-Gaming Greece",
-        "op": "IQuit-Gaming Greece",
-        "other_names": [
-            "IQuit-Gaming Greece",
-            "iQuit-Gaming Greece"
-        ],
-        "region": "Europe",
-        "short": "iQuit GR",
-        "sister_teams": []
-    },
     "ISC Pro Team": {
         "becomes": null,
         "came_from": null,
@@ -12990,19 +12250,6 @@
         ],
         "region": "Brazil",
         "short": "ICHR",
-        "sister_teams": []
-    },
-    "Ici Japon Corp. Esport": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Ici Japon Corp. Esportlogo square.png",
-        "name": "Ici Japon Corp. Esport",
-        "op": "Ici Japon Corp. Esport",
-        "other_names": [
-            "Ici Japon Corp. Esport"
-        ],
-        "region": "EMEA",
-        "short": "IJC",
         "sister_teams": []
     },
     "Iguana eSports": {
@@ -13458,20 +12705,6 @@
             "Inside Games Challengers"
         ]
     },
-    "Insidious Gaming": {
-        "becomes": "Insidious Gaming Legends",
-        "came_from": "Insidious Gaming Legends",
-        "image": null,
-        "name": "Insidious Gaming",
-        "op": "Insidious Gaming",
-        "other_names": [
-            "Insidious Gaming",
-            "Insidious Gaming Legends"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "Insidious Gaming Candy": {
         "becomes": null,
         "came_from": null,
@@ -13716,19 +12949,6 @@
             "Young Glory",
             "iG Deadly Fiend Girls"
         ]
-    },
-    "Invictus Gaming Deadly Fiend Girls": {
-        "becomes": null,
-        "came_from": null,
-        "image": "IG.DFG_logo.png",
-        "name": "Invictus Gaming Deadly Fiend Girls",
-        "op": "Invictus Gaming Deadly Fiend Girls",
-        "other_names": [
-            "Invictus Gaming Deadly Fiend Girls"
-        ],
-        "region": "China",
-        "short": "iG.DFG",
-        "sister_teams": []
     },
     "Invulnerables Esports": {
         "becomes": null,
@@ -14182,20 +13402,6 @@
         "short": "KIT.W",
         "sister_teams": []
     },
-    "KIYF Logitech": {
-        "becomes": "KIYF eSports Club",
-        "came_from": "KIYF eSports Club",
-        "image": null,
-        "name": "KIYF Logitech",
-        "op": "KIYF Logitech",
-        "other_names": [
-            "KIYF Logitech",
-            "KIYF eSports Club"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "KIYF eSports Club": {
         "becomes": "KIYF Logitech",
         "came_from": "KIYF Logitech",
@@ -14224,28 +13430,6 @@
         "region": "EMEA",
         "short": "KODE",
         "sister_teams": []
-    },
-    "KOI (Spanish Team)": {
-        "becomes": "Rogue (European Team)",
-        "came_from": "Rogue (European Team)",
-        "image": "KOI (Spanish Team)logo square.png",
-        "name": "KOI",
-        "op": "KOI (Spanish Team)",
-        "other_names": [
-            "Finetwork KOI",
-            "KOI",
-            "KOI (Spanish Team)",
-            "KOI Academy",
-            "KOI Amethyst",
-            "Rogue",
-            "Rogue (European Team)"
-        ],
-        "region": "EMEA",
-        "short": "KOI",
-        "sister_teams": [
-            "KOI Academy",
-            "KOI Amethyst"
-        ]
     },
     "KOVA Esports": {
         "becomes": null,
@@ -14755,20 +13939,6 @@
         "short": "KE",
         "sister_teams": []
     },
-    "Klanik Esport Female": {
-        "becomes": null,
-        "came_from": "Shield Esport Female",
-        "image": null,
-        "name": "Klanik Esport Female",
-        "op": "Klanik Esport Female",
-        "other_names": [
-            "Klanik Esport Female",
-            "Shield Esport Female"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "KlikTech": {
         "becomes": null,
         "came_from": null,
@@ -14998,37 +14168,6 @@
             "Kwangdong Freecs Challengers"
         ]
     },
-    "Kx.Happy": {
-        "becomes": "Revenger (Chinese Team)",
-        "came_from": null,
-        "image": "Kx logo 2015.png",
-        "name": "Kx.Happy",
-        "op": "Kx.Happy",
-        "other_names": [
-            "Kx.Cash",
-            "Kx.Happy"
-        ],
-        "region": "China",
-        "short": "KXH",
-        "sister_teams": [
-            "Kx.Cash",
-            "Kx.LM",
-            "Kx.R"
-        ]
-    },
-    "LBS Esports": {
-        "becomes": null,
-        "came_from": null,
-        "image": "LBS Esportslogo square.png",
-        "name": "LBS Esports",
-        "op": "LBS Esports",
-        "other_names": [
-            "LBS Esports"
-        ],
-        "region": "Latin America",
-        "short": "LBS",
-        "sister_teams": []
-    },
     "LCVS Fighting": {
         "becomes": null,
         "came_from": null,
@@ -15041,19 +14180,6 @@
         ],
         "region": "PCS",
         "short": "LCVS",
-        "sister_teams": []
-    },
-    "LD50 Gaming": {
-        "becomes": null,
-        "came_from": null,
-        "image": "LD50 logo.png",
-        "name": "LD50 Gaming",
-        "op": "LD50 Gaming",
-        "other_names": [
-            "LD50 Gaming"
-        ],
-        "region": "Japan",
-        "short": "LD50",
         "sister_teams": []
     },
     "LDLC OL": {
@@ -15949,19 +15075,6 @@
             "Los Grandes Academy"
         ]
     },
-    "Los Leones de Badajoz": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Losleonesdebadajozquare.png",
-        "name": "Los Leones de Badajoz",
-        "op": "Los Leones de Badajoz",
-        "other_names": [
-            "Los Leones de Badajoz"
-        ],
-        "region": "Europe",
-        "short": "LOS",
-        "sister_teams": []
-    },
     "Lost Esports": {
         "becomes": null,
         "came_from": null,
@@ -16255,32 +15368,6 @@
         "short": "MAD",
         "sister_teams": []
     },
-    "MAD Lions": {
-        "becomes": "MAD Lions KOI",
-        "came_from": "Splyce",
-        "image": null,
-        "name": "MAD Lions",
-        "op": "MAD Lions",
-        "other_names": [
-            "Follow eSports",
-            "MAD Lions",
-            "MAD Lions Academy",
-            "MAD Lions E.C.",
-            "MAD Lions E.C. Colombia",
-            "MAD Lions E.C. Mexico",
-            "MAD Lions Madrid",
-            "Splyce"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": [
-            "MAD Lions Academy",
-            "MAD Lions E.C.",
-            "MAD Lions E.C. Colombia",
-            "MAD Lions E.C. Mexico",
-            "MAD Lions Madrid"
-        ]
-    },
     "MAD Lions KOI": {
         "becomes": null,
         "came_from": "MAD Lions",
@@ -16290,33 +15377,20 @@
         "other_names": [
             "Follow eSports",
             "MAD Lions",
+            "MAD Lions Academy",
+            "MAD Lions E.C.",
+            "MAD Lions E.C. Colombia",
+            "MAD Lions E.C. Mexico",
             "MAD Lions KOI",
             "MAD Lions KOI Female",
-            "Splyce"
+            "MAD Lions Madrid",
+            "Splyce",
+            "Splyce Vipers"
         ],
         "region": "EMEA",
         "short": "MDK",
         "sister_teams": [
             "MAD Lions KOI Female"
-        ]
-    },
-    "MAD Lions KOI Female": {
-        "becomes": null,
-        "came_from": null,
-        "image": "MAD Lions KOI Femalelogo square.png",
-        "name": "MAD Lions KOI Female",
-        "op": "MAD Lions KOI Female",
-        "other_names": [
-            "Follow eSports",
-            "MAD Lions",
-            "MAD Lions KOI",
-            "MAD Lions KOI Female",
-            "Splyce"
-        ],
-        "region": "EMEA",
-        "short": "MDK.F",
-        "sister_teams": [
-            "MAD Lions KOI"
         ]
     },
     "MAD Team": {
@@ -16552,33 +15626,6 @@
         "short": "NXT",
         "sister_teams": []
     },
-    "MSI Dragons": {
-        "becomes": "Kolejny Cios",
-        "came_from": "Kolejny Cios",
-        "image": null,
-        "name": "MSI Dragons",
-        "op": "MSI Dragons",
-        "other_names": [
-            "Kolejny Cios",
-            "MSI Dragons"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
-    "MSI Evolution Gaming Team": {
-        "becomes": null,
-        "came_from": null,
-        "image": "MSI Evolution Gaming Team.png",
-        "name": "MSI Evolution Gaming Team",
-        "op": "MSI Evolution Gaming Team",
-        "other_names": [
-            "MSI Evolution Gaming Team"
-        ],
-        "region": "SEA",
-        "short": "MSI EvoGT",
-        "sister_teams": []
-    },
     "MTP Esport": {
         "becomes": null,
         "came_from": "MGA Esport",
@@ -16656,27 +15703,6 @@
             "MVP Red"
         ]
     },
-    "MVP Red": {
-        "becomes": null,
-        "came_from": null,
-        "image": "MVPlogo.png",
-        "name": "MVP Red",
-        "op": "MVP Red",
-        "other_names": [
-            "MVP",
-            "MVP Blue",
-            "MVP Ozone",
-            "MVP Red",
-            "MVP White"
-        ],
-        "region": "Korea",
-        "short": "MVP.R",
-        "sister_teams": [
-            "MVP",
-            "MVP Blue",
-            "MVP Ozone"
-        ]
-    },
     "MYIDOL Esports": {
         "becomes": null,
         "came_from": null,
@@ -16743,28 +15769,6 @@
         "region": "LMS",
         "short": "MOE",
         "sister_teams": []
-    },
-    "Machi Crew": {
-        "becomes": "Dream or Reality",
-        "came_from": null,
-        "image": "Machi Crew_logo.png",
-        "name": "Machi Crew",
-        "op": "Machi Crew",
-        "other_names": [
-            "17 Academy",
-            "Machi 17",
-            "Machi Crew",
-            "Machi Esports",
-            "MachiX"
-        ],
-        "region": "LMS",
-        "short": "MC",
-        "sister_teams": [
-            "17 Academy",
-            "Machi 17",
-            "Machi Esports",
-            "MachiX"
-        ]
     },
     "Machi Esports": {
         "becomes": null,
@@ -16894,20 +15898,6 @@
             "Maelstrom Gaming",
             "Storm",
             "Storm (North American Team)"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
-    "Maemuki Team": {
-        "becomes": null,
-        "came_from": "Elkara Miltonia",
-        "image": null,
-        "name": "Maemuki Team",
-        "op": "Maemuki Team",
-        "other_names": [
-            "Elkara Miltonia",
-            "Maemuki Team"
         ],
         "region": null,
         "short": null,
@@ -17095,19 +16085,6 @@
         ],
         "region": "Europe",
         "short": "MSC",
-        "sister_teams": []
-    },
-    "Master Girl": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Master Girl logo.png",
-        "name": "Master Girl",
-        "op": "Master Girl",
-        "other_names": [
-            "Master Girl"
-        ],
-        "region": "China",
-        "short": "MG",
         "sister_teams": []
     },
     "Master of Chicken Gaming": {
@@ -17409,21 +16386,6 @@
         "short": "MG",
         "sister_teams": []
     },
-    "Meteorite.GTS": {
-        "becomes": "Team Toxic",
-        "came_from": "Go To Sleep",
-        "image": null,
-        "name": "Meteorite.GTS",
-        "op": "Meteorite.GTS",
-        "other_names": [
-            "Go To Sleep",
-            "Meteorite.GTS",
-            "Team Toxic"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "Method2Madness": {
         "becomes": null,
         "came_from": "Lotus Gaming (European Team)",
@@ -17659,6 +16621,7 @@
         "other_names": [
             "Miracle",
             "Miracle (North American Team)",
+            "Mirage Oasis",
             "Mirage Sport Électronique"
         ],
         "region": "North America",
@@ -17707,22 +16670,6 @@
         "region": "Europe",
         "short": "ME",
         "sister_teams": []
-    },
-    "Mirage Sport Électronique": {
-        "becomes": "Miracle (North American Team)",
-        "came_from": null,
-        "image": "Mirage Sport Électroniquelogo square.png",
-        "name": "Mirage Sport Électronique",
-        "op": "Mirage Sport Électronique",
-        "other_names": [
-            "Mirage Oasis",
-            "Mirage Sport Électronique"
-        ],
-        "region": "North America",
-        "short": "MIR",
-        "sister_teams": [
-            "Mirage Oasis"
-        ]
     },
     "Mirage Élite": {
         "becomes": null,
@@ -17796,20 +16743,6 @@
         "short": "MVC",
         "sister_teams": []
     },
-    "MizzouEsports": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Unknown Infobox Image - Team.png",
-        "name": "University of Missouri Columbia",
-        "op": "MizzouEsports",
-        "other_names": [
-            "MizzouEsports",
-            "University of Missouri Columbia"
-        ],
-        "region": "North America",
-        "short": "MIZZ",
-        "sister_teams": []
-    },
     "Mkers Academy": {
         "becomes": null,
         "came_from": null,
@@ -17861,20 +16794,6 @@
         "other_names": [
             "Monomaniac Dominatus",
             "Monomaniac eSports"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
-    "Monster Gaming": {
-        "becomes": null,
-        "came_from": "Vortex (Korean Team)",
-        "image": null,
-        "name": "Monster Gaming",
-        "op": "Monster Gaming",
-        "other_names": [
-            "Monster Gaming",
-            "Vortex (Korean Team)"
         ],
         "region": null,
         "short": null,
@@ -17985,7 +16904,9 @@
         "op": "Movistar KOI",
         "other_names": [
             "Movistar KOI",
-            "Movistar Riders"
+            "Movistar Riders",
+            "Movistar Riders Academy",
+            "Movistar Riders Blue"
         ],
         "region": "EMEA",
         "short": "MRS",
@@ -18017,24 +16938,6 @@
         "region": "Latin America",
         "short": "R7",
         "sister_teams": []
-    },
-    "Movistar Riders": {
-        "becomes": "Movistar KOI",
-        "came_from": null,
-        "image": null,
-        "name": "Movistar Riders",
-        "op": "Movistar Riders",
-        "other_names": [
-            "Movistar Riders",
-            "Movistar Riders Academy",
-            "Movistar Riders Blue"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": [
-            "Movistar Riders Academy",
-            "Movistar Riders Blue"
-        ]
     },
     "Munster Rugby Gaming": {
         "becomes": "Phelan Gaming",
@@ -18195,19 +17098,6 @@
         ],
         "region": "Europe",
         "short": "FAC",
-        "sister_teams": []
-    },
-    "NALCS Players Association": {
-        "becomes": null,
-        "came_from": null,
-        "image": "NALCS Players Associationlogo square.png",
-        "name": "NALCS Players Association",
-        "op": "NALCS Players Association",
-        "other_names": [
-            "NALCS Players Association"
-        ],
-        "region": "North America",
-        "short": "NALCSPA",
         "sister_teams": []
     },
     "NASR eSports": {
@@ -18434,22 +17324,6 @@
         "short": "NRG",
         "sister_teams": [
             "NRG Challengers"
-        ]
-    },
-    "NRG Challengers": {
-        "becomes": null,
-        "came_from": null,
-        "image": "NRG Challengerslogo square.png",
-        "name": "NRG Challengers",
-        "op": "NRG Challengers",
-        "other_names": [
-            "NRG",
-            "NRG Challengers"
-        ],
-        "region": "North America",
-        "short": "NRGC",
-        "sister_teams": [
-            "NRG"
         ]
     },
     "NVision Esports": {
@@ -18685,19 +17559,6 @@
         ],
         "region": "Europe",
         "short": "NR",
-        "sister_teams": []
-    },
-    "Neolution E-Sport Nemesis": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Neolution Nemesislogo square.png",
-        "name": "Neolution E-Sport Nemesis",
-        "op": "Neolution E-Sport Nemesis",
-        "other_names": [
-            "Neolution E-Sport Nemesis"
-        ],
-        "region": "SEA",
-        "short": "Neo.N",
         "sister_teams": []
     },
     "Neon Esports": {
@@ -18965,6 +17826,7 @@
         "op": "Nigma Galaxy Male",
         "other_names": [
             "Galaxy Racer Esports EU Female",
+            "Galaxy Racer Esports EU Male",
             "Galaxy Racer Esports MENA Female",
             "Galaxy Racer Esports MENA Male",
             "Nigma Galaxy",
@@ -19218,19 +18080,6 @@
             "Nordavind White"
         ]
     },
-    "North": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Northlogo profile.png",
-        "name": "North",
-        "op": "North",
-        "other_names": [
-            "North"
-        ],
-        "region": "Europe",
-        "short": "NOR",
-        "sister_teams": []
-    },
     "North Carolina State University": {
         "becomes": null,
         "came_from": null,
@@ -19296,19 +18145,6 @@
         "short": "NAT",
         "sister_teams": []
     },
-    "Nova Dragons": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Nova Dragonslogo square.png",
-        "name": "Nova Dragons",
-        "op": "Nova Dragons",
-        "other_names": [
-            "Nova Dragons"
-        ],
-        "region": "Latin America",
-        "short": "NVD",
-        "sister_teams": []
-    },
     "Nova Esports (Thai Team)": {
         "becomes": null,
         "came_from": null,
@@ -19348,19 +18184,6 @@
         ],
         "region": "North America",
         "short": "NSG",
-        "sister_teams": []
-    },
-    "Novus Tempus": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Novus Tempuslogo square.png",
-        "name": "Novus Tempus",
-        "op": "Novus Tempus",
-        "other_names": [
-            "Novus Tempus"
-        ],
-        "region": "LAS",
-        "short": "NT",
         "sister_teams": []
     },
     "Now or Never": {
@@ -19426,19 +18249,6 @@
         ],
         "region": "Oceania",
         "short": "NVO",
-        "sister_teams": []
-    },
-    "O'Gaming TV": {
-        "becomes": null,
-        "came_from": null,
-        "image": "O'Gaming TVlogo square.png",
-        "name": "O'Gaming TV",
-        "op": "O'Gaming TV",
-        "other_names": [
-            "O'Gaming TV"
-        ],
-        "region": "EMEA",
-        "short": "OGTV",
         "sister_teams": []
     },
     "ODIN Gaming": {
@@ -19679,29 +18489,6 @@
             "Oh My God Academy"
         ]
     },
-    "Oh My God 2": {
-        "becomes": null,
-        "came_from": null,
-        "image": "OMGlogo300.png",
-        "name": "Oh My God 2",
-        "op": "Oh My God 2",
-        "other_names": [
-            "Oh My Dream",
-            "Oh My Girls",
-            "Oh My God",
-            "Oh My God 2",
-            "Oh My God Academy"
-        ],
-        "region": "China",
-        "short": "OMG 2",
-        "sister_teams": [
-            "Oh My Dream",
-            "Oh My Girls",
-            "Oh My Girls A",
-            "Oh My God",
-            "Oh My God Academy"
-        ]
-    },
     "Ohio Northern University": {
         "becomes": null,
         "came_from": null,
@@ -19870,32 +18657,6 @@
         ],
         "region": "Europe",
         "short": "OPE",
-        "sister_teams": []
-    },
-    "One Trick Production": {
-        "becomes": null,
-        "came_from": null,
-        "image": "One Trick Productionlogo square.png",
-        "name": "One Trick Production",
-        "op": "One Trick Production",
-        "other_names": [
-            "One Trick Production"
-        ],
-        "region": "EMEA",
-        "short": "OTP",
-        "sister_teams": []
-    },
-    "One Way Esports": {
-        "becomes": null,
-        "came_from": null,
-        "image": "One Way Esportslogo square.png",
-        "name": "One Way Esports",
-        "op": "One Way Esports",
-        "other_names": [
-            "One Way Esports"
-        ],
-        "region": "EMEA",
-        "short": "OWE",
         "sister_teams": []
     },
     "OnlyGame": {
@@ -20097,28 +18858,6 @@
         "short": "ORGL",
         "sister_teams": []
     },
-    "Origen": {
-        "becomes": "Astralis",
-        "came_from": null,
-        "image": "Origenlogo profile.png",
-        "name": "Origen",
-        "op": "Origen",
-        "other_names": [
-            "Origen",
-            "Origen Academy",
-            "Origen BCN",
-            "Origen ESP",
-            "Origen SB"
-        ],
-        "region": "Europe",
-        "short": "OG",
-        "sister_teams": [
-            "Origen Academy",
-            "Origen BCN",
-            "Origen ESP",
-            "Origen SB"
-        ]
-    },
     "Original Gaming": {
         "becomes": null,
         "came_from": null,
@@ -20195,20 +18934,6 @@
         ],
         "region": "MENA",
         "short": "OTW",
-        "sister_teams": []
-    },
-    "Oslo Lions": {
-        "becomes": null,
-        "came_from": "Lions EK",
-        "image": null,
-        "name": "Oslo Lions",
-        "op": "Oslo Lions",
-        "other_names": [
-            "Lions EK",
-            "Oslo Lions"
-        ],
-        "region": null,
-        "short": null,
         "sister_teams": []
     },
     "Osos Mafiosos": {
@@ -20515,7 +19240,10 @@
         "op": "PDW",
         "other_names": [
             "7more7",
+            "7more7 Black",
             "7more7 Pompa Team",
+            "7more7 Pompa Team Academy",
+            "7more7 White",
             "PDW",
             "Pompa Team"
         ],
@@ -20558,9 +19286,12 @@
         "name": "PENTAGRAM",
         "op": "PENTAGRAM",
         "other_names": [
+            "KINGDOM",
             "Ozone Rampage",
             "PENTAGRAM",
+            "PLUS ULTRA",
             "Rampage",
+            "Rampage Quintet",
             "myRevenge Rampage"
         ],
         "region": "Japan",
@@ -20589,6 +19320,7 @@
         "op": "PIGSPORTS",
         "other_names": [
             "ESCORT P9",
+            "ESCORT P9 Academy",
             "PIGSPORTS"
         ],
         "region": "Europe",
@@ -20621,19 +19353,6 @@
         ],
         "region": "LMS",
         "short": "PKM",
-        "sister_teams": []
-    },
-    "PL Gaming": {
-        "becomes": null,
-        "came_from": null,
-        "image": "PL Gaminglogo square.png",
-        "name": "PL Gaming",
-        "op": "PL Gaming",
-        "other_names": [
-            "PL Gaming"
-        ],
-        "region": "LAS",
-        "short": "PL",
         "sister_teams": []
     },
     "PRIDE (Polish Team)": {
@@ -20853,20 +19572,6 @@
         "short": "PAO",
         "sister_teams": []
     },
-    "Panda Cub Hugging Club": {
-        "becomes": "Team Fat Rabbit",
-        "came_from": "Team Fat Rabbit",
-        "image": "PCHC logo.png",
-        "name": "Panda Cub Hugging Club",
-        "op": "Panda Cub Hugging Club",
-        "other_names": [
-            "Panda Cub Hugging Club",
-            "Team Fat Rabbit"
-        ],
-        "region": "SEA",
-        "short": "PCHC",
-        "sister_teams": []
-    },
     "PandaCute": {
         "becomes": null,
         "came_from": null,
@@ -21025,25 +19730,6 @@
         "short": "PC",
         "sister_teams": []
     },
-    "Peak Performance": {
-        "becomes": "Peak Performance Y",
-        "came_from": "Peak Performance Esports",
-        "image": "Peak Performancelogo square.png",
-        "name": "Peak Performance",
-        "op": "Peak Performance",
-        "other_names": [
-            "Peak Performance",
-            "Peak Performance Esports",
-            "Peak Performance X",
-            "Peak Performance Y"
-        ],
-        "region": "North America",
-        "short": "PPE",
-        "sister_teams": [
-            "Peak Performance X",
-            "Peak Performance Y"
-        ]
-    },
     "Peak Performance X": {
         "becomes": null,
         "came_from": null,
@@ -21142,22 +19828,6 @@
         "short": "5K",
         "sister_teams": []
     },
-    "Pentanet.GG": {
-        "becomes": "Antic Esports",
-        "came_from": null,
-        "image": "Pentanet.GGlogo profile.png",
-        "name": "Pentanet.GG",
-        "op": "Pentanet.GG",
-        "other_names": [
-            "Pentanet.GG",
-            "Pentanet.GG Rise"
-        ],
-        "region": "PCS",
-        "short": "PGG",
-        "sister_teams": [
-            "Pentanet.GG Rise"
-        ]
-    },
     "People's Red Wolf Gaming": {
         "becomes": null,
         "came_from": "Red Wolf Gaming",
@@ -21206,6 +19876,7 @@
         "op": "Pertinax Esports",
         "other_names": [
             "Glorious Gaming",
+            "Glorious Gaming Belgium",
             "Pertinax Esports"
         ],
         "region": "EMEA",
@@ -21347,19 +20018,6 @@
         ],
         "region": "Latin America",
         "short": "PIX",
-        "sister_teams": []
-    },
-    "Planetary Collision Esports": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Unknown Infobox Image - Team.png",
-        "name": "Planetary Collision Esports",
-        "op": "Planetary Collision Esports",
-        "other_names": [
-            "Planetary Collision Esports"
-        ],
-        "region": "North America",
-        "short": "PLAN",
         "sister_teams": []
     },
     "Planetkey Dynamics": {
@@ -21522,19 +20180,6 @@
         "short": "POL",
         "sister_teams": []
     },
-    "Pondok Gaming": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Pondok Gaminglogo square.png",
-        "name": "Pondok Gaming",
-        "op": "Pondok Gaming",
-        "other_names": [
-            "Pondok Gaming"
-        ],
-        "region": "SEA",
-        "short": "Pondok",
-        "sister_teams": []
-    },
     "Pookie Bears": {
         "becomes": null,
         "came_from": null,
@@ -21615,19 +20260,6 @@
         "short": null,
         "sister_teams": []
     },
-    "PrideFC": {
-        "becomes": null,
-        "came_from": null,
-        "image": "PrideFC.jpg",
-        "name": "PrideFC",
-        "op": "PrideFC",
-        "other_names": [
-            "PrideFC"
-        ],
-        "region": "Europe",
-        "short": "PFC",
-        "sister_teams": []
-    },
     "Prime Clan": {
         "becomes": "SBENU Sonicboom",
         "came_from": null,
@@ -21653,7 +20285,8 @@
         "op": "Prinfor Esports Club",
         "other_names": [
             "Prinfor Esports Club",
-            "XD Prinfor"
+            "XD Prinfor",
+            "XD Prinfor B"
         ],
         "region": null,
         "short": null,
@@ -21869,58 +20502,6 @@
         "short": "QGR",
         "sister_teams": []
     },
-    "QLASH": {
-        "becomes": null,
-        "came_from": null,
-        "image": "QLASHlogo profile.png",
-        "name": "QLASH",
-        "op": "QLASH",
-        "other_names": [
-            "QLASH",
-            "QLASH Egypt",
-            "QLASH Forge",
-            "QLASH Forge Academy",
-            "QLASH Midnight",
-            "QLASH Spain",
-            "Team QLASH Academy"
-        ],
-        "region": "EMEA",
-        "short": "QLS",
-        "sister_teams": [
-            "QLASH Egypt",
-            "QLASH Forge",
-            "QLASH Forge Academy",
-            "QLASH Midnight",
-            "QLASH Spain",
-            "Team QLASH Academy"
-        ]
-    },
-    "QLASH Egypt": {
-        "becomes": "QLASH MENA",
-        "came_from": null,
-        "image": null,
-        "name": "QLASH Egypt",
-        "op": "QLASH Egypt",
-        "other_names": [
-            "QLASH",
-            "QLASH Egypt",
-            "QLASH Forge",
-            "QLASH Forge Academy",
-            "QLASH Midnight",
-            "QLASH Spain",
-            "Team QLASH Academy"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": [
-            "QLASH",
-            "QLASH Forge",
-            "QLASH Forge Academy",
-            "QLASH Midnight",
-            "QLASH Spain",
-            "Team QLASH Academy"
-        ]
-    },
     "QLASH MENA": {
         "becomes": null,
         "came_from": "QLASH Egypt",
@@ -21928,8 +20509,14 @@
         "name": "QLASH MENA",
         "op": "QLASH MENA",
         "other_names": [
+            "QLASH",
             "QLASH Egypt",
-            "QLASH MENA"
+            "QLASH Forge",
+            "QLASH Forge Academy",
+            "QLASH MENA",
+            "QLASH Midnight",
+            "QLASH Spain",
+            "Team QLASH Academy"
         ],
         "region": "MENA",
         "short": "QLM",
@@ -22307,33 +20894,6 @@
         "short": "ROSS",
         "sister_teams": []
     },
-    "ROX Tigers": {
-        "becomes": "Hanwha Life Esports",
-        "came_from": "Tigers",
-        "image": "ROX Tigerslogo square.png",
-        "name": "ROX Tigers",
-        "op": "ROX Tigers",
-        "other_names": [
-            "7th heaven",
-            "DetonatioN RabbitFive",
-            "FrenzyX",
-            "GE Tigers",
-            "HUYA Tigers",
-            "KOO Tigers",
-            "ROX COOL",
-            "ROX Tigers",
-            "RabbitFive",
-            "Smash It Down",
-            "Tigers"
-        ],
-        "region": "Korea",
-        "short": "ROX",
-        "sister_teams": [
-            "ROX COOL",
-            "ROX Caracal",
-            "Smash It Down"
-        ]
-    },
     "RPG-KINGDOM": {
         "becomes": null,
         "came_from": "KINGDOM",
@@ -22495,27 +21055,6 @@
         "short": "AWK",
         "sister_teams": []
     },
-    "Rampage": {
-        "becomes": "PENTAGRAM",
-        "came_from": "Ozone Rampage",
-        "image": "Rampagelogo profile.png",
-        "name": "Rampage",
-        "op": "Rampage",
-        "other_names": [
-            "KINGDOM",
-            "Ozone Rampage",
-            "PLUS ULTRA",
-            "Rampage",
-            "Rampage Quintet",
-            "myRevenge Rampage"
-        ],
-        "region": "Japan",
-        "short": "RPG",
-        "sister_teams": [
-            "KINGDOM",
-            "Rampage Quintet"
-        ]
-    },
     "Random 5": {
         "becomes": null,
         "came_from": null,
@@ -22529,21 +21068,6 @@
         "short": "R5",
         "sister_teams": []
     },
-    "Ranking Esports": {
-        "becomes": null,
-        "came_from": "SBTC Esports",
-        "image": "Ranking Esportslogo square.png",
-        "name": "Ranking Esports",
-        "op": "Ranking Esports",
-        "other_names": [
-            "Academy SBTC",
-            "Ranking Esports",
-            "SBTC Esports"
-        ],
-        "region": "Vietnam",
-        "short": "RK",
-        "sister_teams": []
-    },
     "Rare Atom": {
         "becomes": null,
         "came_from": "Vici Gaming",
@@ -22551,10 +21075,16 @@
         "name": "Rare Atom",
         "op": "Rare Atom",
         "other_names": [
+            "Dream VGirls",
             "Rare Atom",
             "Rare Atom Period",
+            "Vici Esports",
             "Vici Gaming",
+            "Vici Gaming 2",
+            "Vici Gaming Academy",
             "Vici Gaming Potential",
+            "Vici Point Gaming",
+            "Vici Potential Gaming",
             "Vici Stand Gaming",
             "Vici Star Gaming"
         ],
@@ -23098,6 +21628,7 @@
         "name": "Revenger",
         "op": "Revenger (Chinese Team)",
         "other_names": [
+            "Kx.Cash",
             "Kx.Happy",
             "Revenger",
             "Revenger (Chinese Team)"
@@ -23417,8 +21948,11 @@
         "op": "Rogue (European Team)",
         "other_names": [
             "AGO ROGUE",
+            "Finetwork KOI",
             "KOI",
             "KOI (Spanish Team)",
+            "KOI Academy",
+            "KOI Amethyst",
             "Rogue",
             "Rogue (European Team)",
             "Rogue Esports Club",
@@ -23443,20 +21977,6 @@
         ],
         "region": "Europe",
         "short": "RML",
-        "sister_teams": []
-    },
-    "Roosevelt University": {
-        "becomes": null,
-        "came_from": "Robert Morris University Illinois",
-        "image": null,
-        "name": "Roosevelt University",
-        "op": "Roosevelt University",
-        "other_names": [
-            "Robert Morris University Illinois",
-            "Roosevelt University"
-        ],
-        "region": null,
-        "short": null,
         "sister_teams": []
     },
     "RoughNeX": {
@@ -23675,6 +22195,7 @@
         "other_names": [
             "ASUS ROG Academy",
             "ASUS ROG Army",
+            "ASUS ROG Female",
             "S2V Esports",
             "S2V Esports Academy",
             "S2V Esports Female"
@@ -23798,6 +22319,7 @@
         "op": "SEA Serpents",
         "other_names": [
             "DeToNator",
+            "DeToNator (Japanese Team)",
             "DeToNator (Southeast Asian Team)",
             "SEA Serpents"
         ],
@@ -23901,26 +22423,6 @@
         "sister_teams": [
             "SK Gaming Avarosa",
             "SK Gaming Prime"
-        ]
-    },
-    "SK Telecom T1": {
-        "becomes": "T1",
-        "came_from": null,
-        "image": "SK Telecom T1logo square.png",
-        "name": "SK Telecom T1",
-        "op": "SK Telecom T1",
-        "other_names": [
-            "SK Telecom T1",
-            "SK Telecom T1 1",
-            "SK Telecom T1 2",
-            "SK Telecom T1 K",
-            "SK Telecom T1 S"
-        ],
-        "region": "Korea",
-        "short": "SKT",
-        "sister_teams": [
-            "SK Telecom T1 K",
-            "SK Telecom T1 S"
         ]
     },
     "SLO REJECTS": {
@@ -24229,19 +22731,6 @@
         "short": "SJ",
         "sister_teams": []
     },
-    "Samadder Gaming": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Samadder Gaminglogo square.png",
-        "name": "Samadder Gaming",
-        "op": "Samadder Gaming",
-        "other_names": [
-            "Samadder Gaming"
-        ],
-        "region": "North America",
-        "short": "SMG",
-        "sister_teams": []
-    },
     "Sample Text": {
         "becomes": null,
         "came_from": null,
@@ -24419,19 +22908,6 @@
         ],
         "region": "LAN",
         "short": "Satori",
-        "sister_teams": []
-    },
-    "Satori Red": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Satorilogo square.png",
-        "name": "Satori Red",
-        "op": "Satori Red",
-        "other_names": [
-            "Satori Red"
-        ],
-        "region": "LAN",
-        "short": "Satori.R",
         "sister_teams": []
     },
     "Savage (Latin American Team)": {
@@ -24711,19 +23187,6 @@
         ],
         "region": "Korea",
         "short": "SLN",
-        "sister_teams": []
-    },
-    "Serena Five": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Serena Fivelogo square.png",
-        "name": "Serena Five",
-        "op": "Serena Five",
-        "other_names": [
-            "Serena Five"
-        ],
-        "region": "LAS",
-        "short": "S5",
         "sister_teams": []
     },
     "Seven Wars Lyon": {
@@ -25081,20 +23544,6 @@
         "short": "SPL",
         "sister_teams": []
     },
-    "Simplicity Gaming Elite": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Simplicity Gaming Elitelogo square.png",
-        "name": "Simplicity Elite",
-        "op": "Simplicity Gaming Elite",
-        "other_names": [
-            "Simplicity Elite",
-            "Simplicity Gaming Elite"
-        ],
-        "region": "MENA",
-        "short": "SPL.E",
-        "sister_teams": []
-    },
     "Sin Gaming": {
         "becomes": null,
         "came_from": null,
@@ -25149,19 +23598,6 @@
         ],
         "region": "North America",
         "short": "STH",
-        "sister_teams": []
-    },
-    "Sinisters": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Sinisterslogo square.png",
-        "name": "Sinisters",
-        "op": "Sinisters",
-        "other_names": [
-            "Sinisters"
-        ],
-        "region": "Latin America",
-        "short": "SNS",
         "sister_teams": []
     },
     "Sinners Never Sleep": {
@@ -25234,20 +23670,6 @@
         "short": null,
         "sister_teams": []
     },
-    "Skyline": {
-        "becomes": "Dadslammers",
-        "came_from": "Dadslammers",
-        "image": null,
-        "name": "Skyline",
-        "op": "Skyline",
-        "other_names": [
-            "Dadslammers",
-            "Skyline"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "Slash Lions": {
         "becomes": null,
         "came_from": null,
@@ -25311,20 +23733,6 @@
         ],
         "region": "North America",
         "short": "SNOW",
-        "sister_teams": []
-    },
-    "Society of Worth Assessing Gentlemen": {
-        "becomes": null,
-        "came_from": null,
-        "image": "SWAG_URF_Logo.png",
-        "name": "S.W.A.G.",
-        "op": "Society of Worth Assessing Gentlemen",
-        "other_names": [
-            "S.W.A.G.",
-            "Society of Worth Assessing Gentlemen"
-        ],
-        "region": "North America",
-        "short": "S.W.A.G.",
         "sister_teams": []
     },
     "SolaFide Esports": {
@@ -25557,23 +23965,6 @@
         "short": "STR",
         "sister_teams": []
     },
-    "Splyce": {
-        "becomes": "MAD Lions",
-        "came_from": "Follow eSports",
-        "image": "Splycelogo square.png",
-        "name": "Splyce",
-        "op": "Splyce",
-        "other_names": [
-            "Follow eSports",
-            "Splyce",
-            "Splyce Vipers"
-        ],
-        "region": "Europe",
-        "short": "SPY",
-        "sister_teams": [
-            "Splyce Vipers"
-        ]
-    },
     "Sport Boys Association": {
         "becomes": null,
         "came_from": null,
@@ -25759,21 +24150,6 @@
         ],
         "region": "Latin America",
         "short": "STM",
-        "sister_teams": []
-    },
-    "Storm (North American Team)": {
-        "becomes": "Maelstrom Gaming",
-        "came_from": "Maelstrom Gaming",
-        "image": "Stormlogo square.png",
-        "name": "Storm",
-        "op": "Storm (North American Team)",
-        "other_names": [
-            "Maelstrom Gaming",
-            "Storm",
-            "Storm (North American Team)"
-        ],
-        "region": "North America",
-        "short": "STR",
         "sister_teams": []
     },
     "Storm Games Clan": {
@@ -26111,6 +24487,10 @@
         "op": "T1",
         "other_names": [
             "SK Telecom T1",
+            "SK Telecom T1 1",
+            "SK Telecom T1 2",
+            "SK Telecom T1 K",
+            "SK Telecom T1 S",
             "T1",
             "T1 Challengers",
             "T1 Esports Academy"
@@ -26696,20 +25076,6 @@
         "short": "TA",
         "sister_teams": []
     },
-    "Team Arena Online": {
-        "becomes": "Team Dragon Knights",
-        "came_from": "Team Dragon Knights",
-        "image": "Arena_Online.png",
-        "name": "Team Arena Online",
-        "op": "Team Arena Online",
-        "other_names": [
-            "Team Arena Online",
-            "Team Dragon Knights"
-        ],
-        "region": "North America",
-        "short": "TAO",
-        "sister_teams": []
-    },
     "Team Ares": {
         "becomes": null,
         "came_from": null,
@@ -27195,21 +25561,6 @@
         "short": "ESCA.F",
         "sister_teams": []
     },
-    "Team EYA": {
-        "becomes": null,
-        "came_from": "Elyandra Esport",
-        "image": "Team EYAlogo square.png",
-        "name": "Team EYA",
-        "op": "Team EYA",
-        "other_names": [
-            "Elyandra Esport",
-            "IZI Elyandra",
-            "Team EYA"
-        ],
-        "region": "EMEA",
-        "short": "EYA",
-        "sister_teams": []
-    },
     "Team EasyFix Co-Hop": {
         "becomes": null,
         "came_from": null,
@@ -27222,24 +25573,6 @@
         "region": "Europe",
         "short": "EFC",
         "sister_teams": []
-    },
-    "Team Echo Zulu": {
-        "becomes": "The Agency",
-        "came_from": null,
-        "image": "Team Echo Zululogo square.png",
-        "name": "Team Echo Zulu",
-        "op": "Team Echo Zulu",
-        "other_names": [
-            "Team Echo Zulu",
-            "Team Echo Zulu Tribe"
-        ],
-        "region": "Europe",
-        "short": "EZ",
-        "sister_teams": [
-            "Echo Zulu Domme Jongens",
-            "Team Echo Zulu Academy",
-            "Team Echo Zulu Tribe"
-        ]
     },
     "Team Eloblade": {
         "becomes": null,
@@ -27332,19 +25665,6 @@
         ],
         "region": "North America",
         "short": "FR",
-        "sister_teams": []
-    },
-    "Team Fire": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Team Fire 2015 logo.png",
-        "name": "Team Fire",
-        "op": "Team Fire",
-        "other_names": [
-            "Team Fire"
-        ],
-        "region": "International",
-        "short": "Fire",
         "sister_teams": []
     },
     "Team Fish Taco": {
@@ -27495,6 +25815,7 @@
         "op": "Team GO",
         "other_names": [
             "GamersOrigin",
+            "GamersOrigin Academy",
             "Team GO",
             "Team GO Aurora"
         ],
@@ -27610,19 +25931,6 @@
         ],
         "region": "Korea",
         "short": "TH",
-        "sister_teams": []
-    },
-    "Team Ice": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Team Ice 2015 logo.png",
-        "name": "Team Ice",
-        "op": "Team Ice",
-        "other_names": [
-            "Team Ice"
-        ],
-        "region": "International",
-        "short": "Ice",
         "sister_teams": []
     },
     "Team Imagine": {
@@ -28306,19 +26614,6 @@
             "Team Phantasma Community"
         ]
     },
-    "Team Phoenix": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Team Phoenix.png",
-        "name": "Team Phoenix",
-        "op": "Team Phoenix",
-        "other_names": [
-            "Team Phoenix"
-        ],
-        "region": "China",
-        "short": "PHX",
-        "sister_teams": []
-    },
     "Team Pinnacle": {
         "becomes": null,
         "came_from": null,
@@ -28650,19 +26945,6 @@
         "short": "SKY",
         "sister_teams": []
     },
-    "Team Solo Mebdi": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Team Solo Mebdilogo square.png",
-        "name": "Team Solo Mebdi",
-        "op": "Team Solo Mebdi",
-        "other_names": [
-            "Team Solo Mebdi"
-        ],
-        "region": "Europe",
-        "short": "TSM",
-        "sister_teams": []
-    },
     "Team Spirit": {
         "becomes": null,
         "came_from": null,
@@ -28758,21 +27040,6 @@
         "short": "TDTV",
         "sister_teams": []
     },
-    "Team Toxic": {
-        "becomes": "Go To Sleep",
-        "came_from": "Meteorite.GTS",
-        "image": null,
-        "name": "Team Toxic",
-        "op": "Team Toxic",
-        "other_names": [
-            "Go To Sleep",
-            "Meteorite.GTS",
-            "Team Toxic"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "Team Turquality": {
         "becomes": null,
         "came_from": null,
@@ -28860,36 +27127,6 @@
             "Team Vitality Academy",
             "Vitality.Bee",
             "Yellow Stripes"
-        ]
-    },
-    "Team W3": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Team W3logo square.png",
-        "name": "Team W3",
-        "op": "Team W3",
-        "other_names": [
-            "Game Talents",
-            "Mighty Eagle",
-            "New WE",
-            "Team W3",
-            "Team WE",
-            "Team WE Academy",
-            "Team WE Dreams",
-            "Team WE Future",
-            "Team WE.i-Rocks"
-        ],
-        "region": "China",
-        "short": "W3",
-        "sister_teams": [
-            "Game Talents",
-            "Mighty Eagle",
-            "New WE",
-            "Team WE",
-            "Team WE Academy",
-            "Team WE Dreams",
-            "Team WE Future",
-            "Team WE.i-Rocks"
         ]
     },
     "Team WE": {
@@ -29033,20 +27270,6 @@
         ],
         "region": "Japan",
         "short": "ZAN",
-        "sister_teams": []
-    },
-    "Team Zhonyas Revolution": {
-        "becomes": "Silent Revolution Gaming",
-        "came_from": "Silent Revolution Gaming",
-        "image": null,
-        "name": "Team Zhonyas Revolution",
-        "op": "Team Zhonyas Revolution",
-        "other_names": [
-            "Silent Revolution Gaming",
-            "Team Zhonyas Revolution"
-        ],
-        "region": null,
-        "short": null,
         "sister_teams": []
     },
     "Team Zoose": {
@@ -29324,6 +27547,7 @@
         "op": "The Agency",
         "other_names": [
             "Team Echo Zulu",
+            "Team Echo Zulu Tribe",
             "The Agency"
         ],
         "region": "EMEA",
@@ -29995,20 +28219,6 @@
             "Topsports Gaming"
         ]
     },
-    "TopGame": {
-        "becomes": "Xgame",
-        "came_from": "Xgame",
-        "image": null,
-        "name": "TopGame",
-        "op": "TopGame",
-        "other_names": [
-            "TopGame",
-            "Xgame"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "TopHard Esports": {
         "becomes": null,
         "came_from": null,
@@ -30581,19 +28791,6 @@
         "short": "UNIV",
         "sister_teams": []
     },
-    "Universidad de Chile Esports": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Universidad de Chile Esportslogo square.png",
-        "name": "Universidad de Chile Esports",
-        "op": "Universidad de Chile Esports",
-        "other_names": [
-            "Universidad de Chile Esports"
-        ],
-        "region": "Latin America",
-        "short": "UCH",
-        "sister_teams": []
-    },
     "Universitario Esports": {
         "becomes": null,
         "came_from": "Cremas Esports",
@@ -30995,21 +29192,6 @@
         "short": "UT",
         "sister_teams": []
     },
-    "Unlocked": {
-        "becomes": null,
-        "came_from": "Team META",
-        "image": null,
-        "name": "Unlocked",
-        "op": "Unlocked",
-        "other_names": [
-            "4Entertainment",
-            "Team META",
-            "Unlocked"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "Unsold Stuff Gaming": {
         "becomes": null,
         "came_from": null,
@@ -31083,26 +29265,6 @@
         "sister_teams": [
             "V3 Esports Academy",
             "V3 Esports Youth",
-            "V3 New Generation"
-        ]
-    },
-    "V3 Esports Youth": {
-        "becomes": null,
-        "came_from": null,
-        "image": "V3 Esportslogo profile.png",
-        "name": "V3 Esports Youth",
-        "op": "V3 Esports Youth",
-        "other_names": [
-            "V3 Esports",
-            "V3 Esports Academy",
-            "V3 Esports Youth",
-            "V3 New Generation"
-        ],
-        "region": "Japan",
-        "short": "V3.Y",
-        "sister_teams": [
-            "V3 Esports",
-            "V3 Esports Academy",
             "V3 New Generation"
         ]
     },
@@ -31570,96 +29732,6 @@
         "short": "ViV",
         "sister_teams": []
     },
-    "Vici Gaming": {
-        "becomes": "Rare Atom",
-        "came_from": "Vici Star Gaming",
-        "image": "Vici Gaminglogo square.png",
-        "name": "Vici Gaming",
-        "op": "Vici Gaming",
-        "other_names": [
-            "Dream VGirls",
-            "Vici Esports",
-            "Vici Gaming",
-            "Vici Gaming 2",
-            "Vici Gaming Academy",
-            "Vici Gaming Potential",
-            "Vici Point Gaming",
-            "Vici Potential Gaming",
-            "Vici Stand Gaming",
-            "Vici Star Gaming"
-        ],
-        "region": "China",
-        "short": "VG",
-        "sister_teams": [
-            "Dream VGirls",
-            "Vici Esports",
-            "Vici Gaming 2",
-            "Vici Gaming Academy",
-            "Vici Gaming Potential",
-            "Vici Potential Gaming",
-            "Vici Star Gaming"
-        ]
-    },
-    "Vici Gaming Academy": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Vici Gaming Academylogo square.png",
-        "name": "Vici Gaming Academy",
-        "op": "Vici Gaming Academy",
-        "other_names": [
-            "Dream VGirls",
-            "Vici Esports",
-            "Vici Gaming",
-            "Vici Gaming 2",
-            "Vici Gaming Academy",
-            "Vici Gaming Potential",
-            "Vici Point Gaming",
-            "Vici Potential Gaming",
-            "Vici Stand Gaming",
-            "Vici Star Gaming"
-        ],
-        "region": "China",
-        "short": "VGA",
-        "sister_teams": [
-            "Dream VGirls",
-            "Vici Esports",
-            "Vici Gaming",
-            "Vici Gaming 2",
-            "Vici Gaming Potential",
-            "Vici Potential Gaming",
-            "Vici Star Gaming"
-        ]
-    },
-    "Vici Star Gaming": {
-        "becomes": "Vici Gaming",
-        "came_from": "Vici Stand Gaming",
-        "image": "Vici Gaming oldlogo square.png",
-        "name": "Vici Star Gaming",
-        "op": "Vici Star Gaming",
-        "other_names": [
-            "Dream VGirls",
-            "Vici Esports",
-            "Vici Gaming",
-            "Vici Gaming 2",
-            "Vici Gaming Academy",
-            "Vici Gaming Potential",
-            "Vici Point Gaming",
-            "Vici Potential Gaming",
-            "Vici Stand Gaming",
-            "Vici Star Gaming"
-        ],
-        "region": "China",
-        "short": "VG.S",
-        "sister_teams": [
-            "Dream VGirls",
-            "Vici Esports",
-            "Vici Gaming",
-            "Vici Gaming 2",
-            "Vici Gaming Academy",
-            "Vici Gaming Potential",
-            "Vici Potential Gaming"
-        ]
-    },
     "Victorious Ace": {
         "becomes": null,
         "came_from": null,
@@ -31735,20 +29807,6 @@
         "other_names": [
             "Protecting Guardians",
             "Vigilantes"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
-    "Vigilantes Academy": {
-        "becomes": null,
-        "came_from": "Protecting Guardians Academy",
-        "image": null,
-        "name": "Vigilantes Academy",
-        "op": "Vigilantes Academy",
-        "other_names": [
-            "Protecting Guardians Academy",
-            "Vigilantes Academy"
         ],
         "region": null,
         "short": null,
@@ -31841,32 +29899,6 @@
         ],
         "region": "EMEA",
         "short": "VIL",
-        "sister_teams": []
-    },
-    "Vince Te Ipsum Ignis": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Logovti.png",
-        "name": "Vince Te Ipsum Ignis",
-        "op": "Vince Te Ipsum Ignis",
-        "other_names": [
-            "Vince Te Ipsum Ignis"
-        ],
-        "region": "Brazil",
-        "short": "vTi Ignis",
-        "sister_teams": []
-    },
-    "Vince Te Ipsum Nox": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Logovti.png",
-        "name": "Vince Te Ipsum Nox",
-        "op": "Vince Te Ipsum Nox",
-        "other_names": [
-            "Vince Te Ipsum Nox"
-        ],
-        "region": "Brazil",
-        "short": "vTi Nox",
         "sister_teams": []
     },
     "Viperio": {
@@ -32011,20 +30043,6 @@
         ],
         "region": "EMEA",
         "short": "VP",
-        "sister_teams": []
-    },
-    "Vitality Rising Bees": {
-        "becomes": null,
-        "came_from": "Vitality French Bees",
-        "image": "Vitality Rising Beeslogo square.png",
-        "name": "Vitality Rising Bees",
-        "op": "Vitality Rising Bees",
-        "other_names": [
-            "Vitality French Bees",
-            "Vitality Rising Bees"
-        ],
-        "region": "EMEA",
-        "short": "VRB",
         "sister_teams": []
     },
     "Vivo Keyd": {
@@ -32547,19 +30565,6 @@
         "short": "WAF",
         "sister_teams": []
     },
-    "White Bears eSports": {
-        "becomes": null,
-        "came_from": null,
-        "image": "White Bears eSportslogo square.png",
-        "name": "White Bears eSports",
-        "op": "White Bears eSports",
-        "other_names": [
-            "White Bears eSports"
-        ],
-        "region": "Latin America",
-        "short": "WB",
-        "sister_teams": []
-    },
     "White Dragons": {
         "becomes": null,
         "came_from": null,
@@ -32768,20 +30773,6 @@
         "short": "WOR",
         "sister_teams": []
     },
-    "Winners": {
-        "becomes": "Ever8 Winners",
-        "came_from": "Ever8 Winners",
-        "image": "Winnerslogo square.png",
-        "name": "Winners",
-        "op": "Winners",
-        "other_names": [
-            "Ever8 Winners",
-            "Winners"
-        ],
-        "region": "Korea",
-        "short": "WNS",
-        "sister_teams": []
-    },
     "Winston King of Amateur": {
         "becomes": null,
         "came_from": null,
@@ -32803,6 +30794,10 @@
         "op": "Winterfox",
         "other_names": [
             "Evil Geniuses",
+            "Evil Geniuses Academy",
+            "Evil Geniuses Challengers",
+            "Evil Geniuses Prodigies",
+            "Evil Geniuses.EU",
             "Evil Geniuses.NA",
             "Winterfox"
         ],
@@ -32834,19 +30829,6 @@
         ],
         "region": "Europe",
         "short": "WP",
-        "sister_teams": []
-    },
-    "WitchHUB": {
-        "becomes": null,
-        "came_from": null,
-        "image": "WitchHUBlogo square.png",
-        "name": "WitchHUB",
-        "op": "WitchHUB",
-        "other_names": [
-            "WitchHUB"
-        ],
-        "region": "EMEA",
-        "short": "WH",
         "sister_teams": []
     },
     "Wizard esports": {
@@ -33033,22 +31015,6 @@
         "short": "XAL",
         "sister_teams": []
     },
-    "XD Prinfor": {
-        "becomes": "Prinfor Esports Club",
-        "came_from": null,
-        "image": "XD Prinforlogo square.png",
-        "name": "XD Prinfor",
-        "op": "XD Prinfor",
-        "other_names": [
-            "XD Prinfor",
-            "XD Prinfor B"
-        ],
-        "region": "Europe",
-        "short": "XD",
-        "sister_teams": [
-            "XD Prinfor B"
-        ]
-    },
     "XDG Gaming": {
         "becomes": null,
         "came_from": "Team Vulcun",
@@ -33111,19 +31077,6 @@
             "XTEN Mexico"
         ]
     },
-    "XTGN": {
-        "becomes": null,
-        "came_from": null,
-        "image": "XTGNlogo square.png",
-        "name": "XTGN",
-        "op": "XTGN",
-        "other_names": [
-            "XTGN"
-        ],
-        "region": "North America",
-        "short": "XTGN",
-        "sister_teams": []
-    },
     "XY Esports": {
         "becomes": null,
         "came_from": null,
@@ -33137,20 +31090,6 @@
         "short": "XY",
         "sister_teams": []
     },
-    "XYZ (Korean Team)": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Unknown Infobox Image - Team.png",
-        "name": "XYZ",
-        "op": "XYZ (Korean Team)",
-        "other_names": [
-            "XYZ",
-            "XYZ (Korean Team)"
-        ],
-        "region": "Korea",
-        "short": "XYZ",
-        "sister_teams": []
-    },
     "Xan": {
         "becomes": null,
         "came_from": null,
@@ -33162,20 +31101,6 @@
         ],
         "region": "SEA",
         "short": "XAN",
-        "sister_teams": []
-    },
-    "Xavier Esports": {
-        "becomes": "Mythus Esports",
-        "came_from": "Mythus Esports",
-        "image": "Xavier Esportslogo profile.png",
-        "name": "Xavier Esports",
-        "op": "Xavier Esports",
-        "other_names": [
-            "Mythus Esports",
-            "Xavier Esports"
-        ],
-        "region": "SEA",
-        "short": "XAV",
         "sister_teams": []
     },
     "Xenics": {
@@ -33318,24 +31243,6 @@
         "short": "YDN",
         "sister_teams": []
     },
-    "YDN Legion": {
-        "becomes": null,
-        "came_from": null,
-        "image": "YDN Legionlogo square.png",
-        "name": "YDN Legion",
-        "op": "YDN Legion",
-        "other_names": [
-            "YDN Devils",
-            "YDN Elysium",
-            "YDN Legion"
-        ],
-        "region": "Europe",
-        "short": "YDN.L",
-        "sister_teams": [
-            "YDN Devils",
-            "YDN Elysium"
-        ]
-    },
     "Yalla Esport": {
         "becomes": null,
         "came_from": null,
@@ -33347,20 +31254,6 @@
         ],
         "region": "EMEA",
         "short": "YAL",
-        "sister_teams": []
-    },
-    "Ye Olde League Organization": {
-        "becomes": null,
-        "came_from": null,
-        "image": "YOLO URF Logo.png",
-        "name": "Y.O.L.O.",
-        "op": "Ye Olde League Organization",
-        "other_names": [
-            "Y.O.L.O.",
-            "Ye Olde League Organization"
-        ],
-        "region": "North America",
-        "short": "Y.O.L.O.",
         "sister_teams": []
     },
     "YeaH! Gaming": {
@@ -33525,20 +31418,6 @@
         "short": "YTR",
         "sister_teams": []
     },
-    "Z10 ESHARK": {
-        "becomes": "Zero Tenacity",
-        "came_from": "Zero Tenacity",
-        "image": null,
-        "name": "Z10 ESHARK",
-        "op": "Z10 ESHARK",
-        "other_names": [
-            "Z10 ESHARK",
-            "Zero Tenacity"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "ZAGA Talent Gaming": {
         "becomes": null,
         "came_from": "Royal Academy",
@@ -33632,26 +31511,6 @@
         "short": "ZNE",
         "sister_teams": []
     },
-    "Zenigma": {
-        "becomes": "Des Moines DMG",
-        "came_from": null,
-        "image": "Zenigmalogo square.png",
-        "name": "Zenigma",
-        "op": "Zenigma",
-        "other_names": [
-            "Zenigma",
-            "Zenigma Eclipse",
-            "Zenigma Lunar",
-            "Zenigma Solar"
-        ],
-        "region": "North America",
-        "short": "ZEN",
-        "sister_teams": [
-            "Zenigma Eclipse",
-            "Zenigma Lunar",
-            "Zenigma Solar"
-        ]
-    },
     "Zenith Esports": {
         "becomes": null,
         "came_from": null,
@@ -33709,26 +31568,6 @@
             "Zephyr E-Sport White",
             "Zephyr Esport Academy",
             "Zephyr Esport Red"
-        ]
-    },
-    "Zephyr Esport Red": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Zephyr Esport Redlogo square.png",
-        "name": "Zephyr Esport Red",
-        "op": "Zephyr Esport Red",
-        "other_names": [
-            "Zephyr E-Sport White",
-            "Zephyr Esport",
-            "Zephyr Esport Academy",
-            "Zephyr Esport Red"
-        ],
-        "region": "Europe",
-        "short": "ZPR.R",
-        "sister_teams": [
-            "Zephyr E-Sport White",
-            "Zephyr Esport",
-            "Zephyr Esport Academy"
         ]
     },
     "Zerance": {
@@ -33913,24 +31752,17 @@
         "name": "Zoos Gaming",
         "op": "Zoos Gaming",
         "other_names": [
+            "ANEW Academy",
             "ANEW Blaze",
+            "ANEW Dawn",
+            "ANEW Esports",
+            "ANEW Genesis",
+            "ANEW Hope",
+            "ANEW Rising",
             "Zoos Gaming"
         ],
         "region": "North America",
         "short": "ZOO",
-        "sister_teams": []
-    },
-    "Zwan Gaming Academy": {
-        "becomes": null,
-        "came_from": null,
-        "image": "Unknown Infobox Image - Team.png",
-        "name": "Zwan Gaming Academy",
-        "op": "Zwan Gaming Academy",
-        "other_names": [
-            "Zwan Gaming Academy"
-        ],
-        "region": "Latin America",
-        "short": "ZWAN",
         "sister_teams": []
     },
     "Zwan Gaming Mexico": {
@@ -33993,36 +31825,6 @@
         "short": null,
         "sister_teams": []
     },
-    "eMonkeyz SD Huesca": {
-        "becomes": "EMonkeyz",
-        "came_from": "EMonkeyz",
-        "image": null,
-        "name": "eMonkeyz SD Huesca",
-        "op": "eMonkeyz SD Huesca",
-        "other_names": [
-            "Celerius e-Sports",
-            "EMonkeyz",
-            "eMonkeyz",
-            "eMonkeyz SD Huesca"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
-    "exGameburg Team": {
-        "becomes": null,
-        "came_from": "Gameburg Team",
-        "image": null,
-        "name": "exGameburg Team",
-        "op": "exGameburg Team",
-        "other_names": [
-            "Gameburg Team",
-            "exGameburg Team"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "exHCL Gaming": {
         "becomes": null,
         "came_from": "HCL Gaming",
@@ -34071,21 +31873,6 @@
         "sister_teams": [
             "MCon esports Rotterdam Academy"
         ]
-    },
-    "x-kom AGO": {
-        "becomes": "AGO esports",
-        "came_from": "AGO esports",
-        "image": null,
-        "name": "x-kom AGO",
-        "op": "x-kom AGO",
-        "other_names": [
-            "AGO Gaming",
-            "AGO esports",
-            "x-kom AGO"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
     },
     "Đạt Gaming": {
         "becomes": null,
