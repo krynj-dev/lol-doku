@@ -4,6 +4,9 @@ player_set = None
 team_set = None
 raw_roster_data = None
 
+def get_team_key(team_dict, term):
+    return next((k for i, k in enumerate(team_dict) if term.lower() == team_dict[k]["op"].lower() or term.lower() == team_dict[k]["name"].lower()), None)
+
 with open('cooked/teams.json', 'r+', encoding='utf-8') as f:
     team_set = json.load(f)
 with open('cooked/players.json', 'r+', encoding='utf-8') as f:
@@ -20,5 +23,5 @@ if player_set is not None and team_set is not None:
     
     for raw_roster in raw_roster_data[:50]:
         team_name = raw_roster["Team"]
-        teams_to_add = [k for k in team_set.keys() if team_name == k or team_name in team_set[k]["other_names"] or team_name in team_set[k]["sister_teams"]]
+        teams_to_add = [k for k in team_set.keys() if team_name in team_set[k]["other_names"]]
         print(teams_to_add)

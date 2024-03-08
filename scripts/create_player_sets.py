@@ -1,9 +1,5 @@
 import time, codecs, datetime as dt, json, os
 
-from mwrogue.esports_client import EsportsClient
-
-site = EsportsClient("lol")
-
 os.makedirs("cooked", exist_ok=True)
 
 raw_player_data = None

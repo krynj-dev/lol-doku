@@ -168,20 +168,40 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     #########################################################
     # For all teams give other_names to parents and sisters #
     #########################################################
+    visited = set()
     for key in team_sets.keys():
         seen = []
         if team_sets[key]["came_from"] is None: # No children
             cur_key = key
+            visited.add(cur_key)
             while team_sets[cur_key]["becomes"] is not None: # Has parent, add data
                 nxt_key = team_sets[cur_key]["becomes"]
                 # Give to parent then switch to parent
-                log += "Adding {} to {}\n".format(cur_key, nxt_key)
+                # log += "Adding {} to {}\n".format(cur_key, nxt_key)
                 team_sets[nxt_key]["other_names"] = team_sets[nxt_key]["other_names"].union(team_sets[cur_key]["other_names"])
-                log += str(team_sets[nxt_key]["other_names"]) + '\n'
+                # log += str(team_sets[nxt_key]["other_names"]) + '\n'
                 seen.append(cur_key)
                 cur_key = nxt_key
+                visited.add(cur_key)
                 if cur_key in seen:
                     break
+
+    for key in team_sets.keys() - visited:
+        seen = []
+        cur_key = key
+        while team_sets[cur_key]["becomes"] is not None: # Has parent, add data
+            nxt_key = team_sets[cur_key]["becomes"]
+            # Give to parent then switch to parent
+            # log += "Adding {} to {}\n".format(cur_key, nxt_key)
+            team_sets[nxt_key]["other_names"] = team_sets[nxt_key]["other_names"].union(team_sets[cur_key]["other_names"])
+            # log += str(team_sets[nxt_key]["other_names"]) + '\n'
+            seen.append(cur_key)
+            cur_key = nxt_key
+            if cur_key in seen:
+                break
+
+
+
     
     for key in team_sets.keys():
         seen = []
@@ -248,7 +268,7 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                 not_top = not_top.union(set(team_chain))
             elif len(chain_recencies) > 1:
                 master_n = chain_recencies[0][0]
-                print(master_n, [k for k in team_chain if k != master_n], sep=" |\t")
+                # print(master_n, [k for k in team_chain if k != master_n], sep=" |\t")
                 not_top = not_top.union(set([k for k in team_chain if k != master_n]))
     
     ## Del not tops
@@ -274,8 +294,58 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     for k in not_main:
         del(team_sets[k])
 
+    ## This will take time kek
+    eclipsed = {}
+    equiv = {}
+    for key_a in team_sets.keys():
+        for key_b in team_sets.keys():
+            if key_a != key_b and team_sets[key_a]["other_names"] < team_sets[key_b]["other_names"]:
+                if key_a not in eclipsed.keys():
+                    eclipsed[key_a] = {key_b}
+                else:
+                    eclipsed[key_a].add(key_b)
+            elif key_a != key_b and team_sets[key_a]["other_names"] == team_sets[key_b]["other_names"]:
+                if key_a not in equiv.keys():
+                    equiv[key_a] = {key_b}
+                else:
+                    equiv[key_a].add(key_b)
+    # print("ECLIPSED")
+    # print("\n".join(["EC: {}: {}".format(k, eclipsed[k]) for k in eclipsed]))
+    # print("EQUIV")
+    # print("\n".join(["EQ: {}: {}".format(k, equiv[k]) for k in equiv]))
+
+    # Delete all eclipsed teams
+    for k in eclipsed.keys():
+        del(team_sets[k])
+    
+    # Delete equiv teams
+    not_main = set()
+    for key in equiv.keys():
+        equiv_group = [(t, roster_last_played[t]) for t in equiv[key].union({key}) if t in roster_last_played.keys() and get_team_key(team_sets, t) is not None]
+        equiv_group = sorted(equiv_group, key=lambda x: x[0]) # Alphabetical
+        equiv_group = sorted(equiv_group, key=lambda x: dt.datetime.strptime(x[1][0], "%Y-%m-%d"), reverse=True) # Most recently played
+        equiv_group = sorted(equiv_group, key=lambda x: level_prio.index(x[1][1])) # Highest level played
+        if len(equiv_group) == 0:
+            print("I guess these teams never played under this name or they've been deleted already: {} ".format(equiv[key].union({key})))
+            not_main = not_main.union(equiv[key].union({key}))
+            continue
+        # log += "{}\n".format(sister_group)
+        master_i = 0
+        while (get_team_key(team_sets, equiv_group[master_i][0]) is None and master_i < len(equiv_group) - 1):
+            master_i += 1
+        master_n = equiv_group[master_i]
+        dead_set = [get_team_key(team_sets, k[0]) for k in equiv_group if k != master_n]
+        not_main = not_main.union(set([t for t in dead_set if t is not None]))
+    print(not_main)
+    
+    ## Del not mains
+    for k in not_main:
+        del(team_sets[k])
 
     with open('cooked/teams.json', 'w+', encoding='utf-8') as f:
+        for k in team_sets.keys():
+            team_sets[k]["other_names"] = sorted(team_sets[k]["other_names"])
+            team_sets[k]["sister_teams"] = sorted(team_sets[k]["sister_teams"])
         json.dump(team_sets, f, ensure_ascii=False, indent=4, sort_keys=True, default=lambda o: list(o))
     with open('cooked/log.txt', 'w+', encoding='utf-8') as f:
         f.write(log)
