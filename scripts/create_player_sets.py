@@ -15,16 +15,16 @@ if raw_player_data is not None:
         if overview_page != "" and all_name != "":
             if overview_page not in player_sets:
                 player_sets[overview_page] = {
-                    "displayName": overview_page,
+                    "display_name": overview_page,
                     "name": raw_player["Name"],
                     "country": raw_player["Country"],
                     "age": raw_player["Age"],
                     "residency": raw_player["Residency"],
-                    "alternateNames": [
+                    "alternate_names": [
                         all_name
                     ]
                 }
             else:
-                player_sets[overview_page]["alternateNames"].append(all_name)
+                player_sets[overview_page]["alternate_names"].append(all_name)
     with open('cooked/players.json', 'w+', encoding='utf-8') as f:
         json.dump(player_sets, f, ensure_ascii=False, indent=4)

@@ -439,7 +439,7 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
         for k in team_sets.keys():
             team_sets[k]["other_names"] = sorted(team_sets[k]["other_names"])
             team_sets[k]["sister_teams"] = sorted(team_sets[k]["sister_teams"])
-            # team_sets[k]["highest_level"] = roster_last_played[k][1]
+            team_sets[k]["highest_level"] = roster_last_played[k][1]
         json.dump(team_sets, f, ensure_ascii=False, indent=4, sort_keys=True, default=lambda o: list(o))
     with open('cooked/log.txt', 'w+', encoding='utf-8') as f:
         f.write(log)
