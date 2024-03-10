@@ -12,7 +12,7 @@
 	function gen_puz() {
 		let candidate_puzzle = generate_puzzle();
 		while (candidate_puzzle == null) {
-			console.log('invalid');
+			// console.log('invalid');
 			candidate_puzzle = generate_puzzle();
 		}
 		puzzle = candidate_puzzle;

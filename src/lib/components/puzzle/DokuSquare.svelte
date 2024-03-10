@@ -19,7 +19,7 @@
 			/>
 		</div>
 		{#each puzzle.columns as col (col.id)}
-			<div class="info-tile"><span>{col.team_names[col.team_names.length - 1]}</span></div>
+			<div class="info-tile"><span>{col.op}</span></div>
 		{/each}
 		<div class="info-tile">
 			<img
@@ -28,7 +28,7 @@
 			/>
 		</div>
 		<div class="info-tile">
-			<span>{puzzle.rows[0].team_names[puzzle.rows[0].team_names.length - 1]}</span>
+			<span>{puzzle.rows[0].op}</span>
 		</div>
 		<div class="select-tile-span">
 			{#each puzzle.rows as row (row.id)}
@@ -46,11 +46,11 @@
 		</div>
 		<div class="info-tile"><span>Uniqueness Rating: 900</span></div>
 		<div class="info-tile">
-			<span>{puzzle.rows[1].team_names[puzzle.rows[1].team_names.length - 1]}</span>
+			<span>{puzzle.rows[1].op}</span>
 		</div>
 		<div class="info-tile"><span>Correct Guesses: {correct}/9</span></div>
 		<div class="info-tile">
-			<span>{puzzle.rows[2].team_names[puzzle.rows[2].team_names.length - 1]}</span>
+			<span>{puzzle.rows[2].op}</span>
 		</div>
 		<div class="info-tile"><span>Guesses Remaining: {lives}/9</span></div>
 	</div>

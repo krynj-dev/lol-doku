@@ -3,7 +3,6 @@
 	import _team_data from '$lib/data/teams.json';
 	import type { PuzzleRule } from '$lib/models/Puzzle';
 	import type { Team } from '$lib/models/Team';
-	import { getLatestTeamDate, getLatestTeamName } from '$lib/models/Team';
 	import { is_valid } from '$lib/util/puzzle_util';
 	import PlayerModal from './PlayerModal.svelte';
 	export let index: number;
@@ -13,7 +12,9 @@
 	export let correct: number;
 	export let selectedPlayers: string[];
 
-	const team_data = _team_data['chains'] as Team[];
+	const team_data = _team_data as {
+		[key: string]: Team;
+	};
 
 	let stylish = $$props.style;
 

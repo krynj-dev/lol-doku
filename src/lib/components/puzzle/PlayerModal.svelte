@@ -2,7 +2,6 @@
 	import _playerList from '$lib/data/players.json';
 	import type { Puzzle, PuzzleRule } from '$lib/models/Puzzle';
 	import { is_valid } from '$lib/util/puzzle_util';
-	// import type { Player } from '$lib/models/Team';
 
 	export let showModal: Boolean; // boolean
 	export let selectedPlayer: string | undefined;
