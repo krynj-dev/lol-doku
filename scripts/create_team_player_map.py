@@ -10,7 +10,7 @@ def get_team_key(team_dict, term):
 def get_player_key(player_set, term):
     keys = [k for k in player_set.keys() if term.lower() in [n.lower() for n in player_set[k]["alternate_names"]]]
     if len(keys) > 1:
-        print("Found multiple options for {}: {}".format(term, keys))
+        print("\rFound multiple options for {}: {}".format(term, keys), flush=True)
         keys = [k for k in keys if term in player_set[k]["alternate_names"]]
         if len(keys) > 1:
             print("Ree")
@@ -42,15 +42,15 @@ log = ""
 
 if player_set is not None and team_set is not None:
     i = 1
+    l = len(raw_roster_data)
     for raw_roster in raw_roster_data:
-        if i == math.floor(len(raw_roster_data) / 100):
-            print("{}%".format(i / (math.floor(len(raw_roster_data) / 100))))
-        print(raw_roster)
+        print("\r{}/{}".format(i, l), sep=' ', end='', flush=True)
         team_name = raw_roster["Team"].lower()
         tournament_level = truncate_tournament_level(raw_roster["TournamentLevel"])
         team_set_membership = [k for k in team_set.keys() if team_name in [t.lower() for t in team_set[k]["other_names"]]]
         if len(raw_roster["RosterLinks"]) != len(raw_roster["Roles"]):
             log += "Ignoring roster for [{}] in competition [{}] as RL and R not equal: {} | {}\n".format(raw_roster["Team"], raw_roster["OverviewPage"], raw_roster["RosterLinks"], raw_roster["Roles"])
+            i += 1
             continue
         player_roles = []
         for r, player in zip(raw_roster["Roles"], raw_roster["RosterLinks"]):

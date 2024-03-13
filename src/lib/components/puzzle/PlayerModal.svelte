@@ -1,14 +1,24 @@
 <script lang="ts">
 	import _playerList from '$lib/data/players.json';
-	import type { Puzzle, PuzzleRule } from '$lib/models/Puzzle';
+	import type { PuzzleRule } from '$lib/models/Puzzle';
 	import { is_valid } from '$lib/util/puzzle_util';
+	import { _correct, _lives, _selected_players } from '../../../stores';
 
 	export let showModal: Boolean; // boolean
-	export let selectedPlayer: string | undefined;
-	export let selectedPlayers: string[];
-	export let lives: number;
 	export let rules: PuzzleRule[];
+	export let index: number;
+	let selectedPlayers: (string | null)[];
+	let lives: number;
 	let playerList = _playerList;
+	let selectedPlayer: string | null;
+
+	_lives.subscribe((value) => {
+		lives = value;
+	});
+	_selected_players.subscribe((value) => {
+		selectedPlayers = value;
+		selectedPlayer = value[index];
+	});
 
 	let filter = '';
 
@@ -18,15 +28,15 @@
 
 	function handleClose(player?: string) {
 		if (player) {
-			if (selectedPlayer) {
-				let curPlr = selectedPlayer;
-				let itemIdx = selectedPlayers.findIndex((x) => x === curPlr);
-				selectedPlayers.splice(itemIdx, 1);
-				selectedPlayers = [...selectedPlayers];
+			_selected_players.update((s) => {
+				s[index] = player;
+				return s;
+			});
+			selectedPlayers[index] = player;
+			if (is_valid(rules[0], rules[1], player) === 2) {
+				_correct.update((c) => c + 1);
 			}
-			selectedPlayer = player;
-			selectedPlayers = [...selectedPlayers, player];
-			lives -= 1;
+			_lives.update((l) => l - 1);
 		}
 		showModal = false;
 	}

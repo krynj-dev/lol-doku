@@ -10,6 +10,7 @@ raw_team_data = None
 raw_rename_data = None
 raw_sister_data = None
 raw_roster_data = None
+raw_redirect_data = None
 
 with open('raw/teams.json', 'r+', encoding='utf-8') as f:
     raw_team_data = json.load(f)
@@ -19,6 +20,8 @@ with open('raw/sister_teams.json', 'r+', encoding='utf-8') as f:
     raw_sister_data = json.load(f)
 with open('raw/team_rosters.json', 'r+', encoding='utf-8') as f:
     raw_roster_data = json.load(f)
+with open('raw/team_redirects.json', 'r+', encoding='utf-8') as f:
+    raw_redirect_data = json.load(f)
 
 log = ""
 
@@ -33,7 +36,7 @@ log = ""
 #
 ######################################
 
-if raw_team_data is not None and raw_rename_data is not None and raw_sister_data is not None and raw_roster_data is not None:
+if raw_team_data is not None and raw_rename_data is not None and raw_sister_data is not None and raw_roster_data is not None and raw_redirect_data is not None:
     team_sets = {}
     ############################
     # Put every team into list #
@@ -433,7 +436,57 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     
     print("Done!")
 
-    print("10: Saving to file... ", end="\t")
+    print("10: Rectifying quirks ", end="\t")
+
+    # Check for teams with parents
+    todel = set()
+    for k in team_sets.keys():
+        if team_sets[k]["becomes"] is not None and team_sets[k]["becomes"] != team_sets[k]["came_from"]:
+            goto = None
+            for k2 in team_sets.keys():
+                if k != k2 and team_sets[k]["becomes"] in team_sets[k2]["other_names"]:
+                    if goto is not None:
+                        print("uh oh", k, goto, k2)
+                    goto = k2
+            # print("{} -> {}".format(k, goto))
+            if goto is not None:
+                team_sets[goto]["other_names"] |= team_sets[k]["other_names"]
+                # print(team_sets[goto])
+                todel |= {k}
+    
+    # Check for redirects
+    for redir in raw_redirect_data:
+        a_name = redir["AllName"]
+        p_name = redir["PageName"]
+        if a_name in team_sets.keys():
+            for k in team_sets.keys():
+                if k != a_name and p_name in team_sets[k]["other_names"]:
+                    print("This one: {} -> {}".format(a_name, k))
+                    team_sets[k]["other_names"] |= team_sets[a_name]["other_names"]
+                    todel |= {a_name}
+    
+    for k in todel:
+        del(team_sets[k])
+    
+    for roster_key in roster_last_played.keys():
+        has_loc = False
+        for k in team_sets.keys():
+            if roster_key.lower() in [n.lower() for n in team_sets[k]["other_names"]]:
+                has_loc = True
+        if not has_loc:
+            for redir in raw_redirect_data:
+                a_name = redir["AllName"]
+                p_name = redir["PageName"]
+                if a_name == roster_key:
+                    for k in team_sets.keys():
+                        if p_name in team_sets[k]["other_names"]:
+                            print("Ghost team: {} -> {}".format(a_name, k))
+                            team_sets[k]["other_names"] |= {a_name}
+
+    print("Done!")
+
+    print("11: Saving to file... ", end="\t")
+    
 
     with open('cooked/teams.json', 'w+', encoding='utf-8') as f:
         for k in team_sets.keys():

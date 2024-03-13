@@ -1,28 +1,45 @@
 <script lang="ts">
-	import { Category } from '$lib/categories.ts';
 	import DokuSquare from '$lib/components/puzzle/DokuSquare.svelte';
 	import Header from '$lib/components/Header.svelte';
-	import playerList from '$lib/players.json';
 	import { generate_puzzle } from '$lib/util/puzzle_util';
-	import type { Team } from '$lib/models/Team';
-	import type { Puzzle } from '$lib/models/Puzzle';
-
-	let puzzle: Puzzle;
+	import { _puzzle, _lives, _correct, _selected_players } from '../stores';
+	import { limit_region_count } from '$lib/util/puzzle_restrictions';
 
 	function gen_puz() {
-		let candidate_puzzle = generate_puzzle();
-		while (candidate_puzzle == null) {
-			// console.log('invalid');
-			candidate_puzzle = generate_puzzle();
-		}
-		puzzle = candidate_puzzle;
+		_puzzle.set(
+			generate_puzzle([
+				// limit_region_count(
+				// 	['Latin America', 'SEA', 'Brazil', 'CIS', 'Turkey', 'LMS', 'Vietnam', 'Oceania', 'PCS', 'Japan', 'MENA'],
+				// 	2
+				// ),
+				// limit_region_count(
+				// 	['Korea'],
+				// 	3
+				// ),
+				// limit_region_count(
+				// 	['China'],
+				// 	3
+				// ),
+				// limit_region_count(
+				// 	['North America'],
+				// 	3
+				// ),
+				// limit_region_count(
+				// 	['Europe', 'EMEA'],
+				// 	43
+				// )
+			])
+		);
+		_lives.set(9);
+		_correct.set(0);
+		_selected_players.set([null, null, null, null, null, null, null, null, null]);
 	}
 </script>
 
 <Header />
 <div class="content">
-	{#if puzzle}
-		<DokuSquare bind:puzzle />
+	{#if _puzzle}
+		<DokuSquare />
 	{/if}
 	<button on:click={gen_puz}>Get Puzzle</button>
 </div>

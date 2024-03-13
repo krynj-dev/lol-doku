@@ -48,7 +48,7 @@ os.makedirs("raw", exist_ok=True)
 #     print("\rPage {}".format(offset_players // 500), sep=' ', end='', flush=True)
 #     time.sleep(0.1)
 
-# write_to_json_file('players', responses_players)
+# write_to_json_file('players', responses_players, list_delimiter='\n')
 
 # ##########################################
 # # Collecting Sister Team Data
@@ -116,6 +116,28 @@ os.makedirs("raw", exist_ok=True)
 
 # write_to_json_file('team_renames', responses_team_renames)
 
+# ##########################################
+# # Collecting Team Redirect Data
+# ##########################################
+
+responses_team_redirects = []
+offset_team_redirects = 0
+while True:
+    response = site.cargo_client.query(
+        tables="TeamRedirects=TR",
+        fields="TR._pageName=PageName, TR.AllName",
+        offset=offset_team_redirects,
+        limit=500
+    )
+    if len(response) == 0:
+        break
+    responses_team_redirects += response
+    offset_team_redirects += 500
+    print("\rPage {}".format(offset_team_redirects // 500), sep=' ', end='', flush=True)
+    time.sleep(0.1)
+
+write_to_json_file('team_redirects', responses_team_redirects, list_delimiter='\n')
+
 ##########################################
 # Collecting Tournament Player Data
 ##########################################
@@ -143,24 +165,24 @@ os.makedirs("raw", exist_ok=True)
 # Collecting Tournament Roster Data
 ##########################################
 
-responses_rosters = []
-offset_rosters = 0
-while True:
-    response = site.cargo_client.query(
-        tables="TournamentRosters=TR, Tournaments=T",
-        join_on="TR.OverviewPage=T.OverviewPage",
-        fields="TR.OverviewPage, TR.Team, TR.Region, TR.RosterLinks, TR.Roles, TR.Flags, T.TournamentLevel, T.Date",
-        offset=offset_rosters,
-        limit=500
-    )
-    if len(response) == 0:
-        break
-    responses_rosters += response
-    offset_rosters += 500
-    print("\rPage {}".format(offset_rosters // 500), sep=' ', end='', flush=True)
-    time.sleep(0.1)
+# responses_rosters = []
+# offset_rosters = 0
+# while True:
+#     response = site.cargo_client.query(
+#         tables="TournamentRosters=TR, Tournaments=T",
+#         join_on="TR.OverviewPage=T.OverviewPage",
+#         fields="TR.OverviewPage, TR.Team, TR.Region, TR.RosterLinks, TR.Roles, TR.Flags, T.TournamentLevel, T.Date",
+#         offset=offset_rosters,
+#         limit=500
+#     )
+#     if len(response) == 0:
+#         break
+#     responses_rosters += response
+#     offset_rosters += 500
+#     print("\rPage {}".format(offset_rosters // 500), sep=' ', end='', flush=True)
+#     time.sleep(0.1)
 
-write_to_json_file('team_rosters', responses_rosters, ";;")
+# write_to_json_file('team_rosters', responses_rosters, ";;")
 
 ##########################################
 # Collecting Tournament Data

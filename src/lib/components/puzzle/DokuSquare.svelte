@@ -1,13 +1,27 @@
 <script lang="ts">
 	import type { Puzzle, PuzzleRule } from '$lib/models/Puzzle';
+	import { _puzzle, _correct, _lives, _selected_players } from '../../../stores';
 	import DokuTile from './DokuTile.svelte';
+	import RuleTile from './RuleTile.svelte';
 	let tile_size = '150px';
 
-	export let puzzle: Puzzle;
+	let puzzle: Puzzle;
+	let lives: number;
+	let correct: number;
+	let selectedPlayers;
 
-	let lives = 9;
-	let correct = 0;
-	let selectedPlayers: string[] = [];
+	_puzzle.subscribe((value) => {
+		puzzle = value;
+	});
+	_lives.subscribe((value) => {
+		lives = value;
+	});
+	_correct.subscribe((value) => {
+		correct = value;
+	});
+	_selected_players.subscribe((value) => {
+		selectedPlayers = value;
+	});
 </script>
 
 {#if puzzle}
@@ -19,7 +33,9 @@
 			/>
 		</div>
 		{#each puzzle.columns as col (col.id)}
-			<div class="info-tile"><span>{col.op}</span></div>
+			<div class="info-tile">
+				<RuleTile team={col.op} />
+			</div>
 		{/each}
 		<div class="info-tile">
 			<img
@@ -28,29 +44,22 @@
 			/>
 		</div>
 		<div class="info-tile">
-			<span>{puzzle.rows[0].op}</span>
+			<RuleTile team={puzzle.rows[0].op} />
 		</div>
 		<div class="select-tile-span">
 			{#each puzzle.rows as row (row.id)}
 				{#each puzzle.columns as col (col.id)}
-					<DokuTile
-						index={row.id * 3 + col.id}
-						rule1={col}
-						rule2={row}
-						bind:lives
-						bind:correct
-						bind:selectedPlayers
-					/>
+					<DokuTile index={row.id * 3 + col.id} rule1={col} rule2={row} />
 				{/each}
 			{/each}
 		</div>
 		<div class="info-tile"><span>Uniqueness Rating: 900</span></div>
 		<div class="info-tile">
-			<span>{puzzle.rows[1].op}</span>
+			<RuleTile team={puzzle.rows[1].op} />
 		</div>
 		<div class="info-tile"><span>Correct Guesses: {correct}/9</span></div>
 		<div class="info-tile">
-			<span>{puzzle.rows[2].op}</span>
+			<RuleTile team={puzzle.rows[2].op} />
 		</div>
 		<div class="info-tile"><span>Guesses Remaining: {lives}/9</span></div>
 	</div>

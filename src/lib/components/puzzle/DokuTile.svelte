@@ -4,13 +4,26 @@
 	import type { PuzzleRule } from '$lib/models/Puzzle';
 	import type { Team } from '$lib/models/Team';
 	import { is_valid } from '$lib/util/puzzle_util';
+	import { _lives, _correct, _selected_players } from '../../../stores';
 	import PlayerModal from './PlayerModal.svelte';
 	export let index: number;
 	export let rule1: PuzzleRule;
 	export let rule2: PuzzleRule;
-	export let lives: number;
-	export let correct: number;
-	export let selectedPlayers: string[];
+	let lives: number;
+	let correct: number;
+	let selectedPlayers: (string | null)[];
+	let selectedPlayer: string | null;
+
+	_lives.subscribe((value) => {
+		lives = value;
+	});
+	_correct.subscribe((value) => {
+		correct = value;
+	});
+	_selected_players.subscribe((value) => {
+		selectedPlayers = value;
+		selectedPlayer = value[index];
+	});
 
 	const team_data = _team_data as {
 		[key: string]: Team;
@@ -19,7 +32,6 @@
 	let stylish = $$props.style;
 
 	let showModal = false;
-	let selectedPlayer: string | undefined;
 	let validity: { [key: string]: string } = {
 		neutral: 'white',
 		invalid: '#d18a8a',
@@ -39,7 +51,7 @@
 		}
 	}
 
-	function checkValid(player: string | undefined): string {
+	function checkValid(player: string | null): string {
 		let validity = is_valid(rule1, rule2, player);
 		switch (validity) {
 			case 2:
@@ -62,13 +74,7 @@
 	on:keyup={toggleModal}
 	style="--tile-color: {tile_color}; {stylish}"
 >
-	<PlayerModal
-		bind:showModal
-		bind:selectedPlayer
-		bind:lives
-		bind:selectedPlayers
-		rules={[rule1, rule2]}
-	>
+	<PlayerModal bind:showModal bind:index rules={[rule1, rule2]}>
 		<span data-index={index}>Select Player:</span>
 	</PlayerModal>
 	{selectedPlayer ? selectedPlayer : ''}

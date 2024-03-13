@@ -11,7 +11,9 @@
             "00 Prospects",
             "BX3 EK",
             "Nordavind",
-            "Nordavind Talent"
+            "Nordavind Black",
+            "Nordavind Talent",
+            "Nordavind White"
         ],
         "region": "Europe",
         "short": "00N",
@@ -340,26 +342,6 @@
         "region": "Latin America",
         "short": "6SN",
         "sister_teams": []
-    },
-    "7th heaven": {
-        "becomes": "Smash It Down",
-        "came_from": "RabbitFive",
-        "highest_level": "Primary",
-        "image": "7th heavenlogo profile.png",
-        "name": "7th heaven",
-        "op": "7th heaven",
-        "other_names": [
-            "7th heaven",
-            "7th heaven X",
-            "DetonatioN RabbitFive",
-            "FrenzyX",
-            "RabbitFive"
-        ],
-        "region": "Japan",
-        "short": "7h",
-        "sister_teams": [
-            "7th heaven X"
-        ]
     },
     "9z Team": {
         "becomes": null,
@@ -1053,7 +1035,8 @@
         "op": "Adverse",
         "other_names": [
             "Adverse",
-            "Zen Aïe Tea Refugees"
+            "Zen Aïe Tea Refugees",
+            "ZennIT Refugees"
         ],
         "region": "EMEA",
         "short": "ADV",
@@ -1213,6 +1196,7 @@
             "Ahq e-Sports Club Korea",
             "Ahq eSports Club",
             "Corsair",
+            "Logitech G Fighter",
             "Logitech G Snipers",
             "SuperEsports",
             "SuperEsports (超競學院)",
@@ -2532,10 +2516,14 @@
         "other_names": [
             "Avengers",
             "Awesome",
+            "Awesome (Awesome Spear Academy)",
             "Awesome Spear",
             "Awesome Spear Academy",
             "BeomSAMA",
-            "Spear Gaming"
+            "BeomSAMA Fan Club",
+            "Spear Gaming",
+            "바무템제도",
+            "범사마"
         ],
         "region": "Korea",
         "short": "AWE",
@@ -2988,7 +2976,9 @@
         "name": "Bay State College",
         "op": "Bay State College",
         "other_names": [
-            "Bay State College"
+            "Bay State College",
+            "Bay State College 2",
+            "Bay State College B"
         ],
         "region": "North America",
         "short": "BSC",
@@ -3176,7 +3166,8 @@
         "name": "Bethany Lutheran College",
         "op": "Bethany Lutheran College",
         "other_names": [
-            "Bethany Lutheran College"
+            "Bethany Lutheran College",
+            "Bethany Lutheran College B"
         ],
         "region": "North America",
         "short": "BLC",
@@ -3875,6 +3866,7 @@
             "Burning Core",
             "Burning Core Academy",
             "Burning Core Toyama",
+            "SCARZ",
             "SCARZ Burning Core"
         ],
         "region": "PCS",
@@ -3948,7 +3940,8 @@
         "name": "CBS Esports",
         "op": "CBS Esports",
         "other_names": [
-            "CBS Esports"
+            "CBS Esports",
+            "Cowboy Squad"
         ],
         "region": "Europe",
         "short": "CBS",
@@ -4010,6 +4003,7 @@
             "Adonis Esports",
             "CERBERUS Esports",
             "CERBERUS Esports (Vietnamese Team)",
+            "CERBERUS Esports Academy",
             "Cube Adonis",
             "Hall of Fame",
             "Puppies Esports"
@@ -4806,6 +4800,7 @@
             "Cloud9 Challenger",
             "Cloud9 Challengers",
             "Cloud9 Eclipse",
+            "Cloud9 Europe",
             "Cloud9 Tempest",
             "Team NomNom"
         ],
@@ -4984,6 +4979,7 @@
         "op": "ConViction",
         "other_names": [
             "ConViction",
+            "ConViction B",
             "ConViction Moon",
             "ConViction Sun"
         ],
@@ -5473,7 +5469,8 @@
         "name": "Cursed Rage",
         "op": "Cursed Rage",
         "other_names": [
-            "Cursed Rage"
+            "Cursed Rage",
+            "Team Cursed Giants"
         ],
         "region": "LAS",
         "short": "CSR",
@@ -5823,12 +5820,23 @@
         "other_names": [
             "DRX",
             "DRX Academy",
+            "DRX Academy 1",
+            "DRX Academy 2",
+            "DRX Academy A",
+            "DRX Academy B",
+            "DRX Challenge",
             "DRX Challengers",
+            "DRX Enjoy",
+            "DRX Online",
+            "DRX Rookie",
             "DragonX",
             "DragonX Academy",
             "Incredible Miracle",
+            "Incredible Miracle 1",
+            "Incredible Miracle 2",
             "Kingzone DragonX",
-            "Longzhu Gaming"
+            "Longzhu Gaming",
+            "Team BearMax"
         ],
         "region": "Korea",
         "short": "DRX",
@@ -6684,6 +6692,7 @@
         "name": "Dignitas",
         "op": "Dignitas",
         "other_names": [
+            "British Tea Time",
             "Clutch Gaming",
             "Clutch Gaming Academy",
             "Dignitas",
@@ -6842,7 +6851,8 @@
         "name": "Dolphins",
         "op": "Dolphins",
         "other_names": [
-            "Dolphins"
+            "Dolphins",
+            "Dolphins of Wall Street"
         ],
         "region": "CIS",
         "short": "DOL",
@@ -6977,11 +6987,14 @@
             "DWG KIA",
             "DWG KIA Academy",
             "DWG KIA Challengers",
+            "DWG KIA Youth",
             "Dplus Esports Academy",
             "Dplus KIA",
             "Dplus KIA  Academy",
             "Dplus KIA Academy",
             "Dplus KIA Challengers",
+            "Dplus KIA Youth",
+            "Gyeonggi GEA L",
             "MiraGe Gaming"
         ],
         "region": "Korea",
@@ -7648,6 +7661,7 @@
         "name": "EFS",
         "op": "EFS",
         "other_names": [
+            "DKJH",
             "EFS"
         ],
         "region": "Korea",
@@ -7663,7 +7677,8 @@
         "op": "EGN Esports",
         "other_names": [
             "EGN Esports",
-            "EGN Esports Academy"
+            "EGN Esports Academy",
+            "Electronik Generation Mindset"
         ],
         "region": "EMEA",
         "short": "EGN",
@@ -7858,7 +7873,8 @@
         "op": "ESC Gaming (Italian Team)",
         "other_names": [
             "ESC Gaming",
-            "ESC Gaming (Italian Team)"
+            "ESC Gaming (Italian Team)",
+            "ESC Gaming Sigma"
         ],
         "region": "Europe",
         "short": "ESC",
@@ -8230,7 +8246,8 @@
         "name": "Eesti Rästikud",
         "op": "Eesti Rästikud",
         "other_names": [
-            "Eesti Rästikud"
+            "Eesti Rästikud",
+            "Estonian Vipers"
         ],
         "region": "EMEA",
         "short": "VIP",
@@ -8828,7 +8845,8 @@
         "name": "Eternity Gaming",
         "op": "Eternity Gaming",
         "other_names": [
-            "Eternity Gaming"
+            "Eternity Gaming",
+            "Ex-Eternity"
         ],
         "region": "Europe",
         "short": "EG",
@@ -9219,7 +9237,8 @@
         "name": "FM eSports",
         "op": "FM eSports",
         "other_names": [
-            "FM eSports"
+            "FM eSports",
+            "FM eSports RaiderZ"
         ],
         "region": "Europe",
         "short": "FM",
@@ -9234,7 +9253,8 @@
         "op": "FPT Hanoi",
         "other_names": [
             "FPT Hanoi",
-            "FPT Ho Chi Minh"
+            "FPT Ho Chi Minh",
+            "Sleeping Dragon Esports"
         ],
         "region": "Vietnam",
         "short": "FPTHN",
@@ -9406,6 +9426,7 @@
             "Falkol",
             "Falkol Academy",
             "Falkol Storm",
+            "Federal University of ABC",
             "UFABC Storm"
         ],
         "region": "Brazil",
@@ -9516,6 +9537,11 @@
             "GC Busan SANDBOX",
             "Liiv SANDBOX",
             "Liiv SANDBOX Academy",
+            "Liiv SANDBOX Academy 1Team",
+            "Liiv SANDBOX Academy 2Team",
+            "Liiv SANDBOX Academy Online",
+            "Liiv SANDBOX Academy Online A",
+            "Liiv SANDBOX Academy Online B",
             "Liiv SANDBOX Challengers",
             "Liiv SANDBOX Youth",
             "SANDBOX Gaming",
@@ -9759,7 +9785,8 @@
         "other_names": [
             "Flayn eSports",
             "Flayn eSports CZSK Edition",
-            "Flayn eSports Swiss Edition"
+            "Flayn eSports Swiss Edition",
+            "FreeAgents1"
         ],
         "region": "Europe",
         "short": "FYN",
@@ -9907,8 +9934,10 @@
         "other_names": [
             "Fnatic",
             "Fnatic Academy",
+            "Fnatic MIX",
             "Fnatic Rising",
-            "Fnatic TQ"
+            "Fnatic TQ",
+            "Fnatic.Beta"
         ],
         "region": "EMEA",
         "short": "FNC",
@@ -10089,7 +10118,8 @@
         "name": "Fox Gaming",
         "op": "Fox Gaming",
         "other_names": [
-            "Fox Gaming"
+            "Fox Gaming",
+            "Fox Gaming Academy"
         ],
         "region": "EMEA",
         "short": "F0X",
@@ -10261,7 +10291,8 @@
         "name": "FroztFire Team",
         "op": "FroztFire Team",
         "other_names": [
-            "FroztFire Team"
+            "FroztFire Team",
+            "FroztFire Team Beta"
         ],
         "region": "Latin America",
         "short": "FzF",
@@ -10879,6 +10910,11 @@
         "name": "Game Coach Academy",
         "op": "Game Coach Academy",
         "other_names": [
+            "GCA Alpha",
+            "GCA Beta",
+            "GCA BugeoKing",
+            "GCA Busan",
+            "GCA STAR",
             "Game Coach Academy"
         ],
         "region": "Korea",
@@ -10982,7 +11018,8 @@
         "op": "Gamespace Mediterranean College Esports",
         "other_names": [
             "Gamespace Mediterranean College Esports",
-            "Gamespace eSports"
+            "Gamespace eSports",
+            "Gamespace v1"
         ],
         "region": "EMEA",
         "short": "GSMC",
@@ -11130,10 +11167,16 @@
         "name": "Gen.G",
         "op": "Gen.G",
         "other_names": [
+            "GGA (Korean Team)",
+            "GGA Pro",
             "Gen.G",
             "Gen.G Academy",
+            "Gen.G Academy 2",
+            "Gen.G Academy 3",
             "Gen.G Challengers",
             "Gen.G Global Academy",
+            "Gen.G Online",
+            "Gen.G Scholars",
             "KSV eSports"
         ],
         "region": "Korea",
@@ -11179,6 +11222,7 @@
         "name": "Genius Esports",
         "op": "Genius Esports",
         "other_names": [
+            "GFDI Esports",
             "Genius Esports"
         ],
         "region": "Vietnam",
@@ -11648,7 +11692,8 @@
         "name": "Grand View University",
         "op": "Grand View University",
         "other_names": [
-            "Grand View University"
+            "Grand View University",
+            "Grand View University B"
         ],
         "region": "North America",
         "short": "GVU",
@@ -11853,6 +11898,7 @@
         "op": "Grow uP eSports",
         "other_names": [
             "Flayn eSports Stars",
+            "Grow uP Gaming",
             "Grow uP Girls EU",
             "Grow uP eSports",
             "Stars",
@@ -12062,7 +12108,8 @@
         "name": "HG Esports",
         "op": "HG Esports",
         "other_names": [
-            "HG Esports"
+            "HG Esports",
+            "Hell Gaming"
         ],
         "region": "Europe",
         "short": "HG",
@@ -12220,6 +12267,7 @@
         "op": "Hanwha Life Esports",
         "other_names": [
             "7th heaven",
+            "7th heaven X",
             "DetonatioN RabbitFive",
             "FrenzyX",
             "GE Tigers",
@@ -12232,7 +12280,8 @@
             "ROX Tigers",
             "RabbitFive",
             "Smash It Down",
-            "Tigers"
+            "Tigers",
+            "배밥수빡고"
         ],
         "region": "Korea",
         "short": "HLE",
@@ -12263,7 +12312,8 @@
         "name": "Harrisburg University",
         "op": "Harrisburg University",
         "other_names": [
-            "Harrisburg University"
+            "Harrisburg University",
+            "Harrisburg University Tempest"
         ],
         "region": "North America",
         "short": "HU",
@@ -12536,6 +12586,7 @@
         "name": "Hive Athens EC",
         "op": "Hive Athens EC",
         "other_names": [
+            "Gaming Hive",
             "Hive Athens Academy",
             "Hive Athens EC"
         ],
@@ -12600,7 +12651,8 @@
             "Hong Kong Attitude",
             "Hong Kong Attitude Mage",
             "Hong Kong Attitude Priest",
-            "Hong Kong Esports"
+            "Hong Kong Esports",
+            "XinSoul"
         ],
         "region": "PCS",
         "short": "HKA",
@@ -12763,6 +12815,11 @@
         "op": "HuyaTV",
         "other_names": [
             "HUYATV",
+            "HUYATV Assemble",
+            "HUYATV H",
+            "HUYATV N",
+            "HUYATV R",
+            "HUYATV Y",
             "HuyaTV"
         ],
         "region": "Korea",
@@ -13302,7 +13359,8 @@
         "name": "Imperials",
         "op": "Imperials",
         "other_names": [
-            "Imperials"
+            "Imperials",
+            "Ο χοντρός και η Παρέα του"
         ],
         "region": "Europe",
         "short": "IMPER",
@@ -13430,25 +13488,6 @@
         "short": "INAE",
         "sister_teams": [
             "Inaequalis Academy"
-        ]
-    },
-    "Incredible Miracle": {
-        "becomes": "Longzhu Gaming",
-        "came_from": null,
-        "highest_level": "Primary",
-        "image": "IM logo 2015 Summer.png",
-        "name": "Incredible Miracle",
-        "op": "Incredible Miracle",
-        "other_names": [
-            "Incredible Miracle",
-            "Incredible Miracle 1",
-            "Incredible Miracle 2"
-        ],
-        "region": "Korea",
-        "short": "IM",
-        "sister_teams": [
-            "Incredible Miracle 1",
-            "Incredible Miracle 2"
         ]
     },
     "Incredible Miracle Athena": {
@@ -13849,6 +13888,7 @@
         "name": "Invictus Gaming",
         "op": "Invictus Gaming",
         "other_names": [
+            "CCM",
             "Invictus Gaming",
             "Invictus Gaming Young",
             "Invictus Girls",
@@ -14278,30 +14318,13 @@
         "op": "K1CK",
         "other_names": [
             "K1CK",
+            "K1ck Black",
             "K1ck Neosurf",
             "K1ck eSports Club"
         ],
         "region": "Europe",
         "short": "K1",
         "sister_teams": []
-    },
-    "K1ck eSports Club": {
-        "becomes": "K1ck Neosurf",
-        "came_from": null,
-        "highest_level": "",
-        "image": null,
-        "name": "K1ck eSports Club",
-        "op": "K1ck eSports Club",
-        "other_names": [
-            "K1ck Black",
-            "K1ck eSports Club"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": [
-            "K1ck Black",
-            "K1ck White"
-        ]
     },
     "KAOS e-sport": {
         "becomes": null,
@@ -14458,6 +14481,7 @@
             "KT Rolster",
             "KT Rolster A",
             "KT Rolster Academy",
+            "KT Rolster Academy A",
             "KT Rolster Arrows",
             "KT Rolster B",
             "KT Rolster Bullets",
@@ -15049,6 +15073,10 @@
             "E-mFire",
             "Extreme Dive Gaming",
             "Kongdoo Monster",
+            "NaJin Black Sword",
+            "NaJin Shield",
+            "NaJin Sword",
+            "NaJin White Shield",
             "NaJin e-mFire",
             "e-mFire"
         ],
@@ -15152,12 +15180,24 @@
         "other_names": [
             "Afreeca Freecs",
             "Afreeca Freecs Academy",
+            "Afreeca Freecs Academy A",
+            "Afreeca Freecs Academy B",
             "Afreeca Freecs Challengers",
+            "Afreeca Freecs Rookie",
+            "Afreeca Freecs Youth",
             "Anarchy",
             "Kwangdong Freecs",
             "Kwangdong Freecs Academy",
+            "Kwangdong Freecs Academy B",
             "Kwangdong Freecs Challengers",
-            "Rebels Anarchy"
+            "Kwangdong Freecs Youth",
+            "Kwangdong Rookie",
+            "Kwangdong Samdasoo",
+            "Kwangdong Vita 500",
+            "Rebels Anarchy",
+            "광동 옥수수수염차",
+            "광동헛개차",
+            "광동헛개파워"
         ],
         "region": "Korea",
         "short": "KDF",
@@ -15328,6 +15368,7 @@
             "Snake Two",
             "Snake WuDu",
             "Snake.GV",
+            "Snake.Q",
             "WuDu"
         ],
         "region": "China",
@@ -15407,6 +15448,8 @@
         "name": "LUL Esports",
         "op": "LUL Esports",
         "other_names": [
+            "Bigouinoi",
+            "ERGOLAVIA 24/7",
             "LUL Esports"
         ],
         "region": "Europe",
@@ -16071,22 +16114,6 @@
         "short": "LGN",
         "sister_teams": []
     },
-    "Logitech G Fighter": {
-        "becomes": null,
-        "came_from": "Ahq Fighter",
-        "highest_level": "Primary",
-        "image": null,
-        "name": "Logitech G Fighter",
-        "op": "Logitech G Fighter",
-        "other_names": [
-            "Ahq Fighter",
-            "Logitech G Fighter",
-            "ahq Fighter"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
-    },
     "London Esports": {
         "becomes": null,
         "came_from": null,
@@ -16233,6 +16260,7 @@
         "name": "Low Priority",
         "op": "Low Priority",
         "other_names": [
+            "Code Gaming",
             "Low Priority"
         ],
         "region": "Europe",
@@ -17186,7 +17214,8 @@
         "name": "Maryville University",
         "op": "Maryville University",
         "other_names": [
-            "Maryville University"
+            "Maryville University",
+            "Maryville University B"
         ],
         "region": "North America",
         "short": "MU",
@@ -17978,6 +18007,7 @@
         "op": "Monomaniac Dominatus",
         "other_names": [
             "Monomaniac Dominatus",
+            "Monomaniac Ferus",
             "Monomaniac eSports"
         ],
         "region": null,
@@ -18316,6 +18346,7 @@
         "other_names": [
             "NASR eSports",
             "NASR eSports A",
+            "NASR eSports B",
             "NASR eSports Jr.",
             "NASR eSports Turkey",
             "NASR eSports Turkey Academy"
@@ -18327,21 +18358,6 @@
             "NASR eSports Turkey",
             "NASR eSports Turkey Academy"
         ]
-    },
-    "NASR eSports B": {
-        "becomes": null,
-        "came_from": "NASR eSports Jr.",
-        "highest_level": "",
-        "image": null,
-        "name": "NASR eSports B",
-        "op": "NASR eSports B",
-        "other_names": [
-            "NASR eSports B",
-            "NASR eSports Jr."
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": []
     },
     "NAT": {
         "becomes": null,
@@ -18540,7 +18556,8 @@
         "op": "NRG",
         "other_names": [
             "NRG",
-            "NRG Challengers"
+            "NRG Challengers",
+            "NRG Esports"
         ],
         "region": "North America",
         "short": "NRG",
@@ -18595,31 +18612,6 @@
             "NYYRIKKI Academy",
             "NYYRIKKI Blue",
             "NYYRIKKI White"
-        ]
-    },
-    "NaJin e-mFire": {
-        "becomes": "E-mFire",
-        "came_from": "Extreme Dive Gaming",
-        "highest_level": "Primary",
-        "image": "NaJin_logo.png",
-        "name": "NaJin e-mFire",
-        "op": "NaJin e-mFire",
-        "other_names": [
-            "E-mFire",
-            "Extreme Dive Gaming",
-            "NaJin Black Sword",
-            "NaJin Shield",
-            "NaJin Sword",
-            "NaJin White Shield",
-            "NaJin e-mFire",
-            "e-mFire"
-        ],
-        "region": "Korea",
-        "short": "NJF",
-        "sister_teams": [
-            "E-mFire",
-            "NaJin Black Sword",
-            "NaJin White Shield"
         ]
     },
     "Naga Esports": {
@@ -19303,13 +19295,19 @@
         "op": "Nongshim RedForce",
         "other_names": [
             "ES Sharks",
+            "ESA KOREA",
             "I Gaming Star",
+            "Korea E-Sports Academy",
             "Nongshim Esports Academy",
             "Nongshim RedForce",
             "Nongshim RedForce Academy",
+            "Nongshim RedForce Academy 2",
+            "Nongshim RedForce Academy ESA",
+            "Nongshim RedForce Academy ESA 2",
             "Nongshim RedForce Challengers",
             "Team Dynamics",
-            "Team Dynamics Academy"
+            "Team Dynamics Academy",
+            "Team ESA"
         ],
         "region": "Korea",
         "short": "NS",
@@ -19331,28 +19329,6 @@
         "region": "Europe",
         "short": "NN",
         "sister_teams": []
-    },
-    "Nordavind Talent": {
-        "becomes": "00 Prospects",
-        "came_from": null,
-        "highest_level": "Secondary",
-        "image": "Nordavind Talentlogo square.png",
-        "name": "Nordavind Talent",
-        "op": "Nordavind Talent",
-        "other_names": [
-            "BX3 EK",
-            "Nordavind",
-            "Nordavind Black",
-            "Nordavind Talent",
-            "Nordavind White"
-        ],
-        "region": "Europe",
-        "short": "NVD.T",
-        "sister_teams": [
-            "Nordavind",
-            "Nordavind Black",
-            "Nordavind White"
-        ]
     },
     "North Carolina State University": {
         "becomes": null,
@@ -19619,11 +19595,16 @@
             "BRION",
             "BRION Academy",
             "BRION Challengers",
+            "BRION Rookies",
             "Brion Blade",
             "Brion Blade Academy",
             "Fredit BRION",
             "Fredit BRION Academy",
+            "Fredit BRION Academy A",
+            "Fredit BRION Academy B",
             "Fredit BRION Challengers",
+            "Fredit BRION MPP",
+            "Fredit BRION Rookies",
             "OKSavingsBank BRION",
             "OKSavingsBank BRION Academy",
             "OKSavingsBank BRION Challengers",
@@ -20842,7 +20823,8 @@
         "name": "Pacific eSports",
         "op": "Pacific eSports",
         "other_names": [
-            "Pacific eSports"
+            "Pacific eSports",
+            "Team Pacific"
         ],
         "region": "SEA",
         "short": "PCFC",
@@ -21316,21 +21298,6 @@
         "short": "PX5",
         "sister_teams": []
     },
-    "Phoenix Esports": {
-        "becomes": null,
-        "came_from": "Phoenix K-Squad",
-        "highest_level": "",
-        "image": "Phoenix Esportslogo square.png",
-        "name": "Phoenix Esports",
-        "op": "Phoenix Esports",
-        "other_names": [
-            "Phoenix Esports",
-            "Phoenix K-Squad"
-        ],
-        "region": "SEA",
-        "short": "PX",
-        "sister_teams": []
-    },
     "Phoenix Esports (Turkish Team)": {
         "becomes": null,
         "came_from": null,
@@ -21340,7 +21307,8 @@
         "op": "Phoenix Esports (Turkish Team)",
         "other_names": [
             "Phoenix Esports",
-            "Phoenix Esports (Turkish Team)"
+            "Phoenix Esports (Turkish Team)",
+            "Phoenix K-Squad"
         ],
         "region": "EMEA",
         "short": "PHX",
@@ -21693,24 +21661,6 @@
         "short": null,
         "sister_teams": []
     },
-    "Prime Clan": {
-        "becomes": "SBENU Sonicboom",
-        "came_from": null,
-        "highest_level": "Primary",
-        "image": "Prime Clanlogo square.png",
-        "name": "Prime Clan",
-        "op": "Prime Clan",
-        "other_names": [
-            "Prime Clan",
-            "Prime Optimus"
-        ],
-        "region": "Korea",
-        "short": "Prime",
-        "sister_teams": [
-            "Prime Optimus",
-            "Prime Sentinel"
-        ]
-    },
     "Prinfor Esports Club": {
         "becomes": null,
         "came_from": "XD Prinfor",
@@ -21982,6 +21932,7 @@
         "name": "QTV Gaming",
         "op": "QTV Gaming",
         "other_names": [
+            "Flex",
             "QTV Gaming"
         ],
         "region": "Vietnam",
@@ -22067,7 +22018,8 @@
         "name": "Quantic Gaming",
         "op": "Quantic Gaming",
         "other_names": [
-            "Quantic Gaming"
+            "Quantic Gaming",
+            "Reddit Nation"
         ],
         "region": "North America",
         "short": "QTC",
@@ -22265,7 +22217,8 @@
         "other_names": [
             "INTZ Red",
             "RED Academy",
-            "RED Canids"
+            "RED Canids",
+            "RED Canids B"
         ],
         "region": "Brazil",
         "short": "RED",
@@ -22978,7 +22931,8 @@
         "name": "Renegades of Hell",
         "op": "Renegades of Hell",
         "other_names": [
-            "Renegades of Hell"
+            "Renegades of Hell",
+            "Renegades of Hell Eclipse"
         ],
         "region": "LAS",
         "short": "RoH",
@@ -23851,6 +23805,7 @@
         "op": "SBENU Korea",
         "other_names": [
             "Prime Clan",
+            "Prime Optimus",
             "SBENU Korea",
             "SBENU Sonicboom"
         ],
@@ -23866,29 +23821,13 @@
         "name": "SBTC Esports Academy",
         "op": "SBTC Esports Academy",
         "other_names": [
-            "SBTC Esports Academy"
+            "SBTC Esports Academy",
+            "SBTC Esports Brothers"
         ],
         "region": "Vietnam",
         "short": "SEA",
         "sister_teams": [
             "Sủa Bằng Tiếng Chó Esports"
-        ]
-    },
-    "SCARZ Burning Core": {
-        "becomes": "Burning Core",
-        "came_from": "Burning Core",
-        "highest_level": "Primary",
-        "image": "SCARZlogo profile.png",
-        "name": "SCARZ Burning Core",
-        "op": "SCARZ Burning Core",
-        "other_names": [
-            "SCARZ",
-            "SCARZ Burning Core"
-        ],
-        "region": "Japan",
-        "short": "SZBC",
-        "sister_teams": [
-            "SCARZ"
         ]
     },
     "SEA Serpents": {
@@ -23945,7 +23884,29 @@
         "op": "SGA (Korean Team)",
         "other_names": [
             "SGA",
-            "SGA (Korean Team)"
+            "SGA (Korean Team)",
+            "SGA ADCARRY",
+            "SGA B1",
+            "SGA B2",
+            "SGA BLUE",
+            "SGA Bundang",
+            "SGA Busan",
+            "SGA Freekick",
+            "SGA GREEN",
+            "SGA Han",
+            "SGA Hoon",
+            "SGA JJ",
+            "SGA Orange",
+            "SGA RED",
+            "SGA STORM",
+            "SGA Seongnam",
+            "SGA TT",
+            "SGA TURTLE",
+            "SGA Yellow",
+            "SGA 기모띠",
+            "SGA 안된다고",
+            "SGA 우리정글제이스",
+            "SGA 임"
         ],
         "region": "Korea",
         "short": "SGA",
@@ -24250,7 +24211,8 @@
         "name": "Saigon Jokers",
         "op": "Saigon Jokers",
         "other_names": [
-            "Saigon Jokers"
+            "Saigon Jokers",
+            "Saigon Jokers Red"
         ],
         "region": "SEA",
         "short": "SAJ",
@@ -24265,6 +24227,7 @@
         "op": "Saigon Mongaming",
         "other_names": [
             "Saigon Mongaming",
+            "ZOTAC Dung Club",
             "ZOTAC United"
         ],
         "region": "SEA",
@@ -24365,8 +24328,11 @@
         "op": "Samsung Galaxy",
         "other_names": [
             "MVP Blue",
+            "MVP Ozone",
+            "MVP White",
             "Samsung Blue",
             "Samsung Galaxy",
+            "Samsung Ozone",
             "Samsung White"
         ],
         "region": "Korea",
@@ -24388,22 +24354,6 @@
         ],
         "region": "Europe",
         "short": "SMS",
-        "sister_teams": []
-    },
-    "Samsung Ozone": {
-        "becomes": null,
-        "came_from": "MVP Ozone",
-        "highest_level": "Primary",
-        "image": null,
-        "name": "Samsung Ozone",
-        "op": "Samsung Ozone",
-        "other_names": [
-            "MVP Ozone",
-            "MVP White",
-            "Samsung Ozone"
-        ],
-        "region": null,
-        "short": null,
         "sister_teams": []
     },
     "Samurai in Jeans": {
@@ -24826,7 +24776,8 @@
         "name": "Seoul Neon",
         "op": "Seoul Neon",
         "other_names": [
-            "Seoul Neon"
+            "Seoul Neon",
+            "Seoul Rising"
         ],
         "region": "Korea",
         "short": "SLN",
@@ -24897,6 +24848,7 @@
         "op": "Shadow GT",
         "other_names": [
             "Shadow Academy",
+            "Shadow Ace",
             "Shadow Anyche",
             "Shadow Battlica",
             "Shadow Battlica Y",
@@ -24912,11 +24864,14 @@
             "Shadow IBJ",
             "Shadow LCPMM",
             "Shadow LNG",
+            "Shadow LOG",
             "Shadow New",
             "Shadow RGS",
+            "Shadow Rookies",
             "Shadow SF",
             "Shadow Zero",
-            "Shadow fOu"
+            "Shadow fOu",
+            "Team Shadow"
         ],
         "region": "Korea",
         "short": "SHA.GT",
@@ -25205,7 +25160,9 @@
         "name": "Simplicity Gaming",
         "op": "Simplicity Gaming",
         "other_names": [
-            "Simplicity Gaming"
+            "SPL Gaming",
+            "Simplicity Gaming",
+            "Simplicity Gaming Academy"
         ],
         "region": "MENA",
         "short": "SPL",
@@ -25265,6 +25222,7 @@
         "name": "Single Target Healing",
         "op": "Single Target Healing",
         "other_names": [
+            "NO AOE DMG",
             "Single Target Healing"
         ],
         "region": "North America",
@@ -26347,6 +26305,7 @@
         "name": "TEAM4NOT",
         "op": "TEAM4NOT.OCE",
         "other_names": [
+            "4Not.Fire",
             "TEAM4NOT",
             "TEAM4NOT.NA",
             "TEAM4NOT.OCE"
@@ -26567,23 +26526,6 @@
         "region": null,
         "short": null,
         "sister_teams": []
-    },
-    "Tainted Minds": {
-        "becomes": "TM Gaming",
-        "came_from": null,
-        "highest_level": "Primary",
-        "image": "Tainted Mindslogo old.png",
-        "name": "Tainted Minds",
-        "op": "Tainted Minds",
-        "other_names": [
-            "Tainted Minds",
-            "Tainted Minds Blue"
-        ],
-        "region": "Oceania",
-        "short": "TM",
-        "sister_teams": [
-            "Tainted Minds Blue"
-        ]
     },
     "Taipei Berserkers": {
         "becomes": null,
@@ -27543,7 +27485,9 @@
         "other_names": [
             "Team Forge",
             "Team Forge Academy",
-            "Team Forge Ichnos"
+            "Team Forge Black",
+            "Team Forge Ichnos",
+            "Team Forge Red"
         ],
         "region": "Europe",
         "short": "4GI",
@@ -28137,7 +28081,9 @@
         "name": "Team Majesty",
         "op": "Team Majesty",
         "other_names": [
-            "Team Majesty"
+            "Team Majesty",
+            "Team Majesty Black",
+            "Team Majesty Gold"
         ],
         "region": "MENA",
         "short": "MAJ",
@@ -28437,6 +28383,7 @@
         "op": "Team Ozone Cutie Monsters",
         "other_names": [
             "Cutie Monsters",
+            "Hanoi TPH",
             "Team Ozone Cutie Monsters"
         ],
         "region": "SEA",
@@ -28669,7 +28616,8 @@
         "name": "Team Refuse",
         "op": "Team Refuse",
         "other_names": [
-            "Team Refuse"
+            "Team Refuse",
+            "Καφίρηδες"
         ],
         "region": "EMEA",
         "short": "RFS",
@@ -28909,7 +28857,8 @@
         "other_names": [
             "Team THRLL",
             "Team THRLL Academy",
-            "Team THRLL Academy Twente"
+            "Team THRLL Academy Twente",
+            "Team THRLL Academy Youth"
         ],
         "region": "Europe",
         "short": "TRL.A",
@@ -28968,6 +28917,7 @@
         "op": "Team Turquality",
         "other_names": [
             "Team Turquality",
+            "Team Turquality BLUE",
             "Team Turquality RED"
         ],
         "region": "Turkey",
@@ -29371,6 +29321,7 @@
         "other_names": [
             "TM Gaming",
             "Tainted Minds",
+            "Tainted Minds Blue",
             "Tectonic",
             "Tectonic Academy"
         ],
@@ -29956,6 +29907,7 @@
         "name": "ThunderBot SPARTA",
         "op": "ThunderBot SPARTA",
         "other_names": [
+            "Spartiate Team",
             "ThunderBot SPARTA"
         ],
         "region": "Europe",
@@ -30180,6 +30132,7 @@
         "name": "Tongtex Suns (東泰太陽)",
         "op": "Tongtex Suns",
         "other_names": [
+            "TPE TONGTEX",
             "Tongtex Suns",
             "Tongtex Suns (東泰太陽)"
         ],
@@ -30379,6 +30332,7 @@
         "name": "True eSport",
         "op": "True eSport",
         "other_names": [
+            "Team Extreme Supremacy",
             "True eSport"
         ],
         "region": "Europe",
@@ -30604,8 +30558,10 @@
         "name": "UTM Esports",
         "op": "UTM Esports",
         "other_names": [
+            "An Phat Ultimate",
             "Maximal",
-            "UTM Esports"
+            "UTM Esports",
+            "Ultimate"
         ],
         "region": "Vietnam",
         "short": "UTM",
@@ -30637,21 +30593,6 @@
         ],
         "region": "EMEA",
         "short": "UGT",
-        "sister_teams": []
-    },
-    "Ultimate": {
-        "becomes": null,
-        "came_from": "An Phat Ultimate",
-        "highest_level": "Primary",
-        "image": null,
-        "name": "Ultimate",
-        "op": "Ultimate",
-        "other_names": [
-            "An Phat Ultimate",
-            "Ultimate"
-        ],
-        "region": null,
-        "short": null,
         "sister_teams": []
     },
     "Ultimate Gaming": {
@@ -30888,6 +30829,7 @@
         "op": "University of California Irvine",
         "other_names": [
             "University of California Irvine",
+            "University of California Irvine B",
             "University of California, Irvine"
         ],
         "region": "North America",
@@ -31047,7 +30989,8 @@
         "name": "University of North America",
         "op": "University of North America",
         "other_names": [
-            "University of North America"
+            "University of North America",
+            "University of North America B"
         ],
         "region": "North America",
         "short": "UoNA",
@@ -31145,7 +31088,8 @@
         "name": "University of Texas at Dallas",
         "op": "University of Texas at Dallas",
         "other_names": [
-            "University of Texas at Dallas"
+            "University of Texas at Dallas",
+            "University of Texas at Dallas JV"
         ],
         "region": "North America",
         "short": "UTD",
@@ -31304,6 +31248,7 @@
         "other_names": [
             "Ilha da Macacada Gaming",
             "KaBuM! IDM UP",
+            "Razer Pichau Gaming",
             "Uppercut esports"
         ],
         "region": "Brazil",
@@ -31319,6 +31264,8 @@
         "op": "V Gaming",
         "other_names": [
             "Adonis Esports",
+            "Adonis eSports (Vietnamese 2020 Team)",
+            "Trọc Adonis",
             "V Gaming",
             "V Gaming Adonis"
         ],
@@ -31710,7 +31657,8 @@
         "name": "Veni eSports",
         "op": "Veni eSports",
         "other_names": [
-            "Veni eSports"
+            "Veni eSports",
+            "Victorious eSports (European Team)"
         ],
         "region": "EMEA",
         "short": "VENI",
@@ -31896,6 +31844,7 @@
         "op": "VietSun Esports",
         "other_names": [
             "APOLLO GAMING",
+            "Phạm",
             "VietSun Esports"
         ],
         "region": "Vietnam",
@@ -32133,6 +32082,7 @@
         "name": "Virtuoso Gaming",
         "op": "Virtuoso Gaming",
         "other_names": [
+            "Team GBK",
             "Virtuoso Gaming"
         ],
         "region": "Korea",
@@ -32400,6 +32350,7 @@
         "op": "WLGaming Esports",
         "other_names": [
             "Future Perfect WLGaming",
+            "Karabines",
             "WLGaming Esports"
         ],
         "region": "EMEA",
@@ -32833,6 +32784,7 @@
         "name": "Wild Panthers Esports",
         "op": "Wild Panthers Esports",
         "other_names": [
+            "Panther Stars Esports",
             "Wild Panthers Esports"
         ],
         "region": "EMEA",
@@ -33002,7 +32954,8 @@
         "name": "Winthrop University",
         "op": "Winthrop University",
         "other_names": [
-            "Winthrop University"
+            "Winthrop University",
+            "Winthrop University B"
         ],
         "region": "North America",
         "short": "WU",
@@ -33044,7 +32997,8 @@
         "name": "Wizards",
         "op": "Wizards",
         "other_names": [
-            "Wizards"
+            "Wizards",
+            "Wizards e-Sports Club"
         ],
         "region": "EMEA",
         "short": "WIZ",
@@ -33174,6 +33128,7 @@
         "name": "x6tence",
         "op": "X6tence",
         "other_names": [
+            "Ocelote World",
             "X6tence",
             "X6tence Academy",
             "X6tence Mexico",
@@ -33428,25 +33383,6 @@
         "short": "YSO",
         "sister_teams": []
     },
-    "YDN Devils": {
-        "becomes": "YDN Gamers",
-        "came_from": null,
-        "highest_level": "Secondary",
-        "image": null,
-        "name": "YDN Devils",
-        "op": "YDN Devils",
-        "other_names": [
-            "YDN Devils",
-            "YDN Elysium",
-            "YDN Legion"
-        ],
-        "region": null,
-        "short": null,
-        "sister_teams": [
-            "YDN Elysium",
-            "YDN Legion"
-        ]
-    },
     "YDN Esports": {
         "becomes": null,
         "came_from": "YDN Gamers",
@@ -33456,8 +33392,10 @@
         "op": "YDN Esports",
         "other_names": [
             "YDN Devils",
+            "YDN Elysium",
             "YDN Esports",
-            "YDN Gamers"
+            "YDN Gamers",
+            "YDN Legion"
         ],
         "region": "Europe",
         "short": "YDN",
@@ -33557,6 +33495,7 @@
         "name": "Young Buffalos",
         "op": "Young Buffalos",
         "other_names": [
+            "Water Buffalos Unleashed",
             "Young Buffalos"
         ],
         "region": "North America",
@@ -33894,6 +33833,7 @@
         "name": "Zerolag Esports",
         "op": "Zerolag Esports",
         "other_names": [
+            "Here To Win It",
             "Zerolag Esports",
             "Zerolag Esports Academy"
         ],
