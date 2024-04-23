@@ -1,0 +1,112 @@
+<script lang="ts">
+	import _teams from '$lib/data/teams.json';
+	import _players from '$lib/data/players.json';
+	import type { Team } from '$lib/models/Team';
+	import { onMount } from 'svelte';
+	import { read_rule } from '$lib/util/puzzle_util';
+	import type { Rule } from '$lib/models/Rule';
+
+	export let showModal: Boolean; // boolean
+	export let team: string;
+
+	let dialog: HTMLDialogElement; // HTMLDialogElement
+	const team_data = _teams as {
+		[key: string]: Team;
+	};
+	const player_data = _players as {
+		[key: string]: any;
+	};
+
+	$: if (dialog && showModal) dialog.showModal();
+	let names: {
+		key: string
+		alt_names: string[]
+	};
+
+	onMount(() => {
+		read_rule(team).then((src) => {
+			if (src) {
+				switch (src.type) {
+					case "team":
+						names = {
+							key: src.key,
+							alt_names: team_data[src.key].other_names
+						}
+						return;
+					case "teammate":
+						names = {
+							key: src.key,
+							alt_names: player_data[src.key].alternate_names
+						}
+						return;
+					default:
+						names = {
+							key: src.key,
+							alt_names: []
+						}
+						return;
+				}
+			}
+		});
+	});
+
+</script>
+
+<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
+{#if names}
+<dialog
+	bind:this={dialog}
+	on:click|self={() => dialog.close()}
+	on:close={(e) => (showModal = false)}
+>
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<div on:click|stopPropagation>
+		<slot name="header" />
+		<span>{names.key}</span>
+		<hr />
+		<slot />
+		<ul>
+			{#each names.alt_names as alt_n}
+				<li>{alt_n}</li>
+			{/each}
+		</ul>
+	</div>
+</dialog>
+{/if}
+
+<style>
+	dialog {
+		width: 400px;
+		border-radius: 0.2em;
+		border: none;
+		padding: 0;
+	}
+	dialog::backdrop {
+		background: rgba(0, 0, 0, 0.3);
+	}
+	dialog > div {
+		padding: 1em;
+	}
+	dialog[open] {
+		animation: zoom 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+	@keyframes zoom {
+		from {
+			transform: scale(0.95);
+		}
+		to {
+			transform: scale(1);
+		}
+	}
+	dialog[open]::backdrop {
+		animation: fade 0.2s ease-out;
+	}
+	@keyframes fade {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+</style>

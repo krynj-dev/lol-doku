@@ -1,0 +1,59 @@
+{
+    "대마왕찰리": {
+        "key": "대마왕찰리",
+        "type": "teammate",
+        "valid_players": {
+            "Primary": [],
+            "Secondary": [
+                "Fanxy",
+                "A1ter",
+                "Morning (Song Chang-geun)",
+                "Cho A"
+            ]
+        },
+        "valid_crosses": {
+            "Primary": [],
+            "Secondary": [
+                "Meron",
+                "Athena",
+                "Ping9",
+                "Yuki (Yuki Takahashi)",
+                "Fanxy",
+                "Bin (Lee Seung-bin)",
+                "HamBurgeR",
+                "Jelly (Son Ho-gyeong)",
+                "Support",
+                "ReinDeer",
+                "Rascal Jester",
+                "Ryan",
+                "Hdel",
+                "Top",
+                "SQUARE (Korean Team)",
+                "Kyara",
+                "Vista",
+                "R2B",
+                "Bot",
+                "Troy",
+                "Cho A",
+                "Jerry (Park Yong-hyun)",
+                "Totoro (Eun Jong-seop)",
+                "Mires",
+                "LokeN",
+                "A1ter",
+                "Alleycat",
+                "Wyvern",
+                "Crazy (Kim Jae-hee)",
+                "Mid",
+                "Seorabeol Gaming",
+                "Morning (Song Chang-geun)",
+                "Heeseong",
+                "DanOh",
+                "NoA (Shunya Honda)",
+                "Irony",
+                "Lyn",
+                "Dochi"
+            ]
+        },
+        "exclusive_crosses": []
+    }
+}

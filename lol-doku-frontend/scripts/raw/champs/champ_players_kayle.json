@@ -1,0 +1,4727 @@
+[
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Kirito (David Koppmann)"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Nevan"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Spe4rrrrr"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Trouble"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Optimus"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Adeptus"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Ancestry"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "ArcTheDragon"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Brundsi"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Darrow (Spanish Player)"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hb1"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "IamKees"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "ILUXA2011"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Inside"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Lance"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Liorio"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Loco Vargas"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Sidera"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "TheSong"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Vince435"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Wiosna"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Arkhe (Salih Aygün)"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Pínda"
+    },
+    {
+        "OverviewPage": "",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Sky (David Koppmann)"
+    },
+    {
+        "OverviewPage": "2T",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "2T"
+    },
+    {
+        "OverviewPage": "369",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "369"
+    },
+    {
+        "OverviewPage": "5K",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "5K"
+    },
+    {
+        "OverviewPage": "997",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "997"
+    },
+    {
+        "OverviewPage": "Acce",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Acce"
+    },
+    {
+        "OverviewPage": "Acefos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Acefooos"
+    },
+    {
+        "OverviewPage": "Acefos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Acefos"
+    },
+    {
+        "OverviewPage": "Acheng",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Acheng"
+    },
+    {
+        "OverviewPage": "Achie",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Achie"
+    },
+    {
+        "OverviewPage": "Acorn",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "ChuChu"
+    },
+    {
+        "OverviewPage": "Acorn",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "7",
+        "Link": "Acorn"
+    },
+    {
+        "OverviewPage": "Adam (Adam Maanane)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Adam (Adam Maanane)"
+    },
+    {
+        "OverviewPage": "Adamson",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Adamson"
+    },
+    {
+        "OverviewPage": "ADD",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "ADD"
+    },
+    {
+        "OverviewPage": "Ady",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Ady"
+    },
+    {
+        "OverviewPage": "Aibreik",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Aibreik"
+    },
+    {
+        "OverviewPage": "AIM4",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "AIM4"
+    },
+    {
+        "OverviewPage": "Air (Shenghao He)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Air (Shenghao He)"
+    },
+    {
+        "OverviewPage": "Alambrito",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Lord Alambrito"
+    },
+    {
+        "OverviewPage": "Alex Ich",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "12",
+        "Link": "Alex Ich"
+    },
+    {
+        "OverviewPage": "Alex Ich",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Alex Ich"
+    },
+    {
+        "OverviewPage": "Alex Mercer",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Alex Mercer"
+    },
+    {
+        "OverviewPage": "Alielie",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Alielie"
+    },
+    {
+        "OverviewPage": "Aliez (Huang Hao)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Aliez (Huang Hao)"
+    },
+    {
+        "OverviewPage": "Alois",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Alois"
+    },
+    {
+        "OverviewPage": "Alphamong",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "MONG"
+    },
+    {
+        "OverviewPage": "Alphamong",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "MongMong"
+    },
+    {
+        "OverviewPage": "Alphari",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Alphari"
+    },
+    {
+        "OverviewPage": "Ambition",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Ambition"
+    },
+    {
+        "OverviewPage": "Angush",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Angush"
+    },
+    {
+        "OverviewPage": "Anka",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Anka"
+    },
+    {
+        "OverviewPage": "Aoshi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Aoshi"
+    },
+    {
+        "OverviewPage": "APA (Eain Stearns)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "APA (Eain Stearns)"
+    },
+    {
+        "OverviewPage": "ApaMEN",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "apaMEN"
+    },
+    {
+        "OverviewPage": "Archie2b",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Archie2b"
+    },
+    {
+        "OverviewPage": "Archie2b",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Archie (Vyacheslav Egorov)"
+    },
+    {
+        "OverviewPage": "Arise",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Aris"
+    },
+    {
+        "OverviewPage": "Articuna",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Articuna"
+    },
+    {
+        "OverviewPage": "Artorias",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "6",
+        "Link": "Artorias"
+    },
+    {
+        "OverviewPage": "Audax",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Audax"
+    },
+    {
+        "OverviewPage": "Avoidless",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Avoidless"
+    },
+    {
+        "OverviewPage": "Ayel",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Ayel"
+    },
+    {
+        "OverviewPage": "Bako",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Bako"
+    },
+    {
+        "OverviewPage": "Balls",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Balls"
+    },
+    {
+        "OverviewPage": "Banderas",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Banderas"
+    },
+    {
+        "OverviewPage": "Baws",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Baws"
+    },
+    {
+        "OverviewPage": "BBTY",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "BBTY"
+    },
+    {
+        "OverviewPage": "Bcan (Bahaeddincan Kasoglu)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Bcan (Bahaeddincan Kasoglu)"
+    },
+    {
+        "OverviewPage": "Beast (Kim Joo-hyun)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Beast (Kim Joo-hyun)"
+    },
+    {
+        "OverviewPage": "Bedvolf",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Bedvolf"
+    },
+    {
+        "OverviewPage": "Betão",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Betao"
+    },
+    {
+        "OverviewPage": "Bin (Chen Ze-Bin)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Bin (Chen Ze-Bin)"
+    },
+    {
+        "OverviewPage": "BioPanther",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "BioPanther"
+    },
+    {
+        "OverviewPage": "Biubiu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Biubiu"
+    },
+    {
+        "OverviewPage": "Bobista",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Bobiistaa"
+    },
+    {
+        "OverviewPage": "Bobista",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "bobista"
+    },
+    {
+        "OverviewPage": "BoBo (Wang You-Lin)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "BoBo (Wang You-Lin)"
+    },
+    {
+        "OverviewPage": "Boomin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "soldaat"
+    },
+    {
+        "OverviewPage": "BOSS (Vladislav Fomin)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "BOSS (Vladislav Fomin)"
+    },
+    {
+        "OverviewPage": "BoWen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "BoWen"
+    },
+    {
+        "OverviewPage": "BOYINLUV",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "6",
+        "Link": "Kryonics"
+    },
+    {
+        "OverviewPage": "Breathe",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Curse (Chen Chen)"
+    },
+    {
+        "OverviewPage": "Broken",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Broken"
+    },
+    {
+        "OverviewPage": "BrokenBlade",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Broken Blade"
+    },
+    {
+        "OverviewPage": "BrokenBlade",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "BrokenBlade"
+    },
+    {
+        "OverviewPage": "Brucer",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Brucer"
+    },
+    {
+        "OverviewPage": "Buggax",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "9",
+        "Link": "Buggax"
+    },
+    {
+        "OverviewPage": "Bully",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Bully"
+    },
+    {
+        "OverviewPage": "Burrito",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Burrito"
+    },
+    {
+        "OverviewPage": "Bwipo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Bwipo"
+    },
+    {
+        "OverviewPage": "Caedrel",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Caedrel"
+    },
+    {
+        "OverviewPage": "CaliTrlolz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "CaliTrlolz"
+    },
+    {
+        "OverviewPage": "CaliTrlolz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "CaliforniaTrlolz"
+    },
+    {
+        "OverviewPage": "Canna",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Canna"
+    },
+    {
+        "OverviewPage": "CaoMei",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "CaoMei"
+    },
+    {
+        "OverviewPage": "Caps",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Caps"
+    },
+    {
+        "OverviewPage": "Castle (Cho Hyeon-seong)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Castle (Cho Hyeon-seong)"
+    },
+    {
+        "OverviewPage": "Cephei",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Cephei"
+    },
+    {
+        "OverviewPage": "Champen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "champen dk"
+    },
+    {
+        "OverviewPage": "Chasy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Chasy"
+    },
+    {
+        "OverviewPage": "Chelizi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Chelizi"
+    },
+    {
+        "OverviewPage": "Chenlun17",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "chenlun17"
+    },
+    {
+        "OverviewPage": "Cherie",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Cherie"
+    },
+    {
+        "OverviewPage": "Chippys",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Chippys"
+    },
+    {
+        "OverviewPage": "Chippys",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Chippys"
+    },
+    {
+        "OverviewPage": "Chock",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Chock"
+    },
+    {
+        "OverviewPage": "Chungy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Chungy"
+    },
+    {
+        "OverviewPage": "Chuuper",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Chuuper"
+    },
+    {
+        "OverviewPage": "CJJ",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "CJJ"
+    },
+    {
+        "OverviewPage": "Ckg",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Cackgod"
+    },
+    {
+        "OverviewPage": "Cl0x",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Cl0x"
+    },
+    {
+        "OverviewPage": "Clear (Song Hyeon-min)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Clear (Song Hyeon-min)"
+    },
+    {
+        "OverviewPage": "Clearlove",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Troll"
+    },
+    {
+        "OverviewPage": "CMD ATK",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Command"
+    },
+    {
+        "OverviewPage": "Coated",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Coated"
+    },
+    {
+        "OverviewPage": "Coco",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Coco"
+    },
+    {
+        "OverviewPage": "Cogcog",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Cogcog"
+    },
+    {
+        "OverviewPage": "Cognac",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Cognac"
+    },
+    {
+        "OverviewPage": "Color",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Color"
+    },
+    {
+        "OverviewPage": "Compultion",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Compultion"
+    },
+    {
+        "OverviewPage": "Cool",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Cool"
+    },
+    {
+        "OverviewPage": "CowTard",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "7",
+        "Link": "cowTard"
+    },
+    {
+        "OverviewPage": "Crocomux",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Crocomux"
+    },
+    {
+        "OverviewPage": "Crowno",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Crowno"
+    },
+    {
+        "OverviewPage": "Crowno",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Novachrono"
+    },
+    {
+        "OverviewPage": "Crumbz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Crumbzz"
+    },
+    {
+        "OverviewPage": "Cube (Dai Yi)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "Cube (Dai Yi)"
+    },
+    {
+        "OverviewPage": "Cuhi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "CUhigh"
+    },
+    {
+        "OverviewPage": "CuVee",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "CuVee"
+    },
+    {
+        "OverviewPage": "Cyanide",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Cyanide"
+    },
+    {
+        "OverviewPage": "D4rtaine",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "D4rtaine"
+    },
+    {
+        "OverviewPage": "Damonte",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Damonte"
+    },
+    {
+        "OverviewPage": "Dan Dan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Dan Dan"
+    },
+    {
+        "OverviewPage": "Dan Dan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "6",
+        "Link": "Dan Dan"
+    },
+    {
+        "OverviewPage": "Danijrm",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Danijrm"
+    },
+    {
+        "OverviewPage": "DANKI",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "DANKI"
+    },
+    {
+        "OverviewPage": "Darien",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Darien"
+    },
+    {
+        "OverviewPage": "Dark Solece",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Dark Solece"
+    },
+    {
+        "OverviewPage": "Dark Solece",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Solece"
+    },
+    {
+        "OverviewPage": "Darshan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "ZionSpartan"
+    },
+    {
+        "OverviewPage": "Darshan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Darshan"
+    },
+    {
+        "OverviewPage": "Darshan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "ZionSpartan"
+    },
+    {
+        "OverviewPage": "DasheR",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Dasher"
+    },
+    {
+        "OverviewPage": "Dawidsonek",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "16",
+        "Link": "Dawidsonek"
+    },
+    {
+        "OverviewPage": "Daydreamin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Daydreamin"
+    },
+    {
+        "OverviewPage": "Deathleap",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "deathleap"
+    },
+    {
+        "OverviewPage": "Dec0y",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Dec0y"
+    },
+    {
+        "OverviewPage": "Dehaste",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Dehaste"
+    },
+    {
+        "OverviewPage": "Delitto",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Delitto"
+    },
+    {
+        "OverviewPage": "Demon (Wu Yue-Wei)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Demon (Wu Yue-Wei)"
+    },
+    {
+        "OverviewPage": "Dennis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Dennis"
+    },
+    {
+        "OverviewPage": "Destroy (Yoon Jeong-min)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Destroy (Yoon Jeong-min)"
+    },
+    {
+        "OverviewPage": "Dhokla",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Dhokla"
+    },
+    {
+        "OverviewPage": "Dinamox",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Dínamox"
+    },
+    {
+        "OverviewPage": "Diomarr",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Diomarr"
+    },
+    {
+        "OverviewPage": "Diva",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Diva"
+    },
+    {
+        "OverviewPage": "Divine (Alex Corona)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Divine (Alex Corona)"
+    },
+    {
+        "OverviewPage": "Doinb",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Doinb"
+    },
+    {
+        "OverviewPage": "Dom1nant",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Dominant"
+    },
+    {
+        "OverviewPage": "Doran (Choi Hyeon-joon)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Doran (Choi Hyeon-joon)"
+    },
+    {
+        "OverviewPage": "DoRun",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "DoRun"
+    },
+    {
+        "OverviewPage": "Dreampull",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Dreampull"
+    },
+    {
+        "OverviewPage": "Dreedy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Dreedy"
+    },
+    {
+        "OverviewPage": "DrSaw",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Dr Saw"
+    },
+    {
+        "OverviewPage": "DrSaw",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "DrSaw"
+    },
+    {
+        "OverviewPage": "Duclou",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Duclou"
+    },
+    {
+        "OverviewPage": "DuDu (Lee Dong-ju)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "DuDu (Lee Dong-ju)"
+    },
+    {
+        "OverviewPage": "Duocek",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Duocek"
+    },
+    {
+        "OverviewPage": "Dusk (Zhang Wen-Bo)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Dusk (Zhang Wen-Bo)"
+    },
+    {
+        "OverviewPage": "DVLK",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "DVLK"
+    },
+    {
+        "OverviewPage": "DyNquedo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "dyNquedo"
+    },
+    {
+        "OverviewPage": "Eclipse (Yujie Wu)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Eclipse (Yujie Wu)"
+    },
+    {
+        "OverviewPage": "EdbyK",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "EdbyK"
+    },
+    {
+        "OverviewPage": "Edward",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "EDward"
+    },
+    {
+        "OverviewPage": "Eika",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Eika"
+    },
+    {
+        "OverviewPage": "Elite",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "eLite"
+    },
+    {
+        "OverviewPage": "Elusion",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Elusion"
+    },
+    {
+        "OverviewPage": "EMENES",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "EMENES"
+    },
+    {
+        "OverviewPage": "Empyros",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "JaxPlank"
+    },
+    {
+        "OverviewPage": "Ender (Liao Chan-Chin)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Ender (Liao Chan-Chin)"
+    },
+    {
+        "OverviewPage": "Engo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "8",
+        "Link": "Engo"
+    },
+    {
+        "OverviewPage": "Esc",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Esc"
+    },
+    {
+        "OverviewPage": "Evi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "Evi"
+    },
+    {
+        "OverviewPage": "Exosen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Exo (Eric Gubatan)"
+    },
+    {
+        "OverviewPage": "EYLIPH",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Eyliph"
+    },
+    {
+        "OverviewPage": "FabFabulous",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "fabFabulous"
+    },
+    {
+        "OverviewPage": "Faker",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Faker"
+    },
+    {
+        "OverviewPage": "FallenBandit",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "FallenBandit"
+    },
+    {
+        "OverviewPage": "FatShield",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "6",
+        "Link": "FatShield"
+    },
+    {
+        "OverviewPage": "Fearness",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "fearness"
+    },
+    {
+        "OverviewPage": "FEBIVEN",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Febiven"
+    },
+    {
+        "OverviewPage": "Finn",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Finn"
+    },
+    {
+        "OverviewPage": "Fireloli",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Fireloli"
+    },
+    {
+        "OverviewPage": "Fjoompbun",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Flaxxish"
+    },
+    {
+        "OverviewPage": "Flame",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Flame"
+    },
+    {
+        "OverviewPage": "Flandre",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Flandre"
+    },
+    {
+        "OverviewPage": "Flaresz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Flaresz"
+    },
+    {
+        "OverviewPage": "FNb",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "fNb"
+    },
+    {
+        "OverviewPage": "FoFo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "FoFo"
+    },
+    {
+        "OverviewPage": "Fox (Hampus Myhre)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Fox (Hampus Myhre)"
+    },
+    {
+        "OverviewPage": "Fox (Hampus Myhre)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "watdefox"
+    },
+    {
+        "OverviewPage": "Foxie",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Foxie"
+    },
+    {
+        "OverviewPage": "Fresskowy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Fresskowy"
+    },
+    {
+        "OverviewPage": "Frogadog",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Frogadog"
+    },
+    {
+        "OverviewPage": "Froggen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "7",
+        "Link": "Froggen"
+    },
+    {
+        "OverviewPage": "Frozen (Tiago Tavares)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Fr0zen"
+    },
+    {
+        "OverviewPage": "Frozen (Tiago Tavares)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Frozen (Tiago Tavares)"
+    },
+    {
+        "OverviewPage": "Fudge",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Fudge"
+    },
+    {
+        "OverviewPage": "Geiger",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Geiger"
+    },
+    {
+        "OverviewPage": "GentlemanHero",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "GentlemanHero"
+    },
+    {
+        "OverviewPage": "GentlemanHero",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "GentlmanHero"
+    },
+    {
+        "OverviewPage": "GentlemanHero",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "GntlmanHero"
+    },
+    {
+        "OverviewPage": "GentlemanHero",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "GentlemanHe"
+    },
+    {
+        "OverviewPage": "Ggoong",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Ggoong"
+    },
+    {
+        "OverviewPage": "Gible",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Gible"
+    },
+    {
+        "OverviewPage": "GimGoon",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "GimGoon"
+    },
+    {
+        "OverviewPage": "GodLike",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "ackerman (Xiao Wang)"
+    },
+    {
+        "OverviewPage": "Godv (Matías Cesaretti)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "godvi"
+    },
+    {
+        "OverviewPage": "Gogoing",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Gogoing"
+    },
+    {
+        "OverviewPage": "Goryus",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Goryus"
+    },
+    {
+        "OverviewPage": "Grænn Slots",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Grænn Slots"
+    },
+    {
+        "OverviewPage": "Guardián",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Guardián"
+    },
+    {
+        "OverviewPage": "Gunkus",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Gunkus"
+    },
+    {
+        "OverviewPage": "Hambus",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hambus"
+    },
+    {
+        "OverviewPage": "Hanabi (Su Chia-Hsiang)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Hanabi (Su Chia-Hsiang)"
+    },
+    {
+        "OverviewPage": "Harald",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Harald"
+    },
+    {
+        "OverviewPage": "Hasmed",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Hasmed"
+    },
+    {
+        "OverviewPage": "Hatrixx",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Hatrixx"
+    },
+    {
+        "OverviewPage": "Hauntzer",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Hauntzer"
+    },
+    {
+        "OverviewPage": "Hauntzer",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hauntzer"
+    },
+    {
+        "OverviewPage": "HAWHAW",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "HHNeverLucky"
+    },
+    {
+        "OverviewPage": "Heart",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "CNyang"
+    },
+    {
+        "OverviewPage": "Hensen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Hensen"
+    },
+    {
+        "OverviewPage": "Hidan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Hidan"
+    },
+    {
+        "OverviewPage": "Hobbler",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Hobbler"
+    },
+    {
+        "OverviewPage": "Hoit",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hoit"
+    },
+    {
+        "OverviewPage": "Holder",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Holder"
+    },
+    {
+        "OverviewPage": "Hoosick",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hoosick"
+    },
+    {
+        "OverviewPage": "HUGOD",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "HUGOD"
+    },
+    {
+        "OverviewPage": "Huhi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "huhi"
+    },
+    {
+        "OverviewPage": "Hulatang",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "M1kuya"
+    },
+    {
+        "OverviewPage": "Hulberto",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "hulberto"
+    },
+    {
+        "OverviewPage": "Humble (Huang Min-Min)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Humble (Huang Min-Min)"
+    },
+    {
+        "OverviewPage": "Hyorai",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hyorai"
+    },
+    {
+        "OverviewPage": "Hypa",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hypa"
+    },
+    {
+        "OverviewPage": "Hyperactive",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Hyperactive"
+    },
+    {
+        "OverviewPage": "IBo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "iBo"
+    },
+    {
+        "OverviewPage": "IceBox",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "IceBox"
+    },
+    {
+        "OverviewPage": "IceBreaker",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "IceBreaker"
+    },
+    {
+        "OverviewPage": "Ichik46",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Ichik46"
+    },
+    {
+        "OverviewPage": "Icytower",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Icy (Marcelo Barba)"
+    },
+    {
+        "OverviewPage": "Ikssu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "erssu"
+    },
+    {
+        "OverviewPage": "IlllIma",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "IlllIma"
+    },
+    {
+        "OverviewPage": "Impact",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Impact"
+    },
+    {
+        "OverviewPage": "ImSoFresh",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "ImSoFresh"
+    },
+    {
+        "OverviewPage": "Innox",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "InnoX"
+    },
+    {
+        "OverviewPage": "Ino",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Ino"
+    },
+    {
+        "OverviewPage": "Interor",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Emperor (Viktor Liptai)"
+    },
+    {
+        "OverviewPage": "Invincible",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Invincible"
+    },
+    {
+        "OverviewPage": "Ivok",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Ivok"
+    },
+    {
+        "OverviewPage": "Izaenk",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "IzaenK"
+    },
+    {
+        "OverviewPage": "Jackies",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Jackisek"
+    },
+    {
+        "OverviewPage": "Jacob (Jacob Nielsen)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Jacob (Jacob Nielsen)"
+    },
+    {
+        "OverviewPage": "Jadko",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Jadko"
+    },
+    {
+        "OverviewPage": "Jaeger",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Jaeger"
+    },
+    {
+        "OverviewPage": "Jaguar (Wessel Antonissen)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Jaguar (Wessel Antonissen)"
+    },
+    {
+        "OverviewPage": "Jakubs",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "jakubs"
+    },
+    {
+        "OverviewPage": "Jauny",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Jauny"
+    },
+    {
+        "OverviewPage": "Jcain",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "JCoin"
+    },
+    {
+        "OverviewPage": "Jesiz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "7",
+        "Link": "Jesiz"
+    },
+    {
+        "OverviewPage": "Jeskla",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "JeskIa"
+    },
+    {
+        "OverviewPage": "Jestkui Max",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Jestkui Max"
+    },
+    {
+        "OverviewPage": "Jiizuke",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Jiizuke"
+    },
+    {
+        "OverviewPage": "Jinoo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Jinoo"
+    },
+    {
+        "OverviewPage": "Jintae",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Jintae"
+    },
+    {
+        "OverviewPage": "JLC",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "JLC"
+    },
+    {
+        "OverviewPage": "JNX",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "JNX"
+    },
+    {
+        "OverviewPage": "JohnGiannis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "6",
+        "Link": "JohnGiannis"
+    },
+    {
+        "OverviewPage": "JoJo (Kan Yiu-Tou)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "JoJo (Kan Yiu-Tou)"
+    },
+    {
+        "OverviewPage": "Joxardo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Jox"
+    },
+    {
+        "OverviewPage": "Joxardo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Joxardo"
+    },
+    {
+        "OverviewPage": "JuanDeDios",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "JuanDeDios"
+    },
+    {
+        "OverviewPage": "Juzu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Juuzou"
+    },
+    {
+        "OverviewPage": "K1tava",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "k1tava"
+    },
+    {
+        "OverviewPage": "Kackos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Kackos"
+    },
+    {
+        "OverviewPage": "Kaigu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Kaigu"
+    },
+    {
+        "OverviewPage": "Kakan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kakan"
+    },
+    {
+        "OverviewPage": "Kaleos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kaleos"
+    },
+    {
+        "OverviewPage": "Kami (Gabriel Bohm Santos)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Kami (Gabriel Bohm Santos)"
+    },
+    {
+        "OverviewPage": "Kangin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Captain (Choi Gang-in)"
+    },
+    {
+        "OverviewPage": "Kangin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kangin"
+    },
+    {
+        "OverviewPage": "KangQui",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "KangQui"
+    },
+    {
+        "OverviewPage": "Kantoshi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kantoshi"
+    },
+    {
+        "OverviewPage": "Karisas",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Karisas"
+    },
+    {
+        "OverviewPage": "Kartis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kartis"
+    },
+    {
+        "OverviewPage": "Karwox",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Karwox"
+    },
+    {
+        "OverviewPage": "Kashtelan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kashtelan"
+    },
+    {
+        "OverviewPage": "Kaylem",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kaylem"
+    },
+    {
+        "OverviewPage": "Kayleqlated",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kayleqlated"
+    },
+    {
+        "OverviewPage": "Kaze (Quentin Gourbeix)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kazewa"
+    },
+    {
+        "OverviewPage": "Kebap",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kebap"
+    },
+    {
+        "OverviewPage": "KemKen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Django"
+    },
+    {
+        "OverviewPage": "Kerberos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "11",
+        "Link": "Kerberos"
+    },
+    {
+        "OverviewPage": "Keria",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Keria"
+    },
+    {
+        "OverviewPage": "Kerp",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Kerp"
+    },
+    {
+        "OverviewPage": "Kfo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "kfo"
+    },
+    {
+        "OverviewPage": "Khan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "Khan"
+    },
+    {
+        "OverviewPage": "Khorix",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Khorix"
+    },
+    {
+        "OverviewPage": "Kiari",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "KiaRi"
+    },
+    {
+        "OverviewPage": "Kiin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "6",
+        "Link": "Kiin"
+    },
+    {
+        "OverviewPage": "Kikis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Kikis"
+    },
+    {
+        "OverviewPage": "Kim (Nicolas Guerra)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Kim1"
+    },
+    {
+        "OverviewPage": "Kinatu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Kinatu"
+    },
+    {
+        "OverviewPage": "King Barou",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "King Barou"
+    },
+    {
+        "OverviewPage": "King Barou",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Jaqen"
+    },
+    {
+        "OverviewPage": "Kingen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Kingen"
+    },
+    {
+        "OverviewPage": "Kira",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Kirrrra"
+    },
+    {
+        "OverviewPage": "KiWiKiD",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "KiWiKiD"
+    },
+    {
+        "OverviewPage": "Klowny",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "klowny"
+    },
+    {
+        "OverviewPage": "Konektiv",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Konektiv"
+    },
+    {
+        "OverviewPage": "Korol",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "12",
+        "Link": "Koro1"
+    },
+    {
+        "OverviewPage": "Kozi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "PolskiKoz"
+    },
+    {
+        "OverviewPage": "Kristut",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Kristut"
+    },
+    {
+        "OverviewPage": "Kroghsen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Kroghsen"
+    },
+    {
+        "OverviewPage": "Kryze",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Kryze"
+    },
+    {
+        "OverviewPage": "Kryze",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Kryze"
+    },
+    {
+        "OverviewPage": "Kumo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Kumo"
+    },
+    {
+        "OverviewPage": "Kuro",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Kuro"
+    },
+    {
+        "OverviewPage": "Lamb",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "lamb"
+    },
+    {
+        "OverviewPage": "Langx",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Langx"
+    },
+    {
+        "OverviewPage": "Larssen",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Larssen"
+    },
+    {
+        "OverviewPage": "Lasha",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Lasha"
+    },
+    {
+        "OverviewPage": "Last",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Last"
+    },
+    {
+        "OverviewPage": "Lcberg",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Icberg"
+    },
+    {
+        "OverviewPage": "Leaky",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Leaky"
+    },
+    {
+        "OverviewPage": "Leko",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Leko"
+    },
+    {
+        "OverviewPage": "Lep",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "LEP"
+    },
+    {
+        "OverviewPage": "LeQu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "LeQu"
+    },
+    {
+        "OverviewPage": "Leza",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Leza"
+    },
+    {
+        "OverviewPage": "Librid",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Librid"
+    },
+    {
+        "OverviewPage": "Licorice",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Licorice"
+    },
+    {
+        "OverviewPage": "Limit (Ju Min-gyu)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Limit (Ju Min-gyu)"
+    },
+    {
+        "OverviewPage": "Link",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Link"
+    },
+    {
+        "OverviewPage": "Linsanity",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "LinsanityV1"
+    },
+    {
+        "OverviewPage": "Lived",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Lived"
+    },
+    {
+        "OverviewPage": "Lizia",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Lizia"
+    },
+    {
+        "OverviewPage": "Lonely (Han Gyu-joon)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Lonely (Han Gyu-joon)"
+    },
+    {
+        "OverviewPage": "Lonely (Han Gyu-joon)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Lonely (Han Gyu-joon)"
+    },
+    {
+        "OverviewPage": "Longqi",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "6",
+        "Link": "Longqi"
+    },
+    {
+        "OverviewPage": "Looper",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Looper"
+    },
+    {
+        "OverviewPage": "Lourlo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Lourlo"
+    },
+    {
+        "OverviewPage": "LuciferYYY",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Rena"
+    },
+    {
+        "OverviewPage": "Lustboy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Lustboy"
+    },
+    {
+        "OverviewPage": "LvMao",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "LvMao"
+    },
+    {
+        "OverviewPage": "Ly4ly4ly4",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "ly4ly4ly4"
+    },
+    {
+        "OverviewPage": "Lyfaenia",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Lyfaenia"
+    },
+    {
+        "OverviewPage": "M eye A",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "M eye A"
+    },
+    {
+        "OverviewPage": "M4ple",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Ruby (Juan Ramos)"
+    },
+    {
+        "OverviewPage": "Mabud",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Mabud"
+    },
+    {
+        "OverviewPage": "MadLife",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "MadLife"
+    },
+    {
+        "OverviewPage": "Madly",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Madly"
+    },
+    {
+        "OverviewPage": "Madly",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Madly"
+    },
+    {
+        "OverviewPage": "Madrid1st",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Madrid1st"
+    },
+    {
+        "OverviewPage": "Mafa",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Mafa"
+    },
+    {
+        "OverviewPage": "MakNooN",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "MakNooN"
+    },
+    {
+        "OverviewPage": "Malunoo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Malunoo"
+    },
+    {
+        "OverviewPage": "Mancloud",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Mancloud"
+    },
+    {
+        "OverviewPage": "Manolito",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Manolito"
+    },
+    {
+        "OverviewPage": "ManoloGap",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "ManoloGap"
+    },
+    {
+        "OverviewPage": "Manster",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Manster"
+    },
+    {
+        "OverviewPage": "MaRin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "MaRin"
+    },
+    {
+        "OverviewPage": "Marky (Pedro José Serrano)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Marky (Pedro José Serrano)"
+    },
+    {
+        "OverviewPage": "Maxibillion",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Maxibillion"
+    },
+    {
+        "OverviewPage": "Maxus",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Màxus"
+    },
+    {
+        "OverviewPage": "Mayhem (Samuel García)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Mayhem (Samuel García)"
+    },
+    {
+        "OverviewPage": "Melody (Liu Yi-Fan)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "melody (Liu Yi-Fan)"
+    },
+    {
+        "OverviewPage": "Merpilian",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Merpilian"
+    },
+    {
+        "OverviewPage": "Meslo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Meslo"
+    },
+    {
+        "OverviewPage": "Mettoe",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Mettoe"
+    },
+    {
+        "OverviewPage": "Microlatios",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Microlatios"
+    },
+    {
+        "OverviewPage": "Mihile",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Mihile"
+    },
+    {
+        "OverviewPage": "MikePerewait",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "MikePerwait"
+    },
+    {
+        "OverviewPage": "Mikkel (Michał Dąbrowski)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Mikkell"
+    },
+    {
+        "OverviewPage": "Mimer",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Mimer"
+    },
+    {
+        "OverviewPage": "Miniduke",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Miniduke"
+    },
+    {
+        "OverviewPage": "Mirin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Cuden"
+    },
+    {
+        "OverviewPage": "Mke",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "H8ED"
+    },
+    {
+        "OverviewPage": "Modifyed",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Modifyed"
+    },
+    {
+        "OverviewPage": "Mokatte",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Mokatte"
+    },
+    {
+        "OverviewPage": "Monsieur",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Monsieur"
+    },
+    {
+        "OverviewPage": "Moopz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Moopz"
+    },
+    {
+        "OverviewPage": "MooseHater",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "MooseHater"
+    },
+    {
+        "OverviewPage": "Morgan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Morgan"
+    },
+    {
+        "OverviewPage": "Morgan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Morgan"
+    },
+    {
+        "OverviewPage": "Mumus100",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "mumus100"
+    },
+    {
+        "OverviewPage": "Murillo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Murillo"
+    },
+    {
+        "OverviewPage": "Muvert",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Muvert"
+    },
+    {
+        "OverviewPage": "Mylon",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Mylon"
+    },
+    {
+        "OverviewPage": "Myrwn",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Myrwn"
+    },
+    {
+        "OverviewPage": "Mytheos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Mytheos"
+    },
+    {
+        "OverviewPage": "Myths",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Myths"
+    },
+    {
+        "OverviewPage": "N0name",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "N0name"
+    },
+    {
+        "OverviewPage": "Naak Nako",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Naak Nako"
+    },
+    {
+        "OverviewPage": "Nafkelah",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Nafkelah"
+    },
+    {
+        "OverviewPage": "Naryt",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Naryt"
+    },
+    {
+        "OverviewPage": "Nate",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Nate"
+    },
+    {
+        "OverviewPage": "Nate",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Nate"
+    },
+    {
+        "OverviewPage": "Nayuki",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Nayuki"
+    },
+    {
+        "OverviewPage": "NBeezy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "nBeezy"
+    },
+    {
+        "OverviewPage": "Necromartin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Necromartin"
+    },
+    {
+        "OverviewPage": "Nemesis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Nemesis"
+    },
+    {
+        "OverviewPage": "Nemesis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Nemesis"
+    },
+    {
+        "OverviewPage": "Nemesis9",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Nemesis9"
+    },
+    {
+        "OverviewPage": "Nero (Helgi Rúdolfsson)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Nero Angelo"
+    },
+    {
+        "OverviewPage": "Nestor",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Nae"
+    },
+    {
+        "OverviewPage": "New",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "New"
+    },
+    {
+        "OverviewPage": "Niles (Aiden Tidwell)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "9",
+        "Link": "Niles (Aiden Tidwell)"
+    },
+    {
+        "OverviewPage": "Nipphu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Nipphu"
+    },
+    {
+        "OverviewPage": "NiQ",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "niQ"
+    },
+    {
+        "OverviewPage": "NiQ",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "niQ 760"
+    },
+    {
+        "OverviewPage": "NiQ",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "niQ760"
+    },
+    {
+        "OverviewPage": "NiQ",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "niQ"
+    },
+    {
+        "OverviewPage": "Nisker",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Evaniskus"
+    },
+    {
+        "OverviewPage": "Nisqy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Nisqy"
+    },
+    {
+        "OverviewPage": "Nomanz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Nomanz"
+    },
+    {
+        "OverviewPage": "NoNholy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "NoNholy"
+    },
+    {
+        "OverviewPage": "Notice",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "NoticeMeSenpai"
+    },
+    {
+        "OverviewPage": "Nox",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Nox"
+    },
+    {
+        "OverviewPage": "Nper",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "nPer"
+    },
+    {
+        "OverviewPage": "NRated",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "8",
+        "Link": "nRated"
+    },
+    {
+        "OverviewPage": "Nuguri",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "7",
+        "Link": "Nuguri"
+    },
+    {
+        "OverviewPage": "Nukeduck",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "NukeDuck"
+    },
+    {
+        "OverviewPage": "Nulu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "SELFIE"
+    },
+    {
+        "OverviewPage": "Number1",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Number1"
+    },
+    {
+        "OverviewPage": "Nyjacky",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "NyJacky"
+    },
+    {
+        "OverviewPage": "Ocelote",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "9",
+        "Link": "ocelote"
+    },
+    {
+        "OverviewPage": "Odoamne",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Odoamne"
+    },
+    {
+        "OverviewPage": "Ouroboy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "SkyBart"
+    },
+    {
+        "OverviewPage": "Overpow",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "9",
+        "Link": "Overpow"
+    },
+    {
+        "OverviewPage": "Owl (Han Sang-hyeok)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "5wl"
+    },
+    {
+        "OverviewPage": "Pabu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Pabu"
+    },
+    {
+        "OverviewPage": "Pacman",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Pacman"
+    },
+    {
+        "OverviewPage": "PainN",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "PainN"
+    },
+    {
+        "OverviewPage": "Papryze",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "papryze"
+    },
+    {
+        "OverviewPage": "Parang",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Parang"
+    },
+    {
+        "OverviewPage": "Parang",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Parang"
+    },
+    {
+        "OverviewPage": "Paranoia",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Paranoia"
+    },
+    {
+        "OverviewPage": "Patkica",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Patkica"
+    },
+    {
+        "OverviewPage": "Patkica",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "PatkicaA"
+    },
+    {
+        "OverviewPage": "PCL (Kostyantyn Dudarchuk)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "PCL (Kostyantyn Dudarchuk)"
+    },
+    {
+        "OverviewPage": "PDD",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "PDD"
+    },
+    {
+        "OverviewPage": "Peraxy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Saiken"
+    },
+    {
+        "OverviewPage": "Petoska",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Petoska"
+    },
+    {
+        "OverviewPage": "Pgggggg",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Pgggggg"
+    },
+    {
+        "OverviewPage": "PhenomEX",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "PhenomEX"
+    },
+    {
+        "OverviewPage": "Photon",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Photon"
+    },
+    {
+        "OverviewPage": "Pieck",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Venus (Roberto Galán)"
+    },
+    {
+        "OverviewPage": "PLL",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "PLL"
+    },
+    {
+        "OverviewPage": "Pobelter",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Pobelter"
+    },
+    {
+        "OverviewPage": "Pomo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Pomo"
+    },
+    {
+        "OverviewPage": "Poss",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Poss"
+    },
+    {
+        "OverviewPage": "Poweh",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Poweh"
+    },
+    {
+        "OverviewPage": "PowerOfEvil",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "PowerOfEvil"
+    },
+    {
+        "OverviewPage": "Pr0lly",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "PR0LLY"
+    },
+    {
+        "OverviewPage": "Prydz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Prydz"
+    },
+    {
+        "OverviewPage": "Psclly",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Psclly"
+    },
+    {
+        "OverviewPage": "Ptatis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Ptatis"
+    },
+    {
+        "OverviewPage": "Putin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Putin"
+    },
+    {
+        "OverviewPage": "PvPStejos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "PvPStejos"
+    },
+    {
+        "OverviewPage": "QaiZer",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "QaiZer"
+    },
+    {
+        "OverviewPage": "QiuQiu (Liang Jian)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "QiuQiu (Liang Jian)"
+    },
+    {
+        "OverviewPage": "QTV",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "QTV"
+    },
+    {
+        "OverviewPage": "Quas",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Quas"
+    },
+    {
+        "OverviewPage": "R4VEN",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "R4VEN"
+    },
+    {
+        "OverviewPage": "Raedz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Raedz"
+    },
+    {
+        "OverviewPage": "Raider",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Raider"
+    },
+    {
+        "OverviewPage": "Raigos",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Raigos"
+    },
+    {
+        "OverviewPage": "Rando",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Rando"
+    },
+    {
+        "OverviewPage": "Ray",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Ray"
+    },
+    {
+        "OverviewPage": "Ray",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Ray"
+    },
+    {
+        "OverviewPage": "Rebengga",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Rebengga"
+    },
+    {
+        "OverviewPage": "Reginald",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Reginald"
+    },
+    {
+        "OverviewPage": "Relic",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Relic"
+    },
+    {
+        "OverviewPage": "Renas",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Renas"
+    },
+    {
+        "OverviewPage": "Rest",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Rest"
+    },
+    {
+        "OverviewPage": "Rich (Lee Jae-won)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Rich (Lee Jae-won)"
+    },
+    {
+        "OverviewPage": "Rifty",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Rifty"
+    },
+    {
+        "OverviewPage": "Riris",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Riris"
+    },
+    {
+        "OverviewPage": "Roach",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Roach"
+    },
+    {
+        "OverviewPage": "Roar (Oh Jang-won)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Roar (Oh Jang-won)"
+    },
+    {
+        "OverviewPage": "Robba",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Robba"
+    },
+    {
+        "OverviewPage": "Robo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Robo"
+    },
+    {
+        "OverviewPage": "Rocklho",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Rocklho"
+    },
+    {
+        "OverviewPage": "Rogue (Redon Fili)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Rogue (Redon Fili)"
+    },
+    {
+        "OverviewPage": "Roison",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Roison"
+    },
+    {
+        "OverviewPage": "Roshan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "I am Kees"
+    },
+    {
+        "OverviewPage": "Rubi0o",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Rubi0o"
+    },
+    {
+        "OverviewPage": "Ruin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Ruin"
+    },
+    {
+        "OverviewPage": "Rune (Jason Schrage)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Rune (Jason Schrage)"
+    },
+    {
+        "OverviewPage": "Rusty (Emanuel Souza)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Rusty (Emanuel Souza)"
+    },
+    {
+        "OverviewPage": "S0bek",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "S0bek"
+    },
+    {
+        "OverviewPage": "Sa11y",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "sa11y"
+    },
+    {
+        "OverviewPage": "Sacre",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Sacre"
+    },
+    {
+        "OverviewPage": "Sacre",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Toni"
+    },
+    {
+        "OverviewPage": "Sander",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Sander"
+    },
+    {
+        "OverviewPage": "SaSin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "SaSin"
+    },
+    {
+        "OverviewPage": "Saulius",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Saulius"
+    },
+    {
+        "OverviewPage": "Saulius",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Saulius"
+    },
+    {
+        "OverviewPage": "Savage (Jang Seung-gyu)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Savage (Jang Seung-gyu)"
+    },
+    {
+        "OverviewPage": "Save",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "6",
+        "Link": "Save"
+    },
+    {
+        "OverviewPage": "Scarface (Daniel Aitbelkacem)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Scarface (Daniel Aitbelkacem)"
+    },
+    {
+        "OverviewPage": "Scarra",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "scarra"
+    },
+    {
+        "OverviewPage": "Secrett",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Secret1"
+    },
+    {
+        "OverviewPage": "Seeker",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Seeker"
+    },
+    {
+        "OverviewPage": "Semide",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Semide"
+    },
+    {
+        "OverviewPage": "Sencux",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Sencux"
+    },
+    {
+        "OverviewPage": "Sencux",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Sencux"
+    },
+    {
+        "OverviewPage": "Seraph",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Seraph"
+    },
+    {
+        "OverviewPage": "Shanji",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "shanji"
+    },
+    {
+        "OverviewPage": "Sheol",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "sheol"
+    },
+    {
+        "OverviewPage": "Shikari",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Shikari"
+    },
+    {
+        "OverviewPage": "Shinsekai",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Shinsekai"
+    },
+    {
+        "OverviewPage": "Shiphtur",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Shiphtur"
+    },
+    {
+        "OverviewPage": "ShLaYa",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "ShLaYa"
+    },
+    {
+        "OverviewPage": "ShowMaker",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "ShowMaker"
+    },
+    {
+        "OverviewPage": "Shushei",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Shushei"
+    },
+    {
+        "OverviewPage": "Shy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Shy"
+    },
+    {
+        "OverviewPage": "Shyn",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Shyn"
+    },
+    {
+        "OverviewPage": "ShySept",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Shysept"
+    },
+    {
+        "OverviewPage": "Sicca",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Sicca"
+    },
+    {
+        "OverviewPage": "Siicked",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Siicked"
+    },
+    {
+        "OverviewPage": "Siler",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Siler"
+    },
+    {
+        "OverviewPage": "Sin (Yeon Hyeong-mo)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "ActScene"
+    },
+    {
+        "OverviewPage": "SirZepre",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "SirZepre"
+    },
+    {
+        "OverviewPage": "SkaR",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Skar"
+    },
+    {
+        "OverviewPage": "Skeeto",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Skeeto"
+    },
+    {
+        "OverviewPage": "Sl4shD",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Sl4shD"
+    },
+    {
+        "OverviewPage": "SLT",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Salut a tous"
+    },
+    {
+        "OverviewPage": "Smeb",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Smeb"
+    },
+    {
+        "OverviewPage": "Sneaky",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Sneaky"
+    },
+    {
+        "OverviewPage": "Snoopeh",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Snoopeh"
+    },
+    {
+        "OverviewPage": "Snowy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "Snowy"
+    },
+    {
+        "OverviewPage": "SOA",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "AOS"
+    },
+    {
+        "OverviewPage": "SOAZ",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "sOAZ"
+    },
+    {
+        "OverviewPage": "Soboro",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Soboro"
+    },
+    {
+        "OverviewPage": "SofM",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "SofM"
+    },
+    {
+        "OverviewPage": "SoHwan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "SoHwan"
+    },
+    {
+        "OverviewPage": "SozPurefect",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "SozPurefect"
+    },
+    {
+        "OverviewPage": "Spunk",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "spunk"
+    },
+    {
+        "OverviewPage": "Squarepantsu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "squarepanties"
+    },
+    {
+        "OverviewPage": "Srtty",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Srtty"
+    },
+    {
+        "OverviewPage": "Ss17",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "ss17God"
+    },
+    {
+        "OverviewPage": "Ss17",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "7",
+        "Link": "17"
+    },
+    {
+        "OverviewPage": "Ssong",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "SSONG"
+    },
+    {
+        "OverviewPage": "Ssumday",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "ssumday"
+    },
+    {
+        "OverviewPage": "Starfall",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Starfall"
+    },
+    {
+        "OverviewPage": "StarLast",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "StarLast"
+    },
+    {
+        "OverviewPage": "Steellar",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Steellar"
+    },
+    {
+        "OverviewPage": "StenBosse",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "StenBosse"
+    },
+    {
+        "OverviewPage": "Stillnumb",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "stillnumb"
+    },
+    {
+        "OverviewPage": "Strange (Jakub Vašina)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Strange (Jakub Vašina)"
+    },
+    {
+        "OverviewPage": "Summit",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Summit"
+    },
+    {
+        "OverviewPage": "Sunblast",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Sunblast"
+    },
+    {
+        "OverviewPage": "SuperAZE",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "SuperAZE"
+    },
+    {
+        "OverviewPage": "SuperCleber",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "SuperCleber"
+    },
+    {
+        "OverviewPage": "Sven (Sven Olejnikow)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Svenerbarr"
+    },
+    {
+        "OverviewPage": "Svenskeren",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Svenskeren"
+    },
+    {
+        "OverviewPage": "Sveronis",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "sveronis"
+    },
+    {
+        "OverviewPage": "Sw0rd",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Sword (Choi Sung-won)"
+    },
+    {
+        "OverviewPage": "Swip3rR",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Swip3rR"
+    },
+    {
+        "OverviewPage": "Szygenda",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Szygenda"
+    },
+    {
+        "OverviewPage": "Taco (Fan Zhao-Fu)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Taco (Fan Zhao-Fu)"
+    },
+    {
+        "OverviewPage": "Tally",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Tally"
+    },
+    {
+        "OverviewPage": "Tamoz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "TamoZ"
+    },
+    {
+        "OverviewPage": "TaNa",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "TaNa"
+    },
+    {
+        "OverviewPage": "Taurine",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Taurine"
+    },
+    {
+        "OverviewPage": "Tay",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "6",
+        "Link": "Tay"
+    },
+    {
+        "OverviewPage": "Teddy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Teddy"
+    },
+    {
+        "OverviewPage": "Tediz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Tediz"
+    },
+    {
+        "OverviewPage": "Telch",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Telchar"
+    },
+    {
+        "OverviewPage": "Tenacity",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "6",
+        "Link": "Tenacity"
+    },
+    {
+        "OverviewPage": "Tenus",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Tenus"
+    },
+    {
+        "OverviewPage": "The Fierce",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "TheFierce"
+    },
+    {
+        "OverviewPage": "TheSerius",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "TheSerius"
+    },
+    {
+        "OverviewPage": "TheShy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "13",
+        "Link": "TheShy"
+    },
+    {
+        "OverviewPage": "Thien",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "Thien"
+    },
+    {
+        "OverviewPage": "Thoryn",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Thoryn"
+    },
+    {
+        "OverviewPage": "Tiger (Aidan Doelman)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Ninja Tiger"
+    },
+    {
+        "OverviewPage": "Tiger (Aidan Doelman)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Tiger (Aidan Doelman)"
+    },
+    {
+        "OverviewPage": "Tinowns",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "tinowns"
+    },
+    {
+        "OverviewPage": "ToFu (Joshua Tan Jun Liang)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "ToFu (Joshua Tan Jun Liang)"
+    },
+    {
+        "OverviewPage": "Tol2",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "tol2"
+    },
+    {
+        "OverviewPage": "Tony Top",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Tony Top"
+    },
+    {
+        "OverviewPage": "Topoon",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Topoon"
+    },
+    {
+        "OverviewPage": "TrAce",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "TrAce"
+    },
+    {
+        "OverviewPage": "Tracyn",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Tracyn"
+    },
+    {
+        "OverviewPage": "Trap (Shin Seung-min)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Trap (Sin Seung-min)"
+    },
+    {
+        "OverviewPage": "Trenérský Mág",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Klofan"
+    },
+    {
+        "OverviewPage": "Tropy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "tropy"
+    },
+    {
+        "OverviewPage": "Truklax",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Truklax"
+    },
+    {
+        "OverviewPage": "TusiN",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "TusiN"
+    },
+    {
+        "OverviewPage": "Tyrin (William Portugal)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Tyrin (William Portugal)"
+    },
+    {
+        "OverviewPage": "Uinyan",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "uinyan"
+    },
+    {
+        "OverviewPage": "Unfail",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "unfail"
+    },
+    {
+        "OverviewPage": "Uri",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Uri"
+    },
+    {
+        "OverviewPage": "Usaac",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Usaac"
+    },
+    {
+        "OverviewPage": "Ushuala",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Ushuala"
+    },
+    {
+        "OverviewPage": "V1tal",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "V1tal"
+    },
+    {
+        "OverviewPage": "Valerys",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Valerys"
+    },
+    {
+        "OverviewPage": "Vander",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "VandeR"
+    },
+    {
+        "OverviewPage": "Ventair",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Ventair"
+    },
+    {
+        "OverviewPage": "Vertigo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Vertigo"
+    },
+    {
+        "OverviewPage": "Vigil",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Vigil"
+    },
+    {
+        "OverviewPage": "Vileroze (Joseph Bourassa)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "6",
+        "Link": "Vileroze (Joseph Bourassa)"
+    },
+    {
+        "OverviewPage": "Vortum",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Vortum"
+    },
+    {
+        "OverviewPage": "Voyboy",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Voyboy"
+    },
+    {
+        "OverviewPage": "Vrow",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "5",
+        "Link": "Vrow"
+    },
+    {
+        "OverviewPage": "WarL0cK",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "WarL0cK"
+    },
+    {
+        "OverviewPage": "Wayward",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Wayward"
+    },
+    {
+        "OverviewPage": "WeiZoR",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "WeiZoR"
+    },
+    {
+        "OverviewPage": "Welcom",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "4",
+        "Link": "Welcom"
+    },
+    {
+        "OverviewPage": "Wen (Liao Wen-Wei)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Wen (Liao Wen-Wei)"
+    },
+    {
+        "OverviewPage": "Wenhao",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Wenhao"
+    },
+    {
+        "OverviewPage": "Werlyb",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "WerIyb"
+    },
+    {
+        "OverviewPage": "Westrice",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Westrice"
+    },
+    {
+        "OverviewPage": "Wh1t3zZ",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Wh1t3zZ"
+    },
+    {
+        "OverviewPage": "Wickd",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Wickd"
+    },
+    {
+        "OverviewPage": "Willy (Shen Wei-Ting)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Monk (Shen Wei-Ting)"
+    },
+    {
+        "OverviewPage": "Windowlicka",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "windowlicka"
+    },
+    {
+        "OverviewPage": "Wizer",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "Wizer"
+    },
+    {
+        "OverviewPage": "WooFe",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "WooFe"
+    },
+    {
+        "OverviewPage": "Wraith",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Wraith"
+    },
+    {
+        "OverviewPage": "Wraith",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Loray"
+    },
+    {
+        "OverviewPage": "Wrecking",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Wrecking"
+    },
+    {
+        "OverviewPage": "Wunder",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "6",
+        "Link": "Wunder"
+    },
+    {
+        "OverviewPage": "Xiao7",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "xiao7"
+    },
+    {
+        "OverviewPage": "Xiaobai",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "XiaoBai"
+    },
+    {
+        "OverviewPage": "Xiaohu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Xiaohu"
+    },
+    {
+        "OverviewPage": "Xiaolaohu",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "4",
+        "Link": "Xiaolaohu"
+    },
+    {
+        "OverviewPage": "Xiaoxiang",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Xiaoxiang"
+    },
+    {
+        "OverviewPage": "Xiaoyu (Zhou Yu)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Xiaoyu (Zhou Yu)"
+    },
+    {
+        "OverviewPage": "Xioh",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Xioh"
+    },
+    {
+        "OverviewPage": "XPeke",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "xPeke"
+    },
+    {
+        "OverviewPage": "Xr",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "xr"
+    },
+    {
+        "OverviewPage": "Yeti (Szymon Wójcicki)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Yeti1"
+    },
+    {
+        "OverviewPage": "Yi (Que Zi-Xiang)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Yi (Que Zi-Xiang)"
+    },
+    {
+        "OverviewPage": "Yoppa",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Yoppa"
+    },
+    {
+        "OverviewPage": "Youca",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Youca"
+    },
+    {
+        "OverviewPage": "YuJian",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "YuJian"
+    },
+    {
+        "OverviewPage": "Yupps",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Yupps"
+    },
+    {
+        "OverviewPage": "Zaax",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zaax"
+    },
+    {
+        "OverviewPage": "Zaiiche",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zaiiche"
+    },
+    {
+        "OverviewPage": "Zamphira",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Zamphira"
+    },
+    {
+        "OverviewPage": "Zamphira",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zamphira"
+    },
+    {
+        "OverviewPage": "Zamudo",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zamudo"
+    },
+    {
+        "OverviewPage": "Zdz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "3",
+        "Link": "Zdz"
+    },
+    {
+        "OverviewPage": "Zdz",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zdz"
+    },
+    {
+        "OverviewPage": "Zemnas",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "2",
+        "Link": "Zemnas"
+    },
+    {
+        "OverviewPage": "Zenshin",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zenshin"
+    },
+    {
+        "OverviewPage": "Zerito",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Zerito"
+    },
+    {
+        "OverviewPage": "Zero (Yoon Kyung-sup)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Zero (Yoon Kyung-sup)"
+    },
+    {
+        "OverviewPage": "Zest (Kim Dong-min)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zest (Kim Dong-min)"
+    },
+    {
+        "OverviewPage": "Zhergoth",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "3",
+        "Link": "Zhergoth"
+    },
+    {
+        "OverviewPage": "Zika",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Zika"
+    },
+    {
+        "OverviewPage": "Zoom",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "5",
+        "Link": "Zoom"
+    },
+    {
+        "OverviewPage": "Zora",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "7",
+        "Link": "Zora"
+    },
+    {
+        "OverviewPage": "Zothve",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "1",
+        "Link": "Zothve"
+    },
+    {
+        "OverviewPage": "Zty",
+        "Champion": "Kayle",
+        "TournamentLevel": "Secondary",
+        "GameCount": "1",
+        "Link": "Zty"
+    },
+    {
+        "OverviewPage": "Zz1tai",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Zz1tai"
+    },
+    {
+        "OverviewPage": "Zz1tai",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Zzitai"
+    },
+    {
+        "OverviewPage": "Zzk (Kwon Hee-won)",
+        "Champion": "Kayle",
+        "TournamentLevel": "Primary",
+        "GameCount": "2",
+        "Link": "Zzk (Kwon Hee-won)"
+    }
+]

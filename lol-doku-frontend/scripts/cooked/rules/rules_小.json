@@ -1,0 +1,41 @@
+{
+    "小白1": {
+        "key": "小白1",
+        "type": "teammate",
+        "valid_players": {
+            "Primary": [],
+            "Secondary": [
+                "YANGYANG",
+                "Xmm",
+                "QUEENRAY",
+                "BUG (Xu Huang)",
+                "Nnnnn",
+                "Destroyer"
+            ]
+        },
+        "valid_crosses": {
+            "Primary": [],
+            "Secondary": [
+                "Bot",
+                "Top",
+                "Support",
+                "Limit (Ju Min-gyu)",
+                "YANGYANG",
+                "Shupian",
+                "Yu (Li Xin-Nan)",
+                "Xmm",
+                "QUEENRAY",
+                "Jiaoyang",
+                "BUG (Xu Huang)",
+                "Mid",
+                "Nnnnn",
+                "Destroyer",
+                "All Gamers",
+                "FengJi",
+                "YeLuo",
+                "Team DK"
+            ]
+        },
+        "exclusive_crosses": []
+    }
+}
