@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Puzzle, PuzzleRule } from '$lib/models/Puzzle';
+	import type { Puzzle } from '$lib/models/Puzzle';
 	import { _puzzle, _correct, _lives, _selected_players } from '../../../stores';
 	import DokuTile from './DokuTile.svelte';
 	import RuleTile from './RuleTile.svelte';
@@ -22,6 +22,7 @@
 	_selected_players.subscribe((value) => {
 		selectedPlayers = value;
 	});
+	
 </script>
 
 {#if puzzle}
@@ -34,7 +35,7 @@
 		</div>
 		{#each puzzle.columns as col (col.id)}
 			<div class="info-tile">
-				<RuleTile team={col.op} />
+				<RuleTile rule={col.key} type={col.type}/>
 			</div>
 		{/each}
 		<div class="info-tile">
@@ -44,22 +45,22 @@
 			/>
 		</div>
 		<div class="info-tile">
-			<RuleTile team={puzzle.rows[0].op} />
+			<RuleTile bind:rule={puzzle.rows[0].key} bind:type={puzzle.rows[0].type}/>
 		</div>
 		<div class="select-tile-span">
 			{#each puzzle.rows as row (row.id)}
 				{#each puzzle.columns as col (col.id)}
-					<DokuTile index={row.id * 3 + col.id} rule1={col} rule2={row} />
+					<DokuTile index={row.id * 3 + col.id} bind:rule1={col} bind:rule2={row} />
 				{/each}
 			{/each}
 		</div>
 		<div class="info-tile"><span>Uniqueness Rating: 900</span></div>
 		<div class="info-tile">
-			<RuleTile team={puzzle.rows[1].op} />
+			<RuleTile bind:rule={puzzle.rows[1].key} bind:type={puzzle.rows[1].type} />
 		</div>
 		<div class="info-tile"><span>Correct Guesses: {correct}/9</span></div>
 		<div class="info-tile">
-			<RuleTile team={puzzle.rows[2].op} />
+			<RuleTile bind:rule={puzzle.rows[2].key} bind:type={puzzle.rows[2].type} />
 		</div>
 		<div class="info-tile"><span>Guesses Remaining: {lives}/9</span></div>
 	</div>
@@ -85,7 +86,7 @@
 			'row-1 tile-3 tile-4 tile-5'
 			'row-2 tile-6 tile-7 tile-8'; */
 		grid-template-columns: repeat(5, var(--tile-size));
-		grid-template-rows: calc(var(--tile-size) * (2 / 3)) repeat(3, var(--tile-size));
+		grid-template-rows: repeat(5, var(--tile-size));
 	}
 
 	.info-tile {

@@ -1,11 +1,11 @@
 <script lang="ts">
 	import _playerList from '$lib/data/players.json';
-	import type { PuzzleRule } from '$lib/models/Puzzle';
+	import type { Rule } from '$lib/models/Rule';
 	import { is_valid } from '$lib/util/puzzle_util';
 	import { _correct, _lives, _selected_players } from '../../../stores';
 
 	export let showModal: Boolean; // boolean
-	export let rules: PuzzleRule[];
+	export let rules: Rule[];
 	export let index: number;
 	let selectedPlayers: (string | null)[];
 	let lives: number;
@@ -57,6 +57,7 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:click|stopPropagation>
 		<slot name="header" />
+		<span>{rules[0].key} | {rules[1].key}</span>
 		<hr />
 		<slot />
 		<input bind:value={filter} />

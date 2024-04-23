@@ -2,6 +2,7 @@ import time, codecs, datetime as dt, json, os
 from functools import cmp_to_key
 
 os.makedirs("cooked", exist_ok=True)
+os.makedirs("cooked/logs", exist_ok=True)
 
 def get_team_key(team_dict, term):
     return next((k for i, k in enumerate(team_dict) if term.lower() == team_dict[k]["op"].lower() or term.lower() == team_dict[k]["name"].lower()), None)
@@ -62,6 +63,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
         else:
             team_sets[overview_page]["other_names"] = team_sets[overview_page]["other_names"].union({overview_page, key})
     print("Done!")
+
+    with open('cooked/logs/1.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
 
     print("2: Adding renames and rebrands... ", end="\t")
     #####################################
@@ -155,6 +159,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     
     print("Done!")
 
+    with open('cooked/logs/2.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
+
     print("3: Adding sister teams... ", end="\t")
 
     #########################
@@ -176,6 +183,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                 team_sets[t_key]["sister_teams"] = team_sets[t_key]["sister_teams"].union(sis_to_add)
     
     print("Done!")
+
+    with open('cooked/logs/3.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
 
     print("4: Sharing team name alts with sisters and parents... ", end="\t")
     
@@ -236,6 +246,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
 
     print("Done!")
 
+    with open('cooked/logs/4.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
+
     print("5: Loading roster data... ", end="\t")
 
     ############################
@@ -260,6 +273,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                     roster_last_played[t_key] = (t_date, t_level)
                 elif dt.datetime.strptime(roster_last_played[t_key][0], "%Y-%m-%d") < dt.datetime.strptime(t_date, "%Y-%m-%d"):
                     roster_last_played[t_key] = (t_date, t_level)
+
+    with open('cooked/logs/5.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
     
     # print("Done!")
 
@@ -320,6 +336,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     
     print("Done!")
 
+    with open('cooked/logs/6.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
+
     print("7: Deleting teams that are subsets of others... ", end="\t")
 
     ## This will take time kek
@@ -327,7 +346,7 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     equiv = {}
     for key_a in team_sets.keys():
         for key_b in team_sets.keys():
-            if key_a != key_b and team_sets[key_a]["other_names"] < team_sets[key_b]["other_names"]:
+            if key_a != key_b and team_sets[key_a]["other_names"] < team_sets[key_b]["other_names"] and not (key_a in key_b and "Team)" in key_b):
                 if key_a not in eclipsed.keys():
                     eclipsed[key_a] = {key_b}
                 else:
@@ -341,6 +360,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     # Delete all eclipsed teams
     for k in eclipsed.keys():
         del(team_sets[k])
+    
+    with open('cooked/logs/eclipsed.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(eclipsed.keys()))
     
     # Delete equiv teams
     not_main = set()
@@ -363,8 +385,14 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     ## Del not mains
     for k in not_main:
         del(team_sets[k])
+    
+    with open('cooked/logs/notmain.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(not_main))
 
     print("Done!")
+
+    with open('cooked/logs/7.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
 
     print("8: Deleting teams that did have rosters that played... ", end="\t")
     
@@ -381,6 +409,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
         del(team_sets[k])
     
     print("Done!")
+
+    with open('cooked/logs/8.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
 
     print("9: Giving sister data to parents for children still in set... ", end="\t")
 
@@ -436,6 +467,9 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
     
     print("Done!")
 
+    with open('cooked/logs/9.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
+
     print("10: Rectifying quirks ", end="\t")
 
     # Check for teams with parents
@@ -460,8 +494,7 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
         p_name = redir["PageName"]
         if a_name in team_sets.keys():
             for k in team_sets.keys():
-                if k != a_name and p_name in team_sets[k]["other_names"]:
-                    print("This one: {} -> {}".format(a_name, k))
+                if k != a_name and p_name in team_sets[k]["other_names"] and "Team)" not in k:
                     team_sets[k]["other_names"] |= team_sets[a_name]["other_names"]
                     todel |= {a_name}
     
@@ -480,10 +513,12 @@ if raw_team_data is not None and raw_rename_data is not None and raw_sister_data
                 if a_name == roster_key:
                     for k in team_sets.keys():
                         if p_name in team_sets[k]["other_names"]:
-                            print("Ghost team: {} -> {}".format(a_name, k))
                             team_sets[k]["other_names"] |= {a_name}
 
     print("Done!")
+
+    with open('cooked/logs/10.txt', 'w+', encoding='utf-8') as f:
+        f.write("\n".join(team_sets.keys()))
 
     print("11: Saving to file... ", end="\t")
     

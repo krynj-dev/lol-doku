@@ -13,10 +13,14 @@ for k in raw_tpm.keys():
     # find k overview
     op_keys = []
     for k2 in raw_teams.keys():
-        if k in [n.lower() for n in raw_teams[k2]["other_names"]]:
+        if k in raw_teams[k2]["other_names"]:
             op_keys.append(k2)
     if len(op_keys) == 0:
         dropped.append(k)
+    elif len(op_keys) > 1:
+        perfect_keys = [k2 for k2 in op_keys if raw_teams[k2]["op"] == k]
+        if len(perfect_keys) > 0:
+            op_keys = perfect_keys
     for k2 in op_keys:
         if k2 not in compiled_teams.keys():
             compiled_teams[k2] = raw_tpm[k]

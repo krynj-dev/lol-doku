@@ -1,5 +1,6 @@
 import type { Puzzle } from '$lib/models/Puzzle';
-import { writable } from 'svelte/store';
+import { readable, writable } from 'svelte/store';
+import _puzzle_list from '$lib/data/puzzles.json';
 
 export const _puzzle = writable<Puzzle>();
 export const _lives = writable<number>(9);

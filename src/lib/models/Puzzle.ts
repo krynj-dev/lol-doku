@@ -1,10 +1,14 @@
+import { Rule } from './Rule';
 import type { Team } from './Team';
 
 export interface Puzzle {
-	columns: PuzzleRule[];
-	rows: PuzzleRule[];
+	meta: {
+		regions?: {
+			[key: string]: number;
+		},
+		difficulty?: number;
+	}
+	columns: Rule[];
+	rows: Rule[];
 }
 
-export interface PuzzleRule extends Team {
-	id: number;
-}

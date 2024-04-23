@@ -1,4 +1,4 @@
-import time, codecs, datetime as dt, json, os
+import time, codecs, datetime as dt, json, os, html
 
 from mwrogue.esports_client import EsportsClient
 
@@ -8,7 +8,7 @@ def none_to_blank(str):
     return str
 
 def write_to_json_file(file_name, responses, list_delimiter=','):
-    print("\nWriting to /raw/{}.json...".format(file_name))
+    # print("\nWriting to /raw/{}.json...".format(file_name))
     res_copy = []
     for obj in responses:
         obj_copy = {}
@@ -26,6 +26,7 @@ def write_to_json_file(file_name, responses, list_delimiter=','):
 site = EsportsClient("lol")
 
 os.makedirs("raw", exist_ok=True)
+os.makedirs("raw/champs", exist_ok=True)
 
 ##########################################
 # Collecting Player Data
@@ -120,23 +121,23 @@ os.makedirs("raw", exist_ok=True)
 # # Collecting Team Redirect Data
 # ##########################################
 
-responses_team_redirects = []
-offset_team_redirects = 0
-while True:
-    response = site.cargo_client.query(
-        tables="TeamRedirects=TR",
-        fields="TR._pageName=PageName, TR.AllName",
-        offset=offset_team_redirects,
-        limit=500
-    )
-    if len(response) == 0:
-        break
-    responses_team_redirects += response
-    offset_team_redirects += 500
-    print("\rPage {}".format(offset_team_redirects // 500), sep=' ', end='', flush=True)
-    time.sleep(0.1)
+# responses_team_redirects = []
+# offset_team_redirects = 0
+# while True:
+#     response = site.cargo_client.query(
+#         tables="TeamRedirects=TR",
+#         fields="TR._pageName=PageName, TR.AllName",
+#         offset=offset_team_redirects,
+#         limit=500
+#     )
+#     if len(response) == 0:
+#         break
+#     responses_team_redirects += response
+#     offset_team_redirects += 500
+#     print("\rPage {}".format(offset_team_redirects // 500), sep=' ', end='', flush=True)
+#     time.sleep(0.1)
 
-write_to_json_file('team_redirects', responses_team_redirects, list_delimiter='\n')
+# write_to_json_file('team_redirects', responses_team_redirects, list_delimiter='\n')
 
 ##########################################
 # Collecting Tournament Player Data
@@ -205,3 +206,39 @@ write_to_json_file('team_redirects', responses_team_redirects, list_delimiter='\
 #     time.sleep(0.1)
 
 # write_to_json_file('tournaments', responses_tournaments)
+
+##########################################
+# Collecting Player Champ Data
+##########################################
+
+champs = site.cargo_client.query(
+        tables="Champions=C",
+        fields="C.Name",
+    )
+
+i = 1
+for champ in [html.unescape(c["Name"]) for c in champs]:
+    if champ == "Nunu & Willump":
+        champ = "Nunu"
+    print(f"\rChamp: {champ}\t{i}/{len(champs)}", sep=' ', end='', flush=True)
+    champ_sql = champ.replace('\'', '\'\'')
+    responses_scoreboards = []
+    offset_scoreboards = 0
+    while True:
+        response = site.cargo_client.query(
+            tables="ScoreboardGames=SG,Tournaments=To, ScoreboardPlayers=SP, PlayerRedirects=PR, TeamRedirects=TRed, Players=P",
+            join_on="SG.GameId=SP.GameId, To.OverviewPage=SG.OverviewPage, SP.Link=PR.AllName, SP.Team=TRed.AllName, PR.OverviewPage=P.OverviewPage",
+            fields="P.OverviewPage, SP.Champion, To.TournamentLevel, COUNT(SP.Champion)=GameCount, SP.Link",
+            group_by="SP.Champion, To.TournamentLevel, PR.OverviewPage, SP.Link",
+            where=f"To.TournamentLevel IN ('Primary', 'Secondary') AND SP.Champion='{champ_sql}'",
+            offset=offset_scoreboards,
+            limit=500
+        )
+        if len(response) == 0:
+            break
+        responses_scoreboards += response
+        offset_scoreboards += 500
+        time.sleep(0.1)
+    i += 1
+
+    write_to_json_file(f'champs/champ_players_{champ.lower()}', responses_scoreboards)

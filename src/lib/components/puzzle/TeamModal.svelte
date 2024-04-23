@@ -1,6 +1,10 @@
 <script lang="ts">
 	import _teams from '$lib/data/teams.json';
+	import _players from '$lib/data/players.json';
 	import type { Team } from '$lib/models/Team';
+	import { onMount } from 'svelte';
+	import { read_rule } from '$lib/util/puzzle_util';
+	import type { Rule } from '$lib/models/Rule';
 
 	export let showModal: Boolean; // boolean
 	export let team: string;
@@ -9,12 +13,47 @@
 	const team_data = _teams as {
 		[key: string]: Team;
 	};
+	const player_data = _players as {
+		[key: string]: any;
+	};
 
 	$: if (dialog && showModal) dialog.showModal();
-	$: alt_names = team_data[team].other_names.filter((s) => s != team);
+	let names: {
+		key: string
+		alt_names: string[]
+	};
+
+	onMount(() => {
+		read_rule(team).then((src) => {
+			if (src) {
+				switch (src.type) {
+					case "team":
+						names = {
+							key: src.key,
+							alt_names: team_data[src.key].other_names
+						}
+						return;
+					case "teammate":
+						names = {
+							key: src.key,
+							alt_names: player_data[src.key].alternate_names
+						}
+						return;
+					default:
+						names = {
+							key: src.key,
+							alt_names: []
+						}
+						return;
+				}
+			}
+		});
+	});
+
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
+{#if names}
 <dialog
 	bind:this={dialog}
 	on:click|self={() => dialog.close()}
@@ -23,16 +62,17 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:click|stopPropagation>
 		<slot name="header" />
-		<span>{team}</span>
+		<span>{names.key}</span>
 		<hr />
 		<slot />
 		<ul>
-			{#each alt_names as alt_n}
+			{#each names.alt_names as alt_n}
 				<li>{alt_n}</li>
 			{/each}
 		</ul>
 	</div>
 </dialog>
+{/if}
 
 <style>
 	dialog {

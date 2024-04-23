@@ -1,14 +1,14 @@
 <script lang="ts">
 	// import type { Player } from '$lib/models/Team';
 	import _team_data from '$lib/data/teams.json';
-	import type { PuzzleRule } from '$lib/models/Puzzle';
+	import type { Rule } from '$lib/models/Rule';
 	import type { Team } from '$lib/models/Team';
 	import { is_valid } from '$lib/util/puzzle_util';
 	import { _lives, _correct, _selected_players } from '../../../stores';
 	import PlayerModal from './PlayerModal.svelte';
 	export let index: number;
-	export let rule1: PuzzleRule;
-	export let rule2: PuzzleRule;
+	export let rule1: Rule;
+	export let rule2: Rule;
 	let lives: number;
 	let correct: number;
 	let selectedPlayers: (string | null)[];
@@ -48,6 +48,9 @@
 			valid !== 'valid'
 		) {
 			showModal = true;
+			const a_set: Set<string> = new Set(rule1.valid_players.Primary);
+			const b_set: Set<string> = new Set(rule2.valid_players.Primary);
+			console.log(a_set.intersection(b_set))
 		}
 	}
 
