@@ -2,7 +2,7 @@ import { Rule } from './Rule';
 import type { Team } from './Team';
 
 export interface Puzzle {
-	meta: {
+	meta?: {
 		regions?: {
 			[key: string]: number;
 		},

@@ -4,7 +4,7 @@
 	import type { Team } from '$lib/models/Team';
 	import { onMount } from 'svelte';
 	import { read_rule } from '$lib/util/puzzle_util';
-	import type { Rule } from '$lib/models/Rule';
+	import { get_rule } from '$lib/util/api';
 
 	export let showModal: Boolean; // boolean
 	export let team: string;
@@ -24,9 +24,9 @@
 	};
 
 	onMount(() => {
-		read_rule(team).then((src) => {
+		get_rule(team).then((src) => {
 			if (src) {
-				switch (src.type) {
+				switch (src.rule_type) {
 					case "team":
 						names = {
 							key: src.key,

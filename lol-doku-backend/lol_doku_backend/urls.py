@@ -14,9 +14,37 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.urls import path, include
+from django.contrib.auth.models import User
 from django.contrib import admin
-from django.urls import path
+from rest_framework import routers
+from players.views import PlayerViewSet, PlayerAlternateNameViewSet
+from teams.views import TeamViewSet, TeamAlternateNameViewSet, TeamSisterTeamViewSet
+from rules.views import RuleViewSet, TieredValidPlayersViewSet, TieredValidCrossesViewSet
+from puzzles.views import PuzzleViewSet
+from game.views import GameRosterViewSet, GameViewSet
 
+# Routers provide an easy way of automatically determining the URL conf.
+router = routers.DefaultRouter()
+router.register(r'players', PlayerViewSet)
+router.register(r'playersalternatenames', PlayerAlternateNameViewSet)
+router.register(r'teams', TeamViewSet)
+router.register(r'teamsalternamenames', TeamAlternateNameViewSet)
+router.register(r'sisterteams', TeamSisterTeamViewSet)
+router.register(r'rules', RuleViewSet)
+router.register(r'validplayers', TieredValidPlayersViewSet)
+router.register(r'validcrosses', TieredValidCrossesViewSet)
+router.register(r'puzzles', PuzzleViewSet)
+router.register(r'game/daily', GameRosterViewSet)
+router.register(r'game', GameViewSet)
+
+# Wire up our API using automatic URL routing.
+# Additionally, we include login URLs for the browsable API.
 urlpatterns = [
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('admin/', admin.site.urls),
+    path('puzzles/', include("puzzles.urls")),
+    path('game/', include("game.urls")),
+    path('stats/', include("stats.urls")),
 ]

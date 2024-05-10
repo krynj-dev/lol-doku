@@ -4,7 +4,7 @@
 	import _player_image_data from '$lib/data/player_images.json';
 	import TeamModal from './TeamModal.svelte';
 	import { read_rule } from '$lib/util/puzzle_util';
-	import type { Rule } from '$lib/models/Rule';
+	import type { Rule } from '$lib/models/new/Rule';
 	import { onMount } from 'svelte';
 	import tippy from 'tippy.js';
 	import 'tippy.js/dist/tippy.css';
@@ -22,7 +22,7 @@
 	};
 
 	async function get_image_src(rule_key: string) {
-		const rule: Rule = await read_rule(rule_key);
+		// const rule: Rule = await read_rule(rule_key);
 		switch (type) {
 			case 'team':
 				if (Object.keys(team_image_data).includes(rule_key)) return team_image_data[rule_key];
@@ -100,7 +100,7 @@
 	}
 
 	.rule-tile-img {
-		max-width: calc(100% - 1rem);
-		max-height: calc(100% - 1rem);
+		max-width: calc(var(--tile-size) - 1em);
+		max-height: calc(var(--tile-size) - 1em);
 	}
 </style>

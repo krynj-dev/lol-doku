@@ -1,0 +1,7086 @@
+[
+	{
+		"Team": "00 Nation",
+		"AllTeams": ["00 Nation", "00 Prospects"]
+	},
+	{
+		"Team": "00 Prospects",
+		"AllTeams": ["00 Nation", "00 Prospects"]
+	},
+	{
+		"Team": "100 Thieves",
+		"AllTeams": [
+			"100 Thieves",
+			"100 Thieves Academy",
+			"100 Thieves Challengers",
+			"100 Thieves Next"
+		]
+	},
+	{
+		"Team": "100 Thieves Academy",
+		"AllTeams": [
+			"100 Thieves",
+			"100 Thieves Academy",
+			"100 Thieves Challengers",
+			"100 Thieves Next"
+		]
+	},
+	{
+		"Team": "100 Thieves Challengers",
+		"AllTeams": [
+			"100 Thieves",
+			"100 Thieves Academy",
+			"100 Thieves Challengers",
+			"100 Thieves Next"
+		]
+	},
+	{
+		"Team": "100 Thieves Next",
+		"AllTeams": [
+			"100 Thieves",
+			"100 Thieves Academy",
+			"100 Thieves Challengers",
+			"100 Thieves Next"
+		]
+	},
+	{
+		"Team": "17 Academy",
+		"AllTeams": ["Machi Esports", "MachiX", "17 Academy", "Machi Crew", "Machi 17"]
+	},
+	{
+		"Team": "2144 Danmu Gaming",
+		"AllTeams": ["2144 Gaming", "2144 Danmu Gaming", "DAN Gaming"]
+	},
+	{
+		"Team": "2144 Gaming",
+		"AllTeams": ["2144 Gaming", "2144 Danmu Gaming", "DAN Gaming"]
+	},
+	{
+		"Team": "4Elements Esports",
+		"AllTeams": ["4Elements Esports", "4Elements Scuttle Squad"]
+	},
+	{
+		"Team": "4Elements Scuttle Squad",
+		"AllTeams": ["4Elements Esports", "4Elements Scuttle Squad"]
+	},
+	{
+		"Team": "5 Ronin",
+		"AllTeams": ["5 Ronin", "5 Ronin Academy"]
+	},
+	{
+		"Team": "5 Ronin Academy",
+		"AllTeams": ["5 Ronin", "5 Ronin Academy"]
+	},
+	{
+		"Team": "5 Seasons",
+		"AllTeams": [
+			"5 Seasons",
+			"Kurulean's Kittens",
+			"Lotus (North American Team)",
+			"Black Lotus",
+			"Keep Pathing Bot",
+			"Lotus Exiles"
+		]
+	},
+	{
+		"Team": "7more7",
+		"AllTeams": ["7more7", "7more7 Black", "7more7 White"]
+	},
+	{
+		"Team": "7more7 Black",
+		"AllTeams": ["7more7", "7more7 Black", "7more7 White"]
+	},
+	{
+		"Team": "7more7 Pompa Team",
+		"AllTeams": ["7more7 Pompa Team", "7more7 Pompa Team Academy"]
+	},
+	{
+		"Team": "7more7 Pompa Team Academy",
+		"AllTeams": ["7more7 Pompa Team", "7more7 Pompa Team Academy"]
+	},
+	{
+		"Team": "7more7 White",
+		"AllTeams": ["7more7", "7more7 Black", "7more7 White"]
+	},
+	{
+		"Team": "7th heaven",
+		"AllTeams": ["7th heaven", "7th heaven X"]
+	},
+	{
+		"Team": "7th heaven X",
+		"AllTeams": ["7th heaven", "7th heaven X"]
+	},
+	{
+		"Team": "Absolute Legends",
+		"AllTeams": [
+			"Absolute Legends",
+			"Absolute Legends NA",
+			"Absolute Legends SG",
+			"Absolute Legends.Alpha",
+			"Absolute Legends.Omega",
+			"Absolute Legends Netherlands",
+			"Absolute Legends CZSK"
+		]
+	},
+	{
+		"Team": "Absolute Legends CZSK",
+		"AllTeams": [
+			"Absolute Legends",
+			"Absolute Legends NA",
+			"Absolute Legends SG",
+			"Absolute Legends.Alpha",
+			"Absolute Legends.Omega",
+			"Absolute Legends Netherlands",
+			"Absolute Legends CZSK"
+		]
+	},
+	{
+		"Team": "Absolute Legends NA",
+		"AllTeams": [
+			"Absolute Legends",
+			"Absolute Legends NA",
+			"Absolute Legends SG",
+			"Absolute Legends.Alpha",
+			"Absolute Legends.Omega",
+			"Absolute Legends Netherlands",
+			"Absolute Legends CZSK"
+		]
+	},
+	{
+		"Team": "Absolute Legends Netherlands",
+		"AllTeams": [
+			"Absolute Legends",
+			"Absolute Legends NA",
+			"Absolute Legends SG",
+			"Absolute Legends.Alpha",
+			"Absolute Legends.Omega",
+			"Absolute Legends Netherlands",
+			"Absolute Legends CZSK"
+		]
+	},
+	{
+		"Team": "Absolute Legends SG",
+		"AllTeams": [
+			"Absolute Legends",
+			"Absolute Legends NA",
+			"Absolute Legends SG",
+			"Absolute Legends.Alpha",
+			"Absolute Legends.Omega",
+			"Absolute Legends Netherlands",
+			"Absolute Legends CZSK"
+		]
+	},
+	{
+		"Team": "Absolute Legends.Alpha",
+		"AllTeams": [
+			"Absolute Legends",
+			"Absolute Legends NA",
+			"Absolute Legends SG",
+			"Absolute Legends.Alpha",
+			"Absolute Legends.Omega",
+			"Absolute Legends Netherlands",
+			"Absolute Legends CZSK"
+		]
+	},
+	{
+		"Team": "Absolute Legends.Omega",
+		"AllTeams": [
+			"Absolute Legends",
+			"Absolute Legends NA",
+			"Absolute Legends SG",
+			"Absolute Legends.Alpha",
+			"Absolute Legends.Omega",
+			"Absolute Legends Netherlands",
+			"Absolute Legends CZSK"
+		]
+	},
+	{
+		"Team": "Absolved",
+		"AllTeams": ["Absolved", "Absolved UK", "Absolved Female"]
+	},
+	{
+		"Team": "Absolved Female",
+		"AllTeams": ["Absolved", "Absolved UK", "Absolved Female"]
+	},
+	{
+		"Team": "Absolved UK",
+		"AllTeams": ["Absolved", "Absolved UK", "Absolved Female"]
+	},
+	{
+		"Team": "Abyss Academy",
+		"AllTeams": ["Abyss Academy", "Abyss Esports", "Abyss Esports White"]
+	},
+	{
+		"Team": "Abyss Esports",
+		"AllTeams": ["Abyss Academy", "Abyss Esports", "Abyss Esports White"]
+	},
+	{
+		"Team": "Abyss Esports White",
+		"AllTeams": ["Abyss Academy", "Abyss Esports", "Abyss Esports White"]
+	},
+	{
+		"Team": "AD Gaming",
+		"AllTeams": [
+			"EDward Gaming",
+			"EDward Gaming Youth Team",
+			"AD Gaming",
+			"EDward Esports",
+			"Team Fighter",
+			"Team Hurricane"
+		]
+	},
+	{
+		"Team": "ad hoc gaming",
+		"AllTeams": [
+			"ad hoc gaming",
+			"ad hoc gaming Gentlemen's Club",
+			"Mysterious Monkeys",
+			"Mysterious Monkeys.ESLM"
+		]
+	},
+	{
+		"Team": "ad hoc gaming Gentlemen's Club",
+		"AllTeams": [
+			"ad hoc gaming",
+			"ad hoc gaming Gentlemen's Club",
+			"Mysterious Monkeys",
+			"Mysterious Monkeys.ESLM"
+		]
+	},
+	{
+		"Team": "Adonis Esports",
+		"AllTeams": ["Adonis Esports", "Cube Adonis", "Cube Adonis Hutech"]
+	},
+	{
+		"Team": "Aequilibritas E-Sports",
+		"AllTeams": [
+			"Aequilibritas E-Sports",
+			"Aequilibritas E-Sports Denmark",
+			"Aequilibritas E-Sports Poland"
+		]
+	},
+	{
+		"Team": "Aequilibritas E-Sports Denmark",
+		"AllTeams": [
+			"Aequilibritas E-Sports",
+			"Aequilibritas E-Sports Denmark",
+			"Aequilibritas E-Sports Poland"
+		]
+	},
+	{
+		"Team": "Aequilibritas E-Sports Poland",
+		"AllTeams": [
+			"Aequilibritas E-Sports",
+			"Aequilibritas E-Sports Denmark",
+			"Aequilibritas E-Sports Poland"
+		]
+	},
+	{
+		"Team": "Aethra Esports",
+		"AllTeams": [
+			"Aethra Esports Strijders",
+			"Aethra Esports",
+			"Aethra Esports Academy",
+			"Aethra Esports Belgium"
+		]
+	},
+	{
+		"Team": "Aethra Esports Academy",
+		"AllTeams": [
+			"Aethra Esports Strijders",
+			"Aethra Esports",
+			"Aethra Esports Academy",
+			"Aethra Esports Belgium"
+		]
+	},
+	{
+		"Team": "Aethra Esports Belgium",
+		"AllTeams": [
+			"Aethra Esports Strijders",
+			"Aethra Esports",
+			"Aethra Esports Academy",
+			"Aethra Esports Belgium"
+		]
+	},
+	{
+		"Team": "Aethra Esports Strijders",
+		"AllTeams": [
+			"Aethra Esports Strijders",
+			"Aethra Esports",
+			"Aethra Esports Academy",
+			"Aethra Esports Belgium"
+		]
+	},
+	{
+		"Team": "Afro Beast",
+		"AllTeams": ["Team Afro", "Afro Beast", "BUFF"]
+	},
+	{
+		"Team": "AGO ROGUE",
+		"AllTeams": ["Rogue (European Team)", "AGO ROGUE", "Rogue Stars", "Rogue Esports Club"]
+	},
+	{
+		"Team": "ahq e-Sports Club Korea",
+		"AllTeams": [
+			"ahq eSports Club",
+			"SuperEsports",
+			"ahq e-Sports Club Korea",
+			"ahq Fighter",
+			"ahq Girls",
+			"Logitech G Snipers",
+			"ahq Snipers"
+		]
+	},
+	{
+		"Team": "ahq eSports Club",
+		"AllTeams": [
+			"ahq eSports Club",
+			"SuperEsports",
+			"ahq e-Sports Club Korea",
+			"ahq Fighter",
+			"ahq Girls",
+			"Logitech G Snipers",
+			"ahq Snipers"
+		]
+	},
+	{
+		"Team": "ahq Fighter",
+		"AllTeams": [
+			"ahq eSports Club",
+			"SuperEsports",
+			"ahq e-Sports Club Korea",
+			"ahq Fighter",
+			"ahq Girls",
+			"Logitech G Snipers",
+			"ahq Snipers"
+		]
+	},
+	{
+		"Team": "ahq Girls",
+		"AllTeams": [
+			"ahq eSports Club",
+			"SuperEsports",
+			"ahq e-Sports Club Korea",
+			"ahq Fighter",
+			"ahq Girls",
+			"Logitech G Snipers",
+			"ahq Snipers"
+		]
+	},
+	{
+		"Team": "ahq Snipers",
+		"AllTeams": [
+			"ahq eSports Club",
+			"SuperEsports",
+			"ahq e-Sports Club Korea",
+			"ahq Fighter",
+			"ahq Girls",
+			"Logitech G Snipers",
+			"ahq Snipers"
+		]
+	},
+	{
+		"Team": "Albus NoX Cometa",
+		"AllTeams": ["Albus NoX Cometa", "Albus NoX Luna", "Albus NoX Sidus"]
+	},
+	{
+		"Team": "Albus NoX Luna",
+		"AllTeams": ["Albus NoX Cometa", "Albus NoX Luna", "Albus NoX Sidus"]
+	},
+	{
+		"Team": "Albus NoX Sidus",
+		"AllTeams": ["Albus NoX Cometa", "Albus NoX Luna", "Albus NoX Sidus"]
+	},
+	{
+		"Team": "Alpha Sydney",
+		"AllTeams": ["Alpha Sydney", "Alpha Sydney Lyceum"]
+	},
+	{
+		"Team": "Alpha Sydney Lyceum",
+		"AllTeams": ["Alpha Sydney", "Alpha Sydney Lyceum"]
+	},
+	{
+		"Team": "aNc Outplayed",
+		"AllTeams": [
+			"aNc Outplayed",
+			"Outplayed Academy",
+			"Outplayed White",
+			"Outplayed Quintessential"
+		]
+	},
+	{
+		"Team": "ANEW Academy",
+		"AllTeams": [
+			"ANEW Esports",
+			"ANEW Blaze",
+			"ANEW Genesis",
+			"ANEW Hope",
+			"ANEW Academy",
+			"ANEW Dawn",
+			"ANEW Rising"
+		]
+	},
+	{
+		"Team": "ANEW Blaze",
+		"AllTeams": [
+			"ANEW Esports",
+			"ANEW Blaze",
+			"ANEW Genesis",
+			"ANEW Hope",
+			"ANEW Academy",
+			"ANEW Dawn",
+			"ANEW Rising"
+		]
+	},
+	{
+		"Team": "ANEW Dawn",
+		"AllTeams": [
+			"ANEW Esports",
+			"ANEW Blaze",
+			"ANEW Genesis",
+			"ANEW Hope",
+			"ANEW Academy",
+			"ANEW Dawn",
+			"ANEW Rising"
+		]
+	},
+	{
+		"Team": "ANEW Esports",
+		"AllTeams": [
+			"ANEW Esports",
+			"ANEW Blaze",
+			"ANEW Genesis",
+			"ANEW Hope",
+			"ANEW Academy",
+			"ANEW Dawn",
+			"ANEW Rising"
+		]
+	},
+	{
+		"Team": "ANEW Genesis",
+		"AllTeams": [
+			"ANEW Esports",
+			"ANEW Blaze",
+			"ANEW Genesis",
+			"ANEW Hope",
+			"ANEW Academy",
+			"ANEW Dawn",
+			"ANEW Rising"
+		]
+	},
+	{
+		"Team": "ANEW Hope",
+		"AllTeams": [
+			"ANEW Esports",
+			"ANEW Blaze",
+			"ANEW Genesis",
+			"ANEW Hope",
+			"ANEW Academy",
+			"ANEW Dawn",
+			"ANEW Rising"
+		]
+	},
+	{
+		"Team": "ANEW Rising",
+		"AllTeams": [
+			"ANEW Esports",
+			"ANEW Blaze",
+			"ANEW Genesis",
+			"ANEW Hope",
+			"ANEW Academy",
+			"ANEW Dawn",
+			"ANEW Rising"
+		]
+	},
+	{
+		"Team": "Angry Bats",
+		"AllTeams": ["Angry Bats", "Angry Bats Academy"]
+	},
+	{
+		"Team": "Angry Bats Academy",
+		"AllTeams": ["Angry Bats", "Angry Bats Academy"]
+	},
+	{
+		"Team": "Anorthosis Famagusta Esports",
+		"AllTeams": ["Anorthosis Famagusta Esports", "Anorthosis Famagusta Esports Academy"]
+	},
+	{
+		"Team": "Anorthosis Famagusta Esports Academy",
+		"AllTeams": ["Anorthosis Famagusta Esports", "Anorthosis Famagusta Esports Academy"]
+	},
+	{
+		"Team": "Anyone's Legend",
+		"AllTeams": ["Anyone's Legend", "Anyone's Legend.Young"]
+	},
+	{
+		"Team": "Anyone's Legend.Young",
+		"AllTeams": ["Anyone's Legend", "Anyone's Legend.Young"]
+	},
+	{
+		"Team": "AOE Esports",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "AOE Gold",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Apex Flame Horizon",
+		"AllTeams": ["Apex Flame Horizon", "Apex Mission Impossible"]
+	},
+	{
+		"Team": "Apex Gaming",
+		"AllTeams": ["Apex Gaming", "Apex Pride"]
+	},
+	{
+		"Team": "Apex Mission Impossible",
+		"AllTeams": ["Apex Flame Horizon", "Apex Mission Impossible"]
+	},
+	{
+		"Team": "Apex Pride",
+		"AllTeams": ["Apex Gaming", "Apex Pride"]
+	},
+	{
+		"Team": "Arctic Academy",
+		"AllTeams": ["Arctic Gaming", "Arctic Gaming Mexico", "Arctic Academy"]
+	},
+	{
+		"Team": "Arctic Gaming",
+		"AllTeams": ["Arctic Gaming", "Arctic Gaming Mexico", "Arctic Academy"]
+	},
+	{
+		"Team": "Arctic Gaming Mexico",
+		"AllTeams": ["Arctic Gaming", "Arctic Gaming Mexico", "Arctic Academy"]
+	},
+	{
+		"Team": "Area of Effect Brady",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Cope",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Cows",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Dinka LFGF",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Ginger Turmeric",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Need Her",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Not Zoos",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Pump",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Randoms",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Vice",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Area of Effect Will's Kittens",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Arena Quesito",
+		"AllTeams": ["Team Queso", "Arena Quesito", "Estadio Quesito"]
+	},
+	{
+		"Team": "Astralis",
+		"AllTeams": ["Astralis", "Astralis SB", "Astralis Talent"]
+	},
+	{
+		"Team": "Astralis SB",
+		"AllTeams": ["Astralis", "Astralis SB", "Astralis Talent"]
+	},
+	{
+		"Team": "Astralis Talent",
+		"AllTeams": ["Astralis", "Astralis SB", "Astralis Talent"]
+	},
+	{
+		"Team": "ASUS ROG Army",
+		"AllTeams": ["ASUS ROG Army", "ASUS ROG Female"]
+	},
+	{
+		"Team": "ASUS ROG Female",
+		"AllTeams": ["ASUS ROG Army", "ASUS ROG Female"]
+	},
+	{
+		"Team": "Atleta Esport",
+		"AllTeams": ["Atleta Esport", "Atleta Esport Academy"]
+	},
+	{
+		"Team": "Atleta Esport Academy",
+		"AllTeams": ["Atleta Esport", "Atleta Esport Academy"]
+	},
+	{
+		"Team": "ATR esports",
+		"AllTeams": ["ATR esports", "ATR esports Denmark"]
+	},
+	{
+		"Team": "ATR esports Denmark",
+		"AllTeams": ["ATR esports", "ATR esports Denmark"]
+	},
+	{
+		"Team": "Avant Academy",
+		"AllTeams": ["Avant Academy", "Avant Gaming", "Avant Garde Ascension", "Avant Garde Redemption"]
+	},
+	{
+		"Team": "Avant Gaming",
+		"AllTeams": ["Avant Academy", "Avant Gaming", "Avant Garde Ascension", "Avant Garde Redemption"]
+	},
+	{
+		"Team": "Avant Garde Ascension",
+		"AllTeams": ["Avant Academy", "Avant Gaming", "Avant Garde Ascension", "Avant Garde Redemption"]
+	},
+	{
+		"Team": "Avant Garde Redemption",
+		"AllTeams": ["Avant Academy", "Avant Gaming", "Avant Garde Ascension", "Avant Garde Redemption"]
+	},
+	{
+		"Team": "Awesome",
+		"AllTeams": ["Spear Gaming", "Awesome Spear", "Awesome Spear Academy", "Awesome"]
+	},
+	{
+		"Team": "Awesome Spear",
+		"AllTeams": ["Spear Gaming", "Awesome Spear", "Awesome Spear Academy", "Awesome"]
+	},
+	{
+		"Team": "Awesome Spear Academy",
+		"AllTeams": ["Spear Gaming", "Awesome Spear", "Awesome Spear Academy", "Awesome"]
+	},
+	{
+		"Team": "AXIZ",
+		"AllTeams": ["AXIZ", "AXIZ Academy"]
+	},
+	{
+		"Team": "AXIZ Academy",
+		"AllTeams": ["AXIZ", "AXIZ Academy"]
+	},
+	{
+		"Team": "AXIZ CREST",
+		"AllTeams": ["AXIZ CREST", "AXIZ CREST Academy"]
+	},
+	{
+		"Team": "AXIZ CREST Academy",
+		"AllTeams": ["AXIZ CREST", "AXIZ CREST Academy"]
+	},
+	{
+		"Team": "Axolotl",
+		"AllTeams": ["Axolotl", "Axolotl Academy"]
+	},
+	{
+		"Team": "Axolotl Academy",
+		"AllTeams": ["Axolotl", "Axolotl Academy"]
+	},
+	{
+		"Team": "AZIO Black",
+		"AllTeams": ["AZIO eSports", "AZIO Black", "AZIO White"]
+	},
+	{
+		"Team": "AZIO eSports",
+		"AllTeams": ["AZIO eSports", "AZIO Black", "AZIO White"]
+	},
+	{
+		"Team": "AZIO White",
+		"AllTeams": ["AZIO eSports", "AZIO Black", "AZIO White"]
+	},
+	{
+		"Team": "Azubu Blaze",
+		"AllTeams": ["Azubu Blaze", "Azubu Frost"]
+	},
+	{
+		"Team": "Azubu Frost",
+		"AllTeams": ["Azubu Blaze", "Azubu Frost"]
+	},
+	{
+		"Team": "Azules Esports",
+		"AllTeams": ["Azules Esports", "Azules Esports Academy"]
+	},
+	{
+		"Team": "Azules Esports Academy",
+		"AllTeams": ["Azules Esports", "Azules Esports Academy"]
+	},
+	{
+		"Team": "Baby Whales",
+		"AllTeams": ["Team Whales", "Baby Whales"]
+	},
+	{
+		"Team": "Barrage (British Team)",
+		"AllTeams": [
+			"Barrage (British Team)",
+			"Barrage Academy",
+			"Barrage.NA",
+			"Barrage Esports Retirement Home"
+		]
+	},
+	{
+		"Team": "Barrage Academy",
+		"AllTeams": [
+			"Barrage (British Team)",
+			"Barrage Academy",
+			"Barrage.NA",
+			"Barrage Esports Retirement Home"
+		]
+	},
+	{
+		"Team": "Barrage Esports Retirement Home",
+		"AllTeams": [
+			"Barrage (British Team)",
+			"Barrage Academy",
+			"Barrage.NA",
+			"Barrage Esports Retirement Home"
+		]
+	},
+	{
+		"Team": "Barrage.NA",
+		"AllTeams": [
+			"Barrage (British Team)",
+			"Barrage Academy",
+			"Barrage.NA",
+			"Barrage Esports Retirement Home"
+		]
+	},
+	{
+		"Team": "Berlin International Gaming",
+		"AllTeams": ["Berlin International Gaming", "Berlin International Gaming Chroma"]
+	},
+	{
+		"Team": "Berlin International Gaming Chroma",
+		"AllTeams": ["Berlin International Gaming", "Berlin International Gaming Chroma"]
+	},
+	{
+		"Team": "Beşiktaş Academy",
+		"AllTeams": [
+			"Beşiktaş Esports",
+			"Beşiktaş Academy",
+			"Beşiktaş Esports Female",
+			"Beşiktaş.Oyun Hizmetleri"
+		]
+	},
+	{
+		"Team": "Beşiktaş Esports",
+		"AllTeams": [
+			"Beşiktaş Esports",
+			"Beşiktaş Academy",
+			"Beşiktaş Esports Female",
+			"Beşiktaş.Oyun Hizmetleri"
+		]
+	},
+	{
+		"Team": "Beşiktaş Esports Female",
+		"AllTeams": [
+			"Beşiktaş Esports",
+			"Beşiktaş Academy",
+			"Beşiktaş Esports Female",
+			"Beşiktaş.Oyun Hizmetleri"
+		]
+	},
+	{
+		"Team": "Beşiktaş.Oyun Hizmetleri",
+		"AllTeams": [
+			"Beşiktaş Esports",
+			"Beşiktaş Academy",
+			"Beşiktaş Esports Female",
+			"Beşiktaş.Oyun Hizmetleri"
+		]
+	},
+	{
+		"Team": "Beyond Gaming",
+		"AllTeams": ["Beyond Gaming", "Beyond Gaming Academy"]
+	},
+	{
+		"Team": "Beyond Gaming Academy",
+		"AllTeams": ["Beyond Gaming", "Beyond Gaming Academy"]
+	},
+	{
+		"Team": "Bifrost",
+		"AllTeams": ["Bifrost", "Bifrost White"]
+	},
+	{
+		"Team": "Bifrost White",
+		"AllTeams": ["Bifrost", "Bifrost White"]
+	},
+	{
+		"Team": "Big Gods",
+		"AllTeams": ["Big Gods", "Big Gods Jackals"]
+	},
+	{
+		"Team": "Big Gods Jackals",
+		"AllTeams": ["Big Gods", "Big Gods Jackals"]
+	},
+	{
+		"Team": "Big Plays Incorporated",
+		"AllTeams": ["Big Plays Incorporated", "BPI Academy"]
+	},
+	{
+		"Team": "Bilibili Gaming",
+		"AllTeams": ["Bilibili Gaming", "Bilibili Gaming Junior"]
+	},
+	{
+		"Team": "Bilibili Gaming Junior",
+		"AllTeams": ["Bilibili Gaming", "Bilibili Gaming Junior"]
+	},
+	{
+		"Team": "Black Lotus",
+		"AllTeams": [
+			"5 Seasons",
+			"Kurulean's Kittens",
+			"Lotus (North American Team)",
+			"Black Lotus",
+			"Keep Pathing Bot",
+			"Lotus Exiles"
+		]
+	},
+	{
+		"Team": "Bombers",
+		"AllTeams": ["Bombers", "Bombers Academy"]
+	},
+	{
+		"Team": "Bombers Academy",
+		"AllTeams": ["Bombers", "Bombers Academy"]
+	},
+	{
+		"Team": "Box Gaming",
+		"AllTeams": ["Box Ladies", "Box Gaming"]
+	},
+	{
+		"Team": "Box Ladies",
+		"AllTeams": ["Box Ladies", "Box Gaming"]
+	},
+	{
+		"Team": "BPI Academy",
+		"AllTeams": ["Big Plays Incorporated", "BPI Academy"]
+	},
+	{
+		"Team": "Brave Academy",
+		"AllTeams": ["Brave e-Sports", "Brave Academy"]
+	},
+	{
+		"Team": "Brave e-Sports",
+		"AllTeams": ["Brave e-Sports", "Brave Academy"]
+	},
+	{
+		"Team": "BrawL eSports",
+		"AllTeams": ["BrawL eSports", "BrawL.NA"]
+	},
+	{
+		"Team": "BrawL.NA",
+		"AllTeams": ["BrawL eSports", "BrawL.NA"]
+	},
+	{
+		"Team": "BRION",
+		"AllTeams": ["BRION", "BRION Challengers", "BRION Academy"]
+	},
+	{
+		"Team": "BRION Academy",
+		"AllTeams": ["BRION", "BRION Challengers", "BRION Academy"]
+	},
+	{
+		"Team": "BRION Challengers",
+		"AllTeams": ["BRION", "BRION Challengers", "BRION Academy"]
+	},
+	{
+		"Team": "Brussels Guardians",
+		"AllTeams": ["Brussels Guardians", "Brussels Guardians Academy"]
+	},
+	{
+		"Team": "Brussels Guardians Academy",
+		"AllTeams": ["Brussels Guardians", "Brussels Guardians Academy"]
+	},
+	{
+		"Team": "BRUTE",
+		"AllTeams": ["BRUTE", "BRUTE Talents"]
+	},
+	{
+		"Team": "BRUTE Talents",
+		"AllTeams": ["BRUTE", "BRUTE Talents"]
+	},
+	{
+		"Team": "BUFF",
+		"AllTeams": ["Team Afro", "Afro Beast", "BUFF"]
+	},
+	{
+		"Team": "Burning Core Academy",
+		"AllTeams": ["Burning Core Toyama", "Burning Core Academy"]
+	},
+	{
+		"Team": "Burning Core Toyama",
+		"AllTeams": ["Burning Core Toyama", "Burning Core Academy"]
+	},
+	{
+		"Team": "Bursaspor Academy",
+		"AllTeams": ["Bursaspor Esports", "Bursaspor Academy"]
+	},
+	{
+		"Team": "Bursaspor Esports",
+		"AllTeams": ["Bursaspor Esports", "Bursaspor Academy"]
+	},
+	{
+		"Team": "CCG Esports",
+		"AllTeams": ["CCG Esports", "CCG Futures"]
+	},
+	{
+		"Team": "CCG Futures",
+		"AllTeams": ["CCG Esports", "CCG Futures"]
+	},
+	{
+		"Team": "CERBERUS Esports (Vietnamese Team)",
+		"AllTeams": ["CERBERUS Esports (Vietnamese Team)", "Puppies Esports"]
+	},
+	{
+		"Team": "Chiefs Academy",
+		"AllTeams": ["Chiefs Esports Club", "Chiefs Academy", "Chiefs Black"]
+	},
+	{
+		"Team": "Chiefs Black",
+		"AllTeams": ["Chiefs Esports Club", "Chiefs Academy", "Chiefs Black"]
+	},
+	{
+		"Team": "Chiefs Esports Club",
+		"AllTeams": ["Chiefs Esports Club", "Chiefs Academy", "Chiefs Black"]
+	},
+	{
+		"Team": "Chilly Mountain Chipmunks",
+		"AllTeams": ["Chilly Mountain Wolves", "Chilly Mountain Chipmunks"]
+	},
+	{
+		"Team": "Chilly Mountain Wolves",
+		"AllTeams": ["Chilly Mountain Wolves", "Chilly Mountain Chipmunks"]
+	},
+	{
+		"Team": "Chungnam Juego Esports",
+		"AllTeams": ["CNJ Esports", "Chungnam Juego Esports"]
+	},
+	{
+		"Team": "Chunnam Techno University",
+		"AllTeams": ["CTU Logos", "Chunnam Techno University", "CTU Pathos", "CTU Revolt"]
+	},
+	{
+		"Team": "CJ Entus",
+		"AllTeams": ["CJ Entus", "CJ Entus Blaze", "CJ Entus Frost"]
+	},
+	{
+		"Team": "CJ Entus Blaze",
+		"AllTeams": ["CJ Entus", "CJ Entus Blaze", "CJ Entus Frost"]
+	},
+	{
+		"Team": "CJ Entus Frost",
+		"AllTeams": ["CJ Entus", "CJ Entus Blaze", "CJ Entus Frost"]
+	},
+	{
+		"Team": "CLG Academy",
+		"AllTeams": [
+			"Counter Logic Gaming",
+			"CLG Challengers",
+			"CLG Faith",
+			"CLG Academy",
+			"CLG Black",
+			"Counter Logic Gaming Europe"
+		]
+	},
+	{
+		"Team": "CLG Black",
+		"AllTeams": [
+			"Counter Logic Gaming",
+			"CLG Challengers",
+			"CLG Faith",
+			"CLG Academy",
+			"CLG Black",
+			"Counter Logic Gaming Europe"
+		]
+	},
+	{
+		"Team": "CLG Challengers",
+		"AllTeams": [
+			"Counter Logic Gaming",
+			"CLG Challengers",
+			"CLG Faith",
+			"CLG Academy",
+			"CLG Black",
+			"Counter Logic Gaming Europe"
+		]
+	},
+	{
+		"Team": "CLG Faith",
+		"AllTeams": [
+			"Counter Logic Gaming",
+			"CLG Challengers",
+			"CLG Faith",
+			"CLG Academy",
+			"CLG Black",
+			"Counter Logic Gaming Europe"
+		]
+	},
+	{
+		"Team": "Cloud9",
+		"AllTeams": [
+			"Cloud9",
+			"Cloud9 Academy",
+			"Cloud9 Challengers",
+			"Cloud9 Amateur",
+			"Cloud9 Challenger",
+			"Cloud9 Eclipse",
+			"Cloud9 Tempest"
+		]
+	},
+	{
+		"Team": "Cloud9 Academy",
+		"AllTeams": [
+			"Cloud9",
+			"Cloud9 Academy",
+			"Cloud9 Challengers",
+			"Cloud9 Amateur",
+			"Cloud9 Challenger",
+			"Cloud9 Eclipse",
+			"Cloud9 Tempest"
+		]
+	},
+	{
+		"Team": "Cloud9 Amateur",
+		"AllTeams": [
+			"Cloud9",
+			"Cloud9 Academy",
+			"Cloud9 Challengers",
+			"Cloud9 Amateur",
+			"Cloud9 Challenger",
+			"Cloud9 Eclipse",
+			"Cloud9 Tempest"
+		]
+	},
+	{
+		"Team": "Cloud9 Challenger",
+		"AllTeams": [
+			"Cloud9",
+			"Cloud9 Academy",
+			"Cloud9 Challengers",
+			"Cloud9 Amateur",
+			"Cloud9 Challenger",
+			"Cloud9 Eclipse",
+			"Cloud9 Tempest"
+		]
+	},
+	{
+		"Team": "Cloud9 Challengers",
+		"AllTeams": [
+			"Cloud9",
+			"Cloud9 Academy",
+			"Cloud9 Challengers",
+			"Cloud9 Amateur",
+			"Cloud9 Challenger",
+			"Cloud9 Eclipse",
+			"Cloud9 Tempest"
+		]
+	},
+	{
+		"Team": "Cloud9 Eclipse",
+		"AllTeams": [
+			"Cloud9",
+			"Cloud9 Academy",
+			"Cloud9 Challengers",
+			"Cloud9 Amateur",
+			"Cloud9 Challenger",
+			"Cloud9 Eclipse",
+			"Cloud9 Tempest"
+		]
+	},
+	{
+		"Team": "Cloud9 Tempest",
+		"AllTeams": [
+			"Cloud9",
+			"Cloud9 Academy",
+			"Cloud9 Challengers",
+			"Cloud9 Amateur",
+			"Cloud9 Challenger",
+			"Cloud9 Eclipse",
+			"Cloud9 Tempest"
+		]
+	},
+	{
+		"Team": "Clutch Gaming",
+		"AllTeams": ["Clutch Gaming", "Clutch Gaming Academy"]
+	},
+	{
+		"Team": "Clutch Gaming Academy",
+		"AllTeams": ["Clutch Gaming", "Clutch Gaming Academy"]
+	},
+	{
+		"Team": "CNB e-Sports Club",
+		"AllTeams": ["CNB e-Sports Club", "CNB Infinity", "CNB Trinity Blue", "CNB Trinity White"]
+	},
+	{
+		"Team": "CNB Infinity",
+		"AllTeams": ["CNB e-Sports Club", "CNB Infinity", "CNB Trinity Blue", "CNB Trinity White"]
+	},
+	{
+		"Team": "CNB Trinity Blue",
+		"AllTeams": ["CNB e-Sports Club", "CNB Infinity", "CNB Trinity Blue", "CNB Trinity White"]
+	},
+	{
+		"Team": "CNB Trinity White",
+		"AllTeams": ["CNB e-Sports Club", "CNB Infinity", "CNB Trinity Blue", "CNB Trinity White"]
+	},
+	{
+		"Team": "CNJ Esports",
+		"AllTeams": ["CNJ Esports", "Chungnam Juego Esports"]
+	},
+	{
+		"Team": "compLexity Academy",
+		"AllTeams": [
+			"compLexity Academy",
+			"compLexity Gaming",
+			"compLexity.Black",
+			"compLexity.Red",
+			"compLexity.White"
+		]
+	},
+	{
+		"Team": "compLexity Gaming",
+		"AllTeams": [
+			"compLexity Academy",
+			"compLexity Gaming",
+			"compLexity.Black",
+			"compLexity.Red",
+			"compLexity.White"
+		]
+	},
+	{
+		"Team": "compLexity.Black",
+		"AllTeams": [
+			"compLexity Academy",
+			"compLexity Gaming",
+			"compLexity.Black",
+			"compLexity.Red",
+			"compLexity.White"
+		]
+	},
+	{
+		"Team": "compLexity.Red",
+		"AllTeams": [
+			"compLexity Academy",
+			"compLexity Gaming",
+			"compLexity.Black",
+			"compLexity.Red",
+			"compLexity.White"
+		]
+	},
+	{
+		"Team": "compLexity.White",
+		"AllTeams": [
+			"compLexity Academy",
+			"compLexity Gaming",
+			"compLexity.Black",
+			"compLexity.Red",
+			"compLexity.White"
+		]
+	},
+	{
+		"Team": "ConViction",
+		"AllTeams": ["ConViction", "ConViction Moon", "ConViction Sun"]
+	},
+	{
+		"Team": "ConViction Moon",
+		"AllTeams": ["ConViction", "ConViction Moon", "ConViction Sun"]
+	},
+	{
+		"Team": "ConViction Sun",
+		"AllTeams": ["ConViction", "ConViction Moon", "ConViction Sun"]
+	},
+	{
+		"Team": "Copenhagen Wolves",
+		"AllTeams": ["Copenhagen Wolves", "Copenhagen Wolves Academy"]
+	},
+	{
+		"Team": "Copenhagen Wolves Academy",
+		"AllTeams": ["Copenhagen Wolves", "Copenhagen Wolves Academy"]
+	},
+	{
+		"Team": "Counter Logic Gaming",
+		"AllTeams": [
+			"Counter Logic Gaming",
+			"CLG Challengers",
+			"CLG Faith",
+			"CLG Academy",
+			"CLG Black",
+			"Counter Logic Gaming Europe"
+		]
+	},
+	{
+		"Team": "Counter Logic Gaming Europe",
+		"AllTeams": [
+			"Counter Logic Gaming",
+			"CLG Challengers",
+			"CLG Faith",
+			"CLG Academy",
+			"CLG Black",
+			"Counter Logic Gaming Europe"
+		]
+	},
+	{
+		"Team": "CowBoySquad Imperials Esports",
+		"AllTeams": ["CowBoySquad Imperials Esports", "CowBoySquad Imperials Esports Academy"]
+	},
+	{
+		"Team": "CowBoySquad Imperials Esports Academy",
+		"AllTeams": ["CowBoySquad Imperials Esports", "CowBoySquad Imperials Esports Academy"]
+	},
+	{
+		"Team": "Cream Esports",
+		"AllTeams": ["Cream Real Betis.EU", "Cream Real Betis.Mexico", "Cream Esports"]
+	},
+	{
+		"Team": "Cream Real Betis.EU",
+		"AllTeams": ["Cream Real Betis.EU", "Cream Real Betis.Mexico", "Cream Esports"]
+	},
+	{
+		"Team": "Cream Real Betis.Mexico",
+		"AllTeams": ["Cream Real Betis.EU", "Cream Real Betis.Mexico", "Cream Esports"]
+	},
+	{
+		"Team": "Crest Gaming Act",
+		"AllTeams": ["Crest Gaming Act", "Crest Gaming Act Academy"]
+	},
+	{
+		"Team": "Crest Gaming Act Academy",
+		"AllTeams": ["Crest Gaming Act", "Crest Gaming Act Academy"]
+	},
+	{
+		"Team": "Cruzeiro Academy",
+		"AllTeams": ["Cruzeiro eSports", "Cruzeiro Academy"]
+	},
+	{
+		"Team": "Cruzeiro eSports",
+		"AllTeams": ["Cruzeiro eSports", "Cruzeiro Academy"]
+	},
+	{
+		"Team": "Crypto Esports",
+		"AllTeams": ["Crypto Esports.CIS", "Crypto Esports"]
+	},
+	{
+		"Team": "Crypto Esports.CIS",
+		"AllTeams": ["Crypto Esports.CIS", "Crypto Esports"]
+	},
+	{
+		"Team": "CTBC Flying Oyster",
+		"AllTeams": ["CTBC Flying Oyster", "CTBC Flying Oyster Academy"]
+	},
+	{
+		"Team": "CTBC Flying Oyster Academy",
+		"AllTeams": ["CTBC Flying Oyster", "CTBC Flying Oyster Academy"]
+	},
+	{
+		"Team": "CTRL PLAY",
+		"AllTeams": ["CTRL PLAY", "CTRL PLAY Academy"]
+	},
+	{
+		"Team": "CTRL PLAY Academy",
+		"AllTeams": ["CTRL PLAY", "CTRL PLAY Academy"]
+	},
+	{
+		"Team": "CTU Logos",
+		"AllTeams": ["CTU Logos", "Chunnam Techno University", "CTU Pathos", "CTU Revolt"]
+	},
+	{
+		"Team": "CTU Pathos",
+		"AllTeams": ["CTU Logos", "Chunnam Techno University", "CTU Pathos", "CTU Revolt"]
+	},
+	{
+		"Team": "CTU Revolt",
+		"AllTeams": ["CTU Logos", "Chunnam Techno University", "CTU Pathos", "CTU Revolt"]
+	},
+	{
+		"Team": "Cube Adonis",
+		"AllTeams": ["Adonis Esports", "Cube Adonis", "Cube Adonis Hutech"]
+	},
+	{
+		"Team": "Cube Adonis Hutech",
+		"AllTeams": ["Adonis Esports", "Cube Adonis", "Cube Adonis Hutech"]
+	},
+	{
+		"Team": "Cyber Gaming",
+		"AllTeams": ["Cyber Gaming", "Cyber Gaming Academy", "Cyber Gaming Mermaids"]
+	},
+	{
+		"Team": "Cyber Gaming Academy",
+		"AllTeams": ["Cyber Gaming", "Cyber Gaming Academy", "Cyber Gaming Mermaids"]
+	},
+	{
+		"Team": "Cyber Gaming Mermaids",
+		"AllTeams": ["Cyber Gaming", "Cyber Gaming Academy", "Cyber Gaming Mermaids"]
+	},
+	{
+		"Team": "Cyberground Gaming",
+		"AllTeams": ["Cyberground Gaming", "Cyberground Gaming Academy"]
+	},
+	{
+		"Team": "Cyberground Gaming Academy",
+		"AllTeams": ["Cyberground Gaming", "Cyberground Gaming Academy"]
+	},
+	{
+		"Team": "D-City Gaming Stars",
+		"AllTeams": ["D-City Gaming Stars", "D-City Gaming Stars Blue", "D-City Gaming Stars Gold"]
+	},
+	{
+		"Team": "D-City Gaming Stars Blue",
+		"AllTeams": ["D-City Gaming Stars", "D-City Gaming Stars Blue", "D-City Gaming Stars Gold"]
+	},
+	{
+		"Team": "D-City Gaming Stars Gold",
+		"AllTeams": ["D-City Gaming Stars", "D-City Gaming Stars Blue", "D-City Gaming Stars Gold"]
+	},
+	{
+		"Team": "DAN Gaming",
+		"AllTeams": ["2144 Gaming", "2144 Danmu Gaming", "DAN Gaming"]
+	},
+	{
+		"Team": "Dare Black",
+		"AllTeams": ["Dare Gaming", "Dare Black", "Dare White"]
+	},
+	{
+		"Team": "Dare Gaming",
+		"AllTeams": ["Dare Gaming", "Dare Black", "Dare White"]
+	},
+	{
+		"Team": "Dare White",
+		"AllTeams": ["Dare Gaming", "Dare Black", "Dare White"]
+	},
+	{
+		"Team": "Dark Matter",
+		"AllTeams": [
+			"Supernova",
+			"Dark Matter",
+			"Super Nova Sentinels",
+			"Hyper Nova",
+			"Super Nova Academy"
+		]
+	},
+	{
+		"Team": "Dark Passage",
+		"AllTeams": ["Dark Passage", "Dark Passage Academy", "Dark Passage White"]
+	},
+	{
+		"Team": "Dark Passage Academy",
+		"AllTeams": ["Dark Passage", "Dark Passage Academy", "Dark Passage White"]
+	},
+	{
+		"Team": "Dark Passage White",
+		"AllTeams": ["Dark Passage", "Dark Passage Academy", "Dark Passage White"]
+	},
+	{
+		"Team": "Dark Tigers",
+		"AllTeams": ["Dark Tigers", "Dark Tigers Academy"]
+	},
+	{
+		"Team": "Dark Tigers Academy",
+		"AllTeams": ["Dark Tigers", "Dark Tigers Academy"]
+	},
+	{
+		"Team": "Dawn Esports",
+		"AllTeams": ["Dawn Esports", "Dawn Esports Blaze", "Dawn Esports Shock"]
+	},
+	{
+		"Team": "Dawn Esports Blaze",
+		"AllTeams": ["Dawn Esports", "Dawn Esports Blaze", "Dawn Esports Shock"]
+	},
+	{
+		"Team": "Dawn Esports Shock",
+		"AllTeams": ["Dawn Esports", "Dawn Esports Blaze", "Dawn Esports Shock"]
+	},
+	{
+		"Team": "Deep Cross Gaming",
+		"AllTeams": ["Deep Cross Gaming", "Deep Cross Gaming Academy"]
+	},
+	{
+		"Team": "Deep Cross Gaming Academy",
+		"AllTeams": ["Deep Cross Gaming", "Deep Cross Gaming Academy"]
+	},
+	{
+		"Team": "Deliverance Esports",
+		"AllTeams": ["Deliverance Esports", "Deliverance Esports Peru"]
+	},
+	{
+		"Team": "Deliverance Esports Peru",
+		"AllTeams": ["Deliverance Esports", "Deliverance Esports Peru"]
+	},
+	{
+		"Team": "Delta Fox",
+		"AllTeams": ["Echo Fox", "Echo Fox Academy", "Delta Fox"]
+	},
+	{
+		"Team": "Denial eSports",
+		"AllTeams": ["Denial eSports", "Denial eSports.East", "Denial eSports EU"]
+	},
+	{
+		"Team": "Denial eSports EU",
+		"AllTeams": ["Denial eSports", "Denial eSports.East", "Denial eSports EU"]
+	},
+	{
+		"Team": "Denial eSports.East",
+		"AllTeams": ["Denial eSports", "Denial eSports.East", "Denial eSports EU"]
+	},
+	{
+		"Team": "DetonatioN FocusMe",
+		"AllTeams": [
+			"DetonatioN FocusMe",
+			"DetonatioN FocusMe Academy",
+			"DetonatioN Rising",
+			"RabbitFive"
+		]
+	},
+	{
+		"Team": "DetonatioN FocusMe Academy",
+		"AllTeams": [
+			"DetonatioN FocusMe",
+			"DetonatioN FocusMe Academy",
+			"DetonatioN Rising",
+			"RabbitFive"
+		]
+	},
+	{
+		"Team": "DetonatioN Rising",
+		"AllTeams": [
+			"DetonatioN FocusMe",
+			"DetonatioN FocusMe Academy",
+			"DetonatioN Rising",
+			"RabbitFive"
+		]
+	},
+	{
+		"Team": "DeToNator (Japanese Team)",
+		"AllTeams": ["DeToNator (Southeast Asian Team)", "DeToNator (Japanese Team)"]
+	},
+	{
+		"Team": "DeToNator (Southeast Asian Team)",
+		"AllTeams": ["DeToNator (Southeast Asian Team)", "DeToNator (Japanese Team)"]
+	},
+	{
+		"Team": "devils.one",
+		"AllTeams": [
+			"devils.one",
+			"devils.one Female",
+			"DV1 Scouting Grounds",
+			"Komputronik Gaming Scouting Grounds"
+		]
+	},
+	{
+		"Team": "devils.one Female",
+		"AllTeams": [
+			"devils.one",
+			"devils.one Female",
+			"DV1 Scouting Grounds",
+			"Komputronik Gaming Scouting Grounds"
+		]
+	},
+	{
+		"Team": "Dewish Team",
+		"AllTeams": ["Dewish Team", "Dewish Tnu Team"]
+	},
+	{
+		"Team": "Dewish Tnu Team",
+		"AllTeams": ["Dewish Team", "Dewish Tnu Team"]
+	},
+	{
+		"Team": "Different Dimension",
+		"AllTeams": ["Different Dimension", "Different Dimension Blue"]
+	},
+	{
+		"Team": "Different Dimension Blue",
+		"AllTeams": ["Different Dimension", "Different Dimension Blue"]
+	},
+	{
+		"Team": "Dignitas",
+		"AllTeams": [
+			"Dignitas",
+			"Dignitas Academy",
+			"Dignitas Challengers",
+			"Dignitas Mirage",
+			"Team Dignitas EU",
+			"Team Dignitas OCE",
+			"Team Dignitas UK"
+		]
+	},
+	{
+		"Team": "Dignitas Academy",
+		"AllTeams": [
+			"Dignitas",
+			"Dignitas Academy",
+			"Dignitas Challengers",
+			"Dignitas Mirage",
+			"Team Dignitas EU",
+			"Team Dignitas OCE",
+			"Team Dignitas UK"
+		]
+	},
+	{
+		"Team": "Dignitas Challengers",
+		"AllTeams": [
+			"Dignitas",
+			"Dignitas Academy",
+			"Dignitas Challengers",
+			"Dignitas Mirage",
+			"Team Dignitas EU",
+			"Team Dignitas OCE",
+			"Team Dignitas UK"
+		]
+	},
+	{
+		"Team": "Dignitas Mirage",
+		"AllTeams": [
+			"Dignitas",
+			"Dignitas Academy",
+			"Dignitas Challengers",
+			"Dignitas Mirage",
+			"Team Dignitas EU",
+			"Team Dignitas OCE",
+			"Team Dignitas UK"
+		]
+	},
+	{
+		"Team": "Dire Cubs",
+		"AllTeams": ["Dire Wolves", "Dire Cubs"]
+	},
+	{
+		"Team": "Dire Wolves",
+		"AllTeams": ["Dire Wolves", "Dire Cubs"]
+	},
+	{
+		"Team": "DMG Esports",
+		"AllTeams": [
+			"DMG Esports",
+			"DMG Esports Denmark",
+			"DMG Esports Finland",
+			"DMG Esports Norway",
+			"DMG Esports Sweden",
+			"DMG Esports United Kingdom",
+			"DMG Esports Wings"
+		]
+	},
+	{
+		"Team": "DMG Esports Denmark",
+		"AllTeams": [
+			"DMG Esports",
+			"DMG Esports Denmark",
+			"DMG Esports Finland",
+			"DMG Esports Norway",
+			"DMG Esports Sweden",
+			"DMG Esports United Kingdom",
+			"DMG Esports Wings"
+		]
+	},
+	{
+		"Team": "DMG Esports Finland",
+		"AllTeams": [
+			"DMG Esports",
+			"DMG Esports Denmark",
+			"DMG Esports Finland",
+			"DMG Esports Norway",
+			"DMG Esports Sweden",
+			"DMG Esports United Kingdom",
+			"DMG Esports Wings"
+		]
+	},
+	{
+		"Team": "DMG Esports Norway",
+		"AllTeams": [
+			"DMG Esports",
+			"DMG Esports Denmark",
+			"DMG Esports Finland",
+			"DMG Esports Norway",
+			"DMG Esports Sweden",
+			"DMG Esports United Kingdom",
+			"DMG Esports Wings"
+		]
+	},
+	{
+		"Team": "DMG Esports Sweden",
+		"AllTeams": [
+			"DMG Esports",
+			"DMG Esports Denmark",
+			"DMG Esports Finland",
+			"DMG Esports Norway",
+			"DMG Esports Sweden",
+			"DMG Esports United Kingdom",
+			"DMG Esports Wings"
+		]
+	},
+	{
+		"Team": "DMG Esports United Kingdom",
+		"AllTeams": [
+			"DMG Esports",
+			"DMG Esports Denmark",
+			"DMG Esports Finland",
+			"DMG Esports Norway",
+			"DMG Esports Sweden",
+			"DMG Esports United Kingdom",
+			"DMG Esports Wings"
+		]
+	},
+	{
+		"Team": "DMG Esports Wings",
+		"AllTeams": [
+			"DMG Esports",
+			"DMG Esports Denmark",
+			"DMG Esports Finland",
+			"DMG Esports Norway",
+			"DMG Esports Sweden",
+			"DMG Esports United Kingdom",
+			"DMG Esports Wings"
+		]
+	},
+	{
+		"Team": "Dominus Esports",
+		"AllTeams": ["Dominus Esports", "Dominus Esports Young"]
+	},
+	{
+		"Team": "Dominus Esports Young",
+		"AllTeams": ["Dominus Esports", "Dominus Esports Young"]
+	},
+	{
+		"Team": "Dplus Esports Academy",
+		"AllTeams": ["Dplus KIA", "Dplus KIA Challengers", "Dplus KIA Academy", "Dplus Esports Academy"]
+	},
+	{
+		"Team": "Dplus KIA",
+		"AllTeams": ["Dplus KIA", "Dplus KIA Challengers", "Dplus KIA Academy", "Dplus Esports Academy"]
+	},
+	{
+		"Team": "Dplus KIA Academy",
+		"AllTeams": ["Dplus KIA", "Dplus KIA Challengers", "Dplus KIA Academy", "Dplus Esports Academy"]
+	},
+	{
+		"Team": "Dplus KIA Challengers",
+		"AllTeams": ["Dplus KIA", "Dplus KIA Challengers", "Dplus KIA Academy", "Dplus Esports Academy"]
+	},
+	{
+		"Team": "Dragon Army",
+		"AllTeams": ["Dragon Army", "Dragon Army Academy"]
+	},
+	{
+		"Team": "Dragon Army Academy",
+		"AllTeams": ["Dragon Army", "Dragon Army Academy"]
+	},
+	{
+		"Team": "Dragon Gate Team",
+		"AllTeams": ["Dragon Gate Team", "Fish Dive Team"]
+	},
+	{
+		"Team": "Dream VGirls",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "DRX",
+		"AllTeams": ["DRX", "DRX Challengers", "DRX Academy"]
+	},
+	{
+		"Team": "DRX Academy",
+		"AllTeams": ["DRX", "DRX Challengers", "DRX Academy"]
+	},
+	{
+		"Team": "DRX Challengers",
+		"AllTeams": ["DRX", "DRX Challengers", "DRX Academy"]
+	},
+	{
+		"Team": "DV1 Scouting Grounds",
+		"AllTeams": [
+			"devils.one",
+			"devils.one Female",
+			"DV1 Scouting Grounds",
+			"Komputronik Gaming Scouting Grounds"
+		]
+	},
+	{
+		"Team": "Dynamo Eclot",
+		"AllTeams": ["Dynamo Eclot", "Dynamo Eclot Academy"]
+	},
+	{
+		"Team": "Dynamo Eclot Academy",
+		"AllTeams": ["Dynamo Eclot", "Dynamo Eclot Academy"]
+	},
+	{
+		"Team": "Dynasty",
+		"AllTeams": ["Dynasty", "Dynasty Academy"]
+	},
+	{
+		"Team": "Dynasty Academy",
+		"AllTeams": ["Dynasty", "Dynasty Academy"]
+	},
+	{
+		"Team": "E-corp Gaming",
+		"AllTeams": ["E-corp Gaming", "E-corp Gentle", "E-corp Glorious"]
+	},
+	{
+		"Team": "E-corp Gentle",
+		"AllTeams": ["E-corp Gaming", "E-corp Gentle", "E-corp Glorious"]
+	},
+	{
+		"Team": "E-corp Glorious",
+		"AllTeams": ["E-corp Gaming", "E-corp Gentle", "E-corp Glorious"]
+	},
+	{
+		"Team": "e-mFire",
+		"AllTeams": ["NaJin e-mFire", "NaJin Black Sword", "NaJin White Shield", "e-mFire"]
+	},
+	{
+		"Team": "Echo Fox",
+		"AllTeams": ["Echo Fox", "Echo Fox Academy", "Delta Fox"]
+	},
+	{
+		"Team": "Echo Fox Academy",
+		"AllTeams": ["Echo Fox", "Echo Fox Academy", "Delta Fox"]
+	},
+	{
+		"Team": "Echo Zulu Domme Jongens",
+		"AllTeams": [
+			"Team Echo Zulu",
+			"Echo Zulu Domme Jongens",
+			"Team Echo Zulu Tribe",
+			"Team Echo Zulu Academy"
+		]
+	},
+	{
+		"Team": "ECLOT",
+		"AllTeams": ["ECLOT", "ECLOT Academy"]
+	},
+	{
+		"Team": "ECLOT Academy",
+		"AllTeams": ["ECLOT", "ECLOT Academy"]
+	},
+	{
+		"Team": "Eclypsia",
+		"AllTeams": ["Eclypsia", "Eclypsia Spirit", "Eclypsia.Luna", "Eclypsia.Solaris"]
+	},
+	{
+		"Team": "Eclypsia Spirit",
+		"AllTeams": ["Eclypsia", "Eclypsia Spirit", "Eclypsia.Luna", "Eclypsia.Solaris"]
+	},
+	{
+		"Team": "Eclypsia.Luna",
+		"AllTeams": ["Eclypsia", "Eclypsia Spirit", "Eclypsia.Luna", "Eclypsia.Solaris"]
+	},
+	{
+		"Team": "Eclypsia.Solaris",
+		"AllTeams": ["Eclypsia", "Eclypsia Spirit", "Eclypsia.Luna", "Eclypsia.Solaris"]
+	},
+	{
+		"Team": "EDward Esports",
+		"AllTeams": [
+			"EDward Gaming",
+			"EDward Gaming Youth Team",
+			"AD Gaming",
+			"EDward Esports",
+			"Team Fighter",
+			"Team Hurricane"
+		]
+	},
+	{
+		"Team": "EDward Gaming",
+		"AllTeams": [
+			"EDward Gaming",
+			"EDward Gaming Youth Team",
+			"AD Gaming",
+			"EDward Esports",
+			"Team Fighter",
+			"Team Hurricane"
+		]
+	},
+	{
+		"Team": "EDward Gaming Youth Team",
+		"AllTeams": [
+			"EDward Gaming",
+			"EDward Gaming Youth Team",
+			"AD Gaming",
+			"EDward Esports",
+			"Team Fighter",
+			"Team Hurricane"
+		]
+	},
+	{
+		"Team": "EGN Esports",
+		"AllTeams": ["EGN Esports", "EGN Esports Academy"]
+	},
+	{
+		"Team": "EGN Esports Academy",
+		"AllTeams": ["EGN Esports", "EGN Esports Academy"]
+	},
+	{
+		"Team": "Energy Pacemaker",
+		"AllTeams": [
+			"Energy Pacemaker",
+			"Energy Pacemaker.All",
+			"Energy Pacemaker.Carries",
+			"Energy Pacemaker.YCSM"
+		]
+	},
+	{
+		"Team": "Energy Pacemaker.All",
+		"AllTeams": [
+			"Energy Pacemaker",
+			"Energy Pacemaker.All",
+			"Energy Pacemaker.Carries",
+			"Energy Pacemaker.YCSM"
+		]
+	},
+	{
+		"Team": "Energy Pacemaker.Carries",
+		"AllTeams": [
+			"Energy Pacemaker",
+			"Energy Pacemaker.All",
+			"Energy Pacemaker.Carries",
+			"Energy Pacemaker.YCSM"
+		]
+	},
+	{
+		"Team": "Energy Pacemaker.YCSM",
+		"AllTeams": [
+			"Energy Pacemaker",
+			"Energy Pacemaker.All",
+			"Energy Pacemaker.Carries",
+			"Energy Pacemaker.YCSM"
+		]
+	},
+	{
+		"Team": "ESC Ever",
+		"AllTeams": ["ESC Ever", "ESC Shane", "ESports Connected", "Seorabeol Gaming"]
+	},
+	{
+		"Team": "ESC Gaming Omega",
+		"AllTeams": ["ESC Gaming Sigma", "ESC Gaming Omega"]
+	},
+	{
+		"Team": "ESC Gaming Sigma",
+		"AllTeams": ["ESC Gaming Sigma", "ESC Gaming Omega"]
+	},
+	{
+		"Team": "ESC Shane",
+		"AllTeams": ["ESC Ever", "ESC Shane", "ESports Connected", "Seorabeol Gaming"]
+	},
+	{
+		"Team": "ESCORT P9",
+		"AllTeams": ["ESCORT P9", "ESCORT P9 Academy"]
+	},
+	{
+		"Team": "ESCORT P9 Academy",
+		"AllTeams": ["ESCORT P9", "ESCORT P9 Academy"]
+	},
+	{
+		"Team": "ESports Connected",
+		"AllTeams": ["ESC Ever", "ESC Shane", "ESports Connected", "Seorabeol Gaming"]
+	},
+	{
+		"Team": "Estadio Quesito",
+		"AllTeams": ["Team Queso", "Arena Quesito", "Estadio Quesito"]
+	},
+	{
+		"Team": "eStar (Chinese Team)",
+		"AllTeams": ["eStar (Chinese Team)", "eStar Young"]
+	},
+	{
+		"Team": "eStar Young",
+		"AllTeams": ["eStar (Chinese Team)", "eStar Young"]
+	},
+	{
+		"Team": "Estral E-Sports Colombia",
+		"AllTeams": [
+			"Estral Esports",
+			"Estral Esports Aurora",
+			"Estral E-Sports Colombia",
+			"Estral Esports Academy"
+		]
+	},
+	{
+		"Team": "Estral Esports",
+		"AllTeams": [
+			"Estral Esports",
+			"Estral Esports Aurora",
+			"Estral E-Sports Colombia",
+			"Estral Esports Academy"
+		]
+	},
+	{
+		"Team": "Estral Esports Academy",
+		"AllTeams": [
+			"Estral Esports",
+			"Estral Esports Aurora",
+			"Estral E-Sports Colombia",
+			"Estral Esports Academy"
+		]
+	},
+	{
+		"Team": "Estral Esports Aurora",
+		"AllTeams": [
+			"Estral Esports",
+			"Estral Esports Aurora",
+			"Estral E-Sports Colombia",
+			"Estral Esports Academy"
+		]
+	},
+	{
+		"Team": "eSuba",
+		"AllTeams": ["eSuba", "eSuba Academy", "eSuba Ladies"]
+	},
+	{
+		"Team": "eSuba Academy",
+		"AllTeams": ["eSuba", "eSuba Academy", "eSuba Ladies"]
+	},
+	{
+		"Team": "eSuba Ladies",
+		"AllTeams": ["eSuba", "eSuba Academy", "eSuba Ladies"]
+	},
+	{
+		"Team": "Evil Geniuses Academy",
+		"AllTeams": [
+			"Evil Geniuses.NA",
+			"Evil Geniuses Challengers",
+			"Evil Geniuses Academy",
+			"Evil Geniuses Prodigies",
+			"Evil Geniuses.EU"
+		]
+	},
+	{
+		"Team": "Evil Geniuses Challengers",
+		"AllTeams": [
+			"Evil Geniuses.NA",
+			"Evil Geniuses Challengers",
+			"Evil Geniuses Academy",
+			"Evil Geniuses Prodigies",
+			"Evil Geniuses.EU"
+		]
+	},
+	{
+		"Team": "Evil Geniuses Prodigies",
+		"AllTeams": [
+			"Evil Geniuses.NA",
+			"Evil Geniuses Challengers",
+			"Evil Geniuses Academy",
+			"Evil Geniuses Prodigies",
+			"Evil Geniuses.EU"
+		]
+	},
+	{
+		"Team": "Evil Geniuses.EU",
+		"AllTeams": [
+			"Evil Geniuses.NA",
+			"Evil Geniuses Challengers",
+			"Evil Geniuses Academy",
+			"Evil Geniuses Prodigies",
+			"Evil Geniuses.EU"
+		]
+	},
+	{
+		"Team": "Evil Geniuses.NA",
+		"AllTeams": [
+			"Evil Geniuses.NA",
+			"Evil Geniuses Challengers",
+			"Evil Geniuses Academy",
+			"Evil Geniuses Prodigies",
+			"Evil Geniuses.EU"
+		]
+	},
+	{
+		"Team": "EVOS Esports",
+		"AllTeams": ["EVOS Esports", "EVOS Valkyrie"]
+	},
+	{
+		"Team": "EVOS Valkyrie",
+		"AllTeams": ["EVOS Esports", "EVOS Valkyrie"]
+	},
+	{
+		"Team": "exceL Academy",
+		"AllTeams": ["Excel Esports", "JDXL", "exceL Academy", "exceL Ladies"]
+	},
+	{
+		"Team": "Excel Esports",
+		"AllTeams": ["Excel Esports", "JDXL", "exceL Academy", "exceL Ladies"]
+	},
+	{
+		"Team": "exceL Ladies",
+		"AllTeams": ["Excel Esports", "JDXL", "exceL Academy", "exceL Ladies"]
+	},
+	{
+		"Team": "EYES ON U",
+		"AllTeams": ["EYES ON U", "EYES ON U Europe"]
+	},
+	{
+		"Team": "EYES ON U Europe",
+		"AllTeams": ["EYES ON U", "EYES ON U Europe"]
+	},
+	{
+		"Team": "Falcon E-Sports",
+		"AllTeams": ["Falcon E-Sports", "Falcon E-Sports Red"]
+	},
+	{
+		"Team": "Falcon E-Sports Red",
+		"AllTeams": ["Falcon E-Sports", "Falcon E-Sports Red"]
+	},
+	{
+		"Team": "Falkol",
+		"AllTeams": ["Falkol", "Falkol Academy", "Falkol Storm"]
+	},
+	{
+		"Team": "Falkol Academy",
+		"AllTeams": ["Falkol", "Falkol Academy", "Falkol Storm"]
+	},
+	{
+		"Team": "Falkol Storm",
+		"AllTeams": ["Falkol", "Falkol Academy", "Falkol Storm"]
+	},
+	{
+		"Team": "FC Schalke 04 Esports",
+		"AllTeams": ["FC Schalke 04 Esports", "FC Schalke 04 Evolution"]
+	},
+	{
+		"Team": "FC Schalke 04 Evolution",
+		"AllTeams": ["FC Schalke 04 Esports", "FC Schalke 04 Evolution"]
+	},
+	{
+		"Team": "FearX",
+		"AllTeams": ["FearX", "FearX Youth", "FearX Academy"]
+	},
+	{
+		"Team": "FearX Academy",
+		"AllTeams": ["FearX", "FearX Youth", "FearX Academy"]
+	},
+	{
+		"Team": "FearX Youth",
+		"AllTeams": ["FearX", "FearX Youth", "FearX Academy"]
+	},
+	{
+		"Team": "Fenerbahçe Academy",
+		"AllTeams": ["Fenerbahçe Esports", "Fenerbahçe Academy"]
+	},
+	{
+		"Team": "Fenerbahçe Esports",
+		"AllTeams": ["Fenerbahçe Esports", "Fenerbahçe Academy"]
+	},
+	{
+		"Team": "FENNEL",
+		"AllTeams": ["FENNEL", "FENNEL Academy"]
+	},
+	{
+		"Team": "FENNEL Academy",
+		"AllTeams": ["FENNEL", "FENNEL Academy"]
+	},
+	{
+		"Team": "Fish Dive Team",
+		"AllTeams": ["Dragon Gate Team", "Fish Dive Team"]
+	},
+	{
+		"Team": "Flamengo Academy",
+		"AllTeams": [
+			"Flamengo Los Grandes",
+			"Flamengo Los Grandes Academy",
+			"Flamengo Esports",
+			"Flamengo Academy",
+			"Flamengo Los Grandes Academy"
+		]
+	},
+	{
+		"Team": "Flamengo Esports",
+		"AllTeams": [
+			"Flamengo Los Grandes",
+			"Flamengo Los Grandes Academy",
+			"Flamengo Esports",
+			"Flamengo Academy",
+			"Flamengo Los Grandes Academy"
+		]
+	},
+	{
+		"Team": "Flamengo Los Grandes",
+		"AllTeams": [
+			"Flamengo Los Grandes",
+			"Flamengo Los Grandes Academy",
+			"Flamengo Esports",
+			"Flamengo Academy",
+			"Flamengo Los Grandes Academy"
+		]
+	},
+	{
+		"Team": "Flamengo Los Grandes Academy",
+		"AllTeams": [
+			"Flamengo Los Grandes",
+			"Flamengo Los Grandes Academy",
+			"Flamengo Esports",
+			"Flamengo Academy",
+			"Flamengo Los Grandes Academy"
+		]
+	},
+	{
+		"Team": "Flamengo Los Grandes Academy",
+		"AllTeams": [
+			"Flamengo Los Grandes",
+			"Flamengo Los Grandes Academy",
+			"Flamengo Esports",
+			"Flamengo Academy",
+			"Flamengo Los Grandes Academy"
+		]
+	},
+	{
+		"Team": "Flash Husky",
+		"AllTeams": ["Flash Wolves", "Flash Husky", "Flash Wolves Junior"]
+	},
+	{
+		"Team": "Flash Wolves",
+		"AllTeams": ["Flash Wolves", "Flash Husky", "Flash Wolves Junior"]
+	},
+	{
+		"Team": "Flash Wolves Junior",
+		"AllTeams": ["Flash Wolves", "Flash Husky", "Flash Wolves Junior"]
+	},
+	{
+		"Team": "Flayn eSports",
+		"AllTeams": [
+			"Flayn eSports",
+			"Flayn eSports Danish Edition",
+			"Flayn eSports Dutch",
+			"Flayn eSports CZSK Edition",
+			"Flayn eSports Swiss Edition"
+		]
+	},
+	{
+		"Team": "Flayn eSports CZSK Edition",
+		"AllTeams": [
+			"Flayn eSports",
+			"Flayn eSports Danish Edition",
+			"Flayn eSports Dutch",
+			"Flayn eSports CZSK Edition",
+			"Flayn eSports Swiss Edition"
+		]
+	},
+	{
+		"Team": "Flayn eSports Danish Edition",
+		"AllTeams": [
+			"Flayn eSports",
+			"Flayn eSports Danish Edition",
+			"Flayn eSports Dutch",
+			"Flayn eSports CZSK Edition",
+			"Flayn eSports Swiss Edition"
+		]
+	},
+	{
+		"Team": "Flayn eSports Dutch",
+		"AllTeams": [
+			"Flayn eSports",
+			"Flayn eSports Danish Edition",
+			"Flayn eSports Dutch",
+			"Flayn eSports CZSK Edition",
+			"Flayn eSports Swiss Edition"
+		]
+	},
+	{
+		"Team": "Flayn eSports Swiss Edition",
+		"AllTeams": [
+			"Flayn eSports",
+			"Flayn eSports Danish Edition",
+			"Flayn eSports Dutch",
+			"Flayn eSports CZSK Edition",
+			"Flayn eSports Swiss Edition"
+		]
+	},
+	{
+		"Team": "Fluxo",
+		"AllTeams": ["Fluxo", "Fluxo Academy"]
+	},
+	{
+		"Team": "Fluxo Academy",
+		"AllTeams": ["Fluxo", "Fluxo Academy"]
+	},
+	{
+		"Team": "FLY FAM",
+		"AllTeams": ["FlyQuest", "FlyQuest Challengers", "FlyQuest Academy", "FLY FAM"]
+	},
+	{
+		"Team": "Fly5",
+		"AllTeams": ["Fly5", "Fly5 Academy"]
+	},
+	{
+		"Team": "Fly5 Academy",
+		"AllTeams": ["Fly5", "Fly5 Academy"]
+	},
+	{
+		"Team": "FlyQuest",
+		"AllTeams": ["FlyQuest", "FlyQuest Challengers", "FlyQuest Academy", "FLY FAM"]
+	},
+	{
+		"Team": "FlyQuest Academy",
+		"AllTeams": ["FlyQuest", "FlyQuest Challengers", "FlyQuest Academy", "FLY FAM"]
+	},
+	{
+		"Team": "FlyQuest Challengers",
+		"AllTeams": ["FlyQuest", "FlyQuest Challengers", "FlyQuest Academy", "FLY FAM"]
+	},
+	{
+		"Team": "Fnatic",
+		"AllTeams": ["Fnatic", "Fnatic Academy", "Fnatic.Beta", "Fnatic Rising", "Fnatic TQ"]
+	},
+	{
+		"Team": "Fnatic Academy",
+		"AllTeams": ["Fnatic", "Fnatic Academy", "Fnatic.Beta", "Fnatic Rising", "Fnatic TQ"]
+	},
+	{
+		"Team": "Fnatic Rising",
+		"AllTeams": ["Fnatic", "Fnatic Academy", "Fnatic.Beta", "Fnatic Rising", "Fnatic TQ"]
+	},
+	{
+		"Team": "Fnatic TQ",
+		"AllTeams": ["Fnatic", "Fnatic Academy", "Fnatic.Beta", "Fnatic Rising", "Fnatic TQ"]
+	},
+	{
+		"Team": "Fnatic.Beta",
+		"AllTeams": ["Fnatic", "Fnatic Academy", "Fnatic.Beta", "Fnatic Rising", "Fnatic TQ"]
+	},
+	{
+		"Team": "For The Win Esports",
+		"AllTeams": ["For The Win Esports", "For The Win Evolution", "For The Win Prinfor"]
+	},
+	{
+		"Team": "For The Win Evolution",
+		"AllTeams": ["For The Win Esports", "For The Win Evolution", "For The Win Prinfor"]
+	},
+	{
+		"Team": "For The Win Prinfor",
+		"AllTeams": ["For The Win Esports", "For The Win Evolution", "For The Win Prinfor"]
+	},
+	{
+		"Team": "FPT Can Tho",
+		"AllTeams": [
+			"FPT Hanoi",
+			"FPT Ho Chi Minh",
+			"FPT Da Nang",
+			"FPT Hanoi 2",
+			"FPT Can Tho",
+			"FPT University"
+		]
+	},
+	{
+		"Team": "FPT Da Nang",
+		"AllTeams": [
+			"FPT Hanoi",
+			"FPT Ho Chi Minh",
+			"FPT Da Nang",
+			"FPT Hanoi 2",
+			"FPT Can Tho",
+			"FPT University"
+		]
+	},
+	{
+		"Team": "FPT Hanoi",
+		"AllTeams": [
+			"FPT Hanoi",
+			"FPT Ho Chi Minh",
+			"FPT Da Nang",
+			"FPT Hanoi 2",
+			"FPT Can Tho",
+			"FPT University"
+		]
+	},
+	{
+		"Team": "FPT Hanoi 2",
+		"AllTeams": [
+			"FPT Hanoi",
+			"FPT Ho Chi Minh",
+			"FPT Da Nang",
+			"FPT Hanoi 2",
+			"FPT Can Tho",
+			"FPT University"
+		]
+	},
+	{
+		"Team": "FPT Ho Chi Minh",
+		"AllTeams": [
+			"FPT Hanoi",
+			"FPT Ho Chi Minh",
+			"FPT Da Nang",
+			"FPT Hanoi 2",
+			"FPT Can Tho",
+			"FPT University"
+		]
+	},
+	{
+		"Team": "FPT University",
+		"AllTeams": [
+			"FPT Hanoi",
+			"FPT Ho Chi Minh",
+			"FPT Da Nang",
+			"FPT Hanoi 2",
+			"FPT Can Tho",
+			"FPT University"
+		]
+	},
+	{
+		"Team": "Frank Esports",
+		"AllTeams": ["Frank Esports", "Frank Esports Academy"]
+	},
+	{
+		"Team": "Frank Esports Academy",
+		"AllTeams": ["Frank Esports", "Frank Esports Academy"]
+	},
+	{
+		"Team": "French Bees",
+		"AllTeams": [
+			"Team Vitality",
+			"Vitality.Bee",
+			"French Bees",
+			"Team Vitality Academy",
+			"Yellow Stripes"
+		]
+	},
+	{
+		"Team": "Fukuoka SoftBank HAWKS gaming",
+		"AllTeams": ["Fukuoka SoftBank HAWKS gaming", "Fukuoka SoftBank HAWKS gaming Academy"]
+	},
+	{
+		"Team": "Fukuoka SoftBank HAWKS gaming Academy",
+		"AllTeams": ["Fukuoka SoftBank HAWKS gaming", "Fukuoka SoftBank HAWKS gaming Academy"]
+	},
+	{
+		"Team": "FunPlus Phoenix",
+		"AllTeams": ["FunPlus Phoenix", "FunPlus Phoenix Blaze"]
+	},
+	{
+		"Team": "FunPlus Phoenix Blaze",
+		"AllTeams": ["FunPlus Phoenix", "FunPlus Phoenix Blaze"]
+	},
+	{
+		"Team": "FURIA",
+		"AllTeams": ["FURIA", "FURIA Academy"]
+	},
+	{
+		"Team": "FURIA Academy",
+		"AllTeams": ["FURIA", "FURIA Academy"]
+	},
+	{
+		"Team": "Furious Gaming",
+		"AllTeams": [
+			"Furious Gaming",
+			"Furious Gaming Academy",
+			"Furious Gaming Red",
+			"Furious Gaming Argentina",
+			"Furious Gaming Chile"
+		]
+	},
+	{
+		"Team": "Furious Gaming Academy",
+		"AllTeams": [
+			"Furious Gaming",
+			"Furious Gaming Academy",
+			"Furious Gaming Red",
+			"Furious Gaming Argentina",
+			"Furious Gaming Chile"
+		]
+	},
+	{
+		"Team": "Furious Gaming Argentina",
+		"AllTeams": [
+			"Furious Gaming",
+			"Furious Gaming Academy",
+			"Furious Gaming Red",
+			"Furious Gaming Argentina",
+			"Furious Gaming Chile"
+		]
+	},
+	{
+		"Team": "Furious Gaming Chile",
+		"AllTeams": [
+			"Furious Gaming",
+			"Furious Gaming Academy",
+			"Furious Gaming Red",
+			"Furious Gaming Argentina",
+			"Furious Gaming Chile"
+		]
+	},
+	{
+		"Team": "Furious Gaming Red",
+		"AllTeams": [
+			"Furious Gaming",
+			"Furious Gaming Academy",
+			"Furious Gaming Red",
+			"Furious Gaming Argentina",
+			"Furious Gaming Chile"
+		]
+	},
+	{
+		"Team": "Future Perfect Azure",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect Blue",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect Demacia",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect ESLM",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect Ionia",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect Noxus",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect Orange",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect Purple",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect UA",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect WLGaming",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "Future Perfect Zaun",
+		"AllTeams": [
+			"Future Perfect Orange",
+			"Future Perfect Purple",
+			"Future Perfect Blue",
+			"Future Perfect UA",
+			"Future Perfect Azure",
+			"Future Perfect Demacia",
+			"Future Perfect Ionia",
+			"Future Perfect Noxus",
+			"Future Perfect Zaun",
+			"Future Perfect ESLM",
+			"Future Perfect WLGaming"
+		]
+	},
+	{
+		"Team": "G-Rex",
+		"AllTeams": ["G-Rex", "G-Rex Infinite"]
+	},
+	{
+		"Team": "G-Rex Infinite",
+		"AllTeams": ["G-Rex", "G-Rex Infinite"]
+	},
+	{
+		"Team": "G2 Arctic",
+		"AllTeams": ["G2 Esports", "G2 Arctic", "G2 Hel", "G2 Heretics", "G2 Vodafone"]
+	},
+	{
+		"Team": "G2 Esports",
+		"AllTeams": ["G2 Esports", "G2 Arctic", "G2 Hel", "G2 Heretics", "G2 Vodafone"]
+	},
+	{
+		"Team": "G2 Hel",
+		"AllTeams": ["G2 Esports", "G2 Arctic", "G2 Hel", "G2 Heretics", "G2 Vodafone"]
+	},
+	{
+		"Team": "G2 Heretics",
+		"AllTeams": ["G2 Esports", "G2 Arctic", "G2 Hel", "G2 Heretics", "G2 Vodafone"]
+	},
+	{
+		"Team": "G2 Vodafone",
+		"AllTeams": ["G2 Esports", "G2 Arctic", "G2 Hel", "G2 Heretics", "G2 Vodafone"]
+	},
+	{
+		"Team": "Galakticos",
+		"AllTeams": ["Galakticos", "Galakticos Academy"]
+	},
+	{
+		"Team": "Galakticos Academy",
+		"AllTeams": ["Galakticos", "Galakticos Academy"]
+	},
+	{
+		"Team": "Galatasaray Academy",
+		"AllTeams": ["Galatasaray Esports", "Galatasaray Academy"]
+	},
+	{
+		"Team": "Galatasaray Esports",
+		"AllTeams": ["Galatasaray Esports", "Galatasaray Academy"]
+	},
+	{
+		"Team": "Galaxy Racer Esports EU Female",
+		"AllTeams": [
+			"Galaxy Racer Esports EU Male",
+			"Galaxy Racer Esports MENA Male",
+			"Galaxy Racer Esports EU Female",
+			"Galaxy Racer Esports MENA Female"
+		]
+	},
+	{
+		"Team": "Galaxy Racer Esports EU Male",
+		"AllTeams": [
+			"Galaxy Racer Esports EU Male",
+			"Galaxy Racer Esports MENA Male",
+			"Galaxy Racer Esports EU Female",
+			"Galaxy Racer Esports MENA Female"
+		]
+	},
+	{
+		"Team": "Galaxy Racer Esports MENA Female",
+		"AllTeams": [
+			"Galaxy Racer Esports EU Male",
+			"Galaxy Racer Esports MENA Male",
+			"Galaxy Racer Esports EU Female",
+			"Galaxy Racer Esports MENA Female"
+		]
+	},
+	{
+		"Team": "Galaxy Racer Esports MENA Male",
+		"AllTeams": [
+			"Galaxy Racer Esports EU Male",
+			"Galaxy Racer Esports MENA Male",
+			"Galaxy Racer Esports EU Female",
+			"Galaxy Racer Esports MENA Female"
+		]
+	},
+	{
+		"Team": "Gama Dream",
+		"AllTeams": ["Gama Dream", "Gama E-Sport Dream"]
+	},
+	{
+		"Team": "Gama E-Sport Dream",
+		"AllTeams": ["Gama Dream", "Gama E-Sport Dream"]
+	},
+	{
+		"Team": "Gambit Esports",
+		"AllTeams": ["Gambit Esports", "Gambit.CIS Academy", "Gambit Gaming"]
+	},
+	{
+		"Team": "Gambit Gaming",
+		"AllTeams": ["Gambit Esports", "Gambit.CIS Academy", "Gambit Gaming"]
+	},
+	{
+		"Team": "Gambit.CIS Academy",
+		"AllTeams": ["Gambit Esports", "Gambit.CIS Academy", "Gambit Gaming"]
+	},
+	{
+		"Team": "Game Talents",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "GamersOrigin",
+		"AllTeams": ["GamersOrigin", "GamersOrigin Academy"]
+	},
+	{
+		"Team": "GamersOrigin Academy",
+		"AllTeams": ["GamersOrigin", "GamersOrigin Academy"]
+	},
+	{
+		"Team": "Gamespace Mediterranean College Esports",
+		"AllTeams": [
+			"Gamespace Mediterranean College Esports",
+			"Gamespace Mediterranean College Esports Academy"
+		]
+	},
+	{
+		"Team": "Gamespace Mediterranean College Esports Academy",
+		"AllTeams": [
+			"Gamespace Mediterranean College Esports",
+			"Gamespace Mediterranean College Esports Academy"
+		]
+	},
+	{
+		"Team": "GameWard",
+		"AllTeams": ["GameWard", "GameWard Academy"]
+	},
+	{
+		"Team": "GameWard Academy",
+		"AllTeams": ["GameWard", "GameWard Academy"]
+	},
+	{
+		"Team": "Gamtee",
+		"AllTeams": ["Gamtee", "Gamtee E"]
+	},
+	{
+		"Team": "Gamtee E",
+		"AllTeams": ["Gamtee", "Gamtee E"]
+	},
+	{
+		"Team": "GC Busan (2020 Korean Team)",
+		"AllTeams": ["GC Busan Ascension", "GC Busan Rising Star", "GC Busan (2020 Korean Team)"]
+	},
+	{
+		"Team": "GC Busan Ascension",
+		"AllTeams": ["GC Busan Ascension", "GC Busan Rising Star", "GC Busan (2020 Korean Team)"]
+	},
+	{
+		"Team": "GC Busan Rising Star",
+		"AllTeams": ["GC Busan Ascension", "GC Busan Rising Star", "GC Busan (2020 Korean Team)"]
+	},
+	{
+		"Team": "Gen.G",
+		"AllTeams": ["Gen.G", "Gen.G Global Academy", "Gen.G Academy"]
+	},
+	{
+		"Team": "Gen.G Academy",
+		"AllTeams": ["Gen.G", "Gen.G Global Academy", "Gen.G Academy"]
+	},
+	{
+		"Team": "Gen.G Global Academy",
+		"AllTeams": ["Gen.G", "Gen.G Global Academy", "Gen.G Academy"]
+	},
+	{
+		"Team": "Gentlemen's Academy",
+		"AllTeams": ["Gentlemen's Gaming", "Gentlemen's Academy"]
+	},
+	{
+		"Team": "Gentlemen's Gaming",
+		"AllTeams": ["Gentlemen's Gaming", "Gentlemen's Academy"]
+	},
+	{
+		"Team": "GGEsports",
+		"AllTeams": ["GGEsports", "GGEsports Academy"]
+	},
+	{
+		"Team": "GGEsports Academy",
+		"AllTeams": ["GGEsports", "GGEsports Academy"]
+	},
+	{
+		"Team": "Giants Academy",
+		"AllTeams": [
+			"Vodafone Giants.Spain",
+			"Vodafone Giants Academy",
+			"Vodafone Giants White",
+			"Giants Gaming",
+			"Giants Academy"
+		]
+	},
+	{
+		"Team": "Giants Gaming",
+		"AllTeams": [
+			"Vodafone Giants.Spain",
+			"Vodafone Giants Academy",
+			"Vodafone Giants White",
+			"Giants Gaming",
+			"Giants Academy"
+		]
+	},
+	{
+		"Team": "GIANTX",
+		"AllTeams": ["GIANTX", "GIANTX Academy"]
+	},
+	{
+		"Team": "GIANTX Academy",
+		"AllTeams": ["GIANTX", "GIANTX Academy"]
+	},
+	{
+		"Team": "Girls HK by Logitech",
+		"AllTeams": ["Logi-A Team", "Girls HK by Logitech"]
+	},
+	{
+		"Team": "Gity Meavedronu",
+		"AllTeams": ["Meavedron", "Gity Meavedronu"]
+	},
+	{
+		"Team": "Glacial Esports",
+		"AllTeams": ["Glacial Esports", "Glacial Red"]
+	},
+	{
+		"Team": "Glacial Red",
+		"AllTeams": ["Glacial Esports", "Glacial Red"]
+	},
+	{
+		"Team": "Globant Emerald",
+		"AllTeams": ["Globant Emerald", "Globant Emerald Academy"]
+	},
+	{
+		"Team": "Globant Emerald Academy",
+		"AllTeams": ["Globant Emerald", "Globant Emerald Academy"]
+	},
+	{
+		"Team": "Glorious Gaming",
+		"AllTeams": ["Glorious Gaming", "Glorious Gaming Belgium"]
+	},
+	{
+		"Team": "Glorious Gaming Belgium",
+		"AllTeams": ["Glorious Gaming", "Glorious Gaming Belgium"]
+	},
+	{
+		"Team": "Golden Guardians",
+		"AllTeams": ["Golden Guardians", "Golden Guardians Academy", "Golden Guardians Challengers"]
+	},
+	{
+		"Team": "Golden Guardians Academy",
+		"AllTeams": ["Golden Guardians", "Golden Guardians Academy", "Golden Guardians Challengers"]
+	},
+	{
+		"Team": "Golden Guardians Challengers",
+		"AllTeams": ["Golden Guardians", "Golden Guardians Academy", "Golden Guardians Challengers"]
+	},
+	{
+		"Team": "Gravitas",
+		"AllTeams": ["Gravitas", "Gravitas Academy"]
+	},
+	{
+		"Team": "Gravitas Academy",
+		"AllTeams": ["Gravitas", "Gravitas Academy"]
+	},
+	{
+		"Team": "Grow uP Escolinhas",
+		"AllTeams": [
+			"Grow uP Girls EU",
+			"Grow uP eSports",
+			"Grow uP Escolinhas",
+			"Grow uP Synthesis",
+			"Grow uP Girls HK"
+		]
+	},
+	{
+		"Team": "Grow uP eSports",
+		"AllTeams": [
+			"Grow uP Girls EU",
+			"Grow uP eSports",
+			"Grow uP Escolinhas",
+			"Grow uP Synthesis",
+			"Grow uP Girls HK"
+		]
+	},
+	{
+		"Team": "Grow uP Girls EU",
+		"AllTeams": [
+			"Grow uP Girls EU",
+			"Grow uP eSports",
+			"Grow uP Escolinhas",
+			"Grow uP Synthesis",
+			"Grow uP Girls HK"
+		]
+	},
+	{
+		"Team": "Grow uP Girls HK",
+		"AllTeams": [
+			"Grow uP Girls EU",
+			"Grow uP eSports",
+			"Grow uP Escolinhas",
+			"Grow uP Synthesis",
+			"Grow uP Girls HK"
+		]
+	},
+	{
+		"Team": "Grow uP Synthesis",
+		"AllTeams": [
+			"Grow uP Girls EU",
+			"Grow uP eSports",
+			"Grow uP Escolinhas",
+			"Grow uP Synthesis",
+			"Grow uP Girls HK"
+		]
+	},
+	{
+		"Team": "Hanoi Dragons",
+		"AllTeams": ["Hanoi Dragons", "Hanoi Phoenix"]
+	},
+	{
+		"Team": "Hanoi Phoenix",
+		"AllTeams": ["Hanoi Dragons", "Hanoi Phoenix"]
+	},
+	{
+		"Team": "Hanwha Life Esports",
+		"AllTeams": [
+			"Hanwha Life Esports",
+			"Hanwha Life Esports Challengers",
+			"Hanwha Life Esports Academy"
+		]
+	},
+	{
+		"Team": "Hanwha Life Esports Academy",
+		"AllTeams": [
+			"Hanwha Life Esports",
+			"Hanwha Life Esports Challengers",
+			"Hanwha Life Esports Academy"
+		]
+	},
+	{
+		"Team": "Hanwha Life Esports Challengers",
+		"AllTeams": [
+			"Hanwha Life Esports",
+			"Hanwha Life Esports Challengers",
+			"Hanwha Life Esports Academy"
+		]
+	},
+	{
+		"Team": "Hard Random",
+		"AllTeams": ["Hard Random", "HR Academy"]
+	},
+	{
+		"Team": "Havan Liberty Academy",
+		"AllTeams": ["Havan Liberty Gaming", "Havan Liberty Academy"]
+	},
+	{
+		"Team": "Havan Liberty Gaming",
+		"AllTeams": ["Havan Liberty Gaming", "Havan Liberty Academy"]
+	},
+	{
+		"Team": "Hive Athens Academy",
+		"AllTeams": ["Hive Athens EC", "Hive Athens Academy"]
+	},
+	{
+		"Team": "Hive Athens EC",
+		"AllTeams": ["Hive Athens EC", "Hive Athens Academy"]
+	},
+	{
+		"Team": "Hong Kong Attitude",
+		"AllTeams": [
+			"Hong Kong Attitude",
+			"Hong Kong Esports",
+			"Hong Kong Attitude Mage",
+			"Hong Kong Attitude Priest"
+		]
+	},
+	{
+		"Team": "Hong Kong Attitude Mage",
+		"AllTeams": [
+			"Hong Kong Attitude",
+			"Hong Kong Esports",
+			"Hong Kong Attitude Mage",
+			"Hong Kong Attitude Priest"
+		]
+	},
+	{
+		"Team": "Hong Kong Attitude Priest",
+		"AllTeams": [
+			"Hong Kong Attitude",
+			"Hong Kong Esports",
+			"Hong Kong Attitude Mage",
+			"Hong Kong Attitude Priest"
+		]
+	},
+	{
+		"Team": "Hong Kong Esports",
+		"AllTeams": [
+			"Hong Kong Attitude",
+			"Hong Kong Esports",
+			"Hong Kong Attitude Mage",
+			"Hong Kong Attitude Priest"
+		]
+	},
+	{
+		"Team": "HR Academy",
+		"AllTeams": ["Hard Random", "HR Academy"]
+	},
+	{
+		"Team": "HWA Gaming",
+		"AllTeams": ["HWA Gaming", "HWA Gaming Academy"]
+	},
+	{
+		"Team": "HWA Gaming Academy",
+		"AllTeams": ["HWA Gaming", "HWA Gaming Academy"]
+	},
+	{
+		"Team": "Hybrid Esports",
+		"AllTeams": ["Hybrid Esports", "Hybrid Esports UK", "Hybrid Esports Benelux"]
+	},
+	{
+		"Team": "Hybrid Esports Benelux",
+		"AllTeams": ["Hybrid Esports", "Hybrid Esports UK", "Hybrid Esports Benelux"]
+	},
+	{
+		"Team": "Hybrid Esports UK",
+		"AllTeams": ["Hybrid Esports", "Hybrid Esports UK", "Hybrid Esports Benelux"]
+	},
+	{
+		"Team": "Hyper Nova",
+		"AllTeams": [
+			"Supernova",
+			"Dark Matter",
+			"Super Nova Sentinels",
+			"Hyper Nova",
+			"Super Nova Academy"
+		]
+	},
+	{
+		"Team": "I May",
+		"AllTeams": ["I May", "I May Academy"]
+	},
+	{
+		"Team": "I May Academy",
+		"AllTeams": ["I May", "I May Academy"]
+	},
+	{
+		"Team": "iG Deadly Fiend Girls",
+		"AllTeams": [
+			"Invictus Gaming",
+			"Invictus Gaming Young",
+			"Young Glory",
+			"Invictus Girls",
+			"iG Deadly Fiend Girls"
+		]
+	},
+	{
+		"Team": "Immortals",
+		"AllTeams": [
+			"Immortals",
+			"Immortals Academy",
+			"Immortals Challengers",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Immortals Academy",
+		"AllTeams": [
+			"Immortals",
+			"Immortals Academy",
+			"Immortals Challengers",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Immortals Area of Effect",
+		"AllTeams": [
+			"AOE Gold",
+			"AOE Esports",
+			"Area of Effect Cows",
+			"Area of Effect Ginger Turmeric",
+			"Area of Effect Randoms",
+			"Area of Effect Brady",
+			"Area of Effect Cope",
+			"Area of Effect Dinka LFGF",
+			"Area of Effect Need Her",
+			"Area of Effect Not Zoos",
+			"Area of Effect Pump",
+			"Area of Effect Vice",
+			"Area of Effect Will's Kittens",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Immortals Area of Effect",
+		"AllTeams": [
+			"Immortals",
+			"Immortals Academy",
+			"Immortals Challengers",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Immortals Challengers",
+		"AllTeams": [
+			"Immortals",
+			"Immortals Academy",
+			"Immortals Challengers",
+			"Immortals Area of Effect"
+		]
+	},
+	{
+		"Team": "Imperium Pro Team",
+		"AllTeams": ["Imperium Pro Team", "Imperium Pro Team Blue", "Imperium Pro Team S"]
+	},
+	{
+		"Team": "Imperium Pro Team Blue",
+		"AllTeams": ["Imperium Pro Team", "Imperium Pro Team Blue", "Imperium Pro Team S"]
+	},
+	{
+		"Team": "Imperium Pro Team S",
+		"AllTeams": ["Imperium Pro Team", "Imperium Pro Team Blue", "Imperium Pro Team S"]
+	},
+	{
+		"Team": "Impunity",
+		"AllTeams": ["Impunity", "Impunity Legends"]
+	},
+	{
+		"Team": "Impunity Legends",
+		"AllTeams": ["Impunity", "Impunity Legends"]
+	},
+	{
+		"Team": "Inaequalis",
+		"AllTeams": ["Inaequalis", "Inaequalis Academy"]
+	},
+	{
+		"Team": "Inaequalis Academy",
+		"AllTeams": ["Inaequalis", "Inaequalis Academy"]
+	},
+	{
+		"Team": "Incredible Miracle",
+		"AllTeams": ["Incredible Miracle", "Incredible Miracle 1", "Incredible Miracle 2"]
+	},
+	{
+		"Team": "Incredible Miracle 1",
+		"AllTeams": ["Incredible Miracle", "Incredible Miracle 1", "Incredible Miracle 2"]
+	},
+	{
+		"Team": "Incredible Miracle 2",
+		"AllTeams": ["Incredible Miracle", "Incredible Miracle 1", "Incredible Miracle 2"]
+	},
+	{
+		"Team": "INFINITY",
+		"AllTeams": [
+			"INFINITY",
+			"Infinity Esports Costa Rica",
+			"Infinity Esports Colombia",
+			"Infinity Esports Academy"
+		]
+	},
+	{
+		"Team": "Infinity Esports Academy",
+		"AllTeams": [
+			"INFINITY",
+			"Infinity Esports Costa Rica",
+			"Infinity Esports Colombia",
+			"Infinity Esports Academy"
+		]
+	},
+	{
+		"Team": "Infinity Esports Colombia",
+		"AllTeams": [
+			"INFINITY",
+			"Infinity Esports Costa Rica",
+			"Infinity Esports Colombia",
+			"Infinity Esports Academy"
+		]
+	},
+	{
+		"Team": "Infinity Esports Costa Rica",
+		"AllTeams": [
+			"INFINITY",
+			"Infinity Esports Costa Rica",
+			"Infinity Esports Colombia",
+			"Infinity Esports Academy"
+		]
+	},
+	{
+		"Team": "Inside Games",
+		"AllTeams": ["Inside Games", "Inside Games Academy", "Inside Games Challengers"]
+	},
+	{
+		"Team": "Inside Games Academy",
+		"AllTeams": ["Inside Games", "Inside Games Academy", "Inside Games Challengers"]
+	},
+	{
+		"Team": "Inside Games Challengers",
+		"AllTeams": ["Inside Games", "Inside Games Academy", "Inside Games Challengers"]
+	},
+	{
+		"Team": "INTZ",
+		"AllTeams": ["INTZ", "INTZ Academy", "INTZ Blue", "INTZ.Genesis", "INTZ Red"]
+	},
+	{
+		"Team": "INTZ Academy",
+		"AllTeams": ["INTZ", "INTZ Academy", "INTZ Blue", "INTZ.Genesis", "INTZ Red"]
+	},
+	{
+		"Team": "INTZ Blue",
+		"AllTeams": ["INTZ", "INTZ Academy", "INTZ Blue", "INTZ.Genesis", "INTZ Red"]
+	},
+	{
+		"Team": "INTZ Red",
+		"AllTeams": ["INTZ", "INTZ Academy", "INTZ Blue", "INTZ.Genesis", "INTZ Red"]
+	},
+	{
+		"Team": "INTZ.Genesis",
+		"AllTeams": ["INTZ", "INTZ Academy", "INTZ Blue", "INTZ.Genesis", "INTZ Red"]
+	},
+	{
+		"Team": "Invictus Gaming",
+		"AllTeams": [
+			"Invictus Gaming",
+			"Invictus Gaming Young",
+			"Young Glory",
+			"Invictus Girls",
+			"iG Deadly Fiend Girls"
+		]
+	},
+	{
+		"Team": "Invictus Gaming Young",
+		"AllTeams": [
+			"Invictus Gaming",
+			"Invictus Gaming Young",
+			"Young Glory",
+			"Invictus Girls",
+			"iG Deadly Fiend Girls"
+		]
+	},
+	{
+		"Team": "Invictus Girls",
+		"AllTeams": [
+			"Invictus Gaming",
+			"Invictus Gaming Young",
+			"Young Glory",
+			"Invictus Girls",
+			"iG Deadly Fiend Girls"
+		]
+	},
+	{
+		"Team": "Ion Squad",
+		"AllTeams": ["Ion Squad", "Ion Squad Academy"]
+	},
+	{
+		"Team": "Ion Squad Academy",
+		"AllTeams": ["Ion Squad", "Ion Squad Academy"]
+	},
+	{
+		"Team": "Iron Hawks e-Sports",
+		"AllTeams": ["Iron Hawks e-Sports", "Iron Hawks Ultimate"]
+	},
+	{
+		"Team": "Iron Hawks Ultimate",
+		"AllTeams": ["Iron Hawks e-Sports", "Iron Hawks Ultimate"]
+	},
+	{
+		"Team": "Istanbul Wildcats",
+		"AllTeams": ["Istanbul Wildcats", "Istanbul Wildcats Academy"]
+	},
+	{
+		"Team": "Istanbul Wildcats Academy",
+		"AllTeams": ["Istanbul Wildcats", "Istanbul Wildcats Academy"]
+	},
+	{
+		"Team": "Isurus",
+		"AllTeams": ["Isurus", "Isurus Gaming HyperX", "Isurus Academy", "Isurus Gaming Chile"]
+	},
+	{
+		"Team": "Isurus Academy",
+		"AllTeams": ["Isurus", "Isurus Gaming HyperX", "Isurus Academy", "Isurus Gaming Chile"]
+	},
+	{
+		"Team": "Isurus Gaming Chile",
+		"AllTeams": ["Isurus", "Isurus Gaming HyperX", "Isurus Academy", "Isurus Gaming Chile"]
+	},
+	{
+		"Team": "Isurus Gaming HyperX",
+		"AllTeams": ["Isurus", "Isurus Gaming HyperX", "Isurus Academy", "Isurus Gaming Chile"]
+	},
+	{
+		"Team": "J Team",
+		"AllTeams": ["J Team", "Taipei Bravo", "J Team 2"]
+	},
+	{
+		"Team": "J Team 2",
+		"AllTeams": ["J Team", "Taipei Bravo", "J Team 2"]
+	},
+	{
+		"Team": "Janus Esports",
+		"AllTeams": ["Janus Esports", "Janus Vipers", "Janus Esports Academy"]
+	},
+	{
+		"Team": "Janus Esports Academy",
+		"AllTeams": ["Janus Esports", "Janus Vipers", "Janus Esports Academy"]
+	},
+	{
+		"Team": "Janus Vipers",
+		"AllTeams": ["Janus Esports", "Janus Vipers", "Janus Esports Academy"]
+	},
+	{
+		"Team": "JD Gaming",
+		"AllTeams": ["JD Gaming", "Joy Dream"]
+	},
+	{
+		"Team": "JDXL",
+		"AllTeams": ["Excel Esports", "JDXL", "exceL Academy", "exceL Ladies"]
+	},
+	{
+		"Team": "Ji Jie Hao",
+		"AllTeams": ["Ninjas in Pyjamas.CN", "Ji Jie Hao", "Ninjas in Pyjamas", "Young Ninjas"]
+	},
+	{
+		"Team": "Jin Air Green Wings",
+		"AllTeams": [
+			"Jin Air Green Wings",
+			"Jin Air Green Wings Falcons",
+			"Jin Air Green Wings Stealths"
+		]
+	},
+	{
+		"Team": "Jin Air Green Wings Falcons",
+		"AllTeams": [
+			"Jin Air Green Wings",
+			"Jin Air Green Wings Falcons",
+			"Jin Air Green Wings Stealths"
+		]
+	},
+	{
+		"Team": "Jin Air Green Wings Stealths",
+		"AllTeams": [
+			"Jin Air Green Wings",
+			"Jin Air Green Wings Falcons",
+			"Jin Air Green Wings Stealths"
+		]
+	},
+	{
+		"Team": "Joy Dream",
+		"AllTeams": ["JD Gaming", "Joy Dream"]
+	},
+	{
+		"Team": "K1ck Black",
+		"AllTeams": ["K1ck eSports Club", "K1ck Black", "K1ck White"]
+	},
+	{
+		"Team": "K1ck eSports Club",
+		"AllTeams": ["K1ck eSports Club", "K1ck Black", "K1ck White"]
+	},
+	{
+		"Team": "K1ck White",
+		"AllTeams": ["K1ck eSports Club", "K1ck Black", "K1ck White"]
+	},
+	{
+		"Team": "KaBuM! Academy",
+		"AllTeams": ["KaBuM! Esports", "KaBuM! Academy", "KaBuM! Black"]
+	},
+	{
+		"Team": "KaBuM! Black",
+		"AllTeams": ["KaBuM! Esports", "KaBuM! Academy", "KaBuM! Black"]
+	},
+	{
+		"Team": "KaBuM! Esports",
+		"AllTeams": ["KaBuM! Esports", "KaBuM! Academy", "KaBuM! Black"]
+	},
+	{
+		"Team": "KaBuM! IDM Gaming",
+		"AllTeams": ["KaBuM! IDM Gaming", "KaBuM! IDM UP"]
+	},
+	{
+		"Team": "KaBuM! IDM UP",
+		"AllTeams": ["KaBuM! IDM Gaming", "KaBuM! IDM UP"]
+	},
+	{
+		"Team": "Kaos Latin Gamers",
+		"AllTeams": ["Kaos Latin Gamers", "Kaos Latin Gamers Academy", "Play Again"]
+	},
+	{
+		"Team": "Kaos Latin Gamers Academy",
+		"AllTeams": ["Kaos Latin Gamers", "Kaos Latin Gamers Academy", "Play Again"]
+	},
+	{
+		"Team": "Karmine Corp",
+		"AllTeams": ["Karmine Corp", "Karmine Corp Blue"]
+	},
+	{
+		"Team": "Karmine Corp Blue",
+		"AllTeams": ["Karmine Corp", "Karmine Corp Blue"]
+	},
+	{
+		"Team": "Keep Pathing Bot",
+		"AllTeams": [
+			"5 Seasons",
+			"Kurulean's Kittens",
+			"Lotus (North American Team)",
+			"Black Lotus",
+			"Keep Pathing Bot",
+			"Lotus Exiles"
+		]
+	},
+	{
+		"Team": "Keyd Warriors",
+		"AllTeams": ["Vivo Keyd", "Keyd Warriors"]
+	},
+	{
+		"Team": "King of Future",
+		"AllTeams": ["Top Esports", "Top Esports Challenger", "Topsports Gaming", "King of Future"]
+	},
+	{
+		"Team": "KINGDOM",
+		"AllTeams": ["Rampage", "Rampage Quintet", "KINGDOM"]
+	},
+	{
+		"Team": "KIYF eSports Club",
+		"AllTeams": ["KIYF eSports Club", "KIYF Padawans"]
+	},
+	{
+		"Team": "KIYF Padawans",
+		"AllTeams": ["KIYF eSports Club", "KIYF Padawans"]
+	},
+	{
+		"Team": "KOI (Spanish Team)",
+		"AllTeams": ["KOI (Spanish Team)", "KOI Academy", "KOI Amethyst"]
+	},
+	{
+		"Team": "KOI Academy",
+		"AllTeams": ["KOI (Spanish Team)", "KOI Academy", "KOI Amethyst"]
+	},
+	{
+		"Team": "KOI Amethyst",
+		"AllTeams": ["KOI (Spanish Team)", "KOI Academy", "KOI Amethyst"]
+	},
+	{
+		"Team": "Komputronik Gaming Scouting Grounds",
+		"AllTeams": [
+			"devils.one",
+			"devils.one Female",
+			"DV1 Scouting Grounds",
+			"Komputronik Gaming Scouting Grounds"
+		]
+	},
+	{
+		"Team": "KT Rolster",
+		"AllTeams": [
+			"KT Rolster",
+			"KT Rolster Challengers",
+			"KT Rolster Academy",
+			"KT Rolster Arrows",
+			"KT Rolster Bullets"
+		]
+	},
+	{
+		"Team": "KT Rolster Academy",
+		"AllTeams": [
+			"KT Rolster",
+			"KT Rolster Challengers",
+			"KT Rolster Academy",
+			"KT Rolster Arrows",
+			"KT Rolster Bullets"
+		]
+	},
+	{
+		"Team": "KT Rolster Arrows",
+		"AllTeams": [
+			"KT Rolster",
+			"KT Rolster Challengers",
+			"KT Rolster Academy",
+			"KT Rolster Arrows",
+			"KT Rolster Bullets"
+		]
+	},
+	{
+		"Team": "KT Rolster Bullets",
+		"AllTeams": [
+			"KT Rolster",
+			"KT Rolster Challengers",
+			"KT Rolster Academy",
+			"KT Rolster Arrows",
+			"KT Rolster Bullets"
+		]
+	},
+	{
+		"Team": "KT Rolster Challengers",
+		"AllTeams": [
+			"KT Rolster",
+			"KT Rolster Challengers",
+			"KT Rolster Academy",
+			"KT Rolster Arrows",
+			"KT Rolster Bullets"
+		]
+	},
+	{
+		"Team": "Kurulean's Kittens",
+		"AllTeams": [
+			"5 Seasons",
+			"Kurulean's Kittens",
+			"Lotus (North American Team)",
+			"Black Lotus",
+			"Keep Pathing Bot",
+			"Lotus Exiles"
+		]
+	},
+	{
+		"Team": "KV Mechelen Esports",
+		"AllTeams": [
+			"KV Mechelen Esports",
+			"KV Mechelen Esports Academy",
+			"KV Mechelen Esports Strijders"
+		]
+	},
+	{
+		"Team": "KV Mechelen Esports Academy",
+		"AllTeams": [
+			"KV Mechelen Esports",
+			"KV Mechelen Esports Academy",
+			"KV Mechelen Esports Strijders"
+		]
+	},
+	{
+		"Team": "KV Mechelen Esports Strijders",
+		"AllTeams": [
+			"KV Mechelen Esports",
+			"KV Mechelen Esports Academy",
+			"KV Mechelen Esports Strijders"
+		]
+	},
+	{
+		"Team": "Kwangdong Freecs",
+		"AllTeams": ["Kwangdong Freecs", "Kwangdong Freecs Challengers", "Kwangdong Freecs Academy"]
+	},
+	{
+		"Team": "Kwangdong Freecs Academy",
+		"AllTeams": ["Kwangdong Freecs", "Kwangdong Freecs Challengers", "Kwangdong Freecs Academy"]
+	},
+	{
+		"Team": "Kwangdong Freecs Challengers",
+		"AllTeams": ["Kwangdong Freecs", "Kwangdong Freecs Challengers", "Kwangdong Freecs Academy"]
+	},
+	{
+		"Team": "Kx.Cash",
+		"AllTeams": ["Kx.Cash", "Kx.Happy", "Kx.LM", "Kx.R"]
+	},
+	{
+		"Team": "Kx.Happy",
+		"AllTeams": ["Kx.Cash", "Kx.Happy", "Kx.LM", "Kx.R"]
+	},
+	{
+		"Team": "Kx.LM",
+		"AllTeams": ["Kx.Cash", "Kx.Happy", "Kx.LM", "Kx.R"]
+	},
+	{
+		"Team": "Kx.R",
+		"AllTeams": ["Kx.Cash", "Kx.Happy", "Kx.LM", "Kx.R"]
+	},
+	{
+		"Team": "LDLC OL",
+		"AllTeams": ["LDLC OL", "Tony Parker Adequat Academy"]
+	},
+	{
+		"Team": "LDM Esports",
+		"AllTeams": ["LDM Esports", "LDM Mexico"]
+	},
+	{
+		"Team": "LDM Mexico",
+		"AllTeams": ["LDM Esports", "LDM Mexico"]
+	},
+	{
+		"Team": "LDN UTD",
+		"AllTeams": ["LDN UTD", "LDN UTD Ice"]
+	},
+	{
+		"Team": "LDN UTD Ice",
+		"AllTeams": ["LDN UTD", "LDN UTD Ice"]
+	},
+	{
+		"Team": "Legacy Esports",
+		"AllTeams": ["Legacy Esports", "Legacy Genesis"]
+	},
+	{
+		"Team": "Legacy Genesis",
+		"AllTeams": ["Legacy Esports", "Legacy Genesis"]
+	},
+	{
+		"Team": "Legend Dragon",
+		"AllTeams": ["Legend Dragon", "Legend Dragon Academy", "Legend Dragon Carry"]
+	},
+	{
+		"Team": "Legend Dragon Academy",
+		"AllTeams": ["Legend Dragon", "Legend Dragon Academy", "Legend Dragon Carry"]
+	},
+	{
+		"Team": "Legend Dragon Carry",
+		"AllTeams": ["Legend Dragon", "Legend Dragon Academy", "Legend Dragon Carry"]
+	},
+	{
+		"Team": "Lemondogs",
+		"AllTeams": ["Lemondogs", "Lemondogs Argentina"]
+	},
+	{
+		"Team": "Lemondogs Argentina",
+		"AllTeams": ["Lemondogs", "Lemondogs Argentina"]
+	},
+	{
+		"Team": "Leviatan",
+		"AllTeams": ["Leviatan", "Leviatan Esports Chile"]
+	},
+	{
+		"Team": "Leviatan Esports Chile",
+		"AllTeams": ["Leviatan", "Leviatan Esports Chile"]
+	},
+	{
+		"Team": "LGD Gaming",
+		"AllTeams": [
+			"LGD Gaming",
+			"LGD Gaming Young Team",
+			"LGD Legend",
+			"LGD Gaming Academy",
+			"VP Game"
+		]
+	},
+	{
+		"Team": "LGD Gaming Academy",
+		"AllTeams": [
+			"LGD Gaming",
+			"LGD Gaming Young Team",
+			"LGD Legend",
+			"LGD Gaming Academy",
+			"VP Game"
+		]
+	},
+	{
+		"Team": "LGD Gaming Young Team",
+		"AllTeams": [
+			"LGD Gaming",
+			"LGD Gaming Young Team",
+			"LGD Legend",
+			"LGD Gaming Academy",
+			"VP Game"
+		]
+	},
+	{
+		"Team": "LGD Legend",
+		"AllTeams": [
+			"LGD Gaming",
+			"LGD Gaming Young Team",
+			"LGD Legend",
+			"LGD Gaming Academy",
+			"VP Game"
+		]
+	},
+	{
+		"Team": "Liberty",
+		"AllTeams": ["Liberty", "Liberty Academy"]
+	},
+	{
+		"Team": "Liberty Academy",
+		"AllTeams": ["Liberty", "Liberty Academy"]
+	},
+	{
+		"Team": "Liiv SANDBOX",
+		"AllTeams": ["Liiv SANDBOX", "Liiv SANDBOX Youth", "Liiv SANDBOX Academy"]
+	},
+	{
+		"Team": "Liiv SANDBOX Academy",
+		"AllTeams": ["Liiv SANDBOX", "Liiv SANDBOX Youth", "Liiv SANDBOX Academy"]
+	},
+	{
+		"Team": "Liiv SANDBOX Youth",
+		"AllTeams": ["Liiv SANDBOX", "Liiv SANDBOX Youth", "Liiv SANDBOX Academy"]
+	},
+	{
+		"Team": "LNG Academy",
+		"AllTeams": ["LNG Academy", "LNG Esports", "Snake WuDu"]
+	},
+	{
+		"Team": "LNG Esports",
+		"AllTeams": ["LNG Academy", "LNG Esports", "Snake WuDu"]
+	},
+	{
+		"Team": "Logi-A Team",
+		"AllTeams": ["Logi-A Team", "Girls HK by Logitech"]
+	},
+	{
+		"Team": "Logitech G Snipers",
+		"AllTeams": [
+			"ahq eSports Club",
+			"SuperEsports",
+			"ahq e-Sports Club Korea",
+			"ahq Fighter",
+			"ahq Girls",
+			"Logitech G Snipers",
+			"ahq Snipers"
+		]
+	},
+	{
+		"Team": "Los Grandes",
+		"AllTeams": ["Los Grandes", "Los Grandes Academy"]
+	},
+	{
+		"Team": "Los Grandes Academy",
+		"AllTeams": ["Los Grandes", "Los Grandes Academy"]
+	},
+	{
+		"Team": "Lotus (North American Team)",
+		"AllTeams": [
+			"5 Seasons",
+			"Kurulean's Kittens",
+			"Lotus (North American Team)",
+			"Black Lotus",
+			"Keep Pathing Bot",
+			"Lotus Exiles"
+		]
+	},
+	{
+		"Team": "Lotus Bloom",
+		"AllTeams": ["Lotus Bloom", "Lotus Esports (2019 North American Team)"]
+	},
+	{
+		"Team": "Lotus Esports (2019 North American Team)",
+		"AllTeams": ["Lotus Bloom", "Lotus Esports (2019 North American Team)"]
+	},
+	{
+		"Team": "Lotus Exiles",
+		"AllTeams": [
+			"5 Seasons",
+			"Kurulean's Kittens",
+			"Lotus (North American Team)",
+			"Black Lotus",
+			"Keep Pathing Bot",
+			"Lotus Exiles"
+		]
+	},
+	{
+		"Team": "LOUD",
+		"AllTeams": ["LOUD", "LOUD Academy"]
+	},
+	{
+		"Team": "LOUD Academy",
+		"AllTeams": ["LOUD", "LOUD Academy"]
+	},
+	{
+		"Team": "Lowkey Esports",
+		"AllTeams": ["Lowkey Esports.Vietnam", "Lowkey Esports"]
+	},
+	{
+		"Team": "Lowkey Esports.Vietnam",
+		"AllTeams": ["Lowkey Esports.Vietnam", "Lowkey Esports"]
+	},
+	{
+		"Team": "LowLandLions",
+		"AllTeams": [
+			"LowLandLions",
+			"LowLandLions.Black",
+			"LowLandLions.White",
+			"LowLandLions.Fire",
+			"LowLandLions.Ice"
+		]
+	},
+	{
+		"Team": "LowLandLions.Black",
+		"AllTeams": [
+			"LowLandLions",
+			"LowLandLions.Black",
+			"LowLandLions.White",
+			"LowLandLions.Fire",
+			"LowLandLions.Ice"
+		]
+	},
+	{
+		"Team": "LowLandLions.Fire",
+		"AllTeams": [
+			"LowLandLions",
+			"LowLandLions.Black",
+			"LowLandLions.White",
+			"LowLandLions.Fire",
+			"LowLandLions.Ice"
+		]
+	},
+	{
+		"Team": "LowLandLions.Ice",
+		"AllTeams": [
+			"LowLandLions",
+			"LowLandLions.Black",
+			"LowLandLions.White",
+			"LowLandLions.Fire",
+			"LowLandLions.Ice"
+		]
+	},
+	{
+		"Team": "LowLandLions.White",
+		"AllTeams": [
+			"LowLandLions",
+			"LowLandLions.Black",
+			"LowLandLions.White",
+			"LowLandLions.Fire",
+			"LowLandLions.Ice"
+		]
+	},
+	{
+		"Team": "Lunary",
+		"AllTeams": ["Solary", "Team Eclypse", "Solary Academy", "Lunary"]
+	},
+	{
+		"Team": "Lynx (Oceanic Team)",
+		"AllTeams": ["Lynx (Oceanic Team)", "Lynx Academy"]
+	},
+	{
+		"Team": "Lynx Academy",
+		"AllTeams": ["Lynx (Oceanic Team)", "Lynx Academy"]
+	},
+	{
+		"Team": "Machi 17",
+		"AllTeams": ["Machi Esports", "MachiX", "17 Academy", "Machi Crew", "Machi 17"]
+	},
+	{
+		"Team": "Machi Crew",
+		"AllTeams": ["Machi Esports", "MachiX", "17 Academy", "Machi Crew", "Machi 17"]
+	},
+	{
+		"Team": "Machi Esports",
+		"AllTeams": ["Machi Esports", "MachiX", "17 Academy", "Machi Crew", "Machi 17"]
+	},
+	{
+		"Team": "MachiX",
+		"AllTeams": ["Machi Esports", "MachiX", "17 Academy", "Machi Crew", "Machi 17"]
+	},
+	{
+		"Team": "Macko Academy",
+		"AllTeams": ["Macko Esports", "Macko Academy"]
+	},
+	{
+		"Team": "Macko Esports",
+		"AllTeams": ["Macko Esports", "Macko Academy"]
+	},
+	{
+		"Team": "MAD Lions",
+		"AllTeams": [
+			"MAD Lions",
+			"MAD Lions E.C.",
+			"MAD Lions E.C. Colombia",
+			"MAD Lions E.C. Mexico",
+			"MAD Lions Academy",
+			"MAD Lions Madrid"
+		]
+	},
+	{
+		"Team": "MAD Lions Academy",
+		"AllTeams": [
+			"MAD Lions",
+			"MAD Lions E.C.",
+			"MAD Lions E.C. Colombia",
+			"MAD Lions E.C. Mexico",
+			"MAD Lions Academy",
+			"MAD Lions Madrid"
+		]
+	},
+	{
+		"Team": "MAD Lions E.C.",
+		"AllTeams": [
+			"MAD Lions",
+			"MAD Lions E.C.",
+			"MAD Lions E.C. Colombia",
+			"MAD Lions E.C. Mexico",
+			"MAD Lions Academy",
+			"MAD Lions Madrid"
+		]
+	},
+	{
+		"Team": "MAD Lions E.C. Colombia",
+		"AllTeams": [
+			"MAD Lions",
+			"MAD Lions E.C.",
+			"MAD Lions E.C. Colombia",
+			"MAD Lions E.C. Mexico",
+			"MAD Lions Academy",
+			"MAD Lions Madrid"
+		]
+	},
+	{
+		"Team": "MAD Lions E.C. Mexico",
+		"AllTeams": [
+			"MAD Lions",
+			"MAD Lions E.C.",
+			"MAD Lions E.C. Colombia",
+			"MAD Lions E.C. Mexico",
+			"MAD Lions Academy",
+			"MAD Lions Madrid"
+		]
+	},
+	{
+		"Team": "MAD Lions KOI",
+		"AllTeams": ["MAD Lions KOI", "MAD Lions KOI Female"]
+	},
+	{
+		"Team": "MAD Lions KOI Female",
+		"AllTeams": ["MAD Lions KOI", "MAD Lions KOI Female"]
+	},
+	{
+		"Team": "MAD Lions Madrid",
+		"AllTeams": [
+			"MAD Lions",
+			"MAD Lions E.C.",
+			"MAD Lions E.C. Colombia",
+			"MAD Lions E.C. Mexico",
+			"MAD Lions Academy",
+			"MAD Lions Madrid"
+		]
+	},
+	{
+		"Team": "MAMMOTH",
+		"AllTeams": ["MAMMOTH", "Mammoth Academy"]
+	},
+	{
+		"Team": "Mammoth Academy",
+		"AllTeams": ["MAMMOTH", "Mammoth Academy"]
+	},
+	{
+		"Team": "Maturalni Forsaken",
+		"AllTeams": ["Maturalni Forsaken", "Maturalni Forsaken Academy"]
+	},
+	{
+		"Team": "Maturalni Forsaken Academy",
+		"AllTeams": ["Maturalni Forsaken", "Maturalni Forsaken Academy"]
+	},
+	{
+		"Team": "Max And Friends",
+		"AllTeams": ["Maximal", "Max And Friends"]
+	},
+	{
+		"Team": "Maximal",
+		"AllTeams": ["Maximal", "Max And Friends"]
+	},
+	{
+		"Team": "MCES Italia",
+		"AllTeams": ["Team MCES", "MCES Italia", "Team MCES Academy", "MCES Italia Academy"]
+	},
+	{
+		"Team": "MCES Italia Academy",
+		"AllTeams": ["Team MCES", "MCES Italia", "Team MCES Academy", "MCES Italia Academy"]
+	},
+	{
+		"Team": "mCon esports Rotterdam Academy",
+		"AllTeams": ["mCon LG UltraGear", "mCon esports Rotterdam Academy"]
+	},
+	{
+		"Team": "mCon LG UltraGear",
+		"AllTeams": ["mCon LG UltraGear", "mCon esports Rotterdam Academy"]
+	},
+	{
+		"Team": "Meavedron",
+		"AllTeams": ["Meavedron", "Gity Meavedronu"]
+	},
+	{
+		"Team": "MeetYourMakers",
+		"AllTeams": ["MeetYourMakers", "MeetYourMakers.LAN", "MeetYourMakers.TR"]
+	},
+	{
+		"Team": "MeetYourMakers.LAN",
+		"AllTeams": ["MeetYourMakers", "MeetYourMakers.LAN", "MeetYourMakers.TR"]
+	},
+	{
+		"Team": "MeetYourMakers.TR",
+		"AllTeams": ["MeetYourMakers", "MeetYourMakers.LAN", "MeetYourMakers.TR"]
+	},
+	{
+		"Team": "Mighty Eagle",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Millenium",
+		"AllTeams": ["Millenium", "Millenium Spirit"]
+	},
+	{
+		"Team": "Millenium Spirit",
+		"AllTeams": ["Millenium", "Millenium Spirit"]
+	},
+	{
+		"Team": "Miners",
+		"AllTeams": ["Miners", "Miners Academy", "Netshoes Miners", "Netshoes Miners Academy"]
+	},
+	{
+		"Team": "Miners Academy",
+		"AllTeams": ["Miners", "Miners Academy", "Netshoes Miners", "Netshoes Miners Academy"]
+	},
+	{
+		"Team": "Mirage Alliance",
+		"AllTeams": ["Mirage Alliance", "Mirage Alliance Developmental"]
+	},
+	{
+		"Team": "Mirage Alliance Developmental",
+		"AllTeams": ["Mirage Alliance", "Mirage Alliance Developmental"]
+	},
+	{
+		"Team": "Mirage Oasis",
+		"AllTeams": ["Mirage Sport Électronique", "Mirage Oasis"]
+	},
+	{
+		"Team": "Mirage Sport Électronique",
+		"AllTeams": ["Mirage Sport Électronique", "Mirage Oasis"]
+	},
+	{
+		"Team": "Misfits Academy",
+		"AllTeams": ["Misfits Gaming", "Misfits Premier", "Misfits Academy"]
+	},
+	{
+		"Team": "Misfits Gaming",
+		"AllTeams": ["Misfits Gaming", "Misfits Premier", "Misfits Academy"]
+	},
+	{
+		"Team": "Misfits Premier",
+		"AllTeams": ["Misfits Gaming", "Misfits Premier", "Misfits Academy"]
+	},
+	{
+		"Team": "Mkers",
+		"AllTeams": ["Mkers", "Mkers Academy"]
+	},
+	{
+		"Team": "Mkers Academy",
+		"AllTeams": ["Mkers", "Mkers Academy"]
+	},
+	{
+		"Team": "MNM Gaming",
+		"AllTeams": ["MNM Gaming", "MnM Gaming Academy"]
+	},
+	{
+		"Team": "MnM Gaming Academy",
+		"AllTeams": ["MNM Gaming", "MnM Gaming Academy"]
+	},
+	{
+		"Team": "Moscow Five",
+		"AllTeams": ["Moscow Five.CIS", "Moscow Five"]
+	},
+	{
+		"Team": "Moscow Five.CIS",
+		"AllTeams": ["Moscow Five.CIS", "Moscow Five"]
+	},
+	{
+		"Team": "Movistar Riders",
+		"AllTeams": ["Movistar Riders", "Movistar Riders Academy", "Movistar Riders Blue"]
+	},
+	{
+		"Team": "Movistar Riders Academy",
+		"AllTeams": ["Movistar Riders", "Movistar Riders Academy", "Movistar Riders Blue"]
+	},
+	{
+		"Team": "Movistar Riders Blue",
+		"AllTeams": ["Movistar Riders", "Movistar Riders Academy", "Movistar Riders Blue"]
+	},
+	{
+		"Team": "Munster Rugby Gaming",
+		"AllTeams": ["Munster Rugby Gaming", "Munster Rugby Gaming Academy"]
+	},
+	{
+		"Team": "Munster Rugby Gaming Academy",
+		"AllTeams": ["Munster Rugby Gaming", "Munster Rugby Gaming Academy"]
+	},
+	{
+		"Team": "MVP",
+		"AllTeams": ["MVP", "MVP Blue", "MVP Ozone", "MVP Red"]
+	},
+	{
+		"Team": "MVP Blue",
+		"AllTeams": ["MVP", "MVP Blue", "MVP Ozone", "MVP Red"]
+	},
+	{
+		"Team": "MVP Ozone",
+		"AllTeams": ["MVP", "MVP Blue", "MVP Ozone", "MVP Red"]
+	},
+	{
+		"Team": "MVP Red",
+		"AllTeams": ["MVP", "MVP Blue", "MVP Ozone", "MVP Red"]
+	},
+	{
+		"Team": "Mysterious Monkeys",
+		"AllTeams": [
+			"ad hoc gaming",
+			"ad hoc gaming Gentlemen's Club",
+			"Mysterious Monkeys",
+			"Mysterious Monkeys.ESLM"
+		]
+	},
+	{
+		"Team": "Mysterious Monkeys.ESLM",
+		"AllTeams": [
+			"ad hoc gaming",
+			"ad hoc gaming Gentlemen's Club",
+			"Mysterious Monkeys",
+			"Mysterious Monkeys.ESLM"
+		]
+	},
+	{
+		"Team": "Naguara Mexico",
+		"AllTeams": ["Naguara Team", "Naguara Mexico"]
+	},
+	{
+		"Team": "Naguara Team",
+		"AllTeams": ["Naguara Team", "Naguara Mexico"]
+	},
+	{
+		"Team": "NaJin Black Sword",
+		"AllTeams": ["NaJin e-mFire", "NaJin Black Sword", "NaJin White Shield", "e-mFire"]
+	},
+	{
+		"Team": "NaJin e-mFire",
+		"AllTeams": ["NaJin e-mFire", "NaJin Black Sword", "NaJin White Shield", "e-mFire"]
+	},
+	{
+		"Team": "NaJin White Shield",
+		"AllTeams": ["NaJin e-mFire", "NaJin Black Sword", "NaJin White Shield", "e-mFire"]
+	},
+	{
+		"Team": "Nameless Randoms",
+		"AllTeams": ["The Nameless", "Nameless Randoms", "Nameless Thieves"]
+	},
+	{
+		"Team": "Nameless Thieves",
+		"AllTeams": ["The Nameless", "Nameless Randoms", "Nameless Thieves"]
+	},
+	{
+		"Team": "NASR eSports",
+		"AllTeams": [
+			"NASR eSports Turkey",
+			"NASR eSports Turkey Academy",
+			"NASR eSports",
+			"NASR eSports Jr."
+		]
+	},
+	{
+		"Team": "NASR eSports Jr.",
+		"AllTeams": [
+			"NASR eSports Turkey",
+			"NASR eSports Turkey Academy",
+			"NASR eSports",
+			"NASR eSports Jr."
+		]
+	},
+	{
+		"Team": "NASR eSports Turkey",
+		"AllTeams": [
+			"NASR eSports Turkey",
+			"NASR eSports Turkey Academy",
+			"NASR eSports",
+			"NASR eSports Jr."
+		]
+	},
+	{
+		"Team": "NASR eSports Turkey Academy",
+		"AllTeams": [
+			"NASR eSports Turkey",
+			"NASR eSports Turkey Academy",
+			"NASR eSports",
+			"NASR eSports Jr."
+		]
+	},
+	{
+		"Team": "Natus Vincere",
+		"AllTeams": ["Natus Vincere", "Natus Vincere.CIS"]
+	},
+	{
+		"Team": "Natus Vincere.CIS",
+		"AllTeams": ["Natus Vincere", "Natus Vincere.CIS"]
+	},
+	{
+		"Team": "Netshoes Miners",
+		"AllTeams": ["Miners", "Miners Academy", "Netshoes Miners", "Netshoes Miners Academy"]
+	},
+	{
+		"Team": "Netshoes Miners Academy",
+		"AllTeams": ["Miners", "Miners Academy", "Netshoes Miners", "Netshoes Miners Academy"]
+	},
+	{
+		"Team": "New WE",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Newbee",
+		"AllTeams": ["Newbee", "Newbee Young", "Qiao Gu Reapers"]
+	},
+	{
+		"Team": "Newbee Young",
+		"AllTeams": ["Newbee", "Newbee Young", "Qiao Gu Reapers"]
+	},
+	{
+		"Team": "Newell's Esports",
+		"AllTeams": ["Newell's Esports", "Newell's Esports Black"]
+	},
+	{
+		"Team": "Newell's Esports Black",
+		"AllTeams": ["Newell's Esports", "Newell's Esports Black"]
+	},
+	{
+		"Team": "Nigma Galaxy",
+		"AllTeams": ["Nigma Galaxy", "Nigma Galaxy Male", "Nigma Galaxy MENA"]
+	},
+	{
+		"Team": "Nigma Galaxy Male",
+		"AllTeams": ["Nigma Galaxy", "Nigma Galaxy Male", "Nigma Galaxy MENA"]
+	},
+	{
+		"Team": "Nigma Galaxy MENA",
+		"AllTeams": ["Nigma Galaxy", "Nigma Galaxy Male", "Nigma Galaxy MENA"]
+	},
+	{
+		"Team": "Ninjas in Pyjamas",
+		"AllTeams": ["Ninjas in Pyjamas.CN", "Ji Jie Hao", "Ninjas in Pyjamas", "Young Ninjas"]
+	},
+	{
+		"Team": "Ninjas in Pyjamas.CN",
+		"AllTeams": ["Ninjas in Pyjamas.CN", "Ji Jie Hao", "Ninjas in Pyjamas", "Young Ninjas"]
+	},
+	{
+		"Team": "Nongshim Esports Academy",
+		"AllTeams": ["Nongshim RedForce", "Nongshim Esports Academy", "Nongshim RedForce Academy"]
+	},
+	{
+		"Team": "Nongshim RedForce",
+		"AllTeams": ["Nongshim RedForce", "Nongshim Esports Academy", "Nongshim RedForce Academy"]
+	},
+	{
+		"Team": "Nongshim RedForce Academy",
+		"AllTeams": ["Nongshim RedForce", "Nongshim Esports Academy", "Nongshim RedForce Academy"]
+	},
+	{
+		"Team": "Nordavind",
+		"AllTeams": ["Nordavind", "Nordavind Talent", "Nordavind Black", "Nordavind White"]
+	},
+	{
+		"Team": "Nordavind Black",
+		"AllTeams": ["Nordavind", "Nordavind Talent", "Nordavind Black", "Nordavind White"]
+	},
+	{
+		"Team": "Nordavind Talent",
+		"AllTeams": ["Nordavind", "Nordavind Talent", "Nordavind Black", "Nordavind White"]
+	},
+	{
+		"Team": "Nordavind White",
+		"AllTeams": ["Nordavind", "Nordavind Talent", "Nordavind Black", "Nordavind White"]
+	},
+	{
+		"Team": "NRG",
+		"AllTeams": ["NRG", "NRG Challengers"]
+	},
+	{
+		"Team": "NRG Challengers",
+		"AllTeams": ["NRG", "NRG Challengers"]
+	},
+	{
+		"Team": "NYYRIKKI",
+		"AllTeams": ["NYYRIKKI", "NYYRIKKI Academy", "NYYRIKKI Blue", "NYYRIKKI White"]
+	},
+	{
+		"Team": "NYYRIKKI Academy",
+		"AllTeams": ["NYYRIKKI", "NYYRIKKI Academy", "NYYRIKKI Blue", "NYYRIKKI White"]
+	},
+	{
+		"Team": "NYYRIKKI Blue",
+		"AllTeams": ["NYYRIKKI", "NYYRIKKI Academy", "NYYRIKKI Blue", "NYYRIKKI White"]
+	},
+	{
+		"Team": "NYYRIKKI White",
+		"AllTeams": ["NYYRIKKI", "NYYRIKKI Academy", "NYYRIKKI Blue", "NYYRIKKI White"]
+	},
+	{
+		"Team": "Oh My Dream",
+		"AllTeams": [
+			"Oh My God",
+			"Oh My God Academy",
+			"Oh My God 2",
+			"Oh My Girls",
+			"Oh My Girls A",
+			"Oh My Dream"
+		]
+	},
+	{
+		"Team": "Oh My Girls",
+		"AllTeams": [
+			"Oh My God",
+			"Oh My God Academy",
+			"Oh My God 2",
+			"Oh My Girls",
+			"Oh My Girls A",
+			"Oh My Dream"
+		]
+	},
+	{
+		"Team": "Oh My Girls A",
+		"AllTeams": [
+			"Oh My God",
+			"Oh My God Academy",
+			"Oh My God 2",
+			"Oh My Girls",
+			"Oh My Girls A",
+			"Oh My Dream"
+		]
+	},
+	{
+		"Team": "Oh My God",
+		"AllTeams": [
+			"Oh My God",
+			"Oh My God Academy",
+			"Oh My God 2",
+			"Oh My Girls",
+			"Oh My Girls A",
+			"Oh My Dream"
+		]
+	},
+	{
+		"Team": "Oh My God 2",
+		"AllTeams": [
+			"Oh My God",
+			"Oh My God Academy",
+			"Oh My God 2",
+			"Oh My Girls",
+			"Oh My Girls A",
+			"Oh My Dream"
+		]
+	},
+	{
+		"Team": "Oh My God Academy",
+		"AllTeams": [
+			"Oh My God",
+			"Oh My God Academy",
+			"Oh My God 2",
+			"Oh My Girls",
+			"Oh My Girls A",
+			"Oh My Dream"
+		]
+	},
+	{
+		"Team": "OKSavingsBank BRION",
+		"AllTeams": [
+			"OKSavingsBank BRION",
+			"OKSavingsBank BRION Challengers",
+			"OKSavingsBank BRION Academy"
+		]
+	},
+	{
+		"Team": "OKSavingsBank BRION Academy",
+		"AllTeams": [
+			"OKSavingsBank BRION",
+			"OKSavingsBank BRION Challengers",
+			"OKSavingsBank BRION Academy"
+		]
+	},
+	{
+		"Team": "OKSavingsBank BRION Challengers",
+		"AllTeams": [
+			"OKSavingsBank BRION",
+			"OKSavingsBank BRION Challengers",
+			"OKSavingsBank BRION Academy"
+		]
+	},
+	{
+		"Team": "Operation Kino Academy",
+		"AllTeams": ["Operation Kino e-Sports", "Operation Kino Academy"]
+	},
+	{
+		"Team": "Operation Kino e-Sports",
+		"AllTeams": ["Operation Kino e-Sports", "Operation Kino Academy"]
+	},
+	{
+		"Team": "OpTic Gaming",
+		"AllTeams": ["OpTic Gaming", "OpTic Gaming Academy"]
+	},
+	{
+		"Team": "OpTic Gaming Academy",
+		"AllTeams": ["OpTic Gaming", "OpTic Gaming Academy"]
+	},
+	{
+		"Team": "ORDER",
+		"AllTeams": ["ORDER", "ORDER Academy"]
+	},
+	{
+		"Team": "ORDER Academy",
+		"AllTeams": ["ORDER", "ORDER Academy"]
+	},
+	{
+		"Team": "Origen",
+		"AllTeams": ["Origen SB", "Origen", "Origen Academy", "Origen ESP", "Origen BCN"]
+	},
+	{
+		"Team": "Origen Academy",
+		"AllTeams": ["Origen SB", "Origen", "Origen Academy", "Origen ESP", "Origen BCN"]
+	},
+	{
+		"Team": "Origen BCN",
+		"AllTeams": ["Origen SB", "Origen", "Origen Academy", "Origen ESP", "Origen BCN"]
+	},
+	{
+		"Team": "Origen ESP",
+		"AllTeams": ["Origen SB", "Origen", "Origen Academy", "Origen ESP", "Origen BCN"]
+	},
+	{
+		"Team": "Origen SB",
+		"AllTeams": ["Origen SB", "Origen", "Origen Academy", "Origen ESP", "Origen BCN"]
+	},
+	{
+		"Team": "Outplayed Academy",
+		"AllTeams": [
+			"aNc Outplayed",
+			"Outplayed Academy",
+			"Outplayed White",
+			"Outplayed Quintessential"
+		]
+	},
+	{
+		"Team": "Outplayed Quintessential",
+		"AllTeams": [
+			"aNc Outplayed",
+			"Outplayed Academy",
+			"Outplayed White",
+			"Outplayed Quintessential"
+		]
+	},
+	{
+		"Team": "Outplayed White",
+		"AllTeams": [
+			"aNc Outplayed",
+			"Outplayed Academy",
+			"Outplayed White",
+			"Outplayed Quintessential"
+		]
+	},
+	{
+		"Team": "Oyun Hizmetleri",
+		"AllTeams": ["Oyun Hizmetleri", "Oyun Hizmetleri CILEKLER"]
+	},
+	{
+		"Team": "Oyun Hizmetleri CILEKLER",
+		"AllTeams": ["Oyun Hizmetleri", "Oyun Hizmetleri CILEKLER"]
+	},
+	{
+		"Team": "paiN Gaming",
+		"AllTeams": ["paiN Gaming", "paiN Gaming Academy", "paiN Gaming Female"]
+	},
+	{
+		"Team": "paiN Gaming Academy",
+		"AllTeams": ["paiN Gaming", "paiN Gaming Academy", "paiN Gaming Female"]
+	},
+	{
+		"Team": "paiN Gaming Female",
+		"AllTeams": ["paiN Gaming", "paiN Gaming Academy", "paiN Gaming Female"]
+	},
+	{
+		"Team": "Peak Performance",
+		"AllTeams": ["Peak Performance X", "Peak Performance Y", "Peak Performance"]
+	},
+	{
+		"Team": "Peak Performance X",
+		"AllTeams": ["Peak Performance X", "Peak Performance Y", "Peak Performance"]
+	},
+	{
+		"Team": "Peak Performance Y",
+		"AllTeams": ["Peak Performance X", "Peak Performance Y", "Peak Performance"]
+	},
+	{
+		"Team": "Pentanet.GG",
+		"AllTeams": ["Pentanet.GG", "Pentanet.GG Rise"]
+	},
+	{
+		"Team": "Pentanet.GG Rise",
+		"AllTeams": ["Pentanet.GG", "Pentanet.GG Rise"]
+	},
+	{
+		"Team": "PGM Black",
+		"AllTeams": ["The G-Lab Penguins", "PGM Black"]
+	},
+	{
+		"Team": "piratesports",
+		"AllTeams": ["piratesports", "piratesports Academy"]
+	},
+	{
+		"Team": "piratesports Academy",
+		"AllTeams": ["piratesports", "piratesports Academy"]
+	},
+	{
+		"Team": "PlaPro.c58",
+		"AllTeams": ["RoX (2014 CIS Team)", "PlaPro.c58"]
+	},
+	{
+		"Team": "Play Again",
+		"AllTeams": ["Kaos Latin Gamers", "Kaos Latin Gamers Academy", "Play Again"]
+	},
+	{
+		"Team": "Polar Squad Esports",
+		"AllTeams": ["Polar Squad Esports", "Polar Squad Esports Female"]
+	},
+	{
+		"Team": "Polar Squad Esports Female",
+		"AllTeams": ["Polar Squad Esports", "Polar Squad Esports Female"]
+	},
+	{
+		"Team": "PRIDE (Polish Team)",
+		"AllTeams": ["PRIDE (Polish Team)", "PRIDE Academy"]
+	},
+	{
+		"Team": "PRIDE Academy",
+		"AllTeams": ["PRIDE (Polish Team)", "PRIDE Academy"]
+	},
+	{
+		"Team": "Prime Clan",
+		"AllTeams": ["Prime Clan", "Prime Optimus", "Prime Sentinel"]
+	},
+	{
+		"Team": "Prime Optimus",
+		"AllTeams": ["Prime Clan", "Prime Optimus", "Prime Sentinel"]
+	},
+	{
+		"Team": "Prime Sentinel",
+		"AllTeams": ["Prime Clan", "Prime Optimus", "Prime Sentinel"]
+	},
+	{
+		"Team": "PSG Talon",
+		"AllTeams": ["PSG Talon", "PSG Talon Academy", "Talon Esports"]
+	},
+	{
+		"Team": "PSG Talon Academy",
+		"AllTeams": ["PSG Talon", "PSG Talon Academy", "Talon Esports"]
+	},
+	{
+		"Team": "PSV Esports",
+		"AllTeams": ["PSV Esports", "PSV Esports Academy"]
+	},
+	{
+		"Team": "PSV Esports Academy",
+		"AllTeams": ["PSV Esports", "PSV Esports Academy"]
+	},
+	{
+		"Team": "Puppies Esports",
+		"AllTeams": ["CERBERUS Esports (Vietnamese Team)", "Puppies Esports"]
+	},
+	{
+		"Team": "Qiao Gu Reapers",
+		"AllTeams": ["Newbee", "Newbee Young", "Qiao Gu Reapers"]
+	},
+	{
+		"Team": "QLASH",
+		"AllTeams": [
+			"QLASH Egypt",
+			"QLASH",
+			"QLASH Spain",
+			"QLASH Midnight",
+			"QLASH Forge",
+			"Team QLASH Academy",
+			"QLASH Forge Academy"
+		]
+	},
+	{
+		"Team": "QLASH Egypt",
+		"AllTeams": [
+			"QLASH Egypt",
+			"QLASH",
+			"QLASH Spain",
+			"QLASH Midnight",
+			"QLASH Forge",
+			"Team QLASH Academy",
+			"QLASH Forge Academy"
+		]
+	},
+	{
+		"Team": "QLASH Forge",
+		"AllTeams": [
+			"QLASH Egypt",
+			"QLASH",
+			"QLASH Spain",
+			"QLASH Midnight",
+			"QLASH Forge",
+			"Team QLASH Academy",
+			"QLASH Forge Academy"
+		]
+	},
+	{
+		"Team": "QLASH Forge Academy",
+		"AllTeams": [
+			"QLASH Egypt",
+			"QLASH",
+			"QLASH Spain",
+			"QLASH Midnight",
+			"QLASH Forge",
+			"Team QLASH Academy",
+			"QLASH Forge Academy"
+		]
+	},
+	{
+		"Team": "QLASH Midnight",
+		"AllTeams": [
+			"QLASH Egypt",
+			"QLASH",
+			"QLASH Spain",
+			"QLASH Midnight",
+			"QLASH Forge",
+			"Team QLASH Academy",
+			"QLASH Forge Academy"
+		]
+	},
+	{
+		"Team": "QLASH Spain",
+		"AllTeams": [
+			"QLASH Egypt",
+			"QLASH",
+			"QLASH Spain",
+			"QLASH Midnight",
+			"QLASH Forge",
+			"Team QLASH Academy",
+			"QLASH Forge Academy"
+		]
+	},
+	{
+		"Team": "RabbitFive",
+		"AllTeams": [
+			"DetonatioN FocusMe",
+			"DetonatioN FocusMe Academy",
+			"DetonatioN Rising",
+			"RabbitFive"
+		]
+	},
+	{
+		"Team": "Rampage",
+		"AllTeams": ["Rampage", "Rampage Quintet", "KINGDOM"]
+	},
+	{
+		"Team": "Rampage Quintet",
+		"AllTeams": ["Rampage", "Rampage Quintet", "KINGDOM"]
+	},
+	{
+		"Team": "Rare Atom",
+		"AllTeams": ["Rare Atom", "Rare Atom Period"]
+	},
+	{
+		"Team": "Rare Atom Period",
+		"AllTeams": ["Rare Atom", "Rare Atom Period"]
+	},
+	{
+		"Team": "Rascal Jester",
+		"AllTeams": ["Rascal Jester", "Rascal Jester Academy"]
+	},
+	{
+		"Team": "Rascal Jester Academy",
+		"AllTeams": ["Rascal Jester", "Rascal Jester Academy"]
+	},
+	{
+		"Team": "RED Academy",
+		"AllTeams": ["RED Canids", "RED Academy"]
+	},
+	{
+		"Team": "RED Canids",
+		"AllTeams": ["RED Canids", "RED Academy"]
+	},
+	{
+		"Team": "Redemption Academy",
+		"AllTeams": ["Redemption eSports Porto Alegre", "Redemption Academy"]
+	},
+	{
+		"Team": "Redemption eSports Porto Alegre",
+		"AllTeams": ["Redemption eSports Porto Alegre", "Redemption Academy"]
+	},
+	{
+		"Team": "Rejects Gaming",
+		"AllTeams": ["Rejects Gaming", "Rejects Gaming Academy"]
+	},
+	{
+		"Team": "Rejects Gaming Academy",
+		"AllTeams": ["Rejects Gaming", "Rejects Gaming Academy"]
+	},
+	{
+		"Team": "Renegades",
+		"AllTeams": ["Renegades", "Renegades: Banditos"]
+	},
+	{
+		"Team": "Renegades: Banditos",
+		"AllTeams": ["Renegades", "Renegades: Banditos"]
+	},
+	{
+		"Team": "Rensga Academy",
+		"AllTeams": ["Rensga Esports", "Rensga Academy"]
+	},
+	{
+		"Team": "Rensga Esports",
+		"AllTeams": ["Rensga Esports", "Rensga Academy"]
+	},
+	{
+		"Team": "Resolve",
+		"AllTeams": ["Resolve", "Resolve Academy", "Resolve Blue", "Resolve NA"]
+	},
+	{
+		"Team": "Resolve Academy",
+		"AllTeams": ["Resolve", "Resolve Academy", "Resolve Blue", "Resolve NA"]
+	},
+	{
+		"Team": "Resolve Blue",
+		"AllTeams": ["Resolve", "Resolve Academy", "Resolve Blue", "Resolve NA"]
+	},
+	{
+		"Team": "Resolve NA",
+		"AllTeams": ["Resolve", "Resolve Academy", "Resolve Blue", "Resolve NA"]
+	},
+	{
+		"Team": "Riddle Esports",
+		"AllTeams": ["Riddle NO", "Riddle Esports", "Riddle Esports Academy"]
+	},
+	{
+		"Team": "Riddle Esports Academy",
+		"AllTeams": ["Riddle NO", "Riddle Esports", "Riddle Esports Academy"]
+	},
+	{
+		"Team": "Riddle NO",
+		"AllTeams": ["Riddle NO", "Riddle Esports", "Riddle Esports Academy"]
+	},
+	{
+		"Team": "Rise Gaming",
+		"AllTeams": ["Rise Gaming", "Rise Gaming Female"]
+	},
+	{
+		"Team": "Rise Gaming Female",
+		"AllTeams": ["Rise Gaming", "Rise Gaming Female"]
+	},
+	{
+		"Team": "Rising Star Gaming",
+		"AllTeams": ["Rising Star Gaming", "Rising SuperStar Gaming"]
+	},
+	{
+		"Team": "Rising SuperStar Gaming",
+		"AllTeams": ["Rising Star Gaming", "Rising SuperStar Gaming"]
+	},
+	{
+		"Team": "Rogue (European Team)",
+		"AllTeams": ["Rogue (European Team)", "AGO ROGUE", "Rogue Stars", "Rogue Esports Club"]
+	},
+	{
+		"Team": "Rogue Esports Club",
+		"AllTeams": ["Rogue (European Team)", "AGO ROGUE", "Rogue Stars", "Rogue Esports Club"]
+	},
+	{
+		"Team": "Rogue Stars",
+		"AllTeams": ["Rogue (European Team)", "AGO ROGUE", "Rogue Stars", "Rogue Esports Club"]
+	},
+	{
+		"Team": "Rogue Warriors",
+		"AllTeams": ["Rogue Warriors", "Rogue Warriors Shark"]
+	},
+	{
+		"Team": "Rogue Warriors Shark",
+		"AllTeams": ["Rogue Warriors", "Rogue Warriors Shark"]
+	},
+	{
+		"Team": "RoX (2014 CIS Team)",
+		"AllTeams": ["RoX (2014 CIS Team)", "PlaPro.c58"]
+	},
+	{
+		"Team": "ROX Caracal",
+		"AllTeams": ["ROX COOL", "ROX Caracal", "ROX Tigers", "Smash It Down"]
+	},
+	{
+		"Team": "ROX COOL",
+		"AllTeams": ["ROX COOL", "ROX Caracal", "ROX Tigers", "Smash It Down"]
+	},
+	{
+		"Team": "ROX Tigers",
+		"AllTeams": ["ROX COOL", "ROX Caracal", "ROX Tigers", "Smash It Down"]
+	},
+	{
+		"Team": "Royal Bandits",
+		"AllTeams": ["Royal Bandits", "Royal Bandits Academy"]
+	},
+	{
+		"Team": "Royal Bandits Academy",
+		"AllTeams": ["Royal Bandits", "Royal Bandits Academy"]
+	},
+	{
+		"Team": "Royal Club",
+		"AllTeams": ["Royal Never Give Up", "Royal Club", "Royal Club Tian Ci"]
+	},
+	{
+		"Team": "Royal Club Tian Ci",
+		"AllTeams": ["Royal Never Give Up", "Royal Club", "Royal Club Tian Ci"]
+	},
+	{
+		"Team": "Royal Never Give Up",
+		"AllTeams": ["Royal Never Give Up", "Royal Club", "Royal Club Tian Ci"]
+	},
+	{
+		"Team": "Royal Youth",
+		"AllTeams": ["Royal Youth", "Royal Youth Academy"]
+	},
+	{
+		"Team": "Royal Youth Academy",
+		"AllTeams": ["Royal Youth", "Royal Youth Academy"]
+	},
+	{
+		"Team": "S2V Esports",
+		"AllTeams": ["S2V Esports", "S2V Esports Academy", "S2V Esports Female"]
+	},
+	{
+		"Team": "S2V Esports Academy",
+		"AllTeams": ["S2V Esports", "S2V Esports Academy", "S2V Esports Female"]
+	},
+	{
+		"Team": "S2V Esports Female",
+		"AllTeams": ["S2V Esports", "S2V Esports Academy", "S2V Esports Female"]
+	},
+	{
+		"Team": "Samsung Blue",
+		"AllTeams": ["Samsung Galaxy", "Samsung Blue", "Samsung White"]
+	},
+	{
+		"Team": "Samsung Galaxy",
+		"AllTeams": ["Samsung Galaxy", "Samsung Blue", "Samsung White"]
+	},
+	{
+		"Team": "Samsung White",
+		"AllTeams": ["Samsung Galaxy", "Samsung Blue", "Samsung White"]
+	},
+	{
+		"Team": "SBTC Esports Academy",
+		"AllTeams": ["Sủa Bằng Tiếng Chó Esports", "SBTC Esports Academy"]
+	},
+	{
+		"Team": "SCARZ",
+		"AllTeams": ["SCARZ", "SCARZ Burning Core"]
+	},
+	{
+		"Team": "SCARZ Burning Core",
+		"AllTeams": ["SCARZ", "SCARZ Burning Core"]
+	},
+	{
+		"Team": "Sector One",
+		"AllTeams": ["Sector One", "Sector One Fox", "Sector One Academy", "Sector One Black"]
+	},
+	{
+		"Team": "Sector One Academy",
+		"AllTeams": ["Sector One", "Sector One Fox", "Sector One Academy", "Sector One Black"]
+	},
+	{
+		"Team": "Sector One Black",
+		"AllTeams": ["Sector One", "Sector One Fox", "Sector One Academy", "Sector One Black"]
+	},
+	{
+		"Team": "Sector One Fox",
+		"AllTeams": ["Sector One", "Sector One Fox", "Sector One Academy", "Sector One Black"]
+	},
+	{
+		"Team": "Sengoku Gaming",
+		"AllTeams": ["Sengoku Gaming", "Sengoku Gaming Academy"]
+	},
+	{
+		"Team": "Sengoku Gaming Academy",
+		"AllTeams": ["Sengoku Gaming", "Sengoku Gaming Academy"]
+	},
+	{
+		"Team": "SeolHaeOne Prince",
+		"AllTeams": ["SeolHaeOne Prince", "SeolHaeOne Prince Academy"]
+	},
+	{
+		"Team": "SeolHaeOne Prince Academy",
+		"AllTeams": ["SeolHaeOne Prince", "SeolHaeOne Prince Academy"]
+	},
+	{
+		"Team": "Seorabeol Gaming",
+		"AllTeams": ["ESC Ever", "ESC Shane", "ESports Connected", "Seorabeol Gaming"]
+	},
+	{
+		"Team": "Shadow Academy",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Anyche",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Battlica",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Battlica Y",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Boxing",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Cool",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Corp",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Dawn",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Deeplol",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Dreamer",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow EK",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow ELG",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow fOu",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow GT",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow IBJ",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow LNG",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow New",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow RGS",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow SF",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Shadow Zero",
+		"AllTeams": [
+			"Shadow Academy",
+			"Shadow Cool",
+			"Shadow Corp",
+			"Shadow ELG",
+			"Shadow RGS",
+			"Shadow GT",
+			"Shadow Anyche",
+			"Shadow Battlica",
+			"Shadow Battlica Y",
+			"Shadow Boxing",
+			"Shadow Dawn",
+			"Shadow Deeplol",
+			"Shadow Dreamer",
+			"Shadow EK",
+			"Shadow fOu",
+			"Shadow IBJ",
+			"Shadow LNG",
+			"Shadow New",
+			"Shadow SF",
+			"Shadow Zero"
+		]
+	},
+	{
+		"Team": "Sin Academy",
+		"AllTeams": ["Sin Gaming", "Sin Academy"]
+	},
+	{
+		"Team": "Sin Gaming",
+		"AllTeams": ["Sin Gaming", "Sin Academy"]
+	},
+	{
+		"Team": "SinoDragon Gaming",
+		"AllTeams": ["SinoDragon Gaming", "SinoDragon Prince"]
+	},
+	{
+		"Team": "SinoDragon Prince",
+		"AllTeams": ["SinoDragon Gaming", "SinoDragon Prince"]
+	},
+	{
+		"Team": "SK Gaming",
+		"AllTeams": ["SK Gaming", "SK Gaming Prime", "SK Gaming Avarosa"]
+	},
+	{
+		"Team": "SK Gaming Avarosa",
+		"AllTeams": ["SK Gaming", "SK Gaming Prime", "SK Gaming Avarosa"]
+	},
+	{
+		"Team": "SK Gaming Prime",
+		"AllTeams": ["SK Gaming", "SK Gaming Prime", "SK Gaming Avarosa"]
+	},
+	{
+		"Team": "SK Telecom T1",
+		"AllTeams": ["SK Telecom T1 K", "SK Telecom T1 S", "SK Telecom T1"]
+	},
+	{
+		"Team": "SK Telecom T1 K",
+		"AllTeams": ["SK Telecom T1 K", "SK Telecom T1 S", "SK Telecom T1"]
+	},
+	{
+		"Team": "SK Telecom T1 S",
+		"AllTeams": ["SK Telecom T1 K", "SK Telecom T1 S", "SK Telecom T1"]
+	},
+	{
+		"Team": "Sky Gaming",
+		"AllTeams": ["Sky Gaming", "Super Star Destroyers"]
+	},
+	{
+		"Team": "Smash It Down",
+		"AllTeams": ["ROX COOL", "ROX Caracal", "ROX Tigers", "Smash It Down"]
+	},
+	{
+		"Team": "Snake Esports",
+		"AllTeams": ["Snake Esports", "Snake WuDu", "Snake Honor Esports", "Snake Two", "WuDu"]
+	},
+	{
+		"Team": "Snake Honor Esports",
+		"AllTeams": ["Snake Esports", "Snake WuDu", "Snake Honor Esports", "Snake Two", "WuDu"]
+	},
+	{
+		"Team": "Snake Two",
+		"AllTeams": ["Snake Esports", "Snake WuDu", "Snake Honor Esports", "Snake Two", "WuDu"]
+	},
+	{
+		"Team": "Snake WuDu",
+		"AllTeams": ["LNG Academy", "LNG Esports", "Snake WuDu"]
+	},
+	{
+		"Team": "Snake WuDu",
+		"AllTeams": ["Snake Esports", "Snake WuDu", "Snake Honor Esports", "Snake Two", "WuDu"]
+	},
+	{
+		"Team": "Solary",
+		"AllTeams": ["Solary", "Team Eclypse", "Solary Academy", "Lunary"]
+	},
+	{
+		"Team": "Solary Academy",
+		"AllTeams": ["Solary", "Team Eclypse", "Solary Academy", "Lunary"]
+	},
+	{
+		"Team": "Spear Gaming",
+		"AllTeams": ["Spear Gaming", "Awesome Spear", "Awesome Spear Academy", "Awesome"]
+	},
+	{
+		"Team": "Splyce",
+		"AllTeams": ["Splyce", "Splyce Vipers"]
+	},
+	{
+		"Team": "Splyce Vipers",
+		"AllTeams": ["Splyce", "Splyce Vipers"]
+	},
+	{
+		"Team": "Starlan Gaming Club",
+		"AllTeams": ["Starlan Gaming Club", "Starlan Gaming Club Academy"]
+	},
+	{
+		"Team": "Starlan Gaming Club Academy",
+		"AllTeams": ["Starlan Gaming Club", "Starlan Gaming Club Academy"]
+	},
+	{
+		"Team": "Striking Vipers",
+		"AllTeams": ["Striking Vipers Champions", "Striking Vipers Maestros", "Striking Vipers"]
+	},
+	{
+		"Team": "Striking Vipers Champions",
+		"AllTeams": ["Striking Vipers Champions", "Striking Vipers Maestros", "Striking Vipers"]
+	},
+	{
+		"Team": "Striking Vipers Maestros",
+		"AllTeams": ["Striking Vipers Champions", "Striking Vipers Maestros", "Striking Vipers"]
+	},
+	{
+		"Team": "Sủa Bằng Tiếng Chó Esports",
+		"AllTeams": ["Sủa Bằng Tiếng Chó Esports", "SBTC Esports Academy"]
+	},
+	{
+		"Team": "Suning",
+		"AllTeams": ["Suning", "Suning-S"]
+	},
+	{
+		"Team": "Suning-S",
+		"AllTeams": ["Suning", "Suning-S"]
+	},
+	{
+		"Team": "Super Nova Academy",
+		"AllTeams": [
+			"Supernova",
+			"Dark Matter",
+			"Super Nova Sentinels",
+			"Hyper Nova",
+			"Super Nova Academy"
+		]
+	},
+	{
+		"Team": "Super Nova Sentinels",
+		"AllTeams": [
+			"Supernova",
+			"Dark Matter",
+			"Super Nova Sentinels",
+			"Hyper Nova",
+			"Super Nova Academy"
+		]
+	},
+	{
+		"Team": "Super Star Destroyers",
+		"AllTeams": ["Sky Gaming", "Super Star Destroyers"]
+	},
+	{
+		"Team": "SuperEsports",
+		"AllTeams": [
+			"ahq eSports Club",
+			"SuperEsports",
+			"ahq e-Sports Club Korea",
+			"ahq Fighter",
+			"ahq Girls",
+			"Logitech G Snipers",
+			"ahq Snipers"
+		]
+	},
+	{
+		"Team": "SuperMassive Academy",
+		"AllTeams": [
+			"SuperMassive Blaze",
+			"SuperMassive Blaze Academy",
+			"SuperMassive TNG",
+			"SuperMassive Esports",
+			"SuperMassive Academy"
+		]
+	},
+	{
+		"Team": "SuperMassive Blaze",
+		"AllTeams": [
+			"SuperMassive Blaze",
+			"SuperMassive Blaze Academy",
+			"SuperMassive TNG",
+			"SuperMassive Esports",
+			"SuperMassive Academy"
+		]
+	},
+	{
+		"Team": "SuperMassive Blaze Academy",
+		"AllTeams": [
+			"SuperMassive Blaze",
+			"SuperMassive Blaze Academy",
+			"SuperMassive TNG",
+			"SuperMassive Esports",
+			"SuperMassive Academy"
+		]
+	},
+	{
+		"Team": "SuperMassive Esports",
+		"AllTeams": [
+			"SuperMassive Blaze",
+			"SuperMassive Blaze Academy",
+			"SuperMassive TNG",
+			"SuperMassive Esports",
+			"SuperMassive Academy"
+		]
+	},
+	{
+		"Team": "SuperMassive TNG",
+		"AllTeams": [
+			"SuperMassive Blaze",
+			"SuperMassive Blaze Academy",
+			"SuperMassive TNG",
+			"SuperMassive Esports",
+			"SuperMassive Academy"
+		]
+	},
+	{
+		"Team": "Supernova",
+		"AllTeams": [
+			"Supernova",
+			"Dark Matter",
+			"Super Nova Sentinels",
+			"Hyper Nova",
+			"Super Nova Academy"
+		]
+	},
+	{
+		"Team": "T1",
+		"AllTeams": ["T1", "T1 Esports Academy", "T1 Academy"]
+	},
+	{
+		"Team": "T1 Academy",
+		"AllTeams": ["T1", "T1 Esports Academy", "T1 Academy"]
+	},
+	{
+		"Team": "T1 Esports Academy",
+		"AllTeams": ["T1", "T1 Esports Academy", "T1 Academy"]
+	},
+	{
+		"Team": "Tainted Minds",
+		"AllTeams": ["Tainted Minds", "Tainted Minds Blue"]
+	},
+	{
+		"Team": "Tainted Minds Blue",
+		"AllTeams": ["Tainted Minds", "Tainted Minds Blue"]
+	},
+	{
+		"Team": "Taipei Assassins",
+		"AllTeams": ["Taipei Assassins", "Taipei Berserkers", "Taipei Snipers"]
+	},
+	{
+		"Team": "Taipei Berserkers",
+		"AllTeams": ["Taipei Assassins", "Taipei Berserkers", "Taipei Snipers"]
+	},
+	{
+		"Team": "Taipei Bravo",
+		"AllTeams": ["J Team", "Taipei Bravo", "J Team 2"]
+	},
+	{
+		"Team": "Taipei Snipers",
+		"AllTeams": ["Taipei Assassins", "Taipei Berserkers", "Taipei Snipers"]
+	},
+	{
+		"Team": "Talon Esports",
+		"AllTeams": ["PSG Talon", "PSG Talon Academy", "Talon Esports"]
+	},
+	{
+		"Team": "Team 7AM",
+		"AllTeams": ["Team 7AM", "Team 7AM Academy"]
+	},
+	{
+		"Team": "Team 7AM Academy",
+		"AllTeams": ["Team 7AM", "Team 7AM Academy"]
+	},
+	{
+		"Team": "Team Afro",
+		"AllTeams": ["Team Afro", "Afro Beast", "BUFF"]
+	},
+	{
+		"Team": "Team Ambition",
+		"AllTeams": [
+			"Team Ambition",
+			"Team Ambition Black",
+			"Team Ambition Blaze",
+			"Team Ambition Red",
+			"Team Ambition Sussy"
+		]
+	},
+	{
+		"Team": "Team Ambition Black",
+		"AllTeams": [
+			"Team Ambition",
+			"Team Ambition Black",
+			"Team Ambition Blaze",
+			"Team Ambition Red",
+			"Team Ambition Sussy"
+		]
+	},
+	{
+		"Team": "Team Ambition Blaze",
+		"AllTeams": [
+			"Team Ambition",
+			"Team Ambition Black",
+			"Team Ambition Blaze",
+			"Team Ambition Red",
+			"Team Ambition Sussy"
+		]
+	},
+	{
+		"Team": "Team Ambition Red",
+		"AllTeams": [
+			"Team Ambition",
+			"Team Ambition Black",
+			"Team Ambition Blaze",
+			"Team Ambition Red",
+			"Team Ambition Sussy"
+		]
+	},
+	{
+		"Team": "Team Ambition Sussy",
+		"AllTeams": [
+			"Team Ambition",
+			"Team Ambition Black",
+			"Team Ambition Blaze",
+			"Team Ambition Red",
+			"Team Ambition Sussy"
+		]
+	},
+	{
+		"Team": "Team Atlantis",
+		"AllTeams": ["Team Atlantis", "Team Atlantis Baltics"]
+	},
+	{
+		"Team": "Team Atlantis Baltics",
+		"AllTeams": ["Team Atlantis", "Team Atlantis Baltics"]
+	},
+	{
+		"Team": "Team AURORA",
+		"AllTeams": ["Team AURORA", "Team AURORA Academy", "Team Orora"]
+	},
+	{
+		"Team": "Team AURORA Academy",
+		"AllTeams": ["Team AURORA", "Team AURORA Academy", "Team Orora"]
+	},
+	{
+		"Team": "Team BDS",
+		"AllTeams": ["Team BDS", "Team BDS Academy"]
+	},
+	{
+		"Team": "Team BDS Academy",
+		"AllTeams": ["Team BDS", "Team BDS Academy"]
+	},
+	{
+		"Team": "Team Coast",
+		"AllTeams": ["Team Coast", "Team Coast Gold"]
+	},
+	{
+		"Team": "Team Coast Gold",
+		"AllTeams": ["Team Coast", "Team Coast Gold"]
+	},
+	{
+		"Team": "Team Dignitas EU",
+		"AllTeams": [
+			"Dignitas",
+			"Dignitas Academy",
+			"Dignitas Challengers",
+			"Dignitas Mirage",
+			"Team Dignitas EU",
+			"Team Dignitas OCE",
+			"Team Dignitas UK"
+		]
+	},
+	{
+		"Team": "Team Dignitas OCE",
+		"AllTeams": [
+			"Dignitas",
+			"Dignitas Academy",
+			"Dignitas Challengers",
+			"Dignitas Mirage",
+			"Team Dignitas EU",
+			"Team Dignitas OCE",
+			"Team Dignitas UK"
+		]
+	},
+	{
+		"Team": "Team Dignitas UK",
+		"AllTeams": [
+			"Dignitas",
+			"Dignitas Academy",
+			"Dignitas Challengers",
+			"Dignitas Mirage",
+			"Team Dignitas EU",
+			"Team Dignitas OCE",
+			"Team Dignitas UK"
+		]
+	},
+	{
+		"Team": "Team Dynamics",
+		"AllTeams": ["Team Dynamics", "Team Dynamics Academy"]
+	},
+	{
+		"Team": "Team Dynamics Academy",
+		"AllTeams": ["Team Dynamics", "Team Dynamics Academy"]
+	},
+	{
+		"Team": "Team Echo Zulu",
+		"AllTeams": [
+			"Team Echo Zulu",
+			"Echo Zulu Domme Jongens",
+			"Team Echo Zulu Tribe",
+			"Team Echo Zulu Academy"
+		]
+	},
+	{
+		"Team": "Team Echo Zulu Academy",
+		"AllTeams": [
+			"Team Echo Zulu",
+			"Echo Zulu Domme Jongens",
+			"Team Echo Zulu Tribe",
+			"Team Echo Zulu Academy"
+		]
+	},
+	{
+		"Team": "Team Echo Zulu Tribe",
+		"AllTeams": [
+			"Team Echo Zulu",
+			"Echo Zulu Domme Jongens",
+			"Team Echo Zulu Tribe",
+			"Team Echo Zulu Academy"
+		]
+	},
+	{
+		"Team": "Team Eclypse",
+		"AllTeams": ["Solary", "Team Eclypse", "Solary Academy", "Lunary"]
+	},
+	{
+		"Team": "Team Fighter",
+		"AllTeams": [
+			"EDward Gaming",
+			"EDward Gaming Youth Team",
+			"AD Gaming",
+			"EDward Esports",
+			"Team Fighter",
+			"Team Hurricane"
+		]
+	},
+	{
+		"Team": "Team Flash.Singapore",
+		"AllTeams": ["Team Flash.Vietnam", "Team Flash.Singapore"]
+	},
+	{
+		"Team": "Team Flash.Vietnam",
+		"AllTeams": ["Team Flash.Vietnam", "Team Flash.Singapore"]
+	},
+	{
+		"Team": "Team Forge",
+		"AllTeams": ["Team Forge", "Team Forge Academy", "Team Forge Ichnos"]
+	},
+	{
+		"Team": "Team Forge Academy",
+		"AllTeams": ["Team Forge", "Team Forge Academy", "Team Forge Ichnos"]
+	},
+	{
+		"Team": "Team Forge Ichnos",
+		"AllTeams": ["Team Forge", "Team Forge Academy", "Team Forge Ichnos"]
+	},
+	{
+		"Team": "Team GO",
+		"AllTeams": ["Team GO", "Team GO Aurora"]
+	},
+	{
+		"Team": "Team GO Aurora",
+		"AllTeams": ["Team GO", "Team GO Aurora"]
+	},
+	{
+		"Team": "Team Heretics",
+		"AllTeams": ["Team Heretics", "Team Heretics Academy"]
+	},
+	{
+		"Team": "Team Heretics Academy",
+		"AllTeams": ["Team Heretics", "Team Heretics Academy"]
+	},
+	{
+		"Team": "Team Hurricane",
+		"AllTeams": [
+			"EDward Gaming",
+			"EDward Gaming Youth Team",
+			"AD Gaming",
+			"EDward Esports",
+			"Team Fighter",
+			"Team Hurricane"
+		]
+	},
+	{
+		"Team": "Team Just",
+		"AllTeams": ["Team Just", "Team Just Alpha", "Team Just Challenger", "Team Just Ice"]
+	},
+	{
+		"Team": "Team Just Alpha",
+		"AllTeams": ["Team Just", "Team Just Alpha", "Team Just Challenger", "Team Just Ice"]
+	},
+	{
+		"Team": "Team Just Challenger",
+		"AllTeams": ["Team Just", "Team Just Alpha", "Team Just Challenger", "Team Just Ice"]
+	},
+	{
+		"Team": "Team Just Ice",
+		"AllTeams": ["Team Just", "Team Just Alpha", "Team Just Challenger", "Team Just Ice"]
+	},
+	{
+		"Team": "Team Liquid",
+		"AllTeams": [
+			"Team Liquid",
+			"Team Liquid Challengers",
+			"Team Liquid Academy",
+			"Team Liquid First"
+		]
+	},
+	{
+		"Team": "Team Liquid Academy",
+		"AllTeams": [
+			"Team Liquid",
+			"Team Liquid Challengers",
+			"Team Liquid Academy",
+			"Team Liquid First"
+		]
+	},
+	{
+		"Team": "Team Liquid Challengers",
+		"AllTeams": [
+			"Team Liquid",
+			"Team Liquid Challengers",
+			"Team Liquid Academy",
+			"Team Liquid First"
+		]
+	},
+	{
+		"Team": "Team Liquid First",
+		"AllTeams": [
+			"Team Liquid",
+			"Team Liquid Challengers",
+			"Team Liquid Academy",
+			"Team Liquid First"
+		]
+	},
+	{
+		"Team": "Team LoL Cave",
+		"AllTeams": ["Team LoL Cave", "Team LoL Cave Mexico"]
+	},
+	{
+		"Team": "Team LoL Cave Mexico",
+		"AllTeams": ["Team LoL Cave", "Team LoL Cave Mexico"]
+	},
+	{
+		"Team": "Team MCES",
+		"AllTeams": ["Team MCES", "MCES Italia", "Team MCES Academy", "MCES Italia Academy"]
+	},
+	{
+		"Team": "Team MCES Academy",
+		"AllTeams": ["Team MCES", "MCES Italia", "Team MCES Academy", "MCES Italia Academy"]
+	},
+	{
+		"Team": "Team Orora",
+		"AllTeams": ["Team AURORA", "Team AURORA Academy", "Team Orora"]
+	},
+	{
+		"Team": "Team Phantasma",
+		"AllTeams": ["Team Phantasma", "Team Phantasma Community"]
+	},
+	{
+		"Team": "Team Phantasma Community",
+		"AllTeams": ["Team Phantasma", "Team Phantasma Community"]
+	},
+	{
+		"Team": "Team QLASH Academy",
+		"AllTeams": [
+			"QLASH Egypt",
+			"QLASH",
+			"QLASH Spain",
+			"QLASH Midnight",
+			"QLASH Forge",
+			"Team QLASH Academy",
+			"QLASH Forge Academy"
+		]
+	},
+	{
+		"Team": "Team Queso",
+		"AllTeams": ["Team Queso", "Arena Quesito", "Estadio Quesito"]
+	},
+	{
+		"Team": "Team Refuse",
+		"AllTeams": ["Team Refuse", "Team Refuse Academy"]
+	},
+	{
+		"Team": "Team Refuse Academy",
+		"AllTeams": ["Team Refuse", "Team Refuse Academy"]
+	},
+	{
+		"Team": "Team Secret (Vietnamese Team)",
+		"AllTeams": ["Team Secret (Vietnamese Team)", "Team Secret (Vietnamese Team) Academy"]
+	},
+	{
+		"Team": "Team Secret (Vietnamese Team) Academy",
+		"AllTeams": ["Team Secret (Vietnamese Team)", "Team Secret (Vietnamese Team) Academy"]
+	},
+	{
+		"Team": "Team Singularity",
+		"AllTeams": ["Team Singularity", "Team Singularity Female"]
+	},
+	{
+		"Team": "Team Singularity Female",
+		"AllTeams": ["Team Singularity", "Team Singularity Female"]
+	},
+	{
+		"Team": "Team SoloMid Evo",
+		"AllTeams": [
+			"TSM",
+			"TSM Academy",
+			"TSM Challengers",
+			"TSM Amateur",
+			"Team SoloMid Evo",
+			"TSM Darkness"
+		]
+	},
+	{
+		"Team": "Team THRLL",
+		"AllTeams": ["Team THRLL", "Team THRLL Academy"]
+	},
+	{
+		"Team": "Team THRLL Academy",
+		"AllTeams": ["Team THRLL", "Team THRLL Academy"]
+	},
+	{
+		"Team": "Team Turquality",
+		"AllTeams": ["Team Turquality", "Team Turquality RED"]
+	},
+	{
+		"Team": "Team Turquality RED",
+		"AllTeams": ["Team Turquality", "Team Turquality RED"]
+	},
+	{
+		"Team": "Team Vitality",
+		"AllTeams": [
+			"Team Vitality",
+			"Vitality.Bee",
+			"French Bees",
+			"Team Vitality Academy",
+			"Yellow Stripes"
+		]
+	},
+	{
+		"Team": "Team Vitality Academy",
+		"AllTeams": [
+			"Team Vitality",
+			"Vitality.Bee",
+			"French Bees",
+			"Team Vitality Academy",
+			"Yellow Stripes"
+		]
+	},
+	{
+		"Team": "Team W3",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Team WE",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Team WE Academy",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Team WE Dreams",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Team WE Future",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Team WE.i-Rocks",
+		"AllTeams": [
+			"Team WE",
+			"Team WE Academy",
+			"Game Talents",
+			"Mighty Eagle",
+			"New WE",
+			"Team WE Dreams",
+			"Team WE Future",
+			"Team WE.i-Rocks",
+			"Team W3"
+		]
+	},
+	{
+		"Team": "Team Whales",
+		"AllTeams": ["Team Whales", "Baby Whales"]
+	},
+	{
+		"Team": "TEAM4NOT.NA",
+		"AllTeams": ["TEAM4NOT.OCE", "TEAM4NOT.NA"]
+	},
+	{
+		"Team": "TEAM4NOT.OCE",
+		"AllTeams": ["TEAM4NOT.OCE", "TEAM4NOT.NA"]
+	},
+	{
+		"Team": "Tectonic",
+		"AllTeams": ["Tectonic", "Tectonic Academy"]
+	},
+	{
+		"Team": "Tectonic Academy",
+		"AllTeams": ["Tectonic", "Tectonic Academy"]
+	},
+	{
+		"Team": "The G-Lab Penguins",
+		"AllTeams": ["The G-Lab Penguins", "PGM Black"]
+	},
+	{
+		"Team": "The Kings",
+		"AllTeams": [
+			"The Kings",
+			"The Kings Moon",
+			"The Kings Academy",
+			"The Kings Legends",
+			"The Kings Colombia"
+		]
+	},
+	{
+		"Team": "The Kings Academy",
+		"AllTeams": [
+			"The Kings",
+			"The Kings Moon",
+			"The Kings Academy",
+			"The Kings Legends",
+			"The Kings Colombia"
+		]
+	},
+	{
+		"Team": "The Kings Colombia",
+		"AllTeams": [
+			"The Kings",
+			"The Kings Moon",
+			"The Kings Academy",
+			"The Kings Legends",
+			"The Kings Colombia"
+		]
+	},
+	{
+		"Team": "The Kings Legends",
+		"AllTeams": [
+			"The Kings",
+			"The Kings Moon",
+			"The Kings Academy",
+			"The Kings Legends",
+			"The Kings Colombia"
+		]
+	},
+	{
+		"Team": "The Kings Moon",
+		"AllTeams": [
+			"The Kings",
+			"The Kings Moon",
+			"The Kings Academy",
+			"The Kings Legends",
+			"The Kings Colombia"
+		]
+	},
+	{
+		"Team": "The Nameless",
+		"AllTeams": ["The Nameless", "Nameless Randoms", "Nameless Thieves"]
+	},
+	{
+		"Team": "ThunderTalk Gaming",
+		"AllTeams": ["ThunderTalk Gaming", "ThunderTalk Gaming Young"]
+	},
+	{
+		"Team": "ThunderTalk Gaming Young",
+		"AllTeams": ["ThunderTalk Gaming", "ThunderTalk Gaming Young"]
+	},
+	{
+		"Team": "Timeout Esports",
+		"AllTeams": ["Timeout Esports", "Timeout Esports Academy"]
+	},
+	{
+		"Team": "Timeout Esports Academy",
+		"AllTeams": ["Timeout Esports", "Timeout Esports Academy"]
+	},
+	{
+		"Team": "Titan Catipay",
+		"AllTeams": ["Titan Catipay", "Wings of Aurora"]
+	},
+	{
+		"Team": "Tony Parker Adequat Academy",
+		"AllTeams": ["LDLC OL", "Tony Parker Adequat Academy"]
+	},
+	{
+		"Team": "Top Esports",
+		"AllTeams": ["Top Esports", "Top Esports Challenger", "Topsports Gaming", "King of Future"]
+	},
+	{
+		"Team": "Top Esports Challenger",
+		"AllTeams": ["Top Esports", "Top Esports Challenger", "Topsports Gaming", "King of Future"]
+	},
+	{
+		"Team": "Topsports Gaming",
+		"AllTeams": ["Top Esports", "Top Esports Challenger", "Topsports Gaming", "King of Future"]
+	},
+	{
+		"Team": "ToxicFalcons eSports",
+		"AllTeams": ["ToxicFalcons eSports", "ToxicFalcons eSports Belgium", "ToxicFalcons Oldschool"]
+	},
+	{
+		"Team": "ToxicFalcons eSports Belgium",
+		"AllTeams": ["ToxicFalcons eSports", "ToxicFalcons eSports Belgium", "ToxicFalcons Oldschool"]
+	},
+	{
+		"Team": "ToxicFalcons Oldschool",
+		"AllTeams": ["ToxicFalcons eSports", "ToxicFalcons eSports Belgium", "ToxicFalcons Oldschool"]
+	},
+	{
+		"Team": "Triumphant Song Gaming",
+		"AllTeams": ["Victory Song Gaming", "Triumphant Song Gaming"]
+	},
+	{
+		"Team": "TSM",
+		"AllTeams": [
+			"TSM",
+			"TSM Academy",
+			"TSM Challengers",
+			"TSM Amateur",
+			"Team SoloMid Evo",
+			"TSM Darkness"
+		]
+	},
+	{
+		"Team": "TSM Academy",
+		"AllTeams": [
+			"TSM",
+			"TSM Academy",
+			"TSM Challengers",
+			"TSM Amateur",
+			"Team SoloMid Evo",
+			"TSM Darkness"
+		]
+	},
+	{
+		"Team": "TSM Amateur",
+		"AllTeams": [
+			"TSM",
+			"TSM Academy",
+			"TSM Challengers",
+			"TSM Amateur",
+			"Team SoloMid Evo",
+			"TSM Darkness"
+		]
+	},
+	{
+		"Team": "TSM Challengers",
+		"AllTeams": [
+			"TSM",
+			"TSM Academy",
+			"TSM Challengers",
+			"TSM Amateur",
+			"Team SoloMid Evo",
+			"TSM Darkness"
+		]
+	},
+	{
+		"Team": "TSM Darkness",
+		"AllTeams": [
+			"TSM",
+			"TSM Academy",
+			"TSM Challengers",
+			"TSM Amateur",
+			"Team SoloMid Evo",
+			"TSM Darkness"
+		]
+	},
+	{
+		"Team": "UCAM Esports",
+		"AllTeams": ["UCAM Esports", "UCAM Esports Academy"]
+	},
+	{
+		"Team": "UCAM Esports Academy",
+		"AllTeams": ["UCAM Esports", "UCAM Esports Academy"]
+	},
+	{
+		"Team": "UCAM Penguins",
+		"AllTeams": ["UCAM Penguins", "UCAM Penguins Academy"]
+	},
+	{
+		"Team": "UCAM Penguins Academy",
+		"AllTeams": ["UCAM Penguins", "UCAM Penguins Academy"]
+	},
+	{
+		"Team": "Ultra Prime",
+		"AllTeams": ["Ultra Prime", "Ultra Prime Academy"]
+	},
+	{
+		"Team": "Ultra Prime Academy",
+		"AllTeams": ["Ultra Prime", "Ultra Prime Academy"]
+	},
+	{
+		"Team": "Unicorns of Love",
+		"AllTeams": ["Unicorns of Love.CIS", "Unicorns of Love Sexy Edition", "Unicorns of Love"]
+	},
+	{
+		"Team": "Unicorns of Love Sexy Edition",
+		"AllTeams": ["Unicorns of Love.CIS", "Unicorns of Love Sexy Edition", "Unicorns of Love"]
+	},
+	{
+		"Team": "Unicorns of Love.CIS",
+		"AllTeams": ["Unicorns of Love.CIS", "Unicorns of Love Sexy Edition", "Unicorns of Love"]
+	},
+	{
+		"Team": "V3 Esports",
+		"AllTeams": ["V3 Esports", "V3 Esports Academy", "V3 New Generation", "V3 Esports Youth"]
+	},
+	{
+		"Team": "V3 Esports Academy",
+		"AllTeams": ["V3 Esports", "V3 Esports Academy", "V3 New Generation", "V3 Esports Youth"]
+	},
+	{
+		"Team": "V3 Esports Youth",
+		"AllTeams": ["V3 Esports", "V3 Esports Academy", "V3 New Generation", "V3 Esports Youth"]
+	},
+	{
+		"Team": "V3 New Generation",
+		"AllTeams": ["V3 Esports", "V3 Esports Academy", "V3 New Generation", "V3 Esports Youth"]
+	},
+	{
+		"Team": "V5 87",
+		"AllTeams": ["V5 87", "Victory Five"]
+	},
+	{
+		"Team": "Vaevictis eSports",
+		"AllTeams": ["Vaevictis eSports", "Vaevictis Syndicate"]
+	},
+	{
+		"Team": "Vaevictis Syndicate",
+		"AllTeams": ["Vaevictis eSports", "Vaevictis Syndicate"]
+	},
+	{
+		"Team": "Vici Esports",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "Vici Gaming",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "Vici Gaming 2",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "Vici Gaming Academy",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "Vici Gaming Potential",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "Vici Potential Gaming",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "Vici Star Gaming",
+		"AllTeams": [
+			"Vici Gaming",
+			"Vici Gaming Potential",
+			"Vici Gaming 2",
+			"Dream VGirls",
+			"Vici Gaming Academy",
+			"Vici Potential Gaming",
+			"Vici Star Gaming",
+			"Vici Esports"
+		]
+	},
+	{
+		"Team": "Victory Five",
+		"AllTeams": ["V5 87", "Victory Five"]
+	},
+	{
+		"Team": "Victory Song Gaming",
+		"AllTeams": ["Victory Song Gaming", "Triumphant Song Gaming"]
+	},
+	{
+		"Team": "Vikingekrig Academy",
+		"AllTeams": ["Vikingekrig Esports", "Vikingekrig Academy"]
+	},
+	{
+		"Team": "Vikingekrig Esports",
+		"AllTeams": ["Vikingekrig Esports", "Vikingekrig Academy"]
+	},
+	{
+		"Team": "Vitality.Bee",
+		"AllTeams": [
+			"Team Vitality",
+			"Vitality.Bee",
+			"French Bees",
+			"Team Vitality Academy",
+			"Yellow Stripes"
+		]
+	},
+	{
+		"Team": "Vivo Keyd",
+		"AllTeams": ["Vivo Keyd", "Keyd Warriors"]
+	},
+	{
+		"Team": "Vivo Keyd Stars",
+		"AllTeams": ["Vivo Keyd Stars", "Vivo Keyd Stars Academy"]
+	},
+	{
+		"Team": "Vivo Keyd Stars Academy",
+		"AllTeams": ["Vivo Keyd Stars", "Vivo Keyd Stars Academy"]
+	},
+	{
+		"Team": "Vodafone Giants Academy",
+		"AllTeams": [
+			"Vodafone Giants.Spain",
+			"Vodafone Giants Academy",
+			"Vodafone Giants White",
+			"Giants Gaming",
+			"Giants Academy"
+		]
+	},
+	{
+		"Team": "Vodafone Giants White",
+		"AllTeams": [
+			"Vodafone Giants.Spain",
+			"Vodafone Giants Academy",
+			"Vodafone Giants White",
+			"Giants Gaming",
+			"Giants Academy"
+		]
+	},
+	{
+		"Team": "Vodafone Giants.Spain",
+		"AllTeams": [
+			"Vodafone Giants.Spain",
+			"Vodafone Giants Academy",
+			"Vodafone Giants White",
+			"Giants Gaming",
+			"Giants Academy"
+		]
+	},
+	{
+		"Team": "Void Gaming",
+		"AllTeams": ["Void Gaming", "Void Gaming Academy"]
+	},
+	{
+		"Team": "Void Gaming Academy",
+		"AllTeams": ["Void Gaming", "Void Gaming Academy"]
+	},
+	{
+		"Team": "Vorax",
+		"AllTeams": ["Vorax Liberty", "Vorax Liberty Academy", "Vorax", "Vorax Academy"]
+	},
+	{
+		"Team": "Vorax Academy",
+		"AllTeams": ["Vorax Liberty", "Vorax Liberty Academy", "Vorax", "Vorax Academy"]
+	},
+	{
+		"Team": "Vorax Liberty",
+		"AllTeams": ["Vorax Liberty", "Vorax Liberty Academy", "Vorax", "Vorax Academy"]
+	},
+	{
+		"Team": "Vorax Liberty Academy",
+		"AllTeams": ["Vorax Liberty", "Vorax Liberty Academy", "Vorax", "Vorax Academy"]
+	},
+	{
+		"Team": "VP Game",
+		"AllTeams": [
+			"LGD Gaming",
+			"LGD Gaming Young Team",
+			"LGD Legend",
+			"LGD Gaming Academy",
+			"VP Game"
+		]
+	},
+	{
+		"Team": "vTi Ignis",
+		"AllTeams": ["vTi Ignis", "vTi Nox"]
+	},
+	{
+		"Team": "vTi Nox",
+		"AllTeams": ["vTi Ignis", "vTi Nox"]
+	},
+	{
+		"Team": "vVv Gaming",
+		"AllTeams": ["vVv Gaming", "vVv Gaming Red", "vVv Gaming White"]
+	},
+	{
+		"Team": "vVv Gaming Red",
+		"AllTeams": ["vVv Gaming", "vVv Gaming Red", "vVv Gaming White"]
+	},
+	{
+		"Team": "vVv Gaming White",
+		"AllTeams": ["vVv Gaming", "vVv Gaming Red", "vVv Gaming White"]
+	},
+	{
+		"Team": "Wayi Spider",
+		"AllTeams": ["Wayi Spider", "Wayi Spider China"]
+	},
+	{
+		"Team": "Wayi Spider China",
+		"AllTeams": ["Wayi Spider", "Wayi Spider China"]
+	},
+	{
+		"Team": "Weibo Gaming",
+		"AllTeams": ["Weibo Gaming", "Weibo Gaming Youth Team"]
+	},
+	{
+		"Team": "Weibo Gaming Youth Team",
+		"AllTeams": ["Weibo Gaming", "Weibo Gaming Youth Team"]
+	},
+	{
+		"Team": "West Point Esports Academy",
+		"AllTeams": ["West Point Esports Philippines", "West Point Esports Academy"]
+	},
+	{
+		"Team": "West Point Esports Philippines",
+		"AllTeams": ["West Point Esports Philippines", "West Point Esports Academy"]
+	},
+	{
+		"Team": "WiLD Academy",
+		"AllTeams": ["WiLD MultiGaming", "WiLD Academy"]
+	},
+	{
+		"Team": "WiLD MultiGaming",
+		"AllTeams": ["WiLD MultiGaming", "WiLD Academy"]
+	},
+	{
+		"Team": "Wildcard Aces",
+		"AllTeams": [
+			"Wildcard Gaming",
+			"Wildcard Aces",
+			"Wildcard Gaming Black",
+			"Wildcard Gaming Developmental",
+			"Wildcard Gaming Red"
+		]
+	},
+	{
+		"Team": "Wildcard Gaming",
+		"AllTeams": [
+			"Wildcard Gaming",
+			"Wildcard Aces",
+			"Wildcard Gaming Black",
+			"Wildcard Gaming Developmental",
+			"Wildcard Gaming Red"
+		]
+	},
+	{
+		"Team": "Wildcard Gaming Black",
+		"AllTeams": [
+			"Wildcard Gaming",
+			"Wildcard Aces",
+			"Wildcard Gaming Black",
+			"Wildcard Gaming Developmental",
+			"Wildcard Gaming Red"
+		]
+	},
+	{
+		"Team": "Wildcard Gaming Developmental",
+		"AllTeams": [
+			"Wildcard Gaming",
+			"Wildcard Aces",
+			"Wildcard Gaming Black",
+			"Wildcard Gaming Developmental",
+			"Wildcard Gaming Red"
+		]
+	},
+	{
+		"Team": "Wildcard Gaming Red",
+		"AllTeams": [
+			"Wildcard Gaming",
+			"Wildcard Aces",
+			"Wildcard Gaming Black",
+			"Wildcard Gaming Developmental",
+			"Wildcard Gaming Red"
+		]
+	},
+	{
+		"Team": "Wind and Rain",
+		"AllTeams": [
+			"Wind and Rain Nordic",
+			"Wind and Rain",
+			"Wind and Rain NA",
+			"Wind and Rain Germany",
+			"Wind and Rain Balkan"
+		]
+	},
+	{
+		"Team": "Wind and Rain Balkan",
+		"AllTeams": [
+			"Wind and Rain Nordic",
+			"Wind and Rain",
+			"Wind and Rain NA",
+			"Wind and Rain Germany",
+			"Wind and Rain Balkan"
+		]
+	},
+	{
+		"Team": "Wind and Rain Germany",
+		"AllTeams": [
+			"Wind and Rain Nordic",
+			"Wind and Rain",
+			"Wind and Rain NA",
+			"Wind and Rain Germany",
+			"Wind and Rain Balkan"
+		]
+	},
+	{
+		"Team": "Wind and Rain NA",
+		"AllTeams": [
+			"Wind and Rain Nordic",
+			"Wind and Rain",
+			"Wind and Rain NA",
+			"Wind and Rain Germany",
+			"Wind and Rain Balkan"
+		]
+	},
+	{
+		"Team": "Wind and Rain Nordic",
+		"AllTeams": [
+			"Wind and Rain Nordic",
+			"Wind and Rain",
+			"Wind and Rain NA",
+			"Wind and Rain Germany",
+			"Wind and Rain Balkan"
+		]
+	},
+	{
+		"Team": "Wings of Aurora",
+		"AllTeams": ["Titan Catipay", "Wings of Aurora"]
+	},
+	{
+		"Team": "WLGaming Esports",
+		"AllTeams": ["WLGaming Esports", "WLGaming Esports Academy"]
+	},
+	{
+		"Team": "WLGaming Esports Academy",
+		"AllTeams": ["WLGaming Esports", "WLGaming Esports Academy"]
+	},
+	{
+		"Team": "WuDu",
+		"AllTeams": ["Snake Esports", "Snake WuDu", "Snake Honor Esports", "Snake Two", "WuDu"]
+	},
+	{
+		"Team": "x6tence",
+		"AllTeams": ["x6tence", "x6tence Mexico", "x6tence Academy"]
+	},
+	{
+		"Team": "x6tence Academy",
+		"AllTeams": ["x6tence", "x6tence Mexico", "x6tence Academy"]
+	},
+	{
+		"Team": "x6tence Mexico",
+		"AllTeams": ["x6tence", "x6tence Mexico", "x6tence Academy"]
+	},
+	{
+		"Team": "X7 Ascent",
+		"AllTeams": ["X7 Esports", "X7 Ascent"]
+	},
+	{
+		"Team": "X7 Esports",
+		"AllTeams": ["X7 Esports", "X7 Ascent"]
+	},
+	{
+		"Team": "XD Prinfor",
+		"AllTeams": ["XD Prinfor", "XD Prinfor B"]
+	},
+	{
+		"Team": "XD Prinfor B",
+		"AllTeams": ["XD Prinfor", "XD Prinfor B"]
+	},
+	{
+		"Team": "XT Esports",
+		"AllTeams": ["XT Esports", "XT Gurb Nation"]
+	},
+	{
+		"Team": "XT Gurb Nation",
+		"AllTeams": ["XT Esports", "XT Gurb Nation"]
+	},
+	{
+		"Team": "XTEN Esports",
+		"AllTeams": ["XTEN Esports", "XTEN Mexico"]
+	},
+	{
+		"Team": "XTEN Mexico",
+		"AllTeams": ["XTEN Esports", "XTEN Mexico"]
+	},
+	{
+		"Team": "YDN Devils",
+		"AllTeams": ["YDN Devils", "YDN Elysium", "YDN Legion"]
+	},
+	{
+		"Team": "YDN Elysium",
+		"AllTeams": ["YDN Devils", "YDN Elysium", "YDN Legion"]
+	},
+	{
+		"Team": "YDN Legion",
+		"AllTeams": ["YDN Devils", "YDN Elysium", "YDN Legion"]
+	},
+	{
+		"Team": "Yellow Stripes",
+		"AllTeams": [
+			"Team Vitality",
+			"Vitality.Bee",
+			"French Bees",
+			"Team Vitality Academy",
+			"Yellow Stripes"
+		]
+	},
+	{
+		"Team": "Young Glory",
+		"AllTeams": [
+			"Invictus Gaming",
+			"Invictus Gaming Young",
+			"Young Glory",
+			"Invictus Girls",
+			"iG Deadly Fiend Girls"
+		]
+	},
+	{
+		"Team": "Young Ninjas",
+		"AllTeams": ["Ninjas in Pyjamas.CN", "Ji Jie Hao", "Ninjas in Pyjamas", "Young Ninjas"]
+	},
+	{
+		"Team": "Zenigma",
+		"AllTeams": ["Zenigma", "Zenigma Eclipse", "Zenigma Lunar", "Zenigma Solar"]
+	},
+	{
+		"Team": "Zenigma Eclipse",
+		"AllTeams": ["Zenigma", "Zenigma Eclipse", "Zenigma Lunar", "Zenigma Solar"]
+	},
+	{
+		"Team": "Zenigma Lunar",
+		"AllTeams": ["Zenigma", "Zenigma Eclipse", "Zenigma Lunar", "Zenigma Solar"]
+	},
+	{
+		"Team": "Zenigma Solar",
+		"AllTeams": ["Zenigma", "Zenigma Eclipse", "Zenigma Lunar", "Zenigma Solar"]
+	},
+	{
+		"Team": "Zephyr E-Sport White",
+		"AllTeams": [
+			"Zephyr Esport",
+			"Zephyr Esport Academy",
+			"Zephyr E-Sport White",
+			"Zephyr Esport Red"
+		]
+	},
+	{
+		"Team": "Zephyr Esport",
+		"AllTeams": [
+			"Zephyr Esport",
+			"Zephyr Esport Academy",
+			"Zephyr E-Sport White",
+			"Zephyr Esport Red"
+		]
+	},
+	{
+		"Team": "Zephyr Esport Academy",
+		"AllTeams": [
+			"Zephyr Esport",
+			"Zephyr Esport Academy",
+			"Zephyr E-Sport White",
+			"Zephyr Esport Red"
+		]
+	},
+	{
+		"Team": "Zephyr Esport Red",
+		"AllTeams": [
+			"Zephyr Esport",
+			"Zephyr Esport Academy",
+			"Zephyr E-Sport White",
+			"Zephyr Esport Red"
+		]
+	},
+	{
+		"Team": "Zerolag Esports",
+		"AllTeams": ["Zerolag Esports", "Zerolag Esports Academy"]
+	},
+	{
+		"Team": "Zerolag Esports Academy",
+		"AllTeams": ["Zerolag Esports", "Zerolag Esports Academy"]
+	},
+	{
+		"Team": "Zwan Gaming",
+		"AllTeams": ["Zwan Gaming Mexico", "Zwan Gaming", "Zwan Gaming Colombia"]
+	},
+	{
+		"Team": "Zwan Gaming Colombia",
+		"AllTeams": ["Zwan Gaming Mexico", "Zwan Gaming", "Zwan Gaming Colombia"]
+	},
+	{
+		"Team": "Zwan Gaming Mexico",
+		"AllTeams": ["Zwan Gaming Mexico", "Zwan Gaming", "Zwan Gaming Colombia"]
+	}
+]

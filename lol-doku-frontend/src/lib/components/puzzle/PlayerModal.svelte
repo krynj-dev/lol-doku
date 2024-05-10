@@ -1,16 +1,31 @@
 <script lang="ts">
 	import _playerList from '$lib/data/players.json';
 	import type { Rule } from '$lib/models/Rule';
+	import type { Player } from '$lib/models/new/Player';
+	import type { SlotGuess } from '$lib/models/new/SlotGuess';
+	import { submit_guess } from '$lib/util/api';
 	import { is_valid } from '$lib/util/puzzle_util';
 	import { _correct, _lives, _selected_players } from '../../../stores';
 
 	export let showModal: Boolean; // boolean
-	export let rules: Rule[];
 	export let index: number;
-	let selectedPlayers: (string | null)[];
+
+	let playerList: Player[] = [];
+
+	async function getPlayers(search_phrase: string) {
+		if (!search_phrase || search_phrase.length < 2) {
+			playerList = [];
+			return;
+		}
+		let response_object = await fetch(`http://localhost:8000/players/?limit=50&search=${search_phrase}`, {credentials: "include"}).then((r) => r.json());
+		let players_list = response_object.results;
+		playerList = players_list;
+		return;
+	}
+
+	let selectedPlayers: SlotGuess[];
 	let lives: number;
-	let playerList = _playerList;
-	let selectedPlayer: string | null;
+	let selectedPlayer: SlotGuess;
 
 	_lives.subscribe((value) => {
 		lives = value;
@@ -22,21 +37,17 @@
 
 	let filter = '';
 
+	$: {
+		getPlayers(filter);
+	}
+
 	let dialog: HTMLDialogElement; // HTMLDialogElement
 
 	$: if (dialog && showModal) dialog.showModal();
 
 	function handleClose(player?: string) {
 		if (player) {
-			_selected_players.update((s) => {
-				s[index] = player;
-				return s;
-			});
-			selectedPlayers[index] = player;
-			if (is_valid(rules[0], rules[1], player) === 2) {
-				_correct.update((c) => c + 1);
-			}
-			_lives.update((l) => l - 1);
+			submit_guess(index, player);
 		}
 		showModal = false;
 	}
@@ -48,32 +59,32 @@
 	on:close={(e) =>
 		handleClose(
 			e.currentTarget.returnValue &&
-				(!selectedPlayer || (selectedPlayer && e.currentTarget.returnValue !== selectedPlayer))
-				? Object.keys(playerList).find((p) => p == e.currentTarget.returnValue)
+				(!selectedPlayer || (selectedPlayer && e.currentTarget.returnValue !== selectedPlayer.player))
+				? playerList.map(p => p.display_name).find((p) => p == e.currentTarget.returnValue)
 				: undefined
 		)}
 	on:click|self={() => dialog.close()}
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div on:click|stopPropagation>
+	<div on:click|stopPropagation class="player-modal-container">
 		<slot name="header" />
-		<span>{rules[0].key} | {rules[1].key}</span>
+		<!-- <span>{rules[0].key} | {rules[1].key}</span> -->
 		<hr />
-		<slot />
-		<input bind:value={filter} />
+		<div>
+			<slot />
+			<input bind:value={filter} />
+		</div>
 		<hr />
-		{#each Object.keys(playerList)
-			.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
-			// change filter.length to not show whole list
-			.filter((s) => s
-						.toLocaleLowerCase()
-						.includes(filter.toLocaleLowerCase()) && filter.length > 1) as plr}
-			<button
-				class={`player-modal-button ${is_valid(rules[0], rules[1], plr) == 2 ? 'player-modal-debug-correct' : ''}`}
-				on:click={(e) => dialog.close(plr)}
-				disabled={lives <= 0 || selectedPlayers.find((p) => p === plr) != undefined}>{plr}</button
-			>
-		{/each}
+		<div class="player-button-box">
+			
+			{#each playerList.sort((a, b) => a.display_name.toLowerCase().localeCompare(b.display_name.toLowerCase())) as plr}
+				<button
+					class={`player-modal-button`}
+					on:click={(e) => dialog.close(plr.display_name)}
+					disabled={lives <= 0 || selectedPlayers.find((p) => p.player === plr.display_name) != undefined}>{plr.display_name}</button
+				>
+			{/each}
+		</div>
 	</div>
 </dialog>
 
@@ -132,5 +143,15 @@
 	}
 	.player-modal-debug-correct:hover {
 		background-color: greenyellow;
+	}
+	.player-button-box {
+		overflow-y: auto;
+		padding: 0 5px;
+	}
+
+	.player-modal-container {
+		height: 94%;
+		display: flex;
+		flex-direction: column;
 	}
 </style>

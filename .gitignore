@@ -1,1 +1,4 @@
 *.sqlite3
+scripts/cooked/*
+scripts/img/*
+lol-doku-backend/db_data/*

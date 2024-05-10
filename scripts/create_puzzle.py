@@ -147,7 +147,7 @@ def create_puzzle(include_secondary: bool):
 
 random.seed("hayden")
 puzzles = []
-while len(puzzles) < 500:
+while len(puzzles) < 1:
     print(f"\r{len(puzzles)}/500", sep=" ", end="", flush=True)
     p = create_puzzle(False)
     if p["meta"]["difficulty"] < 300 and p["meta"]["difficulty"] > 150:
@@ -156,5 +156,7 @@ while len(puzzles) < 500:
 diff_list = sorted([p["meta"]["difficulty"] for p in puzzles])
 print("Avg. Diff: {}\nMedian Diff: {}\nRange: [{}, {}]".format(sum(diff_list)/len(diff_list), diff_list[len(diff_list)//2], diff_list[0], diff_list[-1]))
 
-with open('puzzles/puzzles.json', 'w+', encoding='utf-8') as f:
-    json.dump(puzzles, f, ensure_ascii=False, indent=4)
+print(puzzles[0])
+
+# with open('puzzles/puzzles.json', 'w+', encoding='utf-8') as f:
+#     json.dump(puzzles, f, ensure_ascii=False, indent=4)
