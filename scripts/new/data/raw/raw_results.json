@@ -1,0 +1,6882 @@
+[
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_ahq eSports Club",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Prydz",
+            "NAZ (Chen Tien-Chih)",
+            "westdoor",
+            "GarnetDevil",
+            "GreenTea"
+        ],
+        "Team": "ahq eSports Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Alliance",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Wickd",
+            "Shook",
+            "Froggen",
+            "Tabzz",
+            "Nyph"
+        ],
+        "Team": "Alliance",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Cloud9",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Balls",
+            "Meteos",
+            "Hai",
+            "Sneaky",
+            "LemonNation"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Dark Passage",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "fabFabulous",
+            "Crystal",
+            "Naru (Koray Bıçak)",
+            "HolyPhoenix",
+            "Touch"
+        ],
+        "Team": "Dark Passage",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_EDward Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Koro1",
+            "Clearlove",
+            "U",
+            "NaMei",
+            "Fzzf"
+        ],
+        "Team": "EDward Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Fnatic",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "sOAZ",
+            "Cyanide",
+            "xPeke",
+            "Rekkles",
+            "YellOwStar"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_KaBuM! Esports",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "LEP",
+            "Danagorn",
+            "TinOwns",
+            "Minerva",
+            "dans"
+        ],
+        "Team": "KaBuM! Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_LMQ",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "ackerman (Xiao Wang)",
+            "NoName (Zhou Qi-Lin)",
+            "XiaoWeiXiao",
+            "Vasilii",
+            "Mor"
+        ],
+        "Team": "LMQ",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_NaJin White Shield",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Save",
+            "Watch",
+            "Ggoong",
+            "Zefa",
+            "GorillA"
+        ],
+        "Team": "NaJin White Shield",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Oh My God",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Gogoing",
+            "Loveling",
+            "cool",
+            "san (Guo Jun-Liang)",
+            "DaDa777",
+            "Cloud (Hu Zhen-Wei)"
+        ],
+        "Team": "Oh My God",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Samsung Blue",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Acorn",
+            "Spirit",
+            "Dade",
+            "Deft",
+            "Heart"
+        ],
+        "Team": "Samsung Blue",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Samsung White",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Looper",
+            "Dandy",
+            "PawN",
+            "imp",
+            "Mata"
+        ],
+        "Team": "Samsung White",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_SK Gaming",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "fredy122",
+            "Gilius",
+            "Svenskeren",
+            "Jesiz",
+            "CandyPanda",
+            "nRated"
+        ],
+        "Team": "SK Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Star Horn Royal Club",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Cola (Jiang Nan)",
+            "inSec",
+            "corn (Lei Wen)",
+            "Uzi (Jian Zi-Hao)",
+            "Zero (Yoon Kyung-sup)",
+            "VicaL"
+        ],
+        "Team": "Star Horn Royal Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_Taipei Assassins",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Achie",
+            "Winds",
+            "Morning",
+            "BeBe (Chang Bo-Wei)",
+            "Jay (Li Chieh)"
+        ],
+        "Team": "Taipei Assassins",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2014",
+        "GroupName": "",
+        "OverviewPage": "2014 Season World Championship",
+        "PageAndTeam": "2014 Season World Championship_TSM",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Dyrus",
+            "Amazing (Maurice Stückenschneider)",
+            "Bjergsen",
+            "WildTurtle",
+            "Lustboy"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_ahq eSports Club",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ziv (Chen Yi)",
+            "Mountain (Xue Zhao-Hong)",
+            "Westdoor",
+            "AN",
+            "Albis",
+            "Backstairs"
+        ],
+        "Team": "ahq eSports Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_Bangkok Titans",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "WarL0cK",
+            "007x",
+            "G4",
+            "Lloyd",
+            "Moss (Sorawat Boonphrom)",
+            "Cabbage"
+        ],
+        "Team": "Bangkok Titans",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_Cloud9",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Balls",
+            "Hai",
+            "Incarnati0n",
+            "Sneaky",
+            "LemonNation",
+            "Bubbadub"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_Counter Logic Gaming",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "ZionSpartan",
+            "Xmithie",
+            "Pobelter",
+            "Doublelift",
+            "aphromoo",
+            "Zikzlol"
+        ],
+        "Team": "Counter Logic Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_EDward Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "AmazingJ",
+            "Koro1",
+            "Clearlove",
+            "PawN",
+            "Deft",
+            "Meiko",
+            "Aaron (Ji Xing)"
+        ],
+        "Team": "EDward Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_Flash Wolves",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Steak",
+            "Karsa",
+            "Maple (Huang Yi-Tang)",
+            "Kkramer",
+            "NL",
+            "SwordArt",
+            "Fluidwind"
+        ],
+        "Team": "Flash Wolves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_Fnatic",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Huni",
+            "Reignover",
+            "Febiven",
+            "Rekkles",
+            "YellOwStaR",
+            "Deilor"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_H2k-Gaming",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Odoamne",
+            "loulex",
+            "Ryu",
+            "Hjarnan",
+            "kaSing",
+            "pr0lly"
+        ],
+        "Team": "H2k-Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_Invictus Gaming",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zz1tai",
+            "KAKAO",
+            "Rookie",
+            "Kid",
+            "Time (Tang Jing-Tai)",
+            "Kitties",
+            "Mafa"
+        ],
+        "Team": "Invictus Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_KOO Tigers",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Smeb",
+            "Hojin",
+            "Kuro",
+            "PraY",
+            "GorillA",
+            "NoFe"
+        ],
+        "Team": "KOO Tigers",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_KT Rolster",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ssumday",
+            "Score",
+            "Nagne",
+            "Arrow",
+            "Piccaboo",
+            "Oh Chang-jong"
+        ],
+        "Team": "KT Rolster",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_LGD Gaming",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Acorn",
+            "Flame",
+            "TBQ",
+            "GODV (Wei Zhen)",
+            "imp",
+            "Pyl (Chen Bo)",
+            "FireFox"
+        ],
+        "Team": "LGD Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_Origen",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Soaz",
+            "Amazing (Maurice Stückenschneider)",
+            "xPeke",
+            "Niels",
+            "Mithy",
+            "Hermit"
+        ],
+        "Team": "Origen",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_paiN Gaming",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Mylon",
+            "SirT",
+            "Kami (Gabriel Bohm Santos)",
+            "brTT",
+            "Dioud",
+            "MiT"
+        ],
+        "Team": "paiN Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_SK Telecom T1",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "MaRin",
+            "Bengi",
+            "Faker",
+            "Easyhoon",
+            "Bang",
+            "Wolf (Lee Jae-wan)",
+            "kkOma"
+        ],
+        "Team": "SK Telecom T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2015",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2015 Season World Championship",
+        "PageAndTeam": "2015 Season World Championship_TSM",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Dyrus",
+            "Santorin",
+            "Bjergsen",
+            "WildTurtle",
+            "Lustboy",
+            "Locodoco"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_ahq eSports Club",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ziv (Chen Yi)",
+            "Mountain (Xue Zhao-Hong)",
+            "Westdoor",
+            "Chawy",
+            "AN",
+            "Albis",
+            "GreenTea"
+        ],
+        "Team": "ahq eSports Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_Albus NoX Luna",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Smurf (Dmitri Ivanov)",
+            "PvPStejos",
+            "Kira",
+            "aMiracle",
+            "Likkrit",
+            "Ansva"
+        ],
+        "Team": "Albus NoX Luna",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_Cloud9",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Impact",
+            "Meteos",
+            "Jensen",
+            "Sneaky",
+            "Smoothie",
+            "Reapered"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_Counter Logic Gaming",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Darshan",
+            "Xmithie",
+            "Huhi",
+            "Stixxay",
+            "aphromoo",
+            "Zikzlol"
+        ],
+        "Team": "Counter Logic Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_EDward Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Mouse",
+            "Koro1",
+            "Clearlove",
+            "PawN",
+            "Scout",
+            "Deft",
+            "Meiko",
+            "RapidStar"
+        ],
+        "Team": "EDward Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_Flash Wolves",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "MMD",
+            "Karsa",
+            "Maple (Huang Yi-Tang)",
+            "NL",
+            "SwordArt",
+            "Fluidwind"
+        ],
+        "Team": "Flash Wolves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_G2 Esports",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Expect",
+            "Trick",
+            "Perkz",
+            "Zven",
+            "mithy",
+            "YoungBuck"
+        ],
+        "Team": "G2 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_H2k-Gaming",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Odoamne",
+            "Jankos",
+            "Ryu",
+            "FORG1VEN",
+            "Vander",
+            "pr0lly"
+        ],
+        "Team": "H2k-Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_I May",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid,Support",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "AmazingJ",
+            "Avoidless",
+            "Athena",
+            "BaeMe",
+            "Jinjiao",
+            "Road (Yun Han-gil)",
+            "Kezman"
+        ],
+        "Team": "I May",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_INTZ",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Yang (Felipe Zhao)",
+            "Revolta",
+            "tockers",
+            "micaO",
+            "Jockster",
+            "Abaxial"
+        ],
+        "Team": "INTZ",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_ROX Tigers",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Smeb",
+            "Peanut",
+            "Kuro",
+            "PraY",
+            "GorillA",
+            "NoFe"
+        ],
+        "Team": "ROX Tigers",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_Royal Never Give Up",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Looper",
+            "Mlxg",
+            "Xiaohu",
+            "Uzi (Jian Zi-Hao)",
+            "Mata",
+            "Fly (Kim Sang-chul)"
+        ],
+        "Team": "Royal Never Give Up",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_Samsung Galaxy",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "CuVee",
+            "Ambition",
+            "Crown",
+            "Ruler",
+            "Wraith",
+            "CoreJJ",
+            "Edgar"
+        ],
+        "Team": "Samsung Galaxy",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_SK Telecom T1",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Duke (Lee Ho-seong)",
+            "Bengi",
+            "Blank (Kang Sun-gu)",
+            "Faker",
+            "Bang",
+            "Wolf (Lee Jae-wan)",
+            "kkOma"
+        ],
+        "Team": "SK Telecom T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_Splyce",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Wunder",
+            "Trashy",
+            "Sencux",
+            "Kobbe",
+            "Mikyx",
+            "YamatoCannon"
+        ],
+        "Team": "Splyce",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2016",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2016 Season World Championship",
+        "PageAndTeam": "2016 Season World Championship_TSM",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Hauntzer",
+            "Svenskeren",
+            "Bjergsen",
+            "Doublelift",
+            "Biofrost",
+            "Parth"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_ahq eSports Club",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ziv (Chen Yi)",
+            "Mountain (Xue Zhao-Hong)",
+            "Westdoor",
+            "Chawy",
+            "AN",
+            "Albis",
+            "GreenTea"
+        ],
+        "Team": "ahq eSports Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Cloud9",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Impact",
+            "Contractz",
+            "Jensen",
+            "Sneaky",
+            "Smoothie",
+            "Reapered"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_EDward Gaming",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Mouse",
+            "Clearlove7",
+            "Scout",
+            "iBoy",
+            "Meiko",
+            "NoFe"
+        ],
+        "Team": "EDward Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Fenerbahçe Esports",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Thaldrin",
+            "Crash",
+            "Frozen (Kim Tae-il)",
+            "Padden",
+            "Japone",
+            "Pades"
+        ],
+        "Team": "Fenerbahçe Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Flash Wolves",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "MMD",
+            "Karsa",
+            "Maple (Huang Yi-Tang)",
+            "Betty",
+            "SwordArT",
+            "Steak"
+        ],
+        "Team": "Flash Wolves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Fnatic",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "sOAZ",
+            "Broxah",
+            "Caps",
+            "Rekkles",
+            "Jesiz",
+            "Dylan Falco"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_G2 Esports",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Expect",
+            "Trick",
+            "Perkz",
+            "Zven",
+            "mithy",
+            "YoungBuck"
+        ],
+        "Team": "G2 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_GIGABYTE Marines",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Archie (Trần Minh Nhựt)",
+            "Levi",
+            "Optimus",
+            "Noway (Nguyễn Vũ Long)",
+            "Nevan",
+            "Sya",
+            "Tinikun"
+        ],
+        "Team": "GIGABYTE Marines",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Immortals",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Flame",
+            "Xmithie",
+            "Pobelter",
+            "Cody Sun",
+            "Olleh",
+            "SSONG"
+        ],
+        "Team": "Immortals",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Longzhu Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Khan",
+            "Rascal",
+            "Cuzz",
+            "Bdd",
+            "PraY",
+            "GorillA",
+            "Kim Jeong-soo"
+        ],
+        "Team": "Longzhu Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Misfits Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Alphari",
+            "Maxlore",
+            "PowerOfEvil",
+            "Hans Sama",
+            "IgNar",
+            "Daku (Hussain Moosvi)"
+        ],
+        "Team": "Misfits Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Royal Never Give Up",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Letme",
+            "Mlxg",
+            "Xiaohu",
+            "Uzi (Jian Zi-Hao)",
+            "Ming (Shi Sen-Ming)",
+            "FireFox"
+        ],
+        "Team": "Royal Never Give Up",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Samsung Galaxy",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "CuVee",
+            "Ambition",
+            "Haru",
+            "Crown",
+            "Ruler",
+            "CoreJJ",
+            "Edgar"
+        ],
+        "Team": "Samsung Galaxy",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_SK Telecom T1",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Huni",
+            "Peanut",
+            "Blank (Kang Sun-gu)",
+            "Faker",
+            "Bang",
+            "Wolf (Lee Jae-wan)",
+            "kkOma"
+        ],
+        "Team": "SK Telecom T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_Team WE",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "957",
+            "Condi",
+            "xiye",
+            "Mystic",
+            "Ben",
+            "Homme"
+        ],
+        "Team": "Team WE",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Main Event",
+        "PageAndTeam": "2017 Season World Championship/Main Event_TSM",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Hauntzer",
+            "Svenskeren",
+            "Bjergsen",
+            "Doublelift",
+            "Biofrost",
+            "Parth"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Dire Wolves",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Chippys",
+            "shernfire",
+            "Phantiks",
+            "k1ng",
+            "Destiny (Mitchell Shaw)",
+            "Sharp (Curtis Morgan)"
+        ],
+        "Team": "Dire Wolves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Gambit Esports",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "PvPStejos",
+            "Diamondprox",
+            "Kira",
+            "Blasting",
+            "EDward",
+            "Invi"
+        ],
+        "Team": "Gambit Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Hong Kong Attitude",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Riris",
+            "Godkwai",
+            "Gemini",
+            "M1ssion",
+            "Unified",
+            "Kaiwing",
+            "Tabe"
+        ],
+        "Team": "Hong Kong Attitude",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Kaos Latin Gamers",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "MANTARRAYA",
+            "Tierwulf",
+            "Plugo",
+            "Fix",
+            "Slow",
+            "Pierre"
+        ],
+        "Team": "Kaos Latin Gamers",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Lyon Gaming (2013 Latin American Team)",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Jirall",
+            "Oddie",
+            "Seiya",
+            "WhiteLotus",
+            "Genthix",
+            "Yeti (Rodrigo del Castillo)"
+        ],
+        "Team": "Lyon Gaming (2013 Latin American Team)",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Rampage",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Evi",
+            "Tussle",
+            "Ramune",
+            "YutoriMoyasi",
+            "Dara",
+            "34"
+        ],
+        "Team": "Rampage",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Team oNe eSports",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "VVvert",
+            "4LaN",
+            "Brucer",
+            "Marf",
+            "Absolut",
+            "RedBert",
+            "Neki"
+        ],
+        "Team": "Team oNe eSports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2017",
+        "GroupName": "",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "PageAndTeam": "2017 Season World Championship/Play-In_Young Generation",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ren",
+            "NhocTy",
+            "Venus",
+            "Naul",
+            "BigKoro",
+            "Palette",
+            "Koo"
+        ],
+        "Team": "Young Generation",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group D",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_100 Thieves",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ssumday",
+            "AnDa",
+            "Ryu",
+            "Rikara",
+            "aphromoo",
+            "pr0lly"
+        ],
+        "Team": "100 Thieves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Afreeca Freecs",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Kiin",
+            "Spirit",
+            "Mowgli",
+            "Kuro",
+            "Kramer",
+            "TusiN",
+            "Comet"
+        ],
+        "Team": "Afreeca Freecs",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Cloud9",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Licorice",
+            "Svenskeren",
+            "Blaber",
+            "Jensen",
+            "Sneaky",
+            "Zeyzal",
+            "Reapered"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_EDward Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ray",
+            "Haro",
+            "Clearlove",
+            "Scout",
+            "iBoy",
+            "Meiko",
+            "NoFe"
+        ],
+        "Team": "EDward Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group A",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Flash Wolves",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Hanabi (Su Chia-Hsiang)",
+            "Moojin",
+            "Maple (Huang Yi-Tang)",
+            "Betty",
+            "SwordArt",
+            "WarHorse"
+        ],
+        "Team": "Flash Wolves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Fnatic",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "sOAZ",
+            "Bwipo",
+            "Broxah",
+            "Caps",
+            "Rekkles",
+            "Hylissang",
+            "Dylan Falco"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group D",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_G-Rex",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "PK",
+            "baybay",
+            "Empt2y",
+            "Candy (Kim Seung-ju)",
+            "Stitch",
+            "Koala (Lin Chih-Chiang)",
+            "Wei (Fu Chien-Wei)"
+        ],
+        "Team": "G-Rex",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_G2 Esports",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Wunder",
+            "Jankos",
+            "Perkz",
+            "Hjarnan",
+            "Wadid",
+            "GrabbZ"
+        ],
+        "Team": "G2 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group B",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Gen.G",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "CuVee",
+            "Haru",
+            "Ambition",
+            "Crown",
+            "Ruler",
+            "CoreJJ",
+            "Edgar"
+        ],
+        "Team": "Gen.G",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Invictus Gaming",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Duke (Lee Ho-seong)",
+            "TheShy",
+            "Ning",
+            "Rookie",
+            "JackeyLove",
+            "Baolan",
+            "Kim (Kim Jeong-soo)"
+        ],
+        "Team": "Invictus Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_KT Rolster",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Smeb",
+            "Score",
+            "Ucal",
+            "Deft",
+            "Mata",
+            "Noexcuse"
+        ],
+        "Team": "KT Rolster",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group C",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_MAD Team",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Liang",
+            "Kongyue",
+            "Benny (Lien Hsiu-Chi)",
+            "Uniboy",
+            "Breeze",
+            "K",
+            "GreenTea"
+        ],
+        "Team": "MAD Team",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group A",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Phong Vũ Buffalo",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zeros",
+            "Meliodas (Hoàng Tiến Nhật)",
+            "XuHao",
+            "Naul",
+            "BigKoro",
+            "Palette",
+            "Ren"
+        ],
+        "Team": "Phong Vũ Buffalo",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Royal Never Give Up",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Letme",
+            "Karsa",
+            "Mlxg",
+            "Xiaohu",
+            "Uzi (Jian Zi-Hao)",
+            "Ming (Shi Sen-Ming)",
+            "Heart"
+        ],
+        "Team": "Royal Never Give Up",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group C",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Team Liquid",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Impact",
+            "Xmithie",
+            "Pobelter",
+            "Doublelift",
+            "Olleh",
+            "Cain"
+        ],
+        "Team": "Team Liquid",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Main Event Group B",
+        "OverviewPage": "2018 Season World Championship/Main Event",
+        "PageAndTeam": "2018 Season World Championship/Main Event_Team Vitality",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Cabochard",
+            "Kikis",
+            "Jiizuke",
+            "Attila",
+            "Jactroll",
+            "YamatoCannon"
+        ],
+        "Team": "Team Vitality",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Play-In Group B",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_Ascension Gaming",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Rockky",
+            "Lloyd",
+            "G4",
+            "Niksar",
+            "Rich (Warich Kittiwattanawong)",
+            "Chainarin"
+        ],
+        "Team": "Ascension Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_DetonatioN FocusMe",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Evi",
+            "Steal (Mun Geon-yeong)",
+            "Ceros",
+            "Yutapon",
+            "viviD",
+            "Kazu"
+        ],
+        "Team": "DetonatioN FocusMe",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Play-In Group A",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_Dire Wolves",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "BioPanther",
+            "UDYSOF",
+            "Shernfire",
+            "Triple",
+            "k1ng",
+            "Cupcake",
+            "Sharp (Curtis Morgan)"
+        ],
+        "Team": "Dire Wolves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_Gambit Esports",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "PvPStejos",
+            "Diamondprox",
+            "Kira",
+            "Lodik",
+            "Edward",
+            "ATRemains"
+        ],
+        "Team": "Gambit Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_INFINITY",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Relic",
+            "SolidSnake",
+            "Cotopaco",
+            "Renyu",
+            "Arce",
+            "Soren (Carlos Ibarra)"
+        ],
+        "Team": "INFINITY",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Play-In Group C",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_KaBuM! Esports",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zantins",
+            "Ranger",
+            "dyNquedo",
+            "Titan",
+            "Riyev",
+            "Hiro (Lee Woo-suk)"
+        ],
+        "Team": "KaBuM! Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "Play-In Group D",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_Kaos Latin Gamers",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Nate",
+            "Tierwulf",
+            "Plugo",
+            "Fix",
+            "Slow",
+            "Pierre"
+        ],
+        "Team": "Kaos Latin Gamers",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2018",
+        "GroupName": "",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "PageAndTeam": "2018 Season World Championship/Play-In_SuperMassive Esports",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "fabFabulous",
+            "Stomaged",
+            "GBM",
+            "Zeitnot",
+            "SnowFlower",
+            "Irean"
+        ],
+        "Team": "SuperMassive Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group D",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_ahq eSports Club",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ziv (Chen Yi)",
+            "Alex",
+            "Rainbow (Kim Soo-gi)",
+            "Apex (Hsieh Chia-Wei)",
+            "Wako",
+            "Ysera",
+            "NeXAbc"
+        ],
+        "Team": "ahq eSports Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group A",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Cloud9",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Licorice",
+            "Svenskeren",
+            "Blaber",
+            "Nisqy",
+            "Sneaky",
+            "Deftly",
+            "Zeyzal",
+            "Reapered"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group C",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Clutch Gaming",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Huni",
+            "Lira",
+            "Damonte",
+            "Cody Sun",
+            "Vulcan (Philippe Laflamme)",
+            "Thinkcard"
+        ],
+        "Team": "Clutch Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_DAMWON Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Nuguri",
+            "Canyon",
+            "ShowMaker",
+            "Nuclear",
+            "BeryL",
+            "Kim (Kim Jeong-soo)"
+        ],
+        "Team": "DAMWON Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Fnatic",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Bwipo",
+            "Broxah",
+            "Nemesis",
+            "Rekkles",
+            "Hylissang",
+            "Youngbuck"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_FunPlus Phoenix",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "GimGoon",
+            "Tian",
+            "Doinb",
+            "Lwx",
+            "Crisp",
+            "WarHorse"
+        ],
+        "Team": "FunPlus Phoenix",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_G2 Esports",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Wunder",
+            "Jankos",
+            "Caps",
+            "Perkz",
+            "Mikyx",
+            "GrabbZ"
+        ],
+        "Team": "G2 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group B",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_GAM Esports",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zeros",
+            "Levi",
+            "Kiaya",
+            "Zin",
+            "Hieu3",
+            "Slay",
+            "Yuna"
+        ],
+        "Team": "GAM Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Griffin (Korean Team)",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Sword (Choi Sung-won)",
+            "Tarzan (Lee Seung-yong)",
+            "Chovy",
+            "Viper (Park Do-hyeon)",
+            "Lehends",
+            "Chaos (Byun Young-sub)"
+        ],
+        "Team": "Griffin (Korean Team)",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Invictus Gaming",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "TheShy",
+            "Leyan",
+            "Ning",
+            "Rookie",
+            "JackeyLove",
+            "Baolan",
+            "Mafa"
+        ],
+        "Team": "Invictus Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group B",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_J Team",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Rest",
+            "Hana",
+            "FoFo",
+            "Lilv",
+            "Koala (Lin Chih-Chiang)",
+            "REFRA1N"
+        ],
+        "Team": "J Team",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group C",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Royal Never Give Up",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Langx",
+            "Karsa",
+            "Xiaohu",
+            "Uzi (Jian Zi-Hao)",
+            "Ming (Shi Sen-Ming)",
+            "Steak"
+        ],
+        "Team": "Royal Never Give Up",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_SK Telecom T1",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Khan",
+            "Clid",
+            "Faker",
+            "Teddy",
+            "Effort",
+            "Mata",
+            "Zefa"
+        ],
+        "Team": "SK Telecom T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Splyce",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Vizicsacsi",
+            "Xerxe",
+            "Humanoid",
+            "Kobbe",
+            "Norskeren",
+            "Duke (Hadrien Forestier)"
+        ],
+        "Team": "Splyce",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group D",
+        "OverviewPage": "2019 Season World Championship/Main Event",
+        "PageAndTeam": "2019 Season World Championship/Main Event_Team Liquid",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Impact",
+            "Xmithie",
+            "Jensen",
+            "Doublelift",
+            "CoreJJ",
+            "Cain"
+        ],
+        "Team": "Team Liquid",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Play-In Group B",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_DetonatioN FocusMe",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Evi",
+            "Steal (Mun Geon-yeong)",
+            "Ceros",
+            "Yutapon",
+            "Gaeng",
+            "Kazu"
+        ],
+        "Team": "DetonatioN FocusMe",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Play-In Group D",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_Flamengo Esports",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Robo",
+            "Shrimp",
+            "Goku",
+            "brTT",
+            "Luci",
+            "Von (Gabriel Barbosa)"
+        ],
+        "Team": "Flamengo Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Main Event Group A",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_Hong Kong Attitude",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "3Z",
+            "Crash",
+            "M1ssion",
+            "MnM (Wong Ka Chun)",
+            "Unified",
+            "Kaiwing",
+            "Chawy"
+        ],
+        "Team": "Hong Kong Attitude",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_Isurus",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Buggax",
+            "Oddie",
+            "Seiya",
+            "Warangelus",
+            "Slow",
+            "Yeti (Rodrigo del Castillo)"
+        ],
+        "Team": "Isurus",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_Lowkey Esports.Vietnam",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Hani",
+            "DNK",
+            "Artifact",
+            "Celebrity",
+            "Venus",
+            "Nixwater"
+        ],
+        "Team": "Lowkey Esports.Vietnam",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Play-In Group A",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_MAMMOTH",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Fudge",
+            "Babip",
+            "Triple",
+            "k1ng",
+            "Destiny (Mitchell Shaw)",
+            "Phantiks"
+        ],
+        "Team": "MAMMOTH",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "Play-In Group C",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_MEGA",
+        "Place": "21-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Rockky",
+            "Lloyd",
+            "G4",
+            "DeuL",
+            "PoP",
+            "WarL0cK"
+        ],
+        "Team": "MEGA",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_Royal Youth",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Armut",
+            "Closer (Can Çelik)",
+            "Cyeol",
+            "Pilot (Na Woo-hyung)",
+            "Tolerant",
+            "Enatron"
+        ],
+        "Team": "Royal Youth",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2019",
+        "GroupName": "",
+        "OverviewPage": "2019 Season World Championship/Play-In",
+        "PageAndTeam": "2019 Season World Championship/Play-In_Unicorns of Love.CIS",
+        "Place": "17-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "BOSS (Vladislav Fomin)",
+            "AHaHaCiK",
+            "Nomanz",
+            "Innaxe",
+            "Edward",
+            "Sheepy"
+        ],
+        "Team": "Unicorns of Love.CIS",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_DAMWON Gaming",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Nuguri",
+            "Canyon",
+            "ShowMaker",
+            "Ghost (Jang Yong-jun)",
+            "BeryL",
+            "Zefa",
+            "Daeny"
+        ],
+        "Team": "DAMWON Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_DRX",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Doran (Choi Hyeon-joon)",
+            "Pyosik",
+            "Chovy",
+            "Deft",
+            "Keria",
+            "cvMax",
+            "Museong"
+        ],
+        "Team": "DRX",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Main Event Group D",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_FlyQuest",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Solo (Colin Earnest)",
+            "Santorin",
+            "PowerOfEvil",
+            "WildTurtle",
+            "IgNar",
+            "Curry",
+            "MasH"
+        ],
+        "Team": "FlyQuest",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Fnatic",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Bwipo",
+            "Selfmade",
+            "Nemesis",
+            "Rekkles",
+            "Hylissang",
+            "Mithy",
+            "Shaves"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_G2 Esports",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Wunder",
+            "Jankos",
+            "Caps",
+            "Perkz",
+            "Mikyx",
+            "GrabbZ",
+            "Duffman"
+        ],
+        "Team": "G2 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Gen.G",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Rascal",
+            "Clid",
+            "Bdd",
+            "Ruler",
+            "Life",
+            "oDin (Ju Yeong-dal)",
+            "Tom (Im Jae-hyeon)"
+        ],
+        "Team": "Gen.G",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_JD Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zoom",
+            "Kanavi",
+            "Yagao",
+            "LokeN",
+            "LvMao",
+            "Homme",
+            "huge"
+        ],
+        "Team": "JD Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Main Event Group C",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_LGD Gaming",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Head Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Langx",
+            "Peanut",
+            "xiye",
+            "Kramer",
+            "Mark (Ling Xu)",
+            "Maizijian",
+            "Eimy"
+        ],
+        "Team": "LGD Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Main Event Group A",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Machi Esports",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "PK",
+            "Gemini",
+            "Mission",
+            "Bruce",
+            "Koala (Lin Chih-Chiang)",
+            "Mountain (Xue Zhao-Hong)",
+            "Dreamer"
+        ],
+        "Team": "Machi Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Main Event Group B",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Rogue (European Team)",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Finn",
+            "Inspired",
+            "Larssen",
+            "Hans sama",
+            "Vander",
+            "fredy122",
+            "Blumigan"
+        ],
+        "Team": "Rogue (European Team)",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Suning",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Bin (Chen Ze-Bin)",
+            "SofM",
+            "Angel (Xiang Tao)",
+            "huanfeng",
+            "SwordArt",
+            "Chashao",
+            "Dian"
+        ],
+        "Team": "Suning",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Main Event Group A",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Team Liquid",
+        "Place": "9-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Impact",
+            "Broxah",
+            "Jensen",
+            "Tactical",
+            "CoreJJ",
+            "Jatt",
+            "Cain"
+        ],
+        "Team": "Team Liquid",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Top Esports",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "369",
+            "Karsa",
+            "knight (Zhuo Ding)",
+            "JackeyLove",
+            "yuyanjia",
+            "Crescent (Luo Sheng)"
+        ],
+        "Team": "Top Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Main Event Group C",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_TSM",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Broken Blade",
+            "Spica",
+            "Bjergsen",
+            "Doublelift",
+            "Biofrost",
+            "Parth",
+            "Mabrey"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Main Event Group D",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "PageAndTeam": "2020 Season World Championship/Main Event_Unicorns of Love.CIS",
+        "Place": "13-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "BOSS (Vladislav Fomin)",
+            "AHaHaCiK",
+            "Nomanz",
+            "Gadget",
+            "SaNTaS",
+            "Sheepy",
+            "Invi"
+        ],
+        "Team": "Unicorns of Love.CIS",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Play-In Group A",
+        "OverviewPage": "2020 Season World Championship/Play-In",
+        "PageAndTeam": "2020 Season World Championship/Play-In_INTZ",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Tay",
+            "Shini",
+            "Envy (Bruno Farias)",
+            "micaO",
+            "RedBert",
+            "Maestro (Lucas Pierre)"
+        ],
+        "Team": "INTZ",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Play-In",
+        "PageAndTeam": "2020 Season World Championship/Play-In_Legacy Esports",
+        "Place": "17-18",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Topoon",
+            "Babip",
+            "Tally",
+            "Raes",
+            "Isles",
+            "Denian"
+        ],
+        "Team": "Legacy Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Play-In",
+        "PageAndTeam": "2020 Season World Championship/Play-In_MAD Lions",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Orome",
+            "Shad0w",
+            "Humanoid",
+            "Carzzy",
+            "Kaiser",
+            "Mac",
+            "Kaas"
+        ],
+        "Team": "MAD Lions",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Play-In",
+        "PageAndTeam": "2020 Season World Championship/Play-In_Papara SuperMassive",
+        "Place": "17-18",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Armut",
+            "KaKAO",
+            "Bolulu",
+            "Zeitnot",
+            "SnowFlower",
+            "GBM",
+            "Pades"
+        ],
+        "Team": "Papara SuperMassive",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "",
+        "OverviewPage": "2020 Season World Championship/Play-In",
+        "PageAndTeam": "2020 Season World Championship/Play-In_Rainbow7",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Acce",
+            "Josedeodo",
+            "Aloned",
+            "Leza",
+            "Shadow (Facundo Cuello)",
+            "Skin",
+            "Fallen (Carlos Calderón)"
+        ],
+        "Team": "Rainbow7",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2020",
+        "GroupName": "Play-In Group B",
+        "OverviewPage": "2020 Season World Championship/Play-In",
+        "PageAndTeam": "2020 Season World Championship/Play-In_V3 Esports",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Paz",
+            "Bugi",
+            "Ace (Kotoji Mugita)",
+            "Archer (Lee Keun-hee)",
+            "Raina",
+            "Son"
+        ],
+        "Team": "V3 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_100 Thieves",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ssumday",
+            "Closer (Can Çelik)",
+            "Abbedagge",
+            "FBI",
+            "huhi",
+            "Reapered",
+            "Freeze"
+        ],
+        "Team": "100 Thieves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_Cloud9",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Fudge",
+            "Blaber",
+            "Perkz",
+            "Zven",
+            "Vulcan (Philippe Laflamme)",
+            "Mithy",
+            "Reignover"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_DetonatioN FocusMe",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Evi",
+            "Steal (Mun Geon-yeong)",
+            "Aria (Lee Ga-eul)",
+            "Yutapon",
+            "Gaeng",
+            "Kazu",
+            "Yang (Yang Gwang-pyo)"
+        ],
+        "Team": "DetonatioN FocusMe",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_DWG KIA",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Khan",
+            "Canyon",
+            "ShowMaker",
+            "Ghost (Jang Yong-jun)",
+            "BeryL",
+            "kkOma",
+            "PoohManDu"
+        ],
+        "Team": "DWG KIA",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_EDward Gaming",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Flandre",
+            "JieJie",
+            "Scout",
+            "Viper (Park Do-hyeon)",
+            "Meiko",
+            "Maokai (Yang Ji-Song)",
+            "KenZhu"
+        ],
+        "Team": "EDward Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_Fnatic",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Adam (Adam Maanane)",
+            "Bwipo",
+            "Nisqy",
+            "BEAN (Louis Schmitz)",
+            "Hylissang",
+            "YamatoCannon"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_FunPlus Phoenix",
+        "Place": "14-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Nuguri",
+            "Tian",
+            "Doinb",
+            "Lwx",
+            "Crisp",
+            "Steak",
+            "REFRA1N"
+        ],
+        "Team": "FunPlus Phoenix",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_Gen.G",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Rascal",
+            "Burdol",
+            "Clid",
+            "Bdd",
+            "Ruler",
+            "Life",
+            "oDin (Ju Yeong-dal)",
+            "Ggoong"
+        ],
+        "Team": "Gen.G",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_Hanwha Life Esports",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Morgan",
+            "Willer",
+            "Chovy",
+            "Deft",
+            "Vsta",
+            "Kezman",
+            "Sudal"
+        ],
+        "Team": "Hanwha Life Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_LNG Esports",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ale",
+            "Tarzan (Lee Seung-yong)",
+            "icon",
+            "Light (Wang Guang-Yu)",
+            "Iwandy",
+            "Rather",
+            "U"
+        ],
+        "Team": "LNG Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_MAD Lions",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Armut",
+            "Elyoya",
+            "Humanoid",
+            "Carzzy",
+            "Kaiser",
+            "Mac",
+            "Kaas"
+        ],
+        "Team": "MAD Lions",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_PSG Talon",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Hanabi (Su Chia-Hsiang)",
+            "River (Kim Dong-woo)",
+            "Maple (Huang Yi-Tang)",
+            "Unified",
+            "Kaiwing",
+            "Helper (Kwon Yeong-jae)"
+        ],
+        "Team": "PSG Talon",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_Rogue (European Team)",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Odoamne",
+            "Inspired",
+            "Larssen",
+            "Hans sama",
+            "Trymbi",
+            "fredy122",
+            "Blumigan"
+        ],
+        "Team": "Rogue (European Team)",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_Royal Never Give Up",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Xiaohu",
+            "Wei (Yan Yang-Wei)",
+            "Cryin",
+            "GALA",
+            "Ming (Shi Sen-Ming)",
+            "Poppy (Chang Po-Hao)"
+        ],
+        "Team": "Royal Never Give Up",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_T1",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Canna",
+            "Oner",
+            "Faker",
+            "Gumayusi",
+            "Keria",
+            "Stardust (Son Seok-hee)",
+            "Moment"
+        ],
+        "Team": "T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Main Event",
+        "PageAndTeam": "2021 Season World Championship/Main Event_Team Liquid",
+        "Place": "12-13",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Alphari",
+            "Santorin",
+            "Jensen",
+            "Tactical",
+            "CoreJJ",
+            "Kold",
+            "H4xDefender"
+        ],
+        "Team": "Team Liquid",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Play-In",
+        "PageAndTeam": "2021 Season World Championship/Play-In_Beyond Gaming",
+        "Place": "17-18",
+        "Roles": [
+            "Top,Mid",
+            "Top,Mid",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "PK",
+            "Liang",
+            "Husha",
+            "Maoan",
+            "Doggo",
+            "Kino",
+            "Benny (Lien Hsiu-Chi)",
+            "Wulala"
+        ],
+        "Team": "Beyond Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Play-In",
+        "PageAndTeam": "2021 Season World Championship/Play-In_Galatasaray Esports",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Crazy (Kim Jae-hee)",
+            "Mojito",
+            "Bolulu",
+            "Alive",
+            "Zergsting",
+            "Irean"
+        ],
+        "Team": "Galatasaray Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Play-In",
+        "PageAndTeam": "2021 Season World Championship/Play-In_INFINITY",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Buggax",
+            "SolidSnake",
+            "cody",
+            "Whitelotus",
+            "Ackerman (Gabriel Aparicio)",
+            "Von (Gabriel Barbosa)",
+            "Snok"
+        ],
+        "Team": "INFINITY",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Play-In",
+        "PageAndTeam": "2021 Season World Championship/Play-In_PEACE (Oceanic Team)",
+        "Place": "17-18",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Vizicsacsi",
+            "Babip",
+            "Tally",
+            "Violet (Vincent Wong)",
+            "Aladoric",
+            "Colla",
+            "Coach Daniel"
+        ],
+        "Team": "PEACE (Oceanic Team)",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "",
+        "OverviewPage": "2021 Season World Championship/Play-In",
+        "PageAndTeam": "2021 Season World Championship/Play-In_RED Canids",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Guigo",
+            "Aegis (Gabriel Lemos)",
+            "Grevthar",
+            "Avenger (Adriano Perassoli)",
+            "TitaN",
+            "Jojo (Gabriel Dzelme)",
+            "Coelho"
+        ],
+        "Team": "RED Canids",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2021",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2021 Season World Championship/Play-In",
+        "PageAndTeam": "2021 Season World Championship/Play-In_Unicorns of Love.CIS",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "BOSS (Vladislav Fomin)",
+            "AHaHaCiK",
+            "Nomanz",
+            "Argonavt",
+            "SaNTaS",
+            "Sheepy",
+            "Invi"
+        ],
+        "Team": "Unicorns of Love.CIS",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_100 Thieves",
+        "Place": "11-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Ssumday",
+            "Closer (Can Çelik)",
+            "Abbedagge",
+            "FBI",
+            "huhi",
+            "Reapered",
+            "Freeze"
+        ],
+        "Team": "100 Thieves",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_Cloud9",
+        "Place": "15-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Fudge",
+            "Blaber",
+            "Jensen",
+            "Berserker (Kim Min-cheol)",
+            "Zven",
+            "Max Waldo",
+            "Reven (Seong Sang-hyeon)"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_CTBC Flying Oyster",
+        "Place": "11-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Rest",
+            "Gemini",
+            "Mission",
+            "Shunn",
+            "Atlen",
+            "Koala (Lin Chih-Chiang)",
+            "Achie",
+            "Bob (Chang Shao-Tzu)"
+        ],
+        "Team": "CTBC Flying Oyster",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_DRX",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Kingen",
+            "Juhan",
+            "Pyosik",
+            "Zeka (Kim Geon-woo)",
+            "Deft",
+            "BeryL",
+            "Ssong",
+            "Mowgli"
+        ],
+        "Team": "DRX",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_DWG KIA",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Nuguri",
+            "Canyon",
+            "ShowMaker",
+            "deokdam",
+            "Kellin",
+            "Daeny",
+            "Zefa"
+        ],
+        "Team": "DWG KIA",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_EDward Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Flandre",
+            "JieJie",
+            "Scout",
+            "Viper (Park Do-hyeon)",
+            "Meiko",
+            "Maokai (Yang Ji-Song)",
+            "Mni"
+        ],
+        "Team": "EDward Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_Evil Geniuses.NA",
+        "Place": "11-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Impact",
+            "Inspired",
+            "jojopyun",
+            "Kaori",
+            "Vulcan (Philippe Laflamme)",
+            "Rigby",
+            "Turtle"
+        ],
+        "Team": "Evil Geniuses.NA",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_G2 Esports",
+        "Place": "11-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "BrokenBlade",
+            "Jankos",
+            "caPs",
+            "Flakked",
+            "Targamas",
+            "Dylan Falco"
+        ],
+        "Team": "G2 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_GAM Esports",
+        "Place": "15-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Kiaya",
+            "Levi",
+            "Kati",
+            "Sty1e",
+            "Bie",
+            "JackieWind"
+        ],
+        "Team": "GAM Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_Gen.G",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Doran (Choi Hyeon-joon)",
+            "Peanut",
+            "Chovy",
+            "Ruler",
+            "Lehends",
+            "Score",
+            "Mafa"
+        ],
+        "Team": "Gen.G",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_JD Gaming",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "369",
+            "Kanavi",
+            "Yagao",
+            "Hope (Wang Jie)",
+            "Missing",
+            "Homme",
+            "Vus5o"
+        ],
+        "Team": "JD Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_Rogue (European Team)",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Odoamne",
+            "Malrang",
+            "Larssen",
+            "Comp",
+            "Trymbi",
+            "fredy122",
+            "Blumigan"
+        ],
+        "Team": "Rogue (European Team)",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_Royal Never Give Up",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Breathe",
+            "Wei (Yan Yang-Wei)",
+            "Xiaohu",
+            "GALA",
+            "Ming (Shi Sen-Ming)",
+            "KenZhu",
+            "Tabe"
+        ],
+        "Team": "Royal Never Give Up",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_T1",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zeus",
+            "Oner",
+            "Faker",
+            "Gumayusi",
+            "Keria",
+            "Bengi",
+            "moment"
+        ],
+        "Team": "T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Main Event",
+        "PageAndTeam": "2022 Season World Championship/Main Event_Top Esports",
+        "Place": "9-10",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Wayward",
+            "Tian",
+            "knight (Zhuo Ding)",
+            "JackeyLove",
+            "Mark (Ling Xu)",
+            "Crescent (Luo Sheng)",
+            "byg97"
+        ],
+        "Team": "Top Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_Beyond Gaming",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Likai",
+            "Liang",
+            "Husha",
+            "Minji",
+            "Wako",
+            "Kino",
+            "Benny (Lien Hsiu-Chi)",
+            "Wulala"
+        ],
+        "Team": "Beyond Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_Chiefs Esports Club",
+        "Place": "23-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Topoon",
+            "Arthur (Park Mi-reu)",
+            "Tally",
+            "Raes",
+            "Aladoric",
+            "Babip",
+            "Aiden Hiko",
+            "Nick Bobir"
+        ],
+        "Team": "Chiefs Esports Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_DetonatioN FocusMe",
+        "Place": "17-18",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Head Coach"
+        ],
+        "RosterLinks": [
+            "Evi",
+            "Steal (Mun Geon-yeong)",
+            "Yaharong",
+            "Yutapon",
+            "Harp",
+            "Kazu"
+        ],
+        "Team": "DetonatioN FocusMe",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_Fnatic",
+        "Place": "9-10",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Wunder",
+            "Razork",
+            "Humanoid",
+            "Upset",
+            "Rhuckz",
+            "Hylissang",
+            "YamatoCannon"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_Istanbul Wildcats",
+        "Place": "23-24",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "StarScreen",
+            "Ferret",
+            "Serin",
+            "HolyPhoenix",
+            "Farfetch",
+            "TheQep"
+        ],
+        "Team": "Istanbul Wildcats",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_Isurus",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "ADD",
+            "Grell",
+            "seiya",
+            "Gavotto",
+            "Jelly (Son Ho-gyeong)",
+            "Ukkyr",
+            "NuNuzera"
+        ],
+        "Team": "Isurus",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_LOUD",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Robo",
+            "Croc",
+            "tinowns",
+            "Brance",
+            "Ceos",
+            "Von (Gabriel Barbosa)",
+            "BeellzY"
+        ],
+        "Team": "LOUD",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_MAD Lions",
+        "Place": "17-18",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Armut",
+            "Elyoya",
+            "Nisqy",
+            "UNF0RGIVEN",
+            "Kaiser",
+            "Mac",
+            "Kaas"
+        ],
+        "Team": "MAD Lions",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2022",
+        "GroupName": "",
+        "OverviewPage": "2022 Season World Championship/Play-In",
+        "PageAndTeam": "2022 Season World Championship/Play-In_Saigon Buffalo",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Hasmed",
+            "BeanJ",
+            "Froggy",
+            "Shogun (Nguyễn Văn Huy)",
+            "Taki (Đinh Anh Tài)",
+            "Ren"
+        ],
+        "Team": "Saigon Buffalo",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Bilibili Gaming",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Bin (Chen Ze-Bin)",
+            "XUN",
+            "Yagao",
+            "Elk",
+            "ON",
+            "Tabe",
+            "BigWei"
+        ],
+        "Team": "Bilibili Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Cloud9",
+        "Place": "12-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Fudge",
+            "Blaber",
+            "EMENES",
+            "Berserker (Kim Min-cheol)",
+            "Zven",
+            "Mithy",
+            "Duffman"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Dplus KIA",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Canna",
+            "Canyon",
+            "ShowMaker",
+            "Deft",
+            "Kellin",
+            "Acorn",
+            "Bubbling"
+        ],
+        "Team": "Dplus KIA",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Fnatic",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Oscarinin",
+            "Razork",
+            "Humanoid",
+            "Noah (Oh Hyeon-taek)",
+            "Trymbi",
+            "Nightshare",
+            "Hiiva"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_G2 Esports",
+        "Place": "9-11",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "BrokenBlade",
+            "Yike",
+            "Caps",
+            "Hans Sama",
+            "Mikyx",
+            "Dylan Falco"
+        ],
+        "Team": "G2 Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_GAM Esports",
+        "Place": "12-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Kiaya",
+            "Levi",
+            "Kati",
+            "Slayder",
+            "Palette",
+            "Hankay",
+            "Rei"
+        ],
+        "Team": "GAM Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Gen.G",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Doran (Choi Hyeon-joon)",
+            "Peanut",
+            "Chovy",
+            "Peyz",
+            "Delight",
+            "Score",
+            "Mafa"
+        ],
+        "Team": "Gen.G",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_JD Gaming",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "369",
+            "Kanavi",
+            "knight (Zhuo Ding)",
+            "Ruler",
+            "MISSING",
+            "Homme",
+            "Viod (Lu Fan)"
+        ],
+        "Team": "JD Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_KT Rolster",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Kiin",
+            "Cuzz",
+            "Bdd",
+            "Aiming",
+            "Lehends",
+            "Hirai",
+            "RapidStar"
+        ],
+        "Team": "KT Rolster",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_LNG Esports",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zika",
+            "Tarzan (Lee Seung-yong)",
+            "Scout",
+            "GALA",
+            "Hang",
+            "Poppy (Chang Po-Hao)",
+            "U"
+        ],
+        "Team": "LNG Esports",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_MAD Lions",
+        "Place": "12-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Chasy",
+            "Elyoya",
+            "Nisqy",
+            "Carzzy",
+            "Hylissang",
+            "Pad",
+            "Viking (Jake Ainsworth)"
+        ],
+        "Team": "MAD Lions",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_NRG",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Dhokla",
+            "Contractz",
+            "Palafox",
+            "FBI",
+            "IgNar",
+            "Thinkcard",
+            "Croissant"
+        ],
+        "Team": "NRG",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_T1",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Zeus",
+            "Oner",
+            "Faker",
+            "Gumayusi",
+            "Keria",
+            "Tom (Im Jae-hyeon)",
+            "Roach"
+        ],
+        "Team": "T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Team BDS",
+        "Place": "15-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Adam (Adam Maanane)",
+            "Sheo",
+            "nuc",
+            "Crownie",
+            "Labrov",
+            "GotoOne",
+            "Striker (Yanis Kella)"
+        ],
+        "Team": "Team BDS",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "Group Stage",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Team Liquid",
+        "Place": "15-16",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Summit",
+            "Pyosik",
+            "APA (Eain Stearns)",
+            "Yeon (Sean Sung)",
+            "CoreJJ",
+            "Reignover",
+            "Dodo"
+        ],
+        "Team": "Team Liquid",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Main Event",
+        "PageAndTeam": "2023 Season World Championship/Main Event_Weibo Gaming",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "TheShy",
+            "Weiwei",
+            "Xiaohu",
+            "Light (Wang Guang-Yu)",
+            "Crisp",
+            "Daeny",
+            "Tselin"
+        ],
+        "Team": "Weibo Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Play-In",
+        "PageAndTeam": "2023 Season World Championship/Play-In_CTBC Flying Oyster",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Rest",
+            "Gemini",
+            "JimieN",
+            "Shunn",
+            "ShiauC",
+            "Achie",
+            "Koala (Lin Chih-Chiang)"
+        ],
+        "Team": "CTBC Flying Oyster",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Play-In",
+        "PageAndTeam": "2023 Season World Championship/Play-In_DetonatioN FocusMe",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Head Coach"
+        ],
+        "RosterLinks": [
+            "apaMEN",
+            "Steal (Mun Geon-yeong)",
+            "Aria (Lee Ga-eul)",
+            "Yutapon",
+            "Harp",
+            "Gismo"
+        ],
+        "Team": "DetonatioN FocusMe",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Play-In",
+        "PageAndTeam": "2023 Season World Championship/Play-In_LOUD",
+        "Place": "19-20",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Robo",
+            "Croc",
+            "tinowns",
+            "Route",
+            "Ceos",
+            "BeellzY",
+            "Sephis"
+        ],
+        "Team": "LOUD",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Play-In",
+        "PageAndTeam": "2023 Season World Championship/Play-In_Movistar R7",
+        "Place": "21-22",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Bong (Cho Bo-woong)",
+            "Oddie",
+            "Mireu",
+            "Ceo",
+            "Lyonz",
+            "Khynm",
+            "Kun (Kwon Oh-seong)"
+        ],
+        "Team": "Movistar R7",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Play-In",
+        "PageAndTeam": "2023 Season World Championship/Play-In_PSG Talon",
+        "Place": "17-18",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Azhi",
+            "JunJia",
+            "Maple (Huang Yi-Tang)",
+            "Wako",
+            "Woody",
+            "CorGi",
+            "Zero (Chung Chen-Hua)"
+        ],
+        "Team": "PSG Talon",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Season World Championship/Play-In",
+        "PageAndTeam": "2023 Season World Championship/Play-In_Team Whales",
+        "Place": "17-18",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Sparda",
+            "BeanJ",
+            "Gloryy",
+            "Artemis (Trần Quốc Hưng)",
+            "Bie",
+            "Yuna",
+            "Ciel (Trần Tiến Thịnh)"
+        ],
+        "Team": "Team Whales",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Qualifying Series 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Worlds Qualifying Series",
+        "PageAndTeam": "2023 Worlds Qualifying Series_Golden Guardians",
+        "Place": "NQ",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Licorice",
+            "River (Kim Dong-woo)",
+            "Gori",
+            "Stixxay",
+            "huhi",
+            "Spookz",
+            "Chuz"
+        ],
+        "Team": "Golden Guardians",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Qualifying Series 2023",
+        "GroupName": "",
+        "OverviewPage": "2023 Worlds Qualifying Series",
+        "PageAndTeam": "2023 Worlds Qualifying Series_Team BDS",
+        "Place": "Q",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Adam (Adam Maanane)",
+            "Sheo",
+            "nuc",
+            "Crownie",
+            "Labrov",
+            "GotoOne",
+            "Striker (Yanis Kella)"
+        ],
+        "Team": "Team BDS",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_against All authority",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "sOAZ",
+            "Linak",
+            "MoMa",
+            "Yellowstar",
+            "kujaa"
+        ],
+        "Team": "against All authority",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_Counter Logic Gaming",
+        "Place": "5",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "HotshotGG",
+            "SaintVicious",
+            "bigfatlp",
+            "Chauster",
+            "Elementz"
+        ],
+        "Team": "Counter Logic Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_Epik Gamer",
+        "Place": "4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Westrice",
+            "Dan Dinh",
+            "Salce",
+            "Dyrus",
+            "Doublelift"
+        ],
+        "Team": "Epik Gamer",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_Fnatic",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "wewillfailer",
+            "xPeke",
+            "Cyanide FI",
+            "Shushei",
+            "LaMiaZlt",
+            "Mellisan"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_Team gamed!de",
+        "Place": "6",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Kevin (Kevin Rubiszewski)",
+            "Zylor",
+            "Reyk",
+            "CndyPnda",
+            "Nyph"
+        ],
+        "Team": "Team gamed!de",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_Team Pacific",
+        "Place": "7-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "wormy",
+            "dabe",
+            "iddo",
+            "vy",
+            "gibo"
+        ],
+        "Team": "Team Pacific",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_TSM",
+        "Place": "3",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "TheRainMan",
+            "TheOddOne",
+            "Reginald",
+            "Chaox",
+            "Xpecial"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 1 World Championship",
+        "PageAndTeam": "Season 1 World Championship_Xan",
+        "Place": "7-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Vech",
+            "Radeon6870",
+            "Axion",
+            "d4rkness",
+            "iNtrigueD"
+        ],
+        "Team": "Xan",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_Absolute Legends",
+        "Place": "5-6",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": "",
+        "Team": "Absolute Legends",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_against All authority",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": "",
+        "Team": "against All authority",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_Fnatic",
+        "Place": "3",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "xPeke",
+            "Cyanide",
+            "Shushei",
+            "Lamia",
+            "Mellisan"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_myRevenge",
+        "Place": "7-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": "",
+        "Team": "myRevenge",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_SK Gaming",
+        "Place": "4",
+        "Roles": [
+            "Top,Bot",
+            "Jungle",
+            "Mid,Top",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Wickd",
+            "farfain",
+            "oce",
+            "ALth0r",
+            "limelight",
+            "Sleezy"
+        ],
+        "Team": "SK Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_Team gamed!de",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "kev1n",
+            "Zylor",
+            "Reyk",
+            "Candy (Adrian Wübbelmann)",
+            "Nyph"
+        ],
+        "Team": "Team gamed!de",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_Tic-Tacs",
+        "Place": "5-6",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Karalius",
+            "sen (European Player)",
+            "fredy122",
+            "yellowpete",
+            "Havoc24"
+        ],
+        "Team": "Tic-Tacs",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - Europe",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/Europe",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/Europe_Wizards e-Sports Club",
+        "Place": "7-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "heiN",
+            "Araneae",
+            "Exter",
+            "BarbaQ",
+            "Kaidoh"
+        ],
+        "Team": "Wizards e-Sports Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_compLexity Gaming",
+        "Place": "5-6",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Pwndarz",
+            "shales (Matt Splivalo)",
+            "FitterHappy",
+            "poohbear (Nicholas Harlan)",
+            "Gynsingg"
+        ],
+        "Team": "compLexity Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_Counter Logic Gaming",
+        "Place": "3",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid,Top",
+            "Bot,Mid",
+            "Support,Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Elementz",
+            "Kobe24",
+            "HotshotGG",
+            "bigfatjiji",
+            "Chauster",
+            "SaintVicious"
+        ],
+        "Team": "Counter Logic Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_Defy All Odds",
+        "Place": "5-6",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": "",
+        "Team": "Defy All Odds",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_Disciples of Da Gr8 Whale Lord",
+        "Place": "7-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Poisonidon",
+            "GuardsmanBob",
+            "Cirque",
+            "Smgzy",
+            "Jatt"
+        ],
+        "Team": "Disciples of Da Gr8 Whale Lord",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_Epik Gamer",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot,Support",
+            "Support,Bot"
+        ],
+        "RosterLinks": [
+            "Westrice",
+            "Dan Dinh",
+            "Salce",
+            "Dyrus",
+            "Doublelift"
+        ],
+        "Team": "Epik Gamer",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_OGODBEARS",
+        "Place": "7-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": "",
+        "Team": "OGODBEARS",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_Rock Solid",
+        "Place": "4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Voyboy",
+            "rambo",
+            "scarra",
+            "Imaqtpie",
+            "L0CUST"
+        ],
+        "Team": "Rock Solid",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 1 Qualifier - NA",
+        "GroupName": "",
+        "OverviewPage": "Season 1 World Championship/Qualifiers/North America",
+        "PageAndTeam": "Season 1 World Championship/Qualifiers/North America_TSM",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "TheRainMan",
+            "TheOddOne",
+            "Reginald",
+            "Chaox",
+            "Xpecial"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Azubu Frost",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Shy",
+            "CloudTemplar",
+            "RapidStar",
+            "Woong (Jang Gun-woong)",
+            "MadLife"
+        ],
+        "Team": "Azubu Frost",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_CLG Prime",
+        "Place": "9-10",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Voyboy",
+            "HotshotGG",
+            "bigfatlp",
+            "Doublelift",
+            "Chauster"
+        ],
+        "Team": "CLG Prime",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Counter Logic Gaming Europe",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Wickd",
+            "Snoopeh",
+            "Froggen",
+            "yellowpete",
+            "Krepo"
+        ],
+        "Team": "Counter Logic Gaming Europe",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Dignitas",
+        "Place": "11-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Crumbzz",
+            "IWDominate",
+            "scarra",
+            "imaqtpie",
+            "Patoy"
+        ],
+        "Team": "Dignitas",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Invictus Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "PDD",
+            "illuSioN (Chen Xin-Lin)",
+            "Zzitai",
+            "Kid",
+            "XiaoXiao"
+        ],
+        "Team": "Invictus Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Moscow Five",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Darien",
+            "Diamond (Danil Reshetnikov)",
+            "Alex Ich",
+            "Genja",
+            "GoZu"
+        ],
+        "Team": "Moscow Five",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_NaJin Sword",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "MaKNooN",
+            "Watch",
+            "SSONG",
+            "PraY",
+            "Cain"
+        ],
+        "Team": "NaJin Sword",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Saigon Jokers",
+        "Place": "9-10",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "QTV",
+            "Violet (Ngô Mạnh Quyền)",
+            "NIXWATER",
+            "Archie (Trần Minh Nhựt)",
+            "Junie"
+        ],
+        "Team": "Saigon Jokers",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_SK Gaming",
+        "Place": "11-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "kev1n",
+            "Araneae",
+            "ocelotee",
+            "YellOwStar",
+            "Nyph1"
+        ],
+        "Team": "SK Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Taipei Assassins",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Stanley",
+            "Lilballz",
+            "Toyz",
+            "Bebe (Chang Bo-Wei)",
+            "MiSTakE"
+        ],
+        "Team": "Taipei Assassins",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_Team WE",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Caomei",
+            "ClearLove",
+            "Misaya",
+            "Weixiao",
+            "Fzzf"
+        ],
+        "Team": "Team WE",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 2",
+        "GroupName": "",
+        "OverviewPage": "Season 2 World Championship",
+        "PageAndTeam": "Season 2 World Championship_TSM",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Dyrus",
+            "TheOddOne",
+            "Reginald",
+            "Chaox",
+            "Xpecial"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Cloud9",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Balls",
+            "Meteos",
+            "Hai",
+            "Sneaky",
+            "LemonNation",
+            "Alex Penn"
+        ],
+        "Team": "Cloud9",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Fnatic",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "sOAZ",
+            "Cyanide",
+            "xPeke",
+            "Puszu",
+            "YellOwStaR"
+        ],
+        "Team": "Fnatic",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Gamania Bears",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Steak",
+            "Winds",
+            "Maple (Huang Yi-Tang)",
+            "NL",
+            "SwordArt"
+        ],
+        "Team": "Gamania Bears",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Gambit Gaming",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Darien",
+            "Diamond (Danil Reshetnikov)",
+            "Alex Ich",
+            "Genja",
+            "Voidle"
+        ],
+        "Team": "Gambit Gaming",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_GamingGear.eu",
+        "Place": "13-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Nbs",
+            "Alunir",
+            "Mazzerin",
+            "Deadlybrother",
+            "Inspirro"
+        ],
+        "Team": "GamingGear.eu",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Lemondogs",
+        "Place": "9-10",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "zorozero",
+            "dexter",
+            "Nukeduck",
+            "Tabzz",
+            "mithy"
+        ],
+        "Team": "Lemondogs",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Mineski",
+        "Place": "13-14",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Snoy",
+            "Kaigu",
+            "Yume",
+            "Exo (Eric Gubatan)",
+            "Tgee"
+        ],
+        "Team": "Mineski",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_NaJin Black Sword",
+        "Place": "3-4",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Expession",
+            "watch",
+            "Nagne",
+            "PraY",
+            "Cain"
+        ],
+        "Team": "NaJin Black Sword",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Oh My God",
+        "Place": "5-8",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Gogoing",
+            "LoveLin",
+            "Cool",
+            "San (Guo Jun-Liang)",
+            "Bigpomelo",
+            "comA (Fang Hong-Ri)"
+        ],
+        "Team": "Oh My God",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Royal Club",
+        "Place": "2",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Godlike",
+            "Lucky (Liu Jun-Jie)",
+            "Wh1t3zZ",
+            "Uzi (Jian Zi-Hao)",
+            "Tabe"
+        ],
+        "Team": "Royal Club",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Samsung Ozone",
+        "Place": "9-10",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Looper",
+            "DanDy",
+            "Dade",
+            "Imp",
+            "Mata"
+        ],
+        "Team": "Samsung Ozone",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_SK Telecom T1",
+        "Place": "1",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support",
+            "Coach"
+        ],
+        "RosterLinks": [
+            "Impact",
+            "bengi",
+            "Faker",
+            "Piglet",
+            "PoohManDu",
+            "kkOma"
+        ],
+        "Team": "SK Telecom T1",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_Team Vulcun",
+        "Place": "11-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Sycho Sid",
+            "Xmithie",
+            "mancloud",
+            "Zuna",
+            "BloodWater"
+        ],
+        "Team": "Team Vulcun",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Event": "Worlds Season 3",
+        "GroupName": "Group Stage",
+        "OverviewPage": "Season 3 World Championship",
+        "PageAndTeam": "Season 3 World Championship_TSM",
+        "Place": "11-12",
+        "Roles": [
+            "Top",
+            "Jungle",
+            "Mid",
+            "Bot",
+            "Support"
+        ],
+        "RosterLinks": [
+            "Dyrus",
+            "TheOddOne",
+            "Reginald",
+            "WildTurtle",
+            "Xpecial"
+        ],
+        "Team": "TSM",
+        "Tier": "Offline",
+        "TournamentLevel": "Primary"
+    }
+]
