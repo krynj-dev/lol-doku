@@ -18,9 +18,16 @@ class PuzzleViewSet(viewsets.ModelViewSet):
     serializer_class = PuzzleSerializer
     permission_classes = [permissions.AllowAny]
 
+@csrf_exempt
 def generate(request):
-    # Create puzzle ID
-    p = create_puzzle(False)
+    # Unpack options
+    req_body = json.loads(request.body)
+    if "answer_count" in req_body.keys() and "min" in req_body["answer_count"]:
+        min_answers = int(req_body["answer_count"]["min"])
+    if "allowed_regions" in req_body.keys():
+        allowed_regions = req_body["allowed_regions"]
+
+    p = create_puzzle(min_answers, allowed_regions)
     return JsonResponse(p)
 
 
@@ -34,25 +41,33 @@ def save_puzzle(request: HttpRequest):
     yes = []
     try:
         for x in range(len(req_body["rows"])):
+            r_key = req_body["rows"][x]["key"]
             pr = PuzzleRule(axis=PuzzleRule.RuleAxis.X, 
-                rule=Rule.objects.get(key=req_body["rows"][x]["key"]),
+                rule=Rule.objects.get(key=r_key),
                 puzzle=p, index=x)
             pr.save()
             xes.append(pr.rule)
         for y in range(len(req_body["columns"])):
+            r_key = req_body["columns"][y]["key"]
             pr = PuzzleRule(axis=PuzzleRule.RuleAxis.Y, 
                 rule=Rule.objects.get(key=req_body["columns"][y]["key"]),
                 puzzle=p, index=y)
             pr.save()
             yes.append(pr.rule)
-    except Exception as e:
-        print(e)
+    except Rule.DoesNotExist as e:
         p.delete()
         return HttpResponse(json.dumps({
-            "status": 400,
-            "message": "Server error"
+            "status": 404,
+            "message": f"Rule {r_key} not found"
+        }), status=404)
+    except Exception as e:
+        p.delete()
+        return HttpResponse(json.dumps({
+            "status": 500,
+            "message": "Server error",
+            "error": str(e)
         }), status=500)
-    if not is_solvable(xes[0], xes[1:], yes, False):
+    if not is_solvable(xes[0], xes[1:], yes):
         return HttpResponse(json.dumps({
             "status": 400,
             "message": "Invalid puzzle"

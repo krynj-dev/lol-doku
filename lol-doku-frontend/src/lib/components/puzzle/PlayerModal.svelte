@@ -3,8 +3,8 @@
 	import type { Rule } from '$lib/models/Rule';
 	import type { Player } from '$lib/models/new/Player';
 	import type { SlotGuess } from '$lib/models/new/SlotGuess';
-	import { submit_guess } from '$lib/util/api';
-	import { is_valid } from '$lib/util/puzzle_util';
+	import { submit_guess } from '$lib/shared/api';
+	import { is_valid } from '$lib/shared/puzzle_util';
 	import { _correct, _lives, _selected_players } from '../../../stores';
 
 	export let showModal: Boolean; // boolean
@@ -32,7 +32,10 @@
 	});
 	_selected_players.subscribe((value) => {
 		selectedPlayers = value;
-		selectedPlayer = value[index];
+		let player = selectedPlayers.find(sp => sp.slot == index);
+		if (player) {
+			selectedPlayer = player;
+		}
 	});
 
 	let filter = '';
@@ -47,22 +50,30 @@
 
 	function handleClose(player?: string) {
 		if (player) {
-			submit_guess(index, player);
+			submit_guess(index, player).then(res => {
+				if (!res.correct) {
+					dialog.returnValue = "";
+				}
+			});
 		}
 		showModal = false;
+	}
+
+	function handlePlayerSelection(event: Event, clickedPlayer: string) {
+		dialog.close(clickedPlayer);
 	}
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
 	bind:this={dialog}
-	on:close={(e) =>
+	on:close={(e) => {
 		handleClose(
 			e.currentTarget.returnValue &&
 				(!selectedPlayer || (selectedPlayer && e.currentTarget.returnValue !== selectedPlayer.player))
 				? playerList.map(p => p.display_name).find((p) => p == e.currentTarget.returnValue)
 				: undefined
-		)}
+		)}}
 	on:click|self={() => dialog.close()}
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -80,7 +91,7 @@
 			{#each playerList.sort((a, b) => a.display_name.toLowerCase().localeCompare(b.display_name.toLowerCase())) as plr}
 				<button
 					class={`player-modal-button`}
-					on:click={(e) => dialog.close(plr.display_name)}
+					on:click={(e) => handlePlayerSelection(e, plr.display_name)}
 					disabled={lives <= 0 || selectedPlayers.find((p) => p.player === plr.display_name) != undefined}>{plr.display_name}</button
 				>
 			{/each}

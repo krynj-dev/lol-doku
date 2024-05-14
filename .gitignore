@@ -1,4 +1,4 @@
 *.sqlite3
-scripts/cooked/*
-scripts/img/*
+scripts/old_img/*
+scripts/data/images/*
 lol-doku-backend/db_data/*

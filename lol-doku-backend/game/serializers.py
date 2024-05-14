@@ -23,7 +23,7 @@ class GameRosterSerializer(serializers.ModelSerializer):
         y_rule = [r.rule for r in puzzle.assoc_rules.filter(axis=PuzzleRule.RuleAxis.Y).order_by('index')]
         for x in range(len(x_rule)):
             for y in range(len(y_rule)):
-                valid_players = set(x_rule[x].valid_players.primary.all()) & set(y_rule[y].valid_players.primary.all())
+                valid_players = set(x_rule[x].valid_players.all()) & set(y_rule[y].valid_players.all())
                 for plr in valid_players:
                     cpg = CorrectPlayerGuess.objects.create(roster=instance, x=x_rule[x], y=y_rule[y], player=plr)
                     cpg.save()

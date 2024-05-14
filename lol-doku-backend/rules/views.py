@@ -1,8 +1,8 @@
-from rules.models import Rule, TieredValidPlayers, TieredValidCrosses
+from rules.models import Rule, ValidCrosses
 from rest_framework import permissions, viewsets, filters
 from rest_framework.response import Response
 
-from rules.serializers import RuleSerializer, TieredValidPlayersSerializer, TieredValidCrossesSerializer
+from rules.serializers import RuleSerializer, ValidCrossesSerializer
 
 
 class RuleViewSet(viewsets.ModelViewSet):
@@ -15,19 +15,11 @@ class RuleViewSet(viewsets.ModelViewSet):
     filter_backends = [filters.SearchFilter]
     search_fields = ['^key']
 
-class TieredValidPlayersViewSet(viewsets.ModelViewSet):
+class ValidCrossesViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = TieredValidPlayers.objects.all()
-    serializer_class = TieredValidPlayersSerializer
-    permission_classes = [permissions.AllowAny]
-
-class TieredValidCrossesViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows users to be viewed or edited.
-    """
-    queryset = TieredValidCrosses.objects.all()
-    serializer_class = TieredValidCrossesSerializer
+    queryset = ValidCrosses.objects.all()
+    serializer_class = ValidCrossesSerializer
     permission_classes = [permissions.AllowAny]
     

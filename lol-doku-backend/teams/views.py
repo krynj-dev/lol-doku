@@ -1,5 +1,5 @@
 from teams.models import Team, TeamAlternateName, TeamSisterTeam
-from rest_framework import permissions, viewsets
+from rest_framework import permissions, viewsets, filters
 
 from teams.serializers import TeamSerializer, TeamAlternateNameSerializer, TeamSisterTeamSerializer
 
@@ -10,6 +10,8 @@ class TeamViewSet(viewsets.ModelViewSet):
     queryset = Team.objects.all().order_by('name')
     serializer_class = TeamSerializer
     permission_classes = [permissions.AllowAny]
+    filter_backends = [filters.SearchFilter]
+    search_fields = ['^name']
 
 
 class TeamAlternateNameViewSet(viewsets.ModelViewSet):

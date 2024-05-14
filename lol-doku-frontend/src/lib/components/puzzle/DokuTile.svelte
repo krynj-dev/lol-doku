@@ -1,12 +1,9 @@
 <script lang="ts">
-	import type { Puzzle } from '$lib/models/new/Puzzle';
-
-	// import type { Player } from '$lib/models/Team';
 	import type { Rule } from '$lib/models/new/Rule';
 	import type { SlotGuess } from '$lib/models/new/SlotGuess';
-	import { get_player_src } from '$lib/util/api';
-	import { is_valid, read_rule } from '$lib/util/puzzle_util';
+	import { get_player_src, get_rule } from '$lib/shared/api';
 	import { _lives, _correct, _selected_players, _puzzle, _finalised } from '../../../stores';
+	import StatModal from '../modal/StatModal.svelte';
 	import PlayerModal from './PlayerModal.svelte';
 	export let index: number;
 	export let rule1: Rule;
@@ -57,10 +54,10 @@
 			valid !== 'valid'
 		) {
 			showModal = true;
-			read_rule(rule1.key).then((r1) => {
-				read_rule(rule2.key).then((r2) => {
-					const a_set: Set<string> = new Set(r1.valid_players.Primary);
-					const b_set: Set<string> = new Set(r2.valid_players.Primary);
+			get_rule(rule1.key).then((r1) => {
+				get_rule(rule2.key).then((r2) => {
+					const a_set: Set<string> = new Set(r1.valid_players);
+					const b_set: Set<string> = new Set(r2.valid_players);
 					console.log(a_set.intersection(b_set));
 				});
 			});
@@ -111,9 +108,13 @@
 	style="--tile-color: {tile_color}; {stylish}"
 	class="doku-tile"
 >
-	<PlayerModal bind:showModal bind:index>
-		<span data-index={index}>Select Player:</span>
-	</PlayerModal>
+	{#if !finalised}
+		<PlayerModal bind:showModal bind:index>
+			<span data-index={index}>Select Player:</span>
+		</PlayerModal>
+	{:else}
+		<StatModal slot={Number(index)} bind:showModal />
+	{/if}
 	{#if selectedPlayer}
 		<div class="img-container">
 			<p class="text-overlay percentage">{getPercentage()}%</p>
@@ -132,6 +133,7 @@
 		text-align: center;
 		max-height: 100%;
 		overflow: hidden;
+		cursor: pointer;
 	}
 	.doku-tile:hover {
 		background-color: gainsboro;

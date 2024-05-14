@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { get_key_letters, read_rules } from '$lib/util/puzzle_util';
+	import { get_key_letters, read_rules } from '$lib/shared/puzzle_util';
 	import { onMount } from 'svelte';
 	import { flip } from 'svelte/animate';
 	import _rules_letters from '$lib/data/rule_type_letters.json';

@@ -13,16 +13,26 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='team',
             name='becomes',
-            field=models.CharField(blank=True, max_length=100),
+            field=models.CharField(blank=True, max_length=100, null=True),
         ),
         migrations.AlterField(
             model_name='team',
             name='came_from',
-            field=models.CharField(blank=True, max_length=100),
+            field=models.CharField(blank=True, max_length=100, null=True),
         ),
         migrations.AlterField(
             model_name='team',
             name='image',
-            field=models.CharField(blank=True, max_length=150),
+            field=models.CharField(blank=True, max_length=150, null=True),
+        ),
+        migrations.AlterField(
+            model_name='team',
+            name='region',
+            field=models.CharField(blank=True, max_length=30, null=True),
+        ),
+        migrations.AlterField(
+            model_name='team',
+            name='short',
+            field=models.CharField(blank=True, max_length=5, null=True),
         ),
     ]

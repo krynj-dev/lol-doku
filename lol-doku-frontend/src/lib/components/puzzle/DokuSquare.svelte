@@ -3,7 +3,7 @@
 	import { type Rule } from '$lib/models/new/Rule';
 	import { _puzzle, _correct, _lives, _selected_players, _finalised } from '../../../stores';
 	import DokuTile from './DokuTile.svelte';
-	import Modal from './Modal.svelte';
+	import Modal from '../modal/Modal.svelte';
 	import RuleTile from './RuleTile.svelte';
 	let tile_size = '150px';
 
@@ -40,25 +40,15 @@
 </Modal>
 {#if puzzle}
 	<div class="doku-grid" style="--tile-size: {tile_size}">
-		<div class="info-tile">
-			<img
-				src="https://raw.githubusercontent.com/ribeirogab/scuttle-crab/master/examples/logo.png"
-				alt="scuttle crab"
-			/>
-		</div>
+		<div class="info-tile"></div>
 		{#each puzzle.rules.filter((r) => r.axis == 'x') as col (col.index)}
 			<div class="info-tile">
-				<RuleTile rule={col.key} type={col.rule_type} />
+				<RuleTile rule={col.key} type={col.rule_type} size={tile_size} />
 			</div>
 		{/each}
+		<div class="info-tile"></div>
 		<div class="info-tile">
-			<img
-				src="https://static.wikia.nocookie.net/leagueoflegends/images/5/54/Rift_Herald_Render.png"
-				alt="rift herald"
-			/>
-		</div>
-		<div class="info-tile">
-			<RuleTile bind:rule={rows[0].key} bind:type={rows[0].rule_type} />
+			<RuleTile bind:rule={rows[0].key} bind:type={rows[0].rule_type} size={tile_size} />
 		</div>
 		<div class="select-tile-span">
 			{#each rows as row (row.index)}
@@ -67,15 +57,27 @@
 				{/each}
 			{/each}
 		</div>
-		<div class="info-tile"><span>Uniqueness Rating: 900</span></div>
 		<div class="info-tile">
-			<RuleTile bind:rule={rows[1].key} bind:type={rows[1].rule_type} />
+			<div class="score-tile">
+				<p>Uniqueness Rating: 900</p>
+			</div>
 		</div>
-		<div class="info-tile"><span>Correct Guesses: {correct}/9</span></div>
 		<div class="info-tile">
-			<RuleTile bind:rule={rows[2].key} bind:type={rows[2].rule_type} />
+			<RuleTile bind:rule={rows[1].key} bind:type={rows[1].rule_type} size={tile_size} />
 		</div>
-		<div class="info-tile"><span>Guesses Remaining: {lives}/9</span></div>
+		<div class="info-tile">
+			<div class="score-tile">
+				<p>Correct Guesses: {correct}/9</p>
+			</div>
+		</div>
+		<div class="info-tile">
+			<RuleTile bind:rule={rows[2].key} bind:type={rows[2].rule_type} size={tile_size} />
+		</div>
+		<div class="info-tile">
+			<div class="score-tile">
+				<p>Guesses Remaining: {lives}/10</p>
+			</div>
+		</div>
 	</div>
 {:else}
 	<div></div>
@@ -103,18 +105,21 @@
 	}
 
 	.info-tile {
+		height: var(--tile-size);
+		width: var(--tile-size);
 		display: flex;
-		align-items: center;
+	}
+
+	.score-tile {
+		display: flex;
 		justify-content: center;
+		align-items: center;
+		padding: 10px;
 	}
 
-	.info-tile img {
-		max-width: 100%;
-		max-height: 100%;
-	}
-
-	.info-tile span {
-		padding: 1rem;
+	.score-tile p {
+		text-align: center;
+		font-size: 14px;
 	}
 
 	.select-tile-span {

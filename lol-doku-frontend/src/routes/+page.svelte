@@ -8,7 +8,7 @@
 	import _puzzle_list from '$lib/data/puzzles.json';
 	import type { Puzzle } from '$lib/models/new/Puzzle';
 	import type { Player } from '$lib/models/new/Player';
-	import { refresh_state } from '$lib/util/api';
+	import { refresh_state } from '$lib/shared/api';
 
 	const puzzle_list = _puzzle_list as any[];
 	const tabs = [

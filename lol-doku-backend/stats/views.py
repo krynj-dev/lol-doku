@@ -29,8 +29,6 @@ def get_puzzle_slot_stats(request: HttpRequest):
     # Get all valid players for x and y
     x_rule = todays_puzzle.puzzle.assoc_rules.get(index=x, axis=PuzzleRule.RuleAxis.X).rule
     y_rule = todays_puzzle.puzzle.assoc_rules.get(index=y, axis=PuzzleRule.RuleAxis.Y).rule
-    valid_players = set(x_rule.valid_players.primary.all()) & set(y_rule.valid_players.primary.all())
-    # Try fetching the correct guess for all players, if a player isn't in there yet, make entry starting at zero
     # Grab all the objects
     guesses = CorrectPlayerGuess.objects.filter(roster=todays_puzzle, x=x_rule, y=y_rule)
     serializer = CorrectPlayerGuessSerializer(guesses, many=True, context={'request': request})

@@ -3,8 +3,8 @@
 	import _players from '$lib/data/players.json';
 	import type { Team } from '$lib/models/Team';
 	import { onMount } from 'svelte';
-	import { read_rule } from '$lib/util/puzzle_util';
-	import { get_rule } from '$lib/util/api';
+	import { read_rule } from '$lib/shared/puzzle_util';
+	import { get_rule, get_team } from '$lib/shared/api';
 
 	export let showModal: Boolean; // boolean
 	export let team: string;
@@ -19,59 +19,61 @@
 
 	$: if (dialog && showModal) dialog.showModal();
 	let names: {
-		key: string
-		alt_names: string[]
+		key: string;
+		alt_names: string[];
 	};
 
 	onMount(() => {
 		get_rule(team).then((src) => {
 			if (src) {
 				switch (src.rule_type) {
-					case "team":
-						names = {
-							key: src.key,
-							alt_names: team_data[src.key].other_names
-						}
+					case 'team':
+						get_team(team).then((teams_search_results) => {
+							if (teams_search_results.length > 1) console.log("multiple teams have this name", teams_search_results);
+							names = {
+								key: src.key,
+								alt_names: teams_search_results[0].other_names
+							};
+						});
 						return;
-					case "teammate":
+					case 'teammate':
 						names = {
 							key: src.key,
 							alt_names: player_data[src.key].alternate_names
-						}
+						};
 						return;
 					default:
 						names = {
 							key: src.key,
 							alt_names: []
-						}
+						};
 						return;
 				}
 			}
 		});
 	});
-
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 {#if names}
-<dialog
-	bind:this={dialog}
-	on:click|self={() => dialog.close()}
-	on:close={(e) => (showModal = false)}
->
-	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div on:click|stopPropagation>
-		<slot name="header" />
-		<span>{names.key}</span>
-		<hr />
-		<slot />
-		<ul>
-			{#each names.alt_names as alt_n}
-				<li>{alt_n}</li>
-			{/each}
-		</ul>
-	</div>
-</dialog>
+	<dialog
+		bind:this={dialog}
+		on:click|self={() => dialog.close()}
+		on:close={(e) => (showModal = false)}
+	>
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div on:click|stopPropagation>
+			<slot name="header" />
+			<span>{names.key}</span>
+			<hr />
+			<slot />
+			<ul>
+				{#each names.alt_names as alt_n}
+					<li>{alt_n}</li>
+				{/each}
+			</ul>
+		</div>
+	</dialog>
 {/if}
 
 <style>

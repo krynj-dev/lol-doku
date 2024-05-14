@@ -14,7 +14,7 @@ async function init_puzzle(): Promise<GameState> {
     return game_state;
 }
 
-async function get_player_stats(slot: number) {
+export async function get_player_stats(slot: number) {
     let res = fetch(`http://localhost:8000/stats/today`, {
         credentials: "include",
         method: "POST",
@@ -22,6 +22,13 @@ async function get_player_stats(slot: number) {
             x: slot % 3,
             y: Math.floor(slot / 3)
         })
+    }).then((r) => r.json());
+    return res;
+}
+
+export async function get_team(team: string) {
+    let res = fetch(`http://localhost:8000/teams/?search='${team}'`, {
+        credentials: "include"
     }).then((r) => r.json());
     return res;
 }
@@ -62,14 +69,15 @@ export async function refresh_state() {
         })
         _lives.set(game_state.remaining_guesses);
         if (game_state.status != "finalised" && (game_state.remaining_guesses == 0 || game_state.guesses.reduce((acc, n) => acc + (n.correct ? 1 : 0), 0) == 9)) {
-            finalise_game();
-            _finalised.set(true);
+            finalise_game().then(r => {
+                _finalised.set(true);
+            })
         }
     });
 }
 
-export function submit_guess(slot: number, player_key: string) {
-    fetch(`http://localhost:8000/game/guess/today`, {
+export async function submit_guess(slot: number, player_key: string) {
+    let guess_res = await fetch(`http://localhost:8000/game/guess/today`, {
         credentials: "include",
         method: "POST",
         body: JSON.stringify({
@@ -77,10 +85,9 @@ export function submit_guess(slot: number, player_key: string) {
             y: Math.floor(slot / 3),
             player: player_key
         })
-    }).then((r) => r.json())
-        .then(r => {
-            refresh_state();
-        });
+    })
+    refresh_state();
+    return guess_res.json();
 }
 
 export async function get_rule(key: string): Promise<Rule> {

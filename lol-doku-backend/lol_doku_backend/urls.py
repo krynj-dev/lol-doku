@@ -20,7 +20,7 @@ from django.contrib import admin
 from rest_framework import routers
 from players.views import PlayerViewSet, PlayerAlternateNameViewSet
 from teams.views import TeamViewSet, TeamAlternateNameViewSet, TeamSisterTeamViewSet
-from rules.views import RuleViewSet, TieredValidPlayersViewSet, TieredValidCrossesViewSet
+from rules.views import RuleViewSet, ValidCrossesViewSet
 from puzzles.views import PuzzleViewSet
 from game.views import GameRosterViewSet, GameViewSet
 
@@ -32,8 +32,7 @@ router.register(r'teams', TeamViewSet)
 router.register(r'teamsalternamenames', TeamAlternateNameViewSet)
 router.register(r'sisterteams', TeamSisterTeamViewSet)
 router.register(r'rules', RuleViewSet)
-router.register(r'validplayers', TieredValidPlayersViewSet)
-router.register(r'validcrosses', TieredValidCrossesViewSet)
+router.register(r'validcrosses', ValidCrossesViewSet)
 router.register(r'puzzles', PuzzleViewSet)
 router.register(r'game/daily', GameRosterViewSet)
 router.register(r'game', GameViewSet)
