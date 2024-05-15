@@ -11,13 +11,13 @@ export function decimal_number(num: number, places: number) {
 
 export function calculate_unique_score() {
     let sp: SlotGuess[] = get(_selected_players);
+    let is_finalised = get(_finalised);
     let base_score = 900;
     sp.forEach(guess => {
         if (guess.correct) {
             let the_stat = guess.guess.results.find(r => r.player == guess.player);
             if (the_stat) {
-                console.log(guess.player, the_stat.guesses, guess.guess.total_guesses);
-                base_score -= Number(decimal_number((the_stat.guesses + 1) * 100 / (guess.guess.total_guesses + 1), 0));
+                base_score -= Number(decimal_number((the_stat.guesses + (is_finalised ? 0 : 1)) * 100 / (guess.guess.total_guesses + (is_finalised ? 0 : 1)), 0));
             }
         }
     });

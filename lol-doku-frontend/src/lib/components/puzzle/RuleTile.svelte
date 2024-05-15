@@ -56,7 +56,6 @@
 				if (country_codes) {
 					for (const [k, v] of Object.entries(country_codes)) {
 						if (v == rule_key) {
-							console.log(k, v);
 							return `img/country/${k.toLocaleLowerCase()}.svg`;
 						}
 					}

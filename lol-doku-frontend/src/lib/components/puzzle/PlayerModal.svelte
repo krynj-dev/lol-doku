@@ -10,6 +10,7 @@
 
 	export let showModal: Boolean; // boolean
 	export let index: number;
+	export let loading: boolean = false;
 
 	let playerList: Player[] = [];
 	let player_image_srcs: any = {};
@@ -59,10 +60,12 @@
 
 	function handleClose(player?: string) {
 		if (player) {
+			loading = true;
 			submit_guess(index, player).then(res => {
 				if (!res.correct) {
 					dialog.returnValue = "";
 				}
+				loading = false;
 			});
 		}
 		showModal = false;

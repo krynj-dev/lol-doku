@@ -27,7 +27,7 @@ export async function get_player_stats(slot: number) {
 }
 
 export async function get_team(team: string) {
-    let res = fetch(`http://localhost:8000/teams/?search='${team}'`, {
+    let res = fetch(`http://localhost:8000/teams/?search='${encodeURIComponent(team)}'`, {
         credentials: "include"
     }).then((r) => r.json());
     return res;
@@ -92,12 +92,8 @@ export async function submit_guess(slot: number, player_key: string) {
 }
 
 export async function get_rule(key: string): Promise<Rule> {
-	let rule_res = await fetch(`http://localhost:8000/rules/?search="${key}"`, { credentials: "include" }).then((r) => r.json());
+	let rule_res = await fetch(`http://localhost:8000/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
     return rule_res[0] as Rule;
 }
 
-export async function get_player_src(player_key: string) {
-    let res = await fetch(`img/players/${player_key}.webp`);
-    if (res.status == 200) return `img/players/${player_key}.webp`;
-    return "";
-}
+

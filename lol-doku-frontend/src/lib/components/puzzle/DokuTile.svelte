@@ -1,9 +1,11 @@
 <script lang="ts">
 	import type { Rule } from '$lib/models/new/Rule';
 	import type { SlotGuess } from '$lib/models/new/SlotGuess';
-	import { get_player_src, get_rule } from '$lib/shared/api';
+	import { get_rule } from '$lib/shared/api';
+	import { get_player_image_src } from '$lib/shared/img';
 	import { _lives, _correct, _selected_players, _puzzle, _finalised } from '../../../stores';
 	import StatModal from '../modal/StatModal.svelte';
+	import Spinner from '../spinner/Spinner.svelte';
 	import PlayerModal from './PlayerModal.svelte';
 	export let index: number;
 	export let rule1: Rule;
@@ -13,17 +15,18 @@
 	let selectedPlayers: SlotGuess[] = [];
 	let selectedPlayer: SlotGuess | undefined;
 	let finalised: boolean;
+	let loading: boolean = false;
 
 	$: {
 		if (selectedPlayer) {
-			get_player_src(selectedPlayer.player).then((p) => {
+			get_player_image_src(selectedPlayer.player).then((p) => {
 				image_src = p;
 			});
 		}
 		image_src = "";
 	}
 
-	let image_src: string = "";
+	let image_src: string | undefined = "";
 
 	_lives.subscribe((value) => {
 		lives = value;
@@ -109,19 +112,21 @@
 	class="doku-tile"
 >
 	{#if !finalised}
-		<PlayerModal bind:showModal bind:index>
+		<PlayerModal bind:showModal bind:index bind:loading>
 			<span data-index={index}>Select Player:</span>
 		</PlayerModal>
 	{:else}
 		<StatModal slot={Number(index)} bind:showModal />
 	{/if}
-	{#if selectedPlayer}
-		<div class="img-container">
+	<div class="img-container">
+		{#if loading}
+			<Spinner size={64}/>
+		{:else if selectedPlayer}
 			<p class="text-overlay percentage">{getPercentage()}%</p>
 			<img class="tile-img" src={image_src} alt={selectedPlayer.player} />
 			<p class="text-overlay name"><span class="{isUniquePick() ? "rainbow-text" : ""}">{selectedPlayer.player}</span></p>
-		</div>
-	{/if}
+		{/if}
+	</div>
 </div>
 
 <style>
