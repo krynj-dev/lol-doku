@@ -167,10 +167,10 @@ def restrict_non_worlds_rules(key_set: set, into_set: list, cross_set: list):
     # Count types
     tc = 0
     for r in comb:
-        if r.rule_type == "finalist" or r.rule_type == "tournament":
+        if r.rule_type == "champion" or r.rule_type == "champion":
             tc += 1
     if tc < min_teams and (min_teams - tc) == 6-len(comb):
-        new_keys = set(filter(lambda r: r.rule_type == "finalist" or r.rule_type == "tournament", new_keys))
+        new_keys = set(filter(lambda r: r.rule_type == "champion" or r.rule_type == "champion", new_keys))
     return new_keys
 
 def restrict_teammate_team_cross(key_set: set, into_set: list, cross_set: list):

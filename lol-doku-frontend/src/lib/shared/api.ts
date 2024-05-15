@@ -53,6 +53,7 @@ export async function refresh_state() {
                     let selected: SlotGuess = {
                         player: g.player,
                         slot: g.slot,
+                        correct: g.correct,
                         guess: stats
                     }
                     _selected_players.update(o => {

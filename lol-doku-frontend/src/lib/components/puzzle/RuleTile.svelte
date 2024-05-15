@@ -1,25 +1,20 @@
 <script lang="ts">
-	import _team_data from '$lib/data/teams.json';
 	import _team_image_data from '$lib/data/team_images.json';
-	import _player_image_data from '$lib/data/player_images.json';
 	import TeamModal from './TeamModal.svelte';
 	import { read_rule } from '$lib/shared/puzzle_util';
 	import type { Rule } from '$lib/models/new/Rule';
 	import { onMount } from 'svelte';
 	import tippy from 'tippy.js';
 	import 'tippy.js/dist/tippy.css';
+	import { _country_codes } from '../../../stores';
 
 	let team_image_data = _team_image_data as {
 		[key: string]: string;
 	};
 
-	let player_image_data = _player_image_data as {
-		[key: string]: {
-			SortDate?: string | null;
-			DateStart?: string | null;
-			URL: string;
-		};
-	};
+	let country_codes: object;
+
+	_country_codes.subscribe((v) => (country_codes = v));
 
 	async function get_image_src(rule_key: string) {
 		// const rule: Rule = await read_rule(rule_key);
@@ -57,6 +52,15 @@
 			case 'finalist':
 			case 'tournament':
 				return `img/worlds.svg`;
+			case 'country':
+				if (country_codes) {
+					for (const [k, v] of Object.entries(country_codes)) {
+						if (v == rule_key) {
+							console.log(k, v);
+							return `img/country/${k.toLocaleLowerCase()}.svg`;
+						}
+					}
+				}
 			default:
 				return undefined;
 		}
@@ -96,7 +100,7 @@
 		<TeamModal bind:showModal bind:team={rule}></TeamModal>
 		{#if image}
 			<div class="rule-tile-img-container">
-				<img class={`rule-tile-img ${type == 'role' ? 'role-image' : ''}`} src={image} alt={rule} />
+				<img class={`rule-tile-img ${type == 'role' ? 'role-image ' : ''}${type == 'country' ? 'country-image' : ''}`} src={image} alt={rule} />
 			</div>
 			{#if type == 'teammate'}
 				<div class="caption">
@@ -107,11 +111,6 @@
 					<p>{rule}</p>
 				</div>
 			{/if}
-		{:else if type == 'teammate'}
-			<div class="rule-tile-img-container">
-				<img class="rule-tile-img" src={player_image_data[''].URL} alt={rule} />
-			</div>
-			<p>{rule}</p>
 		{:else}
 			<p>{rule}</p>
 		{/if}
@@ -168,5 +167,11 @@
 
 	.role-image {
 		padding: 10px;
+	}
+
+	.country-image {
+		width: 100%;
+		height: auto;
+		object-fit: scale-down;
 	}
 </style>

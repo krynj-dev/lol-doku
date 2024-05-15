@@ -1,10 +1,12 @@
 <script lang="ts">
 	import { getColumns, getRows, type Puzzle } from '$lib/models/new/Puzzle';
 	import { type Rule } from '$lib/models/new/Rule';
-	import { _puzzle, _correct, _lives, _selected_players, _finalised } from '../../../stores';
+	import { _puzzle, _correct, _lives, _selected_players, _finalised, _country_codes } from '../../../stores';
 	import DokuTile from './DokuTile.svelte';
 	import Modal from '../modal/Modal.svelte';
 	import RuleTile from './RuleTile.svelte';
+	import { calculate_unique_score } from '$lib/shared/util';
+	import { onMount } from 'svelte';
 	let tile_size = '150px';
 
 	let puzzle: Puzzle;
@@ -14,6 +16,7 @@
 	let correct: number;
 	let modal_shown: boolean = false;
 	let showModal: boolean = false;
+	let score: number = 900;
 
 	_puzzle.subscribe((value) => {
 		puzzle = value;
@@ -32,6 +35,13 @@
 			modal_shown = true;
 		}
 	});
+	_selected_players.subscribe(value => score = calculate_unique_score());
+
+	onMount(() => {
+		fetch("countries.json").then(x => x.json()).then(r => {
+			_country_codes.set(r);
+		})
+	})
 </script>
 
 <Modal bind:showModal>
@@ -59,7 +69,7 @@
 		</div>
 		<div class="info-tile">
 			<div class="score-tile">
-				<p>Uniqueness Rating: 900</p>
+				<p>Uniqueness Rating: {score}</p>
 			</div>
 		</div>
 		<div class="info-tile">

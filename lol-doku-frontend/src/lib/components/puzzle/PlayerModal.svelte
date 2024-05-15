@@ -4,6 +4,7 @@
 	import type { Player } from '$lib/models/new/Player';
 	import type { SlotGuess } from '$lib/models/new/SlotGuess';
 	import { submit_guess } from '$lib/shared/api';
+	import { get_player_image_src } from '$lib/shared/img';
 	import { is_valid } from '$lib/shared/puzzle_util';
 	import { _correct, _lives, _selected_players } from '../../../stores';
 
@@ -11,15 +12,23 @@
 	export let index: number;
 
 	let playerList: Player[] = [];
+	let player_image_srcs: any = {};
 
 	async function getPlayers(search_phrase: string) {
 		if (!search_phrase || search_phrase.length < 2) {
 			playerList = [];
 			return;
 		}
-		let response_object = await fetch(`http://localhost:8000/players/?limit=50&search=${search_phrase}`, {credentials: "include"}).then((r) => r.json());
-		let players_list = response_object.results;
+		let response_object = await fetch(`http://localhost:8000/players/?limit=12&search=${search_phrase}`, {credentials: "include"}).then((r) => r.json());
+		let players_list = response_object.results as Player[];
 		playerList = players_list;
+		players_list.forEach(player => {
+                get_player_image_src(player.display_name).then(res => {
+                    if (res) {
+                        player_image_srcs[player.display_name] = res;
+                    }
+                })
+            });
 		return;
 	}
 
@@ -92,7 +101,10 @@
 				<button
 					class={`player-modal-button`}
 					on:click={(e) => handlePlayerSelection(e, plr.display_name)}
-					disabled={lives <= 0 || selectedPlayers.find((p) => p.player === plr.display_name) != undefined}>{plr.display_name}</button
+					disabled={lives <= 0 || selectedPlayers.find((p) => p.player === plr.display_name) != undefined}>
+					<div class="player-model-button-image-container"><img src={player_image_srcs[plr.display_name]} alt={plr.display_name}/></div>
+					<div>{plr.display_name}</div>
+					</button
 				>
 			{/each}
 		</div>
@@ -101,7 +113,7 @@
 
 <style>
 	dialog {
-		width: 400px;
+		width: 600px;
 		height: 600px;
 		border-radius: 0.2em;
 		border: none;
@@ -140,11 +152,18 @@
 	}
 	.player-modal-button {
 		width: 100%;
-		margin-bottom: 2px;
-		padding: 8px 8px;
+		height: 80px;
+		padding: 8px 16px 8px 8px;
 		text-align: left;
 		border-radius: 0;
 		border: 0;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: 20px;
+	}
+	.player-modal-button:not(:last-child) {
+		margin-bottom: 2px;
 	}
 	.player-modal-button:hover {
 		background-color: beige;
@@ -158,6 +177,22 @@
 	.player-button-box {
 		overflow-y: auto;
 		padding: 0 5px;
+	}
+
+	.player-model-button-image-container {
+		flex-basis: 64px;
+		height: 100%;
+		box-sizing: border-box;
+		overflow: hidden;
+		display: flex;
+		margin-right: 20px;
+	}
+
+	.player-modal-button img {
+		box-sizing: border-box;
+		min-width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 
 	.player-modal-container {

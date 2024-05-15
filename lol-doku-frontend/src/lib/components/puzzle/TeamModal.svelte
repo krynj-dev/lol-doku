@@ -1,18 +1,13 @@
 <script lang="ts">
-	import _teams from '$lib/data/teams.json';
 	import _players from '$lib/data/players.json';
-	import type { Team } from '$lib/models/Team';
 	import { onMount } from 'svelte';
-	import { read_rule } from '$lib/shared/puzzle_util';
 	import { get_rule, get_team } from '$lib/shared/api';
 
 	export let showModal: Boolean; // boolean
 	export let team: string;
 
 	let dialog: HTMLDialogElement; // HTMLDialogElement
-	const team_data = _teams as {
-		[key: string]: Team;
-	};
+
 	const player_data = _players as {
 		[key: string]: any;
 	};
