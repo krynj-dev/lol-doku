@@ -22,12 +22,21 @@ class PuzzleViewSet(viewsets.ModelViewSet):
 def generate(request):
     # Unpack options
     req_body = json.loads(request.body)
+    min_answers = 1
+    allowed_regions = []
+    rule_type_minimums = []
     if "answer_count" in req_body.keys() and "min" in req_body["answer_count"]:
         min_answers = int(req_body["answer_count"]["min"])
     if "allowed_regions" in req_body.keys():
         allowed_regions = req_body["allowed_regions"]
+    if "rule_type_minimums" in req_body.keys():
+        rule_type_minimums = req_body["rule_type_minimums"]
+    if "include_rules" in req_body.keys():
+        included_rules = req_body["include_rules"]
 
-    p = create_puzzle(min_answers, allowed_regions)
+    p = create_puzzle(min_answers, allowed_regions, rule_type_minimums, included_rules)
+    if p is None:
+        return HttpResponse({"message": "failed to generate"},status=400)
     return JsonResponse(p)
 
 

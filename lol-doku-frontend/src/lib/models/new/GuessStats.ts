@@ -6,6 +6,7 @@ export interface PlayerGuessStat {
 export interface GuessStats {
     results: PlayerGuessStat[]
     total_guesses: number
+    total_games: number
     x: string
     y: string
 }

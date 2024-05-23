@@ -1,7 +1,14 @@
 <script lang="ts">
 	import { getColumns, getRows, type Puzzle } from '$lib/models/new/Puzzle';
 	import { type Rule } from '$lib/models/new/Rule';
-	import { _puzzle, _correct, _lives, _selected_players, _finalised, _country_codes } from '../../../stores';
+	import {
+		_puzzle,
+		_correct,
+		_lives,
+		_selected_players,
+		_finalised,
+		_country_codes
+	} from '../../../stores';
 	import DokuTile from './DokuTile.svelte';
 	import Modal from '../modal/Modal.svelte';
 	import RuleTile from './RuleTile.svelte';
@@ -35,18 +42,24 @@
 			modal_shown = true;
 		}
 	});
-	_selected_players.subscribe(value => score = calculate_unique_score());
-
-	onMount(() => {
-		fetch("countries.json").then(x => x.json()).then(r => {
-			_country_codes.set(r);
-		})
-	})
+	_selected_players.subscribe((value) => (score = calculate_unique_score()));
 </script>
 
 <Modal bind:showModal>
-	<p>Thank you for playing</p>
-	<p>You're the GOAT fr fr</p>
+	<div class="ending-modal">
+		<h4 class="ending-modal-title">Thank you for playing!</h4>
+		<div class="ending-modal-row-2">
+			<p>{`Correct guesses:`}</p>
+			<p>{`${correct}`}</p>
+		</div>
+		<div class="ending-modal-row-2">
+			<p>{`Uniqueness score:`}</p>
+			<p>{`${score}`}</p>
+		</div>
+		<div class="ending-modal-row-1">
+			<p>Click on the grid cells to view guess stats!</p>
+		</div>
+	</div>
 </Modal>
 {#if puzzle}
 	<div class="doku-grid" style="--tile-size: {tile_size}">
@@ -60,7 +73,7 @@
 		<div class="info-tile">
 			<RuleTile bind:rule={rows[0].key} bind:type={rows[0].rule_type} size={tile_size} />
 		</div>
-		<div class="select-tile-span">
+		<div class="select-tile-span lol-border">
 			{#each rows as row (row.index)}
 				{#each columns as col (col.index)}
 					<DokuTile index={row.index * 3 + col.index} bind:rule1={col} bind:rule2={row} />
@@ -110,8 +123,8 @@
 			'row-0 tile-0 tile-1 tile-2'
 			'row-1 tile-3 tile-4 tile-5'
 			'row-2 tile-6 tile-7 tile-8'; */
-		grid-template-columns: repeat(5, var(--tile-size));
-		grid-template-rows: repeat(5, var(--tile-size));
+		grid-template-columns: repeat(5, calc(5px + var(--tile-size)));
+		grid-template-rows: repeat(5, calc(5px + var(--tile-size)));
 	}
 
 	.info-tile {
@@ -135,45 +148,35 @@
 	.select-tile-span {
 		grid-area: span 3 / span 3 / span 3 / span 3;
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0px, 1fr));
-		grid-template-rows: repeat(3, minmax(0px, 1fr));
-		gap: 1px;
-		border-radius: 15px;
+		grid-template-columns: repeat(3, var(--tile-size));
+		grid-template-rows: repeat(3, var(--tile-size));
 		overflow: hidden;
+		padding: 4px;
+		gap: 2px;
+		background-color: var(--lol-hextech-black);
 	}
 
-	dialog {
-		width: 400px;
-		border-radius: 0.2em;
-		border: none;
-		padding: 0;
+	.ending-modal {
+		padding: 10px;
 	}
-	dialog::backdrop {
-		background: rgba(0, 0, 0, 0.3);
+
+	.ending-modal-title {
+		text-align: center;
+		margin-top: 0;
 	}
-	dialog > div {
-		padding: 1em;
+
+	.ending-modal-row-2 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
-	dialog[open] {
-		animation: zoom 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+	.ending-modal-row-1 {
+		display: flex;
+		align-items: center;
 	}
-	@keyframes zoom {
-		from {
-			transform: scale(0.95);
-		}
-		to {
-			transform: scale(1);
-		}
-	}
-	dialog[open]::backdrop {
-		animation: fade 0.2s ease-out;
-	}
-	@keyframes fade {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
+
+	.ending-modal-row-1 > * {
+		flex-grow: 1;
 	}
 </style>

@@ -24,7 +24,6 @@
 		getItemsStore().update((v: any[]) => {
 			let new_v = [...v, item]
 			getCallback()(new_v, getBucketKey());
-			console.log(new_v, "newv")
 			return new_v;
 		});
 	});

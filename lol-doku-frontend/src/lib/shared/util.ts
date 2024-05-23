@@ -6,6 +6,10 @@ import { _finalised, _lives, _puzzle, _selected_players } from "../../stores";
 import { get } from 'svelte/store'
 
 export function decimal_number(num: number, places: number) {
+    let rounded_num = Math.round(num * 10**places) / 10**places;
+    if (isNaN(rounded_num)) {
+        return (0).toFixed(places);
+    }
     return (Math.round(num * 10**places) / 10**places).toFixed(places);
 }
 
@@ -17,7 +21,7 @@ export function calculate_unique_score() {
         if (guess.correct) {
             let the_stat = guess.guess.results.find(r => r.player == guess.player);
             if (the_stat) {
-                base_score -= Number(decimal_number((the_stat.guesses + (is_finalised ? 0 : 1)) * 100 / (guess.guess.total_guesses + (is_finalised ? 0 : 1)), 0));
+                base_score -= (100 - Number(decimal_number((the_stat.guesses + (is_finalised ? 0 : 1)) * 100 / (guess.guess.total_guesses + (is_finalised ? 0 : 1)), 0)));
             }
         }
     });

@@ -10,7 +10,7 @@ from stats.models import CorrectPlayerGuess
 from stats.serializers import CorrectPlayerGuessSerializer
 from rules.models import Rule
 from players.models import Player
-from game.models import GameRoster
+from game.models import GameRoster, Game
 from puzzles.models import PuzzleRule
 
 
@@ -33,9 +33,11 @@ def get_puzzle_slot_stats(request: HttpRequest):
     guesses = CorrectPlayerGuess.objects.filter(roster=todays_puzzle, x=x_rule, y=y_rule)
     serializer = CorrectPlayerGuessSerializer(guesses, many=True, context={'request': request})
     data_list = [d for d in serializer.data]
+    total_games = len(Game.objects.all().filter(rostered_puzzle=todays_puzzle, status=Game.Status.FINALISED))
     return JsonResponse({
         'results': data_list,
         'total_guesses': sum([d["guesses"] for d in data_list]),
         'x': x_rule.key,
-        'y': y_rule.key
+        'y': y_rule.key,
+        "total_games": total_games
         })

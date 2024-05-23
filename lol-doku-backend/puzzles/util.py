@@ -145,33 +145,21 @@ def get_links(key_a, key_b):
     common_players = r1_prim.intersection(r2_prim)
     return common_players
 
-def restrict_non_team_rules(key_set: set, into_set: list, cross_set: list):
-    new_keys = key_set
-    # Ensure at least 2 teams in every puzzle
-    min_teams = 1
-    comb = into_set + cross_set
-    # Count types
-    tc = 0
-    for r in comb:
-        if r.rule_type == "team":
-            tc += 1
-    if tc < min_teams and (min_teams - tc) == 6-len(comb):
-        new_keys = set(filter(lambda r: r.rule_type == "team", new_keys))
-    return new_keys
+def rule_type_minimum_restriction(types: list, minimum: int):
+    def restrict_rules(key_set: set, into_set: list, cross_set: list):
+        new_keys = key_set
+        comb = into_set + cross_set
+        tc = 0
+        for r in comb:
+            if r.rule_type in types:
+                tc += 1
+        if tc < minimum and (minimum - tc) == 6-len(comb):
+            new_keys = set(filter(lambda r: r.rule_type in types, new_keys))
+        return new_keys
+    return restrict_rules
 
-def restrict_non_worlds_rules(key_set: set, into_set: list, cross_set: list):
-    new_keys = key_set
-    # Ensure at least 1 world in every puzzle
-    min_teams = 1
-    comb = into_set + cross_set
-    # Count types
-    tc = 0
-    for r in comb:
-        if r.rule_type == "champion" or r.rule_type == "champion":
-            tc += 1
-    if tc < min_teams and (min_teams - tc) == 6-len(comb):
-        new_keys = set(filter(lambda r: r.rule_type == "champion" or r.rule_type == "champion", new_keys))
-    return new_keys
+def get_rule_type_min_restriction_funcs(rule_type_minimums):
+    return [rule_type_minimum_restriction(x["rule_types"], x["minimum"]) for x in rule_type_minimums]
 
 def restrict_teammate_team_cross(key_set: set, into_set: list, cross_set: list):
     new_keys = key_set
@@ -210,75 +198,106 @@ def get_probability_dist(key_list):
                 p[i] *= m
     return p
 
-
-def get_valid_options(rule_set, into_set: list, cross_set: list, exclusions: list, min_answers: int):
-    key_set = set([r for r in rule_set])
-    # Filter out existing teams
-    key_set = set(filter(lambda x: x not in into_set and x not in cross_set, key_set))
-    # Filter out exclusions
-    key_set = set(filter(lambda x: x not in exclusions, key_set))
-    # Filter so only teams remaining in the cross set are pickable
-    for cross_key in cross_set:
-        valid_crosses = [y.key for y in ValidCrosses.objects.get(rule=cross_key).crosses.all()]
-        key_set = set(filter(lambda x: x.key in valid_crosses, key_set))   
-    # Remove restricted types
-    key_set = restrict_non_team_rules(key_set, into_set, cross_set)
-    key_set = restrict_non_worlds_rules(key_set, into_set, cross_set)
-    key_set = restrict_teammate_team_cross(key_set, into_set, cross_set)
-    if len(key_set) == 0:
-        return None
-    key_list = list(key_set)
-    # Shuffle then pick first valid rule
-    random.shuffle(key_list)
-    candidate_i = -1
-    for j in range(len(key_list)):
-        if is_solvable(key_list[j], into_set, cross_set, min_answers):
-            candidate_i = j
-            break
-    if candidate_i == -1:
-        return None
-    candidate_key = key_list[candidate_i]
-    return candidate_key
+def get_crosses(rule: Rule):
+    cross_set = set()
+    for plr in rule.valid_players.all():
+        cross_set |= set([r.key for r in plr.valid_rules.all()])
+    return cross_set
 
 
-def create_puzzle(min_answers=1, allowed_regions=["EU", "EMEA", "", "World", "North America", "Korea", "China", "Europe", "PCS", "LMS", "Oceania", "OCE", "Turkey", "BR", "CIS", "Vietnam", "SEA", "APAC", "TR"]):
+def candidate_selector_func(min_answers: int, rule_type_min_funcs=[]):
+    def get_valid_options(rule_set, into_set: list, cross_set: list, exclusions: list):
+        key_set = set([r for r in rule_set])
+        # Filter out existing teams
+        key_set = set(filter(lambda x: x not in into_set and x not in cross_set, key_set))
+        # Filter out exclusions
+        key_set = set(filter(lambda x: x not in exclusions, key_set))
+        # Filter so only teams remaining in the cross set are pickable
+        for cross_key in cross_set:
+            # valid_crosses = get_crosses(cross_key)
+            valid_crosses = [y.key for y in ValidCrosses.objects.get(rule=cross_key).crosses.all()]
+            key_set = set(filter(lambda x: x.key in valid_crosses, key_set))   
+        # Remove restricted types
+        for restriction_func in rule_type_min_funcs:
+            key_set = restriction_func(key_set, into_set, cross_set)
+        key_set = restrict_teammate_team_cross(key_set, into_set, cross_set)
+        if len(key_set) == 0:
+            return None
+        key_list = list(key_set)
+        # Shuffle then pick first valid rule
+        random.shuffle(key_list)
+        candidate_i = -1
+        for j in range(len(key_list)):
+            if is_solvable(key_list[j], into_set, cross_set, min_answers):
+                candidate_i = j
+                break
+        if candidate_i == -1:
+            return None
+        candidate_key = key_list[candidate_i]
+        return candidate_key
+    return get_valid_options
+
+
+def create_puzzle(min_answers=1, allowed_regions=["EU", "EMEA", "", "World", "North America", "Korea", "China", "Europe", "PCS", "LMS", "Oceania", "OCE", "Turkey", "BR", "CIS", "Vietnam", "SEA", "APAC", "TR"],
+    rule_type_minimums=[], included_rules={
+        "rows": [],
+        "columns": []
+    }):
     # Read rules once from DB
-    rule_set = [x for x in (Rule.objects.annotate(num_crosses=Count('valid_crosses')).filter(num_crosses__gte=3))]
+    rule_set = [x for x in (Rule.objects.all())]
+    get_valid_options = candidate_selector_func(min_answers, get_rule_type_min_restriction_funcs(rule_type_minimums))
 
-    rows = []
-    columns = []
+    start_rows = [Rule.objects.get(key=x) for x in included_rules["rows"]]
+    start_columns = [Rule.objects.get(key=x) for x in included_rules["columns"]]
+
+    rows, columns = find_puzzle(start_rows, start_columns, get_valid_options, rule_set)
+    if rows is None or columns is None:
+        return None
+
+    return create_puzzle_object(rows, columns)
+
+def find_puzzle(init_rows, init_columns, selector_func, rule_set, size=3):
+    print(init_rows, init_columns, size)
+    rows = [r for r in init_rows]
+    columns = [c for c in init_columns]
     row_exclude = set()
     column_exclude = set()
-    i = 0
-    while len(rows) < 3 or len(columns) < 3:
-        cc = None
-        if (i == 0 and len(columns) < 3) or (i == 1 and len(rows) == 3):
-            cc = get_valid_options(rule_set, columns, rows, column_exclude, min_answers)
-            if cc is not None:
-                columns.append(cc)
-                i = 1
+    if len(rows) == size:
+        axis_flag = 0
+    else:
+        axis_flag = 1
+
+    while len(rows) < size or len(columns) < size:
+        rule_to_add = None
+        if (axis_flag == 0 and len(columns) < size) or (axis_flag == 1 and len(rows) == 3):
+            rule_to_add = selector_func(rule_set, columns, rows, column_exclude)
+            if rule_to_add is not None:
+                columns.append(rule_to_add)
+                axis_flag = 1
             elif len(rows) > 0:
                 row_to_remove = rows.pop()
                 row_exclude.add(row_to_remove)
-                i = 0
+                axis_flag = 0
             elif len(rows) == 0:
                 column_to_remove = columns.pop()
                 column_exclude.add(column_to_remove)
-                i = 0
-        elif (i == 1 and len(rows) < 3) or (i == 0 and len(columns) == 3):
-            cc = get_valid_options(rule_set, rows, columns, row_exclude, min_answers)
-            if cc is not None:
-                rows.append(cc)
-                i = 0
+                axis_flag = 0
+        elif (axis_flag == 1 and len(rows) < 3) or (axis_flag == 0 and len(columns) == 3):
+            rule_to_add = selector_func(rule_set, rows, columns, row_exclude)
+            if rule_to_add is not None:
+                rows.append(rule_to_add)
+                axis_flag = 0
             elif len(columns) > 0:
                 column_to_remove = columns.pop()
                 column_exclude.add(column_to_remove)
-                i = 1
+                axis_flag = 1
             elif len(columns) == 0:
                 row_to_remove = rows.pop()
                 row_exclude.add(row_to_remove)
-                i = 1
+                axis_flag = 1
         if len(rows) == 0 and len(columns) == 0:
             row_exclude.clear()
             column_exclude.clear()
-    return create_puzzle_object(rows, columns)
+        if len(rows) < len(init_rows) or len(columns) < len(init_columns) or (len(rows) == len(init_rows) and len(columns) == len(init_columns)):
+            return None, None
+    return rows, columns

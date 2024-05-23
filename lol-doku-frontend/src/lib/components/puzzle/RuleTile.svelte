@@ -1,12 +1,13 @@
 <script lang="ts">
 	import _team_image_data from '$lib/data/team_images.json';
-	import TeamModal from './TeamModal.svelte';
+	import TeamModal from '../modal/RuleModal.svelte';
 	import { read_rule } from '$lib/shared/puzzle_util';
 	import type { Rule } from '$lib/models/new/Rule';
 	import { onMount } from 'svelte';
 	import tippy from 'tippy.js';
 	import 'tippy.js/dist/tippy.css';
 	import { _country_codes } from '../../../stores';
+	import Worlds from '../vector-image/Worlds.svelte';
 
 	let team_image_data = _team_image_data as {
 		[key: string]: string;
@@ -45,7 +46,7 @@
 				let split = rule_key.split(' ');
 				let champ_key;
 				if (split.length == 2) champ_key = split[0];
-				else split.slice(0, split.length - 2).join(' ');
+				else champ_key = split.slice(0, split.length - 1).join(' ');
 				if (champ_key != 'Any')
 					return `img/champion/${champ_key?.replace(' ', '').replace("'", '')}.png`;
 				return `img/champion/None.jpg`;
@@ -80,11 +81,16 @@
 	}
 
 	onMount(() => {
-		get_image_src(rule).then((src) => {
-			if (src) {
-				image = src;
-			}
-		});
+		fetch('countries.json')
+			.then((x) => x.json())
+			.then((r) => {
+				_country_codes.set(r);
+				get_image_src(rule).then((src) => {
+					if (src) {
+						image = src;
+					}
+				});
+			});
 	});
 </script>
 
@@ -96,10 +102,21 @@
 		on:click={toggleModal}
 		on:keyup={toggleModal}
 	>
-		<TeamModal bind:showModal bind:team={rule}></TeamModal>
-		{#if image}
+		<TeamModal bind:showModal bind:rule_key={rule}></TeamModal>
+		{#if type == 'tournament' || type == "finalist"}
 			<div class="rule-tile-img-container">
-				<img class={`rule-tile-img ${type == 'role' ? 'role-image ' : ''}${type == 'country' ? 'country-image' : ''}`} src={image} alt={rule} />
+				<Worlds />
+			</div>
+			<div class="caption">
+				<p>{rule}</p>
+			</div>
+		{:else if image}
+			<div class="rule-tile-img-container">
+				<img
+					class={`rule-tile-img ${type == 'role' ? 'role-image ' : ''}`}
+					src={image}
+					alt={rule}
+				/>
 			</div>
 			{#if type == 'teammate'}
 				<div class="caption">
@@ -131,11 +148,11 @@
 	}
 
 	.rule-tile-img {
-		width: auto;
-		height: 100%;
+		max-width: 100%;
+		max-height: 100%;
 		overflow: hidden;
 		box-sizing: border-box;
-		object-fit: cover;
+		object-fit: scale-down;
 	}
 
 	.caption {
@@ -161,16 +178,10 @@
 		box-sizing: border-box;
 		display: flex;
 		justify-content: center;
-		padding: 10px 10px 0;
+		padding: 10px 10px 5px;
 	}
 
 	.role-image {
 		padding: 10px;
-	}
-
-	.country-image {
-		width: 100%;
-		height: auto;
-		object-fit: scale-down;
 	}
 </style>

@@ -17,7 +17,10 @@ def load_teams(apps, schema_editor):
         data = json.load(f)
     if data is None:
         return
+    i = 1
     for k in data.keys():
+        print(f"\rTeam {i}/{len(data.keys())}", flush=True, end='', sep='')
+        i += 1
         team = data[k]
         try:
             with transaction.atomic():

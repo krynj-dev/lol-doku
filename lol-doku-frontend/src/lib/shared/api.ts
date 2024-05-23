@@ -4,18 +4,23 @@ import { type Rule } from "$lib/models/new/Rule";
 import { type SlotGuess } from "$lib/models/new/SlotGuess";
 import { _finalised, _lives, _puzzle, _selected_players } from "../../stores";
 import { get } from 'svelte/store'
+import { type Player } from "$lib/models/new/Player";
+
+
 
 async function init_puzzle(): Promise<GameState> {
     // Get Session
-    let session_res = await fetch('http://localhost:8000/game/session', { credentials: "include" }).then((r) => r.json());
+    let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json());
     // Get Game
-    let game_res = await fetch('http://localhost:8000/game/today', { credentials: "include" }).then((r) => r.json());
+    let game_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/today`, { credentials: "include" })
+        .then((r) => r.json())
+        .catch(e => console.error(e));
     let game_state = game_res as GameState;
     return game_state;
 }
 
 export async function get_player_stats(slot: number) {
-    let res = fetch(`http://localhost:8000/stats/today`, {
+    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/stats/today`, {
         credentials: "include",
         method: "POST",
         body: JSON.stringify({
@@ -26,15 +31,28 @@ export async function get_player_stats(slot: number) {
     return res;
 }
 
+export async function get_players(player_name: string, limit: number): Promise<{
+    count: number
+    next?: any
+    previous?: any
+    results: Player[]
+}> {
+    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/players/?search='${encodeURIComponent(player_name)}'&limit=${limit}`, {
+        credentials: "include"
+    }).then((r) => r.json());
+    return res;
+    //TODO: Change the call to this in the search tab to cache all results on two letters maybe?
+}
+
 export async function get_team(team: string) {
-    let res = fetch(`http://localhost:8000/teams/?search='${encodeURIComponent(team)}'`, {
+    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/teams/?search='${encodeURIComponent(team)}'`, {
         credentials: "include"
     }).then((r) => r.json());
     return res;
 }
 
 async function finalise_game() {
-    let res = fetch(`http://localhost:8000/game/finalise/today`, {
+    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/finalise/today`, {
         credentials: "include",
         method: "POST"
     }).then((r) => r.json());
@@ -78,7 +96,7 @@ export async function refresh_state() {
 }
 
 export async function submit_guess(slot: number, player_key: string) {
-    let guess_res = await fetch(`http://localhost:8000/game/guess/today`, {
+    let guess_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/guess/today`, {
         credentials: "include",
         method: "POST",
         body: JSON.stringify({
@@ -92,7 +110,7 @@ export async function submit_guess(slot: number, player_key: string) {
 }
 
 export async function get_rule(key: string): Promise<Rule> {
-	let rule_res = await fetch(`http://localhost:8000/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
+    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
     return rule_res[0] as Rule;
 }
 

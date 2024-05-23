@@ -1,0 +1,217 @@
+@font-face {
+    font-family: Spiegel;
+    font-weight: 500;
+    src: 
+        url("font/Spiegel/Spiegel_TT_Regular.ttf");
+}
+@font-face {
+    font-family: Spiegel;
+    font-weight: 500;
+    font-style: italic;
+    src: url("font/Spiegel/Spiegel_TT_Regular_Italic.ttf");
+}
+@font-face {
+    font-family: Spiegel;
+    font-weight: 700;
+    src: url("font/Spiegel/Spiegel_TT_Bold.ttf");
+}
+@font-face {
+    font-family: Spiegel;
+    font-weight: 700;
+    font-style: italic;
+    src: url("font/Spiegel/Spiegel_TT_Bold_Italic.ttf");
+}
+@font-face {
+    font-family: Spiegel;
+    font-weight: 600;
+    src: url("font/Spiegel/Spiegel_TT_SemiBold.ttf");
+}
+@font-face {
+    font-family: Spiegel;
+    font-weight: 600;
+    font-style: italic;
+    src: url("font/Spiegel/Spiegel_TT_SemiBold_Italic.ttf");
+}
+@font-face {
+    font-family: Beaufort;
+    font-weight: 500;
+    src: url("font/BeaufortForLoL/BeaufortforLOL-Medium.ttf");
+}
+@font-face {
+    font-family: Beaufort;
+    font-weight: 500;
+    font-style: italic;
+    src: url("font/BeaufortForLoL/BeaufortforLOL-MediumItalic.ttf");
+}
+@font-face {
+    font-family: Beaufort;
+    font-weight: 700;
+    src: url("font/BeaufortForLoL/BeaufortforLOL-Bold.ttf");
+}
+@font-face {
+    font-family: Beaufort;
+    font-weight: 700;
+    font-style: italic;
+    src: url("font/BeaufortForLoL/BeaufortforLOL-BoldItalic.ttf");
+}
+body {
+    font-family: Spiegel, sans-serif;
+    font-size: 14pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Beaufort, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+h2 {
+    font-size: 28pt;
+}
+
+h3 {
+    font-size: 23pt;
+}
+
+h4 {
+    font-size: 18pt;
+    margin-block-start: 1em; 
+    margin-block-end: 1em; 
+}
+
+h5 {
+    font-size: 14pt;
+}
+
+p {
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+hr {
+    border-color: var(--lol-gold-4);
+}
+
+@property --lol-grey-1 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #a09b8c;
+}
+
+@property --lol-grey-1-5 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #5B5A56;
+}
+
+@property --lol-grey-2 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #3c3c41;
+}
+
+@property --lol-grey-3 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #1e2328;
+}
+
+@property --lol-grey-cool {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #1e282d;
+}
+
+@property --lol-hextech-black {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #010a13;
+}
+
+@property --lol-blue-1 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #cdfafa;
+}
+
+@property --lol-blue-2 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #0ac8b9;
+}
+
+@property --lol-blue-3 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #0397ab;
+}
+
+@property --lol-blue-4 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #005a82;
+}
+
+@property --lol-blue-5 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #0a323c;
+}
+
+@property --lol-blue-6 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #091428;
+}
+
+@property --lol-blue-7 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #0a1428;
+}
+
+@property --lol-gold-1 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #f0e6d2;
+}
+
+@property --lol-gold-2 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #c8aa6e;
+}
+
+@property --lol-gold-3 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #c8aa6e;
+}
+
+@property --lol-gold-4 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #c89b3c;
+}
+
+@property --lol-gold-5 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #785a28;
+}
+
+@property --lol-gold-6 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #463714;
+}
+
+@property --lol-gold-7 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #32281e;
+}

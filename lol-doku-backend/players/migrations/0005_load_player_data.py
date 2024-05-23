@@ -15,7 +15,10 @@ def load_players(apps, schema_editor):
         data = json.load(f)
     if data is None:
         return
+    i = 1
     for k in data.keys():
+        print(f"\rPlayer {i}/{len(data.keys())}", flush=True, end='', sep='')
+        i += 1
         plr = data[k]
         try:
             with transaction.atomic():

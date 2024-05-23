@@ -4,6 +4,7 @@ from rest_framework.response import Response as DRFResponse
 from rest_framework import viewsets, permissions
 from rest_framework.decorators import api_view, renderer_classes
 from rest_framework.renderers import JSONRenderer, TemplateHTMLRenderer
+from lol_doku_backend import settings
 from players.models import Player
 from game.models import GameRoster, Game, GameGuess
 from game.serializers import GameRosterSerializer, GameSerializer, GameGuessSerializer
@@ -20,7 +21,7 @@ def get_session(request: HttpRequest):
         "message": "session retrieved"
     }))  
     if existing_cookie is None:
-        response.set_cookie('loldoku_sessionid', uuid.uuid4())
+        response.set_cookie('loldoku_sessionid', uuid.uuid4(), secure=settings.SESSION_COOKIE_SECURE, samesite=settings.SESSION_COOKIE_SAMESITE)
     return response
 
 class GameRosterViewSet(viewsets.ModelViewSet):
@@ -41,10 +42,12 @@ class GameViewSet(viewsets.ModelViewSet):
 
 def get_or_create_game(request: HttpRequest):
     session_id = request.COOKIES.get('loldoku_sessionid')
-    print(request.COOKIES)
+    print("REQ COOKIES", request.COOKIES)
     if session_id is None:
-        print("no cookies")
-        return HttpResponse(status=400)
+        return JsonResponse({
+            "message": "missing session ID",
+            "cookie_string": request.COOKIES
+        }, status=400)
     timenow = dt.date.today()
     # Create game using roster and session ID
     todays_puzzle = GameRoster.objects.get(date=timenow)

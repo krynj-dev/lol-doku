@@ -6,7 +6,7 @@
 	import { _lives, _correct, _selected_players, _puzzle, _finalised } from '../../../stores';
 	import StatModal from '../modal/StatModal.svelte';
 	import Spinner from '../spinner/Spinner.svelte';
-	import PlayerModal from './PlayerModal.svelte';
+	import PlayerModal from '../modal/PlayerModal.svelte';
 	export let index: number;
 	export let rule1: Rule;
 	export let rule2: Rule;
@@ -16,6 +16,8 @@
 	let selectedPlayer: SlotGuess | undefined;
 	let finalised: boolean;
 	let loading: boolean = false;
+	let error_flashing = false;
+	let transitoning = false;
 
 	$: {
 		if (selectedPlayer) {
@@ -49,6 +51,15 @@
 
 	$: valid = (selectedPlayer ? checkValid(selectedPlayer.player) : '');
 	$: tile_color = 'white';
+
+	$: {
+		if (error_flashing) {
+			setTimeout(() => {
+				transitoning = true;
+				setTimeout(() => transitoning = false, 2000);
+			}, 100);
+		}
+	}
 
 	function toggleModal(e: Event) {
 		if (
@@ -108,13 +119,11 @@
 	tabindex="0"
 	on:click={toggleModal}
 	on:keyup={toggleModal}
-	style="--tile-color: {tile_color}; {stylish}"
-	class="doku-tile"
+	style="--tile-color: {tile_color};"
+	class={`doku-tile lol-border${(error_flashing ? " error-flash" : "")}${(transitoning ? " transition-2s" : "")}`}
 >
 	{#if !finalised}
-		<PlayerModal bind:showModal bind:index bind:loading>
-			<span data-index={index}>Select Player:</span>
-		</PlayerModal>
+		<PlayerModal bind:showModal bind:index bind:loading bind:error_flashing />
 	{:else}
 		<StatModal slot={Number(index)} bind:showModal />
 	{/if}
@@ -131,7 +140,7 @@
 
 <style>
 	.doku-tile {
-		background-color: var(--tile-color);
+		background-color: var(--lol-hextech-black);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -141,7 +150,7 @@
 		cursor: pointer;
 	}
 	.doku-tile:hover {
-		background-color: gainsboro;
+		background-color: var(--lol-grey-cool);
 	}
 
 	.tile-img {
@@ -155,6 +164,20 @@
 		width: 100%;
 		overflow: hidden;
 		justify-content: center;
+	}
+
+	.error-flash {
+		background-color: #e45d5d;
+		transition: all 0.15s;
+	}
+
+	.error-flash:hover {
+		background-color: #e45d5d;
+		transition: all 0.15s;
+	}
+
+	.transition-2s {
+		transition: all 0.5s;
 	}
 
 	.percentage {
