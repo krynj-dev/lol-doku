@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getColumns, getRows, type Puzzle } from '$lib/models/new/Puzzle';
+	import { type Puzzle } from '$lib/models/new/Puzzle';
 	import { type Rule } from '$lib/models/new/Rule';
 	import {
 		_puzzle,
@@ -15,8 +15,6 @@
 	import { calculate_unique_score } from '$lib/shared/util';
 
 	let puzzle: Puzzle;
-	$: rows = (puzzle ? puzzle.rules.filter(r => r.axis == 'x').sort((a, b) => a.index - b.index): []);
-	$: columns = (puzzle ? puzzle.rules.filter(r => r.axis == 'y').sort((a, b) => a.index - b.index): []);
 	let lives: number;
 	let correct: number;
 	let modal_shown: boolean = false;
@@ -75,9 +73,9 @@
 			{/each}
 		</div>
 		<div class="select-tile-span lol-border">
-			{#each rows as row (row.index)}
-				{#each columns as col (col.index)}
-					<DokuTile index={row.index * 3 + col.index} bind:rule1={col} bind:rule2={row} />
+			{#each puzzle.rules.filter(r => r.axis == 'y').sort((a, b) => a.index - b.index) as row (row.index)}
+				{#each puzzle.rules.filter(r => r.axis == 'x').sort((a, b) => a.index - b.index) as col (col.index)}
+					<DokuTile index={row.index * 3 + col.index}/>
 				{/each}
 			{/each}
 		</div>

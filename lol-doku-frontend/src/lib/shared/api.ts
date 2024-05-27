@@ -5,22 +5,10 @@ import { type SlotGuess } from "$lib/models/new/SlotGuess";
 import { _correct, _finalised, _lives, _puzzle, _selected_players } from "../../stores";
 import { get } from 'svelte/store'
 import { type Player } from "$lib/models/new/Player";
-
-
-
-async function init_puzzle(): Promise<GameState> {
-    // Get Session
-    let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json());
-    // Get Game
-    let game_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/today`, { credentials: "include" })
-        .then((r) => r.json())
-        .catch(e => console.error(e));
-    let game_state = game_res as GameState;
-    return game_state;
-}
+import type { PageData } from "./$types";
 
 export async function get_player_stats(slot: number) {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/stats/today`, {
+    let res = fetch(`game/guess/stats`, {
         credentials: "include",
         method: "POST",
         body: JSON.stringify({
@@ -33,72 +21,52 @@ export async function get_player_stats(slot: number) {
 
 export async function get_players(player_name: string, limit: number): Promise<{
     count: number
-    next?: any
-    previous?: any
     results: Player[]
 }> {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/players/?search='${encodeURIComponent(player_name)}'&limit=${limit}`, {
-        credentials: "include"
-    }).then((r) => r.json());
-    return res;
-    //TODO: Change the call to this in the search tab to cache all results on two letters maybe?
-}
-
-export async function get_team(team: string) {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/teams/?search='${encodeURIComponent(team)}'`, {
+    let res = fetch(`/player?search=${encodeURIComponent(player_name)}&limit=${limit}`, {
         credentials: "include"
     }).then((r) => r.json());
     return res;
 }
 
 export async function finalise_game() {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/finalise/today`, {
+    let res = fetch(`game/finalise`, {
         credentials: "include",
         method: "POST"
     }).then((r) => r.json());
     return res;
 }
 
-export async function refresh_state() {
-    init_puzzle().then((game_state) => {
-        _puzzle.set(game_state.puzzle);
-        console.log(game_state);
-        _finalised.set(game_state.status == 'finalised');
-        game_state.guesses.forEach(g => {
-            let selected_players = get(_selected_players);
-            let idx = selected_players.findIndex(p => p.slot == g.slot);
-            if ((idx == -1 || g.player != selected_players[idx].player) && g.correct) {
-                get_player_stats(g.slot).then((stats: GuessStats) => {
-                    let selected: SlotGuess = {
-                        player: g.player,
-                        slot: g.slot,
-                        correct: g.correct,
-                        guess: stats
-                    }
-                    _selected_players.update(o => {
-                        let idx = o.findIndex(p => p.slot == g.slot);
-                        if (idx == -1) {
-                            o.push(selected);
-                        } else {
-                            o[idx] = selected;
-                        }
-                        return o;
-                    })
-                })
-            }
+export async function refresh_state(state: any) {
+    _finalised.set(state.status == 'finalised');
+    let cur_puz = get(_puzzle);
+    console.log(cur_puz, state.puzzle)
+    if (!cur_puz || cur_puz.id != state.puzzle.id) _puzzle.set(state.puzzle);
+    _lives.set(state.remaining_guesses);
+    getSelectedPlayers(state.guesses).then(gs => {
+        gs.forEach(g => {
+            _selected_players.update((o) => {
+                let idx = o.findIndex((p) => p.slot == g.slot);
+                if (idx == -1) {
+                    o.push(g);
+                } else if (o[idx].player != g.player) {
+                    o[idx] = g;
+                }
+                return o;
+            });
         })
-        _correct.set(game_state.guesses.reduce((acc, g) => g.correct ? acc + 1 : acc, 0));
-        _lives.set(game_state.remaining_guesses);
-        if (game_state.status != "finalised" && (game_state.remaining_guesses == 0 || game_state.guesses.reduce((acc, n) => acc + (n.correct ? 1 : 0), 0) == 9)) {
-            finalise_game().then(r => {
-                _finalised.set(true);
-            })
-        }
-    });
+    })
+    let c = state.guesses.reduce((acc: number, g: any) => (g.correct ? acc + 1 : acc), 0);
+    _correct.set(c);
+    if (state.status != "finalised" && (state.remaining_guesses == 0 || state.guesses.reduce((acc: number, n: any) => acc + (n.correct ? 1 : 0), 0) == 9)) {
+        finalise_game().then(r => {
+            _finalised.set(true);
+        })
+    }
 }
 
 export async function submit_guess(slot: number, player_key: string) {
-    let guess_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/guess/today`, {
+    let guess_res: any = await fetch(`game/guess`, {
         credentials: "include",
         method: "POST",
         body: JSON.stringify({
@@ -107,13 +75,36 @@ export async function submit_guess(slot: number, player_key: string) {
             player: player_key
         })
     })
-    refresh_state();
-    return guess_res.json();
+    let guess_json = await guess_res.json();
+    _lives.set(guess_json.remaining_guesses);
+    fetch('game').then(res => res.json()).then(state => {
+        refresh_state(state).then(() => {
+            if (state.status != "finalised" && (state.remaining_guesses == 0 || state.guesses.reduce((acc: number, n: any) => acc + (n.correct ? 1 : 0), 0) == 9)) {
+                finalise_game().then(r => {
+                    _finalised.set(true);
+                })
+            }
+        })
+    })
+    return guess_json;
 }
 
-export async function get_rule(key: string): Promise<Rule> {
-    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
-    return rule_res[0] as Rule;
+export async function getSelectedPlayers(guesses: any[]) {
+    let selected_players: any[] = [];
+    let correct_guesses = guesses.filter(g => g.correct);
+    for (let i = 0; i < correct_guesses.length; i++) {
+        let g = correct_guesses[i];
+        let idx = selected_players.findIndex((p) => p.slot == g.slot);
+        if ((idx == -1 || g.player != selected_players[idx].player) && g.correct) {
+            let stats = await get_player_stats(g.slot);
+            let selected: SlotGuess = {
+                player: g.player,
+                slot: g.slot,
+                correct: g.correct,
+                guess: stats
+            };
+            selected_players.push(selected);
+        }
+    };
+    return selected_players;
 }
-
-

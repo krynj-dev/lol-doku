@@ -7,7 +7,13 @@
 
 	import type { Puzzle } from '$lib/models/new/Puzzle';
 	import type { Player } from '$lib/models/new/Player';
-	import { finalise_game, refresh_state } from '$lib/shared/api';
+	import { getSelectedPlayers, get_player_stats, refresh_state, finalise_game } from '$lib/shared/api';
+
+	import type { PageData } from './$types';
+	import { json } from '@sveltejs/kit';
+	import { get } from 'svelte/store';
+
+	export let data: PageData;
 
 	const tabs = ['Home', 'Puzzle Builder', 'Endless'];
 
@@ -23,8 +29,7 @@
 	});
 
 	onMount(() => {
-		refresh_state();
-		console.log(`${import.meta.env.VITE_BACKEND_ENDPOINT}`)
+		refresh_state(data.game_state);
 	});
 </script>
 
