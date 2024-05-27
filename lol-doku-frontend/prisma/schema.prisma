@@ -1,0 +1,323 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model auth_group {
+  id                     Int                      @id @default(autoincrement())
+  name                   String                   @unique @db.VarChar(150)
+  auth_group_permissions auth_group_permissions[]
+  auth_user_groups       auth_user_groups[]
+
+  @@index([name], map: "auth_group_name_a6ea08ec_like")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model auth_group_permissions {
+  id              BigInt          @id @default(autoincrement())
+  group_id        Int
+  permission_id   Int
+  auth_permission auth_permission @relation(fields: [permission_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "auth_group_permissio_permission_id_84c5c92e_fk_auth_perm")
+  auth_group      auth_group      @relation(fields: [group_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "auth_group_permissions_group_id_b120cbf9_fk_auth_group_id")
+
+  @@unique([group_id, permission_id], map: "auth_group_permissions_group_id_permission_id_0cd325b0_uniq")
+  @@index([group_id], map: "auth_group_permissions_group_id_b120cbf9")
+  @@index([permission_id], map: "auth_group_permissions_permission_id_84c5c92e")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model auth_permission {
+  id                         Int                          @id @default(autoincrement())
+  name                       String                       @db.VarChar(255)
+  content_type_id            Int
+  codename                   String                       @db.VarChar(100)
+  auth_group_permissions     auth_group_permissions[]
+  django_content_type        django_content_type          @relation(fields: [content_type_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "auth_permission_content_type_id_2f476e4b_fk_django_co")
+  auth_user_user_permissions auth_user_user_permissions[]
+
+  @@unique([content_type_id, codename], map: "auth_permission_content_type_id_codename_01ab375a_uniq")
+  @@index([content_type_id], map: "auth_permission_content_type_id_2f476e4b")
+}
+
+model auth_user {
+  id                         Int                          @id @default(autoincrement())
+  password                   String                       @db.VarChar(128)
+  last_login                 DateTime?                    @db.Timestamptz(6)
+  is_superuser               Boolean
+  username                   String                       @unique @db.VarChar(150)
+  first_name                 String                       @db.VarChar(150)
+  last_name                  String                       @db.VarChar(150)
+  email                      String                       @db.VarChar(254)
+  is_staff                   Boolean
+  is_active                  Boolean
+  date_joined                DateTime                     @db.Timestamptz(6)
+  auth_user_groups           auth_user_groups[]
+  auth_user_user_permissions auth_user_user_permissions[]
+  django_admin_log           django_admin_log[]
+
+  @@index([username], map: "auth_user_username_6821ab7c_like")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model auth_user_groups {
+  id         BigInt     @id @default(autoincrement())
+  user_id    Int
+  group_id   Int
+  auth_group auth_group @relation(fields: [group_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "auth_user_groups_group_id_97559544_fk_auth_group_id")
+  auth_user  auth_user  @relation(fields: [user_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "auth_user_groups_user_id_6a12ed8b_fk_auth_user_id")
+
+  @@unique([user_id, group_id], map: "auth_user_groups_user_id_group_id_94350c0c_uniq")
+  @@index([group_id], map: "auth_user_groups_group_id_97559544")
+  @@index([user_id], map: "auth_user_groups_user_id_6a12ed8b")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model auth_user_user_permissions {
+  id              BigInt          @id @default(autoincrement())
+  user_id         Int
+  permission_id   Int
+  auth_permission auth_permission @relation(fields: [permission_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm")
+  auth_user       auth_user       @relation(fields: [user_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id")
+
+  @@unique([user_id, permission_id], map: "auth_user_user_permissions_user_id_permission_id_14a6b632_uniq")
+  @@index([permission_id], map: "auth_user_user_permissions_permission_id_1fbb5f2c")
+  @@index([user_id], map: "auth_user_user_permissions_user_id_a95ead1b")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model django_admin_log {
+  id                  Int                  @id @default(autoincrement())
+  action_time         DateTime             @db.Timestamptz(6)
+  object_id           String?
+  object_repr         String               @db.VarChar(200)
+  action_flag         Int                  @db.SmallInt
+  change_message      String
+  content_type_id     Int?
+  user_id             Int
+  django_content_type django_content_type? @relation(fields: [content_type_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "django_admin_log_content_type_id_c4bce8eb_fk_django_co")
+  auth_user           auth_user            @relation(fields: [user_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "django_admin_log_user_id_c564eba6_fk_auth_user_id")
+
+  @@index([content_type_id], map: "django_admin_log_content_type_id_c4bce8eb")
+  @@index([user_id], map: "django_admin_log_user_id_c564eba6")
+}
+
+model django_content_type {
+  id               Int                @id @default(autoincrement())
+  app_label        String             @db.VarChar(100)
+  model            String             @db.VarChar(100)
+  auth_permission  auth_permission[]
+  django_admin_log django_admin_log[]
+
+  @@unique([app_label, model], map: "django_content_type_app_label_model_76bd3d3b_uniq")
+}
+
+model django_migrations {
+  id      BigInt   @id @default(autoincrement())
+  app     String   @db.VarChar(255)
+  name    String   @db.VarChar(255)
+  applied DateTime @db.Timestamptz(6)
+}
+
+model django_session {
+  session_key  String   @id @db.VarChar(40)
+  session_data String
+  expire_date  DateTime @db.Timestamptz(6)
+
+  @@index([expire_date], map: "django_session_expire_date_a5c62663")
+  @@index([session_key], map: "django_session_session_key_c0390e0f_like")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model game_game {
+  id                 BigInt           @id @default(autoincrement())
+  sessionid          String           @db.VarChar(64)
+  remaining_guesses  Int
+  status             String           @db.VarChar(20)
+  rostered_puzzle_id BigInt
+  game_gameroster    game_gameroster  @relation(fields: [rostered_puzzle_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "game_game_rostered_puzzle_id_539e2fd2_fk_game_gameroster_id")
+  game_gameguess     game_gameguess[]
+
+  @@unique([rostered_puzzle_id, sessionid], map: "game_game_rostered_puzzle_id_sessionid_680421c0_uniq")
+  @@index([rostered_puzzle_id], map: "game_game_rostered_puzzle_id_539e2fd2")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model game_gameguess {
+  id             BigInt          @id @default(autoincrement())
+  correct        Boolean
+  slot           Int
+  game_id        BigInt
+  player_id      BigInt?
+  game_game      game_game       @relation(fields: [game_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "game_gameguess_game_id_b494a2e3_fk_game_game_id")
+  players_player players_player? @relation(fields: [player_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "game_gameguess_player_id_4f08f9dd_fk_players_player_id")
+
+  @@unique([game_id, slot], map: "game_gameguess_game_id_slot_cf082085_uniq")
+  @@index([game_id], map: "game_gameguess_game_id_b494a2e3")
+  @@index([player_id], map: "game_gameguess_player_id_4f08f9dd")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model game_gameroster {
+  id                       BigInt                     @id @default(autoincrement())
+  date                     DateTime                   @unique @db.Date
+  puzzle_id                BigInt
+  game_game                game_game[]
+  puzzles_puzzle           puzzles_puzzle             @relation(fields: [puzzle_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "game_gameroster_puzzle_id_8e98f3e5_fk_puzzles_puzzle_id")
+  stats_correctplayerguess stats_correctplayerguess[]
+
+  @@index([puzzle_id], map: "game_gameroster_puzzle_id_8e98f3e5")
+}
+
+model players_player {
+  id                          BigInt                        @id @default(autoincrement())
+  display_name                String                        @unique(map: "players_player_display_name_951094a4_uniq") @db.VarChar(50)
+  real_name                   String                        @db.VarChar(100)
+  country                     String                        @db.VarChar(100)
+  age                         Int?
+  residency                   String                        @db.VarChar(100)
+  game_gameguess              game_gameguess[]
+  players_playeralternatename players_playeralternatename[]
+  rules_rule_valid_players    rules_rule_valid_players[]
+  stats_correctplayerguess    stats_correctplayerguess[]
+
+  @@index([display_name], map: "players_player_display_name_951094a4_like")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model players_playeralternatename {
+  id             BigInt         @id @default(autoincrement())
+  alternate_name String         @db.VarChar(50)
+  player_name_id BigInt
+  players_player players_player @relation(fields: [player_name_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "players_playeraltern_player_name_id_280d65e5_fk_players_p")
+
+  @@unique([player_name_id, alternate_name], map: "players_playeralternaten_player_name_id_alternate_50ad6ea2_uniq")
+  @@index([player_name_id], map: "players_playeralternatename_player_name_id_280d65e5")
+}
+
+model puzzles_puzzle {
+  id                 BigInt               @id @default(autoincrement())
+  game_gameroster    game_gameroster[]
+  puzzles_puzzlerule puzzles_puzzlerule[]
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model puzzles_puzzlerule {
+  id             BigInt         @id @default(autoincrement())
+  axis           String
+  index          Int
+  puzzle_id      BigInt
+  rule_id        BigInt
+  puzzles_puzzle puzzles_puzzle @relation(fields: [puzzle_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "puzzles_puzzlerule_puzzle_id_fca5ba0d_fk_puzzles_puzzle_id")
+  rules_rule     rules_rule     @relation(fields: [rule_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "puzzles_puzzlerule_rule_id_b8658bc0_fk_rules_rule_id")
+
+  @@index([puzzle_id], map: "puzzles_puzzlerule_puzzle_id_fca5ba0d")
+  @@index([rule_id], map: "puzzles_puzzlerule_rule_id_b8658bc0")
+}
+
+model rules_rule {
+  id                                                                 BigInt                       @id @default(autoincrement())
+  key                                                                String                       @unique @db.VarChar(50)
+  rule_type                                                          String                       @db.VarChar(50)
+  puzzles_puzzlerule                                                 puzzles_puzzlerule[]
+  rules_rule_valid_players                                           rules_rule_valid_players[]
+  rules_validcrosses                                                 rules_validcrosses?
+  rules_validcrosses_crosses                                         rules_validcrosses_crosses[]
+  stats_correctplayerguess_stats_correctplayerguess_x_idTorules_rule stats_correctplayerguess[]   @relation("stats_correctplayerguess_x_idTorules_rule")
+  stats_correctplayerguess_stats_correctplayerguess_y_idTorules_rule stats_correctplayerguess[]   @relation("stats_correctplayerguess_y_idTorules_rule")
+
+  @@index([key], map: "rules_rule_key_e575c784_like")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model rules_rule_valid_players {
+  id             BigInt         @id @default(autoincrement())
+  rule_id        BigInt
+  player_id      BigInt
+  players_player players_player @relation(fields: [player_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "rules_rule_valid_pla_player_id_61302129_fk_players_p")
+  rules_rule     rules_rule     @relation(fields: [rule_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "rules_rule_valid_players_rule_id_df84c114_fk_rules_rule_id")
+
+  @@unique([rule_id, player_id], map: "rules_rule_valid_players_rule_id_player_id_9e328d47_uniq")
+  @@index([player_id], map: "rules_rule_valid_players_player_id_61302129")
+  @@index([rule_id], map: "rules_rule_valid_players_rule_id_df84c114")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model rules_validcrosses {
+  id                         BigInt                       @id @default(autoincrement())
+  rule_id                    BigInt                       @unique
+  rules_rule                 rules_rule                   @relation(fields: [rule_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "rules_validcrosses_rule_id_7277e865_fk_rules_rule_id")
+  rules_validcrosses_crosses rules_validcrosses_crosses[]
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model rules_validcrosses_crosses {
+  id                 BigInt             @id @default(autoincrement())
+  validcrosses_id    BigInt
+  rule_id            BigInt
+  rules_validcrosses rules_validcrosses @relation(fields: [validcrosses_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "rules_validcrosses_c_validcrosses_id_f406a5eb_fk_rules_val")
+  rules_rule         rules_rule         @relation(fields: [rule_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "rules_validcrosses_crosses_rule_id_665f679f_fk_rules_rule_id")
+
+  @@unique([validcrosses_id, rule_id], map: "rules_validcrosses_cross_validcrosses_id_rule_id_6c6ab7ba_uniq")
+  @@index([rule_id], map: "rules_validcrosses_crosses_rule_id_665f679f")
+  @@index([validcrosses_id], map: "rules_validcrosses_crosses_validcrosses_id_f406a5eb")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model stats_correctplayerguess {
+  id                                                   BigInt          @id @default(autoincrement())
+  guess_count                                          Int
+  player_id                                            BigInt
+  roster_id                                            BigInt
+  x_id                                                 BigInt
+  y_id                                                 BigInt
+  players_player                                       players_player  @relation(fields: [player_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "stats_correctplayerg_player_id_3e761015_fk_players_p")
+  game_gameroster                                      game_gameroster @relation(fields: [roster_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "stats_correctplayerg_roster_id_47507218_fk_game_game")
+  rules_rule_stats_correctplayerguess_x_idTorules_rule rules_rule      @relation("stats_correctplayerguess_x_idTorules_rule", fields: [x_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "stats_correctplayerguess_x_id_1a1dd415_fk_rules_rule_id")
+  rules_rule_stats_correctplayerguess_y_idTorules_rule rules_rule      @relation("stats_correctplayerguess_y_idTorules_rule", fields: [y_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "stats_correctplayerguess_y_id_a3a16874_fk_rules_rule_id")
+
+  @@unique([x_id, y_id, player_id, roster_id], map: "stats_correctplayerguess_x_id_y_id_player_id_rost_51658c99_uniq")
+  @@index([player_id], map: "stats_correctplayerguess_player_id_3e761015")
+  @@index([roster_id], map: "stats_correctplayerguess_roster_id_47507218")
+  @@index([x_id], map: "stats_correctplayerguess_x_id_1a1dd415")
+  @@index([y_id], map: "stats_correctplayerguess_y_id_a3a16874")
+}
+
+model teams_team {
+  id                      BigInt                    @id @default(autoincrement())
+  becomes                 String?                   @db.VarChar(100)
+  came_from               String?                   @db.VarChar(100)
+  highest_level           String                    @db.VarChar(30)
+  image                   String?                   @db.VarChar(150)
+  name                    String                    @db.VarChar(100)
+  op                      String                    @db.VarChar(100)
+  region                  String?                   @db.VarChar(30)
+  short                   String?                   @db.VarChar(10)
+  teams_teamalternatename teams_teamalternatename[]
+  teams_teamsisterteam    teams_teamsisterteam[]
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model teams_teamalternatename {
+  id             BigInt     @id @default(autoincrement())
+  alternate_name String     @db.VarChar(50)
+  team_op_id     BigInt
+  teams_team     teams_team @relation(fields: [team_op_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "teams_teamalternatename_team_op_id_29f949cf_fk_teams_team_id")
+
+  @@index([team_op_id], map: "teams_teamalternatename_team_op_id_29f949cf")
+}
+
+/// This model has constraints using non-default deferring rules and requires additional setup for migrations. Visit https://pris.ly/d/constraint-deferring for more info.
+model teams_teamsisterteam {
+  id               BigInt     @id @default(autoincrement())
+  sister_team_name String     @db.VarChar(50)
+  team_op_id       BigInt
+  teams_team       teams_team @relation(fields: [team_op_id], references: [id], onDelete: Restrict, onUpdate: Cascade, map: "teams_teamsisterteam_team_op_id_1f37bc72_fk_teams_team_id")
+
+  @@index([team_op_id], map: "teams_teamsisterteam_team_op_id_1f37bc72")
+}

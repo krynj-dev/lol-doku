@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getColumns, getRows, type Puzzle } from '$lib/models/new/Puzzle';
+	import { type Puzzle } from '$lib/models/new/Puzzle';
 	import { type Rule } from '$lib/models/new/Rule';
 	import {
 		_puzzle,
@@ -17,8 +17,6 @@
 	let tile_size = '150px';
 
 	let puzzle: Puzzle;
-	let rows: Rule[];
-	let columns: Rule[];
 	let lives: number;
 	let correct: number;
 	let modal_shown: boolean = false;
@@ -27,8 +25,6 @@
 
 	_puzzle.subscribe((value) => {
 		puzzle = value;
-		rows = getRows(value);
-		columns = getColumns(value);
 	});
 	_lives.subscribe((value) => {
 		lives = value;
@@ -74,9 +70,9 @@
 			<RuleTile bind:rule={rows[0].key} bind:type={rows[0].rule_type} size={tile_size} />
 		</div>
 		<div class="select-tile-span lol-border">
-			{#each rows as row (row.index)}
-				{#each columns as col (col.index)}
-					<DokuTile index={row.index * 3 + col.index} bind:rule1={col} bind:rule2={row} />
+			{#each puzzle.rules.filter(r => r.axis == 'y').sort((a, b) => a.index - b.index) as row (row.index)}
+				{#each puzzle.rules.filter(r => r.axis == 'x').sort((a, b) => a.index - b.index) as col (col.index)}
+					<DokuTile index={row.index * 3 + col.index}/>
 				{/each}
 			{/each}
 		</div>
