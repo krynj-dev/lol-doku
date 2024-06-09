@@ -1,15 +1,11 @@
 <script lang="ts">
-	import type { Rule } from '$lib/models/new/Rule';
 	import type { SlotGuess } from '$lib/models/new/SlotGuess';
-	import { get_rule } from '$lib/shared/api';
 	import { get_player_image_src } from '$lib/shared/img';
 	import { _lives, _correct, _selected_players, _puzzle, _finalised } from '../../../stores';
 	import StatModal from '../modal/StatModal.svelte';
 	import Spinner from '../spinner/Spinner.svelte';
 	import PlayerModal from '../modal/PlayerModal.svelte';
 	export let index: number;
-	export let rule1: Rule;
-	export let rule2: Rule;
 	let lives: number;
 	let correct: number;
 	let selectedPlayers: SlotGuess[] = [];
@@ -25,10 +21,10 @@
 				image_src = p;
 			});
 		}
-		image_src = "";
+		image_src = '';
 	}
 
-	let image_src: string | undefined = "";
+	let image_src: string | undefined = '';
 
 	_lives.subscribe((value) => {
 		lives = value;
@@ -38,25 +34,26 @@
 	});
 	_selected_players.subscribe((value) => {
 		selectedPlayers = value;
-		let new_selected = value.find(p => p.slot == index);
+		let new_selected = value.find((p) => p.slot == index);
 		if (selectedPlayer != new_selected) selectedPlayer = new_selected;
 	});
 	_finalised.subscribe((value) => {
 		finalised = value;
-	})
+	});
 
 	let stylish = $$props.style;
 
 	let showModal = false;
 
-	$: valid = (selectedPlayer ? checkValid(selectedPlayer.player) : '');
+	$: valid = selectedPlayer ? checkValid(selectedPlayer.player) : '';
 	$: tile_color = 'white';
+	$: rarity_class = selectedPlayer ? getRarityClassName() : '';
 
 	$: {
 		if (error_flashing) {
 			setTimeout(() => {
 				transitoning = true;
-				setTimeout(() => transitoning = false, 2000);
+				setTimeout(() => (transitoning = false), 2000);
 			}, 100);
 		}
 	}
@@ -68,13 +65,6 @@
 			valid !== 'valid'
 		) {
 			showModal = true;
-			get_rule(rule1.key).then((r1) => {
-				get_rule(rule2.key).then((r2) => {
-					const a_set: Set<string> = new Set(r1.valid_players);
-					const b_set: Set<string> = new Set(r2.valid_players);
-					console.log(a_set.intersection(b_set));
-				});
-			});
 		}
 	}
 
@@ -98,19 +88,43 @@
 		if (!selectedPlayer) return undefined;
 		let player_key = selectedPlayer.player;
 		if (!player_key) return undefined;
-		let player_stats = selectedPlayer.guess.results.find(g => g.player == player_key);
+		let player_stats = selectedPlayer.guess.results.find((g) => g.player == player_key);
 		if (!player_stats) return undefined;
 
-		return Math.round((player_stats.guesses + (finalised ? 0 : 1)) / (selectedPlayer.guess.total_guesses + (finalised ? 0 : 1)) * 100 * 10) / 10;
+		return (
+			Math.round(
+				((player_stats.guesses + (finalised ? 0 : 1)) /
+					(selectedPlayer.guess.total_guesses + (finalised ? 0 : 1))) *
+					100 *
+					10
+			) / 10
+		);
 	}
 
 	function isUniquePick() {
 		if (!selectedPlayer) return undefined;
 		let player_key = selectedPlayer.player;
 		if (!player_key) return undefined;
-		let player_stats = selectedPlayer.guess.results.find(g => g.player == player_key);
+		let player_stats = selectedPlayer.guess.results.find((g) => g.player == player_key);
 		if (!player_stats) return undefined;
-		return player_stats.guesses == 0 || finalised && player_stats.guesses == 1;
+		return player_stats.guesses == 0 || (finalised && player_stats.guesses == 1);
+	}
+
+	function getRarityClassName(): string {
+		let p = getPercentage();
+		if (!p) return '';
+		if (isUniquePick()) {
+			return 'pick-unique';
+		} else if (p < 5.0) {
+			return 'pick-legendary';
+		} else if (p < 10.0) {
+			return 'pick-epic';
+		} else if (p < 20.0) {
+			return 'pick-rare';
+		} else if (p < 30.0) {
+			return 'pick-uncommon';
+		}
+		return 'pick-common';
 	}
 </script>
 
@@ -120,22 +134,22 @@
 	on:click={toggleModal}
 	on:keyup={toggleModal}
 	style="--tile-color: {tile_color};"
-	class={`doku-tile lol-border${(error_flashing ? " error-flash" : "")}${(transitoning ? " transition-2s" : "")}`}
+	class={`doku-tile lol-border${error_flashing ? ' error-flash' : ''}${transitoning ? ' transition-2s' : ''} ${rarity_class}`}
 >
 	{#if !finalised}
 		<PlayerModal bind:showModal bind:index bind:loading bind:error_flashing />
 	{:else}
 		<StatModal slot={Number(index)} bind:showModal />
 	{/if}
-	<div class="img-container">
-		{#if loading}
-			<Spinner size={64}/>
-		{:else if selectedPlayer}
+	{#if loading}
+		<div class="spinner-container"><Spinner /></div>
+	{:else if selectedPlayer}
+		<div class="img-container">
 			<p class="text-overlay percentage">{getPercentage()}%</p>
 			<img class="tile-img" src={image_src} alt={selectedPlayer.player} />
-			<p class="text-overlay name"><span class="{isUniquePick() ? "rainbow-text" : ""}">{selectedPlayer.player}</span></p>
-		{/if}
-	</div>
+			<p class="text-overlay name">{selectedPlayer.player}</p>
+		</div>
+	{/if}
 </div>
 
 <style>
@@ -164,6 +178,16 @@
 		width: 100%;
 		overflow: hidden;
 		justify-content: center;
+	}
+
+	.spinner-container {
+		display: flex;
+		height: 100%;
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		justify-content: center;
+		padding: 30%;
 	}
 
 	.error-flash {
@@ -196,12 +220,58 @@
 		padding: 3px;
 		background-color: rgba(0, 0, 0, 0.8);
 		color: white;
-		font-size: 12px;
+		font-size: 0.8rem;
 	}
 
 	.rainbow-text {
-		background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+		background: linear-gradient(
+			to right,
+			#ef5350,
+			#f48fb1,
+			#7e57c2,
+			#2196f3,
+			#26c6da,
+			#43a047,
+			#eeff41,
+			#f9a825,
+			#ff5722
+		);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+
+	.pick-unique {
+		background: linear-gradient(
+			to bottom right,
+			#ea2a27,
+			#ea27d0,
+			#8f27ea,
+			#276fea,
+			#26c6da,
+			#43a047,
+			#eeff41,
+			#f9a825,
+			#ea2a27
+		);
+	}
+
+	.pick-legendary {
+		background: linear-gradient(to bottom right, #ea2a27, var(--lol-hextech-black));
+	}
+
+	.pick-epic {
+		background: linear-gradient(to bottom right, #ea27d0, var(--lol-hextech-black));
+	}
+
+	.pick-rare {
+		background: linear-gradient(to bottom right, #8f27ea, var(--lol-hextech-black));
+	}
+
+	.pick-uncommon {
+		background: linear-gradient(to bottom right, #276fea, var(--lol-hextech-black));
+	}
+
+	.pick-common {
+		background: linear-gradient(to bottom right, #27ea37, var(--lol-hextech-black));
 	}
 </style>

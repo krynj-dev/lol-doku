@@ -1,3 +1,9 @@
 .lol-border {
     border: 2px solid var(--lol-gold-4);
 }
+
+@property --lol-doku-white-1 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: rgb(225, 225, 230);
+}

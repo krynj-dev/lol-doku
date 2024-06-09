@@ -8,6 +8,7 @@ from lol_doku_backend import settings
 from players.models import Player
 from game.models import GameRoster, Game, GameGuess
 from game.serializers import GameRosterSerializer, GameSerializer, GameGuessSerializer
+from teams.models import Team, TeamAlternateName
 from puzzles.models import PuzzleRule
 from puzzles.util import is_valid_guess
 from stats.util import update_stats
@@ -53,7 +54,17 @@ def get_or_create_game(request: HttpRequest):
     todays_puzzle = GameRoster.objects.get(date=timenow)
     game, created = Game.objects.get_or_create(sessionid=session_id, rostered_puzzle=todays_puzzle)
     gs = GameSerializer(game, context={'request': request})
-    return JsonResponse(gs.data)
+    data = gs.data
+    puzzle_rules = todays_puzzle.puzzle.assoc_rules.all()
+    for i in range(len(puzzle_rules)):
+        rule = puzzle_rules[i].rule
+        if rule.rule_type == "team":
+            team = Team.objects.get(name=rule.key)
+            data["puzzle"]["rules"][i]["other_names"] = [an.alternate_name for an in team.alternate_names.all()]
+        elif rule.rule_type == "teammate":
+            player = Player.objects.get(display_name=rule.key)
+            data["puzzle"]["rules"][i]["other_names"] = [an.alternate_name for an in player.alternate_names.all()]
+    return JsonResponse(data)
 
 @csrf_exempt
 def make_guess(request: HttpRequest):

@@ -6,4 +6,5 @@ export interface Rule {
     key: string
     rule_type: string
     valid_players: string[]
+    other_names: string[]
 }

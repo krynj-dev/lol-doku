@@ -37,6 +37,10 @@
 
 <style>
 	.content {
-		padding: 2rem 5rem;
+		width: 100vw;
+		padding: 2rem 5px;
+		display: flex;
+		justify-content: center;
+		box-sizing: border-box;
 	}
 </style>

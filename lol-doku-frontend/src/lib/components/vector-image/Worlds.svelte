@@ -39,6 +39,10 @@
 </div>
 
 <style>
+    .worlds-svg-container {
+        height: 100%;
+        width: 100%;
+    }
     .worlds-svg-container * {
         fill: var(--worlds-svg-fill);
     }

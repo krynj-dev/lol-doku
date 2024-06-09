@@ -37,7 +37,6 @@ try:
         print("WARNING: no service account credential. User account credential?")
 except google.auth.exceptions.DefaultCredentialsError:
     pass
-print( os.getenv("TRAMPOLINE_CI", None))
 
 if os.path.isfile(env_file):
     # Use a local secret file, if provided
@@ -145,15 +144,23 @@ WSGI_APPLICATION = 'lol_doku_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-if CLOUDRUN_SERVICE_URL:
-    DATABASES = {"default": env.db()}
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
+# if CLOUDRUN_SERVICE_URL:
+#     DATABASES = {"default": env.db()}
+# else:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         }
+#     }
+# DATABASES = {"default": env.db()}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+}
 
 
 

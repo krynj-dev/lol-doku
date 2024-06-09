@@ -1,12 +1,11 @@
 <script lang="ts">
 	import _playerList from '$lib/data/players.json';
-	import type { Rule } from '$lib/models/Rule';
 	import type { Player } from '$lib/models/new/Player';
+	import type { Puzzle } from '$lib/models/new/Puzzle';
 	import type { SlotGuess } from '$lib/models/new/SlotGuess';
 	import { get_players, submit_guess } from '$lib/shared/api';
 	import { get_player_image_src } from '$lib/shared/img';
-	import { is_valid } from '$lib/shared/puzzle_util';
-	import { _correct, _lives, _selected_players } from '../../../stores';
+	import { _correct, _lives, _puzzle, _selected_players } from '../../../stores';
 	import Modal from './Modal.svelte';
 
 	export let showModal: Boolean; // boolean
@@ -17,9 +16,15 @@
 	let playerList: Player[] = [];
 	let player_image_srcs: any = {};
 
+	let cached_filter = "";
+	let cached_player_list: any[] = [];
+
 	let selectedPlayers: SlotGuess[];
 	let lives: number;
 	let selectedPlayer: SlotGuess;
+	let puzzle: Puzzle;
+
+	_puzzle.subscribe((value) => puzzle = value);
 
 	_lives.subscribe((value) => {
 		lives = value;
@@ -36,7 +41,7 @@
 
 	$: {
 		if (filter.length >= 2) {
-			get_players(filter, 12).then((res) => {
+			get_players(filter, 20).then((res) => {
 				let results = res.results;
 				playerList = results;
 				results.forEach((player) => {
@@ -47,6 +52,8 @@
 						});
 				});
 			});
+		// } else if (filter.length > 2) {
+		// 	playerList = cached_player_list.filter((x: Player) => x.display_name.toLocaleLowerCase().includes(filter.toLocaleLowerCase())).slice(0, 12);
 		} else {
 			playerList = [];
 		}
@@ -55,6 +62,17 @@
 	let dialog: HTMLDialogElement; // HTMLDialogElement
 
 	$: if (dialog && showModal) dialog.showModal();
+
+	let rulesFromIndex = (index: number) => {
+		let x = index % 3;
+		let y = Math.floor(index / 3);
+		if (puzzle) {
+			return [puzzle.rules.filter(r => r.axis == "x")[x], puzzle.rules.filter(r => r.axis == "y")[y]];
+		}
+		return []
+	}
+
+	$: rules = rulesFromIndex(index);
 
 	let handleModalClose = (event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {
 		let player_string =
@@ -82,7 +100,11 @@
 </script>
 
 <Modal bind:showModal bind:modalCloseFallback={handleModalClose} bind:dialog size=600>
-	<!-- <span>{rules[0].key} | {rules[1].key}</span> -->
+	{#if rules.length > 0}
+		<div class="rule-cross-title">
+			<h3>{rules[0].key}</h3><h3>X</h3><h3>{rules[1].key}</h3>
+		</div>
+	{/if}
 	<hr />
 	<div>
 		<p class="input-label">Search Player:</p><input bind:value={filter} />
@@ -166,7 +188,6 @@
 	}
 
 	p.player-modal-alt-name {
-        font-size: 14px;
         color: #595959;
         margin: 0 0 4px 0;
         padding: 0px;
@@ -178,7 +199,7 @@
 
 	p.player-modal-title {
         margin: 5px 0;
-		font-size: 18px;
+		font-size: 1.1rem;
     }
 
     .player-modal-subtitle {
@@ -193,5 +214,13 @@
 		flex-direction: column;
 		justify-content: center;
 		height: 100%;
+	}
+
+	.rule-cross-title > h3:not(:last-child) {
+		margin-bottom: 0;
+	}
+
+	.rule-cross-title > h3:not(:first-child) {
+		margin-top: 0;
 	}
 </style>

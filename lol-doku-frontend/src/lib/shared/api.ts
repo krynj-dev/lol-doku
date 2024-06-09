@@ -2,7 +2,7 @@ import { type GameState } from "$lib/models/new/GameState";
 import { type GuessStats } from "$lib/models/new/GuessStats";
 import { type Rule } from "$lib/models/new/Rule";
 import { type SlotGuess } from "$lib/models/new/SlotGuess";
-import { _finalised, _lives, _puzzle, _selected_players } from "../../stores";
+import { _correct, _finalised, _lives, _puzzle, _selected_players } from "../../stores";
 import { get } from 'svelte/store'
 import { type Player } from "$lib/models/new/Player";
 
@@ -62,6 +62,7 @@ async function finalise_game() {
 export async function refresh_state() {
     init_puzzle().then((game_state) => {
         _puzzle.set(game_state.puzzle);
+        console.log(game_state);
         _finalised.set(game_state.status == 'finalised');
         game_state.guesses.forEach(g => {
             let selected_players = get(_selected_players);
@@ -86,6 +87,7 @@ export async function refresh_state() {
                 })
             }
         })
+        _correct.set(game_state.guesses.reduce((acc, g) => g.correct ? acc + 1 : acc, 0));
         _lives.set(game_state.remaining_guesses);
         if (game_state.status != "finalised" && (game_state.remaining_guesses == 0 || game_state.guesses.reduce((acc, n) => acc + (n.correct ? 1 : 0), 0) == 9)) {
             finalise_game().then(r => {

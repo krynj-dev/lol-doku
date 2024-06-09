@@ -13,12 +13,10 @@
 	import Modal from '../modal/Modal.svelte';
 	import RuleTile from './RuleTile.svelte';
 	import { calculate_unique_score } from '$lib/shared/util';
-	import { onMount } from 'svelte';
-	let tile_size = '150px';
 
 	let puzzle: Puzzle;
-	let rows: Rule[];
-	let columns: Rule[];
+	$: rows = (puzzle ? puzzle.rules.filter(r => r.axis == 'x').sort((a, b) => a.index - b.index): []);
+	$: columns = (puzzle ? puzzle.rules.filter(r => r.axis == 'y').sort((a, b) => a.index - b.index): []);
 	let lives: number;
 	let correct: number;
 	let modal_shown: boolean = false;
@@ -27,8 +25,6 @@
 
 	_puzzle.subscribe((value) => {
 		puzzle = value;
-		rows = getRows(value);
-		columns = getColumns(value);
 	});
 	_lives.subscribe((value) => {
 		lives = value;
@@ -43,6 +39,7 @@
 		}
 	});
 	_selected_players.subscribe((value) => (score = calculate_unique_score()));
+
 </script>
 
 <Modal bind:showModal>
@@ -62,16 +59,20 @@
 	</div>
 </Modal>
 {#if puzzle}
-	<div class="doku-grid" style="--tile-size: {tile_size}">
-		<div class="info-tile"></div>
-		{#each puzzle.rules.filter((r) => r.axis == 'x') as col (col.index)}
-			<div class="info-tile">
-				<RuleTile rule={col.key} type={col.rule_type} size={tile_size} />
-			</div>
-		{/each}
-		<div class="info-tile"></div>
-		<div class="info-tile">
-			<RuleTile bind:rule={rows[0].key} bind:type={rows[0].rule_type} size={tile_size} />
+	<div class="doku-grid">
+		<div class="column-span">
+			{#each puzzle.rules.filter((c) => c.axis == 'x') as col (col.index)}
+				<div class="info-tile">
+				<RuleTile bind:rule={col} />
+				</div>
+			{/each}
+		</div>
+		<div class="row-span">
+			{#each puzzle.rules.filter((r) => r.axis == 'y') as row (row.index)}
+				<div class="info-tile">
+					<RuleTile bind:rule={row} />
+				</div>
+			{/each}
 		</div>
 		<div class="select-tile-span lol-border">
 			{#each rows as row (row.index)}
@@ -80,25 +81,21 @@
 				{/each}
 			{/each}
 		</div>
-		<div class="info-tile">
-			<div class="score-tile">
-				<p>Uniqueness Rating: {score}</p>
+		<div class="score-span">
+			<div class="info-tile">
+				<div class="score-tile">
+					<p>Uniqueness Rating: {score}</p>
+				</div>
 			</div>
-		</div>
-		<div class="info-tile">
-			<RuleTile bind:rule={rows[1].key} bind:type={rows[1].rule_type} size={tile_size} />
-		</div>
-		<div class="info-tile">
-			<div class="score-tile">
-				<p>Correct Guesses: {correct}/9</p>
+			<div class="info-tile">
+				<div class="score-tile">
+					<p>Correct Guesses: {correct}/9</p>
+				</div>
 			</div>
-		</div>
-		<div class="info-tile">
-			<RuleTile bind:rule={rows[2].key} bind:type={rows[2].rule_type} size={tile_size} />
-		</div>
-		<div class="info-tile">
-			<div class="score-tile">
-				<p>Guesses Remaining: {lives}/10</p>
+			<div class="info-tile">
+				<div class="score-tile">
+					<p>Guesses Remaining: {lives}/10</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -109,29 +106,76 @@
 <style>
 	.doku-grid {
 		display: grid;
-		gap: 1px;
-		margin: auto;
-		/* grid-template-columns: calc(var(--tile-size) / 2) var(--tile-size) var(--tile-size) var(
-				--tile-size
-			);
-		grid-template-rows: calc(var(--tile-size) / 2) var(--tile-size) var(--tile-size) var(
-				--tile-size
-			); */
-		width: calc(var(--tile-size) * 5);
-		/* grid-template-areas:
-			'corner col-0 col-1 col-2'
-			'row-0 tile-0 tile-1 tile-2'
-			'row-1 tile-3 tile-4 tile-5'
-			'row-2 tile-6 tile-7 tile-8'; */
-		grid-template-columns: repeat(5, calc(5px + var(--tile-size)));
-		grid-template-rows: repeat(5, calc(5px + var(--tile-size)));
+		margin: 0;
+		grid-template-columns: repeat(4, calc((100vw - 10px) / 4));
+		grid-template-rows: repeat(5, calc((100vw - 10px) / 4));
+	}
+	
+	.info-tile {
+		height: calc((100vw - 10px) / 4);
+		width: calc((100vw - 10px) / 4);
+		display: flex;
+		justify-content: center;
 	}
 
-	.info-tile {
-		height: var(--tile-size);
-		width: var(--tile-size);
-		display: flex;
+	.select-tile-span {
+		grid-area: span 3 / span 3 / span 3 / span 3;
+		display: grid;
+		grid-template-columns: repeat(3, calc((100vw - 10px) / 4 - 5px));
+		grid-template-rows: repeat(3, calc((100vw - 10px) / 4 - 5px));
+		overflow: hidden;
+		padding: 4px;
+		gap: 2px;
+		background-color: var(--lol-hextech-black);
 	}
+
+	.column-span {
+		grid-column: 2 / span 3;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.row-span {
+		grid-row: span 3;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		grid-column-start: 1;
+	}
+
+	.score-span {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		grid-row-start: 5;
+		grid-column: 2 / span 3;
+	}
+
+	@media only screen and (min-width: 769px) {
+		.doku-grid {
+			grid-template-columns: repeat(5, 155px);
+			grid-template-rows: repeat(5, 155px);
+		}
+
+		.info-tile {
+			height: 150px;
+			width: 150px;
+		}
+
+		.select-tile-span {
+			grid-template-columns: repeat(3, 150px);
+			grid-template-rows: repeat(3, 150px);
+		}
+
+		.score-span {
+			grid-row: span 3;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			grid-column-start: 5;
+		}
+	}
+
 
 	.score-tile {
 		display: flex;
@@ -142,18 +186,7 @@
 
 	.score-tile p {
 		text-align: center;
-		font-size: 14px;
-	}
-
-	.select-tile-span {
-		grid-area: span 3 / span 3 / span 3 / span 3;
-		display: grid;
-		grid-template-columns: repeat(3, var(--tile-size));
-		grid-template-rows: repeat(3, var(--tile-size));
-		overflow: hidden;
-		padding: 4px;
-		gap: 2px;
-		background-color: var(--lol-hextech-black);
+		font-size: 10pt;
 	}
 
 	.ending-modal {

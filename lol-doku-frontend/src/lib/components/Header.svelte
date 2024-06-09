@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import Modal from "./modal/Modal.svelte";
+	import Info from './vector-image/Info.svelte';
 	import Worlds from './vector-image/Worlds.svelte';
-
-	console.log('loaded header');
 
 	export let tabs: string[];
 	export let selected: string | undefined;
@@ -31,7 +30,7 @@
 
 <Modal bind:showModal bind:dialog size=600>
 	<div class="info-modal">
-		<h3>Welcome to LolDoku!</h3>
+		<h3>Welcome to LoLProGrid!</h3>
 		<p>Fill the grid with professional LoL players who fit in the categories!</p>
 		<p>Only games played in primary-level tournaments count towards a player's membership of a given category.<br>
 		This includes typical premier tournaments such as LEC, LCS, LCK, LPL and all minor region equivalents as well as international events such as MSI, Worlds and even IEMs.<br>
@@ -92,16 +91,16 @@
 	<div class="header">
 		<div class="site-title-container header-border">
 			<div class="header-tab">
-				<h2>LoLDoku</h2>
+				<h2>LoLProGrid</h2>
 			</div>
 		</div>
 		<div class="header-tabs-container header-border">
-			{#each tabs as tab}
+			<!-- {#each tabs as tab}
 				<button tabindex="0" class="header-tab header-tab-hover" on:click={(e) => update_selected(e)} data-tab-name={tab}>{tab}</button>
-			{/each}
+			{/each} -->
 		</div>
 		<div class="thing-on-right header-border">
-			<button class="info-button" on:click={() => showModal = true}><img class="info-button-image" src="img/info.svg" alt="info"/></button>
+			<button class="info-button" on:click={() => showModal = true}><Info fill="var(--lol-gold-1)" /></button>
 		</div>
 	</div>
 </nav>
@@ -115,6 +114,7 @@
 		color: var(--lol-gold-1);
 		background-color: var(--lol-hextech-black);
 		border-bottom: 2px solid var(--lol-gold-4);
+		width: 100vw;
 	}
 
 	.header h2 {
@@ -127,6 +127,7 @@
 		justify-content: space-between;
 		height: 80px;
 		box-sizing: border-box;
+		width: 100vw;
 	}
 
 	.header > * {
@@ -140,10 +141,6 @@
 	.header-tabs-container {
 		flex-grow: 1;
 		padding: 0;
-	}
-
-	.header-tabs-container * {
-		font-size: 14pt;
 	}
 
 	.header-tab {
@@ -183,10 +180,6 @@
 	.info-modal {
 		padding: 0 15px;
 		max-height: 60vh;
-	}
-
-	.info-modal p {
-		font-size: 11pt;
 	}
 
 	.info-modal h4 {
@@ -235,7 +228,7 @@
 	.example-rule-caption {
 		margin: 0;
 		text-align: center;
-		font-size: 10pt;
+		font-size: 0.8rem;
 	}
 
 	.rule-description {
@@ -247,6 +240,8 @@
 		background-color: inherit;
 		border: 0;
 		padding: 0;
+		display: flex;
+		box-sizing: border-box;
 	}
 	.info-button:hover {
 		background-color: inherit;

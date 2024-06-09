@@ -66,29 +66,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 40pt;
+    font-size: 2.85rem;
 }
 
 h2 {
-    font-size: 28pt;
+    font-size: 2.1rem;
 }
 
 h3 {
-    font-size: 23pt;
+    font-size: 1.64rem;
 }
 
 h4 {
-    font-size: 18pt;
+    font-size: 1.33rem;
     margin-block-start: 1em; 
     margin-block-end: 1em; 
 }
 
 h5 {
-    font-size: 14pt;
+    font-size: 1rem;
 }
 
 p {
-    font-size: 14pt;
+    font-size: 1rem;
     font-weight: normal;
 }
 

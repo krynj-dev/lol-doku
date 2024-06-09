@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let showModal: Boolean; // boolean
 
-	export let dialog: HTMLDialogElement; // HTMLDialogElement
+	export let dialog: HTMLDialogElement | undefined = undefined; // HTMLDialogElement
 
 	export let modalCloseFallback = (event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {};
 
@@ -37,6 +37,7 @@
 		padding: 0;
 		background-color: var(--lol-hextech-black);
 		color: var(--lol-gold-1);
+		cursor: auto;
 	}
 	dialog::backdrop {
 		background: rgba(0, 0, 0, 0.3);

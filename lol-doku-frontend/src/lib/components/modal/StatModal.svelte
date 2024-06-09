@@ -47,7 +47,6 @@
 				get_players(plr_key, 1).then((plr) => {
 					if (plr) {
 						alt_names[plr_key] = plr.results[0].alternate_names.filter((x) => x != plr_key);
-                        console.log(alt_names);
 					}
 				});
 			});
@@ -59,7 +58,7 @@
 	<Modal bind:showModal size="600" bind:dialog>
 		{#if stats}
 			<h4 class="rule-cross-tile-title">{stats.x} / {stats.y}</h4>
-			<p class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</p>
+			<h5 class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</h5>
 			<hr />
 			<div class="player-stat-container">
 				{#each stats.results as player_stat}
@@ -102,7 +101,7 @@
 
 	.player-stat-item p {
 		padding: 0 10px;
-		font-size: 16px;
+		font-size: 1.1rem;
 	}
 
 	.player-stat-name-container {
@@ -136,16 +135,8 @@
 		margin-right: 20px;
 	}
 
-	.rule-cross-tile-title {
-		margin-top: 15px;
-		margin-bottom: 15px;
-		font-size: 22px;
-		font-weight: 500;
-	}
-
 	.rule-cross-tile-percentage {
-		font-weight: 500;
-		font-size: 20px;
+		font-size: 1.1rem;
 	}
 
     .player-stat-stats {
@@ -160,7 +151,7 @@
 	}
 
     p.player-stat-alt-name {
-        font-size: 14px;
+        font-size: 0.9rem;
         color: #595959;
         margin: 0 0 4px 0;
         padding: 0px;
