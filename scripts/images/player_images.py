@@ -38,10 +38,10 @@ def retrieve_player_images(site: EsportsClient, cooked_players: dict, raw_player
         }]
     i = 1
     for player_key in cooked_players.keys():
+        print(f"\r{i+1}/{len(cooked_players.keys())}", sep=" ", end="", flush=True)
         if player_key not in image_objs.keys() or len(image_objs[player_key]) == 0:
             continue
         most_recent = max(image_objs[player_key], key=image_sort_key)
-        print(f"\r{i+1}/{len(cooked_players.keys())}", sep=" ", end="", flush=True)
         player_file_name = f'data/images/players/{player_key}.webp'
         if os.path.isfile(player_file_name):
             continue
@@ -69,7 +69,7 @@ def retrieve_player_images(site: EsportsClient, cooked_players: dict, raw_player
                 # print(f"failed for {player_key}")
                 pass
         except Exception as e:
-            print(f"failed for {player_key}", str(e))
+            print(f"\rfailed for {player_key}", str(e), flush=True)
             cooked_players[player_key]["image"] = None
         i += 1
 

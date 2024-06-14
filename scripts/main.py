@@ -1,4 +1,5 @@
 import sys
+from data_update import get_new_data
 
 from raw import *
 from cooked import *
@@ -8,6 +9,10 @@ from mwrogue.esports_client import EsportsClient
 
 
 site = EsportsClient("lol")
+
+if "--update" in sys.argv:
+    get_new_data(site)
+    quit()
 
 if "--raw" in sys.argv:
     rosters = get_rosters(site) #1
@@ -101,5 +106,5 @@ else:
         worlds_participant_rules = json.load(f)
 
 # #### NOW POPULATE CROSSES ####
-
-all_rules = populate_crosses([team_rules, teammate_rules, role_rules, champion_rules, finalists_rules, worlds_participant_rules, countries_rules])
+if "--crosses" in sys.argv:
+    all_rules = populate_crosses([team_rules, teammate_rules, role_rules, champion_rules, finalists_rules, worlds_participant_rules, countries_rules])

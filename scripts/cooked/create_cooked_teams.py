@@ -389,25 +389,37 @@ def format_for_save(teams_sets: dict, roster_recency: dict):
         teams_sets[k]["highest_level"] = roster_recency[k][1]
     return teams_sets
 
-def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: list, raw_teams_redirects: list, raw_rosters: list):
+def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: list, raw_teams_redirects: list, raw_rosters: list, write=True):
     teams_sets = {}
     teams_sets = add_all_teams(teams_sets, raw_teams)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = populate_renames(teams_sets, raw_teams_renames)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = populate_sister_teams(teams_sets, raw_teams_sister)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = bubble_other_names_to_parents_and_siblings(teams_sets)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     level_prio = ["Primary", "Secondary", "Showmatch", ""]
     roster_recency = get_formatted_roster_data(teams_sets, raw_rosters, level_prio)
     teams_sets = delete_subordinate_sister_teams(teams_sets, roster_recency, level_prio)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_subset_teams(teams_sets, roster_recency, level_prio)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_rosterless_teams(teams_sets, roster_recency)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     has_child_set = get_has_child_set(teams_sets)
     teams_sets = bubble_sisters_to_parents_then_delete_child(teams_sets, roster_recency, level_prio, has_child_set)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_quirky_teams(teams_sets, roster_recency, raw_teams_redirects)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = remove_secondary_names(teams_sets, roster_recency)
+    print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = format_for_save(teams_sets, roster_recency)
-
-    loc = write_to_json_file("data/cooked", "teams", teams_sets, format=False)
-    with open(loc, 'r+', encoding='utf-8') as f:
-        saved_obj = json.load(f)
-    return saved_obj
+    if write:
+        loc = write_to_json_file("data/cooked", "teams", teams_sets, format=False)
+        with open(loc, 'r+', encoding='utf-8') as f:
+            saved_obj = json.load(f)
+        return saved_obj
+    else:
+        return teams_sets
     

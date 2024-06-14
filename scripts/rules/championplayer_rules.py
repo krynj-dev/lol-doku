@@ -1,7 +1,7 @@
 import json
 from shared.util import write_to_json_file, get_player_key
 
-def create_champion_rules(cooked_players: dict, raw_player_champions: list):
+def create_champion_rules(cooked_players: dict, raw_player_champions: list, write=True):
     cumulative_counts = {}
     champion_rules = {}
     for player_champ in raw_player_champions:
@@ -36,8 +36,11 @@ def create_champion_rules(cooked_players: dict, raw_player_champions: list):
                         "exclusive_crosses": set()
                     }
                 champion_rules[any_key]["valid_players"].add(player_key)
-    loc = write_to_json_file("data/rules", "champion_counts", champion_rules, format=False)    
-    with open(loc, 'r+', encoding='utf-8') as f:
-        saved_obj = json.load(f)
-    return saved_obj
+    if write:
+        loc = write_to_json_file("data/rules", "champion_counts", champion_rules, format=False)    
+        with open(loc, 'r+', encoding='utf-8') as f:
+            saved_obj = json.load(f)
+        return saved_obj
+    else:
+        return champion_rules
                 

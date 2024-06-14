@@ -4,7 +4,7 @@ from mwrogue.esports_client import EsportsClient
 
 from shared.util import write_to_json_file
 
-def cook_players_data(site: EsportsClient, raw_players: list, raw_player_images: list):
+def cook_players_data(site: EsportsClient, raw_players: list, raw_player_images: list, write=True):
     player_sets = {}
     for raw_player in raw_players:
         overview_page = raw_player["OverviewPage"]
@@ -25,8 +25,11 @@ def cook_players_data(site: EsportsClient, raw_players: list, raw_player_images:
             else:
                 player_sets[overview_page]["alternate_names"].append(all_name)
     player_sets = retrieve_player_images(site, player_sets, raw_player_images)
-    loc = write_to_json_file("data/cooked", "players", player_sets, format=False)
-    with open(loc, 'r+', encoding='utf-8') as f:
-        saved_obj = json.load(f)
-    return saved_obj
+    if write:
+        loc = write_to_json_file("data/cooked", "players", player_sets, format=False)
+        with open(loc, 'r+', encoding='utf-8') as f:
+            saved_obj = json.load(f)
+        return saved_obj
+    else:
+        return player_sets
     

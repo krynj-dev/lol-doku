@@ -1,7 +1,7 @@
 import json
 from shared.util import write_to_json_file, get_player_key
 
-def create_worlds_finalist_rules(cooked_players: dict, raw_tournament_results: list):
+def create_worlds_finalist_rules(cooked_players: dict, raw_tournament_results: list, write=True):
     worlds_finalist_rules = {}
     playing_roles = ["Top", "Jungle", "Mid", "Bot", "Support"]
     for team_result in raw_tournament_results:
@@ -25,13 +25,15 @@ def create_worlds_finalist_rules(cooked_players: dict, raw_tournament_results: l
                 }
             p_keys = [get_player_key(cooked_players, p) for p in players]
             worlds_finalist_rules[rule_key]["valid_players"] |= set([x for x in p_keys if x is not None])
-    
-    finalist_loc = write_to_json_file("data/rules", "finalists", worlds_finalist_rules, format=False)
-    with open(finalist_loc, 'r+', encoding='utf-8') as f:
-        saved_finalists = json.load(f)
-    return saved_finalists
+    if write:
+        finalist_loc = write_to_json_file("data/rules", "finalists", worlds_finalist_rules, format=False)
+        with open(finalist_loc, 'r+', encoding='utf-8') as f:
+            saved_finalists = json.load(f)
+        return saved_finalists
+    else:
+        return worlds_finalist_rules
 
-def create_worlds_participant_rules(cooked_players: dict, raw_tournament_results: list):
+def create_worlds_participant_rules(cooked_players: dict, raw_tournament_results: list, write=True):
     top_16 = set()
     for i in range(1, 17):
         top_16.add(str(i))
@@ -60,8 +62,10 @@ def create_worlds_participant_rules(cooked_players: dict, raw_tournament_results
                 }
             p_keys = [get_player_key(cooked_players, p) for p in players]
             worlds_participant_rules[rule_key]["valid_players"] |= set([x for x in p_keys if x is not None])
-    
-    participant_loc = write_to_json_file("data/rules", "worlds_participants", worlds_participant_rules, format=False)
-    with open(participant_loc, 'r+', encoding='utf-8') as f:
-        saved_participants = json.load(f)
-    return saved_participants
+    if write:
+        participant_loc = write_to_json_file("data/rules", "worlds_participants", worlds_participant_rules, format=False)
+        with open(participant_loc, 'r+', encoding='utf-8') as f:
+            saved_participants = json.load(f)
+        return saved_participants
+    else:
+        return worlds_participant_rules
