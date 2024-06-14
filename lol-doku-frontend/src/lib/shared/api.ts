@@ -51,7 +51,7 @@ export async function get_team(team: string) {
     return res;
 }
 
-async function finalise_game() {
+export async function finalise_game() {
     let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/finalise/today`, {
         credentials: "include",
         method: "POST"

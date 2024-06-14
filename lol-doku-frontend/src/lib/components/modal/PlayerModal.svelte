@@ -16,7 +16,7 @@
 	let playerList: Player[] = [];
 	let player_image_srcs: any = {};
 
-	let cached_filter = "";
+	let cached_filter = '';
 	let cached_player_list: any[] = [];
 
 	let selectedPlayers: SlotGuess[];
@@ -24,7 +24,7 @@
 	let selectedPlayer: SlotGuess;
 	let puzzle: Puzzle;
 
-	_puzzle.subscribe((value) => puzzle = value);
+	_puzzle.subscribe((value) => (puzzle = value));
 
 	_lives.subscribe((value) => {
 		lives = value;
@@ -46,14 +46,14 @@
 				playerList = results;
 				results.forEach((player) => {
 					get_player_image_src(player.display_name).then((res) => {
-							if (res) {
-								player_image_srcs[player.display_name] = res;
-							}
-						});
+						if (res) {
+							player_image_srcs[player.display_name] = res;
+						}
+					});
 				});
 			});
-		// } else if (filter.length > 2) {
-		// 	playerList = cached_player_list.filter((x: Player) => x.display_name.toLocaleLowerCase().includes(filter.toLocaleLowerCase())).slice(0, 12);
+			// } else if (filter.length > 2) {
+			// 	playerList = cached_player_list.filter((x: Player) => x.display_name.toLocaleLowerCase().includes(filter.toLocaleLowerCase())).slice(0, 12);
 		} else {
 			playerList = [];
 		}
@@ -67,10 +67,13 @@
 		let x = index % 3;
 		let y = Math.floor(index / 3);
 		if (puzzle) {
-			return [puzzle.rules.filter(r => r.axis == "x")[x], puzzle.rules.filter(r => r.axis == "y")[y]];
+			return [
+				puzzle.rules.filter((r) => r.axis == 'x')[x],
+				puzzle.rules.filter((r) => r.axis == 'y')[y]
+			];
 		}
-		return []
-	}
+		return [];
+	};
 
 	$: rules = rulesFromIndex(index);
 
@@ -92,6 +95,7 @@
 				loading = false;
 			});
 		}
+		filter = '';
 	};
 
 	function handlePlayerSelection(event: Event, clickedPlayer: string) {
@@ -99,15 +103,16 @@
 	}
 </script>
 
-<Modal bind:showModal bind:modalCloseFallback={handleModalClose} bind:dialog size=600>
-	{#if rules.length > 0}
-		<div class="rule-cross-title">
-			<h3>{rules[0].key}</h3><h3>X</h3><h3>{rules[1].key}</h3>
-		</div>
-	{/if}
+<Modal bind:showModal bind:modalCloseCallback={handleModalClose} bind:dialog size="600">
+	<div class="rule-cross-title" slot="title">
+		{#if rules.length > 0}
+			<h3>{rules[0].key} X {rules[1].key}</h3>
+		{/if}
+	</div>
 	<hr />
 	<div>
-		<p class="input-label">Search Player:</p><input bind:value={filter} />
+		<p class="input-label">Search Player:</p>
+		<input bind:value={filter} />
 	</div>
 	<hr />
 	<div class="player-button-box">
@@ -126,7 +131,7 @@
 				<div class="player-modal-name-container">
 					<p class="player-modal-title">{plr.display_name}</p>
 					<div class="player-modal-subtitle">
-						{#each plr.alternate_names.filter(x => x != plr.display_name) as alt_name}
+						{#each plr.alternate_names.filter((x) => x != plr.display_name) as alt_name}
 							<p class="player-modal-alt-name">{alt_name}</p>
 						{/each}
 					</div>
@@ -160,7 +165,7 @@
 
 	.player-button-box {
 		overflow-y: auto;
-		padding: 0 5px;
+		padding: 0 10px;
 		height: 500px;
 	}
 
@@ -181,32 +186,31 @@
 		overflow: hidden;
 	}
 
-
 	.input-label {
 		display: inline;
 		margin: 0 10px;
 	}
 
 	p.player-modal-alt-name {
-        color: #595959;
-        margin: 0 0 4px 0;
-        padding: 0px;
-    }
+		color: #595959;
+		margin: 0 0 4px 0;
+		padding: 0px;
+	}
 
-    .player-modal-alt-name:not(:last-child) {
-        margin-right: 10px;
-    }
+	.player-modal-alt-name:not(:last-child) {
+		margin-right: 10px;
+	}
 
 	p.player-modal-title {
-        margin: 5px 0;
+		margin: 5px 0;
 		font-size: 1.1rem;
-    }
+	}
 
-    .player-modal-subtitle {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-    }
+	.player-modal-subtitle {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+	}
 
 	.player-modal-name-container {
 		padding-left: 20px;
@@ -216,11 +220,7 @@
 		height: 100%;
 	}
 
-	.rule-cross-title > h3:not(:last-child) {
-		margin-bottom: 0;
-	}
-
-	.rule-cross-title > h3:not(:first-child) {
-		margin-top: 0;
+	.rule-cross-title > h3 {
+		margin-bottom: 1rem;
 	}
 </style>

@@ -29,8 +29,8 @@
 </script>
 
 <Modal bind:showModal bind:dialog size=600>
+	<h3 class="info-title" slot="title">Welcome to LoLProGrid!</h3>
 	<div class="info-modal">
-		<h3>Welcome to LoLProGrid!</h3>
 		<p>Fill the grid with professional LoL players who fit in the categories!</p>
 		<p>Only games played in primary-level tournaments count towards a player's membership of a given category.<br>
 		This includes typical premier tournaments such as LEC, LCS, LCK, LPL and all minor region equivalents as well as international events such as MSI, Worlds and even IEMs.<br>
@@ -175,6 +175,10 @@
 		box-sizing: border-box;
 		display: flex;
 		width: max-content;
+	}
+
+	.info-title {
+		text-align: center;
 	}
 
 	.info-modal {

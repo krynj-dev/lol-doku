@@ -65,8 +65,8 @@
 		on:keyup={toggleModal}
 	>
 		<Modal bind:showModal>
+			<h4 class="rule-modal-title" slot="title">{rule.key}</h4>
 			<div class="rule-modal">
-				<h4>{rule.key}</h4>
 				<div class={`rule-image-container lol-border${modalLight ? ' white-bg': ''}`}>
 					<img class="rule-image" src={image} alt={rule.key}/>
 					<div class="button-modal-container">
@@ -76,7 +76,6 @@
 					</div>
 				</div>
 				{#if filtered_alt_names && filtered_alt_names.length > 0}
-					<hr />
 					<ul>
 						{#each filtered_alt_names as alt_n}
 							<li>{alt_n}</li>
@@ -173,6 +172,7 @@
 		padding: 40px 10px 10px;
 		position: relative;
 		margin: 10px 0;
+		transition: 0.5s;
 	}
 
 	.white-bg {
@@ -195,11 +195,16 @@
 		border: 0;
 		border-radius: 0;
 		background-color: transparent;
-		width: 30px;
-		height: 30px;
+		width: 20px;
+		height: 20px;
 		padding: 0;
 		cursor: pointer;
 		transition: 0.5s;
+	}
+
+	.rule-modal-title {
+		text-align: center;
+		margin: 1rem 0;
 	}
 
 	.rotate-180-deg {

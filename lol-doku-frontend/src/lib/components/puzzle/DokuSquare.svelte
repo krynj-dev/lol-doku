@@ -43,8 +43,8 @@
 </script>
 
 <Modal bind:showModal>
+	<h4 class="ending-modal-title" slot="title">Thank you for playing!</h4>
 	<div class="ending-modal">
-		<h4 class="ending-modal-title">Thank you for playing!</h4>
 		<div class="ending-modal-row-2">
 			<p>{`Correct guesses:`}</p>
 			<p>{`${correct}`}</p>
@@ -154,7 +154,7 @@
 	@media only screen and (min-width: 769px) {
 		.doku-grid {
 			grid-template-columns: repeat(5, 155px);
-			grid-template-rows: repeat(5, 155px);
+			grid-template-rows: repeat(4, 155px);
 		}
 
 		.info-tile {
@@ -195,7 +195,7 @@
 
 	.ending-modal-title {
 		text-align: center;
-		margin-top: 0;
+		margin: 1rem 0;
 	}
 
 	.ending-modal-row-2 {

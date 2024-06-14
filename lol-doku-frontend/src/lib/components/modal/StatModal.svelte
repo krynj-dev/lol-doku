@@ -56,8 +56,12 @@
 
 {#if allowToggle}
 	<Modal bind:showModal size="600" bind:dialog>
+		<div slot="title">
+			{#if stats}
+				<h4 class="rule-cross-tile-title">{stats.x} / {stats.y}</h4>
+			{/if}
+		</div>
 		{#if stats}
-			<h4 class="rule-cross-tile-title">{stats.x} / {stats.y}</h4>
 			<h5 class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</h5>
 			<hr />
 			<div class="player-stat-container">
@@ -137,6 +141,7 @@
 
 	.rule-cross-tile-percentage {
 		font-size: 1.1rem;
+		margin: 1rem 0;
 	}
 
     .player-stat-stats {
