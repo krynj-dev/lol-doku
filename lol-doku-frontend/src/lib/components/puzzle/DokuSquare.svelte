@@ -20,6 +20,8 @@
 	let modal_shown: boolean = false;
 	let showModal: boolean = false;
 	let score: number = 900;
+	$: rows = (puzzle ? puzzle.rules.filter(r => r.axis == 'x').sort((a, b) => a.index - b.index): []);
+	$: columns = (puzzle ? puzzle.rules.filter(r => r.axis == 'y').sort((a, b) => a.index - b.index): []);
 
 	_puzzle.subscribe((value) => {
 		puzzle = value;

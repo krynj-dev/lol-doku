@@ -108,3 +108,15 @@ export async function getSelectedPlayers(guesses: any[]) {
     };
     return selected_players;
 }
+
+export async function get_rule(key: string): Promise<Rule> {
+    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
+    return rule_res[0] as Rule;
+}
+
+export async function get_team(team: string) {
+    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/teams/?search='${encodeURIComponent(team)}'`, {
+        credentials: "include"
+    }).then((r) => r.json());
+    return res;
+}
