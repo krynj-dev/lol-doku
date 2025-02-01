@@ -2,19 +2,37 @@ import { type GameState } from "$lib/models/new/GameState";
 import { type GuessStats } from "$lib/models/new/GuessStats";
 import { type Rule } from "$lib/models/new/Rule";
 import { type SlotGuess } from "$lib/models/new/SlotGuess";
-import { _correct, _finalised, _lives, _puzzle, _selected_players } from "../../stores";
+import { _correct, _finalised, _lives, _puzzle, _selected_players, _failed_load } from "../../stores";
 import { get } from 'svelte/store'
 import { type Player } from "$lib/models/new/Player";
+import { type FailResponse } from "$lib/models/FailResponse";
 
 
 
 async function init_puzzle(): Promise<GameState> {
     // Get Session
-    let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json());
+    let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json())
+    .catch(e => {
+        console.error(e)
+        _failed_load.set({
+            "reason": "Failed to retrieve session."
+        } as FailResponse)
+        throw new Error("Failed to retrieve session")
+    });
     // Get Game
     let game_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/today`, { credentials: "include" })
-        .then((r) => r.json())
-        .catch(e => console.error(e));
+        .then((r) => {
+            _failed_load.set(undefined);
+            return r.json();
+        })
+        .catch(e => {
+            console.error(e)
+            _failed_load.set({
+                "reason": "Failed to retrieve game for today."
+            } as FailResponse)
+            throw new Error("Failed to retrieve todays game")
+        });
+    console.log(game_res);
     let game_state = game_res as GameState;
     return game_state;
 }
@@ -94,7 +112,8 @@ export async function refresh_state() {
                 _finalised.set(true);
             })
         }
-    });
+    })
+    .catch(e => console.error(e));
 }
 
 export async function submit_guess(slot: number, player_key: string) {

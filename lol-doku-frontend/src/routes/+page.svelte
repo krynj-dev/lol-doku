@@ -1,18 +1,24 @@
 <script lang="ts">
 	import DokuSquare from '$lib/components/puzzle/DokuSquare.svelte';
 	import Header from '$lib/components/Header.svelte';
-	import { _puzzle, _lives, _correct, _selected_players, _players, _finalised } from '../stores';
+	import { _puzzle, _lives, _correct, _selected_players, _players, _finalised, _failed_load } from '../stores';
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 
 	import type { Puzzle } from '$lib/models/new/Puzzle';
 	import type { Player } from '$lib/models/new/Player';
 	import { finalise_game, refresh_state } from '$lib/shared/api';
+	import Spinner from '$lib/components/spinner/Spinner.svelte';
+	import type { FailResponse } from '$lib/models/FailResponse';
 
 	const tabs = ['Home', 'Puzzle Builder', 'Endless'];
 
 	let current_tab = 'Home';
 
+	let failed_load: FailResponse | undefined;
+	_failed_load.subscribe((value) => {
+		failed_load = value;
+	});
 	let puzzle: Puzzle;
 	_puzzle.subscribe((value) => {
 		puzzle = value;
@@ -30,13 +36,19 @@
 
 <Header {tabs} bind:selected={current_tab} />
 <div class="content">
-	{#if puzzle}
+	{#if failed_load}
+		<h2>Puzzle failed to load.</h2>
+		<p>{failed_load.reason}</p>
+	{:else if puzzle}
 		<DokuSquare />
 		<button class="giveup-button lol-border" on:click={() => {
 			finalise_game().then(r => {
                 _finalised.set(true);
             })
 		}}>Give Up</button>
+	{:else}
+		<div class="spinner-container"><Spinner /></div>
+		<h2>Loading puzzle. Please wait...</h2>
 	{/if}
 </div>
 
