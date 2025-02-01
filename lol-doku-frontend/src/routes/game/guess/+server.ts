@@ -54,6 +54,8 @@ export async function POST({ request, cookies }) {
             remaining_guesses: game_session.remaining_guesses - 1
         }
     })
+    console.log("big kjeks");
+    
     return json({
         player: body.player,
         slot: slot,

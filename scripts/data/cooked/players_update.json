@@ -1,0 +1,7662 @@
+{
+    "add": [
+        "Leaper",
+        "Casting",
+        "Maximillion",
+        "Mihile",
+        "Dioge (Diogenes Barbosa)",
+        "Jcom",
+        "Evewin",
+        "Pain (Lê Quốc Anh)",
+        "Nanaue (Phùng Đức Tài)",
+        "Hespo",
+        "Maple Syrup",
+        "Young (Young Choi)",
+        "M0chi",
+        "Prey (Xu Jia-Hao)",
+        "Xiaocaobao",
+        "Glfs",
+        "Tahahy",
+        "Yume (Châu Kim Bảo)",
+        "GuanGuan",
+        "ZUIAN",
+        "Van (Kim Seung-hoo)",
+        "RYue",
+        "Kerry",
+        "225",
+        "9God",
+        "Juice",
+        "Kazuto",
+        "Toaster",
+        "Warrior (Nguyễn Phú Thanh)",
+        "TT789",
+        "ChinX",
+        "Rineko",
+        "Hypnos",
+        "VENDRICK",
+        "Yojin",
+        "HotPot",
+        "Tomio",
+        "10IQ",
+        "Cadence",
+        "Getback",
+        "Fiji",
+        "Leandrinn",
+        "Forlin",
+        "Gabn",
+        "Guapi",
+        "Neadz",
+        "Sovereign (Alexander Folley)",
+        "Sounda",
+        "Mun",
+        "Balder",
+        "Doggy",
+        "Yge",
+        "Claws",
+        "SiuLoong",
+        "Levizin"
+    ],
+    "evolved": [
+        [
+            [
+                "Vasilii",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "TS (Li Wei-Jun)",
+                        "Vasilii"
+                    ],
+                    "country": "China",
+                    "display_name": "Vasilii",
+                    "image": "Vasilii.webp",
+                    "name": "Li Wei-Jun",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Vas1lii",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "TS (Li Wei-Jun)",
+                        "Vasilii"
+                    ],
+                    "country": "China",
+                    "display_name": "Vas1lii",
+                    "image": "",
+                    "name": "Li Wei-Jun",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "Antik",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Antik"
+                    ],
+                    "country": "Russia",
+                    "display_name": "Antik",
+                    "image": "Antik.webp",
+                    "name": "Oleg Karkachev",
+                    "residency": "EMEA"
+                }
+            ],
+            [
+                "Oleg (Oleg Karkachev)",
+                {
+                    "age": "20",
+                    "alternate_names": [
+                        "Antik"
+                    ],
+                    "country": "Russia",
+                    "display_name": "Oleg (Oleg Karkachev)",
+                    "image": "",
+                    "name": "Oleg Karkachev",
+                    "residency": "EMEA"
+                }
+            ]
+        ],
+        [
+            [
+                "KL",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "KL"
+                    ],
+                    "country": "Hong Kong",
+                    "display_name": "KL",
+                    "image": "",
+                    "name": "So Ka Lung",
+                    "residency": "Asia Pacific"
+                }
+            ],
+            [
+                "KL (So Ka Lung)",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "KL (So Ka Lung)"
+                    ],
+                    "country": "Hong Kong",
+                    "display_name": "KL (So Ka Lung)",
+                    "image": "",
+                    "name": "So Ka Lung",
+                    "residency": "Asia Pacific"
+                }
+            ]
+        ],
+        [
+            [
+                "Optimus",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Optimus"
+                    ],
+                    "country": "Vietnam",
+                    "display_name": "Optimus",
+                    "image": "Optimus.webp",
+                    "name": "Trần Văn Cường",
+                    "residency": "Vietnam"
+                }
+            ],
+            [
+                "C7N",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Optimus"
+                    ],
+                    "country": "Vietnam",
+                    "display_name": "C7N",
+                    "image": "",
+                    "name": "Trần Văn Cường",
+                    "residency": "Vietnam"
+                }
+            ]
+        ],
+        [
+            [
+                "Gravepast",
+                {
+                    "age": "19",
+                    "alternate_names": [
+                        "Gravepast"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "Gravepast",
+                    "image": "Gravepast.webp",
+                    "name": "Demir Demirsoy",
+                    "residency": "EMEA"
+                }
+            ],
+            [
+                "Grave",
+                {
+                    "age": "19",
+                    "alternate_names": [
+                        "Gravepast"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "Grave",
+                    "image": "",
+                    "name": "Demir Demirsoy",
+                    "residency": "EMEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Zecas",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "Zecas"
+                    ],
+                    "country": "Brazil",
+                    "display_name": "Zecas",
+                    "image": "Zecas.webp",
+                    "name": "César Berteli",
+                    "residency": "Brazil"
+                }
+            ],
+            [
+                "ZekaS",
+                {
+                    "age": "22",
+                    "alternate_names": [
+                        "Zecas"
+                    ],
+                    "country": "Brazil",
+                    "display_name": "ZekaS",
+                    "image": "",
+                    "name": "César Berteli França",
+                    "residency": "Brazil"
+                }
+            ]
+        ],
+        [
+            [
+                "Ozgur",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Ozgur"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "Ozgur",
+                    "image": "Ozgur.webp",
+                    "name": "Can&amp;nbsp;Özgür Kara",
+                    "residency": "Turkey"
+                }
+            ],
+            [
+                "Ozgur (Can Özgür Kara)",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Ozgur (Can Özgür Kara)"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "Ozgur (Can Özgür Kara)",
+                    "image": "GAL Ozgur 2018 Winter.png",
+                    "name": "Can&amp;nbsp;Özgür Kara",
+                    "residency": "Turkey"
+                }
+            ]
+        ],
+        [
+            [
+                "Annie Bot",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Annie Bot"
+                    ],
+                    "country": "Egypt",
+                    "display_name": "Annie Bot",
+                    "image": "",
+                    "name": "Marwan Ashraf",
+                    "residency": "EMEA"
+                }
+            ],
+            [
+                "AnnieBot",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Annie Bot"
+                    ],
+                    "country": "Egypt",
+                    "display_name": "AnnieBot",
+                    "image": "",
+                    "name": "Marwan Ashraf",
+                    "residency": "EMEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Pretty",
+                {
+                    "age": "26",
+                    "alternate_names": [
+                        "Pretty"
+                    ],
+                    "country": "Greece",
+                    "display_name": "Pretty",
+                    "image": "Pretty.webp",
+                    "name": "Prodromos Kevezitidis",
+                    "residency": "North America"
+                }
+            ],
+            [
+                "PrettyGRE",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Pretty"
+                    ],
+                    "country": "Greece",
+                    "display_name": "PrettyGRE",
+                    "image": "",
+                    "name": "Prodromos Kevezitidis",
+                    "residency": "EMEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Don Cholo",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Don Cholo"
+                    ],
+                    "country": "Mexico",
+                    "display_name": "Don Cholo",
+                    "image": "",
+                    "name": "Sergio Salas",
+                    "residency": "Latin America"
+                }
+            ],
+            [
+                "Don Cholo (Sergio Salas)",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Don Cholo (Sergio Salas)"
+                    ],
+                    "country": "Mexico",
+                    "display_name": "Don Cholo (Sergio Salas)",
+                    "image": "",
+                    "name": "Sergio Salas",
+                    "residency": "Latin America"
+                }
+            ]
+        ],
+        [
+            [
+                "24",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "24"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "24",
+                    "image": "",
+                    "name": "Seyfi Onat Aytemiz",
+                    "residency": "Turkey"
+                }
+            ],
+            [
+                "24 (Seyfi Onat Aytemiz)",
+                {
+                    "age": "22",
+                    "alternate_names": [
+                        "24 (Seyfi Onat Aytemiz)"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "24 (Seyfi Onat Aytemiz)",
+                    "image": "",
+                    "name": "Seyfi Onat Aytemiz",
+                    "residency": "Turkey"
+                }
+            ]
+        ],
+        [
+            [
+                "Molto",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "Molto"
+                    ],
+                    "country": "Egypt",
+                    "display_name": "Molto",
+                    "image": "Molto.webp",
+                    "name": "Mahmoud Sakr",
+                    "residency": "EMEA"
+                }
+            ],
+            [
+                "Moesakr",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "Molto"
+                    ],
+                    "country": "Egypt",
+                    "display_name": "Moesakr",
+                    "image": "",
+                    "name": "Mahmoud Sakr",
+                    "residency": "EMEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Vince (Trần Hoài Vinh)",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "Vin (Trần Hoài Vinh)",
+                        "Vince (Trần Hoài Vinh)"
+                    ],
+                    "country": "Vietnam",
+                    "display_name": "Vince (Trần Hoài Vinh)",
+                    "image": "Vince (Trần Hoài Vinh).webp",
+                    "name": "Trần Hoài Vinh",
+                    "residency": "Vietnam"
+                }
+            ],
+            [
+                "VIN (Trần Hoài Vinh)",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "VIN (Trần Hoài Vinh)",
+                        "Vince (Trần Hoài Vinh)"
+                    ],
+                    "country": "Vietnam",
+                    "display_name": "VIN (Trần Hoài Vinh)",
+                    "image": "",
+                    "name": "Trần Hoài Vinh",
+                    "residency": "Vietnam"
+                }
+            ]
+        ],
+        [
+            [
+                "Maxi",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "Maxi"
+                    ],
+                    "country": "Denmark",
+                    "display_name": "Maxi",
+                    "image": "Maxi.webp",
+                    "name": "Magnus Kristensen",
+                    "residency": "EMEA"
+                }
+            ],
+            [
+                "MAXI",
+                {
+                    "age": "24",
+                    "alternate_names": [
+                        "MAXI"
+                    ],
+                    "country": "Denmark",
+                    "display_name": "MAXI",
+                    "image": "",
+                    "name": "Magnus Kristensen",
+                    "residency": "EMEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Over T1me",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "Epoch"
+                    ],
+                    "country": "Taiwan",
+                    "display_name": "Over T1me",
+                    "image": "Over T1me.webp",
+                    "name": "Kuo Ping-Hsin",
+                    "residency": "Asia Pacific"
+                }
+            ],
+            [
+                "OVER T1ME",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "Epoch"
+                    ],
+                    "country": "Taiwan",
+                    "display_name": "OVER T1ME",
+                    "image": "",
+                    "name": "Kuo Ping-Hsin",
+                    "residency": "Asia Pacific"
+                }
+            ]
+        ],
+        [
+            [
+                "Assassin",
+                {
+                    "age": "28",
+                    "alternate_names": [
+                        "Assassin",
+                        "JS (Zhou Yi-Xiang)",
+                        "Sask"
+                    ],
+                    "country": "China",
+                    "display_name": "Assassin",
+                    "image": "Assassin.webp",
+                    "name": "Zhou Yi-Xiang",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Sask",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "Assassin",
+                        "JS (Zhou Yi-Xiang)",
+                        "Sask"
+                    ],
+                    "country": "China",
+                    "display_name": "Sask",
+                    "image": "",
+                    "name": "Zhou Yi-Xiang",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "WeiXiao",
+                {
+                    "age": "31",
+                    "alternate_names": [
+                        "WeiXiao",
+                        "Wx"
+                    ],
+                    "country": "China",
+                    "display_name": "WeiXiao",
+                    "image": "WeiXiao.webp",
+                    "name": "Gao Xue-Cheng",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Wx",
+                {
+                    "age": "32",
+                    "alternate_names": [
+                        "Weixiao",
+                        "Wx"
+                    ],
+                    "country": "China",
+                    "display_name": "Wx",
+                    "image": "WER wx 2024 LCC.png",
+                    "name": "Gao Xue-Cheng",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "CoLiN",
+                {
+                    "age": "32",
+                    "alternate_names": [
+                        "CoLiN"
+                    ],
+                    "country": "China",
+                    "display_name": "CoLiN",
+                    "image": "CoLiN.webp",
+                    "name": "Cao Hai",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Colin",
+                {
+                    "age": "32",
+                    "alternate_names": [
+                        "Colin"
+                    ],
+                    "country": "China",
+                    "display_name": "Colin",
+                    "image": "",
+                    "name": "Cao Hai",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "Last",
+                {
+                    "age": "26",
+                    "alternate_names": [
+                        "Last"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Last",
+                    "image": "Last.webp",
+                    "name": "Jeong Young-seok",
+                    "residency": "Korea"
+                }
+            ],
+            [
+                "Last (Jeong Young-seok)",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Last (Jeong Young-seok)"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Last (Jeong Young-seok)",
+                    "image": "",
+                    "name": "Jeong Young-seok",
+                    "residency": "Korea"
+                }
+            ]
+        ],
+        [
+            [
+                "Kite",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "Kite"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Kite",
+                    "image": "Kite.webp",
+                    "name": "Kim Yong-yeon",
+                    "residency": "Korea"
+                }
+            ],
+            [
+                "Kite (Kim Yong-yeon)",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "Kite (Kim Yong-yeon)"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Kite (Kim Yong-yeon)",
+                    "image": "",
+                    "name": "Kim Yong-yeon",
+                    "residency": "Korea"
+                }
+            ]
+        ],
+        [
+            [
+                "SMILEY (Ludvig Granquist)",
+                {
+                    "age": "25",
+                    "alternate_names": [
+                        "SMILEY (Ludvig Granquist)",
+                        "XDsmiley"
+                    ],
+                    "country": "Sweden",
+                    "display_name": "SMILEY (Ludvig Granquist)",
+                    "image": "SMILEY (Ludvig Granquist).webp",
+                    "name": "Ludvig&amp;nbsp;Erik&amp;nbsp;Hugo Granquist",
+                    "residency": "EMEA"
+                }
+            ],
+            [
+                "Smiley (Ludvig Granquist)",
+                {
+                    "age": "26",
+                    "alternate_names": [
+                        "Smiley (Ludvig Granquist)",
+                        "XDSMILEY"
+                    ],
+                    "country": "Sweden",
+                    "display_name": "Smiley (Ludvig Granquist)",
+                    "image": "",
+                    "name": "Ludvig&amp;nbsp;Erik&amp;nbsp;Hugo Granquist",
+                    "residency": "EMEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Mushroom",
+                {
+                    "age": "28",
+                    "alternate_names": [
+                        "Mushroom"
+                    ],
+                    "country": "China",
+                    "display_name": "Mushroom",
+                    "image": "Mushroom.webp",
+                    "name": "Zhang Xiao-Fu",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Mushroom (Zhang Xiao-Fu)",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "Mushroom (Zhang Xiao-Fu)"
+                    ],
+                    "country": "China",
+                    "display_name": "Mushroom (Zhang Xiao-Fu)",
+                    "image": "",
+                    "name": "Zhang Xiao-Fu",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "XiaoWeiXiao",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "Wx (Yu Xian)",
+                        "XiaoWeiXiao"
+                    ],
+                    "country": "China",
+                    "display_name": "XiaoWeiXiao",
+                    "image": "XiaoWeiXiao.webp",
+                    "name": "Yu Xian",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Xiaoweixiao",
+                {
+                    "age": "30",
+                    "alternate_names": [
+                        "Wx (Yu Xian)",
+                        "Xiaoweixiao"
+                    ],
+                    "country": "China",
+                    "display_name": "Xiaoweixiao",
+                    "image": "",
+                    "name": "Yu Xian",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "Astra",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Astra"
+                    ],
+                    "country": "Russia",
+                    "display_name": "Astra",
+                    "image": "",
+                    "name": "Eduard Fritz",
+                    "residency": "CIS"
+                }
+            ],
+            [
+                "Astra (Eduard Fritz)",
+                {
+                    "age": "28",
+                    "alternate_names": [
+                        "Astra (Eduard Fritz)"
+                    ],
+                    "country": "Russia",
+                    "display_name": "Astra (Eduard Fritz)",
+                    "image": "",
+                    "name": "Eduard Fritz",
+                    "residency": "CIS"
+                }
+            ]
+        ],
+        [
+            [
+                "Kagame",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "Arxues",
+                        "Kagame"
+                    ],
+                    "country": "Malaysia",
+                    "display_name": "Kagame",
+                    "image": "Kagame.webp",
+                    "name": "Yap Li Aw",
+                    "residency": "PCS"
+                }
+            ],
+            [
+                "Kagame (Yap Li Aw)",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "Arxues",
+                        "Kagame (Yap Li Aw)"
+                    ],
+                    "country": "Malaysia",
+                    "display_name": "Kagame (Yap Li Aw)",
+                    "image": "",
+                    "name": "Yap Li Aw",
+                    "residency": "Asia Pacific"
+                }
+            ]
+        ],
+        [
+            [
+                "Sigma",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Sigma"
+                    ],
+                    "country": "Belgium",
+                    "display_name": "Sigma",
+                    "image": "",
+                    "name": "Brent de Laet",
+                    "residency": "Europe"
+                }
+            ],
+            [
+                "Sigma (Brent de Laet)",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Sigma (Brent de Laet)"
+                    ],
+                    "country": "Belgium",
+                    "display_name": "Sigma (Brent de Laet)",
+                    "image": "",
+                    "name": "Brent de Laet",
+                    "residency": "Europe"
+                }
+            ]
+        ],
+        [
+            [
+                "Icon",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Icon"
+                    ],
+                    "country": "China",
+                    "display_name": "Icon",
+                    "image": "Icon.webp",
+                    "name": "Xie Tian-Yu",
+                    "residency": "China"
+                }
+            ],
+            [
+                "ICON",
+                {
+                    "age": "28",
+                    "alternate_names": [
+                        "ICON"
+                    ],
+                    "country": "China",
+                    "display_name": "ICON",
+                    "image": "",
+                    "name": "Xie Tian-Yu",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "404",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "404"
+                    ],
+                    "country": "Malaysia",
+                    "display_name": "404",
+                    "image": "",
+                    "name": "Zhi Choong Sheng",
+                    "residency": "SEA"
+                }
+            ],
+            [
+                "404 (Zhi Choong Sheng)",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "404 (Zhi Choong Sheng)"
+                    ],
+                    "country": "Malaysia",
+                    "display_name": "404 (Zhi Choong Sheng)",
+                    "image": "",
+                    "name": "Zhi Choong Sheng",
+                    "residency": "SEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Wall",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Wall"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Wall",
+                    "image": "",
+                    "name": "Son Chang-hoon",
+                    "residency": "Korea"
+                }
+            ],
+            [
+                "Wall (Son Chang-hoon)",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Wall (Son Chang-hoon)"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Wall (Son Chang-hoon)",
+                    "image": "",
+                    "name": "Son Chang-hoon",
+                    "residency": "Korea"
+                }
+            ]
+        ],
+        [
+            [
+                "Only",
+                {
+                    "age": "28",
+                    "alternate_names": [
+                        "Only"
+                    ],
+                    "country": "Australia",
+                    "display_name": "Only",
+                    "image": "Only.webp",
+                    "name": "Jordan Middleton",
+                    "residency": "Asia Pacific"
+                }
+            ],
+            [
+                "Only (Jordan Middleton)",
+                {
+                    "age": "28",
+                    "alternate_names": [
+                        "Only (Jordan Middleton)"
+                    ],
+                    "country": "Australia",
+                    "display_name": "Only (Jordan Middleton)",
+                    "image": "",
+                    "name": "Jordan Middleton",
+                    "residency": "Oceania"
+                }
+            ]
+        ],
+        [
+            [
+                "Bipolar",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Bipolar"
+                    ],
+                    "country": "Malaysia",
+                    "display_name": "Bipolar",
+                    "image": "Bipolar.webp",
+                    "name": "Ramsay Lochhead Devaraj",
+                    "residency": "SEA"
+                }
+            ],
+            [
+                "Bipolar (Ramsay Lochhead Devaraj)",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Bipolar (Ramsay Lochhead Devaraj)"
+                    ],
+                    "country": "Malaysia",
+                    "display_name": "Bipolar (Ramsay Lochhead Devaraj)",
+                    "image": "",
+                    "name": "Ramsay Lochhead Devaraj",
+                    "residency": "SEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Steel",
+                {
+                    "age": "23",
+                    "alternate_names": [
+                        "Steel",
+                        "Wuming (Wang Xin)"
+                    ],
+                    "country": "China",
+                    "display_name": "Steel",
+                    "image": "Steel.webp",
+                    "name": "Wang Xin",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Wuming (Wang Xin)",
+                {
+                    "age": "24",
+                    "alternate_names": [
+                        "Steel",
+                        "Wuming (Wang Xin)"
+                    ],
+                    "country": "China",
+                    "display_name": "Wuming (Wang Xin)",
+                    "image": "",
+                    "name": "Wang Xin",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "FZZF",
+                {
+                    "age": "32",
+                    "alternate_names": [
+                        "FZZF"
+                    ],
+                    "country": "China",
+                    "display_name": "FZZF",
+                    "image": "FZZF.webp",
+                    "name": "Feng Zhuo-Jun",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Fzzf",
+                {
+                    "age": "33",
+                    "alternate_names": [
+                        "Fzzf"
+                    ],
+                    "country": "China",
+                    "display_name": "Fzzf",
+                    "image": "BIG fzzf Legend Cup 2024.png",
+                    "name": "Feng Zhuo-Jun",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "Endless",
+                {
+                    "age": "26",
+                    "alternate_names": [
+                        "Endless",
+                        "Trn"
+                    ],
+                    "country": "China",
+                    "display_name": "Endless",
+                    "image": "Endless.webp",
+                    "name": "Xu Hao",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Endless (Xu Hao)",
+                {
+                    "age": "26",
+                    "alternate_names": [
+                        "Endless (Xu Hao)",
+                        "Trn"
+                    ],
+                    "country": "China",
+                    "display_name": "Endless (Xu Hao)",
+                    "image": "",
+                    "name": "Xu Hao",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "HH (Lee Hyun-ho)",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "HH (Lee Hyun-ho)"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "HH (Lee Hyun-ho)",
+                    "image": "HH (Lee Hyun-ho).webp",
+                    "name": "Lee Hyun-ho",
+                    "residency": "Korea"
+                }
+            ],
+            [
+                "Luon",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "HH (Lee Hyun-ho)",
+                        "Luon"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Luon",
+                    "image": "",
+                    "name": "Lee Hyun-ho",
+                    "residency": "Korea"
+                }
+            ]
+        ],
+        [
+            [
+                "Alfred",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Alfred"
+                    ],
+                    "country": "Argentina",
+                    "display_name": "Alfred",
+                    "image": "Alfred.webp",
+                    "name": "Alfredo&amp;nbsp;Damian González",
+                    "residency": "Latin America"
+                }
+            ],
+            [
+                "Alfred (Alfredo González)",
+                {
+                    "age": "27",
+                    "alternate_names": [
+                        "Alfred (Alfredo González)"
+                    ],
+                    "country": "Argentina",
+                    "display_name": "Alfred (Alfredo González)",
+                    "image": "",
+                    "name": "Alfredo&amp;nbsp;Damian González",
+                    "residency": "Latin America"
+                }
+            ]
+        ],
+        [
+            [
+                "Sheep",
+                {
+                    "age": "31",
+                    "alternate_names": [
+                        "Sheep"
+                    ],
+                    "country": "Canada",
+                    "display_name": "Sheep",
+                    "image": "Sheep.webp",
+                    "name": "Jamie Gallagher",
+                    "residency": "North America"
+                }
+            ],
+            [
+                "Sheep (Jamie Gallagher)",
+                {
+                    "age": "32",
+                    "alternate_names": [
+                        "Sheep (Jamie Gallagher)"
+                    ],
+                    "country": "Canada",
+                    "display_name": "Sheep (Jamie Gallagher)",
+                    "image": "",
+                    "name": "Jamie Gallagher",
+                    "residency": "North America"
+                }
+            ]
+        ],
+        [
+            [
+                "Rise",
+                {
+                    "age": "21",
+                    "alternate_names": [
+                        "Rise"
+                    ],
+                    "country": "China",
+                    "display_name": "Rise",
+                    "image": "Rise.webp",
+                    "name": "Zhang Sheng",
+                    "residency": "China"
+                }
+            ],
+            [
+                "Rise (Zhang Sheng)",
+                {
+                    "age": "22",
+                    "alternate_names": [
+                        "Rise (Zhang Sheng)"
+                    ],
+                    "country": "China",
+                    "display_name": "Rise (Zhang Sheng)",
+                    "image": "",
+                    "name": "Zhang Sheng",
+                    "residency": "China"
+                }
+            ]
+        ],
+        [
+            [
+                "Crimson",
+                {
+                    "age": "29",
+                    "alternate_names": [
+                        "Crimson"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "Crimson",
+                    "image": "",
+                    "name": "Mert Koçak",
+                    "residency": "Turkey"
+                }
+            ],
+            [
+                "Crimson (Mert Koçak)",
+                {
+                    "age": "30",
+                    "alternate_names": [
+                        "Crimson (Mert Koçak)"
+                    ],
+                    "country": "Turkey",
+                    "display_name": "Crimson (Mert Koçak)",
+                    "image": "",
+                    "name": "Mert Koçak",
+                    "residency": "Turkey"
+                }
+            ]
+        ],
+        [
+            [
+                "Yume",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Yume"
+                    ],
+                    "country": "Philippines",
+                    "display_name": "Yume",
+                    "image": "Yume.webp",
+                    "name": "Danyll Jann Balisi",
+                    "residency": "SEA"
+                }
+            ],
+            [
+                "Yume (Danyll Jann Balisi)",
+                {
+                    "age": "",
+                    "alternate_names": [
+                        "Yume (Danyll Jann Balisi)"
+                    ],
+                    "country": "Philippines",
+                    "display_name": "Yume (Danyll Jann Balisi)",
+                    "image": "MSGP Yume.png",
+                    "name": "Danyll Jann Balisi",
+                    "residency": "SEA"
+                }
+            ]
+        ],
+        [
+            [
+                "Blessing",
+                {
+                    "age": "20",
+                    "alternate_names": [
+                        "Blessing"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Blessing",
+                    "image": "",
+                    "name": "Lee Jang-won",
+                    "residency": "Korea"
+                }
+            ],
+            [
+                "Dispel",
+                {
+                    "age": "20",
+                    "alternate_names": [
+                        "Blessing"
+                    ],
+                    "country": "South Korea",
+                    "display_name": "Dispel",
+                    "image": "",
+                    "name": "Lee Jang-won",
+                    "residency": "Korea"
+                }
+            ]
+        ]
+    ],
+    "modified": {
+        "007x": {
+            "age": "29"
+        },
+        "0909": {
+            "age": "21"
+        },
+        "1116": {
+            "residency": "Asia Pacific"
+        },
+        "113": {
+            "age": "20"
+        },
+        "1DarKNess": {
+            "age": "24"
+        },
+        "1Ground": {
+            "age": "26"
+        },
+        "1Jiang": {
+            "residency": "Asia Pacific"
+        },
+        "1mmeta1s": {
+            "age": "20"
+        },
+        "1ntruder": {
+            "age": "30"
+        },
+        "2188": {
+            "age": "27"
+        },
+        "228": {
+            "age": "34"
+        },
+        "369": {
+            "age": "23"
+        },
+        "665": {
+            "residency": "Asia Pacific"
+        },
+        "705": {
+            "age": "22"
+        },
+        "781": {
+            "residency": "Asia Pacific"
+        },
+        "957": {
+            "age": "31"
+        },
+        "997": {
+            "age": "27"
+        },
+        "A M U S E 4": {
+            "age": "29"
+        },
+        "ALth0r": {
+            "image": "Alth0r.jpg"
+        },
+        "AMEL": {
+            "age": "30"
+        },
+        "ATRemains": {
+            "age": "34",
+            "image": "GMB ATRemains 2018.jpg"
+        },
+        "Abbedagge": {
+            "age": "25"
+        },
+        "Absolut": {
+            "age": "25"
+        },
+        "Absolute (Batuhan Okta)": {
+            "age": "25"
+        },
+        "Abyss (Lin Po-Reng)": {
+            "age": "22",
+            "alternate_names": [
+                "Abyss (Lin Po-Reng)",
+                "Kai (Lin Yen-Kai)"
+            ]
+        },
+        "Acce": {
+            "age": "29"
+        },
+        "Accez": {
+            "age": "24"
+        },
+        "Acee": {
+            "residency": "Asia Pacific"
+        },
+        "Achie": {
+            "age": "32"
+        },
+        "Achuu": {
+            "age": "30"
+        },
+        "Ackerman (Aissa Ibrahim Aissa)": {
+            "residency": "None"
+        },
+        "Acorn": {
+            "age": "34"
+        },
+        "Adaniel": {
+            "image": "Adaniel.jpg"
+        },
+        "Adham": {
+            "age": "30",
+            "image": "Adhamside2.jpg"
+        },
+        "Adiogs": {
+            "age": "21"
+        },
+        "Advanze": {
+            "age": "26"
+        },
+        "Aegis (Gabriel Lemos)": {
+            "age": "25"
+        },
+        "AeonBlast": {
+            "age": "28"
+        },
+        "Agran": {
+            "age": "25"
+        },
+        "Agresivoo": {
+            "age": "25"
+        },
+        "Agrona": {
+            "residency": "Asia Pacific"
+        },
+        "Aiming": {
+            "age": "24"
+        },
+        "Airwaks": {
+            "age": "30"
+        },
+        "Aithusa": {
+            "age": "22"
+        },
+        "Aix": {
+            "age": "25"
+        },
+        "AkMu": {
+            "age": "31"
+        },
+        "Akeno": {
+            "age": "26"
+        },
+        "Akira (Wang Zu-Jing)": {
+            "age": "31"
+        },
+        "Aklass": {
+            "age": "23"
+        },
+        "Akokgt": {
+            "image": "FTT Akokgt.jpeg"
+        },
+        "Akunma": {
+            "age": "27"
+        },
+        "Aladoric": {
+            "age": "25",
+            "residency": "Asia Pacific"
+        },
+        "Ale": {
+            "age": "23"
+        },
+        "Ali G": {
+            "residency": "Asia Pacific"
+        },
+        "Alielie": {
+            "age": "22"
+        },
+        "Aligan": {
+            "age": "28"
+        },
+        "Alimo": {
+            "age": "26",
+            "image": "alimo.png"
+        },
+        "Aliop": {
+            "age": "25",
+            "image": "FTT Aliop.jpg"
+        },
+        "Alliance (Josue Lara)": {
+            "age": "28"
+        },
+        "Allorim": {
+            "age": "29"
+        },
+        "Alocs": {
+            "age": "35"
+        },
+        "Aloned": {
+            "name": "Tomás&amp;nbsp;Antonio Díaz Valiente"
+        },
+        "Alphen": {
+            "image": "OVM Lyesoo.png",
+            "residency": "None"
+        },
+        "Altar": {
+            "age": "31"
+        },
+        "Alunir": {
+            "age": "35"
+        },
+        "Alvaro (Álvaro Fernández)": {
+            "age": "21"
+        },
+        "Alvingo": {
+            "age": "32"
+        },
+        "Amazo": {
+            "age": "26"
+        },
+        "AnDa": {
+            "age": "29"
+        },
+        "Andil": {
+            "age": "22"
+        },
+        "Andre (Andre Culham)": {
+            "image": "NXL Andre 2018 Spring.jpg"
+        },
+        "Angel (Xiang Tao)": {
+            "age": "24"
+        },
+        "Angush": {
+            "age": "31",
+            "image": "AL Angush.jpg"
+        },
+        "Anjinho": {
+            "image": "deX Anjinho 2016SmPromo.jpg"
+        },
+        "Ankorr": {
+            "age": "27"
+        },
+        "Ankote": {
+            "age": "27"
+        },
+        "Anonpsycko": {
+            "age": "30"
+        },
+        "Antariys": {
+            "age": "28",
+            "image": "antariys ava red.jpg"
+        },
+        "Anthrax": {
+            "age": "27"
+        },
+        "Antogyn": {
+            "image": "NaViAntogyn.jpg"
+        },
+        "Aodi": {
+            "age": "24"
+        },
+        "Aomine": {
+            "age": "23"
+        },
+        "Aoshi": {
+            "age": "31"
+        },
+        "Aphromoo": {
+            "age": "32"
+        },
+        "Apollo (Apollo Price)": {
+            "age": "30"
+        },
+        "Appen": {
+            "age": "25",
+            "residency": "Turkey"
+        },
+        "Apple": {
+            "age": "31"
+        },
+        "Aprobata": {
+            "age": "27"
+        },
+        "Aquasonic": {
+            "age": "24"
+        },
+        "ArQuel": {
+            "age": "30",
+            "image": "arquel.jpg"
+        },
+        "ArTie": {
+            "alternate_names": [
+                "JoAzys"
+            ]
+        },
+        "Araneae": {
+            "age": "35"
+        },
+        "Arashi": {
+            "age": "25"
+        },
+        "Arce": {
+            "age": "31"
+        },
+        "Archie (Trần Minh Nhựt)": {
+            "age": "32",
+            "image": "TS Archie 2023 Split 1.png"
+        },
+        "Archie2b": {
+            "age": "31",
+            "image": "EPG Archie2b 2019 Split 2.png"
+        },
+        "Arding": {
+            "residency": "Asia Pacific"
+        },
+        "Aress": {
+            "age": "19"
+        },
+        "Arfoad": {
+            "age": "33"
+        },
+        "Arfyss": {
+            "age": "25",
+            "name": "Nicolás&amp;nbsp;López Valenzuela"
+        },
+        "Arise": {
+            "age": "23"
+        },
+        "Arkane": {
+            "image": "Flash Arkane TLC Singapore Spring Season 2017.png"
+        },
+        "Armao": {
+            "age": "26"
+        },
+        "Arora": {
+            "age": "28"
+        },
+        "Arphan": {
+            "image": "Arphan.png"
+        },
+        "ArrHedge": {
+            "image": "KLH ArrHedge 2018 Spring.png"
+        },
+        "Arrow": {
+            "age": "30"
+        },
+        "Art": {
+            "age": "26"
+        },
+        "Artifact": {
+            "age": "24"
+        },
+        "Arumik": {
+            "age": "28"
+        },
+        "As": {
+            "age": "24"
+        },
+        "Asta (Wyllian Adriano)": {
+            "age": "23"
+        },
+        "Astaa": {
+            "residency": "Asia Pacific"
+        },
+        "Astarte (Görkem Öztürk)": {
+            "image": "Astarte 0.jpg"
+        },
+        "Atlen": {
+            "age": "25"
+        },
+        "Austerity": {
+            "residency": "Asia Pacific"
+        },
+        "Aveng3r": {
+            "age": "23"
+        },
+        "Avenuee": {
+            "image": "Avenuee2.jpg"
+        },
+        "Awaremei": {
+            "age": "22"
+        },
+        "Awei (Zhao A-Wei)": {
+            "age": "28"
+        },
+        "Ayu (Andrey Saraiva)": {
+            "age": "19"
+        },
+        "Azingy": {
+            "age": "31"
+        },
+        "AzizYıldırım": {
+            "age": "20"
+        },
+        "Azure (Noel Christopher Cuadra)": {
+            "image": "XSW Azure.png"
+        },
+        "Azus": {
+            "residency": "Asia Pacific"
+        },
+        "BAO (Jeong Hyeon-woo)": {
+            "age": "23"
+        },
+        "BBT (Hwang Gyu-beom)": {
+            "age": "34"
+        },
+        "BBanG": {
+            "age": "26"
+        },
+        "BBuing": {
+            "age": "29"
+        },
+        "BEAN (Louis Schmitz)": {
+            "age": "24"
+        },
+        "BLonski": {
+            "age": "25"
+        },
+        "BOSS (Vladislav Fomin)": {
+            "age": "26"
+        },
+        "BOYINLUV": {
+            "age": "30"
+        },
+        "BaRoiBeo": {
+            "image": "FFQ Baroibeo 2018 Summer.png"
+        },
+        "Babip": {
+            "age": "26"
+        },
+        "Babo": {
+            "age": "29"
+        },
+        "Bademan": {
+            "age": "26"
+        },
+        "BaeKHo (Baek Seung-min)": {
+            "age": "23"
+        },
+        "Bakudanx": {
+            "age": "29"
+        },
+        "Balls": {
+            "age": "30"
+        },
+        "Bang": {
+            "age": "28"
+        },
+        "Baolan": {
+            "age": "25"
+        },
+        "BarbeQ": {
+            "image": "barbeq casters 2016.jpg"
+        },
+        "BarneyD": {
+            "age": "30",
+            "image": "2013-11-23 16.31.50.jpg"
+        },
+        "Baronpanda": {
+            "image": "Baronpanda.jpeg"
+        },
+        "BartonaR": {
+            "age": "23"
+        },
+        "Bat (Gao Jun)": {
+            "age": "21"
+        },
+        "Bat0n": {
+            "image": "PRD Baton 2019 Split 2.png"
+        },
+        "Baws": {
+            "age": "29"
+        },
+        "Bazu": {
+            "age": "27"
+        },
+        "BeBe (Chang Bo-Wei)": {
+            "age": "33"
+        },
+        "Beats": {
+            "residency": "Asia Pacific"
+        },
+        "Bebe (Friedrich Knaub)": {
+            "age": "30",
+            "image": "Bebede.jpg"
+        },
+        "Beeone": {
+            "image": "VK BeeOne 2018 Summer.png"
+        },
+        "Beichuan": {
+            "age": "23"
+        },
+        "Bel": {
+            "residency": "None"
+        },
+        "Belgianbeast": {
+            "age": "30",
+            "image": "2013-11-23 16.34.16.jpg"
+        },
+        "Bendix": {
+            "age": "23"
+        },
+        "Benny (Lien Hsiu-Chi)": {
+            "age": "26"
+        },
+        "Berkan": {
+            "age": "23"
+        },
+        "Berserker (Kim Min-cheol)": {
+            "age": "21"
+        },
+        "BetaTwinz": {
+            "age": "27"
+        },
+        "Betsy": {
+            "age": "27"
+        },
+        "Beware": {
+            "age": "26"
+        },
+        "Beyond (Kim Kyu-seok)": {
+            "age": "27"
+        },
+        "Beyond (Trương Vĩnh Thanh)": {
+            "age": "27",
+            "image": "EVS Beyond 2018 Summer.png"
+        },
+        "BigJazz": {
+            "image": "TLCM BigJazz 2017.jpg"
+        },
+        "Bigfatlp": {
+            "age": "34"
+        },
+        "Biggi": {
+            "age": "21",
+            "name": "Lê Đình Tấn"
+        },
+        "Bigkoro": {
+            "age": "25"
+        },
+        "Bin (Chen Ze-Bin)": {
+            "age": "21"
+        },
+        "Bing (Feng Jin-Wei)": {
+            "age": "30"
+        },
+        "Bini": {
+            "age": "23"
+        },
+        "BioPanther": {
+            "residency": "Asia Pacific"
+        },
+        "Biofrost": {
+            "age": "28"
+        },
+        "Bischu": {
+            "age": "30"
+        },
+        "Bismal": {
+            "age": "30"
+        },
+        "Bit1": {
+            "age": "34",
+            "image": "nexibit1.jpg"
+        },
+        "BitByte": {
+            "image": "Bitbyte.jpg"
+        },
+        "Biubiu": {
+            "age": "25"
+        },
+        "BlackLotus": {
+            "age": "31"
+        },
+        "Blanc (Jin Seong-min)": {
+            "age": "29"
+        },
+        "Blasting": {
+            "image": "M19 Blasting 2019 Split 1.png"
+        },
+        "BloodFenix": {
+            "age": "26",
+            "image": "GMB BloodFenix.png"
+        },
+        "Blury": {
+            "age": "30",
+            "image": "IDM blury 2017 Winter.png"
+        },
+        "Bobbyhankhill": {
+            "age": "32"
+        },
+        "Bomb": {
+            "age": "30"
+        },
+        "Bong (Cho Bo-woong)": {
+            "age": "23"
+        },
+        "Bonquish": {
+            "age": "31"
+        },
+        "BonziN": {
+            "age": "34"
+        },
+        "Boong": {
+            "age": "29",
+            "image": "CR Boong 2018 Spring.png"
+        },
+        "Brandini": {
+            "age": "27"
+        },
+        "Brave": {
+            "age": "24"
+        },
+        "Brayaron": {
+            "age": "23"
+        },
+        "Breeze": {
+            "age": "27"
+        },
+        "Breezy": {
+            "age": "25"
+        },
+        "Brian": {
+            "residency": "SEA"
+        },
+        "BroTher": {
+            "image": "HKS BroTher 2017 Winter.png"
+        },
+        "Brokenshard": {
+            "age": "31"
+        },
+        "Brolia": {
+            "age": "27"
+        },
+        "Broooock": {
+            "age": "26"
+        },
+        "Broxah": {
+            "age": "27"
+        },
+        "BruNo (Bruno Oliveira)": {
+            "age": "29",
+            "image": "KBO BruNo CBLOL2015.jpg"
+        },
+        "Bruce": {
+            "age": "26",
+            "residency": "Asia Pacific"
+        },
+        "Buggax": {
+            "age": "26"
+        },
+        "Bugi": {
+            "age": "26"
+        },
+        "Bull": {
+            "age": "21"
+        },
+        "Bulldawg": {
+            "residency": "Asia Pacific"
+        },
+        "Bunny FuFuu": {
+            "age": "28"
+        },
+        "Bunzz": {
+            "age": "22"
+        },
+        "Burst (Jhaymar Garay)": {
+            "image": "TNC Burst 2018 Spring.png"
+        },
+        "But1": {
+            "age": "24"
+        },
+        "CCB": {
+            "image": "Log F CCB.jpg"
+        },
+        "CED": {
+            "image": "MSGP Ced.png"
+        },
+        "CHARMANDERBOT": {
+            "age": "27",
+            "image": "Charmander.jpg"
+        },
+        "CHP": {
+            "image": "VgaCHP.png"
+        },
+        "CJJ": {
+            "age": "25"
+        },
+        "CL0UD": {
+            "age": "30"
+        },
+        "CO4": {
+            "image": "KLH CO4 2017 Spring.png"
+        },
+        "Cacon": {
+            "age": "23",
+            "image": "EVS Cacon.png"
+        },
+        "Callme": {
+            "age": "21"
+        },
+        "Camana": {
+            "age": "22"
+        },
+        "Camilonicolau": {
+            "age": "22"
+        },
+        "CandyPanda": {
+            "age": "31"
+        },
+        "Canyon": {
+            "age": "23"
+        },
+        "Captain (Sun Yu-Ze)": {
+            "alternate_names": [
+                "Captain (Sun Yu-Ze)",
+                "Captain57",
+                "Syz (Sun Yu-Ze)",
+                "Xing (Sun Yu-Ze)"
+            ]
+        },
+        "Carbon": {
+            "image": "LGC Carbon 2018 Spring.png"
+        },
+        "Cardrid": {
+            "image": "Legacy Cardrid.png"
+        },
+        "Career": {
+            "age": "20"
+        },
+        "Casper (Ahmad Al Zaben)": {
+            "age": "25",
+            "image": "NASR Casper 2019.jpg"
+        },
+        "Cat (Wu Yao)": {
+            "age": "29"
+        },
+        "Cboi": {
+            "age": "26"
+        },
+        "Celaver": {
+            "age": "31"
+        },
+        "Celo": {
+            "age": "24"
+        },
+        "Ceos": {
+            "age": "26"
+        },
+        "Cepted": {
+            "age": "27"
+        },
+        "Cha9": {
+            "residency": "Asia Pacific"
+        },
+        "Chad": {
+            "age": "23"
+        },
+        "Champi14": {
+            "age": "27",
+            "image": "LVPChampi14.jpg"
+        },
+        "Chance (Pei Piao)": {
+            "age": "25"
+        },
+        "Chaox": {
+            "age": "33"
+        },
+        "Charley": {
+            "residency": "Asia Pacific"
+        },
+        "Chaser": {
+            "age": "29"
+        },
+        "Chavoso": {
+            "image": "HKS Chavoso 2017 Winter.png"
+        },
+        "Chayon": {
+            "age": "24"
+        },
+        "Chazz": {
+            "age": "26",
+            "residency": "Asia Pacific"
+        },
+        "Cheese": {
+            "age": "31"
+        },
+        "Chei": {
+            "age": "28"
+        },
+        "Chel1y": {
+            "age": "26"
+        },
+        "Chengzi": {
+            "age": "29"
+        },
+        "Chexster": {
+            "image": "Chexster Stage.jpg"
+        },
+        "Chieh": {
+            "age": "32"
+        },
+        "Chips (Fabien Culié)": {
+            "image": "chips.jpg"
+        },
+        "Chock": {
+            "image": "Chock.jpg"
+        },
+        "Chomi": {
+            "age": "25"
+        },
+        "ChosenOne": {
+            "image": "ChosenOne.jpg"
+        },
+        "Choura": {
+            "residency": "None"
+        },
+        "ChuffeR": {
+            "image": "DIW ChuffeR.jpg"
+        },
+        "ChumpJohn": {
+            "age": "33"
+        },
+        "Chungy": {
+            "residency": "Asia Pacific"
+        },
+        "Chunkyfresh": {
+            "age": "28"
+        },
+        "Chupper": {
+            "image": "EVOS Chupper.jpg"
+        },
+        "Chuuper": {
+            "age": "33"
+        },
+        "Ciel (Trần Tiến Thịnh)": {
+            "image": "TW Ciel 2023 Split 1.png"
+        },
+        "Ciela": {
+            "image": "Flash Ciela TLC Singapore Spring Season 2017.png"
+        },
+        "Cinkrof": {
+            "age": "27"
+        },
+        "CitizenWayne": {
+            "image": "acercitizen.jpg"
+        },
+        "Claire": {
+            "age": "27"
+        },
+        "ClakeyD": {
+            "age": "35"
+        },
+        "Clatos": {
+            "age": "33"
+        },
+        "Clayx": {
+            "residency": "Asia Pacific"
+        },
+        "Clear (Trịnh Ngọc Anh Tuấn)": {
+            "image": "CR Clear 2018 Spring.png"
+        },
+        "Clearlove": {
+            "age": "31"
+        },
+        "Clid": {
+            "age": "25"
+        },
+        "Cliff": {
+            "image": "ATN cliff.jpg"
+        },
+        "Clockday": {
+            "age": "32"
+        },
+        "Closer (Can Çelik)": {
+            "age": "26"
+        },
+        "Clowz": {
+            "age": "27"
+        },
+        "Clozer": {
+            "age": "21"
+        },
+        "Coldraa": {
+            "age": "22"
+        },
+        "Comet": {
+            "age": "33"
+        },
+        "Contractz": {
+            "age": "25"
+        },
+        "CooCooDai": {
+            "image": "NGU CooCooDai.jpg"
+        },
+        "CooN": {
+            "age": "29"
+        },
+        "Cool": {
+            "age": "30"
+        },
+        "CoolG": {
+            "image": "Smoker.jpg"
+        },
+        "Coool": {
+            "image": "Coool Team Yeit.jpg"
+        },
+        "Cop": {
+            "age": "32"
+        },
+        "CorGi": {
+            "age": "31"
+        },
+        "CoreJJ": {
+            "age": "30"
+        },
+        "Corgi (Leung Ka Kin)": {
+            "age": "25"
+        },
+        "Cornsalad": {
+            "image": "LGcornsalad.jpg"
+        },
+        "Corporal": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Cover": {
+            "age": "25"
+        },
+        "CowardlyDog": {
+            "image": "DoR ArJuan.jpg"
+        },
+        "Coyote (Phạm Quốc Bình)": {
+            "image": "Evscoyote.png"
+        },
+        "CozQ": {
+            "image": "OHM CozQ 2018 Split 2.png"
+        },
+        "Cpt Coldstar": {
+            "image": "Cpt Coldstar 2017.png"
+        },
+        "CrankO": {
+            "residency": "None"
+        },
+        "Crazy (Kim Jae-hee)": {
+            "age": "28"
+        },
+        "CrazyPine": {
+            "image": "ISG CrazyPine 2014 Spring.png"
+        },
+        "Crazycaps": {
+            "image": "LD Crazycaps.jpg",
+            "residency": "Europe"
+        },
+        "Cream": {
+            "age": "27"
+        },
+        "Cresho": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Crisis": {
+            "age": "27"
+        },
+        "Crisp": {
+            "age": "26"
+        },
+        "Crumple": {
+            "age": "24"
+        },
+        "Cruzher": {
+            "image": "HH Cruzher 2018 Spring.jpg"
+        },
+        "Cryscata": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Crystal": {
+            "residency": "EMEA"
+        },
+        "CuVee": {
+            "age": "28"
+        },
+        "Cube (Dai Yi)": {
+            "age": "22"
+        },
+        "Cube (Kim Chang-seong)": {
+            "age": "28"
+        },
+        "Curtis": {
+            "image": "DIW Sharp.jpg"
+        },
+        "CvMax": {
+            "age": "34"
+        },
+        "Cyanide": {
+            "residency": "Europe"
+        },
+        "DDan": {
+            "image": "SGS DDan.jpg"
+        },
+        "DO IT": {
+            "age": "27"
+        },
+        "DRAEK": {
+            "image": "CNB DRAEK.png"
+        },
+        "Da7": {
+            "age": "35"
+        },
+        "DaJeung": {
+            "residency": "Asia Pacific"
+        },
+        "DaKrai": {
+            "age": "26"
+        },
+        "Daiky": {
+            "age": "21"
+        },
+        "DalKa": {
+            "age": "27"
+        },
+        "Damage": {
+            "age": "27"
+        },
+        "Dan (Daniel Hockley)": {
+            "age": "28"
+        },
+        "Dan (Kim Seung-hoo)": {
+            "age": "29"
+        },
+        "Dan Dan": {
+            "age": "29"
+        },
+        "Danagorn": {
+            "image": "TSW Danagorn 2017 Winter.png"
+        },
+        "Danger": {
+            "image": "GT Danger.jpg"
+        },
+        "Dani": {
+            "image": "Phillex.PNG"
+        },
+        "Dans": {
+            "image": "KBM dans 2016 Summer.png"
+        },
+        "Dantal": {
+            "age": "27"
+        },
+        "Dante (Ammar Shihab)": {
+            "age": "30",
+            "image": "FTT Dante.jpg"
+        },
+        "Danteh": {
+            "residency": "Asia Pacific"
+        },
+        "Danz0r": {
+            "age": "28",
+            "image": "RDP danz0r 2019 Split 1.png"
+        },
+        "Dara": {
+            "age": "29"
+        },
+        "Dark Solece": {
+            "image": "VVT Dark Solece 2018 Split 2.png"
+        },
+        "DarkSide": {
+            "image": "CLK DarkSide 2017 Summer.png"
+        },
+        "Darkblight": {
+            "age": "30"
+        },
+        "Darker": {
+            "image": "DarkerNewPicture.jpg"
+        },
+        "Darlik": {
+            "age": "27"
+        },
+        "Darrys": {
+            "age": "26",
+            "image": "Darry.png"
+        },
+        "DasheR": {
+            "age": "26"
+        },
+        "Dattura": {
+            "age": "27",
+            "image": "ANB Dattura 2019.png"
+        },
+        "Dawn (Kyle Leird Somera)": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Dax": {
+            "image": "dax.jpg"
+        },
+        "DayDream": {
+            "age": "29"
+        },
+        "Dayruin": {
+            "image": "VAE dayruin 2019 Spring.jpg"
+        },
+        "Daystar": {
+            "age": "21"
+        },
+        "DeadlyBrother": {
+            "age": "31",
+            "image": "S3 DeadlyBrother.jpg"
+        },
+        "Deant": {
+            "age": "21",
+            "residency": "Asia Pacific"
+        },
+        "Deceit": {
+            "age": "27"
+        },
+        "Dedrayon": {
+            "image": "cutededrayon.jpg"
+        },
+        "Deficio": {
+            "age": "33"
+        },
+        "Delight": {
+            "age": "22"
+        },
+        "Dellal": {
+            "age": "22"
+        },
+        "Demon (Richard Lara)": {
+            "image": "TNC Demon 2018 Spring.png"
+        },
+        "Demon (Tsai Tung-Jung)": {
+            "image": "EMD Demon.jpg"
+        },
+        "Demy": {
+            "age": "23"
+        },
+        "Denden": {
+            "image": "Denden.jpg"
+        },
+        "Dennis": {
+            "age": "30"
+        },
+        "Destiny (Mitchell Shaw)": {
+            "residency": "Asia Pacific"
+        },
+        "Destruction": {
+            "image": "dev.jpg"
+        },
+        "Desyah": {
+            "age": "35",
+            "image": "Desyah profile.jpg"
+        },
+        "DeuL": {
+            "age": "30"
+        },
+        "Dgc": {
+            "age": "37",
+            "image": "Dgc.jpg"
+        },
+        "Dhokla": {
+            "age": "27"
+        },
+        "Diablo (Mohammed Kareem)": {
+            "image": "FTT Diablo.jpg"
+        },
+        "Dian": {
+            "age": "28"
+        },
+        "Digolera": {
+            "image": "Digolera.jpg"
+        },
+        "Diima": {
+            "residency": "None"
+        },
+        "Dimitry": {
+            "age": "22"
+        },
+        "Diplex": {
+            "age": "21"
+        },
+        "Direnc": {
+            "age": "23"
+        },
+        "Disamis": {
+            "age": "21",
+            "name": "Pedro&amp;nbsp;Arthur Gonçalves"
+        },
+        "DiscotEkka": {
+            "image": "VEG DiscotEkka 2019 Split 2.png"
+        },
+        "Divkid": {
+            "age": "23"
+        },
+        "Dizya": {
+            "age": "27",
+            "image": "Comache Spring 2018 Dizzy.png"
+        },
+        "Djoko (Thiago Maia)": {
+            "age": "31"
+        },
+        "DkBnet": {
+            "age": "31"
+        },
+        "DnDn": {
+            "age": "21"
+        },
+        "DoG8": {
+            "residency": "Asia Pacific"
+        },
+        "DoeDoii": {
+            "residency": "Asia Pacific"
+        },
+        "Doggo": {
+            "residency": "Asia Pacific"
+        },
+        "Doigby": {
+            "image": "Mdoigby.jpg"
+        },
+        "Doil": {
+            "age": "26"
+        },
+        "DomhoX": {
+            "image": "EP.HK DomhoX.png"
+        },
+        "Donmuri": {
+            "image": "donmuri.jpg"
+        },
+        "Doraemon (Joshua Wong)": {
+            "residency": "Asia Pacific"
+        },
+        "Doran (Choi Hyeon-joon)": {
+            "age": "24"
+        },
+        "Doris": {
+            "age": "32",
+            "image": "TrickedEsportsDoris.jpg"
+        },
+        "Dosa": {
+            "age": "21"
+        },
+        "DoubleAiM": {
+            "age": "28"
+        },
+        "Doublelift": {
+            "age": "31"
+        },
+        "Dove": {
+            "age": "26"
+        },
+        "DrTrevor": {
+            "image": "DrTrevor.jpg"
+        },
+        "Dragku": {
+            "residency": "Asia Pacific"
+        },
+        "Drakehero": {
+            "age": "21"
+        },
+        "Dread (Lee Jin-hyeok)": {
+            "age": "24"
+        },
+        "Dream (Richard Chew)": {
+            "image": "TFR SnipeRC.jpg"
+        },
+        "Dream (Tan Wen-Xiang)": {
+            "age": "22"
+        },
+        "Dreampull": {
+            "image": "GMB Dreampullka 2021 Split 1.png"
+        },
+        "Dresscode": {
+            "residency": "Asia Pacific"
+        },
+        "Driver": {
+            "residency": "Asia Pacific"
+        },
+        "Drobovik123": {
+            "image": "EPG Drobovik123 2018 Split 2.png"
+        },
+        "Drop (Matheus Herdy)": {
+            "age": "25"
+        },
+        "Dshao": {
+            "age": "30"
+        },
+        "Duclou": {
+            "age": "26"
+        },
+        "Duff": {
+            "image": "Spider.Dull.jpg"
+        },
+        "DukeAly": {
+            "image": "DukeAly.jpeg"
+        },
+        "DxAlchemist": {
+            "image": "Dxalchemist.jpg"
+        },
+        "Dye": {
+            "age": "31"
+        },
+        "EGO (Nguyễn Khánh Hòa)": {
+            "age": ""
+        },
+        "EGym": {
+            "image": "CHIEFS EGym  2017 Spring.png"
+        },
+        "EHopp": {
+            "residency": "Asia Pacific"
+        },
+        "EL (Jeon Seong-hyeon)": {
+            "age": "22"
+        },
+        "ERot1c": {
+            "image": "Erot1c.jpg"
+        },
+        "Ease": {
+            "image": "TCH Ease.jpg"
+        },
+        "Eason": {
+            "age": "26"
+        },
+        "Easy (Ni Jia-An)": {
+            "image": "EasyCN.jpg"
+        },
+        "Ebaaan": {
+            "image": "WGD Ebaaan.png"
+        },
+        "Ecco": {
+            "age": "33"
+        },
+        "Econatorz": {
+            "age": "30",
+            "image": "Econatorz.jpg"
+        },
+        "Eddie": {
+            "age": "21"
+        },
+        "Edition": {
+            "image": "Edition Legacy.jpg"
+        },
+        "Eika": {
+            "age": "28"
+        },
+        "Ekd": {
+            "image": "Ekd.png"
+        },
+        "Electro (Lucas Dal Prá)": {
+            "image": "CNB Electro.png"
+        },
+        "Element": {
+            "age": "29",
+            "image": "KMV element CLS Clausura 2016.png"
+        },
+        "Elendix": {
+            "age": "32",
+            "image": "Elendix1.jpg"
+        },
+        "EliWood": {
+            "age": "26"
+        },
+        "Elk": {
+            "age": "23"
+        },
+        "Ellam": {
+            "age": "24"
+        },
+        "Ellim": {
+            "age": "24"
+        },
+        "Elwind": {
+            "residency": "EMEA"
+        },
+        "Elysia": {
+            "image": "iMElysia.png"
+        },
+        "Emo": {
+            "age": "19"
+        },
+        "Emp": {
+            "age": "28"
+        },
+        "Emperor (Kim Jin-hyun)": {
+            "age": "31"
+        },
+        "Empt2y": {
+            "age": "27"
+        },
+        "Ender (Christy Frierson)": {
+            "image": "LEC Ender 2020.png"
+        },
+        "Ender (Liao Chan-Chin)": {
+            "image": "Machi Ender.jpg"
+        },
+        "EndlessACE": {
+            "image": "TNC EndlessACE 2017.jpg"
+        },
+        "Endz": {
+            "age": "26"
+        },
+        "Enso": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Entenzwerg": {
+            "image": "Entenzwerg PkD 2015.png"
+        },
+        "Enty": {
+            "age": "27"
+        },
+        "Envy (Bruno Farias)": {
+            "age": "26"
+        },
+        "Eolian": {
+            "image": "OVM Eolian.png"
+        },
+        "Epic": {
+            "age": "26"
+        },
+        "Equivocal": {
+            "age": "31",
+            "image": "AL eq.jpg‎"
+        },
+        "Erasus": {
+            "age": "24"
+        },
+        "Erdote": {
+            "age": "25"
+        },
+        "Eric (He Qiang)": {
+            "age": "23"
+        },
+        "Eryu": {
+            "age": "24"
+        },
+        "Espeon": {
+            "image": "KBB Espeon CBLOL2015.jpg"
+        },
+        "Ethan (Ethan Amatong)": {
+            "image": "WGD Ethan.png"
+        },
+        "Eugeo": {
+            "residency": "Asia Pacific"
+        },
+        "Evenstar": {
+            "image": "YC Evenstar 2018 Split 2.png"
+        },
+        "Exakick": {
+            "age": "21"
+        },
+        "Exanou": {
+            "age": "27"
+        },
+        "Exo (Trần Quang Hậu)": {
+            "image": "SGM-Exo.png"
+        },
+        "Expect": {
+            "age": "28"
+        },
+        "Expession": {
+            "age": "32"
+        },
+        "Exyzxz": {
+            "age": "25"
+        },
+        "Eyla": {
+            "age": "25"
+        },
+        "EzPrince": {
+            "image": "OPK EzPrince.jpg"
+        },
+        "FATE (Yoo Su-hyeok)": {
+            "age": "24"
+        },
+        "FEBIVEN": {
+            "age": "28"
+        },
+        "FIRees": {
+            "image": "GMB FIRees 2017 Spring.jpg"
+        },
+        "FLahm": {
+            "image": "Flahm.jpg"
+        },
+        "FNb": {
+            "name": "Francisco&amp;nbsp;Natanael Braz do Espirito Santo Miranda"
+        },
+        "FORG1VEN": {
+            "age": "32"
+        },
+        "Faaa": {
+            "image": "PRS Faaa 2015.png"
+        },
+        "Fafnyr": {
+            "image": "BG Fafnyr 2016SmPromo.jpg"
+        },
+        "Fai (Cheng Hiu Fai)": {
+            "image": "Fai.jpg"
+        },
+        "Faith (Sit Chong Fai)": {
+            "age": "23"
+        },
+        "FakeGod": {
+            "age": "24"
+        },
+        "Fallen (Viktor Kordanovski)": {
+            "age": "26"
+        },
+        "FallenBandit": {
+            "age": "28"
+        },
+        "Farfain": {
+            "image": "TCM Farfain.jpg"
+        },
+        "Farfetch": {
+            "age": "26"
+        },
+        "FastDragon": {
+            "image": "2017 Heretics FastDragon.png"
+        },
+        "Fastlegged": {
+            "age": "24"
+        },
+        "FatMamma": {
+            "age": "34",
+            "image": "Millenium FatMamma.png"
+        },
+        "Fdy": {
+            "age": "25"
+        },
+        "Feather": {
+            "age": "21"
+        },
+        "Feikun": {
+            "age": "25"
+        },
+        "Feitan": {
+            "age": "26"
+        },
+        "Fenfen": {
+            "age": "26"
+        },
+        "Feng (Chen Chun-Feng)": {
+            "age": "21",
+            "residency": "Asia Pacific"
+        },
+        "Feng (Jose Ricalday)": {
+            "age": "26"
+        },
+        "Ferchu": {
+            "age": "26",
+            "image": "WP Ferchu.jpg"
+        },
+        "Finn": {
+            "age": "25"
+        },
+        "Fire": {
+            "age": "34",
+            "image": "UNITED Fire.jpg"
+        },
+        "Fireloli": {
+            "age": "28"
+        },
+        "Fisch": {
+            "image": "ATN Fisch.jpg"
+        },
+        "Fiseyin": {
+            "image": "GAL Fiseyin 2018 Winter.png"
+        },
+        "Fisher (Lee Jeong-tae)": {
+            "age": "20"
+        },
+        "FitterHappier": {
+            "age": "33"
+        },
+        "FizzCanCarry": {
+            "image": "FizzCanCarry.jpg"
+        },
+        "Flakked": {
+            "name": "Víctor Lirola Tortosa"
+        },
+        "Flame": {
+            "age": "32"
+        },
+        "Flandre": {
+            "age": "26"
+        },
+        "Flappy Bearfish": {
+            "image": "Flappy Bearfish.png"
+        },
+        "Flare (Luiz Felipe Lobo)": {
+            "age": "23"
+        },
+        "FlashInTheNight": {
+            "image": "CIS FlashInTheNight 2018 AS.png"
+        },
+        "Flawless": {
+            "age": "26"
+        },
+        "Floda": {
+            "image": "ISR Floda.jpg"
+        },
+        "Floppy": {
+            "residency": "Asia Pacific"
+        },
+        "FoFo": {
+            "residency": "Asia Pacific"
+        },
+        "Focus": {
+            "age": "23"
+        },
+        "Fomko": {
+            "image": "TJ Fomko 2019 Split 1.png"
+        },
+        "Foo sharp": {
+            "image": "mouz foo.jpg"
+        },
+        "Foreigner": {
+            "residency": "Asia Pacific"
+        },
+        "ForellenLord": {
+            "age": "30"
+        },
+        "Forge": {
+            "age": "24"
+        },
+        "Forsaken (Zhang Qiang)": {
+            "image": "LNGA Zqzq 2019 Split 2.png"
+        },
+        "Fox (Hampus Myhre)": {
+            "age": "29"
+        },
+        "FoxYa": {
+            "image": "Machi FoxYa.png"
+        },
+        "Fr0m 0 2 Her0": {
+            "image": "RAAD Fr0m 0 2 Her0.jpg"
+        },
+        "Fr3deric": {
+            "age": "30"
+        },
+        "FraGio": {
+            "age": "31"
+        },
+        "Freeze": {
+            "age": "30"
+        },
+        "Fresita": {
+            "age": "34"
+        },
+        "Frog (Lee Min-hoi)": {
+            "age": "19"
+        },
+        "Frolic": {
+            "image": "MKZ junegi.jpg"
+        },
+        "Frosts": {
+            "residency": "Asia Pacific"
+        },
+        "Froststrike": {
+            "age": "27"
+        },
+        "Frostyy": {
+            "name": "José&amp;nbsp;Eduardo Leal Pacheco"
+        },
+        "Fudge": {
+            "age": "22"
+        },
+        "Fujimoto": {
+            "residency": "Asia Pacific"
+        },
+        "Funny": {
+            "age": "26",
+            "image": "LGD Funny 2017 Spring.png"
+        },
+        "Fury (Phạm Xuân Tiến)": {
+            "image": "FL Fury.jpg"
+        },
+        "Fuuu": {
+            "age": "21"
+        },
+        "G0DFRED": {
+            "image": "GIA Godfred 2016 Spring.png"
+        },
+        "G1ft": {
+            "age": "25"
+        },
+        "GAP": {
+            "age": "28"
+        },
+        "GBM": {
+            "age": "30"
+        },
+        "GDeveloper": {
+            "image": "SS gDeveloper.jpg"
+        },
+        "GIDEON": {
+            "age": "21"
+        },
+        "Gaaloul": {
+            "age": "25"
+        },
+        "Gadget": {
+            "age": "25"
+        },
+        "Gaeng": {
+            "age": "28",
+            "residency": "Asia Pacific"
+        },
+        "Gangboong": {
+            "age": "23"
+        },
+        "Gango": {
+            "age": "27"
+        },
+        "GankZero": {
+            "age": "30"
+        },
+        "Garden": {
+            "age": "26"
+        },
+        "Gari": {
+            "image": "Gari Pathos 2016.png"
+        },
+        "Garnet": {
+            "image": "NeL Garnet.jpg"
+        },
+        "Gemini": {
+            "age": "26"
+        },
+        "Gemp": {
+            "age": "28",
+            "image": "Gemp.png"
+        },
+        "Gengar": {
+            "age": "27"
+        },
+        "Genja": {
+            "age": "36"
+        },
+        "Geogeo": {
+            "age": "31",
+            "image": "LoL geogeo1.jpg"
+        },
+        "Get Snuggled": {
+            "image": "Get Snuggled.jpg"
+        },
+        "Ggoni": {
+            "image": "Hippo ggoni.gif"
+        },
+        "Ggoong": {
+            "age": "31"
+        },
+        "Ghoztzero": {
+            "age": "30"
+        },
+        "Gibo": {
+            "age": "43"
+        },
+        "Gigante": {
+            "image": "awp Gigante.jpg"
+        },
+        "GoB": {
+            "image": "EU GoB 2018 AS.png"
+        },
+        "GoDyungi": {
+            "image": "Milk-holic.png"
+        },
+        "GodFather": {
+            "image": "NeL GodFather.jpg"
+        },
+        "GodJJ": {
+            "age": "30"
+        },
+        "GodKwai": {
+            "age": "27"
+        },
+        "GodV (Wei Zhen)": {
+            "age": "27",
+            "image": "LGD GodV 2017 Summer.png"
+        },
+        "Godshu": {
+            "image": "Godshu.jpg"
+        },
+        "Godtone": {
+            "age": "36",
+            "residency": "Asia Pacific"
+        },
+        "Gogoing": {
+            "age": "33"
+        },
+        "Goku": {
+            "age": "28"
+        },
+        "Gony": {
+            "image": "SAJ Gony.jpg"
+        },
+        "Gooby (Jason Nguyen)": {
+            "residency": "Asia Pacific"
+        },
+        "Goot": {
+            "name": "Gabriel Goot da Luz"
+        },
+        "Gori": {
+            "age": "24"
+        },
+        "Gov": {
+            "image": "NXL Gov 2018 Spring.jpg"
+        },
+        "Grail": {
+            "age": "28"
+        },
+        "Grevthar": {
+            "age": "25",
+            "name": "Daniel&amp;nbsp;Xavier Ferreira"
+        },
+        "Griffin (Raymond Griffin)": {
+            "age": "27"
+        },
+        "Grizzly": {
+            "age": "19"
+        },
+        "Grom": {
+            "image": "Cplgrom.jpg"
+        },
+        "Grosse": {
+            "image": "Grosse.jpg"
+        },
+        "Grèédy (Mohammad Abdulaziz)": {
+            "image": "Grèédy.PNG"
+        },
+        "Guardsman Bob": {
+            "age": "39",
+            "image": "Gmanbob3.png"
+        },
+        "Guigs": {
+            "age": "25"
+        },
+        "Guilford": {
+            "image": "CAP Guilford 2018 Split 2.png"
+        },
+        "Gumbeq": {
+            "image": "Gumbeq EPG Spring 2018.png"
+        },
+        "Gunkrab": {
+            "residency": "Asia Pacific"
+        },
+        "Gunza": {
+            "image": "GunzaCJB2014.png"
+        },
+        "Guoguo": {
+            "age": "25"
+        },
+        "GuruCat": {
+            "image": "EDP GuruCat.jpg"
+        },
+        "Gyeong": {
+            "age": "25"
+        },
+        "Gynsingg": {
+            "age": "35"
+        },
+        "H0R0": {
+            "age": "28"
+        },
+        "H3": {
+            "age": "24"
+        },
+        "HOYA": {
+            "age": "24"
+        },
+        "HW4NG": {
+            "age": "33"
+        },
+        "HaRleLuYaR": {
+            "age": "29",
+            "image": "IGL Harleluyar.png"
+        },
+        "Habom": {
+            "image": "Habom Image.jpeg"
+        },
+        "Hagane": {
+            "age": "32",
+            "image": "hagane.jpg"
+        },
+        "Hai": {
+            "age": "32"
+        },
+        "Halpern": {
+            "age": "32",
+            "image": "Halpern 2.jpg"
+        },
+        "HamBak": {
+            "age": "22"
+        },
+        "Han (Ma Han-suk)": {
+            "image": "ISL Han.jpg"
+        },
+        "HanJi": {
+            "image": "HanJi.jpg"
+        },
+        "HanShao": {
+            "image": "HanShao.jpg"
+        },
+        "HanYiAn": {
+            "age": "26"
+        },
+        "Hanabi (Su Chia-Hsiang)": {
+            "age": "24"
+        },
+        "Hani": {
+            "age": "24"
+        },
+        "Hanor": {
+            "age": "25"
+        },
+        "Hans Sama": {
+            "age": "25"
+        },
+        "Harder": {
+            "age": "21"
+        },
+        "Hardstyle": {
+            "residency": "Asia Pacific"
+        },
+        "Hari": {
+            "image": "CR Hari 2018 Summer.png"
+        },
+        "Harib": {
+            "age": "31",
+            "image": "Dream.png"
+        },
+        "Harky": {
+            "age": "19"
+        },
+        "Haro": {
+            "age": "26"
+        },
+        "Harp": {
+            "age": "23"
+        },
+        "Haru": {
+            "age": "26"
+        },
+        "Harvey (Đàm Quang Huy)": {
+            "age": "22"
+        },
+        "Hashiqi": {
+            "age": "28"
+        },
+        "Hatred (Zherluck Tolentino)": {
+            "image": "IPT Hatred 2014 Spring.jpeg"
+        },
+        "Hauntzer": {
+            "age": "29"
+        },
+        "HawkDon": {
+            "image": "HawkDon TPS.png"
+        },
+        "Haydal": {
+            "image": "Haydalrazer2.jpg"
+        },
+        "Hazard": {
+            "age": "27"
+        },
+        "Haze (Arrell Nulud)": {
+            "image": "TNC Haze Summer Season.png"
+        },
+        "Heavenz": {
+            "image": "iMHeavenz.jpg"
+        },
+        "Helios (Shin Dong-jin)": {
+            "age": "31"
+        },
+        "Helios (Trịnh Mạnh Hà)": {
+            "image": "EVS Helios.png"
+        },
+        "Helios (Yuen Hei Hiun)": {
+            "image": "EP Ana2k.jpg"
+        },
+        "HellMa": {
+            "image": "VAE HellMa 2019 Split 2.png"
+        },
+        "Helo": {
+            "age": "24"
+        },
+        "Heng": {
+            "age": "23"
+        },
+        "Henry (Henry Reynard)": {
+            "image": "Henry (Henry Reynard).jpg"
+        },
+        "Henry (Nguyễn Thành Phúc)": {
+            "image": "HNPHenry.jpg"
+        },
+        "Hermes (Kim Kang-hwan)": {
+            "image": "mvpbhankun.jpg"
+        },
+        "Hery": {
+            "age": "23"
+        },
+        "Hetel": {
+            "age": "25",
+            "residency": "Asia Pacific"
+        },
+        "Hexflash": {
+            "residency": "Asia Pacific"
+        },
+        "HiRit": {
+            "age": "26"
+        },
+        "HighDin": {
+            "age": "28",
+            "image": "APK HighDin 2018 Summer.png"
+        },
+        "Hiiva": {
+            "age": "30"
+        },
+        "Hinn": {
+            "image": "SGB Hinn 2020 Split 2.png"
+        },
+        "Hioss": {
+            "image": "GS Hioss 2019 Split 1.png"
+        },
+        "Hipo": {
+            "image": "BTC Hipo 2018 Spring.jpeg"
+        },
+        "Hirishin": {
+            "age": "33"
+        },
+        "Hiro (Lee Woo-suk)": {
+            "age": "37",
+            "image": "najinshhiro.jpg"
+        },
+        "Hiro02": {
+            "age": "22"
+        },
+        "Hmmer": {
+            "image": "Hmmer.jpg"
+        },
+        "HoChou": {
+            "age": "32",
+            "image": "HoChou.jpg"
+        },
+        "Hoit": {
+            "age": "25"
+        },
+        "Hojin": {
+            "image": "KOO Hojin 2015 Summer.png"
+        },
+        "Holder": {
+            "age": "26"
+        },
+        "Hollow": {
+            "age": "26"
+        },
+        "HolyPhoenix": {
+            "age": "27"
+        },
+        "Holythoth": {
+            "image": "9066638895 c50912e089 k.jpg"
+        },
+        "Honey (Park Bo-heon)": {
+            "age": "24"
+        },
+        "HoneyRain": {
+            "image": "HoneyRain.jpg"
+        },
+        "Hong2": {
+            "residency": "Asia Pacific"
+        },
+        "HongCono": {
+            "age": "27"
+        },
+        "HongQ": {
+            "age": "17",
+            "residency": "Asia Pacific"
+        },
+        "Hoofspark": {
+            "image": "Hoofspark.png"
+        },
+        "Hoon (Lee Jang-hoon)": {
+            "age": "25"
+        },
+        "Hope (Phạm Trung Hiếu)": {
+            "age": "28"
+        },
+        "Hope (Wang Jie)": {
+            "age": "24"
+        },
+        "HotshotGG": {
+            "age": "34"
+        },
+        "HowLa": {
+            "residency": "Asia Pacific"
+        },
+        "Howling": {
+            "age": "21"
+        },
+        "Huanfeng": {
+            "age": "23"
+        },
+        "Huanggai": {
+            "age": "29"
+        },
+        "Hudie": {
+            "age": "30"
+        },
+        "HueiYun": {
+            "image": "Yoe FW HueiYun.jpg"
+        },
+        "Huez0rd": {
+            "image": "Huez0rd.jpg"
+        },
+        "Hugato": {
+            "age": "21"
+        },
+        "Hulatang": {
+            "age": "24"
+        },
+        "Husha": {
+            "residency": "Asia Pacific"
+        },
+        "Husky": {
+            "age": "25",
+            "residency": "Asia Pacific"
+        },
+        "Hybrid (Glenn Doornenbal)": {
+            "age": "30"
+        },
+        "Hydra (Luca Grieco)": {
+            "age": "29"
+        },
+        "Hype (Byeon Jeong-hyeon)": {
+            "age": "21",
+            "alternate_names": [
+                "Hype (Byeon Jeong-hyeon)",
+                "KingKong (Byeon Jeong-hyeon)"
+            ]
+        },
+        "Hyper (Young Seo)": {
+            "age": "24"
+        },
+        "I7aze": {
+            "age": "27"
+        },
+        "IBoy": {
+            "age": "24"
+        },
+        "IBreak": {
+            "age": "29"
+        },
+        "IC8": {
+            "residency": "Asia Pacific"
+        },
+        "ICU": {
+            "residency": "Asia Pacific"
+        },
+        "IDream": {
+            "age": "28",
+            "image": "IDream.jpg"
+        },
+        "IMba (Łukasz Dusza)": {
+            "image": "Fximba.jpeg"
+        },
+        "ISMA": {
+            "age": "23"
+        },
+        "ISeNN": {
+            "age": "30"
+        },
+        "IWDominate": {
+            "age": "34"
+        },
+        "Ic3Guy": {
+            "age": "29"
+        },
+        "Icarus (Rawin Amornmethakul)": {
+            "name": "Rawin Amornmethakun"
+        },
+        "IceDestiny": {
+            "image": "IceDestiny 2017.png"
+        },
+        "Iceflower": {
+            "age": "31"
+        },
+        "If": {
+            "image": "If.jpg"
+        },
+        "Iiann": {
+            "age": "24"
+        },
+        "IlllIma": {
+            "age": "22"
+        },
+        "Illusion (Chen Xin-Lin)": {
+            "age": "34",
+            "image": "YG illuSioN 2016 Spring.png"
+        },
+        "ImPerfect": {
+            "age": "29",
+            "image": "Imperfect.jpg"
+        },
+        "ImSoFresh": {
+            "age": "32",
+            "image": "ROC ImSoFresh 2016 Spring.jpg"
+        },
+        "Immortoru": {
+            "image": "TR Immortoru 2018 AS.png"
+        },
+        "Imp": {
+            "age": "29"
+        },
+        "Impaired": {
+            "age": "27",
+            "image": "Impaired Summer 2017.jpg"
+        },
+        "InKos": {
+            "age": "28",
+            "image": "2017 LK InKos.png"
+        },
+        "InSec": {
+            "age": "31"
+        },
+        "Incursio": {
+            "residency": "Asia Pacific"
+        },
+        "Indivisible": {
+            "age": "28"
+        },
+        "Inition": {
+            "image": "Inition 2017.jpg"
+        },
+        "Innat3": {
+            "image": "Drag0n.jpg"
+        },
+        "Innox": {
+            "age": "29"
+        },
+        "Ino": {
+            "residency": "Asia Pacific"
+        },
+        "Insanity": {
+            "age": "25"
+        },
+        "Inspirro": {
+            "image": "S3 Inspirro.jpg"
+        },
+        "Instinct (Tony Ng)": {
+            "age": "20"
+        },
+        "Intgration": {
+            "image": "VAE Intgration 2019 Split 2.png"
+        },
+        "Invicta (Lebanese Player)": {
+            "residency": "None"
+        },
+        "Invictis": {
+            "residency": "Asia Pacific"
+        },
+        "Invincible (Hamzeh Alnazer)": {
+            "alternate_names": [
+                "Invincible (Hamzeh Al Nazer)",
+                "Invincible (Hamzeh Alnazer)",
+                "InvincibleSyndra",
+                "Vayne (Hamzeh Alnazer)"
+            ],
+            "image": "Invinciblesyndra.jpg"
+        },
+        "Ippon": {
+            "age": "30",
+            "image": "IND Ippon 2019 Split 1.png"
+        },
+        "Itachi eyes": {
+            "age": "21",
+            "residency": "None"
+        },
+        "ItsCortez": {
+            "image": "DA itsCORTEZ 2019 Split 2.png"
+        },
+        "Itsi": {
+            "image": "XTN Itsi 2019 Split 1.png"
+        },
+        "Iucid": {
+            "image": "Iucid.png"
+        },
+        "Iwandy": {
+            "age": "24"
+        },
+        "J11": {
+            "image": "IW Unex 2019 Split 2.png"
+        },
+        "J1mmy": {
+            "image": "GAL J1mmy 2018 Winter.png"
+        },
+        "JKSmithy": {
+            "image": "Immunity Niwa.jpg"
+        },
+        "JLC": {
+            "image": "WG JLC.png"
+        },
+        "JLKC": {
+            "image": "FD JLKC 2017 Split 2.png"
+        },
+        "JUG (Hwang Hyeon-sik)": {
+            "age": "21"
+        },
+        "JackOfDiamonD": {
+            "residency": "None"
+        },
+        "Jackies": {
+            "age": "20"
+        },
+        "Jacob (Võ Nguyễn Thành Minh)": {
+            "age": "27"
+        },
+        "Jactroll": {
+            "age": "26"
+        },
+        "JaeYoong": {
+            "image": "KLH JaeYoong.jpg"
+        },
+        "Jaeger": {
+            "age": "28"
+        },
+        "JamesPeke": {
+            "age": "30",
+            "image": "DA JamesPeke 2019 Split 1.png"
+        },
+        "Jankos": {
+            "age": "29"
+        },
+        "Jatt": {
+            "age": "37"
+        },
+        "Jaximus": {
+            "age": "30"
+        },
+        "Jay (Chen Bo)": {
+            "age": "25"
+        },
+        "JayJ": {
+            "age": "27"
+        },
+        "Jeff (Vương Xuân Đức)": {
+            "image": "HFLJeff.jpg"
+        },
+        "Jelly (Gwak Seok-ho)": {
+            "image": "2019 Allstars Jelly.png"
+        },
+        "Jenkins": {
+            "age": "25"
+        },
+        "Jenvi": {
+            "image": "AEX Jenvi 2016.jpg"
+        },
+        "Jenxas": {
+            "age": "24"
+        },
+        "Jer0m": {
+            "image": "6S Jer0m 2018 Spring.png"
+        },
+        "Jesiz": {
+            "age": "28"
+        },
+        "Jeskla": {
+            "age": "24"
+        },
+        "Jett": {
+            "age": "23"
+        },
+        "Jeyrus": {
+            "age": "22"
+        },
+        "Jezu": {
+            "age": "24"
+        },
+        "JiaQi": {
+            "age": "20"
+        },
+        "Jiang": {
+            "age": "24"
+        },
+        "Jiaoyang": {
+            "image": "UP Jiaoyang 2015 Summer.png"
+        },
+        "JieZou": {
+            "image": "SS Jiezou 2016 Summer.png"
+        },
+        "Jiekou": {
+            "age": "27"
+        },
+        "Jihoon": {
+            "image": "RGA Jihoon 2018 Spring.jpg"
+        },
+        "Jiin": {
+            "image": "SPG Jiin 2019 Split 2.jpg"
+        },
+        "JimieN": {
+            "age": "22"
+        },
+        "Jin (Adrià Salabert)": {
+            "image": "TPGM Jin 2018 Spring.jpg"
+        },
+        "Jin0": {
+            "age": "24"
+        },
+        "Jing (Rao Jing)": {
+            "image": "PEjingGG.jpg"
+        },
+        "Jintae": {
+            "image": "Jintae.png"
+        },
+        "Jirall": {
+            "age": "28"
+        },
+        "Jisoo": {
+            "age": "26",
+            "image": "GAM Jisoo 2020 Spilt 2.png"
+        },
+        "Jjun": {
+            "image": "MG Jjun 2019 MSI.png"
+        },
+        "JoJo (Kan Yiu-Tou)": {
+            "image": "HYG Jojo 2016 Spring.png"
+        },
+        "Jojopyun": {
+            "age": "20"
+        },
+        "Jokieez": {
+            "age": "29",
+            "image": "Jokizzz.jpeg"
+        },
+        "Josedeodo": {
+            "age": "24"
+        },
+        "Jotaro": {
+            "age": "25"
+        },
+        "JoyLucky": {
+            "image": "JoyLucky.jpg"
+        },
+        "JuanDeDios": {
+            "age": "21"
+        },
+        "Juejue": {
+            "age": "26",
+            "image": "VTG Juejue 2018 Summer.png"
+        },
+        "Juggernaut (Mohamed Khathrawi)": {
+            "age": "25"
+        },
+        "Juhan": {
+            "age": "23"
+        },
+        "Julaxe": {
+            "age": "30"
+        },
+        "Juliera": {
+            "name": "Júlio&amp;nbsp;Henrique Duarte de Abreu"
+        },
+        "Julio v1": {
+            "image": "OVM Julio V1.png"
+        },
+        "Juliostito": {
+            "age": "27"
+        },
+        "Jun (Yoon Se-jun)": {
+            "age": "24"
+        },
+        "JunJia": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Jungleology": {
+            "image": "Jungleology.jpg"
+        },
+        "Junie": {
+            "image": "FFQ Junie 2018 Spring.png"
+        },
+        "Junnie": {
+            "image": "AG Junnie.jpg"
+        },
+        "JustJohnny": {
+            "image": "SINN Johnny 2020.png"
+        },
+        "JustNo0b": {
+            "image": "NV JustNo0b.png"
+        },
+        "Juzu": {
+            "age": "25"
+        },
+        "K": {
+            "age": "28"
+        },
+        "K0u": {
+            "image": "GAL k0u 2017 Summer.png"
+        },
+        "KPr": {
+            "name": "Maxim Grebonos"
+        },
+        "KTSR": {
+            "age": "24",
+            "residency": "Turkey"
+        },
+        "Kabosu": {
+            "image": "QNG kabosu 2018 Spring.png"
+        },
+        "Kady": {
+            "image": "NeL Kady.jpg"
+        },
+        "Kaigu": {
+            "image": "LYB Kaigu 2019.jpg"
+        },
+        "Kailai": {
+            "image": "RYL Kailai 2018 Summer.png"
+        },
+        "Kairos": {
+            "image": "BJKA Kairos 2019 Split 1.png"
+        },
+        "Kaiz": {
+            "age": "24",
+            "image": "LK Kaiz.png"
+        },
+        "Kakkun": {
+            "residency": "Asia Pacific"
+        },
+        "Kalec": {
+            "age": "31"
+        },
+        "Kane (Chen Hao)": {
+            "age": "26"
+        },
+        "Kane (Li Chi Hung)": {
+            "age": "30",
+            "image": "WY kane 2016 Spring.jpg"
+        },
+        "KangQui": {
+            "image": "mvpbduelist.jpg"
+        },
+        "Kanon (Khenn Pragale)": {
+            "image": "AEX Canon.jpg"
+        },
+        "Kaori": {
+            "age": "23"
+        },
+        "Kaov": {
+            "image": "Kaov.jpg"
+        },
+        "Kapra": {
+            "residency": "None"
+        },
+        "Karalius": {
+            "age": "38"
+        },
+        "Karis": {
+            "age": "21"
+        },
+        "KarlCulated": {
+            "image": "INFZ KarlCulated 2017.jpg"
+        },
+        "Kartis": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Kawai": {
+            "image": "DoR Kawai.jpg"
+        },
+        "Kazmitch": {
+            "image": "AKazmitch.png"
+        },
+        "Kazmma": {
+            "residency": "Asia Pacific"
+        },
+        "Kazu": {
+            "age": "30"
+        },
+        "Kazze": {
+            "image": "Kazze.jpg"
+        },
+        "Keane": {
+            "age": "31"
+        },
+        "Kebap": {
+            "age": "23"
+        },
+        "Keiko": {
+            "age": "25"
+        },
+        "Keisama": {
+            "image": "KLH nKai.jpg"
+        },
+        "KemKen": {
+            "age": "24"
+        },
+        "KenRhen": {
+            "image": "KenRhen.jpg"
+        },
+        "KenT": {
+            "image": "BMKENT.jpg"
+        },
+        "Kenste": {
+            "image": "Av Kenste.jpg"
+        },
+        "Kentakki": {
+            "residency": "Asia Pacific"
+        },
+        "Kepler": {
+            "age": "22"
+        },
+        "Keres": {
+            "age": "25",
+            "alternate_names": [
+                "K2 (Law Chi Kit)",
+                "Keres"
+            ],
+            "residency": "Asia Pacific"
+        },
+        "Kestrel": {
+            "image": "kestrel.jpg"
+        },
+        "Kevd": {
+            "age": "27"
+        },
+        "Kevin (Lee Sang-jun)": {
+            "image": "Hippo Kevin.gif"
+        },
+        "Key": {
+            "age": "27"
+        },
+        "Keysie": {
+            "age": "27",
+            "image": "DA Keysie 2019 Split 2.png"
+        },
+        "Khomzar": {
+            "image": "M19 Khomzar 2019 Split 2.png",
+            "name": ""
+        },
+        "Khynm": {
+            "age": "29"
+        },
+        "Kiaya": {
+            "age": "23"
+        },
+        "Kid": {
+            "age": "27"
+        },
+        "KidA": {
+            "age": "22"
+        },
+        "Kiin": {
+            "age": "25"
+        },
+        "Killerqueen": {
+            "age": "22"
+        },
+        "Killua": {
+            "age": "28"
+        },
+        "Kinatu": {
+            "age": "21",
+            "residency": "Asia Pacific"
+        },
+        "Kindless": {
+            "age": "26"
+        },
+        "KingJ": {
+            "image": "LK KingJ.png"
+        },
+        "Kinzu": {
+            "age": "28"
+        },
+        "Kira": {
+            "image": "GMB Kira 2019 Split 2.png"
+        },
+        "Kirito (Nicolás Olavarría)": {
+            "age": "26"
+        },
+        "Kirt": {
+            "residency": "Asia Pacific"
+        },
+        "Kisee": {
+            "country": "Vietnam",
+            "residency": "Asia Pacific"
+        },
+        "Kish": {
+            "age": "33",
+            "image": "CJkkinsh.jpg"
+        },
+        "KissNkite": {
+            "image": "GS KillerS 2017 Spring 2.png"
+        },
+        "Kit": {
+            "age": "27"
+        },
+        "Kitties": {
+            "age": "32"
+        },
+        "Kituruken": {
+            "age": "23"
+        },
+        "Kitzuo": {
+            "age": "27"
+        },
+        "Kiwi": {
+            "age": "27"
+        },
+        "Kkk1": {
+            "age": "28"
+        },
+        "Kkyul": {
+            "image": "EEW Kkyul 2017 Spring.png"
+        },
+        "Kl (Carlos Vilchez)": {
+            "age": "27"
+        },
+        "Klownz": {
+            "age": "24",
+            "image": "NGX Klownz.png"
+        },
+        "Klyde": {
+            "age": "25"
+        },
+        "Knight (Lee Geon)": {
+            "image": "Tdk-louis-2015spring.jpg"
+        },
+        "Knight (Vũ Hồng Sơn)": {
+            "age": "25",
+            "image": "FTV Knight 2018 Spring.png"
+        },
+        "Knight (Zhuo Ding)": {
+            "age": "24"
+        },
+        "Knut": {
+            "image": "MLE Knut.jpg"
+        },
+        "KoW": {
+            "age": "30",
+            "image": "HFLKoW.jpg"
+        },
+        "Koala (Lin Chih-Chiang)": {
+            "age": "29"
+        },
+        "Kobbe": {
+            "age": "28"
+        },
+        "Kobe": {
+            "age": "38",
+            "image": "LCS Kobe 2020.png"
+        },
+        "Kofte": {
+            "age": "23"
+        },
+        "Kojima": {
+            "age": "20"
+        },
+        "Kold": {
+            "residency": "Europe"
+        },
+        "Kolia": {
+            "image": "EP.C LoveLetter.jpg"
+        },
+        "Komodo": {
+            "image": "Komodo.jpg"
+        },
+        "KonDziSan": {
+            "age": "27"
+        },
+        "Kongyue": {
+            "age": "25"
+        },
+        "Korol": {
+            "image": "VTG Korol 2018 Summer.png"
+        },
+        "Koshka": {
+            "age": "25"
+        },
+        "Kra": {
+            "image": "Sovereign Kra.png"
+        },
+        "Kreox": {
+            "age": "25"
+        },
+        "Kriss": {
+            "age": "24",
+            "image": "GAM KrissKyle 2018 Spring.png"
+        },
+        "Krykiet": {
+            "age": "29",
+            "image": "EAC Krykiet 2019 Split 1.png"
+        },
+        "Kryze": {
+            "age": "25"
+        },
+        "KuKu": {
+            "age": "28"
+        },
+        "Kudy": {
+            "age": "26"
+        },
+        "Kui": {
+            "age": "23"
+        },
+        "Kujaa": {
+            "image": "Kujaa.jpg"
+        },
+        "Kulit": {
+            "image": "MSGP Kulit.png"
+        },
+        "Kumamon": {
+            "image": "LEG Kumamon 2019 Split 1.png"
+        },
+        "Kupz": {
+            "image": "TME Kupz 2018 Spring.png"
+        },
+        "Kurak": {
+            "residency": "Asia Pacific"
+        },
+        "Kuremento": {
+            "image": "PRS Kuremento 2015.png"
+        },
+        "Kuri": {
+            "age": "24"
+        },
+        "Kweku": {
+            "image": "MMM Kweku 2020 Split 1.png"
+        },
+        "Kxeight": {
+            "image": "Kxeight 2019.png"
+        },
+        "Kyeahoo": {
+            "age": "19"
+        },
+        "Kyle (Seo Ji-seon)": {
+            "image": "Tdk-kyle-2015spring.jpg"
+        },
+        "Kyose": {
+            "residency": "Asia Pacific"
+        },
+        "L": {
+            "age": "28",
+            "image": "Iceland Licken.jpeg"
+        },
+        "L0SER": {
+            "residency": "Asia Pacific"
+        },
+        "LEYL-Ü NEHAR": {
+            "image": "AUR Leyl-U Nehar 2018 Split 2.png"
+        },
+        "LIDER": {
+            "age": "25"
+        },
+        "LL (Ngô Minh Quân)": {
+            "image": "CES LL 2021 Split 1.png"
+        },
+        "LNightmare": {
+            "age": "33",
+            "image": "Lnightmare.jpg"
+        },
+        "LOFS": {
+            "image": "WS LOFS 2017 Spring.png"
+        },
+        "LP": {
+            "age": "22"
+        },
+        "LaMiaZeaLoT": {
+            "image": "Ozone Lamia.jpg"
+        },
+        "Lactea": {
+            "image": "ONE Lactea 2018 Spring.png"
+        },
+        "Lacunae": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Lamabear": {
+            "age": "26"
+        },
+        "Langx": {
+            "age": "27"
+        },
+        "Lantyr": {
+            "image": "Log F Lantyr.jpg"
+        },
+        "Lapaka": {
+            "image": "Lapaka 2.png"
+        },
+        "Lasagna": {
+            "image": "Lasagna 2017.png"
+        },
+        "Lava": {
+            "age": "25"
+        },
+        "Lazaruos": {
+            "age": "35",
+            "image": "Lazaruos.jpg"
+        },
+        "Le Grain": {
+            "image": "Jumong.png"
+        },
+        "LeX": {
+            "image": "VVT LeX 2018 Split 2.png"
+        },
+        "Leash": {
+            "age": "25",
+            "image": "RGA Leash 2018 Summer.png"
+        },
+        "Leave": {
+            "age": "22"
+        },
+        "Lee Cos": {
+            "age": "26",
+            "image": "RAAD Lee Cos.jpg"
+        },
+        "LeeMid": {
+            "image": "LeeMid.jpg"
+        },
+        "LeeSA": {
+            "residency": "Asia Pacific"
+        },
+        "Leemas": {
+            "residency": "Asia Pacific"
+        },
+        "Lekcyc": {
+            "age": "28"
+        },
+        "Leko": {
+            "age": "32"
+        },
+        "Lele (Dang Bo-Lin)": {
+            "age": "24"
+        },
+        "Leleko": {
+            "name": "Leandro Hideki Aihara"
+        },
+        "LemonNation": {
+            "age": "35"
+        },
+        "Lenny (Lenny Uytterhoeven)": {
+            "image": "CW Lenny 2015 Summer.png"
+        },
+        "Lenom": {
+            "age": "21"
+        },
+        "Leo (Łukasz Mirek)": {
+            "image": "LeoFromKorea.png"
+        },
+        "Leo s Man": {
+            "age": "22"
+        },
+        "Leon (Yeom Do-sun)": {
+            "image": "Hippo Leon.gif"
+        },
+        "Leozuxo": {
+            "image": "PRG Leozuxo 2019 Split 1.png"
+        },
+        "Lep": {
+            "age": "28",
+            "image": "RED LEP 2018 Split 2.png"
+        },
+        "Lethenor": {
+            "image": "PRS Lethenor 2018 Split 2.png"
+        },
+        "Lethilion": {
+            "image": "SUP Lethilion 2017 MSI.png"
+        },
+        "Letme": {
+            "age": "28"
+        },
+        "Lexvink": {
+            "image": "Lexvink.jpg"
+        },
+        "Ley": {
+            "age": "27"
+        },
+        "Leyan": {
+            "age": "22"
+        },
+        "Leyo": {
+            "image": "LEYO.png"
+        },
+        "Leza": {
+            "age": "26"
+        },
+        "Lhazurt": {
+            "age": "26"
+        },
+        "LiQuiD112": {
+            "age": "43"
+        },
+        "Liang": {
+            "age": "26"
+        },
+        "Licorice": {
+            "age": "27"
+        },
+        "Life": {
+            "age": "24"
+        },
+        "Likai": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Likkrit": {
+            "age": "29",
+            "image": "Likkrit 2016Worlds.png"
+        },
+        "LilKvn": {
+            "age": "33"
+        },
+        "Lilac (Jeon Ho-jin)": {
+            "image": "IM Lilac 2015 Summer.png"
+        },
+        "Lilballz": {
+            "age": "36"
+        },
+        "Lilv": {
+            "age": "26"
+        },
+        "Limit (Ju Min-gyu)": {
+            "image": "NJBS Limit.jpg"
+        },
+        "Linak": {
+            "image": "Linak1.jpg"
+        },
+        "Lindarang": {
+            "age": "27"
+        },
+        "Lionel (Matthew Desa)": {
+            "residency": "Asia Pacific"
+        },
+        "Lived": {
+            "residency": "Asia Pacific"
+        },
+        "Lloyd": {
+            "age": "29"
+        },
+        "Loco (Chen Yao-Han)": {
+            "age": "29"
+        },
+        "Lonely (Han Gyu-joon)": {
+            "age": "24"
+        },
+        "Long": {
+            "age": "20",
+            "residency": "Asia Pacific"
+        },
+        "LongB": {
+            "image": "DP LongB 2018 Split 2.png"
+        },
+        "LongPanda": {
+            "image": "CJlongpanda.jpeg"
+        },
+        "Loopy": {
+            "age": "20"
+        },
+        "Lospa": {
+            "age": "22"
+        },
+        "Losys": {
+            "image": "MKZ losys.jpg"
+        },
+        "Lounet": {
+            "image": "LDLC Lounet 2018 Spring.jpg"
+        },
+        "LoveCD": {
+            "image": "M3 lovecd 2016 Spring.png"
+        },
+        "LoveLing": {
+            "image": "OMG LoveLing 2015 Summer.png"
+        },
+        "Lovida": {
+            "image": "SAJLovida.jpg"
+        },
+        "Low (Omar Aboulkheir)": {
+            "image": "TTC Low 2018 Spring.png"
+        },
+        "Lpc": {
+            "age": "23"
+        },
+        "Luana": {
+            "age": "23"
+        },
+        "Luci": {
+            "age": "27"
+        },
+        "Lucifer (Nguyễn Văn Minh)": {
+            "image": "APU Lucifer.png"
+        },
+        "LuciferYYY": {
+            "alternate_names": [
+                "Rena"
+            ],
+            "image": "LuciferYYY.jpg"
+        },
+        "Luffy (Nguyễn Quang Minh)": {
+            "age": "23"
+        },
+        "Luffy (Vandy Nugraha)": {
+            "image": "PX Luffy 2018 Spring.jpg"
+        },
+        "Luger": {
+            "age": "23"
+        },
+        "Luguo": {
+            "image": "RWS luguo 2018 Summer.png"
+        },
+        "Luna (Jang Kyung-ho)": {
+            "age": "29",
+            "image": "SSG Luna 2015 Summer.png"
+        },
+        "Luna (Josh Allen)": {
+            "age": "31"
+        },
+        "Luo (Luo Ci-Rui)": {
+            "age": "30",
+            "image": "OMG Luo 2016 Spring.png"
+        },
+        "Luo (Yin Peng)": {
+            "image": "EP Luo 2015.jpg"
+        },
+        "Lurox": {
+            "age": "25"
+        },
+        "Luskka": {
+            "age": "28"
+        },
+        "Ly4ly4ly4": {
+            "image": "IGL LY4.png"
+        },
+        "Lynkez": {
+            "age": "25"
+        },
+        "Lynx (Pedro Quintavalle)": {
+            "image": "INTZ Lynx.png"
+        },
+        "Lysna": {
+            "image": "Lysna.jpg"
+        },
+        "Lyumi": {
+            "age": "33",
+            "image": "acerlyumi.jpg"
+        },
+        "Lz (Li Zhen)": {
+            "age": "26"
+        },
+        "Lz (Yang Zi-Li)": {
+            "age": "24",
+            "residency": "Asia Pacific"
+        },
+        "Lzq": {
+            "age": "20"
+        },
+        "M3N": {
+            "image": "FTT SSG M3N.jpg"
+        },
+        "MDB": {
+            "image": "UOL Argonavt 2021 WC.png"
+        },
+        "MG (Lee Ji-hoon)": {
+            "age": "22"
+        },
+        "MISSING": {
+            "age": "23"
+        },
+        "Mabrey": {
+            "age": "30"
+        },
+        "Mad (Park Sang-duk)": {
+            "image": "XD Mad.gif"
+        },
+        "MadLife": {
+            "age": "32"
+        },
+        "Madlifeonur": {
+            "age": "23",
+            "image": "BJK Minor 2019 Split 2.png"
+        },
+        "Madness (Dhari Al-Mutairi)": {
+            "image": "NASR Madness.png"
+        },
+        "Madness (Gökhan Uçar)": {
+            "age": "28",
+            "image": "GS Madness 2019 Split 2.png"
+        },
+        "Maggie": {
+            "age": "24"
+        },
+        "MagiFelix": {
+            "residency": "Europe"
+        },
+        "Magico (Matias Muñoz)": {
+            "age": "28"
+        },
+        "Magvayer": {
+            "image": "magvayer.jpeg"
+        },
+        "MaiX": {
+            "age": "25"
+        },
+        "Maizijian": {
+            "age": "33"
+        },
+        "Malaz": {
+            "age": "28"
+        },
+        "Manajj": {
+            "image": "Manalol.jpeg"
+        },
+        "Mancloud": {
+            "age": "33"
+        },
+        "ManyReason": {
+            "image": "Xenicsmanyreason2.jpg"
+        },
+        "MapleSnow": {
+            "age": "29"
+        },
+        "Marble": {
+            "residency": "Asia Pacific"
+        },
+        "Mareritt": {
+            "image": "WNS Mareritt 2019 Split 1.jpg"
+        },
+        "Marge": {
+            "age": "27",
+            "image": "TLO Marge 2018 Spring.png"
+        },
+        "Marilyn": {
+            "alternate_names": [
+                "Fiesta (Lee Yun-sang)",
+                "Marilyn"
+            ]
+        },
+        "Mark (Ling Xu)": {
+            "age": "25"
+        },
+        "Marker": {
+            "age": "31",
+            "image": "Marker ava red.jpg"
+        },
+        "Markoon": {
+            "age": "22"
+        },
+        "Marsh": {
+            "image": "Marsh.PNG"
+        },
+        "Marshall": {
+            "image": "DP Marshall 2018 Winter.png"
+        },
+        "Martin (Tan Qi)": {
+            "age": "27"
+        },
+        "MasteRofLoL": {
+            "image": "MasteR of LoL.jpg"
+        },
+        "Master Jos": {
+            "age": "28"
+        },
+        "MasterMao": {
+            "image": "QG MasterMao 2015 Summer.png"
+        },
+        "Matrix": {
+            "residency": "None"
+        },
+        "Matt Elento": {
+            "age": "27"
+        },
+        "Max (Jeong Jong-bin)": {
+            "age": "28"
+        },
+        "MaxPower": {
+            "age": "27",
+            "image": "TLO MaxPower 2018 Summer.png"
+        },
+        "Maximize": {
+            "residency": "Asia Pacific"
+        },
+        "Maxlore": {
+            "age": "28"
+        },
+        "May (Kang Han-wool)": {
+            "image": "HKES May.jpg"
+        },
+        "Mayhem (Samuel García)": {
+            "age": "28"
+        },
+        "Maynah": {
+            "age": "27",
+            "image": "INTZ Maynah 2018 Split 2.png"
+        },
+        "Maz": {
+            "age": "28",
+            "image": "AG Maz.jpeg"
+        },
+        "Mazzerin": {
+            "age": "28"
+        },
+        "MeW": {
+            "image": "FL MeW.png"
+        },
+        "Meaning": {
+            "age": "23"
+        },
+        "Med": {
+            "image": "TF Med 2017 Summer.png"
+        },
+        "Medic (Aaron Chamberlain)": {
+            "age": "33",
+            "image": "LEC Medic 2021.png"
+        },
+        "Medzz": {
+            "age": "21"
+        },
+        "Meech": {
+            "age": "23"
+        },
+        "MegaZero": {
+            "age": "30"
+        },
+        "Megajp": {
+            "age": "31"
+        },
+        "Meifan": {
+            "residency": "Asia Pacific"
+        },
+        "Meiko": {
+            "age": "26"
+        },
+        "Meliodas (Hoàng Tiến Nhật)": {
+            "age": "24"
+        },
+        "Mellisan": {
+            "age": "35",
+            "image": "Mellisan.jpg"
+        },
+        "Melody (Liu Yi-Fan)": {
+            "age": "25"
+        },
+        "Melon (Tsai Tsung-Yu)": {
+            "age": "28",
+            "image": "ThreshMelon.jpg"
+        },
+        "Melon (Zhong Wang)": {
+            "image": "WE Melon 2018 Spring.png"
+        },
+        "Meme": {
+            "image": "WGD Meme.png"
+        },
+        "Memory": {
+            "image": "SDG Memory 2018 Summer.png"
+        },
+        "Mental (Jin Jeong-yong)": {
+            "age": "31",
+            "image": "CNB Mental.png"
+        },
+        "Merao": {
+            "image": "VS Merao 2019 Split 1.png"
+        },
+        "Mersa": {
+            "age": "22"
+        },
+        "Meruem": {
+            "image": "Cat8.jpg"
+        },
+        "Metalx": {
+            "age": "34",
+            "image": "Atn metalx.jpg"
+        },
+        "Meteos": {
+            "age": "31"
+        },
+        "Mewkyo": {
+            "age": "25",
+            "name": "Mateus&amp;nbsp;Henrique Ferraz Muniz"
+        },
+        "Meza": {
+            "age": "27"
+        },
+        "Mfis": {
+            "residency": "Asia Pacific"
+        },
+        "MiMo": {
+            "image": "MiMo.jpg"
+        },
+        "Miaoniu": {
+            "age": "23"
+        },
+        "MicaO": {
+            "age": "28"
+        },
+        "Mickey (Son Young-min)": {
+            "age": "27"
+        },
+        "MidKing": {
+            "age": "32",
+            "image": "MKZ MidKing.png"
+        },
+        "Midbeast": {
+            "image": "OCE Midbeast 2018 AS.png"
+        },
+        "MighTiLy": {
+            "image": "mightly.png"
+        },
+        "Mightybear": {
+            "age": "29"
+        },
+        "MikeYeung": {
+            "age": "25"
+        },
+        "MikeyR": {
+            "age": "31",
+            "image": "MikeyR 2013.png",
+            "residency": "Europe"
+        },
+        "Mikru": {
+            "residency": "Asia Pacific"
+        },
+        "Milan": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Milkyway": {
+            "age": "20"
+        },
+        "Mima": {
+            "image": "Mima.jpg"
+        },
+        "Mimic (Nawaf Al-Salem)": {
+            "image": "NASR Mimic 2019.jpg"
+        },
+        "Min (Byeon Min-seong)": {
+            "age": "24"
+        },
+        "Ming9 (Kim Min-woo)": {
+            "age": "21"
+        },
+        "Minibestia": {
+            "age": "30"
+        },
+        "Minkywhale": {
+            "image": "LGG Minkywhale 2018.png"
+        },
+        "Mir (Park Mi-reu)": {
+            "age": "24"
+        },
+        "Miracle (Ruslan Zainulin)": {
+            "age": "26"
+        },
+        "Mirbs": {
+            "image": "Mirbs.jpg"
+        },
+        "Mireu": {
+            "age": "23"
+        },
+        "Mirmoooo": {
+            "image": "AEX Mirmoooo 2017.jpg"
+        },
+        "Mirror": {
+            "image": "HMA Rudy 2016 Spring.png"
+        },
+        "MirrorEnd": {
+            "age": "29",
+            "image": "MirrorEnd1.png"
+        },
+        "Miss (Lee Jae-ha)": {
+            "image": "GT Miss 2016 Summer.png"
+        },
+        "Mission": {
+            "age": "29"
+        },
+        "Mist (Hsu Kai-Yueh)": {
+            "image": "M1st Team Yetti.jpg"
+        },
+        "Mithy": {
+            "age": "30"
+        },
+        "Miwi": {
+            "image": "Jdwudirtnap.jpg"
+        },
+        "MnM (Wong Ka Chun)": {
+            "age": "24",
+            "residency": "Asia Pacific"
+        },
+        "MoMa": {
+            "age": "33",
+            "image": "mouzmoma.jpg"
+        },
+        "MoNk3yz": {
+            "age": "35",
+            "image": "monkeyz.jpg"
+        },
+        "Moham": {
+            "age": "22"
+        },
+        "Mokatte": {
+            "age": "36"
+        },
+        "Mole": {
+            "age": "24"
+        },
+        "Momochi": {
+            "age": "20"
+        },
+        "Monarca": {
+            "age": "21"
+        },
+        "Monkey750": {
+            "image": "TP Monkey750 2019 Split 2.png"
+        },
+        "Moo (Lim Mu-heon)": {
+            "age": "23"
+        },
+        "MooN (Ow Yang Jian Hao)": {
+            "image": "KLH MooN.jpg"
+        },
+        "MoonBlack": {
+            "age": "28"
+        },
+        "MoonScar": {
+            "image": "VG Yh.jpg"
+        },
+        "Moopz": {
+            "age": "32"
+        },
+        "Mopato": {
+            "age": "28",
+            "name": "Mohamad Tabsh",
+            "residency": "None"
+        },
+        "Morgan": {
+            "age": "23"
+        },
+        "Morsu": {
+            "image": "Morsu SK Gaming EUCS 2016 Spring.png"
+        },
+        "Mortal (Mouafak Mohammed Al-Zaatouri)": {
+            "age": "27",
+            "image": "Wkmortal.jpg"
+        },
+        "Motroco": {
+            "age": "37"
+        },
+        "MounTain (Patrick Dasberg)": {
+            "image": "MOU-Mountain-2015eucs.png"
+        },
+        "Mousty": {
+            "age": "24"
+        },
+        "Move": {
+            "age": "30"
+        },
+        "Mowarth": {
+            "image": "Mowarth.jpg"
+        },
+        "Moyan": {
+            "age": "22"
+        },
+        "Moyashi": {
+            "age": "30"
+        },
+        "Moyu": {
+            "age": "27"
+        },
+        "MrLemon": {
+            "age": "26"
+        },
+        "Mueki": {
+            "age": "32"
+        },
+        "Muffinqt": {
+            "age": "32"
+        },
+        "Muscle": {
+            "image": "FBA Muscle 2019 Split 1.png"
+        },
+        "Muvert": {
+            "age": "38"
+        },
+        "Myha": {
+            "image": "Myha.jpg"
+        },
+        "Mylon": {
+            "age": "27"
+        },
+        "Myrwn": {
+            "age": "21"
+        },
+        "Myw": {
+            "age": "29",
+            "image": "MCES Myw 2019 Split 1.png"
+        },
+        "N0body": {
+            "image": "GRV N0body 2020 Split 1.png",
+            "residency": "Asia Pacific"
+        },
+        "NADA": {
+            "age": "31",
+            "image": "Av NADA.jpg"
+        },
+        "NK Adonis": {
+            "image": "SS Nk Adonis.jpg"
+        },
+        "NOsFerus": {
+            "age": "25"
+        },
+        "NRated": {
+            "age": "33"
+        },
+        "NaMei": {
+            "image": "RNG NaMei 2016 Summer.png"
+        },
+        "Naaage": {
+            "image": "WGD Naaage.png"
+        },
+        "Nagne": {
+            "age": "30"
+        },
+        "Nailao": {
+            "image": "GT Nailao 2018 Summer.png"
+        },
+        "Nano (Antonio Neto)": {
+            "image": "PaiN Nano.jpg"
+        },
+        "Nanouk": {
+            "image": "LoL Nanouk1.jpg"
+        },
+        "Nappon": {
+            "age": "30"
+        },
+        "Nardeus": {
+            "image": "BJK Nardeus 2016.png"
+        },
+        "Naru (Koray Bıçak)": {
+            "age": "28"
+        },
+        "Narukya": {
+            "image": "narukya1.jpg"
+        },
+        "Naruterador": {
+            "age": "31"
+        },
+        "Naryt": {
+            "age": "33"
+        },
+        "NasesUyno": {
+            "image": "TT NasesUyno.jpg"
+        },
+        "Naul": {
+            "age": "26",
+            "image": "FL Naul 2020 Split 2.png"
+        },
+        "Nausicaa": {
+            "age": "27",
+            "residency": "Asia Pacific"
+        },
+        "Nbs": {
+            "age": "34",
+            "image": "S3 Nbs.jpg"
+        },
+        "Nebula (Andres Cheung)": {
+            "residency": "Asia Pacific"
+        },
+        "Nectaar": {
+            "residency": "Asia Pacific"
+        },
+        "Neep": {
+            "age": "27"
+        },
+        "Neiman": {
+            "age": "30",
+            "image": "Neiman ava red.jpg"
+        },
+        "Nelson": {
+            "age": "31",
+            "residency": "Asia Pacific"
+        },
+        "Nemesis": {
+            "age": "25"
+        },
+        "Nemoh": {
+            "age": "25",
+            "residency": "Asia Pacific"
+        },
+        "Neny": {
+            "age": "21"
+        },
+        "Neo (Toàn Trần)": {
+            "name": "Trần Sư Toàn",
+            "residency": "Vietnam"
+        },
+        "Neon (Vladislav Zelinskiy)": {
+            "image": "VP Neon.png"
+        },
+        "NeptuNo": {
+            "image": "GIU Neptuno Spring 2016.jpeg"
+        },
+        "Neramin": {
+            "age": "23"
+        },
+        "Nerroh": {
+            "age": "28"
+        },
+        "NesrilaS": {
+            "image": "998049 10151797592988824 1212497838 n.jpg"
+        },
+        "Ness": {
+            "age": "28",
+            "image": "SHG Ness.png"
+        },
+        "Nesty": {
+            "residency": "Asia Pacific"
+        },
+        "Netuno": {
+            "age": "21"
+        },
+        "Nevan": {
+            "age": "27",
+            "image": "Nevan.png"
+        },
+        "Never (Cha Seung-joon)": {
+            "image": "PX Never 2018 Spring.jpg"
+        },
+        "New": {
+            "age": "26"
+        },
+        "Newt": {
+            "age": "26",
+            "image": "LGD Newt 2018 Split 2.png"
+        },
+        "Nicker": {
+            "image": "Nicker.jpg"
+        },
+        "Nickstah": {
+            "image": "Mineski Nickstah.png"
+        },
+        "Nickwu": {
+            "age": "32"
+        },
+        "Nien": {
+            "age": "30"
+        },
+        "NighT (Na Gun-woo)": {
+            "image": "WNS NighT 2018 Summer.png"
+        },
+        "Nightblue3": {
+            "age": "31"
+        },
+        "Niko3333": {
+            "image": "Niko3333.jpg"
+        },
+        "Niksar": {
+            "age": "30",
+            "image": "ASC Niksar 2018 WC.png"
+        },
+        "Niles (Aiden Tidwell)": {
+            "age": "25"
+        },
+        "Nille": {
+            "age": "24"
+        },
+        "NinjaKiwi": {
+            "age": "21"
+        },
+        "NintendudeX": {
+            "age": "29"
+        },
+        "Nipphu": {
+            "age": "30"
+        },
+        "Nisqy": {
+            "age": "26"
+        },
+        "NitriX": {
+            "age": "28",
+            "image": "D NitriX.jpg"
+        },
+        "Nixwater": {
+            "age": "39"
+        },
+        "NoA (Shunya Honda)": {
+            "age": "29"
+        },
+        "NoFe": {
+            "age": "36"
+        },
+        "NoRoo": {
+            "image": "APK NoRoo.png"
+        },
+        "NoWay (Frederik Hinteregger)": {
+            "age": "32",
+            "image": "NNO NoWay 2022.png"
+        },
+        "Noa (Ainhoa Campos)": {
+            "image": "Noa.jpg"
+        },
+        "Noah (Oh Hyeon-taek)": {
+            "age": "23"
+        },
+        "Noaphiel": {
+            "image": "Noaphiel.jpg"
+        },
+        "Nobody (Wang Fan)": {
+            "image": "MSC Nobody 2017 Summer.png"
+        },
+        "Noel (Noel Cruz)": {
+            "image": "MSGP Noel.png"
+        },
+        "Nogo": {
+            "age": "20"
+        },
+        "Nogod": {
+            "image": "HKA Nogod.jpg"
+        },
+        "Noi": {
+            "image": "noi.jpg"
+        },
+        "Nolja": {
+            "image": "xenicsnolja.jpg"
+        },
+        "Nomanz": {
+            "age": "26"
+        },
+        "NonameD": {
+            "image": "NoNameD.jpg"
+        },
+        "Noonia": {
+            "image": "Lemonnoonia.png"
+        },
+        "Nororin": {
+            "age": "30",
+            "image": "DFM nororin.jpg"
+        },
+        "Nothinghere": {
+            "image": "Nothinghere.jpg"
+        },
+        "Noxiak": {
+            "age": "30"
+        },
+        "Nper": {
+            "age": "22"
+        },
+        "NuL1": {
+            "residency": "Asia Pacific"
+        },
+        "Nubbypoohbear": {
+            "age": "34"
+        },
+        "Nuclear": {
+            "age": "27"
+        },
+        "Nugget (Yoo Hyeon-woo)": {
+            "image": "RGA Nugget 2018 Summer.png"
+        },
+        "Nuguri": {
+            "age": "25"
+        },
+        "Nukeduck": {
+            "age": "28"
+        },
+        "Nulu": {
+            "alternate_names": [
+                "Kori",
+                "Selfie"
+            ]
+        },
+        "Number1": {
+            "image": "YG Number1.png"
+        },
+        "Numlocked": {
+            "image": "Numlocked.jpg"
+        },
+        "Nxi": {
+            "age": "25"
+        },
+        "NydusHerMain": {
+            "age": "32"
+        },
+        "Nyjacky": {
+            "age": "36"
+        },
+        "Nymp": {
+            "image": "THS Nymp.gif"
+        },
+        "Nysyli": {
+            "age": "31"
+        },
+        "Nyxyvel": {
+            "age": "27"
+        },
+        "Nzq": {
+            "age": "30"
+        },
+        "OPG1": {
+            "image": "VK OPG1 2018 Summer.png"
+        },
+        "Oc": {
+            "image": "ocschos.jpg"
+        },
+        "Oceans11": {
+            "image": "NXL Oceans11 2018 Spring.jpg"
+        },
+        "Ocelote": {
+            "age": "34"
+        },
+        "Oddie": {
+            "age": "27"
+        },
+        "Ohq": {
+            "age": "28"
+        },
+        "Omni": {
+            "age": "31"
+        },
+        "Once": {
+            "age": "26"
+        },
+        "Onesh0tiq": {
+            "age": "31",
+            "image": "aMiracle Na'Vi CIS Summer 2017.png"
+        },
+        "OniiKhan": {
+            "age": "22"
+        },
+        "Orca (Darren Goh)": {
+            "image": "Corgi Orca TLC SG Spring Season.png"
+        },
+        "Oscarinin": {
+            "age": "21"
+        },
+        "Osmo": {
+            "residency": "None"
+        },
+        "Otchie": {
+            "image": "WG otchie.png"
+        },
+        "Ouroboy": {
+            "age": "26"
+        },
+        "Ouzi": {
+            "age": "21"
+        },
+        "OwN": {
+            "image": "paiN owN.jpg"
+        },
+        "Owen (Daniel Durzyński)": {
+            "age": "30",
+            "image": "Owen.jpg"
+        },
+        "Oxydrean": {
+            "image": "Oxydrean.jpg"
+        },
+        "OzoraVeki": {
+            "age": "27",
+            "image": "KLH Veki 2018 Spring.png"
+        },
+        "Ozuka": {
+            "residency": "Asia Pacific"
+        },
+        "P1noy": {
+            "age": "28"
+        },
+        "P41NN": {
+            "age": "26"
+        },
+        "PDD": {
+            "image": "2021 PDD.png"
+        },
+        "Pacman": {
+            "age": "29",
+            "image": "LGC Pacman January 2016.png"
+        },
+        "Pain (Blaise Damasco)": {
+            "image": "XSV Pain (Blaise Damasco).png"
+        },
+        "Pain (Radhi Nadim Garma)": {
+            "residency": "None"
+        },
+        "Pako": {
+            "age": "23"
+        },
+        "Palafox": {
+            "age": "25"
+        },
+        "Pampy": {
+            "image": "Tspampy.png"
+        },
+        "Panda (James Ding)": {
+            "age": "28"
+        },
+        "PandaPaws": {
+            "image": "TFR PandaPaws.png"
+        },
+        "Panj": {
+            "age": "26"
+        },
+        "Panky (Uğur Taş)": {
+            "image": "BJK Panky 2019 Split 1.png"
+        },
+        "Paolocannone": {
+            "age": "29",
+            "alternate_names": [
+                "PaulCannon"
+            ],
+            "image": "QLS Paolocannone.jpg"
+        },
+        "Paragon": {
+            "age": "29"
+        },
+        "Paralyze": {
+            "image": "Paralyze 2019.png"
+        },
+        "Parang": {
+            "age": "28"
+        },
+        "Paranoia": {
+            "age": "29",
+            "image": "DA Paranoia 2019 Split 1.png"
+        },
+        "Paris": {
+            "age": "26"
+        },
+        "Part": {
+            "image": "bbq Part 2017 Summer.png"
+        },
+        "Patch (Han Seung-min)": {
+            "age": "23"
+        },
+        "Pbd": {
+            "age": "27"
+        },
+        "Pdr": {
+            "image": "PedroPdr.jpg"
+        },
+        "Peace (Lin Shang-Ren)": {
+            "age": "24"
+        },
+        "Pecko": {
+            "image": "CJpecko.jpg"
+        },
+        "Peco (Ömer Türgüt)": {
+            "age": "23"
+        },
+        "PeehSmite": {
+            "image": "CGA Peehsmite.jpg"
+        },
+        "Pekin Woof": {
+            "age": "30"
+        },
+        "Peluchin": {
+            "age": "31"
+        },
+        "Penguin (Nguyễn Đăng Khoa)": {
+            "age": "22"
+        },
+        "Penguin (Zhao Shuai)": {
+            "age": "27"
+        },
+        "PentaQ": {
+            "image": "GT PentaQ 2017 Spring.png"
+        },
+        "Pepiinero": {
+            "image": "S2V Pπ 2019 Split 1.png"
+        },
+        "PerfecT (Lee Seung-min)": {
+            "age": "20"
+        },
+        "PerfectBeing": {
+            "image": "PERFECT BEING.png"
+        },
+        "Perhapstky": {
+            "image": "HKA Perhaps.jpg"
+        },
+        "Perkz": {
+            "age": "26"
+        },
+        "PessChap": {
+            "image": "TCH PessimisticChapp.jpg"
+        },
+        "Petland": {
+            "age": "27",
+            "image": "SE Petland 2021 Split 1.png"
+        },
+        "PewPewSolari": {
+            "image": "VAE PewPewSolari 2019 Split 2.png"
+        },
+        "PhantomL0rd": {
+            "age": "36",
+            "image": "Phantoml0rd.jpg"
+        },
+        "Pheilox": {
+            "image": "Logix Pheilox.jpg"
+        },
+        "Philip (Philip Zeng)": {
+            "age": "22"
+        },
+        "Phlaty": {
+            "age": "27"
+        },
+        "Phoenix (Yehezkiel Parmonangan)": {
+            "image": "PX Phoenix 2017.png"
+        },
+        "Phones": {
+            "residency": "Europe"
+        },
+        "Phurion": {
+            "image": "PhurionEUW.jpg"
+        },
+        "Piccaboo": {
+            "image": "KT Piccaboo 2015 Summer.png"
+        },
+        "Picoca": {
+            "image": "paiN Picoca 2016 Winter.jpg"
+        },
+        "Piero (Kim Jung-hun)": {
+            "age": "22"
+        },
+        "Piglet (Reuben Salb)": {
+            "age": "24",
+            "residency": "Asia Pacific"
+        },
+        "Piloto": {
+            "age": "25"
+        },
+        "Pilter": {
+            "image": "BUR Pilter 2019 Split 1.png"
+        },
+        "Pinvvei": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Piolho": {
+            "age": "28",
+            "image": "Piolho DeX.png"
+        },
+        "Pipi": {
+            "image": "OMD Pipi 2018 Summer.png"
+        },
+        "Pirozhok": {
+            "image": "MIREA Pirozhok 2018 autumn.png"
+        },
+        "Piter Pokir": {
+            "image": "VP legat.png"
+        },
+        "PkerHide": {
+            "age": "29"
+        },
+        "Playcool": {
+            "age": "23"
+        },
+        "Pokka": {
+            "image": "J2G Pokka.png"
+        },
+        "Police (Park Hyeong-gi)": {
+            "image": "DS Police 2017 Summer.png"
+        },
+        "Poltron": {
+            "residency": "Asia Pacific"
+        },
+        "Polyokov": {
+            "age": "26",
+            "image": "Polyokov 2017.jpg"
+        },
+        "Pomelo": {
+            "image": "S3 bigpomelo.jpg"
+        },
+        "Pooh (Emil Aliev)": {
+            "age": "28",
+            "image": "RoX pooh 2019 Split 2.png"
+        },
+        "Poome": {
+            "age": "25"
+        },
+        "Pop": {
+            "age": "26"
+        },
+        "Poppy (Chang Po-Hao)": {
+            "age": "33"
+        },
+        "Porky (Nikolo Tayag)": {
+            "image": "Av Porky.jpg"
+        },
+        "Poro (Omar Essam)": {
+            "residency": "None"
+        },
+        "Porrabox": {
+            "image": "HH PorraBox 2018 Spring.jpg"
+        },
+        "Potluck": {
+            "age": "26"
+        },
+        "Pout": {
+            "age": "21"
+        },
+        "PowerOfEvil": {
+            "residency": "EMEA"
+        },
+        "Powerofdream": {
+            "image": "VP PowerOfDreams.png"
+        },
+        "Poysanity": {
+            "image": "Poysanity bg.jpg"
+        },
+        "PrZo": {
+            "image": "DeX prZo 2016SmPromo.jpg"
+        },
+        "Praedyth": {
+            "age": "25"
+        },
+        "Prage": {
+            "residency": "Asia Pacific"
+        },
+        "Prb": {
+            "image": "Prb lol.jpeg"
+        },
+        "Pretender": {
+            "residency": "Asia Pacific"
+        },
+        "Pride (Franco Sanzana)": {
+            "age": "28"
+        },
+        "Prime (Yoon Du-sik)": {
+            "age": "30",
+            "image": "KT Prime 2015 Summer.png"
+        },
+        "Primo (Shion Tsunasawa)": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Procxin": {
+            "age": "29"
+        },
+        "Prod (Barış Erbay)": {
+            "image": "Prod.jpg"
+        },
+        "Profit": {
+            "age": "29",
+            "image": "FL Profit 2020 Split 2.png"
+        },
+        "Promise (Cheon Min-ki)": {
+            "image": "Promise.jpg"
+        },
+        "Prothana": {
+            "age": "31",
+            "image": "Prothana.jpg"
+        },
+        "Prototype": {
+            "age": "29"
+        },
+        "Proxious": {
+            "age": "28",
+            "image": "Proxious.png"
+        },
+        "Pullbae": {
+            "age": "20"
+        },
+        "Puma": {
+            "residency": "Asia Pacific"
+        },
+        "Pun": {
+            "age": "22"
+        },
+        "Punch": {
+            "age": "26"
+        },
+        "PvPStejos": {
+            "image": "GMB PvPStejos 2019 Split 2.png"
+        },
+        "Pyrex": {
+            "image": "Empire Pyrex.png"
+        },
+        "Pyri": {
+            "image": "Acer pyri.jpg"
+        },
+        "Pyshiro": {
+            "age": "21"
+        },
+        "QaiZer": {
+            "age": "29"
+        },
+        "QaspieL": {
+            "age": "29"
+        },
+        "Qeo": {
+            "image": "VK Beo 2018 Summer.png"
+        },
+        "Qixiaoyin": {
+            "age": "31"
+        },
+        "Qoo": {
+            "age": "29",
+            "residency": "Asia Pacific"
+        },
+        "Quad": {
+            "age": "22"
+        },
+        "Quaker": {
+            "age": "29"
+        },
+        "Quantum (Son Jeong-hwan)": {
+            "age": "20"
+        },
+        "Ques": {
+            "image": "Ques Team Just 2016.jpg"
+        },
+        "RF Legendary": {
+            "age": "29"
+        },
+        "RIVA": {
+            "age": "26"
+        },
+        "ROBERTxLEE": {
+            "age": "32"
+        },
+        "Rabi2": {
+            "alternate_names": [
+                "Rabi2"
+            ]
+        },
+        "Raccoon (Hwang Won-jun)": {
+            "image": "Raccoon.jpg"
+        },
+        "Radians": {
+            "image": "BGES Radians 2018 Spring.jpg"
+        },
+        "Raes": {
+            "residency": "Asia Pacific"
+        },
+        "Ragan": {
+            "image": "Ragan.png"
+        },
+        "Rain (An Hyeon-guk)": {
+            "age": "28"
+        },
+        "Rain (Liu Min-Hung)": {
+            "image": "NGU QuietRain.jpg"
+        },
+        "Raina": {
+            "residency": "Asia Pacific"
+        },
+        "Rainbow (Wang Wei)": {
+            "image": "GT rainbow 2018 Summer.png"
+        },
+        "Raison": {
+            "age": "29"
+        },
+        "Rakyl": {
+            "age": "28"
+        },
+        "Ran (Chen Kuan-Yu)": {
+            "age": "28"
+        },
+        "Ranger": {
+            "name": "Filipe Brombilla de Bairros"
+        },
+        "Rapid (Jeff Macolonie)": {
+            "age": "28"
+        },
+        "Rapier": {
+            "image": "IGL Rapier.png"
+        },
+        "Raux": {
+            "image": "ARK Raux 2018 Summer.png"
+        },
+        "Raven (Kim Ae-jun)": {
+            "image": "SKTRaven.png"
+        },
+        "Ravenno": {
+            "image": "Refuse Ravenno.png"
+        },
+        "Rawbin IV": {
+            "age": "29",
+            "image": "SPK Rawbin PG Nationals 2019 Spring.jpg",
+            "residency": "Europe"
+        },
+        "Ray Lefty": {
+            "image": "BUR Ray Lefty 2019 Split 2.png"
+        },
+        "RayFarky": {
+            "age": "25",
+            "residency": "Asia Pacific"
+        },
+        "Raydere": {
+            "image": "Raydere.png"
+        },
+        "Rayz": {
+            "image": "KLH Rayz 2018 Spring.png"
+        },
+        "Razork": {
+            "age": "24"
+        },
+        "ReD (Lee Siu Hin)": {
+            "image": "CGA Ls ReD.jpg"
+        },
+        "ReGank": {
+            "image": "ASR ReGank 2019 Split 2.jpg"
+        },
+        "React": {
+            "image": "AUR React 2017 Spring.png"
+        },
+        "Realer": {
+            "residency": "Asia Pacific"
+        },
+        "Rebengga": {
+            "age": "32",
+            "image": "IPTRebengga.jpg"
+        },
+        "Rebirth (Fu Chun Kit)": {
+            "residency": "Asia Pacific"
+        },
+        "RedBert": {
+            "age": "26"
+        },
+        "Reeker": {
+            "age": "23"
+        },
+        "Regi": {
+            "age": "29"
+        },
+        "Reignover": {
+            "age": "29"
+        },
+        "Rein": {
+            "image": "MSU Rein 2018 autumn.png"
+        },
+        "Reiya": {
+            "age": "26"
+        },
+        "Rekkles": {
+            "age": "28"
+        },
+        "Relhia": {
+            "residency": "Asia Pacific"
+        },
+        "Rellik (André Guerra)": {
+            "image": "deX Rellik.jpg"
+        },
+        "Remilia": {
+            "image": "remilia2019.jpg"
+        },
+        "Remus": {
+            "image": "MAI Remus 2016 autumn.png"
+        },
+        "RenYe": {
+            "residency": "Asia Pacific"
+        },
+        "ReostA": {
+            "image": "DP ReostA.jpg"
+        },
+        "Reufury": {
+            "residency": "Asia Pacific"
+        },
+        "Revanche": {
+            "image": "HWA Revanche 2018 Split 2.png"
+        },
+        "Revelate": {
+            "residency": "Asia Pacific"
+        },
+        "Revenge (Mohamed Kaddoura)": {
+            "age": "25"
+        },
+        "Revenger (Moataz Magdy Mostafa)": {
+            "image": "3BL Revenger.png"
+        },
+        "Reversed": {
+            "age": "24",
+            "name": "Carlos&amp;nbsp;Jayme Oliveira Silva"
+        },
+        "Revive (Daniel Tan Kar Hoe)": {
+            "image": "Flash Revive TLC Singapore Spring Season 2017.png"
+        },
+        "Rewrite (Shin Jong-myung)": {
+            "image": "THS Rewrite.gif"
+        },
+        "Rexion": {
+            "image": "Orange Rexion 2018 Spring.png"
+        },
+        "Rhioni": {
+            "age": "25",
+            "residency": "Turkey"
+        },
+        "Rhuckz": {
+            "age": "28",
+            "name": "Rúben&amp;nbsp;Alexandre Barbosa Neves"
+        },
+        "Rhux": {
+            "age": "30"
+        },
+        "Ribena": {
+            "image": "FDE Ribena 2018 Spring.png"
+        },
+        "RicePanda": {
+            "age": "34"
+        },
+        "Richard": {
+            "age": "29"
+        },
+        "Ricky": {
+            "residency": "Asia Pacific"
+        },
+        "Rigel (Đào Văn Tuấn)": {
+            "name": "Đào Văn Tuân"
+        },
+        "Rika (Peng Jun-Kai)": {
+            "image": "JDM Rika 2018 Spring.png"
+        },
+        "Ring Troll": {
+            "image": "LGring.jpg"
+        },
+        "Rins": {
+            "image": "FW Rins 2017 Spring.png"
+        },
+        "Ripi": {
+            "age": "28",
+            "image": "EMK Ripi 2018 Spring.jpg"
+        },
+        "Rippii": {
+            "image": "DW Rippii 2017 Spring.png"
+        },
+        "Ritix": {
+            "image": "BPI Ritix.jpg"
+        },
+        "River (Kim Dong-woo)": {
+            "age": "25"
+        },
+        "Riyev": {
+            "age": "28"
+        },
+        "Rkp": {
+            "age": "33"
+        },
+        "Road (Yun Han-gil)": {
+            "age": "29"
+        },
+        "Roamer": {
+            "age": "21"
+        },
+        "Roar (Oh Jang-won)": {
+            "age": "29",
+            "image": "APX Roar 2016 Summer.png"
+        },
+        "Rocco521": {
+            "residency": "Asia Pacific"
+        },
+        "Rock (Kim Hui-chan)": {
+            "image": "Falcons Rock.jpg"
+        },
+        "Rofens": {
+            "image": "J2G Rofens.png"
+        },
+        "Rogu": {
+            "age": "30",
+            "image": "AUR Rogu 2018 Split 2.png"
+        },
+        "Rogue (Jake Sharwood)": {
+            "age": "26"
+        },
+        "Rokenia": {
+            "age": "29"
+        },
+        "Roki": {
+            "age": "28"
+        },
+        "Romantic": {
+            "age": "31",
+            "image": "EPA Romantic 2016 Spring.png"
+        },
+        "Romuka": {
+            "age": "23"
+        },
+        "Rough": {
+            "image": "TF Rough 2018 Summer.png"
+        },
+        "Roulette": {
+            "age": "24"
+        },
+        "Rounders": {
+            "image": "NeL Rounders.jpg"
+        },
+        "RubeN (Ruben Sutanto)": {
+            "image": "HH rubeN 2018 Spring.png"
+        },
+        "Ruby (Lee Sol-min)": {
+            "age": "26"
+        },
+        "Rui (Wang Xing-Rui)": {
+            "image": "Royal Rui.jpg"
+        },
+        "Rule18": {
+            "image": "F5 Rule18.jpeg"
+        },
+        "Ruvelius": {
+            "age": "25",
+            "residency": "Turkey"
+        },
+        "Ryoma": {
+            "age": "25"
+        },
+        "Ryoo": {
+            "image": "HLN Ryoo.jpg"
+        },
+        "Ryuk": {
+            "age": "21"
+        },
+        "Ryuzaki": {
+            "age": "25"
+        },
+        "S4mpe": {
+            "age": "28"
+        },
+        "SA1NA": {
+            "image": "sa1na.png"
+        },
+        "SAD (Nguyễn Minh Trung)": {
+            "age": "27",
+            "image": "SAD.jpg"
+        },
+        "SAN8II": {
+            "image": "SAN8II 2018.png"
+        },
+        "SAND (Philipp Bennek)": {
+            "image": "Sand.jpg"
+        },
+        "SBs": {
+            "age": "32"
+        },
+        "SHAKa (Yang Zhen-Yu)": {
+            "age": "25",
+            "alternate_names": [
+                "Ko1eee",
+                "SHAKa (Yang Zhen-Yu)"
+            ],
+            "residency": "Asia Pacific"
+        },
+        "SIUSIU": {
+            "alternate_names": [
+                "Eli",
+                "SIUSIU",
+                "Zor"
+            ]
+        },
+        "SMAII": {
+            "age": "25"
+        },
+        "SPARKLE": {
+            "age": "21"
+        },
+        "SPOOKY (Miroslav Gochev)": {
+            "age": "25"
+        },
+        "SSuN (Oh Yeong-gyo)": {
+            "age": "30"
+        },
+        "SYDTKO": {
+            "image": "Wat.jpg"
+        },
+        "SaDJesteRRR": {
+            "age": "33"
+        },
+        "SaNTaS": {
+            "age": "28"
+        },
+        "SaSin": {
+            "image": "SBE SaSin 2016 Spring.png"
+        },
+        "SaZeD": {
+            "image": "sazed.jpg"
+        },
+        "Sabo (Trần Nguyễn Anh Khoa)": {
+            "age": "19"
+        },
+        "Sacre": {
+            "age": "28"
+        },
+        "Sacy": {
+            "image": "RED Sacy.png"
+        },
+        "Safir": {
+            "image": "ROC Safir 2016 Spring.png"
+        },
+        "SagaZ": {
+            "age": "32",
+            "image": "SHAGAIZ.jpg"
+        },
+        "Saintvicious": {
+            "age": "37"
+        },
+        "Sakka": {
+            "image": "Sakka.png"
+        },
+        "Samux": {
+            "age": "29"
+        },
+        "Samwise12": {
+            "image": "Samwise12.jpg"
+        },
+        "San1 (Eslam Ashraf)": {
+            "age": "27"
+        },
+        "Sangchu": {
+            "age": "24"
+        },
+        "Sarsky": {
+            "age": "31",
+            "image": "TPAsarsky.jpg"
+        },
+        "Save": {
+            "age": "31",
+            "image": "IG Save 2017 Spring.png"
+        },
+        "Save (Im Jin-hyeok)": {
+            "age": "27"
+        },
+        "Saviour": {
+            "age": "27"
+        },
+        "Scamber": {
+            "age": "24"
+        },
+        "Scar (Sami Guezmir)": {
+            "image": "SCAR.png"
+        },
+        "Scardorz": {
+            "age": "27"
+        },
+        "Scarface (Daniel Aitbelkacem)": {
+            "age": "25"
+        },
+        "ScarletPetal": {
+            "residency": "Asia Pacific"
+        },
+        "Scary (Nguyễn Hải Hà)": {
+            "image": "GAM Scary 2021 Split 2.png"
+        },
+        "Score": {
+            "age": "32"
+        },
+        "Scorth": {
+            "age": "22"
+        },
+        "Scouter": {
+            "image": "THS MulrOc.gif"
+        },
+        "ScubaChris": {
+            "age": "31"
+        },
+        "Scxtt": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Se7en (Kuo Yi-Chiun)": {
+            "image": "YoeFW Momo.jpg"
+        },
+        "SeNBon (Wu Si-Yu)": {
+            "age": "24",
+            "residency": "Asia Pacific"
+        },
+        "Sean (So Ho Bun)": {
+            "image": "CGA Ls Sean.jpg"
+        },
+        "Seb (Sebastian de Ceglie)": {
+            "age": "29",
+            "image": "BMR Seb 2018 Spring.png"
+        },
+        "Secaf Reis": {
+            "age": "29",
+            "image": "Secaf Reis.png"
+        },
+        "Secr3t": {
+            "image": "FFQ Lies 2018 Spring.png"
+        },
+        "Secret (Park Ki-sun)": {
+            "age": "27"
+        },
+        "Sega": {
+            "age": "27",
+            "image": "Muhammad -SEGA- Aditya Fadilla.jpeg"
+        },
+        "Seifzone": {
+            "age": "24",
+            "image": "Seifzone.png"
+        },
+        "Seiya": {
+            "age": "28"
+        },
+        "Sek": {
+            "age": "29"
+        },
+        "Selfdestruct": {
+            "image": "selfdestruct.jpg"
+        },
+        "Selson": {
+            "country": "Saudi Arabia"
+        },
+        "Sencux": {
+            "age": "26"
+        },
+        "Senyu": {
+            "residency": "Europe"
+        },
+        "Serano": {
+            "residency": "None"
+        },
+        "Seranok": {
+            "age": "27"
+        },
+        "Seraph": {
+            "residency": "North America"
+        },
+        "Sergh": {
+            "image": "SE Sergh 2022 Split 1.png"
+        },
+        "Sessh": {
+            "image": "MGG Sessh 2017 Winter.png"
+        },
+        "SethThunder": {
+            "age": "25",
+            "image": "SethThunder.png"
+        },
+        "Shacker": {
+            "age": "28"
+        },
+        "Shadow (Facundo Cuello)": {
+            "age": "25"
+        },
+        "Shady (Nguyễn Phi Anh)": {
+            "age": "31"
+        },
+        "Shakespeare": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Shales (Matt Splivalo)": {
+            "age": "38"
+        },
+        "Shambanze": {
+            "age": "23"
+        },
+        "Shanji": {
+            "age": "24"
+        },
+        "Shao": {
+            "image": "Shaosters.jpg"
+        },
+        "Shaoran": {
+            "age": "25",
+            "image": "HOF Shaoran 2018 Spring.png"
+        },
+        "ShardBlade": {
+            "residency": "Asia Pacific"
+        },
+        "Shark (Kim Joo-hyeong)": {
+            "age": "24"
+        },
+        "Shaunz": {
+            "image": "Shaunz coach Gambit Gaming.jpg"
+        },
+        "Shending MA": {
+            "age": "27"
+        },
+        "ShengBai": {
+            "age": "26"
+        },
+        "Shenyi": {
+            "age": "22"
+        },
+        "Sheo": {
+            "age": "23"
+        },
+        "ShiauC": {
+            "age": "25"
+        },
+        "Shine (Bùi Đăng Khoa)": {
+            "image": "HFL Shine.jpg"
+        },
+        "Shine (Chen Yang)": {
+            "age": "31"
+        },
+        "Shine (Tam See Kheing)": {
+            "residency": "Asia Pacific"
+        },
+        "Shini": {
+            "age": "27",
+            "name": "Diogo Rogê Moreira"
+        },
+        "Shinie": {
+            "image": "SF5 Yushin new.png"
+        },
+        "Shinki": {
+            "residency": "Asia Pacific"
+        },
+        "Shinya": {
+            "image": "IS Shinya.jpg"
+        },
+        "Shlatan": {
+            "age": "23"
+        },
+        "Shmebu": {
+            "age": "26"
+        },
+        "ShorterACE": {
+            "age": "27"
+        },
+        "ShowMaker": {
+            "age": "24"
+        },
+        "Shtegre": {
+            "image": "Shtegre.jpg"
+        },
+        "Shunn": {
+            "age": "22"
+        },
+        "Shura (Mark Eddyson Ladrera)": {
+            "image": "WGD Shura.png"
+        },
+        "Shy": {
+            "age": "33"
+        },
+        "Shyn": {
+            "image": "HFLShyn.jpg"
+        },
+        "Sicca": {
+            "image": "Sic.jpg"
+        },
+        "Sickoscott": {
+            "age": "33"
+        },
+        "Sid": {
+            "age": "35"
+        },
+        "Silver Carry": {
+            "image": "IW Silver Carry 2017.jpg"
+        },
+        "SimSin": {
+            "image": "EMP SimSin 2017 Split 2.jpg"
+        },
+        "SinkDream": {
+            "image": "KNG SinkDream 2015 Summer.png"
+        },
+        "Sirt": {
+            "image": "BGJ SirT 2017 Summer.png"
+        },
+        "Sjw": {
+            "age": "23"
+        },
+        "Skarm": {
+            "image": "TCM Scum.jpg"
+        },
+        "Skash": {
+            "age": "30",
+            "image": "CZV Skash 2019 Split 2.png"
+        },
+        "Skeanz": {
+            "age": "24"
+        },
+        "Skewer": {
+            "age": "23",
+            "residency": "Turkey"
+        },
+        "Skill": {
+            "image": "WG Skill.png"
+        },
+        "Skullomania": {
+            "image": "WW Skullomania.jpg"
+        },
+        "Sky (Kim Ha-neul)": {
+            "age": "26"
+        },
+        "Skyer": {
+            "age": "32",
+            "image": "OPK Skyer 2016 Winter.jpg"
+        },
+        "Skype": {
+            "age": "25"
+        },
+        "Skyyart": {
+            "image": "mosthandsomeEU.jpg"
+        },
+        "Slay": {
+            "age": "27"
+        },
+        "SleazyWeazy": {
+            "image": "Sleazy.jpg"
+        },
+        "Sleper": {
+            "image": "CrsSleper.jpg"
+        },
+        "Sly (Lanz Andee Chu)": {
+            "image": "XSW Sly.png"
+        },
+        "SmallBrain": {
+            "image": "XD SmallBrain.gif"
+        },
+        "Smeb": {
+            "age": "29"
+        },
+        "Smlz": {
+            "age": "27"
+        },
+        "Smoke": {
+            "image": "BJK Smoke 2019 Split 2.png"
+        },
+        "Smooth": {
+            "image": "Smooth.png"
+        },
+        "Smurf (Dmitri Ivanov)": {
+            "age": "30",
+            "image": "M19 Smurf 2019 Split 1.png"
+        },
+        "Smurph": {
+            "image": "SmurfIM12014.png"
+        },
+        "Snoopeh": {
+            "age": "33"
+        },
+        "Snoopy (Renato Chávez)": {
+            "age": "28"
+        },
+        "Snowlz": {
+            "image": "G3x Snowlz 2016 Summer.png"
+        },
+        "Snoy": {
+            "image": "S3 Snoy.jpg"
+        },
+        "SoaR": {
+            "age": "27"
+        },
+        "Sogo": {
+            "age": "32"
+        },
+        "Sola": {
+            "image": "SINN Sola 2020.png"
+        },
+        "Solid (Diego Vallejo)": {
+            "age": "26"
+        },
+        "Solo (Colin Earnest)": {
+            "age": "31"
+        },
+        "Somaless": {
+            "alternate_names": [
+                "Snow (Chang Tsung-Ting)"
+            ]
+        },
+        "Something": {
+            "age": "25"
+        },
+        "Sonata": {
+            "age": "27"
+        },
+        "Sonstar": {
+            "age": "30"
+        },
+        "Soraaa": {
+            "age": "25"
+        },
+        "Sorn": {
+            "age": "24"
+        },
+        "Sou": {
+            "image": "2017 LK Sou.png"
+        },
+        "Soul (Seo Hyeon-seok)": {
+            "image": "CJE Soul 2017 Summer.png"
+        },
+        "Soulsilver": {
+            "image": "Soulsilver.jpg"
+        },
+        "Soulstrikes": {
+            "image": "Luchio.png"
+        },
+        "Southwind": {
+            "age": "28"
+        },
+        "SozPurefect": {
+            "age": "30"
+        },
+        "Space (Seon Ho-san)": {
+            "age": "31",
+            "image": "CJ Space 2015 Summer.png"
+        },
+        "Sparda": {
+            "age": "22"
+        },
+        "Spawn (Trevor Kerr-Taylor)": {
+            "age": "26"
+        },
+        "Speed": {
+            "image": "APK Speed.png"
+        },
+        "Spirit": {
+            "age": "28"
+        },
+        "Sponge": {
+            "age": "20"
+        },
+        "Spot": {
+            "age": "24"
+        },
+        "Spotted": {
+            "age": "27"
+        },
+        "Square (Surya Wana Bakti)": {
+            "image": "NXL Square 2018 Spring.jpg"
+        },
+        "Ssumday": {
+            "age": "28"
+        },
+        "Star (Fu Yang)": {
+            "image": "EPA Star 2016 Spring.png"
+        },
+        "StarLast": {
+            "age": "33",
+            "image": "SKTStarLast.png"
+        },
+        "Starfall": {
+            "image": "HFLStarfall.jpg"
+        },
+        "Stark (Phan Công Minh)": {
+            "image": "TF Stark 2023 Split 1.png"
+        },
+        "Starlight": {
+            "age": "28"
+        },
+        "Steak": {
+            "age": "32"
+        },
+        "Steeelback": {
+            "age": "28"
+        },
+        "Steve (Etienne Michels)": {
+            "age": "29",
+            "image": "S04 Steve 2016 Summer.png"
+        },
+        "Stierlitz": {
+            "image": "M19 Stierlitz.png"
+        },
+        "StineR": {
+            "age": "19"
+        },
+        "Sting": {
+            "age": "23"
+        },
+        "Strategas": {
+            "image": "strat2.png"
+        },
+        "Strive": {
+            "age": "22"
+        },
+        "Stronger": {
+            "image": "WG Stronger.png"
+        },
+        "Style (Ignacio Pezoa)": {
+            "age": "24"
+        },
+        "Styled": {
+            "residency": "Asia Pacific"
+        },
+        "StyllEE": {
+            "age": "26",
+            "image": "MRDS StyllEE 2019 Split 2.png"
+        },
+        "Styx (Samuel Blanchard)": {
+            "residency": "Asia Pacific"
+        },
+        "Styz": {
+            "image": "SAT Styz 2016 Summer.png"
+        },
+        "SuNo": {
+            "image": "SuNo SK Gaming EUCS 2016 Spring.png"
+        },
+        "SunChip": {
+            "image": "mvpbsunchip.jpg"
+        },
+        "SunRiver": {
+            "image": "MKZ SunRiver.jpg"
+        },
+        "SunSieu": {
+            "image": "FFQ SunSieu 2018 Spring.png"
+        },
+        "Sunblast": {
+            "age": "27"
+        },
+        "Sundae": {
+            "image": "TF Sundae 2018 Summer.png"
+        },
+        "Sunmer": {
+            "age": "21"
+        },
+        "Sunny (Nguyễn Thanh Phong)": {
+            "age": "29",
+            "image": "Sunny.jpg",
+            "residency": "SEA"
+        },
+        "SuperAZE": {
+            "image": "IND SuperAZE 2019 Split 1.png"
+        },
+        "SuperCat": {
+            "age": "31",
+            "image": "EP.HK SuperCat.png"
+        },
+        "Svikter": {
+            "residency": "Europe"
+        },
+        "Sw0rd": {
+            "age": "27"
+        },
+        "SwaGz": {
+            "image": "KTB MaGsi.png"
+        },
+        "SwaT": {
+            "age": "25",
+            "image": "Swat.png",
+            "residency": "None"
+        },
+        "Swanepoel": {
+            "image": "Swanepoel 4.jpg"
+        },
+        "Sweet (Lee Eun-teak)": {
+            "age": "29",
+            "image": "Sweet (Lee Eun-teak) Summer 2016.png"
+        },
+        "Sweet (Ryota Murakami)": {
+            "age": "32"
+        },
+        "Swift": {
+            "age": "28",
+            "image": "VG Swift 2018 Summer.png"
+        },
+        "Sworb": {
+            "residency": "Asia Pacific"
+        },
+        "Sya": {
+            "age": "25",
+            "image": "FFQ Sya 2018 Summer.png"
+        },
+        "Sybol": {
+            "age": "28"
+        },
+        "Symphony": {
+            "image": "HR Symphony 2015IWCI.png"
+        },
+        "Syu": {
+            "age": "26"
+        },
+        "T4nky": {
+            "age": "28",
+            "image": "WPE t4nky 2019 Split 1.png"
+        },
+        "TNS": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "TQ": {
+            "name": "Hoàng Quang Trường"
+        },
+        "TR1GGERED": {
+            "image": "VS TRIGGERED 2019 Split 1.png"
+        },
+        "TXBB": {
+            "image": "Phx.TXBB.jpg"
+        },
+        "Taco (Fan Zhao-Fu)": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Tactical": {
+            "age": "24"
+        },
+        "Taeyoon": {
+            "age": "22"
+        },
+        "Taikki": {
+            "image": "BUR Taikki 2019 Split 2.png"
+        },
+        "Tails": {
+            "age": "30"
+        },
+        "Taizan": {
+            "alternate_names": [
+                "Taizan"
+            ]
+        },
+        "Tak (Vong Tak Seng)": {
+            "age": "27"
+        },
+        "Taka": {
+            "residency": "Asia Pacific"
+        },
+        "TakashiX": {
+            "image": "TakashiX1.jpg"
+        },
+        "Takefun": {
+            "image": "OC-TakeFun-2015eucs.png"
+        },
+        "Takeshi": {
+            "age": "31"
+        },
+        "Taki (Đinh Anh Tài)": {
+            "age": "21"
+        },
+        "Tako": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Tally": {
+            "age": "27"
+        },
+        "Tamsu": {
+            "image": "Tamsu Acclaim.png"
+        },
+        "Tangwa": {
+            "age": "26"
+        },
+        "Tantrum": {
+            "image": "Refuse tantrum.jpg"
+        },
+        "Targamas": {
+            "age": "24"
+        },
+        "Tartarus": {
+            "age": "33"
+        },
+        "Tarzan (Cao Ngọc Thắng)": {
+            "image": "utm-tarzan1.png",
+            "residency": "SEA"
+        },
+        "Tarzan (Lee Seung-yong)": {
+            "age": "25"
+        },
+        "Tauren": {
+            "age": "29",
+            "image": "Tauren.png"
+        },
+        "TbN": {
+            "image": "TLG PinkPanda.jpg"
+        },
+        "Tbq": {
+            "age": "28"
+        },
+        "TcAL": {
+            "image": "Hippo TcAL.gif"
+        },
+        "Teacherma": {
+            "age": "25"
+        },
+        "Tear (Nguyễn Chiến Thắng)": {
+            "image": "GLX Tear 2021 Split 1.png"
+        },
+        "Teddy (Megat Badrul)": {
+            "image": "Geek Wendy 2018 Spring.png"
+        },
+        "Teeen": {
+            "age": "23"
+        },
+        "Tei": {
+            "age": "33"
+        },
+        "Telas": {
+            "age": "20"
+        },
+        "Ten10": {
+            "age": "23"
+        },
+        "Terenas": {
+            "image": "Terenas - Pic 1.png"
+        },
+        "Terette": {
+            "age": "28"
+        },
+        "Test Sup": {
+            "age": "23"
+        },
+        "Tgee": {
+            "alternate_names": [
+                "Tgee"
+            ]
+        },
+        "Thaldrin": {
+            "age": "30"
+        },
+        "The Other": {
+            "image": "NeL The Other.jpg"
+        },
+        "The Rain Man": {
+            "age": "34",
+            "image": "Trmlol.jpg"
+        },
+        "TheEscort": {
+            "image": "EMD TheEscort.jpg"
+        },
+        "TheFakeOne": {
+            "image": "TheFakeOne.png"
+        },
+        "TheFoxz": {
+            "image": "KMV TheFoxz CLS Clausura 2016.png"
+        },
+        "TheOneSt": {
+            "age": "25",
+            "image": "TheOneSt.jpeg"
+        },
+        "Theokoles": {
+            "image": "BJK Theokoles 2.jpg"
+        },
+        "Theusma": {
+            "image": "TSW Theusma 2017 Winter.png"
+        },
+        "Thh": {
+            "age": "24"
+        },
+        "Thien": {
+            "residency": "Asia Pacific"
+        },
+        "Thomas Shen": {
+            "residency": "Asia Pacific"
+        },
+        "Thulz": {
+            "age": "31",
+            "image": "BRV Thulz 2017 Winter.png"
+        },
+        "Thy": {
+            "image": "TDK Thy 2016 Spring.png"
+        },
+        "Tian": {
+            "age": "24"
+        },
+        "Tianzhen": {
+            "age": "20"
+        },
+        "Tidus": {
+            "image": "Tidus.jpg"
+        },
+        "Tiesel": {
+            "age": "28"
+        },
+        "Tik": {
+            "image": "BM Tik.jpg"
+        },
+        "Tilting": {
+            "image": "TTC Tilting 2018 Spring.png"
+        },
+        "Time (Tang Jing-Tai)": {
+            "image": "IG-Time-2016-spring.png"
+        },
+        "Timmy (Tim Buysse)": {
+            "age": "39"
+        },
+        "Tinky": {
+            "age": "31",
+            "image": "CG Tinky.jpg"
+        },
+        "Tiridus": {
+            "age": "29",
+            "image": "torodos2.png"
+        },
+        "TitaN": {
+            "age": "24"
+        },
+        "Titeito": {
+            "age": "26",
+            "name": "João&amp;nbsp;Pedro Couto Sobreira"
+        },
+        "Tittu": {
+            "image": "tittu.jpg"
+        },
+        "TkSing": {
+            "image": "TkSing.jpeg"
+        },
+        "ToFu (Joshua Tan Jun Liang)": {
+            "image": "sgstofuboi.jpg"
+        },
+        "Tockers": {
+            "age": "28"
+        },
+        "Tol2": {
+            "residency": "Asia Pacific"
+        },
+        "Tolerant": {
+            "age": "25",
+            "residency": "Turkey"
+        },
+        "Tom (Im Jae-hyeon)": {
+            "age": "29"
+        },
+        "Tomrio": {
+            "age": "21"
+        },
+        "Tony Top": {
+            "age": "24"
+        },
+        "ToongE": {
+            "age": "20"
+        },
+        "Toppy": {
+            "age": "24",
+            "residency": "Asia Pacific"
+        },
+        "Toshibu": {
+            "age": "33"
+        },
+        "Touch": {
+            "image": "Touch 2021.jpg"
+        },
+        "TowerFury": {
+            "image": "MKZ TowerFury.jpg"
+        },
+        "ToxicHill": {
+            "name": "Abd Elrahman"
+        },
+        "Toyz": {
+            "age": "32"
+        },
+        "Trance": {
+            "age": "31"
+        },
+        "Trashboat": {
+            "image": "Trashboat.jpg"
+        },
+        "Trayton": {
+            "age": "26",
+            "image": "VIT Trayton 2019 Split 2.png"
+        },
+        "Trebor": {
+            "image": "Trebor PGS summer 2017.png"
+        },
+        "TreeEskimo": {
+            "image": "Treeeskimo.jpg"
+        },
+        "Trianna": {
+            "image": "VS Trianna 2019 Split 1.png"
+        },
+        "Trick": {
+            "age": "29"
+        },
+        "TrieLBaenRe": {
+            "image": "Pom9mvkX.jpeg"
+        },
+        "Trigo (Matheus Trigo)": {
+            "age": "25"
+        },
+        "Tron": {
+            "residency": "Asia Pacific"
+        },
+        "Try": {
+            "age": "28",
+            "image": "DP Try 2018 Winter.png"
+        },
+        "TsarCanya": {
+            "image": "Tsarcanya.jpg"
+        },
+        "Tsatsulow": {
+            "age": "35"
+        },
+        "Tsu": {
+            "image": "TSU.SF5 lolesports.PP .jpg",
+            "residency": "SEA"
+        },
+        "Tuesday (Jean-Sébastien Thery)": {
+            "age": "26"
+        },
+        "Tulsa": {
+            "image": "BGES Tulsa 2018 LGS Spring.png"
+        },
+        "Tulz": {
+            "age": "29"
+        },
+        "Turtle": {
+            "age": "30"
+        },
+        "Tweekz": {
+            "image": "Tweekz.jpg"
+        },
+        "TwoEasy": {
+            "age": "27"
+        },
+        "TwoJ": {
+            "image": "J2G TwoJ.png"
+        },
+        "Twohoyrz": {
+            "age": "26"
+        },
+        "Typhoon (Tayfun Gümüş)": {
+            "age": "24"
+        },
+        "Tyr": {
+            "age": "26"
+        },
+        "Tyran": {
+            "residency": "Asia Pacific"
+        },
+        "Tyresse": {
+            "image": "TT Tyresse.jpg"
+        },
+        "U": {
+            "age": "31"
+        },
+        "UNF0RGIVEN": {
+            "age": "24"
+        },
+        "UberBro": {
+            "image": "Immunity UberBro.jpg"
+        },
+        "Udysof": {
+            "age": "25",
+            "residency": "Asia Pacific"
+        },
+        "UmTi": {
+            "age": "25",
+            "name": "Um Sung-hyeon"
+        },
+        "Unho1y": {
+            "age": "30",
+            "image": "TJ Unho1y 2019 Split 1.png"
+        },
+        "Unicorn": {
+            "age": "28"
+        },
+        "Unified": {
+            "age": "25"
+        },
+        "Universe": {
+            "alternate_names": [
+                "XTylk"
+            ]
+        },
+        "Unlimited (Fu Chin-Yu)": {
+            "image": "NGU Unlimited.jpg"
+        },
+        "Unlimited (Petar Georgiev)": {
+            "age": "34"
+        },
+        "Unmngeable": {
+            "age": "25"
+        },
+        "Unso": {
+            "image": "ATN unso.jpg"
+        },
+        "Unstoppable": {
+            "image": "UnstoppableX.jpg"
+        },
+        "Uouoooo": {
+            "image": "FTT Uouoooo.jpg"
+        },
+        "Urban": {
+            "age": "24"
+        },
+        "Usopp (Nguyễn Quốc Mạnh)": {
+            "age": "22"
+        },
+        "Uthenera": {
+            "image": "Şükrü 'Lelouch' Şentürk.png"
+        },
+        "Uzi (Lê Thanh Hà)": {
+            "image": "500Bros Uziii.jpg"
+        },
+        "V": {
+            "image": "NB V 2017 Summer.png"
+        },
+        "V1kk": {
+            "residency": "None"
+        },
+        "VII": {
+            "image": "NGU VII.jpg"
+        },
+        "VVvert": {
+            "image": "KBM Verto.jpg"
+        },
+        "VYY": {
+            "image": "WG Vyy.png"
+        },
+        "Vahvel": {
+            "age": "24"
+        },
+        "Valhalla": {
+            "image": "M19 Valhalla 2019 Split 2.png"
+        },
+        "Valkyrie (Marcus Ko Chin Siong)": {
+            "image": "IGL Valkyrie.png"
+        },
+        "Vampire": {
+            "age": "19"
+        },
+        "Vardags": {
+            "age": "29",
+            "residency": "EMEA"
+        },
+        "Vash": {
+            "image": "CNB Vash 2017 Winter.png"
+        },
+        "Vata": {
+            "image": "RoX Vata 2019 Split 2.png"
+        },
+        "Vedius": {
+            "image": "LEC Vedius 2020.png"
+        },
+        "Veggie": {
+            "age": "34"
+        },
+        "Veghance": {
+            "age": "24",
+            "residency": "None"
+        },
+        "Venon": {
+            "image": "paiN Venon 2018 Spring.png"
+        },
+        "Venus": {
+            "age": "25"
+        },
+        "Vera": {
+            "image": "ISR Vera.jpg"
+        },
+        "Verfix": {
+            "image": "KST Verfix 2017 Winter.png"
+        },
+        "Veritas": {
+            "age": "29"
+        },
+        "Vetheo": {
+            "age": "22"
+        },
+        "Vethorm": {
+            "image": "TJ Vethorm 2019 Split 1.png",
+            "residency": "Europe"
+        },
+        "Vexu": {
+            "image": "GAL Vexu 2018 Split 2.png"
+        },
+        "ViNylCat": {
+            "age": "39"
+        },
+        "Viciun": {
+            "age": "21"
+        },
+        "Victory": {
+            "age": "25",
+            "image": "Ftvvictory.png"
+        },
+        "View": {
+            "age": "22"
+        },
+        "Viking": {
+            "age": "27"
+        },
+        "VincentVega": {
+            "image": "EPG VincentVega 2019 Split 2.png"
+        },
+        "Violet (Lim Doo-sung)": {
+            "image": "MKZ Violet.png"
+        },
+        "Violet (Vincent Wong)": {
+            "residency": "Asia Pacific"
+        },
+        "VioletFairy": {
+            "image": "VS VioletFairy 2019 Split 1.png"
+        },
+        "Vireax": {
+            "residency": "None"
+        },
+        "Virtue": {
+            "age": "24",
+            "image": "Bjkpp.jpg"
+        },
+        "Virtuozz": {
+            "age": "24"
+        },
+        "VirusS": {
+            "age": "34"
+        },
+        "Vital": {
+            "age": "22"
+        },
+        "Vitamin": {
+            "image": "ST Vitamin.gif"
+        },
+        "Vizicsacsi": {
+            "age": "31"
+        },
+        "Vizility": {
+            "age": "28",
+            "image": "Vizility2.jpg"
+        },
+        "Vladi": {
+            "age": "19"
+        },
+        "Voice": {
+            "residency": "Asia Pacific"
+        },
+        "Vsta": {
+            "age": "24"
+        },
+        "W0lv": {
+            "image": "UNITED w0lv.jpg"
+        },
+        "W4lker": {
+            "age": "27"
+        },
+        "WJ": {
+            "image": "ISR CwEiJiE.jpg"
+        },
+        "WXZ": {
+            "image": "IG WXZ 2018 Split 2.png"
+        },
+        "Wadid": {
+            "age": "27"
+        },
+        "Wako": {
+            "age": "26"
+        },
+        "WangGuan": {
+            "image": "VSG WangGuan 2018 Spring.png"
+        },
+        "Warble": {
+            "image": "ROFL.jpg"
+        },
+        "Ward (Zhang Zhao-Wei)": {
+            "image": "TF ward 2017 Summer.png"
+        },
+        "Warzone": {
+            "age": "30",
+            "image": "GAM Warzone 2023 Split 1.png"
+        },
+        "Washidai": {
+            "residency": "Asia Pacific"
+        },
+        "Way (Han Gil)": {
+            "age": "22"
+        },
+        "Way (Park Byeong-joon)": {
+            "age": "24"
+        },
+        "Wayward": {
+            "age": "23"
+        },
+        "Wayy": {
+            "age": "23"
+        },
+        "Webtoon": {
+            "image": "XD webtoon.gif"
+        },
+        "WeiLun": {
+            "age": "22",
+            "residency": "Asia Pacific"
+        },
+        "Weiwei": {
+            "age": "24"
+        },
+        "Weizhe": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Wen (Syu Nai-Wun)": {
+            "residency": "Asia Pacific"
+        },
+        "Wendel": {
+            "age": "26"
+        },
+        "Werlyb": {
+            "age": "27"
+        },
+        "Westrice": {
+            "age": "32"
+        },
+        "Wewillfailer": {
+            "age": "34",
+            "image": "Nerf wewillfailer 2017.jpg"
+        },
+        "Wh1t3zZ": {
+            "age": "31",
+            "image": "S3 Royal White.jpg"
+        },
+        "Whale": {
+            "age": "23"
+        },
+        "Whistle": {
+            "age": "21"
+        },
+        "WhiteLotus": {
+            "age": "28"
+        },
+        "Whitewing": {
+            "age": "29"
+        },
+        "Whynot": {
+            "residency": "Asia Pacific"
+        },
+        "Whynuts": {
+            "image": "HH Whynuts 2018 Spring.jpg"
+        },
+        "Wicked (Vince Ng)": {
+            "image": "KLH Wicked 2017.jpg"
+        },
+        "Wickychi": {
+            "image": "Wickychi.jpg"
+        },
+        "Wikko": {
+            "age": "33"
+        },
+        "WildHeart": {
+            "image": "TJ WildHeart 2019 Split 1.png"
+        },
+        "WildPanda": {
+            "residency": "Europe"
+        },
+        "Wilder": {
+            "age": "27"
+        },
+        "Wind (Lee Chi Wa)": {
+            "image": "EBDLs Wind.jpg"
+        },
+        "Windowlicka": {
+            "image": "IS windowlicka.jpg"
+        },
+        "Winds": {
+            "image": "Winds.png"
+        },
+        "Windy": {
+            "age": "27"
+        },
+        "Winged": {
+            "age": "32"
+        },
+        "Winnie (Shen Tzu-Chen)": {
+            "age": "26",
+            "residency": "Asia Pacific"
+        },
+        "Winsome": {
+            "age": "24"
+        },
+        "Winter (Chun Chin Wee)": {
+            "image": "TLCM Winter 2017.jpg"
+        },
+        "Wisdom": {
+            "image": "AUR Wisdom 2018 Split 2.png"
+        },
+        "Wolf (Lee Jae-wan)": {
+            "age": "28",
+            "image": "T1 Wolf 2020.png"
+        },
+        "Woofi": {
+            "age": "27"
+        },
+        "Woohee": {
+            "age": "26"
+        },
+        "Wos": {
+            "age": "29"
+        },
+        "WouLou": {
+            "age": "31",
+            "residency": "EMEA"
+        },
+        "Wraith": {
+            "age": "29"
+        },
+        "Wrath (Shawn Lim)": {
+            "image": "PRS Wrath 2015.png"
+        },
+        "WtcN": {
+            "image": "NR1 wtcNN.png"
+        },
+        "Wuji": {
+            "age": "30"
+        },
+        "X1ri": {
+            "age": "32"
+        },
+        "XHazzard": {
+            "age": "32",
+            "image": "420941 193787177422058 1280825257 n.jpg"
+        },
+        "XKenzuke": {
+            "age": "25"
+        },
+        "XLB": {
+            "age": "25"
+        },
+        "XMatty": {
+            "age": "25"
+        },
+        "XPriskornet": {
+            "image": "xPriskornet Dragon Army Spring 2018.png"
+        },
+        "XPulse": {
+            "image": "ORG xPulse 2018.jpg"
+        },
+        "XXF": {
+            "image": "KLH XXF.png"
+        },
+        "Xayoo": {
+            "age": "27",
+            "image": "Xayoo.jpg"
+        },
+        "Xeno (Tee Chen Yen)": {
+            "image": "FD Xeno 2017.png"
+        },
+        "Xeres": {
+            "image": "IFN Xeres.png"
+        },
+        "Xero": {
+            "age": "36"
+        },
+        "Xhow": {
+            "age": "22"
+        },
+        "XiaoXiao": {
+            "image": "igxiaoxiao.png"
+        },
+        "Xiaoali": {
+            "image": "JDM Xiaoali 2019 Split 1.png"
+        },
+        "Xiaofang": {
+            "age": "20"
+        },
+        "Xiaohan (Pan Han)": {
+            "age": "25"
+        },
+        "Xiaohao": {
+            "age": "22"
+        },
+        "Xiaolaohu": {
+            "age": "22"
+        },
+        "Xiaoshi": {
+            "image": "LZQ Glutton 2018 Spring.png"
+        },
+        "Xiaoxu": {
+            "age": "21"
+        },
+        "Xin (Ye Shang-Hsin)": {
+            "residency": "Asia Pacific"
+        },
+        "XinLiu": {
+            "age": "23"
+        },
+        "Xinec": {
+            "image": "CrsXinec.jpg"
+        },
+        "Xintai": {
+            "age": "29"
+        },
+        "Xiyang": {
+            "age": "30"
+        },
+        "Xiye": {
+            "age": "27"
+        },
+        "XnS": {
+            "age": "21"
+        },
+        "XoNix": {
+            "image": "M19 XoNix 2019 Split 2.png"
+        },
+        "Xpecial": {
+            "age": "32"
+        },
+        "Xsq": {
+            "image": "VP Xsq 2019 Split 1.png"
+        },
+        "XuanXuanPi": {
+            "alternate_names": [
+                "XuaN (Pi Xiao-Xuan)",
+                "XuanXuanPi"
+            ]
+        },
+        "Xyno": {
+            "name": "Carlos&amp;nbsp;Felipe Ferreira"
+        },
+        "Xypherz": {
+            "age": "26"
+        },
+        "Xyraz": {
+            "age": "",
+            "image": "MRDS Xyraz 2018 Split 2.jpeg"
+        },
+        "Xzy": {
+            "age": "22"
+        },
+        "Y1han": {
+            "age": "25"
+        },
+        "YJTM": {
+            "image": "Yjtm2.jpg"
+        },
+        "YSDS": {
+            "age": "36",
+            "residency": "Asia Pacific"
+        },
+        "Yado": {
+            "image": "CES Yado 2023 Split 1.png"
+        },
+        "Yaharong": {
+            "age": "24"
+        },
+        "YanSir": {
+            "image": "YG YanSir.png"
+        },
+        "Yao": {
+            "image": "LM Dreams.jpg"
+        },
+        "Yaoyao": {
+            "age": "23"
+        },
+        "Yau": {
+            "image": "EBDLs Yau.jpg"
+        },
+        "YeLuo": {
+            "age": "32"
+        },
+        "YeTz": {
+            "age": "29",
+            "image": "JAYOB yeTz.png"
+        },
+        "YellowYoshi": {
+            "residency": "Asia Pacific"
+        },
+        "Yellowpete": {
+            "age": "35"
+        },
+        "Yijie": {
+            "residency": "Asia Pacific"
+        },
+        "Yijin": {
+            "image": "SE Yijin 2021 Split 1.png"
+        },
+        "Yin": {
+            "image": "Tsyin.png"
+        },
+        "YinFu": {
+            "image": "YG YinFu.png"
+        },
+        "Yjy": {
+            "residency": "Asia Pacific"
+        },
+        "Yo": {
+            "age": "29",
+            "alternate_names": [
+                "Yo"
+            ]
+        },
+        "YoDa (Felipe Noronha)": {
+            "age": "29"
+        },
+        "YoDa (Orie Guo)": {
+            "image": "yoda.jpg"
+        },
+        "Yone (Tan Jia Xuan)": {
+            "image": "Yone 2017.png"
+        },
+        "YongSoo": {
+            "image": "IG YongSoo 2015 Summer.png"
+        },
+        "Yoon": {
+            "age": "28"
+        },
+        "Yoshino": {
+            "age": "24"
+        },
+        "YoungBuck": {
+            "age": "33"
+        },
+        "Youngbin": {
+            "age": "30"
+        },
+        "Yu (Li Xin-Nan)": {
+            "age": "34",
+            "image": "LGD Yu 2016 Summer.png"
+        },
+        "YuZhe": {
+            "image": "NBY YuZhe 2016 Spring.png"
+        },
+        "Yue (Lu Tzu-Hsien)": {
+            "age": "31",
+            "alternate_names": [
+                "Yue (Lu Tzu-Hsien)"
+            ]
+        },
+        "Yuekai": {
+            "age": "22"
+        },
+        "Yuhi": {
+            "age": "25",
+            "residency": "Asia Pacific"
+        },
+        "Yui": {
+            "alternate_names": [
+                "Moonlight (Yang En-Jian)",
+                "Yui"
+            ]
+        },
+        "Yuki (Igor Kamiya)": {
+            "age": "23"
+        },
+        "Yuki (Yuki Takahashi)": {
+            "age": "30"
+        },
+        "Yukz": {
+            "image": "Yukz.jpg"
+        },
+        "Yumenoti": {
+            "age": "31"
+        },
+        "Yuna": {
+            "image": "TW Yuna 2023 Split 1.png"
+        },
+        "Yung (Dean Baquir)": {
+            "age": "28"
+        },
+        "Yursan": {
+            "age": "23",
+            "residency": "Asia Pacific"
+        },
+        "Yusui": {
+            "age": "27"
+        },
+        "Yutapon": {
+            "age": "28",
+            "residency": "Asia Pacific"
+        },
+        "Yuuki60": {
+            "age": "33"
+        },
+        "Yuyanjia": {
+            "age": "27"
+        },
+        "ZOEN (Enzo Ganino)": {
+            "age": "19"
+        },
+        "ZWuJi": {
+            "age": "26"
+        },
+        "ZachQ": {
+            "image": "ZachQ 2017.jpg"
+        },
+        "Zaineking": {
+            "image": "Zaineking.jpg"
+        },
+        "Zantins": {
+            "image": "KBM Zantins 2019 Split 1.png"
+        },
+        "Zanzarah": {
+            "age": "28"
+        },
+        "Zappy": {
+            "age": "31"
+        },
+        "Zay": {
+            "age": "20"
+        },
+        "Zekent": {
+            "age": "35"
+        },
+        "Zeldris (Huỳnh Công Phương)": {
+            "age": "25",
+            "image": "CES Zeldris 2020 Split 2.png"
+        },
+        "Zenith (Shun Ohno)": {
+            "age": "33"
+        },
+        "Zensho": {
+            "image": "IPT Fear.png"
+        },
+        "Zeriouz": {
+            "image": "LD Zeriouz.jpg"
+        },
+        "Zerito": {
+            "age": "23"
+        },
+        "Zero (Yoon Kyung-sup)": {
+            "age": "30"
+        },
+        "Zero0o": {
+            "image": "Zer0.jpg"
+        },
+        "Zeros": {
+            "age": "24"
+        },
+        "Zest (Hsieh Ming-Hsuan)": {
+            "alternate_names": [
+                "SuKi (Hsieh Ming-Hsuan)",
+                "Zest (Hsieh Ming-Hsuan)"
+            ]
+        },
+        "Zet": {
+            "age": "27",
+            "image": "EDG Zet 2017 Summer.png"
+        },
+        "Zeyzal": {
+            "age": "25"
+        },
+        "Zhaoyun": {
+            "age": "23"
+        },
+        "ZhenLong": {
+            "image": "YG Dragon.png"
+        },
+        "Zhuangzhou": {
+            "age": "28"
+        },
+        "Zigu": {
+            "image": "Zigurath.jpg"
+        },
+        "Zika": {
+            "age": "21"
+        },
+        "Zirigui": {
+            "age": "30"
+        },
+        "Ziv (Chen Yi)": {
+            "residency": "Asia Pacific"
+        },
+        "Zoelys": {
+            "age": "21"
+        },
+        "Zonda": {
+            "age": "33"
+        },
+        "Zoom": {
+            "age": "27"
+        },
+        "Zun (Fan Chen-Gang)": {
+            "image": "VG Zun.jpg"
+        },
+        "Zuna": {
+            "age": ""
+        },
+        "Zven": {
+            "age": "27"
+        },
+        "Zvene": {
+            "age": "28",
+            "image": "Zvene.png"
+        },
+        "Zytan": {
+            "age": "31",
+            "image": "Zytan.jpg"
+        },
+        "Zz1tai": {
+            "age": "27"
+        },
+        "Zzus": {
+            "age": "26"
+        },
+        "Âprox": {
+            "image": "Aprox 0.jpg"
+        }
+    },
+    "remove": [
+        "Ozora",
+        "Yzi",
+        "Impact",
+        "Balta129",
+        "Babaa",
+        "Peraxy",
+        "Gulu",
+        "Mikkel (Michał Dąbrowski)"
+    ]
+}

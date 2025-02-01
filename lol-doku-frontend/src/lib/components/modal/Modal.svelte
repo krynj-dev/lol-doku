@@ -64,10 +64,10 @@
 		right: 0;
 		top: 0;
 		box-sizing: border-box;
-		border: 2px solid var(--lol-gold-4);
 		background-color: transparent;
 		cursor: pointer;
 		position: absolute;
+		border: 0;
 	}
 	.modal-header {
 		display: flex;

@@ -28,7 +28,7 @@
 		}
 	}
 
-	$: filtered_alt_names = rule.other_names?.filter(n => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase());
+	$: filtered_alt_names = rule.extra_info?.other_names?.filter((n: string) => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase());
 
 	let modalLight = false;
 	let modalLightFill = "var(--lol-doku-white-1)";

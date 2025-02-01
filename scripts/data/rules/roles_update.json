@@ -1,0 +1,98 @@
+{
+    "add": [],
+    "evolved": [],
+    "modified": {
+        "Bot": {
+            "valid_players": [
+                "Lyonz",
+                "Leaper",
+                "Yojin",
+                "VENDRICK",
+                "Balder",
+                "VIN (Trần Hoài Vinh)",
+                "Smiley (Ludvig Granquist)",
+                "Dimitry",
+                "Leandrinn",
+                "Pain (Lê Quốc Anh)"
+            ]
+        },
+        "Jungle": {
+            "valid_players": [
+                "Jcom",
+                "Evewin",
+                "Iwandy",
+                "Kaiwing",
+                "Xzz",
+                "M0chi",
+                "Glfs",
+                "Van (Kim Seung-hoo)",
+                "RYue",
+                "9God",
+                "Kazuto",
+                "Summit",
+                "HotPot",
+                "Tomio",
+                "Cadence",
+                "Reufury",
+                "Yge",
+                "ChinX",
+                "Sounda",
+                "Levizin"
+            ]
+        },
+        "Mid": {
+            "valid_players": [
+                "TT789",
+                "Dioge (Diogenes Barbosa)",
+                "Xiaocaobao",
+                "Claws",
+                "C7N",
+                "Neadz",
+                "Guapi",
+                "Sovereign (Alexander Folley)",
+                "Wuming (Wang Xin)",
+                "Raes",
+                "Ceo"
+            ]
+        },
+        "Support": {
+            "valid_players": [
+                "TopLop",
+                "Gemini",
+                "Tangyuan",
+                "Vital",
+                "Godtone",
+                "Luon",
+                "Tahahy",
+                "Yume (Châu Kim Bảo)",
+                "Cadence",
+                "Gabn",
+                "Voice",
+                "Mun",
+                "Kerry",
+                "SiuLoong",
+                "225"
+            ]
+        },
+        "Top": {
+            "valid_players": [
+                "Juice",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Keine",
+                "Casting",
+                "Mihile",
+                "Prey (Xu Jia-Hao)",
+                "Rineko",
+                "GuanGuan",
+                "ZUIAN",
+                "RYue",
+                "Meifan",
+                "Chungy",
+                "Nanaue (Phùng Đức Tài)",
+                "Forlin",
+                "Maple Syrup",
+                "225"
+            ]
+        }
+    }
+}

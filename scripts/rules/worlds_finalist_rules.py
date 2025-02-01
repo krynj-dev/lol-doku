@@ -34,16 +34,16 @@ def create_worlds_finalist_rules(cooked_players: dict, raw_tournament_results: l
         return worlds_finalist_rules
 
 def create_worlds_participant_rules(cooked_players: dict, raw_tournament_results: list, write=True):
-    top_16 = set()
-    for i in range(1, 17):
-        top_16.add(str(i))
-        for j in range(i, 17):
-            top_16.add(f"{i}-{j}")
+    top_24 = set()
+    for i in range(1, 25):
+        top_24.add(str(i))
+        for j in range(i, 25):
+            top_24.add(f"{i}-{j}")
     worlds_participant_rules = {}
     playing_roles = ["Top", "Jungle", "Mid", "Bot", "Support"]
     for team_result in raw_tournament_results:
         event_name = team_result["Event"]
-        if "Worlds" in event_name and "Qualifier" not in event_name and team_result["Place"] in top_16:
+        if "Worlds" in event_name and "Qualifier" not in event_name and team_result["Place"] in top_24:
             rule_key = f"{event_name} Participant"
             if len(team_result["Roles"]) != len(team_result["RosterLinks"]):
                 continue

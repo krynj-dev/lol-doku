@@ -1,0 +1,191 @@
+{
+    "add": [],
+    "evolved": [
+        [
+            [
+                "FearX",
+                {
+                    "becomes": null,
+                    "came_from": "Liiv SANDBOX",
+                    "highest_level": "Primary",
+                    "image": "FearXlogo profile.png",
+                    "name": "FearX",
+                    "op": "FearX",
+                    "other_names": [
+                        "FearX",
+                        "Liiv SANDBOX",
+                        "Liiv SANDBOX Challengers",
+                        "SANDBOX Gaming",
+                        "Team BattleComics"
+                    ],
+                    "region": "Korea",
+                    "short": "FOX",
+                    "sister_teams": [
+                        "FearX"
+                    ]
+                }
+            ],
+            [
+                "BNK FearX",
+                {
+                    "becomes": null,
+                    "came_from": "FearX",
+                    "highest_level": "Primary",
+                    "image": "BNK FearXlogo profile.png",
+                    "name": "BNK FearX",
+                    "op": "BNK FearX",
+                    "other_names": [
+                        "BNK FearX",
+                        "FearX",
+                        "Liiv SANDBOX",
+                        "Liiv SANDBOX Challengers",
+                        "SANDBOX Gaming",
+                        "Team BattleComics"
+                    ],
+                    "region": "Korea",
+                    "short": "FOX",
+                    "sister_teams": [
+                        "BNK FearX"
+                    ]
+                }
+            ]
+        ]
+    ],
+    "modified": {
+        "AXIZ CREST": {
+            "region": "Asia Pacific"
+        },
+        "Antic Esports": {
+            "region": "Asia Pacific"
+        },
+        "Beyond Gaming": {
+            "region": "Asia Pacific"
+        },
+        "Burning Core Toyama": {
+            "region": "Asia Pacific"
+        },
+        "Chiefs Esports Club": {
+            "region": "Asia Pacific"
+        },
+        "Crest Gaming Act": {
+            "region": "Asia Pacific"
+        },
+        "Dark Passage": {
+            "becomes": "BBL Dark Passage"
+        },
+        "Deep Cross Gaming": {
+            "region": "Asia Pacific"
+        },
+        "DetonatioN FocusMe": {
+            "region": "Asia Pacific"
+        },
+        "Dire Wolves": {
+            "region": "Asia Pacific"
+        },
+        "Energy Pacemaker.All": {
+            "image": "Energy Pacemaker.Alllogo square.png"
+        },
+        "FURY Global": {
+            "region": "Asia Pacific"
+        },
+        "Frank Esports": {
+            "region": "Asia Pacific"
+        },
+        "Fukuoka SoftBank HAWKS gaming": {
+            "image": "Fukuoka_SoftBank_HAWKS_gaminglogo_profile.png",
+            "region": "Asia Pacific"
+        },
+        "G-Rex": {
+            "region": "Asia Pacific"
+        },
+        "Gama Dream": {
+            "image": "Gama Dreamlogo profile.png"
+        },
+        "Ground Zero Gaming": {
+            "region": "Asia Pacific"
+        },
+        "HELL PIGS": {
+            "region": "Asia Pacific"
+        },
+        "Heroes Team": {
+            "image": "Heroes Teamlogo square.png"
+        },
+        "Hungkuang Falcon": {
+            "region": "Asia Pacific"
+        },
+        "ION Global Esports": {
+            "region": "Asia Pacific"
+        },
+        "J Team": {
+            "region": "Asia Pacific"
+        },
+        "Kanga Esports": {
+            "region": "Asia Pacific"
+        },
+        "LinGan e-Sports": {
+            "image": "LinGan e-Sportslogo profile.png"
+        },
+        "MAMMOTH": {
+            "region": "Asia Pacific"
+        },
+        "Moss Seven Club": {
+            "image": "Moss Seven Clublogo square.png"
+        },
+        "NRG": {
+            "name": "NRG Kia"
+        },
+        "Newbee": {
+            "image": "Newbeelogo profile.png"
+        },
+        "People's Red Wolf Gaming": {
+            "image": "People's Red Wolf Gaminglogo profile.png"
+        },
+        "Positive Energy": {
+            "image": "Positive Energylogo profile.png"
+        },
+        "Pulse Esports": {
+            "image": "Pulse Esportslogo profile.png",
+            "region": "Europe"
+        },
+        "Resurgence": {
+            "region": "Asia Pacific"
+        },
+        "Sengoku Gaming": {
+            "region": "Asia Pacific"
+        },
+        "ShowTime": {
+            "image": "ShowTimelogo profile.png"
+        },
+        "T1": {
+            "other_names": [
+                "SK Telecom T1",
+                "SK Telecom T1 1",
+                "SK Telecom T1 2",
+                "SK Telecom T1 K",
+                "SK Telecom T1 S",
+                "T1"
+            ]
+        },
+        "Team Acer Poland": {
+            "image": "Team Acer Polandlogo square.png"
+        },
+        "Team Bliss": {
+            "region": "Asia Pacific"
+        },
+        "Team DK": {
+            "image": "Team DKlogo profile.png"
+        },
+        "V3 Esports": {
+            "region": "Asia Pacific"
+        },
+        "Vertex Esports Club": {
+            "region": "Asia Pacific"
+        },
+        "West Point Esports Philippines": {
+            "region": "Asia Pacific"
+        }
+    },
+    "remove": [
+        "KartRiderTeam"
+    ]
+}

@@ -22,5 +22,6 @@ export async function POST({ request, cookies }) {
             status: "finalised"
         }
     })
+    console.log("jarjar binks", updated_game)
     return json({});
 };

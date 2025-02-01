@@ -168,7 +168,9 @@
 	}
 
 	.tile-img {
-		height: 100%;
+		min-height: 100%;
+		min-width: 100%;
+		object-fit: cover;
 	}
 
 	.img-container {

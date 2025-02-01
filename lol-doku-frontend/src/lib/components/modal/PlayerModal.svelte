@@ -12,6 +12,7 @@
 	export let index: number;
 	export let loading: boolean = false;
 	export let error_flashing: boolean = false;
+	export let ref: HTMLElement | null = null;
 
 	let playerList: Player[] = [];
 	let player_image_srcs: any = {};
@@ -112,7 +113,8 @@
 	<hr />
 	<div>
 		<p class="input-label">Search Player:</p>
-		<input bind:value={filter} />
+		<!-- svelte-ignore a11y-autofocus -->
+		<input bind:value={filter} bind:this={ref} autofocus />
 	</div>
 	<hr />
 	<div class="player-button-box">

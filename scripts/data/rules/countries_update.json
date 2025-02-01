@@ -1,0 +1,196 @@
+{
+    "add": [],
+    "evolved": [],
+    "modified": {
+        "Argentina": {
+            "valid_players": [
+                "Alfred (Alfredo González)"
+            ]
+        },
+        "Australia": {
+            "valid_players": [
+                "Only (Jordan Middleton)",
+                "Getback",
+                "Evewin",
+                "Maple Syrup",
+                "225"
+            ]
+        },
+        "Belgium": {
+            "valid_players": [
+                "Sigma (Brent de Laet)"
+            ]
+        },
+        "Brazil": {
+            "valid_players": [
+                "ZekaS",
+                "Dioge (Diogenes Barbosa)",
+                "Leandrinn",
+                "Forlin",
+                "Levizin"
+            ]
+        },
+        "Canada": {
+            "valid_players": [
+                "Tomio",
+                "Sheep (Jamie Gallagher)"
+            ]
+        },
+        "Chile": {
+            "valid_players": [
+                "Neadz"
+            ]
+        },
+        "China": {
+            "valid_players": [
+                "Mushroom (Zhang Xiao-Fu)",
+                "Sask",
+                "Vas1lii",
+                "Prey (Xu Jia-Hao)",
+                "Xiaocaobao",
+                "Glfs",
+                "ZUIAN",
+                "Colin",
+                "Endless (Xu Hao)",
+                "9God",
+                "Fzzf",
+                "Rise (Zhang Sheng)",
+                "Juice",
+                "Wx",
+                "Rineko",
+                "Xiaoweixiao",
+                "Yge",
+                "Wuming (Wang Xin)",
+                "ICON"
+            ]
+        },
+        "Denmark": {
+            "valid_players": [
+                "MAXI"
+            ]
+        },
+        "Egypt": {
+            "valid_players": [
+                "AnnieBot",
+                "Moesakr"
+            ]
+        },
+        "Greece": {
+            "valid_players": [
+                "PrettyGRE"
+            ]
+        },
+        "Hong Kong": {
+            "valid_players": [
+                "Cadence",
+                "KL (So Ka Lung)"
+            ]
+        },
+        "Lithuania": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Malaysia": {
+            "valid_players": [
+                "Bipolar (Ramsay Lochhead Devaraj)",
+                "404 (Zhi Choong Sheng)",
+                "Kagame (Yap Li Aw)"
+            ]
+        },
+        "Mexico": {
+            "valid_players": [
+                "Mun",
+                "Don Cholo (Sergio Salas)",
+                "ChinX"
+            ]
+        },
+        "New Zealand": {
+            "valid_players": [
+                "Guapi",
+                "Gabn",
+                "VENDRICK"
+            ]
+        },
+        "Philippines": {
+            "valid_players": [
+                "Yume (Danyll Jann Balisi)"
+            ]
+        },
+        "Russia": {
+            "valid_players": [
+                "Oleg (Oleg Karkachev)",
+                "Astra (Eduard Fritz)"
+            ]
+        },
+        "Saudi Arabia": {
+            "valid_players": [
+                "Selson"
+            ]
+        },
+        "South Korea": {
+            "valid_players": [
+                "Leaper",
+                "Casting",
+                "Kite (Kim Yong-yeon)",
+                "Luon",
+                "Last (Jeong Young-seok)",
+                "Sounda",
+                "Wall (Son Chang-hoon)",
+                "Mihile",
+                "Van (Kim Seung-hoo)",
+                "Dispel"
+            ]
+        },
+        "Sweden": {
+            "valid_players": [
+                "Smiley (Ludvig Granquist)"
+            ]
+        },
+        "Taiwan": {
+            "valid_players": [
+                "HotPot",
+                "OVER T1ME",
+                "GuanGuan",
+                "Doggy",
+                "RYue",
+                "Kerry"
+            ]
+        },
+        "Turkey": {
+            "valid_players": [
+                "Grave",
+                "Maximillion",
+                "Hypnos",
+                "Ozgur (Can Özgür Kara)",
+                "Crimson (Mert Koçak)",
+                "24 (Seyfi Onat Aytemiz)"
+            ]
+        },
+        "United States": {
+            "valid_players": [
+                "Young (Young Choi)",
+                "10IQ",
+                "Fiji"
+            ]
+        },
+        "Vietnam": {
+            "valid_players": [
+                "Kazuto",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Kisee",
+                "TT789",
+                "Jcom",
+                "Balder",
+                "Tahahy",
+                "VIN (Trần Hoài Vinh)",
+                "Yume (Châu Kim Bảo)",
+                "Claws",
+                "Pain (Lê Quốc Anh)",
+                "C7N",
+                "Nanaue (Phùng Đức Tài)",
+                "SiuLoong"
+            ]
+        }
+    }
+}

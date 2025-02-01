@@ -1,0 +1,518 @@
+{
+    "add": [],
+    "evolved": [
+        [
+            [
+                "FearX",
+                {
+                    "exclusive_crosses": [],
+                    "key": "FearX",
+                    "regions": [
+                        "Korea"
+                    ],
+                    "type": "team",
+                    "valid_players": [
+                        "FATE (Yoo Su-hyeok)",
+                        "Lonely (Han Gyu-joon)",
+                        "Clozer",
+                        "Hollow",
+                        "Prove (Son Min-hyeong)",
+                        "Summit",
+                        "Kael (Kim Jin-hong)",
+                        "Leo (Han Gyeo-re)",
+                        "OnFleek",
+                        "Crush",
+                        "Ryan",
+                        "Joker (Cho Jae-eup)",
+                        "Ten10",
+                        "Meaning",
+                        "Envyy",
+                        "Duro",
+                        "Wizer",
+                        "Clear (Song Hyeon-min)",
+                        "Execute",
+                        "Kabbie",
+                        "Hipo",
+                        "Punch",
+                        "Teddy",
+                        "GorillA",
+                        "SoaR",
+                        "Willer",
+                        "HamBak",
+                        "Dove",
+                        "Howling",
+                        "Burdol",
+                        "Ghost (Jang Yong-jun)",
+                        "Croco",
+                        "Hype (Byeon Jeong-hyeon)",
+                        "Prince (Lee Chae-hwan)",
+                        "Route",
+                        "Ice (Yoon Sang-hoon)",
+                        "Effort",
+                        "Hena"
+                    ]
+                }
+            ],
+            [
+                "BNK FearX",
+                {
+                    "exclusive_crosses": [],
+                    "key": "BNK FearX",
+                    "regions": [
+                        "Korea"
+                    ],
+                    "type": "team",
+                    "valid_players": [
+                        "Hena",
+                        "Duro",
+                        "Clear (Song Hyeon-min)",
+                        "Raptor (Jeon Eo-jin)",
+                        "Execute",
+                        "Willer",
+                        "Clozer"
+                    ]
+                }
+            ]
+        ]
+    ],
+    "modified": {
+        "100 Thieves": {
+            "valid_players": [
+                "Tomo"
+            ]
+        },
+        "AXIZ CREST": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Van (Kim Seung-hoo)"
+            ]
+        },
+        "Antic Esports": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Destiny (Mitchell Shaw)",
+                "Incursio",
+                "Raes"
+            ]
+        },
+        "Anyone's Legend": {
+            "valid_players": [
+                "Ale"
+            ]
+        },
+        "Beyond Gaming": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Bilibili Gaming": {
+            "valid_players": [
+                "Wei (Yan Yang-Wei)"
+            ]
+        },
+        "Burning Core Toyama": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "CERBERUS Esports (Vietnamese Team)": {
+            "valid_players": [
+                "Yume (Châu Kim Bảo)",
+                "Meliodas (Hoàng Tiến Nhật)",
+                "TT789",
+                "Tahahy"
+            ]
+        },
+        "CTBC Flying Oyster": {
+            "valid_players": [
+                "HongQ",
+                "Driver"
+            ]
+        },
+        "Cloud9": {
+            "valid_players": [
+                "Thanatos (Park Seung-gyu)"
+            ]
+        },
+        "Deep Cross Gaming": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Feng (Chen Chun-Feng)"
+            ]
+        },
+        "DetonatioN FocusMe": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Dignitas": {
+            "valid_players": [
+                "Licorice",
+                "Spica",
+                "Zven"
+            ]
+        },
+        "Dire Wolves": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Guapi",
+                "M0chi",
+                "Meifan",
+                "Chungy"
+            ]
+        },
+        "Dplus KIA": {
+            "valid_players": [
+                "Moham"
+            ]
+        },
+        "EDward Gaming": {
+            "valid_players": [
+                "Cryin",
+                "Wink"
+            ]
+        },
+        "FURIA": {
+            "valid_players": [
+                "Jojo (Gabriel Dzelme)",
+                "Zzk (Kwon Hee-won)",
+                "Wiz"
+            ]
+        },
+        "FURY Global": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Prey (Xu Jia-Hao)",
+                "Maple Syrup"
+            ]
+        },
+        "Fluxo": {
+            "valid_players": [
+                "Trigo (Matheus Trigo)",
+                "Forlin",
+                "Shini"
+            ]
+        },
+        "FlyQuest": {
+            "valid_players": [
+                "Quad"
+            ]
+        },
+        "Frank Esports": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Wako"
+            ]
+        },
+        "Fukuoka SoftBank HAWKS gaming": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "FunPlus Phoenix": {
+            "valid_players": [
+                "Zdz"
+            ]
+        },
+        "GAM Esports": {
+            "valid_players": [
+                "Neo (Toàn Trần)"
+            ]
+        },
+        "GIANTX": {
+            "valid_players": [
+                "Juhan",
+                "Th3Antonio"
+            ]
+        },
+        "Ground Zero Gaming": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Fighto",
+                "Evewin",
+                "Kurak"
+            ]
+        },
+        "HELL PIGS": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "NuL1",
+                "HotPot",
+                "GuanGuan",
+                "Kerry",
+                "Abyss (Lin Po-Reng)",
+                "Cheng9"
+            ]
+        },
+        "INFINITY": {
+            "valid_players": [
+                "Trigger (Kim Eui-joo)",
+                "TopLop",
+                "Leza",
+                "Neadz",
+                "Nia (Woo Jun-sung)",
+                "Grell"
+            ]
+        },
+        "INTZ": {
+            "valid_players": [
+                "Dioge (Diogenes Barbosa)"
+            ]
+        },
+        "ION Global Esports": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Styx (Samuel Blanchard)",
+                "SHAKa (Yang Zhen-Yu)",
+                "225"
+            ]
+        },
+        "Invictus Gaming": {
+            "valid_players": [
+                "ZUIAN",
+                "Glfs",
+                "Vampire"
+            ]
+        },
+        "Isurus": {
+            "valid_players": [
+                "Loopy"
+            ]
+        },
+        "J Team": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "KT Rolster": {
+            "valid_players": [
+                "Casting"
+            ]
+        },
+        "Kanga Esports": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "9God",
+                "Yojin",
+                "VENDRICK",
+                "Cadence",
+                "Gabn",
+                "Sovereign (Alexander Folley)"
+            ]
+        },
+        "Kwangdong Freecs": {
+            "valid_players": [
+                "Leaper"
+            ]
+        },
+        "Leviatan": {
+            "valid_players": [
+                "Beenie",
+                "Vahvel",
+                "Mun",
+                "Nobody (Nicolás Ale)"
+            ]
+        },
+        "Liberty": {
+            "valid_players": [
+                "Levizin",
+                "Leandrinn"
+            ]
+        },
+        "MAMMOTH": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Rineko",
+                "Praedyth",
+                "Gunkrab",
+                "4ever"
+            ]
+        },
+        "MGN Blue Esports": {
+            "valid_players": [
+                "VIN (Trần Hoài Vinh)",
+                "TQ",
+                "Sparda",
+                "Phuc1"
+            ]
+        },
+        "Movistar R7": {
+            "valid_players": [
+                "Keine"
+            ]
+        },
+        "Ninjas in Pyjamas.CN": {
+            "valid_players": [
+                "Leyan"
+            ]
+        },
+        "Nongshim RedForce": {
+            "valid_players": [
+                "Mihile",
+                "Fisher (Lee Jeong-tae)"
+            ]
+        },
+        "OKSavingsBank BRION": {
+            "valid_players": [
+                "YoungJae"
+            ]
+        },
+        "Oh My God": {
+            "valid_players": [
+                "Hery",
+                "Tianzhen"
+            ]
+        },
+        "Rare Atom": {
+            "valid_players": [
+                "Xiaohao",
+                "Jwei"
+            ]
+        },
+        "Royal Never Give Up": {
+            "valid_players": [
+                "Juice",
+                "Huanfeng",
+                "Zdz",
+                "Iwandy",
+                "Geju",
+                "XBY"
+            ]
+        },
+        "SK Gaming": {
+            "valid_players": [
+                "Rahel",
+                "Luon"
+            ]
+        },
+        "Sengoku Gaming": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Shopify Rebellion": {
+            "valid_players": [
+                "Tomio"
+            ]
+        },
+        "Six Karma": {
+            "valid_players": [
+                "Buggax",
+                "Dimitry",
+                "ChinX",
+                "IgnaVilu",
+                "Mir (Park Mi-reu)"
+            ]
+        },
+        "Team Bliss": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Aladoric",
+                "Kevy"
+            ]
+        },
+        "Team Flash.Vietnam": {
+            "valid_players": [
+                "Playcool",
+                "Balder",
+                "Ouzi"
+            ]
+        },
+        "Team Secret (Vietnamese Team)": {
+            "valid_players": [
+                "Aomine",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Jcom",
+                "Pain (Lê Quốc Anh)"
+            ]
+        },
+        "Team WE": {
+            "valid_players": [
+                "LP",
+                "Mark (Ling Xu)",
+                "Able"
+            ]
+        },
+        "Team Whales": {
+            "valid_players": [
+                "Dove",
+                "Hieu3",
+                "Kazuto",
+                "RonOP",
+                "C7N",
+                "Hasmed",
+                "Claws",
+                "SiuLoong",
+                "Sounda"
+            ]
+        },
+        "ThunderTalk Gaming": {
+            "valid_players": [
+                "Feather"
+            ]
+        },
+        "Ultra Prime": {
+            "valid_players": [
+                "Qingtian",
+                "Niket"
+            ]
+        },
+        "V3 Esports": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Vikings Esports (2023 Vietnamese Team)": {
+            "valid_players": [
+                "Nanaue (Phùng Đức Tài)",
+                "Bie"
+            ]
+        },
+        "Vivo Keyd Stars": {
+            "valid_players": [
+                "Smiley (Ludvig Granquist)"
+            ]
+        },
+        "Weibo Gaming": {
+            "valid_players": [
+                "Breathe",
+                "Tarzan (Lee Seung-yong)"
+            ]
+        },
+        "West Point Esports Philippines": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "RYue",
+                "Kongyue",
+                "1116",
+                "Lilv"
+            ]
+        }
+    }
+}

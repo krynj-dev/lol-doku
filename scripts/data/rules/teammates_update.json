@@ -1,0 +1,2729 @@
+{
+    "add": [
+        "Leaper",
+        "Casting",
+        "Mihile",
+        "Dioge (Diogenes Barbosa)",
+        "Jcom",
+        "VIN (Trần Hoài Vinh)",
+        "Evewin",
+        "Pain (Lê Quốc Anh)",
+        "Nanaue (Phùng Đức Tài)",
+        "Maple Syrup",
+        "M0chi",
+        "Prey (Xu Jia-Hao)",
+        "Xiaocaobao",
+        "Glfs",
+        "Tahahy",
+        "Yume (Châu Kim Bảo)",
+        "GuanGuan",
+        "ZUIAN",
+        "RYue",
+        "Kerry",
+        "225",
+        "9God",
+        "Juice",
+        "Warrior (Nguyễn Phú Thanh)",
+        "Kazuto",
+        "ChinX",
+        "TT789",
+        "Rineko",
+        "Yojin",
+        "VENDRICK",
+        "HotPot",
+        "Tomio",
+        "Cadence",
+        "Smiley (Ludvig Granquist)",
+        "Gabn",
+        "Leandrinn",
+        "Forlin",
+        "Neadz",
+        "Guapi",
+        "Mun",
+        "SiuLoong",
+        "Sovereign (Alexander Folley)",
+        "Sounda",
+        "Luon",
+        "Balder",
+        "Yge",
+        "C7N",
+        "Claws",
+        "Van (Kim Seung-hoo)",
+        "Wuming (Wang Xin)",
+        "Levizin"
+    ],
+    "evolved": [],
+    "modified": {
+        "1116": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "RYue",
+                "Relhia",
+                "Cha9",
+                "Lilv"
+            ]
+        },
+        "1Jiang": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Wako"
+            ]
+        },
+        "4ever": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Voice",
+                "Rineko",
+                "Praedyth",
+                "Gunkrab"
+            ]
+        },
+        "5kid": {
+            "valid_players": [
+                "ChinX",
+                "Buggax",
+                "IgnaVilu",
+                "Mir (Park Mi-reu)"
+            ]
+        },
+        "665": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Feng (Chen Chun-Feng)"
+            ]
+        },
+        "Able": {
+            "valid_players": [
+                "FoFo",
+                "Yanxiang",
+                "Wayward",
+                "Heng",
+                "Mark (Ling Xu)",
+                "LP"
+            ]
+        },
+        "Abyss (Lin Po-Reng)": {
+            "valid_players": [
+                "NuL1",
+                "HotPot",
+                "GuanGuan",
+                "Kerry",
+                "Cheng9"
+            ]
+        },
+        "Acee": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Ahn": {
+            "valid_players": [
+                "ZUIAN",
+                "Glfs",
+                "Vampire"
+            ]
+        },
+        "Aiming": {
+            "valid_players": [
+                "Moham"
+            ]
+        },
+        "Aki (Mao An)": {
+            "valid_players": [
+                "Leyan"
+            ]
+        },
+        "Aladoric": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Haeri"
+            ]
+        },
+        "Ale": {
+            "valid_players": [
+                "Croco",
+                "Kael (Kim Jin-hong)",
+                "Shanks",
+                "Hope (Wang Jie)"
+            ]
+        },
+        "AmazingJ": {
+            "valid_players": [
+                "Wuming (Wang Xin)"
+            ]
+        },
+        "Andil": {
+            "valid_players": [
+                "Leaper"
+            ]
+        },
+        "Angel (Xiang Tao)": {
+            "valid_players": [
+                "Hery",
+                "Tianzhen"
+            ]
+        },
+        "Aomine": {
+            "valid_players": [
+                "Taki (Đinh Anh Tài)",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Jcom",
+                "Pain (Lê Quốc Anh)",
+                "Hiro02",
+                "Yusah",
+                "Aress"
+            ]
+        },
+        "Arding": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Aress": {
+            "valid_players": [
+                "Aomine",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Jcom",
+                "Pain (Lê Quốc Anh)"
+            ]
+        },
+        "Aria (Lee Ga-eul)": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Artemis (Trần Quốc Hưng)": {
+            "valid_players": [
+                "Dove",
+                "Kazuto",
+                "C7N",
+                "Hasmed",
+                "Claws",
+                "SiuLoong",
+                "Sounda"
+            ]
+        },
+        "Assum": {
+            "valid_players": [
+                "Xiaohao",
+                "Jwei"
+            ]
+        },
+        "Astaa": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Ayu (Andrey Saraiva)": {
+            "valid_players": [
+                "Jojo (Gabriel Dzelme)",
+                "Zzk (Kwon Hee-won)",
+                "Wiz"
+            ]
+        },
+        "Bdd": {
+            "valid_players": [
+                "Casting"
+            ]
+        },
+        "Beenie": {
+            "regions": [
+                "Latin America"
+            ],
+            "valid_players": [
+                "Jauny",
+                "Ganks",
+                "Vahvel",
+                "Nobody (Nicolás Ale)",
+                "Mun"
+            ]
+        },
+        "Beichuan": {
+            "valid_players": [
+                "Feather"
+            ]
+        },
+        "Berserker (Kim Min-cheol)": {
+            "valid_players": [
+                "Thanatos (Park Seung-gyu)"
+            ]
+        },
+        "BeryL": {
+            "valid_players": [
+                "Casting"
+            ]
+        },
+        "Bie": {
+            "valid_players": [
+                "Nanaue (Phùng Đức Tài)",
+                "Gury",
+                "Shogun (Nguyễn Văn Huy)",
+                "C7N"
+            ]
+        },
+        "Bini": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "BioPanther": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Blaber": {
+            "valid_players": [
+                "Thanatos (Park Seung-gyu)"
+            ]
+        },
+        "BrTT": {
+            "valid_players": [
+                "Envy (Bruno Farias)",
+                "Seize",
+                "SuperCleber",
+                "Kabbie"
+            ]
+        },
+        "Breathe": {
+            "valid_players": [
+                "XBear",
+                "Light (Wang Guang-Yu)"
+            ]
+        },
+        "BuLLDoG (Lee Tae-young)": {
+            "valid_players": [
+                "Leaper"
+            ]
+        },
+        "Buggax": {
+            "valid_players": [
+                "ChinX",
+                "IgnaVilu",
+                "Mir (Park Mi-reu)",
+                "5kid"
+            ]
+        },
+        "Bugi": {
+            "valid_players": [
+                "Tomio"
+            ]
+        },
+        "Busio": {
+            "valid_players": [
+                "Quad"
+            ]
+        },
+        "Bvoy": {
+            "valid_players": [
+                "Tomio"
+            ]
+        },
+        "Bwipo": {
+            "valid_players": [
+                "Quad"
+            ]
+        },
+        "Calix (Syun Hyun-bin)": {
+            "valid_players": [
+                "Vital",
+                "Fisher (Lee Jeong-tae)",
+                "GuGer",
+                "Mihile"
+            ]
+        },
+        "Callme": {
+            "valid_players": [
+                "Mihile",
+                "Fisher (Lee Jeong-tae)",
+                "GuGer"
+            ]
+        },
+        "Care": {
+            "valid_players": [
+                "TheNiu",
+                "Zdz"
+            ]
+        },
+        "Cassin": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Cavalo": {
+            "valid_players": [
+                "Levizin",
+                "Leandrinn"
+            ]
+        },
+        "Ceo": {
+            "valid_players": [
+                "Keine"
+            ]
+        },
+        "Ceos": {
+            "valid_players": [
+                "Scary (Artur Queiroz)"
+            ]
+        },
+        "Cha9": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "RYue",
+                "Kongyue",
+                "1116",
+                "Lilv"
+            ]
+        },
+        "Charley": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Cheng9": {
+            "valid_players": [
+                "GuanGuan",
+                "Abyss (Lin Po-Reng)",
+                "HotPot",
+                "Kerry"
+            ]
+        },
+        "Chirp": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Prey (Xu Jia-Hao)"
+            ]
+        },
+        "Chungy": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "M0chi",
+                "Mfis",
+                "Shinki",
+                "Katsurii",
+                "Meifan",
+                "Guapi"
+            ]
+        },
+        "Clear (Song Hyeon-min)": {
+            "valid_players": [
+                "Raptor (Jeon Eo-jin)",
+                "Duro"
+            ]
+        },
+        "Clozer": {
+            "valid_players": [
+                "Raptor (Jeon Eo-jin)",
+                "Duro"
+            ]
+        },
+        "Crisp": {
+            "valid_players": [
+                "XBear",
+                "Tarzan (Lee Seung-yong)"
+            ]
+        },
+        "Croco": {
+            "valid_players": [
+                "Ale"
+            ]
+        },
+        "Cryin": {
+            "valid_players": [
+                "Solokill",
+                "Leave",
+                "JieJie"
+            ]
+        },
+        "Cryscata": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Feng (Chen Chun-Feng)"
+            ]
+        },
+        "Cube (Dai Yi)": {
+            "valid_players": [
+                "Hery"
+            ]
+        },
+        "Cuzz": {
+            "valid_players": [
+                "Leaper"
+            ]
+        },
+        "DDoiV": {
+            "valid_players": [
+                "YoungJae",
+                "FATE (Yoo Su-hyeok)"
+            ]
+        },
+        "DaJeung": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Damage": {
+            "valid_players": [
+                "Dioge (Diogenes Barbosa)",
+                "Yupps"
+            ]
+        },
+        "Deft": {
+            "valid_players": [
+                "Casting"
+            ]
+        },
+        "Delicate (Cheng Jia-Qi)": {
+            "valid_players": [
+                "Wuming (Wang Xin)"
+            ]
+        },
+        "Deokdam": {
+            "valid_players": [
+                "TheNiu",
+                "Zdz"
+            ]
+        },
+        "Destiny (Mitchell Shaw)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Zorenous",
+                "Incursio",
+                "Foreigner",
+                "Dragku"
+            ]
+        },
+        "Dimitry": {
+            "valid_players": [
+                "ChinX",
+                "Buggax",
+                "Seiya",
+                "Mir (Park Mi-reu)"
+            ]
+        },
+        "Disamis": {
+            "valid_players": [
+                "Smiley (Ludvig Granquist)"
+            ]
+        },
+        "DnDn": {
+            "valid_players": [
+                "Mihile",
+                "Fisher (Lee Jeong-tae)",
+                "GuGer"
+            ]
+        },
+        "Doggo": {
+            "valid_players": [
+                "Qingtian",
+                "Niket"
+            ]
+        },
+        "Doraemon (Joshua Wong)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Styx (Samuel Blanchard)",
+                "SHAKa (Yang Zhen-Yu)"
+            ]
+        },
+        "Dove": {
+            "regions": [
+                "Vietnam"
+            ],
+            "valid_players": [
+                "Hieu3",
+                "Kazuto",
+                "RonOP",
+                "Artemis (Trần Quốc Hưng)",
+                "SiuLoong",
+                "Hasmed",
+                "Claws",
+                "C7N",
+                "Sounda"
+            ]
+        },
+        "Dragku": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Destiny (Mitchell Shaw)",
+                "Incursio",
+                "Foreigner"
+            ]
+        },
+        "Drakehero": {
+            "valid_players": [
+                "Levizin",
+                "Leandrinn"
+            ]
+        },
+        "Draktharr": {
+            "valid_players": [
+                "Playcool",
+                "Balder",
+                "Ouzi"
+            ]
+        },
+        "Driver": {
+            "valid_players": [
+                "Gori",
+                "SwordArt",
+                "Shunn",
+                "HongQ",
+                "Karsa"
+            ]
+        },
+        "DuDu (Lee Dong-ju)": {
+            "valid_players": [
+                "Leaper"
+            ]
+        },
+        "Duck1": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Duro": {
+            "valid_players": [
+                "Hena",
+                "Clear (Song Hyeon-min)",
+                "Raptor (Jeon Eo-jin)",
+                "Execute",
+                "Clozer"
+            ]
+        },
+        "EHopp": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "EL (Jeon Seong-hyeon)": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "EasyLove": {
+            "valid_players": [
+                "Neo (Toàn Trần)"
+            ]
+        },
+        "Eisley": {
+            "valid_players": [
+                "Xiaocaobao",
+                "Yge"
+            ]
+        },
+        "Elio": {
+            "valid_players": [
+                "Neo (Toàn Trần)"
+            ]
+        },
+        "Elk": {
+            "valid_players": [
+                "Wei (Yan Yang-Wei)"
+            ]
+        },
+        "Ellim": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Emo": {
+            "valid_players": [
+                "Neo (Toàn Trần)"
+            ]
+        },
+        "Enso": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Envy (Bruno Farias)": {
+            "valid_players": [
+                "BrTT"
+            ]
+        },
+        "Envyy": {
+            "valid_players": [
+                "FATE (Yoo Su-hyeok)"
+            ]
+        },
+        "Eugeo": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Van (Kim Seung-hoo)"
+            ]
+        },
+        "Execute": {
+            "valid_players": [
+                "Raptor (Jeon Eo-jin)",
+                "Duro"
+            ]
+        },
+        "Eyla": {
+            "valid_players": [
+                "Tomo"
+            ]
+        },
+        "FATE (Yoo Su-hyeok)": {
+            "valid_players": [
+                "Karis",
+                "DDoiV",
+                "Envyy",
+                "Samver",
+                "Pollu",
+                "Morgan",
+                "YoungJae",
+                "Pullbae"
+            ]
+        },
+        "FakeGod": {
+            "valid_players": [
+                "Tomio"
+            ]
+        },
+        "Feather": {
+            "valid_players": [
+                "Beichuan",
+                "QiuQiu (Zhang Ming)",
+                "Ucal",
+                "HOYA"
+            ]
+        },
+        "Feng (Chen Chun-Feng)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Taco (Fan Zhao-Fu)",
+                "665",
+                "Cryscata",
+                "Orca (Kuo Cheng-Han)"
+            ]
+        },
+        "Fighto": {
+            "valid_players": [
+                "Thien",
+                "Evewin",
+                "Shernfire",
+                "Kurak"
+            ]
+        },
+        "Findo": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Prey (Xu Jia-Hao)"
+            ]
+        },
+        "Fisher (Lee Jeong-tae)": {
+            "valid_players": [
+                "Calix (Syun Hyun-bin)",
+                "Vital",
+                "Callme",
+                "GuGer",
+                "Mihile",
+                "DnDn",
+                "Jiwoo",
+                "Sylvie"
+            ]
+        },
+        "FoFo": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "LP",
+                "Yanxiang",
+                "Able",
+                "Mark (Ling Xu)"
+            ]
+        },
+        "Foreigner": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Zorenous",
+                "Destiny (Mitchell Shaw)",
+                "Dragku",
+                "Incursio",
+                "Raes"
+            ]
+        },
+        "Forest (Lee Hyeon-seo)": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Frog (Lee Min-hoi)": {
+            "valid_players": [
+                "Paduck"
+            ]
+        },
+        "Fuuu": {
+            "valid_players": [
+                "Trigo (Matheus Trigo)",
+                "Forlin",
+                "Shini"
+            ]
+        },
+        "Gaeng": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Ganks": {
+            "valid_players": [
+                "Beenie",
+                "Vahvel",
+                "Mun",
+                "Nobody (Nicolás Ale)"
+            ]
+        },
+        "Gavotto": {
+            "valid_players": [
+                "Loopy"
+            ]
+        },
+        "Geju": {
+            "valid_players": [
+                "Juice",
+                "Huanfeng",
+                "Ming (Shi Sen-Ming)",
+                "XBY"
+            ]
+        },
+        "Godtone": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "NuL1",
+                "HotPot",
+                "GuanGuan",
+                "Kerry",
+                "Abyss (Lin Po-Reng)",
+                "Cheng9"
+            ]
+        },
+        "Goodo": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Voice",
+                "Rineko",
+                "Praedyth",
+                "Gunkrab"
+            ]
+        },
+        "Gori": {
+            "valid_players": [
+                "HongQ",
+                "Driver"
+            ]
+        },
+        "Grell": {
+            "valid_players": [
+                "Trigger (Kim Eui-joo)",
+                "TopLop",
+                "ZOEN (Enzo Ganino)",
+                "Neadz",
+                "Nia (Woo Jun-sung)"
+            ]
+        },
+        "GuGer": {
+            "valid_players": [
+                "Fisher (Lee Jeong-tae)",
+                "Calix (Syun Hyun-bin)",
+                "Vital",
+                "Callme",
+                "Mihile",
+                "DnDn",
+                "Jiwoo",
+                "Sylvie"
+            ]
+        },
+        "Guigo": {
+            "valid_players": [
+                "Smiley (Ludvig Granquist)"
+            ]
+        },
+        "Gunkrab": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Voice",
+                "Rineko",
+                "Goodo",
+                "4ever"
+            ]
+        },
+        "Gury": {
+            "valid_players": [
+                "Nanaue (Phùng Đức Tài)",
+                "Bie"
+            ]
+        },
+        "H4cker": {
+            "valid_players": [
+                "Qingtian",
+                "Niket"
+            ]
+        },
+        "HOYA": {
+            "valid_players": [
+                "Feather"
+            ]
+        },
+        "HRK": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Haeri": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Aladoric",
+                "Kevy"
+            ]
+        },
+        "Halo": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Harp": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Hasmed": {
+            "valid_players": [
+                "Dove",
+                "Hieu3",
+                "Kazuto",
+                "RonOP",
+                "Artemis (Trần Quốc Hưng)",
+                "Sounda",
+                "C7N",
+                "Claws",
+                "SiuLoong"
+            ]
+        },
+        "Hauz": {
+            "valid_players": [
+                "Scary (Artur Queiroz)"
+            ]
+        },
+        "Hena": {
+            "valid_players": [
+                "Duro"
+            ]
+        },
+        "Heng": {
+            "valid_players": [
+                "LP",
+                "Mark (Ling Xu)",
+                "Able"
+            ]
+        },
+        "Hery": {
+            "valid_players": [
+                "Tianzhen",
+                "Angel (Xiang Tao)",
+                "Ppgod",
+                "Linfeng",
+                "Xiaofang",
+                "Cube (Dai Yi)",
+                "Starry"
+            ]
+        },
+        "Hetel": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Hexflash": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Styx (Samuel Blanchard)",
+                "SHAKa (Yang Zhen-Yu)"
+            ]
+        },
+        "Hieu3": {
+            "valid_players": [
+                "Dove",
+                "Kazuto",
+                "C7N",
+                "Hasmed",
+                "Claws",
+                "SiuLoong",
+                "Sounda"
+            ]
+        },
+        "Hiro02": {
+            "valid_players": [
+                "Aomine",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Jcom",
+                "Pain (Lê Quốc Anh)"
+            ]
+        },
+        "HongQ": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Gori",
+                "SwordArt",
+                "Driver",
+                "Shunn",
+                "Karsa",
+                "Rest"
+            ]
+        },
+        "Hoopa": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Prey (Xu Jia-Hao)"
+            ]
+        },
+        "Hope (Wang Jie)": {
+            "valid_players": [
+                "Ale"
+            ]
+        },
+        "HowLa": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Huanfeng": {
+            "valid_players": [
+                "Juice",
+                "Ming (Shi Sen-Ming)",
+                "Tangyuan",
+                "Wei (Yan Yang-Wei)",
+                "Zdz",
+                "Geju",
+                "Xzz",
+                "XBY"
+            ]
+        },
+        "ISMA": {
+            "valid_players": [
+                "Rahel",
+                "Luon"
+            ]
+        },
+        "IgNar": {
+            "valid_players": [
+                "Juhan",
+                "Th3Antonio"
+            ]
+        },
+        "IgnaVilu": {
+            "valid_players": [
+                "Buggax",
+                "5kid",
+                "ChinX",
+                "Seiya",
+                "Mir (Park Mi-reu)"
+            ]
+        },
+        "Incursio": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Zorenous",
+                "Destiny (Mitchell Shaw)",
+                "Foreigner",
+                "Dragku"
+            ]
+        },
+        "Ino": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Van (Kim Seung-hoo)"
+            ]
+        },
+        "Insanity": {
+            "valid_players": [
+                "Tomio"
+            ]
+        },
+        "Inspired": {
+            "valid_players": [
+                "Quad"
+            ]
+        },
+        "Invictis": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Irrelevant": {
+            "valid_players": [
+                "Rahel",
+                "Luon"
+            ]
+        },
+        "Isles": {
+            "valid_players": [
+                "Licorice",
+                "Jensen",
+                "Spica"
+            ]
+        },
+        "Iwandy": {
+            "valid_players": [
+                "Juice",
+                "Ming (Shi Sen-Ming)",
+                "Huanfeng",
+                "Geju",
+                "XBY"
+            ]
+        },
+        "Jackies": {
+            "valid_players": [
+                "Juhan",
+                "Th3Antonio"
+            ]
+        },
+        "Jauny": {
+            "valid_players": [
+                "Beenie",
+                "Vahvel",
+                "Mun"
+            ]
+        },
+        "Jensen": {
+            "valid_players": [
+                "Spica",
+                "Isles"
+            ]
+        },
+        "Jett": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "JieJie": {
+            "valid_players": [
+                "Cryin",
+                "Wink"
+            ]
+        },
+        "JimieN": {
+            "valid_players": [
+                "Wako"
+            ]
+        },
+        "Jiwoo": {
+            "valid_players": [
+                "Mihile",
+                "Fisher (Lee Jeong-tae)",
+                "GuGer"
+            ]
+        },
+        "Jojo (Gabriel Dzelme)": {
+            "valid_players": [
+                "Wiz",
+                "Ayu (Andrey Saraiva)",
+                "Zzk (Kwon Hee-won)",
+                "Tutsz"
+            ]
+        },
+        "Jojopyun": {
+            "valid_players": [
+                "Thanatos (Park Seung-gyu)"
+            ]
+        },
+        "Jool": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Juhan": {
+            "regions": [
+                "EMEA"
+            ],
+            "valid_players": [
+                "IgNar",
+                "Th3Antonio",
+                "Jackies",
+                "Patrik"
+            ]
+        },
+        "Jwei": {
+            "valid_players": [
+                "Xiaohao",
+                "VicLa",
+                "Assum",
+                "Xiaoxu"
+            ]
+        },
+        "K1ng": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Kabbie": {
+            "valid_players": [
+                "BrTT"
+            ]
+        },
+        "Kael (Kim Jin-hong)": {
+            "valid_players": [
+                "Ale"
+            ]
+        },
+        "Kaiwing": {
+            "valid_players": [
+                "Wako"
+            ]
+        },
+        "Kakkun": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Karis": {
+            "valid_players": [
+                "FATE (Yoo Su-hyeok)"
+            ]
+        },
+        "Karsa": {
+            "valid_players": [
+                "HongQ",
+                "Driver"
+            ]
+        },
+        "Kati": {
+            "valid_players": [
+                "Nanaue (Phùng Đức Tài)"
+            ]
+        },
+        "Katsurii": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Guapi",
+                "M0chi",
+                "Meifan",
+                "Chungy"
+            ]
+        },
+        "Kaze (Lucas Fe)": {
+            "valid_players": [
+                "Loopy"
+            ]
+        },
+        "Kazmma": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Keine": {
+            "valid_players": [
+                "Lyonz",
+                "Ceo",
+                "Summit",
+                "Oddie"
+            ]
+        },
+        "Kellin": {
+            "valid_players": [
+                "Moham"
+            ]
+        },
+        "Kentakki": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Kevy": {
+            "valid_players": [
+                "Haeri"
+            ]
+        },
+        "Kiari": {
+            "valid_players": [
+                "Forlin",
+                "Shini"
+            ]
+        },
+        "Kiaya": {
+            "valid_players": [
+                "Neo (Toàn Trần)"
+            ]
+        },
+        "Killerqueen": {
+            "valid_players": [
+                "C7N"
+            ]
+        },
+        "Kinatu": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Kingen": {
+            "valid_players": [
+                "Moham"
+            ]
+        },
+        "Kisee": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Knight (Zhuo Ding)": {
+            "valid_players": [
+                "Wei (Yan Yang-Wei)"
+            ]
+        },
+        "Kongyue": {
+            "valid_players": [
+                "RYue",
+                "Relhia",
+                "Cha9"
+            ]
+        },
+        "Kurak": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Thien",
+                "Fighto",
+                "Evewin",
+                "Shernfire",
+                "Leemas"
+            ]
+        },
+        "LP": {
+            "valid_players": [
+                "FoFo",
+                "Wayward",
+                "Heng",
+                "Mark (Ling Xu)",
+                "Able"
+            ]
+        },
+        "Leave": {
+            "valid_players": [
+                "Cryin",
+                "Wink"
+            ]
+        },
+        "LeeSA": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Leemas": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Evewin",
+                "Kurak"
+            ]
+        },
+        "Leleko": {
+            "valid_players": [
+                "Smiley (Ludvig Granquist)"
+            ]
+        },
+        "Levi": {
+            "valid_players": [
+                "Neo (Toàn Trần)"
+            ]
+        },
+        "Leyan": {
+            "valid_players": [
+                "Shanji",
+                "Photic",
+                "Aki (Mao An)"
+            ]
+        },
+        "Leza": {
+            "valid_players": [
+                "Trigger (Kim Eui-joo)",
+                "TopLop",
+                "ZOEN (Enzo Ganino)",
+                "Neadz",
+                "Nia (Woo Jun-sung)"
+            ]
+        },
+        "Licorice": {
+            "valid_players": [
+                "Spica",
+                "Isles"
+            ]
+        },
+        "Life": {
+            "valid_players": [
+                "TheNiu",
+                "Zdz"
+            ]
+        },
+        "Light (Wang Guang-Yu)": {
+            "valid_players": [
+                "Breathe",
+                "XBear"
+            ]
+        },
+        "Likai": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Lilv": {
+            "valid_players": [
+                "RYue",
+                "Relhia",
+                "Cha9",
+                "1116"
+            ]
+        },
+        "Linfeng": {
+            "valid_players": [
+                "Hery"
+            ]
+        },
+        "Loopy": {
+            "regions": [
+                "Latin America"
+            ],
+            "valid_players": [
+                "Kaze (Lucas Fe)",
+                "Pan (Andres Bonilla)",
+                "Gavotto",
+                "OnFleek"
+            ]
+        },
+        "Lucid (Choi Yong-hyeok)": {
+            "valid_players": [
+                "Moham"
+            ]
+        },
+        "Lyonz": {
+            "valid_players": [
+                "Keine"
+            ]
+        },
+        "Makes": {
+            "valid_players": [
+                "Levizin",
+                "Leandrinn"
+            ]
+        },
+        "Malrang": {
+            "valid_players": [
+                "Scary (Artur Queiroz)"
+            ]
+        },
+        "Marble": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Mark (Ling Xu)": {
+            "valid_players": [
+                "FoFo",
+                "Yanxiang",
+                "Heng",
+                "LP",
+                "Able"
+            ]
+        },
+        "Massu": {
+            "valid_players": [
+                "Quad"
+            ]
+        },
+        "Meech": {
+            "valid_players": [
+                "Tomo"
+            ]
+        },
+        "Meifan": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "M0chi",
+                "Mfis",
+                "Katsurii",
+                "Chungy",
+                "Guapi"
+            ]
+        },
+        "Meliodas (Hoàng Tiến Nhật)": {
+            "valid_players": [
+                "TT789",
+                "Tahahy",
+                "Yume (Châu Kim Bảo)",
+                "Richard I",
+                "Slowz"
+            ]
+        },
+        "Mfis": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Guapi",
+                "M0chi",
+                "Meifan",
+                "Chungy"
+            ]
+        },
+        "MicaO": {
+            "valid_players": [
+                "Levizin",
+                "Leandrinn"
+            ]
+        },
+        "Milkyway": {
+            "valid_players": [
+                "TheNiu",
+                "Zdz"
+            ]
+        },
+        "Ming (Shi Sen-Ming)": {
+            "valid_players": [
+                "Juice",
+                "Huanfeng",
+                "Zdz",
+                "Geju",
+                "Xzz",
+                "XBY"
+            ]
+        },
+        "Minji": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Mint": {
+            "valid_players": [
+                "Wuming (Wang Xin)"
+            ]
+        },
+        "Mir (Park Mi-reu)": {
+            "regions": [
+                "Latin America"
+            ],
+            "valid_players": [
+                "Buggax",
+                "5kid",
+                "ChinX",
+                "IgnaVilu",
+                "Seiya"
+            ]
+        },
+        "MnM (Wong Ka Chun)": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Moham": {
+            "valid_players": [
+                "Lucid (Choi Yong-hyeok)",
+                "ShowMaker",
+                "Kellin",
+                "Aiming",
+                "Kingen"
+            ]
+        },
+        "Morgan": {
+            "valid_players": [
+                "YoungJae",
+                "FATE (Yoo Su-hyeok)"
+            ]
+        },
+        "Moyashi": {
+            "valid_players": [
+                "Kinatu",
+                "Jett",
+                "Ellim"
+            ]
+        },
+        "Nayuki": {
+            "valid_players": [
+                "Xiaocaobao",
+                "Yge"
+            ]
+        },
+        "Nebula (Andres Cheung)": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Nectaar": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Neny": {
+            "valid_players": [
+                "ZUIAN",
+                "Glfs",
+                "Vampire"
+            ]
+        },
+        "Neo (Toàn Trần)": {
+            "regions": [
+                "Vietnam"
+            ],
+            "valid_players": [
+                "Emo",
+                "Kiaya",
+                "EasyLove",
+                "Levi",
+                "Elio"
+            ]
+        },
+        "Netuno": {
+            "valid_players": [
+                "Scary (Artur Queiroz)"
+            ]
+        },
+        "Nia (Woo Jun-sung)": {
+            "regions": [
+                "Latin America"
+            ],
+            "valid_players": [
+                "Trigger (Kim Eui-joo)",
+                "TopLop",
+                "Leza",
+                "ZOEN (Enzo Ganino)",
+                "Grell"
+            ]
+        },
+        "Niket": {
+            "valid_players": [
+                "Doggo",
+                "Yuekai",
+                "H4cker"
+            ]
+        },
+        "NinjaKiwi": {
+            "valid_players": [
+                "Dioge (Diogenes Barbosa)",
+                "Yupps"
+            ]
+        },
+        "Nisqy": {
+            "valid_players": [
+                "Rahel",
+                "Luon"
+            ]
+        },
+        "Nobody (Nicolás Ale)": {
+            "valid_players": [
+                "Beenie",
+                "Ganks",
+                "Vahvel",
+                "Mun"
+            ]
+        },
+        "Nogo": {
+            "valid_players": [
+                "VIN (Trần Hoài Vinh)",
+                "TQ",
+                "Sparda",
+                "Phuc1"
+            ]
+        },
+        "Nox1": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Prey (Xu Jia-Hao)"
+            ]
+        },
+        "NuL1": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "GuanGuan",
+                "Abyss (Lin Po-Reng)",
+                "HotPot",
+                "Kerry"
+            ]
+        },
+        "ON": {
+            "valid_players": [
+                "Wei (Yan Yang-Wei)"
+            ]
+        },
+        "Oddie": {
+            "valid_players": [
+                "Keine"
+            ]
+        },
+        "OnFleek": {
+            "valid_players": [
+                "Loopy"
+            ]
+        },
+        "Orca (Kuo Cheng-Han)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Feng (Chen Chun-Feng)"
+            ]
+        },
+        "Ouzi": {
+            "valid_players": [
+                "Soraaa",
+                "Draktharr",
+                "Balder",
+                "Yoshino"
+            ]
+        },
+        "Paduck": {
+            "valid_players": [
+                "Teddy",
+                "Pleata",
+                "Frog (Lee Min-hoi)",
+                "Sponge"
+            ]
+        },
+        "Pan (Andres Bonilla)": {
+            "valid_players": [
+                "Loopy"
+            ]
+        },
+        "Patrik": {
+            "valid_players": [
+                "Juhan",
+                "Th3Antonio"
+            ]
+        },
+        "Paz": {
+            "valid_players": [
+                "Kinatu",
+                "Yuhi",
+                "Ellim"
+            ]
+        },
+        "PerfecT (Lee Seung-min)": {
+            "valid_players": [
+                "Casting"
+            ]
+        },
+        "Photic": {
+            "valid_players": [
+                "Leyan"
+            ]
+        },
+        "Phuc1": {
+            "valid_players": [
+                "Nogo",
+                "Sty1e",
+                "Rigel (Đào Văn Tuấn)",
+                "Sparda",
+                "VIN (Trần Hoài Vinh)"
+            ]
+        },
+        "Piloto": {
+            "valid_players": [
+                "Levizin",
+                "Leandrinn"
+            ]
+        },
+        "Playcool": {
+            "valid_players": [
+                "Soraaa",
+                "Draktharr",
+                "Balder",
+                "Yoshino"
+            ]
+        },
+        "Pleata": {
+            "valid_players": [
+                "Paduck"
+            ]
+        },
+        "Pollu": {
+            "valid_players": [
+                "YoungJae",
+                "FATE (Yoo Su-hyeok)"
+            ]
+        },
+        "Ppgod": {
+            "valid_players": [
+                "Hery",
+                "Tianzhen"
+            ]
+        },
+        "Praedyth": {
+            "valid_players": [
+                "Voice",
+                "Rineko",
+                "Goodo",
+                "4ever"
+            ]
+        },
+        "Prage": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Pretender": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Wako"
+            ]
+        },
+        "ProDelta": {
+            "valid_players": [
+                "Smiley (Ludvig Granquist)"
+            ]
+        },
+        "Pullbae": {
+            "valid_players": [
+                "YoungJae",
+                "FATE (Yoo Su-hyeok)"
+            ]
+        },
+        "Pun": {
+            "valid_players": [
+                "Yume (Châu Kim Bảo)",
+                "TT789",
+                "Tahahy"
+            ]
+        },
+        "Pyosik": {
+            "valid_players": [
+                "Casting"
+            ]
+        },
+        "Qingtian": {
+            "valid_players": [
+                "Doggo",
+                "Yuekai",
+                "H4cker"
+            ]
+        },
+        "QiuQiu (Zhang Ming)": {
+            "valid_players": [
+                "Feather"
+            ]
+        },
+        "Quad": {
+            "regions": [
+                "North America",
+                "NA"
+            ],
+            "valid_players": [
+                "Busio",
+                "Massu",
+                "Bwipo",
+                "Inspired"
+            ]
+        },
+        "Quantum (Son Jeong-hwan)": {
+            "valid_players": [
+                "Leaper"
+            ]
+        },
+        "Quid": {
+            "valid_players": [
+                "Tomo"
+            ]
+        },
+        "Raes": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Zorenous",
+                "Incursio",
+                "Foreigner"
+            ]
+        },
+        "Rahel": {
+            "regions": [
+                "EMEA"
+            ],
+            "valid_players": [
+                "Irrelevant",
+                "Nisqy",
+                "Luon",
+                "ISMA"
+            ]
+        },
+        "Raina": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Charley",
+                "Jool",
+                "HowLa",
+                "Tol2"
+            ]
+        },
+        "Raptor (Jeon Eo-jin)": {
+            "valid_players": [
+                "Duro",
+                "Execute",
+                "Clear (Song Hyeon-min)",
+                "Clozer"
+            ]
+        },
+        "RayFarky": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Realer": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Relhia": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Kongyue",
+                "1116",
+                "Lilv"
+            ]
+        },
+        "RenYe": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Rest": {
+            "valid_players": [
+                "HongQ"
+            ]
+        },
+        "Reufury": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "9God",
+                "Yojin",
+                "VENDRICK",
+                "Gabn",
+                "Sovereign (Alexander Folley)"
+            ]
+        },
+        "Richard I": {
+            "valid_players": [
+                "Yume (Châu Kim Bảo)",
+                "Meliodas (Hoàng Tiến Nhật)",
+                "TT789",
+                "Tahahy"
+            ]
+        },
+        "Rigel (Đào Văn Tuấn)": {
+            "valid_players": [
+                "VIN (Trần Hoài Vinh)",
+                "TQ",
+                "Sparda",
+                "Phuc1"
+            ]
+        },
+        "River (Kim Dong-woo)": {
+            "valid_players": [
+                "Tomo"
+            ]
+        },
+        "River1": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "RonOP": {
+            "valid_players": [
+                "Dove",
+                "Kazuto",
+                "C7N",
+                "Hasmed",
+                "Claws",
+                "Sounda"
+            ]
+        },
+        "Ru0": {
+            "valid_players": [
+                "Wuming (Wang Xin)"
+            ]
+        },
+        "Ryoma": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "SHAKa (Yang Zhen-Yu)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Styx (Samuel Blanchard)",
+                "Zhovy",
+                "Hexflash",
+                "Doraemon (Joshua Wong)"
+            ]
+        },
+        "Samver": {
+            "valid_players": [
+                "YoungJae",
+                "FATE (Yoo Su-hyeok)"
+            ]
+        },
+        "Scamber": {
+            "valid_players": [
+                "Trigo (Matheus Trigo)",
+                "Forlin",
+                "Shini"
+            ]
+        },
+        "Scary (Artur Queiroz)": {
+            "valid_players": [
+                "Hauz",
+                "Netuno",
+                "Malrang",
+                "Ceos"
+            ]
+        },
+        "Scxtt": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Seiya": {
+            "valid_players": [
+                "ChinX",
+                "IgnaVilu",
+                "Mir (Park Mi-reu)"
+            ]
+        },
+        "Seize": {
+            "valid_players": [
+                "BrTT"
+            ]
+        },
+        "Shanji": {
+            "valid_players": [
+                "Leyan"
+            ]
+        },
+        "Shanks": {
+            "valid_players": [
+                "Ale"
+            ]
+        },
+        "Shernfire": {
+            "valid_players": [
+                "Fighto",
+                "Evewin",
+                "Kurak"
+            ]
+        },
+        "Shini": {
+            "valid_players": [
+                "Scamber",
+                "Trigo (Matheus Trigo)",
+                "Kiari",
+                "Fuuu",
+                "Forlin"
+            ]
+        },
+        "Shinki": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Guapi",
+                "M0chi",
+                "Chungy"
+            ]
+        },
+        "Shogun (Nguyễn Văn Huy)": {
+            "valid_players": [
+                "Nanaue (Phùng Đức Tài)",
+                "Bie"
+            ]
+        },
+        "ShowMaker": {
+            "valid_players": [
+                "Moham"
+            ]
+        },
+        "Shunn": {
+            "valid_players": [
+                "HongQ",
+                "Driver"
+            ]
+        },
+        "Slowz": {
+            "valid_players": [
+                "Yume (Châu Kim Bảo)",
+                "Meliodas (Hoàng Tiến Nhật)",
+                "TT789",
+                "Tahahy"
+            ]
+        },
+        "Sniper": {
+            "valid_players": [
+                "Tomo"
+            ]
+        },
+        "Solokill": {
+            "valid_players": [
+                "Cryin",
+                "Wink"
+            ]
+        },
+        "Soraaa": {
+            "valid_players": [
+                "Playcool",
+                "Balder",
+                "Ouzi"
+            ]
+        },
+        "Sparda": {
+            "valid_players": [
+                "Nogo",
+                "Sty1e",
+                "TQ",
+                "Rigel (Đào Văn Tuấn)",
+                "VIN (Trần Hoài Vinh)",
+                "Phuc1",
+                "C7N"
+            ]
+        },
+        "Spica": {
+            "valid_players": [
+                "Licorice",
+                "Jensen",
+                "Isles"
+            ]
+        },
+        "Sponge": {
+            "valid_players": [
+                "Paduck"
+            ]
+        },
+        "Ssol": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Van (Kim Seung-hoo)"
+            ]
+        },
+        "Starry": {
+            "valid_players": [
+                "Hery",
+                "Tianzhen"
+            ]
+        },
+        "Sty1e": {
+            "valid_players": [
+                "VIN (Trần Hoài Vinh)",
+                "TQ",
+                "Sparda",
+                "Phuc1"
+            ]
+        },
+        "Styx (Samuel Blanchard)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "SHAKa (Yang Zhen-Yu)",
+                "Zhovy",
+                "Hexflash",
+                "Doraemon (Joshua Wong)"
+            ]
+        },
+        "Summit": {
+            "valid_players": [
+                "Keine"
+            ]
+        },
+        "SuperCleber": {
+            "valid_players": [
+                "BrTT"
+            ]
+        },
+        "SwordArt": {
+            "valid_players": [
+                "HongQ",
+                "Driver"
+            ]
+        },
+        "Sylvie": {
+            "valid_players": [
+                "Mihile",
+                "Fisher (Lee Jeong-tae)",
+                "GuGer"
+            ]
+        },
+        "TQ": {
+            "valid_players": [
+                "Nogo",
+                "Sty1e",
+                "Rigel (Đào Văn Tuấn)",
+                "Sparda",
+                "VIN (Trần Hoài Vinh)"
+            ]
+        },
+        "TaNa": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Taco (Fan Zhao-Fu)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Feng (Chen Chun-Feng)"
+            ]
+        },
+        "Taki (Đinh Anh Tài)": {
+            "valid_players": [
+                "Aomine",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Jcom",
+                "Pain (Lê Quốc Anh)"
+            ]
+        },
+        "Tangyuan": {
+            "valid_players": [
+                "Juice",
+                "Huanfeng",
+                "Zdz",
+                "Geju",
+                "Xzz",
+                "XBY"
+            ]
+        },
+        "Tarzan (Lee Seung-yong)": {
+            "valid_players": [
+                "XBear",
+                "Xiaohu",
+                "Crisp"
+            ]
+        },
+        "Teddy": {
+            "valid_players": [
+                "Paduck"
+            ]
+        },
+        "Th3Antonio": {
+            "valid_players": [
+                "IgNar",
+                "Juhan",
+                "Jackies",
+                "Patrik"
+            ]
+        },
+        "Thanatos (Park Seung-gyu)": {
+            "regions": [
+                "North America"
+            ],
+            "valid_players": [
+                "Blaber",
+                "Berserker (Kim Min-cheol)",
+                "VULCAN (Philippe Laflamme)",
+                "Jojopyun"
+            ]
+        },
+        "TheNiu": {
+            "valid_players": [
+                "Care",
+                "Xiaolaohu",
+                "Deokdam",
+                "Milkyway",
+                "Life"
+            ]
+        },
+        "Thien": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Fighto",
+                "Evewin",
+                "Kurak"
+            ]
+        },
+        "Tianzhen": {
+            "valid_players": [
+                "Hery",
+                "Angel (Xiang Tao)",
+                "Ppgod",
+                "Starry"
+            ]
+        },
+        "Tol2": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Tomasino (Tomas Silva Pereira)": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Prey (Xu Jia-Hao)"
+            ]
+        },
+        "Tomo": {
+            "valid_players": [
+                "Meech",
+                "River (Kim Dong-woo)",
+                "Quid",
+                "Sniper",
+                "Eyla"
+            ]
+        },
+        "TopLop": {
+            "valid_players": [
+                "Trigger (Kim Eui-joo)",
+                "Leza",
+                "ZOEN (Enzo Ganino)",
+                "Neadz",
+                "Nia (Woo Jun-sung)",
+                "Grell"
+            ]
+        },
+        "Toppy": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Toucouille": {
+            "valid_players": [
+                "Smiley (Ludvig Granquist)"
+            ]
+        },
+        "Trigger (Kim Eui-joo)": {
+            "regions": [
+                "Latin America"
+            ],
+            "valid_players": [
+                "TopLop",
+                "Leza",
+                "ZOEN (Enzo Ganino)",
+                "Neadz",
+                "Nia (Woo Jun-sung)",
+                "Grell"
+            ]
+        },
+        "Trigo (Matheus Trigo)": {
+            "valid_players": [
+                "Scamber",
+                "Fuuu",
+                "Forlin",
+                "Shini"
+            ]
+        },
+        "Tutsz": {
+            "valid_players": [
+                "Jojo (Gabriel Dzelme)",
+                "Zzk (Kwon Hee-won)"
+            ]
+        },
+        "Ucal": {
+            "valid_players": [
+                "Feather"
+            ]
+        },
+        "VULCAN (Philippe Laflamme)": {
+            "valid_players": [
+                "Thanatos (Park Seung-gyu)"
+            ]
+        },
+        "Vahvel": {
+            "regions": [
+                "Latin America"
+            ],
+            "valid_players": [
+                "Jauny",
+                "Ganks",
+                "Beenie",
+                "Nobody (Nicolás Ale)",
+                "Mun"
+            ]
+        },
+        "Vampire": {
+            "valid_players": [
+                "YSKM",
+                "Glfs",
+                "ZUIAN",
+                "Ahn",
+                "Neny"
+            ]
+        },
+        "VicLa": {
+            "valid_players": [
+                "Xiaohao",
+                "Jwei"
+            ]
+        },
+        "Violet (Vincent Wong)": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Vital": {
+            "valid_players": [
+                "Mihile",
+                "Fisher (Lee Jeong-tae)",
+                "GuGer",
+                "Calix (Syun Hyun-bin)"
+            ]
+        },
+        "Voice": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Goodo",
+                "Gunkrab",
+                "Rineko",
+                "Praedyth",
+                "4ever"
+            ]
+        },
+        "Vsta": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Wako": {
+            "valid_players": [
+                "JimieN",
+                "Kaiwing",
+                "1Jiang",
+                "Pretender"
+            ]
+        },
+        "Washidai": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Van (Kim Seung-hoo)"
+            ]
+        },
+        "Wayward": {
+            "valid_players": [
+                "LP",
+                "Yanxiang",
+                "Able"
+            ]
+        },
+        "Wei (Yan Yang-Wei)": {
+            "valid_players": [
+                "Juice",
+                "Xun",
+                "Huanfeng",
+                "ON",
+                "Zdz",
+                "Knight (Zhuo Ding)",
+                "Xzz",
+                "Elk"
+            ]
+        },
+        "Whynot": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Wind (Chen Guo-Feng)": {
+            "valid_players": [
+                "Xiaocaobao",
+                "Yge"
+            ]
+        },
+        "Wink": {
+            "valid_players": [
+                "Solokill",
+                "Leave",
+                "JieJie"
+            ]
+        },
+        "Wiz": {
+            "valid_players": [
+                "Jojo (Gabriel Dzelme)",
+                "Ayu (Andrey Saraiva)",
+                "Zzk (Kwon Hee-won)"
+            ]
+        },
+        "Woodon": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "9God",
+                "Yojin",
+                "VENDRICK",
+                "Gabn",
+                "Sovereign (Alexander Folley)"
+            ]
+        },
+        "XBY": {
+            "valid_players": [
+                "Juice",
+                "Huanfeng",
+                "Geju",
+                "Ming (Shi Sen-Ming)"
+            ]
+        },
+        "XBear": {
+            "valid_players": [
+                "Breathe",
+                "Light (Wang Guang-Yu)",
+                "Tarzan (Lee Seung-yong)",
+                "Crisp"
+            ]
+        },
+        "Xiaofang": {
+            "valid_players": [
+                "Hery"
+            ]
+        },
+        "Xiaohao": {
+            "valid_players": [
+                "VicLa",
+                "Assum",
+                "Xiaoxu",
+                "Jwei"
+            ]
+        },
+        "Xiaohu": {
+            "valid_players": [
+                "Tarzan (Lee Seung-yong)"
+            ]
+        },
+        "Xiaolaohu": {
+            "valid_players": [
+                "TheNiu",
+                "Zdz"
+            ]
+        },
+        "Xiaoxu": {
+            "valid_players": [
+                "Xiaohao",
+                "Jwei"
+            ]
+        },
+        "Xun": {
+            "valid_players": [
+                "Wei (Yan Yang-Wei)"
+            ]
+        },
+        "Xzz": {
+            "valid_players": [
+                "Juice",
+                "Ming (Shi Sen-Ming)",
+                "Tangyuan",
+                "Huanfeng",
+                "Wei (Yan Yang-Wei)",
+                "Zdz",
+                "Geju",
+                "XBY"
+            ]
+        },
+        "YSKM": {
+            "valid_players": [
+                "ZUIAN",
+                "Glfs",
+                "Vampire"
+            ]
+        },
+        "Yampi": {
+            "valid_players": [
+                "Dioge (Diogenes Barbosa)",
+                "Yupps"
+            ]
+        },
+        "Yanxiang": {
+            "valid_players": [
+                "Wayward",
+                "FoFo",
+                "Mark (Ling Xu)",
+                "Able"
+            ]
+        },
+        "Yoshino": {
+            "valid_players": [
+                "Playcool",
+                "Balder",
+                "Ouzi"
+            ]
+        },
+        "YoungJae": {
+            "valid_players": [
+                "DDoiV",
+                "FATE (Yoo Su-hyeok)",
+                "Samver",
+                "Pollu",
+                "Morgan",
+                "Pullbae"
+            ]
+        },
+        "Yuekai": {
+            "valid_players": [
+                "Qingtian",
+                "Niket"
+            ]
+        },
+        "Yuhi": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Yupps": {
+            "valid_players": [
+                "Yampi",
+                "Dioge (Diogenes Barbosa)",
+                "NinjaKiwi",
+                "Damage"
+            ]
+        },
+        "Yursan": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "Yusah": {
+            "valid_players": [
+                "Aomine",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Jcom",
+                "Pain (Lê Quốc Anh)"
+            ]
+        },
+        "Yutapon": {
+            "regions": [
+                "Asia Pacific"
+            ]
+        },
+        "ZOEN (Enzo Ganino)": {
+            "valid_players": [
+                "Trigger (Kim Eui-joo)",
+                "TopLop",
+                "Leza",
+                "Neadz",
+                "Nia (Woo Jun-sung)",
+                "Grell"
+            ]
+        },
+        "Zdz": {
+            "valid_players": [
+                "Juice",
+                "Ming (Shi Sen-Ming)",
+                "Tangyuan",
+                "Huanfeng",
+                "Xiaolaohu",
+                "Care",
+                "Deokdam",
+                "Milkyway",
+                "Life",
+                "Xzz",
+                "Wei (Yan Yang-Wei)"
+            ]
+        },
+        "Zeyzal": {
+            "valid_players": [
+                "Tomio"
+            ]
+        },
+        "Zhovy": {
+            "regions": [
+                "Asia Pacific"
+            ],
+            "valid_players": [
+                "Styx (Samuel Blanchard)",
+                "SHAKa (Yang Zhen-Yu)"
+            ]
+        },
+        "Zhuangzhou": {
+            "valid_players": [
+                "Wuming (Wang Xin)"
+            ]
+        },
+        "Zorenous": {
+            "valid_players": [
+                "Destiny (Mitchell Shaw)",
+                "Incursio",
+                "Foreigner",
+                "Raes"
+            ]
+        },
+        "Zz1tai": {
+            "valid_players": [
+                "Wuming (Wang Xin)"
+            ]
+        },
+        "Zzk (Kwon Hee-won)": {
+            "valid_players": [
+                "Tutsz",
+                "Jojo (Gabriel Dzelme)",
+                "Ayu (Andrey Saraiva)",
+                "Wiz"
+            ]
+        }
+    }
+}

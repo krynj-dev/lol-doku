@@ -40,7 +40,7 @@ export async function finalise_game() {
 export async function refresh_state(state: any) {
     _finalised.set(state.status == 'finalised');
     let cur_puz = get(_puzzle);
-    console.log(cur_puz, state.puzzle)
+    console.log(state)
     if (!cur_puz || cur_puz.id != state.puzzle.id) _puzzle.set(state.puzzle);
     _lives.set(state.remaining_guesses);
     getSelectedPlayers(state.guesses).then(gs => {
@@ -109,14 +109,14 @@ export async function getSelectedPlayers(guesses: any[]) {
     return selected_players;
 }
 
-export async function get_rule(key: string): Promise<Rule> {
-    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
-    return rule_res[0] as Rule;
-}
+// export async function get_rule(key: string): Promise<Rule> {
+//     let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
+//     return rule_res[0] as Rule;
+// }
 
-export async function get_team(team: string) {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/teams/?search='${encodeURIComponent(team)}'`, {
-        credentials: "include"
-    }).then((r) => r.json());
-    return res;
-}
+// export async function get_team(team: string) {
+//     let res = fetch(`/team/?search='${encodeURIComponent(team)}'`, {
+//         credentials: "include"
+//     }).then((r) => r.json());
+//     return res;
+// }
