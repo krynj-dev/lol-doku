@@ -3,6 +3,7 @@
 import os
 from datetime import date, timedelta
 from supabase import create_client, Client
+import requests
 
 url: str = os.environ.get("SUPABASE_URL")
 key: str = os.environ.get("SUPABASE_KEY")
@@ -17,22 +18,21 @@ puzzles_response = supabase.table("puzzles_puzzle").select("*").execute()
 
 puzzle_ids = [x['id'] for x in puzzles_response.data]
 
-rosters_to_add = []
+responses = []
 
+base_url = "https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app"
+game_daily = "/game/daily/"
+puzzles = "/puzzles/{}/"
 for i in range(days):
     day = date.today() + timedelta(days=i)
     # Ensure day isn't already set
     day_response = supabase.table("game_gameroster").select("*").eq('date', day).execute()
     if len(day_response.data) > 0:
         continue
-    # Now set it
-    rosters_to_add.append({"date": str(day), "puzzle_id": puzzle_ids[i % len(puzzle_ids)]})
+    body = {"date": str(day), "puzzle": base_url+puzzles.format(puzzle_ids[i % len(puzzle_ids)])}
+    insert_response = requests.post(base_url+game_daily, json=body)
+    responses.append(insert_response)
 
-insert_response = (
-    supabase.table("game_gameroster")
-    .insert(rosters_to_add)
-    .execute()
-)
-
-if len(insert_response.data) != days:
-    print("Some failed")
+if any([res.status_code // 100 != 2 for res in responses]):
+    print("some failed")
+    
