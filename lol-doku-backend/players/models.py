@@ -6,6 +6,7 @@ class Player(models.Model):
     country = models.CharField(max_length=100, blank=True)
     age = models.IntegerField(blank=True, null=True)
     residency = models.CharField(max_length=100)
+    active = models.BooleanField(default=True, db_default=True)
 
     def __str__(self):
         return f'{self.display_name}'

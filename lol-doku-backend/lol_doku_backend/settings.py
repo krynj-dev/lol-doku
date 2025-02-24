@@ -156,21 +156,14 @@ WSGI_APPLICATION = 'lol_doku_backend.wsgi.application'
 #     }
 # DATABASES = {"default": env.db()}
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'lolprogrid',
-#         'USER': 'postgres',
-#         'PASSWORD': 'password',
-#         'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
-#         'PORT': '5432',       # Default PostgreSQL port
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'dbfresh.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'lolprogrid',
+        'USER': 'postgres',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
+        'PORT': '5432',       # Default PostgreSQL port
     }
 }
 

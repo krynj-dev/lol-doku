@@ -3,14 +3,14 @@
 from django.db import migrations
 
 def load_update_2502():
-    with open('db_data/update/2502/players/update.sql', 'r+', encoding='utf-8') as f:
+    with open('db_data/update/2502/rules/update.sql', 'r+', encoding='utf-8') as f:
         data = f.read()
     if data is None:
         return ""
     return data
 
 def load_update_reverse_2502():
-    with open('db_data/update/2502/players/reverse.sql', 'r+', encoding='utf-8') as f:
+    with open('db_data/update/2502/rules/reverse.sql', 'r+', encoding='utf-8') as f:
         data = f.read()
     if data is None:
         return ""
@@ -19,7 +19,9 @@ def load_update_reverse_2502():
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('players', '0006_alter_player_add_active_flag'),
+        ('rules', '0003_alter_rule_add_active_flag'),
+        ('players', '0007_update_2502'),
+        ('teams', '0006_update-2502'),
         ('meta', '0001_initial'),
     ]
 

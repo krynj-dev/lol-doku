@@ -36,9 +36,11 @@ def get_fresh_players_data(site: EsportsClient, rosters):
 
     players = get_players(site, list(player_set), write=False) #2
 
-    champions = get_champions(site, False) #2.5
+    # champions = get_champions(site, False) #2.5
+    champions = {}
 
-    champ_players = get_players_champs(site, champions, list(player_set), write=False) #3
+    # champ_players = get_players_champs(site, champions, list(player_set), write=False) #3
+    champ_players = {}
 
     return players, champions, champ_players
 
@@ -148,46 +150,87 @@ def compare_players(old_players: dict, new_players: dict):
     adds = {k:v for k,v in new_players.items() if k in added_keys - set([v1[0] for _, v1 in evos.items()])}
     return adds, changes, []
 
-def compare_rules(old_rules, new_rules, player_evos, compare_key=lambda x: x):
-    old_keys, new_keys = set(old_rules.keys()), set(new_rules.keys())
-    added_keys = new_keys - old_keys
-    evos = {}
-
+def compare_rules(old_rules, new_rules, player_evos, compare_key=lambda x: (None, x)):
+    compared = {k:compare_key(k) for k in old_rules.keys()}
+    changes = {}
+    deactives = set([k for k,v in compared.items() if v[0] == 'rem'])
     seen = set()
-    for k in old_keys:
-        nk = compare_key(k)
-        if nk is None:
-            continue
-        if nk not in new_rules:
-            if k != nk:
-                evos[k] = (nk, {
-                    "key": nk,
-                    "exclusive_crosses": [],
-                    "regions": [],
-                    "valid_players": []
-                })
-            continue
-        old_rule = old_rules[k]
-        new_rule = new_rules[nk]
-        adjusted_players = []
-        for p in old_rule["valid_players"]:
-            if p in player_evos:
-                adjusted_players.append(player_evos[p][0])
-            else:
-                adjusted_players.append(p)
-        if (set(old_rule["exclusive_crosses"]) != set(new_rule["exclusive_crosses"]) or
-            len(set(new_rule["regions"]) - set(old_rule["regions"])) > 0 or
-            len(set(new_rule["valid_players"]) - set(adjusted_players)) > 0) or (k != nk):
-            evos[k] = (nk, {
-                    "key": nk,
-                    "exclusive_crosses": set(new_rule["exclusive_crosses"]) - set(old_rule["exclusive_crosses"]),
-                    "regions": set(new_rule["regions"]) - set(old_rule["regions"]),
-                    "valid_players": set(new_rule["valid_players"]) - set(adjusted_players)
-                })
+    adds = {}
+    for k,v in {k:v for k,v in old_rules.items() if k in new_rules or compared[k][0] != 'rem'}.items():
+        nk = compared[k][1]
         seen.add(nk)
-    return {k:v for k,v in new_rules.items() if k not in seen}, evos
+        if nk not in new_rules:
+            continue
+        nv = new_rules[nk]
+        diff = {}
+        for f in v.keys():
+            if f == "regions":
+                continue
+            if f not in ["exclusive_crosses", "valid_players"] and v[f] != nv[f]:
+                diff[f] = nv[f]
+            elif f == "exclusive_crosses" and len(set(nv[f]) - set(v[f])) > 0:
+                diff[f] = set(nv[f]) - set(v[f])
+            elif f == "valid_players":
+                adjusted_players = set()
+                for p in v[f]:
+                    if p in player_evos:
+                        adjusted_players.add(player_evos[p]["display_name"])
+                    else:
+                        adjusted_players.add(p)
+                plr_diff = set(nv[f]) - adjusted_players
+                if len(plr_diff) > 0:
+                    diff[f] = plr_diff
+        if diff != {}:
+            changes[k] = diff
+    adds = {k:v for k,v in new_rules.items() if k not in seen}
+    # Giving the players over to the new one
+    for k,v in {k:v for k,v in old_rules.items() if k in deactives}.items():
+        nk = compared[k][1]
+        if nk in adds:
+            adjusted_players = set()
+            for p in set(v["valid_players"]):
+                if p in player_evos:
+                    adjusted_players.add(player_evos[p]["display_name"])
+                else:
+                    adjusted_players.add(p)
+            adds[nk]["exclusive_crosses"] = set(adds[nk]["exclusive_crosses"]) | set(v["exclusive_crosses"])
+            adds[nk]["valid_players"] = set(adds[nk]["valid_players"]) | adjusted_players
+            # adds[nk]["regions"] = set(adds[nk]["regions"]) | set(v["regions"])
+            continue
+        if nk is None:
+            deactives.add(k)
+            continue
+        cross_diff = set(v["exclusive_crosses"])
+        plr_diff = set(v["valid_players"])
+        if nk in old_rules:
+            cross_diff -= set(old_rules[nk]["exclusive_crosses"])
+            plr_diff -= set(old_rules[nk]["valid_players"])
+        adjusted_players = set()
+        for p in plr_diff:
+            if p in player_evos:
+                adjusted_players.add(player_evos[p]["display_name"])
+            else:
+                adjusted_players.add(p)
+        if nk not in old_rules:
+            adds[nk] = v
+        if nk not in changes:
+            changes[nk] = {
+                "exclusive_crosses": cross_diff,
+                "valid_players": adjusted_players,
+            }
+        else:
+            if "exclusive_crosses" in changes[nk]:
+                cross_diff |= set(changes[nk]["exclusive_crosses"])
+            if "valid_players" in changes[nk]:
+                adjusted_players |= set(changes[nk]["valid_players"])
+            if len(cross_diff) > 0:
+                 changes[nk]["exclusive_crosses"] = cross_diff
+            if len(adjusted_players) > 0:
+                changes[nk]["valid_players"] = adjusted_players
 
-def compare_rules_new(old_rules, new_rules, player_evos, compare_key=lambda x: x):
+    return adds, changes, deactives
+
+def compare_rules_new(old_rules, new_rules, player_evos, compare_key=lambda x: (None, x)):
     adds = {k:v for k,v in new_rules.items() if k not in old_rules}
     deactives = set([k for k in old_rules.keys() if k not in new_rules and compare_key(k) != k])
     changes = {}
@@ -236,14 +279,24 @@ def compare_rules_new(old_rules, new_rules, player_evos, compare_key=lambda x: x
 
     return adds, changes, deactives
 
-def get_team_key_compare(new_teams):
+def get_team_key_compare(new_teams, team_evos, team_rems):
     def compare_teams(team_key):
-        return get_team_key(new_teams, team_key)
+        if team_key in team_rems:
+            return ('rem', get_team_key(new_teams, team_key))
+        elif team_key in team_evos and "op" in team_evos[team_key]:
+            return ('evo', team_evos[team_key]["op"])
+        else:
+            return (None, team_key)
     return compare_teams
 
-def get_player_key_compare(new_players):
+def get_player_key_compare(new_players, player_evos, player_rems):
     def compare_players(player_key):
-        return get_player_key(new_players, player_key)
+        if player_key in player_rems:
+            return ('rem', get_player_key(new_players, player_key))
+        elif player_key in player_evos and "display_name" in player_evos[player_key]:
+            return ('evo', player_evos[player_key]["display_name"])
+        else:
+            return (None, player_key)
     return compare_players
 
 def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().year-1, 1, 1)):
@@ -289,8 +342,8 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     with open(f"data/rules/champion_counts.json", "r+", encoding='utf-8') as f:
         old_champion_rules = json.load(f)
     ## Generate rule update files
-    team_rule_adds, team_rule_evos, team_rule_rems = compare_rules_new(old_team_rules, new_team_rules, player_evos, compare_key=get_team_key_compare(new_teams))
-    teammate_rule_adds, teammate_rule_evos, teammate_rule_rems = compare_rules_new(old_teammates_rules, new_teammate_rules, player_evos, compare_key=get_player_key_compare(new_players))
+    team_rule_adds, team_rule_evos, team_rule_rems = compare_rules(old_team_rules, new_team_rules, player_evos, compare_key=get_team_key_compare(new_teams, team_evos, team_rems))
+    teammate_rule_adds, teammate_rule_evos, teammate_rule_rems = compare_rules(old_teammates_rules, new_teammate_rules, player_evos, compare_key=get_player_key_compare(new_players, player_evos, player_rems))
     roles_rule_adds, roles_rule_evos, roles_rule_rems = compare_rules_new(old_roles_rules, new_role_rules, player_evos)
     finalists_rule_adds, finalists_rule_evos, finalists_rule_rems = compare_rules_new(old_finalists_rules, new_finalists_rules, player_evos)
     worlds_participants_rule_adds, worlds_participants_rule_evos, worlds_participants_rule_rems = compare_rules_new(old_worlds_participants_rules, new_worlds_participant_rules, player_evos)

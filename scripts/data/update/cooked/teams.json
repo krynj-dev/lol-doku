@@ -222,8 +222,8 @@
         },
         "Axis Empire": {
             "other_names": [
-                "Team Empire",
-                "Team Empire (Malaysian Team)"
+                "Team Empire (Malaysian Team)",
+                "Team Empire"
             ]
         },
         "BOOM Esports": {
@@ -514,8 +514,8 @@
         },
         "Vivo Keyd Stars": {
             "other_names": [
-                "Vivo Keyd",
                 "Keyd Stars",
+                "Vivo Keyd",
                 "Keyd Warriors"
             ],
             "region": "Brazil",
@@ -525,40 +525,40 @@
         },
         "West Point Esports Philippines": {
             "other_names": [
-                "SEM9",
-                "SEM9 WPE"
+                "SEM9 WPE",
+                "SEM9"
             ],
             "region": "PCS"
         }
     },
     "rem": [
         "Friends Forever Gaming",
-        "DG Esports",
-        "Isurus",
-        "GamingGear.eu",
-        "Estral Esports",
-        "Curse Academy",
-        "Movistar R7",
-        "ISC Pro Team",
-        "Rascal Jester",
-        "SEM9 WPE",
-        "Mineski",
-        "Lyon Gaming (2013 Latin American Team)",
-        "Team Curse",
         "SEM9",
+        "Team Curse",
         "FearX",
-        "Vikings Esports (2023 Vietnamese Team)",
-        "Team Whales",
-        "Team oNe eSports",
-        "MAD Lions KOI",
-        "Six Karma",
-        "Team Secret (Vietnamese Team)",
-        "Team Empire (Malaysian Team)",
-        "Azules Esports",
+        "Kwangdong Freecs",
+        "Lyon Gaming (2013 Latin American Team)",
         "PSG Talon",
+        "Rascal Jester",
+        "Movistar R7",
+        "Team Whales",
+        "Vikings Esports (2023 Vietnamese Team)",
+        "Estral Esports",
         "Fluxo",
         "Vivo Keyd",
-        "Kwangdong Freecs",
+        "Team Secret (Vietnamese Team)",
+        "Six Karma",
+        "Team oNe eSports",
+        "DG Esports",
+        "Mineski",
+        "GamingGear.eu",
+        "MAD Lions KOI",
+        "Team Empire (Malaysian Team)",
+        "Curse Academy",
+        "Azules Esports",
+        "SEM9 WPE",
+        "Isurus",
+        "ISC Pro Team",
         "Royal Youth"
     ]
 }

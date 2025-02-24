@@ -7,7 +7,7 @@ class TeamViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = Team.objects.all().order_by('name')
+    queryset = Team.objects.filter(active=True).order_by('name')
     serializer_class = TeamSerializer
     permission_classes = [permissions.AllowAny]
     filter_backends = [filters.SearchFilter]

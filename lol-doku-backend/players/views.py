@@ -8,7 +8,7 @@ class PlayerViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = Player.objects.all().order_by('display_name')
+    queryset = Player.objects.filter(active=True).order_by('display_name')
     serializer_class = PlayerSerializer
     permission_classes = [permissions.AllowAny]
     filter_backends = [filters.SearchFilter]

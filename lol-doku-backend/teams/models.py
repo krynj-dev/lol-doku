@@ -9,6 +9,7 @@ class Team(models.Model):
     op = models.CharField(max_length=100)
     region = models.CharField(max_length=30, blank=True, null=True)
     short = models.CharField(max_length=5, blank=True, null=True)
+    active = models.BooleanField(default=True, db_default=True)
 
 class TeamAlternateName(models.Model):
     team_op = models.ForeignKey(Team, on_delete=models.CASCADE, related_name='alternate_names')

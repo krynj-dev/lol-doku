@@ -10,7 +10,7 @@ def load_update_2502():
     return data
 
 def load_update_reverse_2502():
-    with open('db_data/update/2502/teams/update_reverse.sql', 'r+', encoding='utf-8') as f:
+    with open('db_data/update/2502/teams/reverse.sql', 'r+', encoding='utf-8') as f:
         data = f.read()
     if data is None:
         return ""

@@ -9,7 +9,7 @@ class RuleViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = Rule.objects.all().order_by('key')
+    queryset = Rule.objects.filter(active=True).order_by('key')
     serializer_class = RuleSerializer
     permission_classes = [permissions.AllowAny]
     filter_backends = [filters.SearchFilter]
