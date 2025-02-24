@@ -7,6 +7,9 @@ import { get } from 'svelte/store'
 import { type Player } from "$lib/models/new/Player";
 import { type FailResponse } from "$lib/models/FailResponse";
 
+export interface Metadata {
+    data_update_date: string
+}
 
 
 async function init_puzzle(): Promise<GameState> {
@@ -35,6 +38,29 @@ async function init_puzzle(): Promise<GameState> {
     console.log(game_res);
     let game_state = game_res as GameState;
     return game_state;
+}
+
+export async function get_metadata(): Promise<Metadata> {
+    // Get Session
+    let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json())
+    .catch(e => {
+        console.error(e)
+        _failed_load.set({
+            "reason": "Failed to retrieve session."
+        } as FailResponse)
+        throw new Error("Failed to retrieve session")
+    });
+    // Get Metadata
+    let metadata_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/meta/latest`, { credentials: "include" })
+        .then((r) => {
+            return r.json();
+        })
+        .catch(e => {
+            console.error(e)
+        });
+    console.log(metadata_res);
+    let metadata = metadata_res as Metadata;
+    return metadata;
 }
 
 export async function get_player_stats(slot: number) {

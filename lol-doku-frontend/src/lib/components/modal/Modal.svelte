@@ -53,14 +53,14 @@
 		margin: 0 1rem;
 	}
 	.modal-title-container {
-		padding: 0 35px;
+		padding: 0 57px;
 		width: 100%;
 	}
 	.modal-cross {
 		width: 25px;
 		height: 25px;
 		padding: 3px;
-		margin: 5px;
+		margin: 16px;
 		right: 0;
 		top: 0;
 		box-sizing: border-box;

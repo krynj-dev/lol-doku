@@ -2,8 +2,16 @@
     border: 2px solid var(--lol-gold-4);
 }
 
+.lol-border-small {
+    border: 1px solid var(--lol-gold-4);
+}
+
 @property --lol-doku-white-1 {
     syntax: '<color>';
     inherits: false;
     initial-value: rgb(225, 225, 230);
+}
+
+button:hover {
+    background-color: var(-lol-grey-cool);
 }

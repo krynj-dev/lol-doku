@@ -3,6 +3,8 @@
 	import Modal from "./modal/Modal.svelte";
 	import Info from './vector-image/Info.svelte';
 	import Worlds from './vector-image/Worlds.svelte';
+	import MediaQuery from './media-query/MediaQuery.svelte';
+	import { onMount } from 'svelte';
 
 	export let tabs: string[];
 	export let selected: string | undefined;
@@ -26,6 +28,18 @@
 			}
 		}
 	}
+
+	let kofi: any;
+	let kofiHtml: string;
+	let kofiHtmlSmall: string;
+
+	onMount(() => {
+		kofi = (window as any).kofiwidget2;
+		kofi.init('Donate a coffee to me on Ko-fi', 'var(--lol-blue-4)', 'T6T61A5K5H');
+		kofiHtml = kofi.getHTML();
+		kofi.init('', 'var(--lol-blue-4)', 'T6T61A5K5H');
+		kofiHtmlSmall = kofi.getHTML();
+	})
 </script>
 
 <Modal bind:showModal bind:dialog size=600>
@@ -43,43 +57,43 @@
 		<h4>The following categories may appear:</h4>
 		<ul class="category-list">
 			<li>
-				<h5>Team</h5><p class="rule-description">Any player who has played at least <span class="strong">one</span> game for the team.</p>
+				<h5 class="example-rule-title">Team</h5><p class="rule-description">Any player who has played at least <span class="strong">one</span> game for the team.</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><img src="img/teams/Fnatic.webp" alt="Fnatic"/><p class="example-rule-caption">Fnatic</p></div>
 				</div>
 			</li>
 			<li>
-				<h5>Teammate</h5><p class="rule-description">Any player who has been on the same roster as the specified player. This does <span  class="strong">not</span> include players listed as substitutes (if a sub played a match they're typically briefly listed as a main player and <span class="strong">do</span> count)</p>
+				<h5 class="example-rule-title">Teammate</h5><p class="rule-description">Any player who has been on the same roster as the specified player. This does <span  class="strong">not</span> include players listed as substitutes (if a sub played a match they're typically briefly listed as a main player and <span class="strong">do</span> count)</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><img src="img/players/Faker.webp" alt="Faker"/><p class="example-rule-caption">Faker Teammate</p></div>
 				</div>
 			</li>
 			<li>
-				<h5>Role</h5><p class="rule-description">Any player who has recorded at least one game on the specified role.</p>
+				<h5 class="example-rule-title">Role</h5><p class="rule-description">Any player who has recorded at least one game on the specified role.</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><img src="img/roles/jungle.svg" alt="Jungle"/><p class="example-rule-caption">Jungle</p></div>
 				</div>
 			</li>
 			<li>
-				<h5>Champion</h5><p class="rule-description">Any player who has recorded 40 or more official games on the specified champion <span class="strong">or</span> any player who has at least 75 games on any one champion.</p>
+				<h5 class="example-rule-title">Champion</h5><p class="rule-description">Any player who has recorded 40 or more official games on the specified champion <span class="strong">or</span> any player who has at least 75 games on any one champion.</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><img src="img/champion/Kassadin.png" alt="Kassadin"/><p class="example-rule-caption">Kassadin 40+</p></div>
 				</div>
 			</li>
 			<li>
-				<h5>Country</h5><p class="rule-description">Any player who's country of origin is the specified country. This is <span class="strong">not</span> the player's residency.</p>
+				<h5 class="example-rule-title">Country</h5><p class="rule-description">Any player who's country of origin is the specified country. This is <span class="strong">not</span> the player's residency.</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><img src="img/country/au.svg" alt="Australia"/><p class="example-rule-caption">Australia</p></div>
 				</div>
 			</li>
 			<li>
-				<h5>Tournament</h5><p class="rule-description">Any player who played at least one game in the specified tournament. For Worlds this only includes Group Stage onwards.</p>
+				<h5 class="example-rule-title">Tournament</h5><p class="rule-description">Any player who played at least one game in the specified tournament. For Worlds this only includes Group Stage onwards.</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><Worlds fill="var(--lol-gold-1)"/><p class="example-rule-caption">Worlds 2015 Participant</p></div>
 				</div>
 			</li>
 			<li>
-				<h5>Finalist</h5><p class="rule-description">Any player who played in the final series of the specified tournament.</p>
+				<h5 class="example-rule-title">Finalist</h5><p class="rule-description">Any player who played in the final series of the specified tournament.</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><Worlds fill="var(--lol-gold-1)"/><p class="example-rule-caption">Worlds Finalist</p></div>
 				</div>
@@ -98,6 +112,15 @@
 			<!-- {#each tabs as tab}
 				<button tabindex="0" class="header-tab header-tab-hover" on:click={(e) => update_selected(e)} data-tab-name={tab}>{tab}</button>
 			{/each} -->
+			{#if kofi}
+				<MediaQuery query="(min-width: 1000px)" let:matches>
+					{#if matches}
+						<div class="header-tab">
+							{@html kofiHtml}
+						</div>
+					{/if}
+				</MediaQuery>
+			{/if}
 		</div>
 		<div class="thing-on-right header-border">
 			<button class="info-button" on:click={() => showModal = true}><Info fill="var(--lol-gold-1)" /></button>
@@ -141,6 +164,7 @@
 	.header-tabs-container {
 		flex-grow: 1;
 		padding: 0;
+		justify-content: right;
 	}
 
 	.header-tab {
@@ -200,7 +224,21 @@
 		display: grid;
 		align-items: center;
 		grid-template-columns: 27% auto 15%;
+		grid-template-areas: "title desc image";
 		box-sizing: border-box;
+	}
+
+	@media only screen and (max-width: 769px) {
+		.category-list > li {
+			grid-template-columns: auto 25%;
+			grid-template-areas: "title image" "desc image";
+		}
+
+		.example-rule-title {
+			margin-block-start: 1em;
+			margin-block-end: 0em;
+			padding-left: 20px;
+		}
 	}
 
 	.strong {
@@ -211,6 +249,10 @@
 		object-fit: contain;
 		max-width: 100%;
 		max-height: 100%;
+	}
+
+	.example-rule-title {
+		grid-area: title;
 	}
 
 	.example-rule {
@@ -227,6 +269,7 @@
 		padding: 5px 0;
 		width: 100%;
 		box-sizing: border-box;
+		grid-area: image;
 	}
 
 	.example-rule-caption {
@@ -237,6 +280,7 @@
 
 	.rule-description {
 		padding: 0 20px;
+		grid-area: desc;
 	}
 
 	.info-button {

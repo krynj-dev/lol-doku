@@ -10,6 +10,7 @@
 	import { finalise_game, refresh_state } from '$lib/shared/api';
 	import Spinner from '$lib/components/spinner/Spinner.svelte';
 	import type { FailResponse } from '$lib/models/FailResponse';
+	import Footer from '$lib/components/Footer.svelte';
 
 	const tabs = ['Home', 'Puzzle Builder', 'Endless'];
 
@@ -48,9 +49,10 @@
 		}}>Give Up</button>
 	{:else}
 		<div class="spinner-container"><Spinner /></div>
-		<h2>Loading puzzle. Please wait...</h2>
+		<p class="h2" style="text-align: center;">Loading puzzle. Please wait...</p>
 	{/if}
 </div>
+<Footer />
 
 <style>
 	.content {
@@ -69,5 +71,9 @@
 		color: var(--lol-gold-1);
 		cursor: pointer;
 		font-size: 1rem;
+	}
+
+	.giveup-button:hover {
+		background-color: var(--lol-grey-cool);
 	}
 </style>

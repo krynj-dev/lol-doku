@@ -121,11 +121,11 @@
 	.select-tile-span {
 		grid-area: span 3 / span 3 / span 3 / span 3;
 		display: grid;
-		grid-template-columns: repeat(3, calc((100vw - 10px) / 4 - 5px));
-		grid-template-rows: repeat(3, calc((100vw - 10px) / 4 - 5px));
+		grid-template-columns: repeat(3, calc((100vw - 10px) / 4 - 8px));
+		grid-template-rows: repeat(3, calc((100vw - 10px) / 4 - 8px));
 		overflow: hidden;
-		padding: 4px;
-		gap: 2px;
+		padding: 6px;
+		gap: 4px;
 		background-color: var(--lol-hextech-black);
 	}
 
@@ -153,18 +153,18 @@
 
 	@media only screen and (min-width: 769px) {
 		.doku-grid {
-			grid-template-columns: repeat(5, 155px);
-			grid-template-rows: repeat(4, 155px);
+			grid-template-columns: repeat(5, 168px);
+			grid-template-rows: repeat(4, 168px);
 		}
 
 		.info-tile {
-			height: 150px;
-			width: 150px;
+			height: 160px;
+			width: 160px;
 		}
 
 		.select-tile-span {
-			grid-template-columns: repeat(3, 150px);
-			grid-template-rows: repeat(3, 150px);
+			grid-template-columns: repeat(3, 160px);
+			grid-template-rows: repeat(3, 160px);
 		}
 
 		.score-span {

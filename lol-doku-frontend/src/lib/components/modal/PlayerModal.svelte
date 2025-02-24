@@ -12,6 +12,7 @@
 	export let index: number;
 	export let loading: boolean = false;
 	export let error_flashing: boolean = false;
+	export let ref: HTMLElement | null = null;
 
 	let playerList: Player[] = [];
 	let player_image_srcs: any = {};
@@ -36,6 +37,18 @@
 			selectedPlayer = player;
 		}
 	});
+
+	let clean_name = (name: string): string | undefined => {
+		let expr = /(.+)\s+\(.*\)/g;
+		let name_only = expr.exec(name)?.[1];
+		console.log("exr", expr.exec(name));
+		return name_only ? name_only : name;
+	}
+
+	let process_name = (name: string): string | undefined => {
+		let new_name = name.replace("&amp;nbsp;", "&nbsp;");
+		return new_name;
+	}
 
 	let filter = '';
 
@@ -112,7 +125,8 @@
 	<hr />
 	<div>
 		<p class="input-label">Search Player:</p>
-		<input bind:value={filter} />
+		<!-- svelte-ignore a11y-autofocus -->
+		<input bind:value={filter} bind:this={ref} autofocus />
 	</div>
 	<hr />
 	<div class="player-button-box">
@@ -129,10 +143,13 @@
 					<img src={player_image_srcs[plr.display_name]} alt={plr.display_name} />
 				</div>
 				<div class="player-modal-name-container">
-					<p class="player-modal-title">{plr.display_name}</p>
+					<div class="player-modal-title-container">
+						<p class="player-modal-title-dname">{clean_name(plr.display_name)}</p>
+						<p class="player-modal-title-rname">{@html process_name(plr.real_name)}</p>
+					</div>
 					<div class="player-modal-subtitle">
 						{#each plr.alternate_names.filter((x) => x != plr.display_name) as alt_name}
-							<p class="player-modal-alt-name">{alt_name}</p>
+							<p class="player-modal-alt-name">{clean_name(alt_name)}</p>
 						{/each}
 					</div>
 				</div>
@@ -201,9 +218,21 @@
 		margin-right: 10px;
 	}
 
-	p.player-modal-title {
+	p.player-modal-title-dname {
 		margin: 5px 0;
 		font-size: 1.1rem;
+	}
+
+	p.player-modal-title-rname {
+		margin: 5px 0;
+		font-size: 1.1rem;
+		flex-grow: 1;
+		color: #595959;
+	}
+
+	.player-modal-title-container {
+		display: flex;
+		gap: 10px;
 	}
 
 	.player-modal-subtitle {

@@ -134,7 +134,7 @@
 	on:click={toggleModal}
 	on:keyup={toggleModal}
 	style="--tile-color: {tile_color};"
-	class={`doku-tile lol-border${error_flashing ? ' error-flash' : ''}${transitoning ? ' transition-2s' : ''} ${rarity_class}`}
+	class={`doku-tile lol-border-small${error_flashing ? ' error-flash' : ''}${transitoning ? ' transition-2s' : ''} ${rarity_class}`}
 >
 	{#if !finalised}
 		<PlayerModal bind:showModal bind:index bind:loading bind:error_flashing />
