@@ -1,0 +1,564 @@
+{
+    "add": {
+        "BNK FEARX": {
+            "becomes": null,
+            "came_from": "FearX",
+            "highest_level": "Primary",
+            "image": "BNK FEARXlogo profile.png",
+            "name": "BNK FEARX",
+            "op": "BNK FEARX",
+            "other_names": [
+                "BNK FEARX",
+                "FearX",
+                "Liiv SANDBOX",
+                "Liiv SANDBOX Challengers",
+                "SANDBOX Gaming",
+                "Team BattleComics"
+            ],
+            "region": "Korea",
+            "renamed_to": "",
+            "short": "BFX",
+            "sister_teams": [
+                "BNK FEARX"
+            ]
+        },
+        "DN Freecs": {
+            "becomes": null,
+            "came_from": "Kwangdong Freecs",
+            "highest_level": "Primary",
+            "image": "DN Freecslogo profile.png",
+            "name": "DN Freecs",
+            "op": "DN Freecs",
+            "other_names": [
+                "Afreeca Freecs",
+                "Afreeca Freecs Challengers",
+                "Anarchy",
+                "DN Freecs",
+                "Kwangdong Freecs",
+                "Rebels Anarchy"
+            ],
+            "region": "Korea",
+            "renamed_to": "",
+            "short": "DNF",
+            "sister_teams": [
+                "DN Freecs"
+            ]
+        },
+        "Disguised": {
+            "becomes": null,
+            "came_from": null,
+            "highest_level": "Primary",
+            "image": "Disguisedlogo profile.png",
+            "name": "Disguised",
+            "op": "Disguised",
+            "other_names": [
+                "Disguised"
+            ],
+            "region": "Americas",
+            "renamed_to": "",
+            "short": "DSG",
+            "sister_teams": []
+        },
+        "Fluxo W7M": {
+            "becomes": null,
+            "came_from": "Fluxo",
+            "highest_level": "Primary",
+            "image": "Fluxo W7Mlogo square.png",
+            "name": "Fluxo W7M",
+            "op": "Fluxo W7M",
+            "other_names": [
+                "Fluxo",
+                "Fluxo W7M"
+            ],
+            "region": "Americas",
+            "renamed_to": "",
+            "short": "FX7M",
+            "sister_teams": []
+        },
+        "Isurus Estral": {
+            "becomes": null,
+            "came_from": null,
+            "highest_level": "Primary",
+            "image": "Isurus Estrallogo square.png",
+            "name": "Isurus Estral",
+            "op": "Isurus Estral",
+            "other_names": [
+                "Estral Esports",
+                "Isurus",
+                "Isurus Estral"
+            ],
+            "region": "Americas",
+            "renamed_to": "",
+            "short": "IE",
+            "sister_teams": [
+                "Estral Esports",
+                "Isurus"
+            ]
+        },
+        "LYON (2024 American Team)": {
+            "becomes": null,
+            "came_from": null,
+            "highest_level": "Primary",
+            "image": "LYON (2024 American Team)logo profile.png",
+            "name": "LYON",
+            "op": "LYON (2024 American Team)",
+            "other_names": [
+                "LYON (2024 American Team)",
+                "Lyon Gaming (2013 Latin American Team)",
+                "Movistar R7",
+                "Rainbow7",
+                "Six Karma"
+            ],
+            "region": "Americas",
+            "renamed_to": "",
+            "short": "LYON",
+            "sister_teams": [
+                "LYON (2024 American Team)",
+                "Lyon Gaming (2013 Latin American Team)"
+            ]
+        },
+        "MGN Vikings Esports": {
+            "becomes": null,
+            "came_from": "Vikings Esports (2023 Vietnamese Team)",
+            "highest_level": "Primary",
+            "image": "MGN Vikings Esportslogo profile.png",
+            "name": "MGN Vikings Esports",
+            "op": "MGN Vikings Esports",
+            "other_names": [
+                "Dashing Buffalo",
+                "MGN Vikings Esports",
+                "Phong Vũ Buffalo",
+                "Saigon Buffalo",
+                "Vikings Esports (2023 Vietnamese Team)",
+                "Vikings Gaming",
+                "Young Generation"
+            ],
+            "region": "Asia Pacific",
+            "renamed_to": "",
+            "short": "MVKE",
+            "sister_teams": []
+        },
+        "Movistar KOI": {
+            "becomes": null,
+            "came_from": "MAD Lions KOI",
+            "highest_level": "Primary",
+            "image": "Movistar KOIlogo square.png",
+            "name": "Movistar KOI",
+            "op": "Movistar KOI",
+            "other_names": [
+                "MAD Lions",
+                "MAD Lions E.C. Colombia",
+                "MAD Lions KOI",
+                "Movistar KOI",
+                "Splyce"
+            ],
+            "region": "EMEA",
+            "renamed_to": "",
+            "short": "MKOI",
+            "sister_teams": [
+                "Movistar KOI"
+            ]
+        },
+        "TALON (Hong Kong Team)": {
+            "becomes": "PSG Talon",
+            "came_from": "PSG Talon",
+            "highest_level": "Primary",
+            "image": "TALON (Hong Kong Team)logo profile.png",
+            "name": "TALON",
+            "op": "TALON (Hong Kong Team)",
+            "other_names": [
+                "PSG Talon",
+                "PSG Talon Academy",
+                "TALON (Hong Kong Team)"
+            ],
+            "region": "Asia Pacific",
+            "renamed_to": "",
+            "short": "TLN",
+            "sister_teams": [
+                "TALON (Hong Kong Team)"
+            ]
+        },
+        "Team Secret Whales": {
+            "becomes": null,
+            "came_from": null,
+            "highest_level": "Primary",
+            "image": "Team Secret Whaleslogo profile.png",
+            "name": "Team Secret Whales",
+            "op": "Team Secret Whales",
+            "other_names": [
+                "Cherry Esports",
+                "GMedia Luxury",
+                "Luxury Esports",
+                "Team Secret (Vietnamese Team)",
+                "Team Secret Whales",
+                "Team Whales"
+            ],
+            "region": "Asia Pacific",
+            "renamed_to": "",
+            "short": "TSW",
+            "sister_teams": [
+                "Team Secret (Vietnamese Team)",
+                "Team Secret Whales",
+                "Team Whales"
+            ]
+        }
+    },
+    "evo": {
+        "100 Thieves": {
+            "region": "North America",
+            "short": "100"
+        },
+        "AXIZ": {
+            "region": "PCS"
+        },
+        "AXIZ CREST": {
+            "region": "PCS"
+        },
+        "Ahq eSports Club": {
+            "region": "PCS"
+        },
+        "Antic Esports": {
+            "region": "PCS"
+        },
+        "Axis Empire": {
+            "other_names": [
+                "Team Empire",
+                "Team Empire (Malaysian Team)"
+            ]
+        },
+        "BOOM Esports": {
+            "region": "PCS"
+        },
+        "Berjaya Dragons": {
+            "region": "PCS"
+        },
+        "Beyond Gaming": {
+            "region": "PCS"
+        },
+        "Bren Esports": {
+            "other_names": [
+                "ISC Pro Team"
+            ]
+        },
+        "Burning Core Toyama": {
+            "region": "PCS"
+        },
+        "CERBERUS Esports (Vietnamese Team)": {
+            "region": "Vietnam"
+        },
+        "Chiefs Esports Club": {
+            "region": "PCS"
+        },
+        "Cloud9": {
+            "region": "North America"
+        },
+        "Crest Gaming Act": {
+            "region": "PCS"
+        },
+        "Dark Passage": {
+            "becomes": null
+        },
+        "Deep Cross Gaming": {
+            "region": "PCS"
+        },
+        "DetonatioN FocusMe": {
+            "region": "PCS"
+        },
+        "Dewish Team": {
+            "region": "PCS"
+        },
+        "Dignitas": {
+            "region": "North America"
+        },
+        "Dire Wolves": {
+            "region": "PCS"
+        },
+        "E-Champ Gaming": {
+            "region": "Brazil"
+        },
+        "Eclipse Gaming (Latin American Team)": {
+            "region": "Latin America"
+        },
+        "Energy Pacemaker.All": {
+            "image": "EPA 2016 logo.png"
+        },
+        "FENNEL": {
+            "other_names": [
+                "Rascal Jester"
+            ],
+            "region": "PCS",
+            "sister_teams": [
+                "Rascal Jester"
+            ]
+        },
+        "FURIA": {
+            "region": "Brazil"
+        },
+        "FURY Global": {
+            "region": "PCS"
+        },
+        "FlyQuest": {
+            "region": "North America"
+        },
+        "Fortius": {
+            "short": "Fortius"
+        },
+        "Frank Esports": {
+            "region": "PCS"
+        },
+        "Fukuoka SoftBank HAWKS gaming": {
+            "image": "Fukuoka SoftBank HAWKS gaminglogo square.png",
+            "region": "PCS"
+        },
+        "Furious Gaming": {
+            "region": "Latin America"
+        },
+        "G-Rex": {
+            "region": "PCS"
+        },
+        "GAM Esports": {
+            "region": "Vietnam"
+        },
+        "Galakticos": {
+            "image": "Team_Galakticoslogo_square.png"
+        },
+        "Gama Dream": {
+            "image": "Gama Dreamlogo_square.png"
+        },
+        "Gravity (North American Team)": {
+            "other_names": [
+                "Curse Academy"
+            ]
+        },
+        "Ground Zero Gaming": {
+            "region": "PCS"
+        },
+        "HELL PIGS": {
+            "region": "PCS"
+        },
+        "Heroes Team": {
+            "image": "Heroes_Logo.png"
+        },
+        "Hong Kong Attitude": {
+            "region": "PCS"
+        },
+        "Hungkuang Falcon": {
+            "region": "PCS",
+            "short": "HKF"
+        },
+        "INFINITY": {
+            "region": "Latin America"
+        },
+        "INTZ": {
+            "region": "Brazil"
+        },
+        "ION Global Esports": {
+            "region": "PCS"
+        },
+        "Impunity": {
+            "came_from": null
+        },
+        "J Team": {
+            "region": "PCS"
+        },
+        "KaBuM! Esports": {
+            "becomes": "KaBuM! Orange",
+            "region": "Brazil"
+        },
+        "Kanaya Gaming": {
+            "short": "Kanaya"
+        },
+        "Kanga Esports": {
+            "region": "PCS"
+        },
+        "Kaos Latin Gamers": {
+            "other_names": [
+                "Azules Esports"
+            ],
+            "sister_teams": [
+                "Azules Esports"
+            ]
+        },
+        "LOUD": {
+            "region": "Brazil"
+        },
+        "Leviatan": {
+            "region": "Latin America"
+        },
+        "LinGan e-Sports": {
+            "image": "LinGan e-Sportslogo_square.png"
+        },
+        "Liyab Esports": {
+            "other_names": [
+                "Mineski"
+            ],
+            "region": "PCS"
+        },
+        "Los Grandes": {
+            "other_names": [
+                "Team oNe eSports"
+            ],
+            "region": "Brazil"
+        },
+        "Lowkey Esports.Vietnam": {
+            "other_names": [
+                "Friends Forever Gaming"
+            ]
+        },
+        "MAMMOTH": {
+            "region": "PCS"
+        },
+        "MGN Blue Esports": {
+            "region": "Vietnam"
+        },
+        "Machi Esports": {
+            "region": "PCS"
+        },
+        "Mad Gods Gaming": {
+            "short": "Mad Gods"
+        },
+        "Meta Falcon Team": {
+            "region": "PCS"
+        },
+        "Moss Seven Club": {
+            "image": "MSClogo_square.png"
+        },
+        "NASR eSports Turkey": {
+            "other_names": [
+                "Royal Bandits",
+                "Royal Youth"
+            ],
+            "sister_teams": [
+                "Royal Youth"
+            ]
+        },
+        "NRG": {
+            "name": "NRG",
+            "region": "North America"
+        },
+        "Naga Esports": {
+            "short": "Naga"
+        },
+        "Nate9527": {
+            "region": "PCS"
+        },
+        "Newbee": {
+            "image": "Newbee logo.png"
+        },
+        "Nova Esports (Thai Team)": {
+            "region": "PCS"
+        },
+        "PEACE (Oceanic Team)": {
+            "region": "PCS"
+        },
+        "PaiN Gaming": {
+            "region": "Brazil",
+            "short": "PNG"
+        },
+        "People's Red Wolf Gaming": {
+            "image": "People's Red Wolf Gaminglogo square.png"
+        },
+        "Positive Energy": {
+            "image": "PE logo new.png"
+        },
+        "Pulse Esports": {
+            "image": "Pulse - Classic_Logo.png",
+            "region": "North America"
+        },
+        "RED Canids": {
+            "region": "Brazil"
+        },
+        "Resurgence": {
+            "region": "PCS"
+        },
+        "Sengoku Gaming": {
+            "region": "PCS"
+        },
+        "Shopify Rebellion": {
+            "region": "North America"
+        },
+        "ShowTime": {
+            "image": "ShowTime logo.png"
+        },
+        "Team Acer Poland": {
+            "image": "Team Acer logo.png"
+        },
+        "Team Bliss": {
+            "region": "PCS"
+        },
+        "Team DK": {
+            "image": "Dk logo.png"
+        },
+        "Team Flash.Vietnam": {
+            "region": "Vietnam"
+        },
+        "Team Liquid": {
+            "other_names": [
+                "Team Curse"
+            ],
+            "region": "North America"
+        },
+        "Team Ultra Vires": {
+            "other_names": [
+                "GamingGear.eu"
+            ]
+        },
+        "Team nxl": {
+            "short": "nxl"
+        },
+        "V3 Esports": {
+            "region": "PCS"
+        },
+        "Vertex Esports Club": {
+            "region": "PCS"
+        },
+        "Vivo Keyd Stars": {
+            "other_names": [
+                "Vivo Keyd",
+                "Keyd Stars",
+                "Keyd Warriors"
+            ],
+            "region": "Brazil",
+            "sister_teams": [
+                "Keyd Warriors"
+            ]
+        },
+        "West Point Esports Philippines": {
+            "other_names": [
+                "SEM9",
+                "SEM9 WPE"
+            ],
+            "region": "PCS"
+        }
+    },
+    "rem": [
+        "Friends Forever Gaming",
+        "DG Esports",
+        "Isurus",
+        "GamingGear.eu",
+        "Estral Esports",
+        "Curse Academy",
+        "Movistar R7",
+        "ISC Pro Team",
+        "Rascal Jester",
+        "SEM9 WPE",
+        "Mineski",
+        "Lyon Gaming (2013 Latin American Team)",
+        "Team Curse",
+        "SEM9",
+        "FearX",
+        "Vikings Esports (2023 Vietnamese Team)",
+        "Team Whales",
+        "Team oNe eSports",
+        "MAD Lions KOI",
+        "Six Karma",
+        "Team Secret (Vietnamese Team)",
+        "Team Empire (Malaysian Team)",
+        "Azules Esports",
+        "PSG Talon",
+        "Fluxo",
+        "Vivo Keyd",
+        "Kwangdong Freecs",
+        "Royal Youth"
+    ]
+}

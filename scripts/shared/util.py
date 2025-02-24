@@ -54,7 +54,9 @@ def none_to_blank(str):
     return str
 
 def get_team_key(cooked_teams: dict, team_name: str):
-    return next((k for i, k in enumerate(cooked_teams) if team_name.lower() in [name.lower() for name in cooked_teams[k]["other_names"]]), None)
+    if team_name in cooked_teams:
+        return team_name
+    return next((k for k,v in cooked_teams.items() if team_name.lower() in [name.lower() for name in v["other_names"]]), None)
 
 
 def get_player_key(cooked_players, player_name):

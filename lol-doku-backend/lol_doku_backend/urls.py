@@ -46,4 +46,5 @@ urlpatterns = [
     path('puzzles/', include("puzzles.urls")),
     path('game/', include("game.urls")),
     path('stats/', include("stats.urls")),
+    path('meta/', include("meta.urls")),
 ]

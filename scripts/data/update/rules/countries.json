@@ -1,0 +1,200 @@
+{
+    "add": {},
+    "evo": {
+        "Algeria": {
+            "valid_players": [
+                "Xenogan"
+            ]
+        },
+        "Argentina": {
+            "valid_players": [
+                "ScaryJerry"
+            ]
+        },
+        "Australia": {
+            "valid_players": [
+                "Evewin",
+                "Getback",
+                "Maple Syrup",
+                "225"
+            ]
+        },
+        "Brazil": {
+            "valid_players": [
+                "Levizin",
+                "Redentor",
+                "Tatu (Pedro Seixas)",
+                "Morttheus",
+                "Leandrinn",
+                "Marvin",
+                "Forlin"
+            ]
+        },
+        "Canada": {
+            "valid_players": [
+                "Tomio"
+            ]
+        },
+        "Chile": {
+            "valid_players": [
+                "Neadz"
+            ]
+        },
+        "China": {
+            "valid_players": [
+                "Leigg",
+                "Yomiya",
+                "Prey (Xu Jia-Hao)",
+                "Xiaorui",
+                "Mxx",
+                "Xinsheng",
+                "Ycx",
+                "5t5",
+                "9God",
+                "PO8",
+                "Charlotte (Xue Le-Hui)",
+                "Ranchen",
+                "Sunlight (Jin Zi-Yang)",
+                "Liangchen",
+                "Pool",
+                "OvO",
+                "Xiaocaobao",
+                "Juice",
+                "HeiYue",
+                "Mentality (Wei Guan-Zhen)",
+                "Saber (Song Dai-Lin)",
+                "Jungoat",
+                "Yummy",
+                "Beluga",
+                "Rineko",
+                "Lqh",
+                "TheHank",
+                "Xiaoka",
+                "Ninefog",
+                "ZUIAN",
+                "Climber",
+                "Fishone",
+                "Nuo",
+                "Glfs",
+                "Iyy"
+            ]
+        },
+        "Denmark": {
+            "valid_players": [
+                "Carlsen"
+            ]
+        },
+        "France": {
+            "valid_players": [
+                "Kamiloo",
+                "SkewMond",
+                "Stend"
+            ]
+        },
+        "Hong Kong": {
+            "valid_players": [
+                "Cadence",
+                "SYWJJ"
+            ]
+        },
+        "Lithuania": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Mexico": {
+            "valid_players": [
+                "ChinX",
+                "Mun"
+            ]
+        },
+        "Morocco": {
+            "valid_players": [
+                "Nuc"
+            ]
+        },
+        "New Zealand": {
+            "valid_players": [
+                "VENDRICK",
+                "Guapi",
+                "Gabn"
+            ]
+        },
+        "Poland": {
+            "valid_players": [
+                "Czajek"
+            ]
+        },
+        "Saudi Arabia": {
+            "valid_players": [
+                "Selson"
+            ]
+        },
+        "South Korea": {
+            "valid_players": [
+                "Pungyeon",
+                "Smash (Sin Geum-jae)",
+                "Cloud (Moon Hyeon-ho)",
+                "Diable",
+                "Kemish",
+                "Siwoo",
+                "Zinie",
+                "Vincenzo (Ha Seung-min)",
+                "Loki (Lee Sang-min)",
+                "Sounda",
+                "Saint (Kang Sung-in)",
+                "Leaper",
+                "Mihile",
+                "Rooster",
+                "Lancer",
+                "Haetae",
+                "Heru",
+                "Casting",
+                "Courage (Jeon Hyun-min)",
+                "Slayer (Kim Jin-young)",
+                "Van (Kim Seung-hoo)"
+            ]
+        },
+        "Taiwan": {
+            "valid_players": [
+                "RYue",
+                "Kerry",
+                "GuanGuan",
+                "HotPot"
+            ]
+        },
+        "Turkey": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "United States": {
+            "valid_players": [
+                "Young (Young Choi)",
+                "Fiji",
+                "Srtty"
+            ]
+        },
+        "Vietnam": {
+            "valid_players": [
+                "Yume (Châu Kim Bảo)",
+                "Tahahy",
+                "Claws",
+                "SiuLoong",
+                "Jcom",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Kisee",
+                "Hizto",
+                "LazyFeel",
+                "Balder",
+                "Pain (Lê Quốc Anh)",
+                "Nanaue (Phùng Đức Tài)",
+                "Kazuto",
+                "TT (Trần Quốc Thanh)",
+                "Steller",
+                "Dire"
+            ]
+        }
+    },
+    "rem": []
+}

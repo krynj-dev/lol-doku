@@ -13,6 +13,16 @@
             "justMyCode": true,
             "cwd": "${workspaceFolder}/scripts",
             "args": ["--update"]
+        },
+        {
+            "name": "Python: Main Script (gensql)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/scripts",
+            "args": ["--sqlgen"]
         }
     ]
 }

@@ -1,0 +1,1692 @@
+{
+    "add": {
+        "225": {
+            "age": "",
+            "alternate_names": [
+                "225"
+            ],
+            "country": "Australia",
+            "display_name": "225",
+            "image": "",
+            "name": "Jesse Fiebig",
+            "residency": "Asia Pacific"
+        },
+        "5t5": {
+            "age": "",
+            "alternate_names": [
+                "5t5"
+            ],
+            "country": "China",
+            "display_name": "5t5",
+            "image": "",
+            "name": "Zeng Jun",
+            "residency": "China"
+        },
+        "9God": {
+            "age": "",
+            "alternate_names": [
+                "9God"
+            ],
+            "country": "China",
+            "display_name": "9God",
+            "image": "",
+            "name": "Frank Fei",
+            "residency": "Asia Pacific"
+        },
+        "Balder": {
+            "age": "",
+            "alternate_names": [
+                "Balder"
+            ],
+            "country": "Vietnam",
+            "display_name": "Balder",
+            "image": "",
+            "name": "Nguyễn Văn Thông",
+            "residency": "Asia Pacific"
+        },
+        "Beluga": {
+            "age": "",
+            "alternate_names": [
+                "Beluga"
+            ],
+            "country": "China",
+            "display_name": "Beluga",
+            "image": "",
+            "name": "Wang Shao-Hua",
+            "residency": "China"
+        },
+        "Cadence": {
+            "age": "",
+            "alternate_names": [
+                "Cadence"
+            ],
+            "country": "Hong Kong",
+            "display_name": "Cadence",
+            "image": "",
+            "name": "Hugo Chang",
+            "residency": "Asia Pacific"
+        },
+        "Caliste": {
+            "age": "18",
+            "alternate_names": [
+                "Caliste"
+            ],
+            "country": "",
+            "display_name": "Caliste",
+            "image": "",
+            "name": "Caliste Henry-Hennebert",
+            "residency": "EMEA"
+        },
+        "Carlsen": {
+            "age": "19",
+            "alternate_names": [
+                "Carlsen"
+            ],
+            "country": "Denmark",
+            "display_name": "Carlsen",
+            "image": "",
+            "name": "Carl&amp;nbsp;Ulsted Carlsen",
+            "residency": "EMEA"
+        },
+        "Casting": {
+            "age": "21",
+            "alternate_names": [
+                "Casting"
+            ],
+            "country": "South Korea",
+            "display_name": "Casting",
+            "image": "",
+            "name": "Shin Min-je",
+            "residency": "Korea"
+        },
+        "Charlotte (Xue Le-Hui)": {
+            "age": "",
+            "alternate_names": [
+                "Charlotte (Xue Le-Hui)"
+            ],
+            "country": "China",
+            "display_name": "Charlotte (Xue Le-Hui)",
+            "image": "",
+            "name": "Xue Le-Hui",
+            "residency": "China"
+        },
+        "ChinX": {
+            "age": "",
+            "alternate_names": [
+                "ChinX"
+            ],
+            "country": "Mexico",
+            "display_name": "ChinX",
+            "image": "",
+            "name": "Sergio Perez",
+            "residency": "Americas"
+        },
+        "Claws": {
+            "age": "",
+            "alternate_names": [
+                "Claws"
+            ],
+            "country": "Vietnam",
+            "display_name": "Claws",
+            "image": "",
+            "name": "Cao Nhựt Vi",
+            "residency": "Asia Pacific"
+        },
+        "Climber": {
+            "age": "20",
+            "alternate_names": [
+                "Climber"
+            ],
+            "country": "China",
+            "display_name": "Climber",
+            "image": "",
+            "name": "Wu Hong-Tao",
+            "residency": "China"
+        },
+        "Cloud (Moon Hyeon-ho)": {
+            "age": "17",
+            "alternate_names": [
+                "Cloud (Moon Hyeon-ho)"
+            ],
+            "country": "South Korea",
+            "display_name": "Cloud (Moon Hyeon-ho)",
+            "image": "",
+            "name": "Moon Hyeon-ho",
+            "residency": "Korea"
+        },
+        "Courage (Jeon Hyun-min)": {
+            "age": "19",
+            "alternate_names": [
+                "Courage (Jeon Hyun-min)"
+            ],
+            "country": "South Korea",
+            "display_name": "Courage (Jeon Hyun-min)",
+            "image": "",
+            "name": "Jeon Hyun-min",
+            "residency": "Korea"
+        },
+        "Czajek": {
+            "age": "21",
+            "alternate_names": [
+                "Czajek"
+            ],
+            "country": "Poland",
+            "display_name": "Czajek",
+            "image": "",
+            "name": "Mateusz Czajka",
+            "residency": "EMEA"
+        },
+        "Diable": {
+            "age": "17",
+            "alternate_names": [
+                "Diable"
+            ],
+            "country": "South Korea",
+            "display_name": "Diable",
+            "image": "",
+            "name": "Nam Dae-geun",
+            "residency": "Korea"
+        },
+        "Dire": {
+            "age": "18",
+            "alternate_names": [
+                "Dire"
+            ],
+            "country": "Vietnam",
+            "display_name": "Dire",
+            "image": "",
+            "name": "Trần Duy Đức",
+            "residency": "Asia Pacific"
+        },
+        "Evewin": {
+            "age": "",
+            "alternate_names": [
+                "Evewin"
+            ],
+            "country": "Australia",
+            "display_name": "Evewin",
+            "image": "",
+            "name": "Jakeb Schneider",
+            "residency": "Asia Pacific"
+        },
+        "Fiji": {
+            "age": "23",
+            "alternate_names": [
+                "Fiji"
+            ],
+            "country": "United States",
+            "display_name": "Fiji",
+            "image": "",
+            "name": "James Thomas Carlisle",
+            "residency": "Americas"
+        },
+        "Fishone": {
+            "age": "",
+            "alternate_names": [
+                "Fishone"
+            ],
+            "country": "China",
+            "display_name": "Fishone",
+            "image": "",
+            "name": "Yu Yi",
+            "residency": "China"
+        },
+        "Forlin": {
+            "age": "20",
+            "alternate_names": [
+                "Forlin"
+            ],
+            "country": "Brazil",
+            "display_name": "Forlin",
+            "image": "",
+            "name": "Leonardo Pereira",
+            "residency": "Americas"
+        },
+        "Gabn": {
+            "age": "",
+            "alternate_names": [
+                "Gabn"
+            ],
+            "country": "New Zealand",
+            "display_name": "Gabn",
+            "image": "",
+            "name": "Alexander West-Clement",
+            "residency": "Asia Pacific"
+        },
+        "Getback": {
+            "age": "",
+            "alternate_names": [
+                "Getback"
+            ],
+            "country": "Australia",
+            "display_name": "Getback",
+            "image": "",
+            "name": "Jarod Tucker",
+            "residency": "Americas"
+        },
+        "Glfs": {
+            "age": "",
+            "alternate_names": [
+                "Glfs"
+            ],
+            "country": "China",
+            "display_name": "Glfs",
+            "image": "",
+            "name": "Li Hao",
+            "residency": "China"
+        },
+        "GuanGuan": {
+            "age": "21",
+            "alternate_names": [
+                "GuanGuan"
+            ],
+            "country": "Taiwan",
+            "display_name": "GuanGuan",
+            "image": "",
+            "name": "Chen Chih-Yuan",
+            "residency": "Asia Pacific"
+        },
+        "Guapi": {
+            "age": "",
+            "alternate_names": [
+                "Guapi"
+            ],
+            "country": "New Zealand",
+            "display_name": "Guapi",
+            "image": "",
+            "name": "Brian Yu",
+            "residency": "Asia Pacific"
+        },
+        "Haetae": {
+            "age": "18",
+            "alternate_names": [
+                "Haetae"
+            ],
+            "country": "South Korea",
+            "display_name": "Haetae",
+            "image": "",
+            "name": "Sim Su-hyeon",
+            "residency": "Korea"
+        },
+        "HeiYue": {
+            "age": "",
+            "alternate_names": [
+                "HeiYue"
+            ],
+            "country": "China",
+            "display_name": "HeiYue",
+            "image": "",
+            "name": "Xiong Cheng-Gang",
+            "residency": "China"
+        },
+        "Heru": {
+            "age": "18",
+            "alternate_names": [
+                "Heru"
+            ],
+            "country": "South Korea",
+            "display_name": "Heru",
+            "image": "",
+            "name": "Kim Min-seong",
+            "residency": "Korea"
+        },
+        "Hizto": {
+            "age": "17",
+            "alternate_names": [
+                "Hizto"
+            ],
+            "country": "Vietnam",
+            "display_name": "Hizto",
+            "image": "",
+            "name": "Lê Văn Hoàng Hải",
+            "residency": "Asia Pacific"
+        },
+        "HotPot": {
+            "age": "22",
+            "alternate_names": [
+                "HotPot"
+            ],
+            "country": "Taiwan",
+            "display_name": "HotPot",
+            "image": "",
+            "name": "Shih Yi-Chieh",
+            "residency": "Asia Pacific"
+        },
+        "Hypnos": {
+            "age": "23",
+            "alternate_names": [
+                "Hypnos"
+            ],
+            "country": "Turkey",
+            "display_name": "Hypnos",
+            "image": "",
+            "name": "Kaan Turhan",
+            "residency": "EMEA"
+        },
+        "Iyy": {
+            "age": "",
+            "alternate_names": [
+                "Iyy"
+            ],
+            "country": "China",
+            "display_name": "Iyy",
+            "image": "",
+            "name": "Ma Chen-Shuo",
+            "residency": "China"
+        },
+        "Jcom": {
+            "age": "",
+            "alternate_names": [
+                "Jcom"
+            ],
+            "country": "Vietnam",
+            "display_name": "Jcom",
+            "image": "",
+            "name": "Lại Đức Tín",
+            "residency": "Asia Pacific"
+        },
+        "Juice": {
+            "age": "",
+            "alternate_names": [
+                "Juice"
+            ],
+            "country": "China",
+            "display_name": "Juice",
+            "image": "",
+            "name": "Zhou Lin",
+            "residency": "China"
+        },
+        "Jungoat": {
+            "age": "",
+            "alternate_names": [
+                "Dante (Lan De-Rong)"
+            ],
+            "country": "China",
+            "display_name": "Jungoat",
+            "image": "",
+            "name": "Lan De-Rong",
+            "residency": "China"
+        },
+        "Kamiloo": {
+            "age": "19",
+            "alternate_names": [
+                "Kamiloo"
+            ],
+            "country": "France",
+            "display_name": "Kamiloo",
+            "image": "",
+            "name": "Kamil Haudegond",
+            "residency": "EMEA"
+        },
+        "Kazuto": {
+            "age": "",
+            "alternate_names": [
+                "Kazuto"
+            ],
+            "country": "Vietnam",
+            "display_name": "Kazuto",
+            "image": "",
+            "name": "Đỗ Minh Thuận",
+            "residency": "Asia Pacific"
+        },
+        "Kemish": {
+            "age": "19",
+            "alternate_names": [
+                "Kemish"
+            ],
+            "country": "South Korea",
+            "display_name": "Kemish",
+            "image": "",
+            "name": "Kim Si-hoon",
+            "residency": "Korea"
+        },
+        "Kerry": {
+            "age": "22",
+            "alternate_names": [
+                "Kerry"
+            ],
+            "country": "Taiwan",
+            "display_name": "Kerry",
+            "image": "",
+            "name": "Chung Jui-Wen",
+            "residency": "Asia Pacific"
+        },
+        "Lancer": {
+            "age": "20",
+            "alternate_names": [
+                "Lancer"
+            ],
+            "country": "South Korea",
+            "display_name": "Lancer",
+            "image": "",
+            "name": "Han Jeong-heum",
+            "residency": "Korea"
+        },
+        "LazyFeel": {
+            "age": "17",
+            "alternate_names": [
+                "LazyFeel"
+            ],
+            "country": "Vietnam",
+            "display_name": "LazyFeel",
+            "image": "",
+            "name": "Trần Bảo Minh",
+            "residency": "Asia Pacific"
+        },
+        "Leandrinn": {
+            "age": "20",
+            "alternate_names": [
+                "Leandrinn"
+            ],
+            "country": "Brazil",
+            "display_name": "Leandrinn",
+            "image": "",
+            "name": "Leandro Zaneta",
+            "residency": "Americas"
+        },
+        "Leaper": {
+            "age": "24",
+            "alternate_names": [
+                "Leaper"
+            ],
+            "country": "South Korea",
+            "display_name": "Leaper",
+            "image": "",
+            "name": "Choi Gi-myeong",
+            "residency": "Korea"
+        },
+        "Leigg": {
+            "age": "",
+            "alternate_names": [
+                "Leigg"
+            ],
+            "country": "China",
+            "display_name": "Leigg",
+            "image": "",
+            "name": "Jin Lei",
+            "residency": "China"
+        },
+        "Levizin": {
+            "age": "21",
+            "alternate_names": [
+                "Levizin"
+            ],
+            "country": "Brazil",
+            "display_name": "Levizin",
+            "image": "",
+            "name": "Levi Adoniram Moura Pedutti",
+            "residency": "Americas"
+        },
+        "Liangchen": {
+            "age": "",
+            "alternate_names": [
+                "Liangchen"
+            ],
+            "country": "China",
+            "display_name": "Liangchen",
+            "image": "",
+            "name": "Zhang Liang-Chen",
+            "residency": "China"
+        },
+        "Loki (Lee Sang-min)": {
+            "age": "19",
+            "alternate_names": [
+                "Loki (Lee Sang-min)"
+            ],
+            "country": "South Korea",
+            "display_name": "Loki (Lee Sang-min)",
+            "image": "",
+            "name": "Lee Sang-min",
+            "residency": "Korea"
+        },
+        "Lqh": {
+            "age": "",
+            "alternate_names": [
+                "Lqh"
+            ],
+            "country": "China",
+            "display_name": "Lqh",
+            "image": "",
+            "name": "Li Qing-Hua",
+            "residency": "China"
+        },
+        "M0chi": {
+            "age": "",
+            "alternate_names": [
+                "M0chi"
+            ],
+            "country": "",
+            "display_name": "M0chi",
+            "image": "",
+            "name": "Henry Wang",
+            "residency": "Asia Pacific"
+        },
+        "Maple Syrup": {
+            "age": "",
+            "alternate_names": [
+                "Maple Syrup"
+            ],
+            "country": "Australia",
+            "display_name": "Maple Syrup",
+            "image": "",
+            "name": "Patrick Henchey",
+            "residency": "Asia Pacific"
+        },
+        "Marvin": {
+            "age": "19",
+            "alternate_names": [
+                "Marvin"
+            ],
+            "country": "Brazil",
+            "display_name": "Marvin",
+            "image": "",
+            "name": "Vinicius de Souza",
+            "residency": "Americas"
+        },
+        "Mentality (Wei Guan-Zhen)": {
+            "age": "",
+            "alternate_names": [
+                "Mentality (Wei Guan-Zhen)"
+            ],
+            "country": "China",
+            "display_name": "Mentality (Wei Guan-Zhen)",
+            "image": "",
+            "name": "Wei Guan-Zhen",
+            "residency": "China"
+        },
+        "Mihile": {
+            "age": "21",
+            "alternate_names": [
+                "Mihile"
+            ],
+            "country": "South Korea",
+            "display_name": "Mihile",
+            "image": "",
+            "name": "Baek Sang-hwi",
+            "residency": "Korea"
+        },
+        "Morttheus": {
+            "age": "22",
+            "alternate_names": [
+                "Morttheus"
+            ],
+            "country": "Brazil",
+            "display_name": "Morttheus",
+            "image": "",
+            "name": "Matheus Motta",
+            "residency": "Americas"
+        },
+        "Mun": {
+            "age": "22",
+            "alternate_names": [
+                "Mun"
+            ],
+            "country": "Mexico",
+            "display_name": "Mun",
+            "image": "",
+            "name": "Lucio&amp;nbsp;Alejandro Pineda",
+            "residency": "Americas"
+        },
+        "Mxx": {
+            "age": "",
+            "alternate_names": [
+                "Mxx"
+            ],
+            "country": "China",
+            "display_name": "Mxx",
+            "image": "",
+            "name": "Qi Zhi-Hong",
+            "residency": "China"
+        },
+        "Nanaue (Phùng Đức Tài)": {
+            "age": "18",
+            "alternate_names": [
+                "Nanaue (Phùng Đức Tài)"
+            ],
+            "country": "Vietnam",
+            "display_name": "Nanaue (Phùng Đức Tài)",
+            "image": "",
+            "name": "Phùng Đức Tài",
+            "residency": "Asia Pacific"
+        },
+        "Neadz": {
+            "age": "20",
+            "alternate_names": [
+                "Neadz"
+            ],
+            "country": "Chile",
+            "display_name": "Neadz",
+            "image": "",
+            "name": "Esteban&amp;nbsp;Fernando San Martín Durán",
+            "residency": "Americas"
+        },
+        "Ninefog": {
+            "age": "",
+            "alternate_names": [
+                "Ninefog"
+            ],
+            "country": "China",
+            "display_name": "Ninefog",
+            "image": "",
+            "name": "Ni Hao-Jie",
+            "residency": "China"
+        },
+        "Nuo": {
+            "age": "",
+            "alternate_names": [
+                "Nuo"
+            ],
+            "country": "China",
+            "display_name": "Nuo",
+            "image": "",
+            "name": "Wei Jia-Nuo",
+            "residency": "China"
+        },
+        "OvO": {
+            "age": "",
+            "alternate_names": [
+                "OvO"
+            ],
+            "country": "China",
+            "display_name": "OvO",
+            "image": "",
+            "name": "Zhang Jia-Hao",
+            "residency": "China"
+        },
+        "PO8": {
+            "age": "",
+            "alternate_names": [
+                "PO8"
+            ],
+            "country": "China",
+            "display_name": "PO8",
+            "image": "",
+            "name": "Zou Jun",
+            "residency": "China"
+        },
+        "Pain (Lê Quốc Anh)": {
+            "age": "19",
+            "alternate_names": [
+                "Pain5"
+            ],
+            "country": "Vietnam",
+            "display_name": "Pain (Lê Quốc Anh)",
+            "image": "",
+            "name": "Lê Quốc Anh",
+            "residency": "Asia Pacific"
+        },
+        "Pool": {
+            "age": "",
+            "alternate_names": [
+                "Pool"
+            ],
+            "country": "China",
+            "display_name": "Pool",
+            "image": "",
+            "name": "Fu Zhan-Hao",
+            "residency": "China"
+        },
+        "Prey (Xu Jia-Hao)": {
+            "age": "",
+            "alternate_names": [
+                "Prey (Xu Jia-Hao)"
+            ],
+            "country": "China",
+            "display_name": "Prey (Xu Jia-Hao)",
+            "image": "",
+            "name": "Xu Jia-Hao",
+            "residency": "China"
+        },
+        "Pungyeon": {
+            "age": "20",
+            "alternate_names": [
+                "Pungyeon"
+            ],
+            "country": "South Korea",
+            "display_name": "Pungyeon",
+            "image": "",
+            "name": "Lee Jong-hyuk",
+            "residency": "Korea"
+        },
+        "RYue": {
+            "age": "21",
+            "alternate_names": [
+                "RYue"
+            ],
+            "country": "Taiwan",
+            "display_name": "RYue",
+            "image": "",
+            "name": "Chen Ching-Yueh",
+            "residency": "Asia Pacific"
+        },
+        "Ranchen": {
+            "age": "",
+            "alternate_names": [
+                "Ranchen"
+            ],
+            "country": "China",
+            "display_name": "Ranchen",
+            "image": "",
+            "name": "Fang Cheng",
+            "residency": "China"
+        },
+        "Rineko": {
+            "age": "",
+            "alternate_names": [
+                "Rineko"
+            ],
+            "country": "China",
+            "display_name": "Rineko",
+            "image": "",
+            "name": "Liu Qi-Zhang",
+            "residency": "China"
+        },
+        "Rooster": {
+            "age": "19",
+            "alternate_names": [
+                "Rooster"
+            ],
+            "country": "South Korea",
+            "display_name": "Rooster",
+            "image": "",
+            "name": "Shin Yun-hwan",
+            "residency": "Korea"
+        },
+        "SYWJJ": {
+            "age": "18",
+            "alternate_names": [
+                "SYWJJ"
+            ],
+            "country": "Hong Kong",
+            "display_name": "SYWJJ",
+            "image": "",
+            "name": "Or Wing Chit",
+            "residency": "Asia Pacific"
+        },
+        "Saber (Song Dai-Lin)": {
+            "age": "",
+            "alternate_names": [
+                "Saber (Song Dai-Lin)"
+            ],
+            "country": "China",
+            "display_name": "Saber (Song Dai-Lin)",
+            "image": "",
+            "name": "Song Dai-Lin",
+            "residency": "China"
+        },
+        "Saint (Kang Sung-in)": {
+            "age": "20",
+            "alternate_names": [
+                "Saint (Kang Sung-in)"
+            ],
+            "country": "South Korea",
+            "display_name": "Saint (Kang Sung-in)",
+            "image": "",
+            "name": "Kang Sung-in",
+            "residency": "Korea"
+        },
+        "ScaryJerry": {
+            "age": "22",
+            "alternate_names": [
+                "ScaryJerry"
+            ],
+            "country": "Argentina",
+            "display_name": "ScaryJerry",
+            "image": "",
+            "name": "Jeremiah Leathe",
+            "residency": "Americas"
+        },
+        "SiuLoong": {
+            "age": "19",
+            "alternate_names": [
+                "SiuLoong"
+            ],
+            "country": "Vietnam",
+            "display_name": "SiuLoong",
+            "image": "",
+            "name": "Nguyễn Hoàng Lam",
+            "residency": "Asia Pacific"
+        },
+        "Siwoo": {
+            "age": "17",
+            "alternate_names": [
+                "Siwoo"
+            ],
+            "country": "South Korea",
+            "display_name": "Siwoo",
+            "image": "",
+            "name": "Jeon Si-woo",
+            "residency": "Korea"
+        },
+        "SkewMond": {
+            "age": "20",
+            "alternate_names": [
+                "SkewMond"
+            ],
+            "country": "France",
+            "display_name": "SkewMond",
+            "image": "",
+            "name": "Rudy Semaan",
+            "residency": "EMEA"
+        },
+        "Slayer (Kim Jin-young)": {
+            "age": "21",
+            "alternate_names": [
+                "Slayer (Kim Jin-young)"
+            ],
+            "country": "South Korea",
+            "display_name": "Slayer (Kim Jin-young)",
+            "image": "",
+            "name": "Kim Jin-young",
+            "residency": "Korea"
+        },
+        "Smash (Sin Geum-jae)": {
+            "age": "18",
+            "alternate_names": [
+                "Smash (Sin Geum-jae)"
+            ],
+            "country": "South Korea",
+            "display_name": "Smash (Sin Geum-jae)",
+            "image": "",
+            "name": "Sin Geum-jae",
+            "residency": "Korea"
+        },
+        "Sounda": {
+            "age": "21",
+            "alternate_names": [
+                "Sounda"
+            ],
+            "country": "South Korea",
+            "display_name": "Sounda",
+            "image": "",
+            "name": "Kong In-hyuk",
+            "residency": "Korea"
+        },
+        "Sovereign (Alexander Folley)": {
+            "age": "",
+            "alternate_names": [
+                "Sovereign (Alexander Folley)"
+            ],
+            "country": "",
+            "display_name": "Sovereign (Alexander Folley)",
+            "image": "",
+            "name": "Alexander Folley",
+            "residency": "Asia Pacific"
+        },
+        "Srtty": {
+            "age": "23",
+            "alternate_names": [
+                "Srtty"
+            ],
+            "country": "United States",
+            "display_name": "Srtty",
+            "image": "",
+            "name": "Jett&amp;nbsp;Michael Joye",
+            "residency": "Americas"
+        },
+        "Steller": {
+            "age": "18",
+            "alternate_names": [
+                "Steller"
+            ],
+            "country": "Vietnam",
+            "display_name": "Steller",
+            "image": "",
+            "name": "Lê Quang Bình",
+            "residency": "Asia Pacific"
+        },
+        "Stend": {
+            "age": "23",
+            "alternate_names": [
+                "Stend"
+            ],
+            "country": "France",
+            "display_name": "Stend",
+            "image": "",
+            "name": "Paul Lardin",
+            "residency": "EMEA"
+        },
+        "Sunlight (Jin Zi-Yang)": {
+            "age": "",
+            "alternate_names": [
+                "Sunlight (Jin Zi-Yang)"
+            ],
+            "country": "China",
+            "display_name": "Sunlight (Jin Zi-Yang)",
+            "image": "",
+            "name": "Jin Zi-Yang",
+            "residency": "China"
+        },
+        "TT (Trần Quốc Thanh)": {
+            "age": "22",
+            "alternate_names": [
+                "TT789"
+            ],
+            "country": "Vietnam",
+            "display_name": "TT (Trần Quốc Thanh)",
+            "image": "",
+            "name": "Trần Quốc Thanh",
+            "residency": "Asia Pacific"
+        },
+        "Tahahy": {
+            "age": "22",
+            "alternate_names": [
+                "Tahahy"
+            ],
+            "country": "Vietnam",
+            "display_name": "Tahahy",
+            "image": "",
+            "name": "Trần Hoàng Huy",
+            "residency": "Asia Pacific"
+        },
+        "Tatu (Pedro Seixas)": {
+            "age": "18",
+            "alternate_names": [
+                "Tatu (Pedro Seixas)"
+            ],
+            "country": "Brazil",
+            "display_name": "Tatu (Pedro Seixas)",
+            "image": "",
+            "name": "Pedro Seixas",
+            "residency": "Americas"
+        },
+        "TheHank": {
+            "age": "",
+            "alternate_names": [
+                "TheHank"
+            ],
+            "country": "China",
+            "display_name": "TheHank",
+            "image": "",
+            "name": "Xu Hai-Han",
+            "residency": "China"
+        },
+        "Toaster": {
+            "age": "27",
+            "alternate_names": [
+                "Toaster"
+            ],
+            "country": "Lithuania",
+            "display_name": "Toaster",
+            "image": "",
+            "name": "Augustas Ruplys",
+            "residency": "EMEA"
+        },
+        "Tomio": {
+            "age": "21",
+            "alternate_names": [
+                "Tomio"
+            ],
+            "country": "Canada",
+            "display_name": "Tomio",
+            "image": "",
+            "name": "Tomio&amp;nbsp;Phanlith Chan",
+            "residency": "Americas"
+        },
+        "VENDRICK": {
+            "age": "",
+            "alternate_names": [
+                "VENDRICK"
+            ],
+            "country": "New Zealand",
+            "display_name": "VENDRICK",
+            "image": "",
+            "name": "Jakib Isherwood",
+            "residency": "Asia Pacific"
+        },
+        "Van (Kim Seung-hoo)": {
+            "age": "21",
+            "alternate_names": [
+                "Van (Kim Seung-hoo)"
+            ],
+            "country": "South Korea",
+            "display_name": "Van (Kim Seung-hoo)",
+            "image": "",
+            "name": "Kim Seung-hoo",
+            "residency": "Korea"
+        },
+        "Vincenzo (Ha Seung-min)": {
+            "age": "20",
+            "alternate_names": [
+                "Vincenzo (Ha Seung-min)"
+            ],
+            "country": "South Korea",
+            "display_name": "Vincenzo (Ha Seung-min)",
+            "image": "",
+            "name": "Ha Seung-min",
+            "residency": "Korea"
+        },
+        "Warrior (Nguyễn Phú Thanh)": {
+            "age": "",
+            "alternate_names": [
+                "Warri0r"
+            ],
+            "country": "Vietnam",
+            "display_name": "Warrior (Nguyễn Phú Thanh)",
+            "image": "",
+            "name": "Nguyễn Phú Thạnh",
+            "residency": "Asia Pacific"
+        },
+        "Xiaocaobao": {
+            "age": "22",
+            "alternate_names": [
+                "Xiaocaoba0",
+                "Xiaocaobao"
+            ],
+            "country": "China",
+            "display_name": "Xiaocaobao",
+            "image": "",
+            "name": "Liang Jian",
+            "residency": "China"
+        },
+        "Xiaoka": {
+            "age": "",
+            "alternate_names": [
+                "Xiaoka"
+            ],
+            "country": "China",
+            "display_name": "Xiaoka",
+            "image": "",
+            "name": "Luo Ji-Yong",
+            "residency": "China"
+        },
+        "Xiaorui": {
+            "age": "",
+            "alternate_names": [
+                "Xiaorui"
+            ],
+            "country": "China",
+            "display_name": "Xiaorui",
+            "image": "",
+            "name": "Niu Xiao-Rui",
+            "residency": "China"
+        },
+        "Xinsheng": {
+            "age": "",
+            "alternate_names": [
+                "Xinsheng"
+            ],
+            "country": "China",
+            "display_name": "Xinsheng",
+            "image": "",
+            "name": "Ding Xin-Sheng",
+            "residency": "China"
+        },
+        "Ycx": {
+            "age": "24",
+            "alternate_names": [
+                "Ycx"
+            ],
+            "country": "China",
+            "display_name": "Ycx",
+            "image": "",
+            "name": "Zhao Wen-Hao",
+            "residency": "China"
+        },
+        "Yojin": {
+            "age": "",
+            "alternate_names": [
+                "Yojin"
+            ],
+            "country": "",
+            "display_name": "Yojin",
+            "image": "",
+            "name": "Natasak Srikusalanukul",
+            "residency": "Asia Pacific"
+        },
+        "Yomiya": {
+            "age": "",
+            "alternate_names": [
+                "Yomiya"
+            ],
+            "country": "China",
+            "display_name": "Yomiya",
+            "image": "",
+            "name": "Yao Ying-Cheng",
+            "residency": "China"
+        },
+        "Young (Young Choi)": {
+            "age": "",
+            "alternate_names": [
+                "Young (Young Choi)"
+            ],
+            "country": "United States",
+            "display_name": "Young (Young Choi)",
+            "image": "",
+            "name": "Young&amp;nbsp;Ho Choi",
+            "residency": "Americas"
+        },
+        "Yume (Châu Kim Bảo)": {
+            "age": "",
+            "alternate_names": [
+                "Yume (Châu Kim Bảo)"
+            ],
+            "country": "Vietnam",
+            "display_name": "Yume (Châu Kim Bảo)",
+            "image": "",
+            "name": "Châu Kim Bảo",
+            "residency": "Asia Pacific"
+        },
+        "Yummy": {
+            "age": "",
+            "alternate_names": [
+                "Yummy"
+            ],
+            "country": "China",
+            "display_name": "Yummy",
+            "image": "",
+            "name": "Yang Zi-Fan",
+            "residency": "China"
+        },
+        "ZUIAN": {
+            "age": "",
+            "alternate_names": [
+                "ZUIAN"
+            ],
+            "country": "China",
+            "display_name": "ZUIAN",
+            "image": "",
+            "name": "Cheng Zi-Hao",
+            "residency": "China"
+        },
+        "Zinie": {
+            "age": "19",
+            "alternate_names": [
+                "Zinie"
+            ],
+            "country": "South Korea",
+            "display_name": "Zinie",
+            "image": "",
+            "name": "Yoo Baek-jin",
+            "residency": "Korea"
+        }
+    },
+    "evo": {
+        "24": {
+            "age": "22",
+            "alternate_names": [
+                "24 (Seyfi Onat Aytemiz)"
+            ],
+            "display_name": "24 (Seyfi Onat Aytemiz)"
+        },
+        "404": {
+            "alternate_names": [
+                "404 (Zhi Choong Sheng)"
+            ],
+            "display_name": "404 (Zhi Choong Sheng)"
+        },
+        "Alfred": {
+            "alternate_names": [
+                "Alfred (Alfredo González)"
+            ],
+            "display_name": "Alfred (Alfredo González)"
+        },
+        "Annie Bot": {
+            "display_name": "AnnieBot"
+        },
+        "Antik": {
+            "age": "20",
+            "display_name": "Oleg (Oleg Karkachev)"
+        },
+        "Assassin": {
+            "age": "29",
+            "display_name": "Sask"
+        },
+        "Astra": {
+            "age": "28",
+            "alternate_names": [
+                "Astra (Eduard Fritz)"
+            ],
+            "display_name": "Astra (Eduard Fritz)"
+        },
+        "Balta129": {
+            "display_name": "Maximillion"
+        },
+        "Bipolar": {
+            "alternate_names": [
+                "Bipolar (Ramsay Lochhead Devaraj)"
+            ],
+            "display_name": "Bipolar (Ramsay Lochhead Devaraj)"
+        },
+        "Blessing": {
+            "display_name": "Dispel"
+        },
+        "BonO (Kim Gi-beom)": {
+            "display_name": "Bon0"
+        },
+        "Cariok": {
+            "alternate_names": [
+                "CarioK"
+            ],
+            "display_name": "CarioK",
+            "residency": "Americas"
+        },
+        "CoLiN": {
+            "alternate_names": [
+                "Colin"
+            ],
+            "display_name": "Colin"
+        },
+        "Crimson": {
+            "age": "30",
+            "alternate_names": [
+                "Crimson (Mert Koçak)"
+            ],
+            "display_name": "Crimson (Mert Koçak)"
+        },
+        "Crowno": {
+            "display_name": "Crowdy"
+        },
+        "Dani": {
+            "display_name": "Dani (Phillex Bulanadi)"
+        },
+        "Deant": {
+            "age": "21",
+            "display_name": "Deant9",
+            "residency": "Asia Pacific"
+        },
+        "Don Cholo": {
+            "alternate_names": [
+                "Don Cholo (Sergio Salas)"
+            ],
+            "display_name": "Don Cholo (Sergio Salas)"
+        },
+        "Endless": {
+            "alternate_names": [
+                "Endless (Xu Hao)"
+            ],
+            "display_name": "Endless (Xu Hao)"
+        },
+        "Exakick": {
+            "age": "21",
+            "display_name": "3XA"
+        },
+        "FZZF": {
+            "age": "33",
+            "alternate_names": [
+                "Fzzf"
+            ],
+            "display_name": "Fzzf"
+        },
+        "Frostyy": {
+            "age": "20",
+            "display_name": "Frosty (José Eduardo)",
+            "name": "José&amp;nbsp;Eduardo Leal Pacheco",
+            "residency": "Americas"
+        },
+        "Gravepast": {
+            "age": "20",
+            "display_name": "Grave"
+        },
+        "HH (Lee Hyun-ho)": {
+            "alternate_names": [
+                "Luon"
+            ],
+            "display_name": "Luon"
+        },
+        "Heal (Peng Jun-Jie)": {
+            "display_name": "Fate (Peng Jun-Jie)"
+        },
+        "Icon": {
+            "age": "28",
+            "alternate_names": [
+                "ICON"
+            ],
+            "display_name": "ICON"
+        },
+        "Jactroll": {
+            "age": "26",
+            "alternate_names": [
+                "JACTROLL"
+            ],
+            "display_name": "JACTROLL"
+        },
+        "JieJie": {
+            "age": "23",
+            "alternate_names": [
+                "Jiejie"
+            ],
+            "display_name": "Jiejie"
+        },
+        "Jojo (Gabriel Dzelme)": {
+            "age": "26",
+            "alternate_names": [
+                "JoJo (Gabriel Dzelme)"
+            ],
+            "display_name": "JoJo (Gabriel Dzelme)",
+            "residency": "Americas"
+        },
+        "Juejuezi": {
+            "alternate_names": [
+                "Sasi (Yan Rui)"
+            ],
+            "display_name": "Sasi (Yan Rui)"
+        },
+        "KL": {
+            "age": "24",
+            "alternate_names": [
+                "KL (So Ka Lung)"
+            ],
+            "display_name": "KL (So Ka Lung)"
+        },
+        "Kabbie": {
+            "age": "23",
+            "display_name": "Sanghyeon"
+        },
+        "Kagame": {
+            "age": "24",
+            "alternate_names": [
+                "Kagame (Yap Li Aw)"
+            ],
+            "display_name": "Kagame (Yap Li Aw)",
+            "residency": "Asia Pacific"
+        },
+        "Kite": {
+            "alternate_names": [
+                "Kite (Kim Yong-yeon)"
+            ],
+            "display_name": "Kite (Kim Yong-yeon)"
+        },
+        "Krastyel": {
+            "display_name": "Krastymel",
+            "residency": "Americas"
+        },
+        "Kuroko (Trần Tuấn Anh)": {
+            "age": "25",
+            "display_name": "M1lo",
+            "residency": "Asia Pacific"
+        },
+        "LanPeiFang": {
+            "display_name": "Kino"
+        },
+        "Last": {
+            "age": "27",
+            "alternate_names": [
+                "Last (Jeong Young-seok)"
+            ],
+            "display_name": "Last (Jeong Young-seok)"
+        },
+        "Maxi": {
+            "age": "24",
+            "alternate_names": [
+                "MAXI"
+            ],
+            "display_name": "MAXI",
+            "name": "Magnus Stenz Kristensen"
+        },
+        "Me": {
+            "display_name": "Lucius"
+        },
+        "Molto": {
+            "age": "24",
+            "display_name": "Moesakr"
+        },
+        "Mushroom": {
+            "age": "29",
+            "alternate_names": [
+                "Mushroom (Zhang Xiao-Fu)"
+            ],
+            "display_name": "Mushroom (Zhang Xiao-Fu)"
+        },
+        "NL": {
+            "alternate_names": [
+                "NL (Hsiung Wen-An)"
+            ],
+            "display_name": "NL (Hsiung Wen-An)"
+        },
+        "Oddie": {
+            "age": "27",
+            "alternate_names": [
+                "Oddielan"
+            ],
+            "display_name": "Oddielan",
+            "residency": "Americas"
+        },
+        "Omni": {
+            "age": "31",
+            "alternate_names": [
+                "Omni (Thomas Trinh Dung)"
+            ],
+            "display_name": "Omni (Thomas Trinh Dung)"
+        },
+        "Only": {
+            "alternate_names": [
+                "Only (Jordan Middleton)"
+            ],
+            "display_name": "Only (Jordan Middleton)",
+            "residency": "Oceania"
+        },
+        "Optimus": {
+            "age": "28",
+            "display_name": "C7N",
+            "residency": "Asia Pacific"
+        },
+        "Ouroboy": {
+            "age": "26",
+            "display_name": "SkyBart",
+            "residency": "Americas"
+        },
+        "Over T1me": {
+            "display_name": "OverT1me"
+        },
+        "Ozgur": {
+            "alternate_names": [
+                "Ozgur (Can Özgür Kara)"
+            ],
+            "display_name": "Ozgur (Can Özgür Kara)"
+        },
+        "Ozora": {
+            "age": "29",
+            "display_name": "Doggy"
+        },
+        "Pepiinero": {
+            "alternate_names": [
+                "PePiiNeRO"
+            ],
+            "display_name": "Ptt",
+            "residency": "EMEA"
+        },
+        "Peraxy": {
+            "age": "24",
+            "display_name": "Hespo"
+        },
+        "Piloto": {
+            "age": "25",
+            "display_name": "Pilot (Elvis Vergara)",
+            "residency": "Americas"
+        },
+        "Pretty": {
+            "age": "27",
+            "display_name": "PrettyGRE",
+            "residency": "EMEA"
+        },
+        "Qingsi": {
+            "display_name": "QingSi"
+        },
+        "QiuQiu (Liang Jian)": {
+            "display_name": "Aqiu"
+        },
+        "Rby": {
+            "age": "23",
+            "alternate_names": [
+                "RBY"
+            ],
+            "display_name": "Henli",
+            "residency": "Asia Pacific"
+        },
+        "ReM": {
+            "alternate_names": [
+                "ReM (Lee Hyeon-seo)"
+            ],
+            "display_name": "ReM (Lee Hyeon-seo)"
+        },
+        "Reble": {
+            "age": "23",
+            "display_name": "Kice"
+        },
+        "Reeker": {
+            "age": "23",
+            "alternate_names": [
+                "RKR"
+            ],
+            "display_name": "RKR"
+        },
+        "Revenge (Mohannad Alrashdi)": {
+            "display_name": "REV"
+        },
+        "Rise": {
+            "age": "22",
+            "alternate_names": [
+                "Rise (Zhang Sheng)"
+            ],
+            "display_name": "Rise (Zhang Sheng)"
+        },
+        "SMILEY (Ludvig Granquist)": {
+            "age": "26",
+            "alternate_names": [
+                "Smiley (Ludvig Granquist)",
+                "XDSMILEY"
+            ],
+            "display_name": "Smiley (Ludvig Granquist)"
+        },
+        "SUP (Cho Se-hee)": {
+            "display_name": "Motive"
+        },
+        "Sabo (Trần Nguyễn Anh Khoa)": {
+            "age": "19",
+            "display_name": "Hamin",
+            "name": "Trần Nguyễn Anh Khoa",
+            "residency": "Asia Pacific"
+        },
+        "Scary (Artur Queiroz)": {
+            "alternate_names": [
+                "SCARY (Artur Queiroz)"
+            ],
+            "display_name": "SCARY (Artur Queiroz)",
+            "residency": "Americas"
+        },
+        "Sheep": {
+            "age": "32",
+            "alternate_names": [
+                "Sheep (Jamie Gallagher)"
+            ],
+            "display_name": "Sheep (Jamie Gallagher)"
+        },
+        "Sigma": {
+            "alternate_names": [
+                "Sigma (Brent de Laet)"
+            ],
+            "display_name": "Sigma (Brent de Laet)"
+        },
+        "Steel": {
+            "age": "24",
+            "display_name": "Wuming (Wang Xin)"
+        },
+        "Sâyn": {
+            "alternate_names": [
+                "Sâyn (Aleš Gall)"
+            ],
+            "display_name": "Sâyn (Aleš Gall)"
+        },
+        "Turtle": {
+            "age": "30",
+            "alternate_names": [
+                "Turtle (Gabriel Peixoto)"
+            ],
+            "display_name": "Turtle (Gabriel Peixoto)",
+            "residency": "Americas"
+        },
+        "Usopp (Nguyễn Quốc Mạnh)": {
+            "age": "22",
+            "display_name": "Tomoe",
+            "name": "Nguyễn Quốc Mạnh",
+            "residency": "Asia Pacific"
+        },
+        "VULCAN (Philippe Laflamme)": {
+            "alternate_names": [
+                "Vulcan (Philippe Laflamme)"
+            ],
+            "display_name": "Vulcan (Philippe Laflamme)",
+            "residency": "Americas"
+        },
+        "Value": {
+            "alternate_names": [
+                "Value (Ross Luppino)"
+            ],
+            "display_name": "Value (Ross Luppino)"
+        },
+        "Vasilii": {
+            "age": "30",
+            "display_name": "Vas1lii"
+        },
+        "Vergil": {
+            "alternate_names": [
+                "Vergil (Wang Hai-Han)"
+            ],
+            "display_name": "Vergil (Wang Hai-Han)"
+        },
+        "Vince (Trần Hoài Vinh)": {
+            "alternate_names": [
+                "VIN (Trần Hoài Vinh)"
+            ],
+            "display_name": "VIN (Trần Hoài Vinh)",
+            "residency": "Asia Pacific"
+        },
+        "Wall": {
+            "age": "31",
+            "alternate_names": [
+                "Wall (Son Chang-hoon)"
+            ],
+            "display_name": "Wall (Son Chang-hoon)"
+        },
+        "WeiXiao": {
+            "age": "32",
+            "alternate_names": [
+                "Weixiao"
+            ],
+            "display_name": "Wx"
+        },
+        "Winner (Woo Joo-sung)": {
+            "display_name": "Wet"
+        },
+        "XiaoWeiXiao": {
+            "age": "30",
+            "alternate_names": [
+                "Xiaoweixiao"
+            ],
+            "display_name": "Xiaoweixiao"
+        },
+        "Xiaoyu (Zhou Yu)": {
+            "display_name": "Alley"
+        },
+        "Yume": {
+            "alternate_names": [
+                "Yume (Danyll Jann Balisi)"
+            ],
+            "display_name": "Yume (Danyll Jann Balisi)"
+        },
+        "Yuri": {
+            "age": "24",
+            "alternate_names": [
+                "Yuri (Cha Hee-min)"
+            ],
+            "display_name": "Yuri (Cha Hee-min)"
+        },
+        "Yzi": {
+            "age": "22",
+            "display_name": "Yge"
+        },
+        "Zecas": {
+            "age": "22",
+            "display_name": "ZekaS",
+            "name": "César Berteli França",
+            "residency": "Americas"
+        },
+        "Zka1": {
+            "age": "20",
+            "display_name": "Zkai",
+            "residency": "Asia Pacific"
+        }
+    },
+    "rem": []
+}

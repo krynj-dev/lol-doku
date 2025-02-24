@@ -28,7 +28,8 @@ def add_all_teams(teams_sets: dict, raw_teams: list):
                 "region": team["Region"],
                 "image": team["Image"],
                 "becomes": None,
-                "came_from": None
+                "came_from": None,
+                "renamed_to": team["RenamedTo"]
             }
         else:
             teams_sets[overview_page]["other_names"] = teams_sets[overview_page]["other_names"].union({overview_page, key})
@@ -53,7 +54,8 @@ def populate_renames(teams_sets: dict, raw_teams_renames: list):
                     "region": None,
                     "image": None,
                     "becomes": None,
-                    "came_from": old_name
+                    "came_from": old_name,
+                    "renamed_to": None
                 }
             teams_sets[old_name] = {
                 "op": old_name,
@@ -64,7 +66,8 @@ def populate_renames(teams_sets: dict, raw_teams_renames: list):
                 "region": None,
                 "image": None,
                 "becomes": new_name,
-                "came_from": None
+                "came_from": None,
+                "renamed_to": None
             }
         elif old_key is not None and new_key is not None:
             teams_sets[new_key]["came_from"] = old_key
@@ -79,7 +82,8 @@ def populate_renames(teams_sets: dict, raw_teams_renames: list):
                 "region": None,
                 "image": None,
                 "becomes": new_key,
-                "came_from": None
+                "came_from": None,
+                "renamed_to": None
             }
             teams_sets[new_key]["came_from"] = old_name
         else:
@@ -93,7 +97,8 @@ def populate_renames(teams_sets: dict, raw_teams_renames: list):
                 "region": None,
                 "image": None,
                 "becomes": None,
-                "came_from": old_key
+                "came_from": old_key,
+                "renamed_to": None
             }
             teams_sets[old_key]["becomes"] = new_name
     return teams_sets
@@ -389,6 +394,31 @@ def format_for_save(teams_sets: dict, roster_recency: dict):
         teams_sets[k]["highest_level"] = roster_recency[k][1]
     return teams_sets
 
+def resolve_renames(teams_sets: dict):
+    renamed_keys = {k:(v["renamed_to"], get_team_key(teams_sets, v["renamed_to"])) for k,v in teams_sets.items() if v["renamed_to"] not in ['', None]}
+    tos = [k[1] for k in renamed_keys.values() if k[1] is not None]
+    flattened = {k:[v[1]] for k,v in renamed_keys.items() if k not in tos}
+    key_list = [(k, v[1]) for k,v in renamed_keys.items() if k not in flattened]
+    while len(key_list) > 0:
+        n = key_list.pop(0)
+        to = next((k for k,v in flattened.items() if v[-1]==n[0]), None)
+        if to is None:
+            key_list.append(n)
+        else:
+            flattened[to].append(n[1])
+        
+    for ok, prog in flattened.items():
+        prev = ok
+        for nxt in prog:
+            if nxt is not None: ## Team does exist in the sets already, simply merge
+                from_team = teams_sets[prev]
+                teams_sets[nxt]["other_names"] |= from_team["other_names"]
+                teams_sets[nxt]["sister_teams"] |= from_team["sister_teams"]
+                del(teams_sets[prev])
+                prev = nxt
+    return teams_sets
+
+
 def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: list, raw_teams_redirects: list, raw_rosters: list, write=True):
     teams_sets = {}
     teams_sets = add_all_teams(teams_sets, raw_teams)
@@ -403,7 +433,7 @@ def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: 
     roster_recency = get_formatted_roster_data(teams_sets, raw_rosters, level_prio)
     teams_sets = delete_subordinate_sister_teams(teams_sets, roster_recency, level_prio)
     print("Evil Geniuses.NA" in teams_sets.keys())
-    teams_sets = delete_subset_teams(teams_sets, roster_recency, level_prio)
+    teams_sets = delete_subset_teams(teams_sets, roster_recency, level_prio) ## May need checking for EG
     print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_rosterless_teams(teams_sets, roster_recency)
     print("Evil Geniuses.NA" in teams_sets.keys())
@@ -413,6 +443,8 @@ def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: 
     teams_sets = delete_quirky_teams(teams_sets, roster_recency, raw_teams_redirects)
     print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = remove_secondary_names(teams_sets, roster_recency)
+    print("Evil Geniuses.NA" in teams_sets.keys())
+    teams_sets = resolve_renames(teams_sets)
     print("Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = format_for_save(teams_sets, roster_recency)
     if write:

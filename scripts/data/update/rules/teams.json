@@ -1,0 +1,1362 @@
+{
+    "add": {
+        "BNK FEARX": {
+            "exclusive_crosses": [],
+            "key": "BNK FEARX",
+            "regions": [
+                "Korea"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Prince (Lee Chae-hwan)",
+                "Willer",
+                "Bonnie",
+                "VicLa",
+                "Punch",
+                "Route",
+                "Hena",
+                "Wizer",
+                "Hipo",
+                "Dove",
+                "Clear (Song Hyeon-min)",
+                "GorillA",
+                "Prove (Son Min-hyeong)",
+                "Diable",
+                "SoaR",
+                "HamBak",
+                "Howling",
+                "Hype (Byeon Jeong-hyeon)",
+                "Raptor (Jeon Eo-jin)",
+                "Clozer",
+                "Croco",
+                "Ghost (Jang Yong-jun)",
+                "Teddy",
+                "Effort",
+                "Joker (Cho Jae-eup)",
+                "Hollow",
+                "Kabbie",
+                "OnFleek",
+                "Kellin",
+                "Leo (Han Gyeo-re)",
+                "Burdol",
+                "Execute",
+                "FATE (Yoo Su-hyeok)",
+                "Crush",
+                "Soboro",
+                "Lonely (Han Gyu-joon)",
+                "Ryan",
+                "Kael (Kim Jin-hong)",
+                "Ten10",
+                "Summit",
+                "Daystar",
+                "Career",
+                "Meaning",
+                "Ice (Yoon Sang-hoon)",
+                "Duro",
+                "Envyy"
+            ]
+        },
+        "DN Freecs": {
+            "exclusive_crosses": [],
+            "key": "DN Freecs",
+            "regions": [
+                "Korea"
+            ],
+            "type": "team",
+            "valid_players": [
+                "SSUN (Kim Tae-yang)",
+                "DuDu (Lee Dong-ju)",
+                "TusiN",
+                "Pungyeon",
+                "Taeyoon",
+                "Mickey (Son Young-min)",
+                "Teddy",
+                "Proud",
+                "Lehends",
+                "Andil",
+                "Lira",
+                "Fly (Song Yong-jun)",
+                "IlllIma",
+                "Dread (Lee Jin-hyeok)",
+                "Cuzz",
+                "Kuro",
+                "Minit",
+                "Leaper",
+                "Lancer",
+                "Pyosik",
+                "Mystic",
+                "Rynder",
+                "Aiming",
+                "BuLLDoG (Lee Tae-young)",
+                "Ikssu",
+                "Moham",
+                "CvMax",
+                "Test Sup",
+                "Sangyoon",
+                "YoungJae",
+                "DDoiV",
+                "MaRin",
+                "Ben",
+                "Savila",
+                "Ellim",
+                "Hoit",
+                "Hoon (Lee Jang-hoon)",
+                "Jelly (Son Ho-gyeong)",
+                "Spirit",
+                "Ucal",
+                "Citrus",
+                "Untara",
+                "SnowFlower",
+                "Leo (Han Gyeo-re)",
+                "Kiin",
+                "Mowgli",
+                "Lindarang",
+                "Quantum (Son Jeong-hwan)",
+                "Berserker (Kim Min-cheol)",
+                "Jun (Yoon Se-jun)",
+                "FATE (Yoo Su-hyeok)",
+                "Kramer",
+                "Bang",
+                "Ssol",
+                "Life",
+                "SeongHwan",
+                "MapSSi",
+                "Bull",
+                "Slayer (Kim Jin-young)",
+                "Summit",
+                "Keine"
+            ]
+        },
+        "Disguised": {
+            "exclusive_crosses": [],
+            "key": "Disguised",
+            "regions": [
+                "Americas"
+            ],
+            "type": "team",
+            "valid_players": [
+                "ScaryJerry",
+                "Abbedagge",
+                "Huhi",
+                "EXyu",
+                "Castle (Cho Hyeon-seong)"
+            ]
+        },
+        "Fluxo W7M": {
+            "exclusive_crosses": [],
+            "key": "Fluxo W7M",
+            "regions": [
+                "Americas"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Scamber",
+                "Sting",
+                "Disamis",
+                "Tay",
+                "Guigs",
+                "Brance",
+                "Forlin",
+                "Kiari",
+                "Shini",
+                "Drakehero",
+                "Jojo (Gabriel Dzelme)",
+                "Hauz",
+                "Fuuu",
+                "Trigo (Matheus Trigo)",
+                "Hidan",
+                "Marvin",
+                "Kojima"
+            ]
+        },
+        "Isurus Estral": {
+            "exclusive_crosses": [],
+            "key": "Isurus Estral",
+            "regions": [
+                "LAT",
+                "Americas"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Josedeodo",
+                "MANTARRAYA",
+                "Zothve",
+                "Aquasonic",
+                "Loopy",
+                "Seiya",
+                "Slow",
+                "Gaeng",
+                "Ackerman (Gabriel Aparicio)",
+                "Mightybear",
+                "Kirito (Nicolás Olavarría)",
+                "Leza",
+                "Style (Ignacio Pezoa)",
+                "Badmilk",
+                "Acce",
+                "Lyg",
+                "Gavotto",
+                "ADD",
+                "Kaze (Lucas Fe)",
+                "Cody",
+                "Snaker",
+                "Buggax",
+                "WARANGELUS",
+                "Kindless",
+                "Jirall",
+                "QQMore",
+                "Seize",
+                "Naryt",
+                "Grell",
+                "Dinamox",
+                "Hans SamD",
+                "Tierwulf",
+                "NerzhuL",
+                "Megajp",
+                "Fear (Joel Reyna)",
+                "Pan (Andres Bonilla)",
+                "Wardz",
+                "Mia",
+                "Genthix",
+                "LiquidDiego",
+                "Emp",
+                "Oddie",
+                "Zelt",
+                "Pride (Franco Sanzana)",
+                "Bugi",
+                "KouZZe",
+                "Flare (Franco Pombo)",
+                "Nipphu",
+                "Poss",
+                "Shu Hari",
+                "Newbie",
+                "Takeover",
+                "Jelly (Son Ho-gyeong)",
+                "Froststrike",
+                "Gastruks",
+                "OnFleek",
+                "Archer (Lee Keun-hee)",
+                "Shadow (Facundo Cuello)",
+                "Mireu",
+                "Burdol",
+                "Zerito",
+                "Prophuth",
+                "Follow",
+                "Bvoy",
+                "KinGi",
+                "Bola",
+                "Zeicro",
+                "Lesmart",
+                "Chelitw",
+                "Clatos",
+                "Demy"
+            ]
+        },
+        "LYON (2024 American Team)": {
+            "exclusive_crosses": [],
+            "key": "LYON (2024 American Team)",
+            "regions": [
+                "LAT",
+                "Americas"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Josedeodo",
+                "Genthix",
+                "Baula",
+                "H4ckerv2",
+                "SPOOKY (Miroslav Gochev)",
+                "Seiya",
+                "Licorice",
+                "Oddie",
+                "Slow",
+                "Xypherz",
+                "Hena",
+                "Leza",
+                "Ophelia",
+                "Legion (Jorge Valencia)",
+                "Manu",
+                "Acce",
+                "Stray (Roberto Guallichico)",
+                "Porky (Gerardo Cuamea)",
+                "Limitationss",
+                "WhiteLotus",
+                "Dimitry",
+                "5kid",
+                "Shu Hari",
+                "Ray",
+                "Mataz",
+                "Renyu",
+                "Enga",
+                "Cepted",
+                "Kraki",
+                "Lyonz",
+                "OnFleek",
+                "Cody",
+                "Buggax",
+                "Lava",
+                "Shadow (Facundo Cuello)",
+                "WARANGELUS",
+                "Snaker",
+                "Jirall",
+                "Mireu",
+                "Saint (Kang Sung-in)",
+                "Aloned",
+                "Reble",
+                "Uri",
+                "ChinX",
+                "Grell",
+                "Nobody (Nicolás Ale)",
+                "Kice",
+                "Oddielan",
+                "Hika",
+                "Choisix",
+                "Ceo",
+                "Maplestreet",
+                "NerzhuL",
+                "Tulz",
+                "MarioMe",
+                "Arce",
+                "Daiky",
+                "Zeicro",
+                "SoHwan",
+                "Mir (Park Mi-reu)",
+                "Dodo",
+                "Thyak",
+                "Meaning",
+                "Bong (Cho Bo-woong)",
+                "IgnaVilu",
+                "Summit",
+                "Keine"
+            ]
+        },
+        "MGN Vikings Esports": {
+            "exclusive_crosses": [],
+            "key": "MGN Vikings Esports",
+            "regions": [
+                "VN",
+                "Asia Pacific"
+            ],
+            "type": "team",
+            "valid_players": [
+                "SiuLoong",
+                "Blazes",
+                "Hani",
+                "Light (Nguyễn Đức Minh)",
+                "Slay",
+                "Shogun (Nguyễn Văn Huy)",
+                "CBL",
+                "Jad",
+                "Pun",
+                "Aomine",
+                "Zin",
+                "Bie",
+                "Ren",
+                "Fireblade",
+                "Gury",
+                "Tomrio",
+                "Shinie",
+                "Osas",
+                "Froggy",
+                "Penguin (Nguyễn Đăng Khoa)",
+                "Pampy",
+                "YT",
+                "Richard I",
+                "Ribell",
+                "H3",
+                "Qeo",
+                "Venus",
+                "Beeone",
+                "Palette",
+                "Hasmed",
+                "Bigkoro",
+                "Nanaue (Phùng Đức Tài)",
+                "Kratos",
+                "SofM",
+                "Coated",
+                "Eragon (Nguyễn Ngọc Huy)",
+                "Arrietty",
+                "BeanJ",
+                "Naul",
+                "Zeros",
+                "Meliodas (Hoàng Tiến Nhật)",
+                "Kairi",
+                "Sty1e",
+                "Vit (Lê Hoài An)",
+                "Taki (Đinh Anh Tài)",
+                "Rby",
+                "Calm (Đinh Trọng Quyết)",
+                "XuHao",
+                "OPG1",
+                "Hinn",
+                "Kati"
+            ]
+        },
+        "Movistar KOI": {
+            "exclusive_crosses": [],
+            "key": "Movistar KOI",
+            "regions": [
+                "EMEA"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Armut",
+                "Carzzy",
+                "Suppa",
+                "Hylissang",
+                "Nisbeth",
+                "Humanoid",
+                "Jojopyun",
+                "Hobbler",
+                "Kobbe",
+                "Sencux",
+                "Myrwn",
+                "Julaxe",
+                "Fresskowy",
+                "Odoamne",
+                "Kasing",
+                "Alvaro (Álvaro Fernández)",
+                "Kaiser",
+                "Chasy",
+                "UNF0RGIVEN",
+                "Reeker",
+                "Chomi",
+                "Tore",
+                "Shad0w",
+                "Xerxe",
+                "Wunder",
+                "Vizicsacsi",
+                "Mikyx",
+                "Supa",
+                "Orome",
+                "Elyoya",
+                "Nisqy",
+                "Sander",
+                "Kold"
+            ]
+        },
+        "TALON (Hong Kong Team)": {
+            "exclusive_crosses": [],
+            "key": "TALON (Hong Kong Team)",
+            "regions": [
+                "APAC",
+                "PCS",
+                "Asia Pacific"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Karsa",
+                "Azhi",
+                "Juhan",
+                "ChiCh1",
+                "Burry",
+                "Kongyue",
+                "Bay",
+                "Unified",
+                "Zka1",
+                "Husha",
+                "Tank",
+                "Maple (Huang Yi-Tang)",
+                "Hanabi (Su Chia-Hsiang)",
+                "FoFo",
+                "Xin (Ye Shang-Hsin)",
+                "TNS",
+                "Uniboy",
+                "Betty",
+                "Gori",
+                "Candy (Kim Seung-ju)",
+                "Wen (Syu Nai-Wun)",
+                "Dee",
+                "Woody",
+                "Doggo",
+                "Wako",
+                "River (Kim Dong-woo)",
+                "Kaiwing",
+                "JunJia"
+            ]
+        },
+        "Team Secret Whales": {
+            "exclusive_crosses": [],
+            "key": "Team Secret Whales",
+            "regions": [
+                "Asia Pacific"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Blazes",
+                "Hizto",
+                "Artifact",
+                "Aomine",
+                "Shine (Tôn Nguyễn Phi Long)",
+                "Zin",
+                "Hari",
+                "Skewed",
+                "Pampy",
+                "Penguin (Nguyễn Đăng Khoa)",
+                "Pain (Lê Quốc Anh)",
+                "Milano",
+                "Claws",
+                "Bun",
+                "Warrior (Nguyễn Phú Thanh)",
+                "Palette",
+                "Slayder",
+                "Yado",
+                "Coated",
+                "Eddie",
+                "KemKen",
+                "DNK",
+                "BeanJ",
+                "Cacon",
+                "Kairi",
+                "Taki (Đinh Anh Tài)",
+                "Calm (Đinh Trọng Quyết)",
+                "Killerqueen",
+                "BaRoiBeo",
+                "Zica",
+                "Potm",
+                "Dire",
+                "Simon (Dương Thanh Hoà)",
+                "Boong",
+                "RonOP",
+                "Taurus",
+                "SiuLoong",
+                "Hani",
+                "Harky",
+                "Jerry (Nguyễn Tiến Duy)",
+                "Clear (Trịnh Ngọc Anh Tuấn)",
+                "Yusah",
+                "CBL",
+                "Bie",
+                "Sorn",
+                "Pake",
+                "Dove",
+                "Optimus",
+                "Hiro02",
+                "Kit",
+                "Bisbo",
+                "Warzone",
+                "Ikaros (Lư Chấn Hưng)",
+                "Sparda",
+                "Gloryy",
+                "Celebrity",
+                "Hieu3",
+                "H3",
+                "Venus",
+                "Sounda",
+                "Hasmed",
+                "Aress",
+                "Heaven (Quách Đăng Phi)",
+                "Steller",
+                "Kratos",
+                "Artemis (Trần Quốc Hưng)",
+                "Arrietty",
+                "Akeno",
+                "Vit (Lê Hoài An)",
+                "Jcom",
+                "Elio",
+                "XuHao",
+                "C7N",
+                "Eagle",
+                "Kazuto",
+                "Hankay",
+                "Qiang",
+                "Yin",
+                "Tsu"
+            ]
+        }
+    },
+    "evo": {
+        "100 Thieves": {
+            "valid_players": [
+                "Tomo"
+            ]
+        },
+        "AXIZ CREST": {
+            "valid_players": [
+                "Van (Kim Seung-hoo)"
+            ]
+        },
+        "Antic Esports": {
+            "valid_players": [
+                "Raes",
+                "Incursio",
+                "Destiny (Mitchell Shaw)"
+            ]
+        },
+        "Anyone's Legend": {
+            "valid_players": [
+                "Ale",
+                "Ranchen",
+                "Flandre",
+                "Jungoat",
+                "Tarzan (Lee Seung-yong)",
+                "Ljun"
+            ]
+        },
+        "Axis Empire": {
+            "valid_players": [
+                "Shiromine",
+                "Ribena",
+                "Mexi"
+            ]
+        },
+        "Bilibili Gaming": {
+            "valid_players": [
+                "Monki",
+                "Xiaorui",
+                "Liangchen",
+                "Heru",
+                "Lqh",
+                "TheHank",
+                "Wei (Yan Yang-Wei)",
+                "Luoyiyu"
+            ]
+        },
+        "CERBERUS Esports (Vietnamese Team)": {
+            "valid_players": [
+                "Yume (Châu Kim Bảo)",
+                "Tahahy",
+                "Meliodas (Hoàng Tiến Nhật)",
+                "TT (Trần Quốc Thanh)"
+            ]
+        },
+        "CTBC Flying Oyster": {
+            "valid_players": [
+                "Driver",
+                "Doggo",
+                "HongQ",
+                "Kaiwing",
+                "JunJia"
+            ]
+        },
+        "Chiefs Esports Club": {
+            "valid_players": [
+                "Leemas",
+                "JimieN",
+                "Luon"
+            ]
+        },
+        "Cloud9": {
+            "valid_players": [
+                "Loki (Lee Sang-min)",
+                "Thanatos (Park Seung-gyu)"
+            ]
+        },
+        "DRX": {
+            "valid_players": [
+                "LazyFeel",
+                "Andil",
+                "Ucal",
+                "Rich (Lee Jae-won)"
+            ]
+        },
+        "Deep Cross Gaming": {
+            "valid_players": [
+                "Feng (Chen Chun-Feng)"
+            ]
+        },
+        "DetonatioN FocusMe": {
+            "valid_players": [
+                "Guwon",
+                "Kakkun"
+            ]
+        },
+        "Dignitas": {
+            "valid_players": [
+                "Spica",
+                "Srtty",
+                "Zven",
+                "Licorice",
+                "Sheiden",
+                "Keine"
+            ]
+        },
+        "Dire Wolves": {
+            "valid_players": [
+                "M0chi",
+                "Guapi",
+                "Meifan",
+                "Chungy"
+            ]
+        },
+        "Dplus KIA": {
+            "valid_players": [
+                "Siwoo",
+                "Moham"
+            ]
+        },
+        "EDward Gaming": {
+            "valid_players": [
+                "Angel (Xiang Tao)",
+                "Cryin",
+                "Zdz",
+                "Assum",
+                "Xiaohao",
+                "Wink"
+            ]
+        },
+        "FENNEL": {
+            "valid_players": [
+                "Alleycat",
+                "ISeNN",
+                "Challenger",
+                "Atyamomo",
+                "Rkp",
+                "Cogcog",
+                "Rainbrain",
+                "ApaMEN",
+                "Art",
+                "Yuki (Yuki Takahashi)",
+                "Fanxy",
+                "Lavie",
+                "NoA (Shunya Honda)",
+                "Inu",
+                "Hollis",
+                "Ino",
+                "Nap",
+                "GalB",
+                "Albis (Shuhei Yamaguchi)",
+                "Lillebelt",
+                "Wyvern",
+                "Corn (Hong Jae-hee)",
+                "Arfoad",
+                "Pinnnk",
+                "Meron",
+                "ViviD",
+                "HW4NG",
+                "Zerost",
+                "Aripo",
+                "Scottlyk",
+                "Secret (Park Ki-sun)",
+                "Ninja",
+                "Kinatu",
+                "Rascal",
+                "Nagi"
+            ]
+        },
+        "FURIA": {
+            "valid_players": [
+                "Tatu (Pedro Seixas)",
+                "Zzk (Kwon Hee-won)",
+                "Guigo",
+                "Wiz",
+                "JoJo (Gabriel Dzelme)"
+            ]
+        },
+        "FURY Global": {
+            "valid_players": [
+                "Prey (Xu Jia-Hao)",
+                "Maple Syrup"
+            ]
+        },
+        "FlyQuest": {
+            "valid_players": [
+                "Quad"
+            ]
+        },
+        "Fnatic": {
+            "valid_players": [
+                "Mikyx"
+            ]
+        },
+        "Frank Esports": {
+            "valid_players": [
+                "Wako"
+            ]
+        },
+        "Fukuoka SoftBank HAWKS gaming": {
+            "valid_players": [
+                "FATE (Yoo Su-hyeok)",
+                "Gaeng",
+                "Courage (Jeon Hyun-min)"
+            ]
+        },
+        "FunPlus Phoenix": {
+            "valid_players": [
+                "Yomiya",
+                "Jwei",
+                "Zdz",
+                "Bat (Gao Jun)",
+                "Zhiqiuyi",
+                "SYWJJ",
+                "Shad0w",
+                "Sheer",
+                "Mentality (Wei Guan-Zhen)",
+                "Iyy"
+            ]
+        },
+        "G2 Esports": {
+            "valid_players": [
+                "Labrov",
+                "SkewMond"
+            ]
+        },
+        "GAM Esports": {
+            "valid_players": [
+                "Neo (Toàn Trần)",
+                "Aress",
+                "Artemis (Trần Quốc Hưng)"
+            ]
+        },
+        "GIANTX": {
+            "valid_players": [
+                "Lot",
+                "Closer (Can Çelik)",
+                "Juhan",
+                "Noah (Oh Hyeon-taek)",
+                "Jun (Yoon Se-jun)",
+                "Th3Antonio"
+            ]
+        },
+        "Gen.G": {
+            "valid_players": [
+                "About",
+                "Kemish",
+                "Duro"
+            ]
+        },
+        "Gravity (North American Team)": {
+            "valid_players": [
+                "Cris",
+                "OneBadBrad",
+                "Tsatsulow",
+                "Rhux",
+                "Jaximus",
+                "Mabrey",
+                "Fabbbyyy"
+            ]
+        },
+        "Ground Zero Gaming": {
+            "valid_players": [
+                "Evewin",
+                "Kurak",
+                "Fighto"
+            ]
+        },
+        "HELL PIGS": {
+            "valid_players": [
+                "Kerry",
+                "NuL1",
+                "Cheng9",
+                "Abyss (Lin Po-Reng)",
+                "HotPot",
+                "GuanGuan"
+            ]
+        },
+        "Hanwha Life Esports": {
+            "valid_players": [
+                "Zeus",
+                "Rooster"
+            ]
+        },
+        "INFINITY": {
+            "valid_players": [
+                "Leza",
+                "Trigger (Kim Eui-joo)",
+                "TopLop",
+                "Neadz",
+                "Nia (Woo Jun-sung)",
+                "Grell"
+            ]
+        },
+        "ION Global Esports": {
+            "valid_players": [
+                "225",
+                "Styx (Samuel Blanchard)",
+                "SHAKa (Yang Zhen-Yu)"
+            ]
+        },
+        "Invictus Gaming": {
+            "valid_players": [
+                "ZUIAN",
+                "Vampire",
+                "Jiejie",
+                "GALA",
+                "Glfs",
+                "Meiko"
+            ]
+        },
+        "JD Gaming": {
+            "valid_players": [
+                "Ale",
+                "Scout",
+                "Xun",
+                "Peyz"
+            ]
+        },
+        "KT Rolster": {
+            "valid_players": [
+                "YoungJae",
+                "Casting",
+                "Paduck",
+                "Deokdam",
+                "Peter (Jeong Yoon-su)",
+                "Zinie"
+            ]
+        },
+        "Kanga Esports": {
+            "valid_players": [
+                "VENDRICK",
+                "Gabn",
+                "Sovereign (Alexander Folley)",
+                "Cadence",
+                "Yojin",
+                "9God"
+            ]
+        },
+        "Kaos Latin Gamers": {
+            "valid_players": [
+                "Cody",
+                "Feitan",
+                "Koughi",
+                "N N",
+                "Tyr",
+                "Xypherz"
+            ]
+        },
+        "Karmine Corp": {
+            "valid_players": [
+                "Caliste",
+                "Yike"
+            ]
+        },
+        "LGD Gaming": {
+            "valid_players": [
+                "WuNai",
+                "Climber",
+                "Nuo",
+                "Ycx",
+                "Sasi (Yan Rui)",
+                "Ninefog",
+                "Cc (Yan Cheng-Chao)",
+                "Mitsuki"
+            ]
+        },
+        "LNG Esports": {
+            "valid_players": [
+                "Zhuo",
+                "Fishone",
+                "Haichao",
+                "OvO",
+                "Xinsheng",
+                "Photic",
+                "5t5",
+                "Cyku"
+            ]
+        },
+        "LOUD": {
+            "valid_players": [
+                "Wiz",
+                "Winsome"
+            ]
+        },
+        "Leviatan": {
+            "valid_players": [
+                "Cody",
+                "ProDelta",
+                "Mun",
+                "Zothve",
+                "Beenie",
+                "SCARY (Artur Queiroz)",
+                "Nobody (Nicolás Ale)",
+                "Vahvel",
+                "Ceo"
+            ]
+        },
+        "Liberty": {
+            "valid_players": [
+                "Leandrinn",
+                "Levizin"
+            ]
+        },
+        "Liyab Esports": {
+            "valid_players": [
+                "Zensho",
+                "Snoy",
+                "Sepi",
+                "Jjun",
+                "CED",
+                "Kulit",
+                "Nickstah",
+                "Yume (Danyll Jann Balisi)",
+                "Noel (Noel Cruz)"
+            ]
+        },
+        "Los Grandes": {
+            "valid_players": [
+                "Takeshi",
+                "SkyBart",
+                "Brucer",
+                "Prb",
+                "Vitin",
+                "Lactea",
+                "VVvert",
+                "PbO",
+                "Ryuzaki",
+                "KLOWNY",
+                "Panj",
+                "4LaN",
+                "Marfz"
+            ]
+        },
+        "Lowkey Esports.Vietnam": {
+            "valid_players": [
+                "Sergh",
+                "Sofs",
+                "SunSieu",
+                "QTV",
+                "Secr3t",
+                "Kriss",
+                "Sya",
+                "Heaven (Quách Đăng Phi)"
+            ]
+        },
+        "MAMMOTH": {
+            "valid_players": [
+                "4ever",
+                "Praedyth",
+                "Gunkrab",
+                "Rineko"
+            ]
+        },
+        "MGN Blue Esports": {
+            "valid_players": [
+                "TQ",
+                "VIN (Trần Hoài Vinh)",
+                "Sparda",
+                "Phuc1"
+            ]
+        },
+        "NASR eSports Turkey": {
+            "valid_players": [
+                "Sevi",
+                "Armut",
+                "Abbedagge",
+                "Copy Catt",
+                "Cyeol",
+                "Matilda",
+                "Awaremei",
+                "Tolerant",
+                "Saw (Salih Çağrı Okşak)",
+                "Dumbledoge",
+                "Malrang",
+                "Closer (Can Çelik)",
+                "Cepted",
+                "SIKINTI321",
+                "BrokenBlade",
+                "HolyPhoenix",
+                "Anduril",
+                "Madlifeonur",
+                "24 (Seyfi Onat Aytemiz)",
+                "Pilot (Na Woo-hyung)",
+                "Meshade",
+                "FabFabulous",
+                "Jeyrus",
+                "Typhoon (Tayfun Gümüş)",
+                "Beplush",
+                "GBM",
+                "Dellal",
+                "Freeze",
+                "Pulse (Ali Aybirdi)",
+                "Helo",
+                "Rhemio"
+            ]
+        },
+        "Ninjas in Pyjamas.CN": {
+            "valid_players": [
+                "Leave",
+                "Doinb",
+                "Leyan",
+                "Neny"
+            ]
+        },
+        "Nongshim RedForce": {
+            "valid_players": [
+                "Mihile",
+                "Fisher (Lee Jeong-tae)",
+                "GIDEON",
+                "Kingen",
+                "Lehends"
+            ]
+        },
+        "OKSavingsBank BRION": {
+            "valid_players": [
+                "HamBak",
+                "Hype (Byeon Jeong-hyeon)",
+                "Clozer",
+                "Bull",
+                "YoungJae"
+            ]
+        },
+        "Oh My God": {
+            "valid_players": [
+                "Starfire",
+                "Moham",
+                "Tianzhen",
+                "Heng",
+                "Hery",
+                "Charlotte (Xue Le-Hui)"
+            ]
+        },
+        "Rare Atom": {
+            "valid_players": [
+                "Xiaohao",
+                "Jwei"
+            ]
+        },
+        "Rogue (European Team)": {
+            "valid_players": [
+                "Adam (Adam Maanane)",
+                "Patrik",
+                "Execute"
+            ]
+        },
+        "Royal Never Give Up": {
+            "valid_players": [
+                "Huanfeng",
+                "Niket",
+                "Zdz",
+                "Iwandy",
+                "Sunlight (Jin Zi-Yang)",
+                "XBY",
+                "Juice",
+                "Coten",
+                "Geju",
+                "HeiYue",
+                "Xiaoka",
+                "JiaQi"
+            ]
+        },
+        "SK Gaming": {
+            "valid_players": [
+                "Rahel",
+                "Loopy",
+                "RKR",
+                "Luon"
+            ]
+        },
+        "Shopify Rebellion": {
+            "valid_players": [
+                "Contractz",
+                "Tomio",
+                "Fudge",
+                "Palafox"
+            ]
+        },
+        "T1": {
+            "valid_players": [
+                "Vincenzo (Ha Seung-min)",
+                "Doran (Choi Hyeon-joon)",
+                "Haetae",
+                "Smash (Sin Geum-jae)",
+                "Cloud (Moon Hyeon-ho)"
+            ]
+        },
+        "Team BDS": {
+            "valid_players": [
+                "Parus",
+                "Irrelevant",
+                "113"
+            ]
+        },
+        "Team Bliss": {
+            "valid_players": [
+                "Kevy",
+                "Aladoric"
+            ]
+        },
+        "Team Flash.Vietnam": {
+            "valid_players": [
+                "Playcool",
+                "Ouzi",
+                "Balder"
+            ]
+        },
+        "Team Heretics": {
+            "valid_players": [
+                "Kamiloo",
+                "Sheo",
+                "Stend",
+                "Carlsen"
+            ]
+        },
+        "Team Liquid": {
+            "valid_players": [
+                "Westrice",
+                "SYDTKO",
+                "Lapaka",
+                "LiQuiD112",
+                "Jaximus",
+                "Crumbz",
+                "Edward",
+                "Rhux",
+                "Nyjacky",
+                "Zekent",
+                "Elementz",
+                "Voyboy",
+                "Cop",
+                "Saintvicious",
+                "Bunny FuFuu",
+                "FlashInTheNight"
+            ]
+        },
+        "Team Ultra Vires": {
+            "valid_players": [
+                "Inspirro"
+            ]
+        },
+        "Team Vitality": {
+            "valid_players": [
+                "Czajek",
+                "Naak Nako"
+            ]
+        },
+        "Team WE": {
+            "valid_players": [
+                "LP",
+                "Vampire",
+                "Tianzhen",
+                "Monki",
+                "Karis",
+                "Mxx",
+                "Beluga",
+                "Able",
+                "Taeyoon",
+                "Mark (Ling Xu)"
+            ]
+        },
+        "ThunderTalk Gaming": {
+            "valid_players": [
+                "SeTab",
+                "Feather"
+            ]
+        },
+        "Top Esports": {
+            "valid_players": [
+                "Kanavi",
+                "Pool",
+                "Crisp"
+            ]
+        },
+        "Ultra Prime": {
+            "valid_players": [
+                "Saber (Song Dai-Lin)",
+                "Niket",
+                "Wako",
+                "Qingtian",
+                "Junhao",
+                "1Jiang"
+            ]
+        },
+        "Vivo Keyd Stars": {
+            "valid_players": [
+                "Klaus",
+                "Tay",
+                "SuNo",
+                "Baiano",
+                "Verfix",
+                "Sarkis",
+                "Minerva",
+                "Boal",
+                "BrTT",
+                "Nappon",
+                "Zantins",
+                "Trymbi",
+                "Juzo",
+                "Hidan",
+                "Professor",
+                "Revolta",
+                "Mumus100",
+                "Takeshi",
+                "Mylon",
+                "Kisee",
+                "Grell",
+                "Winged",
+                "Emperor (Kim Jin-hyun)",
+                "EsA",
+                "Turtle",
+                "MicaO",
+                "DayDream",
+                "Tockers",
+                "Leko",
+                "Jockster",
+                "Robo",
+                "Zuao",
+                "Caos (Jonas Vriesman)",
+                "NOsFerus",
+                "Laba",
+                "Yang (Felipe Zhao)",
+                "Zirigui",
+                "Morttheus",
+                "Drop (Matheus Herdy)",
+                "Loop (Caio Almeida)",
+                "Turtle (Gabriel Peixoto)"
+            ]
+        },
+        "Weibo Gaming": {
+            "valid_players": [
+                "Leigg",
+                "Darwin",
+                "XLiang",
+                "Yummy",
+                "Tarzan (Lee Seung-yong)",
+                "Hang",
+                "Erha",
+                "PO8",
+                "Breathe"
+            ]
+        },
+        "West Point Esports Philippines": {
+            "valid_players": [
+                "Arashi",
+                "Yjy",
+                "Axin",
+                "Kirino",
+                "Lezar",
+                "Keres",
+                "Lilv",
+                "1116",
+                "Kongyue",
+                "XieDoDo",
+                "Clayx",
+                "QaspieL",
+                "Felia",
+                "Fiya",
+                "RYue",
+                "Shiromine",
+                "Relhia",
+                "N0name",
+                "Calumnia"
+            ]
+        }
+    },
+    "rem": [
+        "Friends Forever Gaming",
+        "DG Esports",
+        "Isurus",
+        "GamingGear.eu",
+        "Estral Esports",
+        "Curse Academy",
+        "Movistar R7",
+        "ISC Pro Team",
+        "Rascal Jester",
+        "SEM9 WPE",
+        "Mineski",
+        "Lyon Gaming (2013 Latin American Team)",
+        "Team Curse",
+        "SEM9",
+        "FearX",
+        "Vikings Esports (2023 Vietnamese Team)",
+        "Team Whales",
+        "Team oNe eSports",
+        "MAD Lions KOI",
+        "Six Karma",
+        "Team Secret (Vietnamese Team)",
+        "Team Empire (Malaysian Team)",
+        "Azules Esports",
+        "PSG Talon",
+        "Fluxo",
+        "Vivo Keyd",
+        "Kwangdong Freecs",
+        "Royal Youth"
+    ]
+}

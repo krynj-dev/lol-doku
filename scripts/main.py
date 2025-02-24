@@ -1,5 +1,8 @@
 import sys
 from data_update import get_new_data
+from update.fetch_update_data import perform_data_update
+from update.gen_update_sql import generate_update_sql
+import datetime as dt
 
 from raw import *
 from cooked import *
@@ -11,7 +14,11 @@ from mwrogue.esports_client import EsportsClient
 site = EsportsClient("lol")
 
 if "--update" in sys.argv:
-    get_new_data(site)
+    perform_data_update(site, time=dt.datetime(2024, 1, 1))
+    quit()
+
+if "--sqlgen" in sys.argv:
+    generate_update_sql()
     quit()
 
 if "--raw" in sys.argv:
