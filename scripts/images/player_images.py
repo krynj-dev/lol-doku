@@ -19,6 +19,8 @@ def image_sort_key(img):
 
 def retrieve_player_images(site: EsportsClient, cooked_players: dict, raw_player_images: list):
     image_objs = {}
+    if len(raw_player_images) == 0:
+        return image_objs
     i = 1
     for img in raw_player_images:
         print(f"\rImage {i}/{len(raw_player_images)}", flush=True, sep="", end="")
@@ -37,6 +39,7 @@ def retrieve_player_images(site: EsportsClient, cooked_players: dict, raw_player
             "DateStart": ""
         }]
     i = 1
+    failures = []
     for player_key in cooked_players.keys():
         print(f"\r{i+1}/{len(cooked_players.keys())}", sep=" ", end="", flush=True)
         if player_key not in image_objs.keys() or len(image_objs[player_key]) == 0:
@@ -69,8 +72,9 @@ def retrieve_player_images(site: EsportsClient, cooked_players: dict, raw_player
                 # print(f"failed for {player_key}")
                 pass
         except Exception as e:
-            print(f"\rfailed for {player_key}", str(e), flush=True)
+            # print(f"\rfailed for {player_key}", str(e), flush=True)
+            failures.append((player_key, e))
             cooked_players[player_key]["image"] = None
         i += 1
-
+    print("\rfailed for {}".format([(f[0], str(f[1])) for f in failures]), flush=True)
     return cooked_players

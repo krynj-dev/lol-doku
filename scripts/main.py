@@ -1,7 +1,6 @@
 import sys
 from data_update import get_new_data
-from update.fetch_update_data import perform_data_update
-from update.gen_update_sql import generate_update_sql
+from update import perform_data_update, update_images, generate_update_sql
 import datetime as dt
 
 from raw import *
@@ -15,6 +14,10 @@ site = EsportsClient("lol")
 
 if "--update" in sys.argv:
     perform_data_update(site, time=dt.datetime(2024, 1, 1))
+    quit()
+
+if "--update-img" in sys.argv:
+    update_images(site)
     quit()
 
 if "--sqlgen" in sys.argv:

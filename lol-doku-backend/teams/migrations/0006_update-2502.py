@@ -21,6 +21,7 @@ class Migration(migrations.Migration):
     dependencies = [
         ('teams', '0005_alter_team_add_active_flag'),
         ('meta', '0001_initial'),
+        # ('rules', '0003_alter_rule_add_active_flag'),
     ]
 
     operations = [

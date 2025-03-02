@@ -4,6 +4,7 @@ from raw import *
 from mwrogue.esports_client import EsportsClient
 from cooked import *
 from rules import *
+from collections import Counter
 
 ## Data update tasks
 # 1. Grab updated team data and find evolutions and additions
@@ -36,13 +37,17 @@ def get_fresh_players_data(site: EsportsClient, rosters):
 
     players = get_players(site, list(player_set), write=False) #2
 
+    player_imgs = get_player_image_urls(site, list(player_set), write=False) # 2.1
+
+    link_count = Counter([k["Link"] for k in player_imgs])
+
     # champions = get_champions(site, False) #2.5
     champions = {}
 
     # champ_players = get_players_champs(site, champions, list(player_set), write=False) #3
     champ_players = {}
 
-    return players, champions, champ_players
+    return players, champions, champ_players, player_imgs
 
 def compare_teams(old_teams: dict, new_teams: dict):
     old_keys, new_keys = set(old_teams.keys()), set(new_teams.keys())
@@ -306,6 +311,7 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     with open("data/cooked/teams.json", "r+", encoding='utf-8') as f:
         old_teams = json.load(f)
     ## Grab new teams data
+    players, champs, champ_players, urls = get_fresh_players_data(site, all_rosters)
     sister_teams, teams, team_redirects, team_renames = get_fresh_teams_data(site, time)
     new_teams = cook_teams_data(teams, sister_teams, team_renames, team_redirects, all_rosters, write=False)
     team_adds, team_evos, team_rems = compare_teams_new(old_teams, new_teams)
@@ -313,7 +319,6 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     with open("data/cooked/players.json", "r+", encoding='utf-8') as f:
         old_players = json.load(f)
     ## Grab new players data
-    players, champs, champ_players = get_fresh_players_data(site, all_rosters)
     new_players = cook_players_data(site, players, [], write=False)
     player_adds, player_evos, player_rems = compare_players(old_players, new_players)
     ## Grab tournament results

@@ -6,6 +6,15 @@ from rules.serializers import RuleSerializer
 from numpy import random
 import time
 
+def get_crosses_new(key, count):
+    return (
+        Rule.objects.filter(
+            valid_players__in=Player.objects.filter(valid_rules__key=key)
+        )
+        .annotate(player_count=Count("valid_players"))
+        .filter(player_count__gte=count, active=True)
+    )
+
 def read_rule(key):
     qs = Rule.objects.all().filter(key=key)
     if len(qs) > 0:
@@ -165,7 +174,9 @@ def restrict_teammate_team_cross(key_set: set, into_set: list, cross_set: list):
     new_keys = key_set
     for r in into_set:
         if r.rule_type == "team":
-            new_keys = set(filter(lambda x: x.key not in [p.display_name for p in r.valid_players.all()], new_keys))
+            plrs = Player.objects.filter(display_name__in=r.valid_players.all().values("display_name"))
+            keys_to_remove = set([p.display_name for p in plrs])
+            new_keys = set([r for r in new_keys if r.key not in keys_to_remove])
         elif r.rule_type == "teammate":
             try:
                 team_membership = [x.key for x in Player.objects.get(display_name=r.key).valid_rules.all() if x.rule_type == "team"]
@@ -209,21 +220,28 @@ def candidate_selector_func(min_answers: int, rule_type_min_funcs=[]):
     def get_valid_options(rule_set, into_set: list, cross_set: list, exclusions: list):
         key_set = set([r for r in rule_set])
         # Filter out existing teams
+        print("removing existing")
         key_set = set(filter(lambda x: x not in into_set and x not in cross_set, key_set))
         # Filter out exclusions
+        print("removing exclusions")
         key_set = set(filter(lambda x: x not in exclusions, key_set))
         # Filter so only teams remaining in the cross set are pickable
+        print("removing existing")
         for cross_key in cross_set:
-            # valid_crosses = get_crosses(cross_key)
-            valid_crosses = [y.key for y in ValidCrosses.objects.get(rule=cross_key).crosses.all()]
+            valid_crosses = [y.key for y in get_crosses_new(cross_key, min_answers)]
+            # valid_crosses = [y.key for y in get_crosses(cross_key)]
             key_set = set(filter(lambda x: x.key in valid_crosses, key_set))   
         # Remove restricted types
+        print("removing restricted")
         for restriction_func in rule_type_min_funcs:
             key_set = restriction_func(key_set, into_set, cross_set)
+        print("doing team-teammate stuff")
         key_set = restrict_teammate_team_cross(key_set, into_set, cross_set)
+        print("checking size")
         if len(key_set) == 0:
             return None
         key_list = list(key_set)
+        print("picking")
         # Shuffle then pick first valid rule
         random.shuffle(key_list)
         candidate_i = -1
@@ -273,6 +291,7 @@ def find_puzzle(init_rows, init_columns, selector_func, rule_set, size=3):
             rule_to_add = selector_func(rule_set, columns, rows, column_exclude)
             if rule_to_add is not None:
                 columns.append(rule_to_add)
+                print("Adding Column {}".format(rule_to_add))
                 axis_flag = 1
             elif len(rows) > 0:
                 row_to_remove = rows.pop()
@@ -286,6 +305,7 @@ def find_puzzle(init_rows, init_columns, selector_func, rule_set, size=3):
             rule_to_add = selector_func(rule_set, rows, columns, row_exclude)
             if rule_to_add is not None:
                 rows.append(rule_to_add)
+                print("Adding row {}".format(rule_to_add))
                 axis_flag = 0
             elif len(columns) > 0:
                 column_to_remove = columns.pop()

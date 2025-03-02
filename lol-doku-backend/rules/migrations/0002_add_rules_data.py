@@ -16,7 +16,10 @@ def load_rules(apps, schema_editor):
         data = json.load(f)
     if data is None:
         return
+    i = 0
     for k in data.keys():
+        print(f"\rRule {i}/{len(data.keys())}", flush=True, end='', sep='')
+        i += 1
         rle = data[k]
         try:
             with transaction.atomic():

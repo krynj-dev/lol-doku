@@ -9,7 +9,7 @@
 		event: Event & { currentTarget: EventTarget & HTMLDialogElement }
 	) => {};
 
-	export let size: string = '400';
+	export let size: string = '500';
 
 	let onClose = (event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {
 		modalCloseCallback(event);

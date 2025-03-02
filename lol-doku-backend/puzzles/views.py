@@ -88,10 +88,8 @@ def save_puzzle(request: HttpRequest):
         }), status=400)
     else:
         p.save()
-    return HttpResponse(json.dumps({
-            "status": 201,
-            "message": "Puzzle created"
-        }), status=201)
+    ps = PuzzleSerializer(p, context={'request': request})
+    return HttpResponse(json.dumps(ps.data), status=201)
 
 def puzzle_exists(xes, yes):
     db_puzzles = Puzzle.objects.all()

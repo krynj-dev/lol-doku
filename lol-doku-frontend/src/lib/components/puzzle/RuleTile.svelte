@@ -11,12 +11,13 @@
 	import Modal from '../modal/Modal.svelte';
 	import ColorToggle from '../vector-image/ColorToggle.svelte';
 
-
 	export let rule: Rule;
 	let showModal = false;
 	let image: string;
 
 	let country_codes: object;
+
+	let alt_images: any = {};
 
 	_country_codes.subscribe((v) => (country_codes = v));
 
@@ -28,19 +29,37 @@
 		}
 	}
 
-	$: filtered_alt_names = rule.other_names?.filter(n => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase());
+	$: filtered_alt_names = rule.other_names?.filter(
+		(n) => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase()
+	);
+
+	const getimgs = async (names: string[]) => {
+		if (!names) return;
+		let obj: any = {};
+		// let res = get_rule_image_src(n, rule.rule_type).then(src => src);
+		for (let i = 0; i < names.length; i++) {
+			const n = names[i];
+			const element = names[i];
+			let src = await get_rule_image_src(n, rule.rule_type);
+			obj[n] = src;
+		}
+		console.log(obj);
+		return obj;
+	};
+
+	$: getimgs(filtered_alt_names).then(o => {alt_images = o})
 
 	let modalLight = false;
-	let modalLightFill = "var(--lol-doku-white-1)";
+	let modalLightFill = 'var(--lol-doku-white-1)';
 
 	let toggleModalLight = () => {
 		if (modalLight) {
-			modalLightFill = "var(--lol-doku-white-1)";
+			modalLightFill = 'var(--lol-doku-white-1)';
 		} else {
-			modalLightFill = "var(--lol-hextech-black)";
+			modalLightFill = 'var(--lol-hextech-black)';
 		}
 		modalLight = !modalLight;
-	}
+	};
 
 	onMount(() => {
 		fetch('countries.json')
@@ -67,24 +86,44 @@
 		<Modal bind:showModal>
 			<h4 class="rule-modal-title" slot="title">{rule.key}</h4>
 			<div class="rule-modal">
-				<div class={`rule-image-container lol-border${modalLight ? ' white-bg': ''}`}>
-					<img class="rule-image" src={image} alt={rule.key}/>
+				<div class={`rule-image-container lol-border${modalLight ? ' white-bg' : ''}`}>
+					<img class="rule-image" src={image} alt={rule.key} />
 					<div class="button-modal-container">
-						<button class={`button-modal-light-toggle${modalLight ? ' rotate-180-deg': ''}`} on:click={toggleModalLight}>
-							<ColorToggle fill={modalLightFill}/>
+						<button
+							class={`button-modal-light-toggle${modalLight ? ' rotate-180-deg' : ''}`}
+							on:click={toggleModalLight}
+						>
+							<ColorToggle fill={modalLightFill} />
 						</button>
 					</div>
 				</div>
-				{#if filtered_alt_names && filtered_alt_names.length > 0}
-					<ul>
-						{#each filtered_alt_names as alt_n}
-							<li>{alt_n}</li>
-						{/each}
-					</ul>
+				{#if alt_images && Object.keys(alt_images).length > 0}
+				<h5>Also Known As</h5>
+				<div class="alt-container lol-border">
+					{#each Object.entries(alt_images) as [key, value]}
+						<div class={`alt-img-container lol-border-small`}>
+							<div class={`lol-border-small another-container${modalLight ? ' white-bg' : ''}`} style="padding: 5px"><img class="rule-tile-img" src={String(value)} alt={key} /></div>
+							<div>
+								<p class="alt-name-caption h6">{key}</p>
+							</div>
+						</div>
+					{/each}
+				</div>
+				{:else if filtered_alt_names && filtered_alt_names.length > 0}
+				<h5>Also Known As</h5>
+				<div>
+					{#each filtered_alt_names as alt_name}
+						<div class={`alt-img-container lol-border-small`}>
+							<div>
+								<p class="alt-name-caption h6">{alt_name}</p>
+							</div>
+						</div>
+					{/each}
+					</div>
 				{/if}
 			</div>
 		</Modal>
-		{#if rule.rule_type == 'tournament' || rule.rule_type == "finalist"}
+		{#if rule.rule_type == 'tournament' || rule.rule_type == 'finalist'}
 			<div class="rule-tile-img-container">
 				<Worlds />
 			</div>
@@ -115,6 +154,43 @@
 </div>
 
 <style>
+	.alt-container {
+		display: flex;
+		flex-direction: column;
+		padding: 5px;
+		gap: 5px;
+	}
+
+	.alt-img-container {
+		height: 92px;
+		display: grid;
+		grid-template-columns: 92px auto;
+		padding: 5px;
+	}
+
+	.alt-img-container > div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.another-container {
+		height: 80px;
+	}
+
+	.alt-name-caption {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		height: min-content;
+	}
+
+	.alt-img {
+		width: auto;
+		height: 100%;
+		box-sizing: content-box;
+	}
+
 	.rule-tile-container {
 		display: flex;
 	}
@@ -164,6 +240,7 @@
 	.rule-modal {
 		padding: 0 10px;
 		box-sizing: border-box;
+		max-height: 600px;
 	}
 
 	.rule-image-container {

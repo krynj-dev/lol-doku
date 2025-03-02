@@ -107,13 +107,13 @@
 	.doku-grid {
 		display: grid;
 		margin: 0;
-		grid-template-columns: repeat(4, calc((100vw - 10px) / 4));
-		grid-template-rows: repeat(5, calc((100vw - 10px) / 4));
+		grid-template-columns: repeat(4, calc((100vw - 12px) / 4));
+		grid-template-rows: repeat(5, calc((100vw - 12px) / 4));
 	}
 	
 	.info-tile {
-		height: calc((100vw - 10px) / 4);
-		width: calc((100vw - 10px) / 4);
+		height: calc((100vw - 12px) / 4);
+		width: calc((100vw - 12px) / 4);
 		display: flex;
 		justify-content: center;
 	}
@@ -121,8 +121,8 @@
 	.select-tile-span {
 		grid-area: span 3 / span 3 / span 3 / span 3;
 		display: grid;
-		grid-template-columns: repeat(3, calc((100vw - 10px) / 4 - 8px));
-		grid-template-rows: repeat(3, calc((100vw - 10px) / 4 - 8px));
+		grid-template-columns: repeat(3, calc((100vw - 12px) / 4 - 8px));
+		grid-template-rows: repeat(3, calc((100vw - 12px) / 4 - 8px));
 		overflow: hidden;
 		padding: 6px;
 		gap: 4px;
@@ -151,7 +151,7 @@
 		grid-column: 2 / span 3;
 	}
 
-	@media only screen and (min-width: 769px) {
+	@media only screen and (min-width: 841px) {
 		.doku-grid {
 			grid-template-columns: repeat(5, 168px);
 			grid-template-rows: repeat(4, 168px);

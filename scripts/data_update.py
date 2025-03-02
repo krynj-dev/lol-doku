@@ -102,38 +102,6 @@ def compare_players(new_players):
     for k in old_keys & new_keys:
         old_player = old_players[k]
         new_player = new_players[k]
-        # if old_player["age"] != new_player["age"]:
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["age"] = new_player["age"]
-        # if old_player["country"] != new_player["country"]:
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["country"] = new_player["country"]
-        # if old_player["display_name"] != new_player["display_name"]:
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["display_name"] = new_player["display_name"]
-        # if old_player["image"] != new_player["image"]:
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["image"] = new_player["image"]
-        # if old_player["country"] != new_player["country"]:
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["country"] = new_player["country"]
-        # if old_player["name"] != new_player["name"]:
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["name"] = new_player["name"]
-        # if old_player["residency"] != new_player["residency"]:
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["residency"] = new_player["residency"]
-        # if set(old_player["alternate_names"]) != set(new_player["alternate_names"]):
-        #     if k not in player_edits.keys():
-        #         player_edits[k] = {}
-        #     player_edits[k]["alternate_names"] = new_player["alternate_names"]
         if (old_player["age"] != new_player["age"] or
             old_player["country"] != new_player["country"] or
             old_player["display_name"] != new_player["display_name"] or

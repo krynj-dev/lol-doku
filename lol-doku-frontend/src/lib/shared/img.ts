@@ -19,7 +19,9 @@ export async function get_rule_image_src(rule_key: string, rule_type: string) {
     // const rule: Rule = await read_rule(rule_key);
     switch (rule_type) {
         case 'team':
-            if (Object.keys(team_image_data).includes(rule_key)) return team_image_data[rule_key];
+            let team_res = await fetch(`img/teams/${rule_key}.webp`);
+            if (team_res.status == 200) return `img/teams/${rule_key}.webp`;
+            // if (Object.keys(team_image_data).includes(rule_key)) return team_image_data[rule_key];
             return `img/teams/Logo_square.webp`;
         case 'role':
             switch (rule_key) {
@@ -37,9 +39,9 @@ export async function get_rule_image_src(rule_key: string, rule_type: string) {
                     return `img/champion/None.jpg`;
             }
         case 'teammate':
-            let res = await fetch(`img/players/${rule_key}.webp`);
-            if (res.status == 200) return `img/players/${rule_key}.webp`;
-            return undefined;
+            let player_res = await fetch(`img/players/${rule_key}.webp`);
+            if (player_res.status == 200) return `img/players/${rule_key}.webp`;
+            return "img/players/missing_image.svg";
         case 'champion':
             let split = rule_key.split(' ');
             let champ_key;

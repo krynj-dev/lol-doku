@@ -59,11 +59,11 @@
 		<div slot="title">
 			{#if stats}
 				<h4 class="rule-cross-tile-title">{stats.x} / {stats.y}</h4>
+				<h5 class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</h5>
+				<hr />
 			{/if}
 		</div>
 		{#if stats}
-			<h5 class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</h5>
-			<hr />
 			<div class="player-stat-container">
 				{#each stats.results as player_stat}
 					<div class="player-stat-item">
@@ -95,6 +95,7 @@
 	.player-stat-container {
 		display: flex;
 		flex-direction: column;
+		max-height: 600px;
 	}
 
 	.player-stat-item {

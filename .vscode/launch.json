@@ -5,6 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\lol-doku-backend\\manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true,
+            "justMyCode": true,
+            "python": "${workspaceFolder}\\lol-doku-backend\\.venv\\Scripts\\python.exe",
+            "cwd": "${workspaceFolder}\\lol-doku-backend"
+        },
+        {
             "name": "Python: Main Script (update)",
             "type": "python",
             "request": "launch",
@@ -12,7 +25,21 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "cwd": "${workspaceFolder}/scripts",
-            "args": ["--update"]
+            "args": [
+                "--update"
+            ]
+        },
+        {
+            "name": "Python: Main Script (update images)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/scripts",
+            "args": [
+                "--update-img"
+            ]
         },
         {
             "name": "Python: Main Script (gensql)",
@@ -22,7 +49,9 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "cwd": "${workspaceFolder}/scripts",
-            "args": ["--sqlgen"]
+            "args": [
+                "--sqlgen"
+            ]
         }
     ]
 }

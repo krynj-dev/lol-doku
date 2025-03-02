@@ -149,23 +149,27 @@ WSGI_APPLICATION = 'lol_doku_backend.wsgi.application'
 #     DATABASES = {"default": env.db()}
 # else:
 #     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'lolprogrid',
+#         'USER': 'postgres',
+#         'PASSWORD': 'password',
+#         'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
+#         'PORT': '5432',       # Default PostgreSQL port
 #     }
-# DATABASES = {"default": env.db()}
+# }
+DATABASES = {"default": env.db()}
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lolprogrid',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
-        'PORT': '5432',       # Default PostgreSQL port
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1weGdicWN1ZnJ2cXp5enBweG55Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTYyNTEzOTcsImV4cCI6MjAzMTgyNzM5N30.XaiBam1jDkba0EiDRVM7Q5iwC8wKOxQUI_lnuo6rDrA',
+#         'HOST': 'mpxgbqcufrvqzyzppxny.supabase.co',  # Or the IP address of your PostgreSQL server
+#         'PORT': '5432',       # Default PostgreSQL port
+#     }
+# }
 
 
 

@@ -1,6 +1,8 @@
 import json, os
 from datetime import datetime
 
+## TODO Add code to clean up puzzles, rosters, stats etc. when reversing the SQL update
+
 def blank_or_none_to_null(val, allow_blank=False):
     if val is None or (not allow_blank and val == ""):
         return "NULL"

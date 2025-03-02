@@ -25,12 +25,12 @@
 <div class="footer-container">
 	<div class="footer">
 		<div class="footer-tab">
-			<p class="credits center">
+			<p class="credits">
 				Created by Hayden. Data sourced from 
 				<a href='https://lol.fandom.com/wiki/League_of_Legends_Esports_Wiki'>Leaguepedia</a>
 			</p>
 			{#if data_update_date}
-				<p class="data-update center">Last updated {data_update_date}</p>
+				<p class="data-update">Last updated {data_update_date}</p>
 			{/if}
 		</div>
 		<div>
@@ -105,6 +105,7 @@
 	.data-update {
 		font-size: 0.9rem;
 		color: var(--lol-grey-3);
+		margin: 0;
 	}
 
 	.thing-on-right {
