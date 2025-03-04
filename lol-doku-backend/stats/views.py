@@ -8,20 +8,19 @@ from rest_framework import permissions
 
 from stats.models import CorrectPlayerGuess
 from stats.serializers import CorrectPlayerGuessSerializer
-from rules.models import Rule
-from players.models import Player
 from game.models import GameRoster, Game
 from puzzles.models import PuzzleRule
 
 class StatsAPIView(APIView):
     permission_classes = [permissions.AllowAny]
+    authentication_classes = []
 
     def post(self, request: Request):
         session_id = request.COOKIES.get('loldoku_sessionid')
         if session_id is None:
             return Response(status=400)
         # Get slot from request
-        request_body = json.loads(request.body)
+        request_body = request.data
         x = request_body["x"]
         y = request_body["y"]
         timenow = dt.date.today()

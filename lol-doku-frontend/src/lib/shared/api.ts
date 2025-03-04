@@ -15,13 +15,13 @@ export interface Metadata {
 async function init_puzzle(): Promise<GameState> {
     // Get Session
     let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json())
-    .catch(e => {
-        console.error(e)
-        _failed_load.set({
-            "reason": "Failed to retrieve session."
-        } as FailResponse)
-        throw new Error("Failed to retrieve session")
-    });
+        .catch(e => {
+            console.error(e)
+            _failed_load.set({
+                "reason": "Failed to retrieve session."
+            } as FailResponse)
+            throw new Error("Failed to retrieve session")
+        });
     // Get Game
     let game_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/today`, { credentials: "include" })
         .then((r) => {
@@ -43,13 +43,13 @@ async function init_puzzle(): Promise<GameState> {
 export async function get_metadata(): Promise<Metadata> {
     // Get Session
     let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json())
-    .catch(e => {
-        console.error(e)
-        _failed_load.set({
-            "reason": "Failed to retrieve session."
-        } as FailResponse)
-        throw new Error("Failed to retrieve session")
-    });
+        .catch(e => {
+            console.error(e)
+            _failed_load.set({
+                "reason": "Failed to retrieve session."
+            } as FailResponse)
+            throw new Error("Failed to retrieve session")
+        });
     // Get Metadata
     let metadata_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/meta/latest`, { credentials: "include" })
         .then((r) => {
@@ -66,6 +66,9 @@ export async function get_metadata(): Promise<Metadata> {
 export async function get_player_stats(slot: number) {
     let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/stats/today`, {
         credentials: "include",
+        headers: {
+            "Content-Type": "application/json"
+        },
         method: "POST",
         body: JSON.stringify({
             x: slot % 3,
@@ -139,7 +142,7 @@ export async function refresh_state() {
             })
         }
     })
-    .catch(e => console.error(e));
+        .catch(e => console.error(e));
 }
 
 export async function submit_guess(slot: number, player_key: string) {

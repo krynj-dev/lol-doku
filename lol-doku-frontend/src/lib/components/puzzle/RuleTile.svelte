@@ -33,6 +33,11 @@
 		(n) => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase()
 	);
 
+	const get_champion_count_number = (rule_key: string) => {
+		let count_regex = new RegExp('^.+ (\\d+\\+)$');
+		return count_regex.exec(rule_key)?.[1];
+	}
+
 	const getimgs = async (names: string[]) => {
 		if (!names) return;
 		let obj: any = {};
@@ -137,6 +142,11 @@
 					src={image}
 					alt={rule.key}
 				/>
+				{#if rule.rule_type == 'champion'}
+				<div class="champion-rule-overlay-container">
+					<p class="h2 champion-rule-overlay">{get_champion_count_number(rule.key)}</p>
+				</div>
+				{/if}
 			</div>
 			{#if rule.rule_type == 'teammate'}
 				<div class="caption">
@@ -154,6 +164,22 @@
 </div>
 
 <style>
+	.champion-rule-overlay-container {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		justify-content: flex-start;
+		width: calc(100% - 20px);
+		height: calc(100% - 15px);
+	}
+
+	.champion-rule-overlay {
+		color: var(--lol-gold-1);
+		margin: 0;
+		-webkit-text-stroke: 2px var(--lol-hextech-black);
+	}
+
 	.alt-container {
 		display: flex;
 		flex-direction: column;
@@ -231,6 +257,7 @@
 
 	.rule-tile-img-container {
 		display: none;
+		position: relative;
 	}
 
 	.role-image {

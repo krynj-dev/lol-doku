@@ -167,8 +167,30 @@ def rule_type_minimum_restriction(types: list, minimum: int):
         return new_keys
     return restrict_rules
 
+def rule_type_maximum_restriction(types: list, maximum: int):
+    def restrict_rules(key_set: set, into_set: list, cross_set: list):
+        new_keys = key_set
+        comb = into_set + cross_set
+        tc = 0
+        for r in comb:
+            if r.rule_type in types:
+                tc += 1
+        if tc > maximum:
+            new_keys = set(filter(lambda r: r.rule_type not in types, new_keys))
+        return new_keys
+    return restrict_rules
+
 def get_rule_type_min_restriction_funcs(rule_type_minimums):
-    return [rule_type_minimum_restriction(x["rule_types"], x["minimum"]) for x in rule_type_minimums]
+    funcs = []
+    for restriction in rule_type_minimums:
+        min_ = 0 if "minimum" not in restriction else restriction["minimum"]
+        max_ = 6 if "maximum" not in restriction else restriction["maximum"]
+        rt = restriction["rule_types"]
+        if min_ > 0:
+            funcs.append(rule_type_minimum_restriction(rt, min_))
+        if max_ < 6:
+            funcs.append(rule_type_maximum_restriction(rt, max_))
+    return funcs
 
 def restrict_teammate_team_cross(key_set: set, into_set: list, cross_set: list):
     new_keys = key_set
@@ -220,28 +242,21 @@ def candidate_selector_func(min_answers: int, rule_type_min_funcs=[]):
     def get_valid_options(rule_set, into_set: list, cross_set: list, exclusions: list):
         key_set = set([r for r in rule_set])
         # Filter out existing teams
-        print("removing existing")
         key_set = set(filter(lambda x: x not in into_set and x not in cross_set, key_set))
         # Filter out exclusions
-        print("removing exclusions")
         key_set = set(filter(lambda x: x not in exclusions, key_set))
         # Filter so only teams remaining in the cross set are pickable
-        print("removing existing")
         for cross_key in cross_set:
             valid_crosses = [y.key for y in get_crosses_new(cross_key, min_answers)]
             # valid_crosses = [y.key for y in get_crosses(cross_key)]
             key_set = set(filter(lambda x: x.key in valid_crosses, key_set))   
         # Remove restricted types
-        print("removing restricted")
         for restriction_func in rule_type_min_funcs:
             key_set = restriction_func(key_set, into_set, cross_set)
-        print("doing team-teammate stuff")
         key_set = restrict_teammate_team_cross(key_set, into_set, cross_set)
-        print("checking size")
         if len(key_set) == 0:
             return None
         key_list = list(key_set)
-        print("picking")
         # Shuffle then pick first valid rule
         random.shuffle(key_list)
         candidate_i = -1
@@ -291,7 +306,6 @@ def find_puzzle(init_rows, init_columns, selector_func, rule_set, size=3):
             rule_to_add = selector_func(rule_set, columns, rows, column_exclude)
             if rule_to_add is not None:
                 columns.append(rule_to_add)
-                print("Adding Column {}".format(rule_to_add))
                 axis_flag = 1
             elif len(rows) > 0:
                 row_to_remove = rows.pop()
@@ -305,7 +319,6 @@ def find_puzzle(init_rows, init_columns, selector_func, rule_set, size=3):
             rule_to_add = selector_func(rule_set, rows, columns, row_exclude)
             if rule_to_add is not None:
                 rows.append(rule_to_add)
-                print("Adding row {}".format(rule_to_add))
                 axis_flag = 0
             elif len(columns) > 0:
                 column_to_remove = columns.pop()
@@ -318,6 +331,11 @@ def find_puzzle(init_rows, init_columns, selector_func, rule_set, size=3):
         if len(rows) == 0 and len(columns) == 0:
             row_exclude.clear()
             column_exclude.clear()
-        if len(rows) < len(init_rows) or len(columns) < len(init_columns) or (len(rows) == len(init_rows) and len(columns) == len(init_columns)):
+        if len(rows) < len(init_rows) or len(columns) < len(init_columns) : # or (len(rows) == len(init_rows) and len(columns) == len(init_columns))
+            print(
+f"""Failed. Conditions:
+len(rows) < len(init_rows) | {len(rows)} < {len(init_rows)} | {len(rows) < len(init_rows)}
+len(columns) < len(init_columns) | {len(columns)} < {len(init_columns)} | {len(columns) < len(init_columns)}
+len(rows) == len(init_rows) and len(columns) == len(init_columns) | {len(rows)} == {len(init_rows)} and {len(columns)} == {len(init_columns)} | {len(rows) == len(init_rows)} and {len(columns) == len(init_columns)}""")
             return None, None
     return rows, columns
