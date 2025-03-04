@@ -3,6 +3,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("gen", views.generate, name="generate"),
-    path("save", views.save_puzzle, name="save_puzzle"),
+    path("gen", views.PuzzleGenerateApiView.as_view(), name="generate"),
 ]

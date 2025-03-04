@@ -10,7 +10,7 @@ class PlayerViewSet(viewsets.ModelViewSet):
     """
     queryset = Player.objects.filter(active=True).order_by('display_name')
     serializer_class = PlayerSerializer
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]
     filter_backends = [filters.SearchFilter]
     search_fields = ['display_name']
 
@@ -21,4 +21,4 @@ class PlayerAlternateNameViewSet(viewsets.ModelViewSet):
     """
     queryset = PlayerAlternateName.objects.all()
     serializer_class = PlayerAlternateNameSerializer
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]

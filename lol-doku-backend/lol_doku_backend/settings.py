@@ -25,7 +25,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 # [START cloudrun_django_secret_config]
 # SECURITY WARNING: don't run with debug turned on in production!
 # Change this to "False" when you are ready for production
-env = environ.Env(DEBUG=(bool, True))
+env = environ.Env(DEBUG=(bool, False))
 env_file = os.path.join(BASE_DIR, ".env")
 
 # Attempt to load the Project ID into the environment, safely failing on error.
@@ -108,6 +108,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -160,17 +161,6 @@ WSGI_APPLICATION = 'lol_doku_backend.wsgi.application'
 # }
 DATABASES = {"default": env.db()}
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'db',
-#         'USER': 'postgres',
-#         'PASSWORD': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1weGdicWN1ZnJ2cXp5enBweG55Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTYyNTEzOTcsImV4cCI6MjAzMTgyNzM5N30.XaiBam1jDkba0EiDRVM7Q5iwC8wKOxQUI_lnuo6rDrA',
-#         'HOST': 'mpxgbqcufrvqzyzppxny.supabase.co',  # Or the IP address of your PostgreSQL server
-#         'PORT': '5432',       # Default PostgreSQL port
-#     }
-# }
-
 
 
 
@@ -220,10 +210,14 @@ REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+    'PAGE_SIZE': 20,
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ]
 }
 
 CORS_ORIGIN_WHITELIST = [

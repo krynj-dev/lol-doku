@@ -42,6 +42,18 @@
             ]
         },
         {
+            "name": "Python: Main Script (notoriety)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/scripts",
+            "args": [
+                "--notoriety"
+            ]
+        },
+        {
             "name": "Python: Main Script (gensql)",
             "type": "python",
             "request": "launch",

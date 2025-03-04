@@ -9,7 +9,7 @@ class TeamViewSet(viewsets.ModelViewSet):
     """
     queryset = Team.objects.filter(active=True).order_by('name')
     serializer_class = TeamSerializer
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]
     filter_backends = [filters.SearchFilter]
     search_fields = ['^name']
 
@@ -20,7 +20,7 @@ class TeamAlternateNameViewSet(viewsets.ModelViewSet):
     """
     queryset = TeamAlternateName.objects.all()
     serializer_class = TeamAlternateNameSerializer
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]
 
 class TeamSisterTeamViewSet(viewsets.ModelViewSet):
     """
@@ -28,4 +28,4 @@ class TeamSisterTeamViewSet(viewsets.ModelViewSet):
     """
     queryset = TeamSisterTeam.objects.all()
     serializer_class = TeamSisterTeamSerializer
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]

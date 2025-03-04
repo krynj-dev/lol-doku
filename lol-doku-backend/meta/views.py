@@ -1,9 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse , HttpRequest, JsonResponse, HttpResponseServerError
+from django.http import HttpRequest, JsonResponse
 import json
 from meta.models import DataUpdate
 from meta.serializers import DataUpdateSerializer
-from django.core import serializers
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from rest_framework.authtoken.models import Token
+from django.contrib.auth import authenticate
 
 
 # Create your views here.
@@ -12,3 +15,12 @@ def get_metadata(request: HttpRequest):
     gs = DataUpdateSerializer(metadata, context={'request': request})
     response = JsonResponse(gs.data)  
     return response
+
+class UserLoginView(APIView):
+    def post(self, request):
+        user = authenticate(username=request.data['username'], password=request.data['password'])
+        if user:
+            token, created = Token.objects.get_or_create(user=user)
+            return Response({'token': token.key})
+        else:
+            return Response({'error': 'Invalid credentials'}, status=401)

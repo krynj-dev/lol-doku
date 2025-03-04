@@ -1,14 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse , HttpRequest, JsonResponse, HttpResponseServerError
-from rest_framework.response import Response as DRFResponse
+from django.http import HttpResponse , HttpRequest, JsonResponse
 from rest_framework import viewsets, permissions
 from rest_framework.decorators import api_view, renderer_classes
-from rest_framework.renderers import JSONRenderer, TemplateHTMLRenderer
 from lol_doku_backend import settings
 from players.models import Player
 from game.models import GameRoster, Game, GameGuess
 from game.serializers import GameRosterSerializer, GameSerializer, GameGuessSerializer
-from teams.models import Team, TeamAlternateName
+from teams.models import Team
 from puzzles.models import PuzzleRule
 from puzzles.util import is_valid_guess
 from stats.util import update_stats
@@ -31,7 +29,7 @@ class GameRosterViewSet(viewsets.ModelViewSet):
     """
     queryset = GameRoster.objects.all().order_by('id')
     serializer_class = GameRosterSerializer
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.DjangoModelPermissions]
 
 class GameViewSet(viewsets.ModelViewSet):
     """
@@ -39,7 +37,7 @@ class GameViewSet(viewsets.ModelViewSet):
     """
     queryset = Game.objects.all().order_by('id')
     serializer_class = GameSerializer
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.DjangoModelPermissions]
 
 def get_or_create_game(request: HttpRequest):
     session_id = request.COOKIES.get('loldoku_sessionid')
@@ -108,6 +106,10 @@ def finalise(request: HttpRequest):
         game = Game.objects.get(sessionid=session_id, rostered_puzzle=todays_puzzle)
     except:
         return HttpResponse(status=400)
+    if game.status == 'finalised':
+        return JsonResponse({
+            "message": "already finalised"
+        }, status=400)
     # Submit stats
     for x in range(3):
         for y in range(3):
