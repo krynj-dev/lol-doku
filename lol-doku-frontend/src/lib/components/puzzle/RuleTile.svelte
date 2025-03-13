@@ -273,10 +273,15 @@
 	.rule-image-container {
 		box-sizing: border-box;
 		width: 100%;
-		padding: 40px 10px 10px;
+		height: 400px;
+		padding: 40px 10px;
 		position: relative;
 		margin: 10px 0;
 		transition: 0.5s;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
 	}
 
 	.white-bg {
@@ -284,14 +289,20 @@
 	}
 
 	.rule-image {
-		width: 100%;
+		display: block;
+		max-width: 100%;
+		max-height: 100%;
+		overflow: hidden;
+		box-sizing: border-box;
+		object-fit: scale-down;
 	}
 
 	.button-modal-container {
-		display: flex;
-		width: 100%;
-		justify-content: end;
-		margin-top: 10px;
+		position: absolute;
+		padding: 10px;
+		height: 20px;
+		bottom: 0;
+		right: 0;
 	}
 
 	.button-modal-light-toggle {

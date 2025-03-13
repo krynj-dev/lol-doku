@@ -173,11 +173,15 @@
 		grid-template-columns: 80px auto;
 		background-color: #eeeeee;
 	}
-	.player-modal-button:not(:last-child) {
+	.player-modal-button:not(:last-child) {	
 		margin-bottom: 2px;
 	}
 	.player-modal-button:hover {
 		background-color: #dddddd;
+	}
+	.player-modal-button:disabled {
+		background-color: var(--lol-grey-1);
+		color: var(--lol-hextech-black);
 	}
 
 	.player-button-box {
