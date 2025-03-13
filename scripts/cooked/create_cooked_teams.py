@@ -286,6 +286,22 @@ def bubble_sisters_to_parents_then_delete_child(teams_sets: dict, roster_recency
             bubbled.add(cur_key)
             cur_key = teams_sets[cur_key]["came_from"]
             bubbled.add(cur_key)
+        loop_rosters = [(ck, roster_recency[ck]) for ck in seen | {cur_key} if ck in roster_recency]
+        master_n = None
+        if len(loop_rosters) == 0:
+            loop_rosters = sorted(list(loop))
+            master_n = loop_rosters[0]
+        else:
+            loop_rosters = sorted(loop_rosters, key=lambda x: x[0]) # Alphabetical
+            loop_rosters = sorted(loop_rosters, key=lambda x: dt.datetime.strptime(x[1][0], "%Y-%m-%d"), reverse=True) # Most recently played
+            loop_rosters = sorted(loop_rosters, key=lambda x: level_prio.index(x[1][1]))
+            master_n = loop_rosters[0][0]
+        if master_n != k:
+            if teams_sets[k]["becomes"] is None:
+                teams_sets[k]["becomes"] = master_n
+            if teams_sets[master_n]["came_from"] is None:
+                teams_sets[master_n]["came_from"] = k
+            bottoms.add(k)
         bottoms.add(cur_key)
     
     visited = set()
@@ -422,30 +438,30 @@ def resolve_renames(teams_sets: dict):
 def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: list, raw_teams_redirects: list, raw_rosters: list, write=True):
     teams_sets = {}
     teams_sets = add_all_teams(teams_sets, raw_teams)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(1, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = populate_renames(teams_sets, raw_teams_renames)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(2, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = populate_sister_teams(teams_sets, raw_teams_sister)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(3, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = bubble_other_names_to_parents_and_siblings(teams_sets)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(4, "Evil Geniuses.NA" in teams_sets.keys())
     level_prio = ["Primary", "Secondary", "Showmatch", ""]
     roster_recency = get_formatted_roster_data(teams_sets, raw_rosters, level_prio)
     teams_sets = delete_subordinate_sister_teams(teams_sets, roster_recency, level_prio)
-    print("Evil Geniuses.NA" in teams_sets.keys())
-    teams_sets = delete_subset_teams(teams_sets, roster_recency, level_prio) ## May need checking for EG
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(5, "Evil Geniuses.NA" in teams_sets.keys())
+    teams_sets = delete_subset_teams(teams_sets, roster_recency, level_prio) 
+    print(6, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_rosterless_teams(teams_sets, roster_recency)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(7, "Evil Geniuses.NA" in teams_sets.keys())
     has_child_set = get_has_child_set(teams_sets)
-    teams_sets = bubble_sisters_to_parents_then_delete_child(teams_sets, roster_recency, level_prio, has_child_set)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    teams_sets = bubble_sisters_to_parents_then_delete_child(teams_sets, roster_recency, level_prio, has_child_set) ## May need checking for EG
+    print(8, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_quirky_teams(teams_sets, roster_recency, raw_teams_redirects)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(9, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = remove_secondary_names(teams_sets, roster_recency)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(10, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = resolve_renames(teams_sets)
-    print("Evil Geniuses.NA" in teams_sets.keys())
+    print(11, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = format_for_save(teams_sets, roster_recency)
     if write:
         loc = write_to_json_file("data/cooked", "teams", teams_sets, format=False)

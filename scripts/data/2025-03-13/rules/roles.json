@@ -1,0 +1,36 @@
+{
+    "add": {},
+    "evo": {
+        "Bot": {
+            "valid_players": [
+                "Hypnos",
+                "Toaster"
+            ]
+        },
+        "Jungle": {
+            "valid_players": [
+                "Fiji",
+                "Jane"
+            ]
+        },
+        "Mid": {
+            "valid_players": [
+                "Young (Young Choi)",
+                "Getback"
+            ]
+        },
+        "Support": {
+            "valid_players": [
+                "Qiang",
+                "Guns"
+            ]
+        },
+        "Top": {
+            "valid_players": [
+                "Gury",
+                "Slowz"
+            ]
+        }
+    },
+    "rem": []
+}

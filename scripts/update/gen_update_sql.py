@@ -1,5 +1,6 @@
 import json, os
-from datetime import datetime
+from datetime import datetime, timedelta
+from update.fetch_update_data import load_most_recent_data
 
 ## TODO Add code to clean up puzzles, rosters, stats etc. when reversing the SQL update
 
@@ -303,28 +304,26 @@ COMMIT;"""
 
 def generate_update_sql():
     ## Read in existing files
-    with open("data/cooked/players.json", "r+", encoding='utf-8') as f:
-        old_players = json.load(f)
-    with open("data/cooked/teams.json", "r+", encoding='utf-8') as f:
-        old_teams = json.load(f)
-    with open("data/rules/all.json", "r+", encoding='utf-8') as f:
-        old_rules = json.load(f)
+    time_path = datetime.strftime(datetime.now()-timedelta(days=0), "%Y-%m-%d")
+    # Load old data
+    old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules, old_worlds_participants_rules, old_countries_rules, old_champion_rules = load_most_recent_data(1)
+    old_rules = old_team_rules | old_teammates_rules | old_roles_rules | old_finalists_rules | old_worlds_participants_rules | old_countries_rules | old_champion_rules
     ## Read in update files
-    with open("data/update/cooked/players.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/cooked/players.json", "r+", encoding='utf-8') as f:
         new_players = json.load(f)
-    with open("data/update/cooked/teams.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/cooked/teams.json", "r+", encoding='utf-8') as f:
         new_teams = json.load(f)
-    with open("data/update/rules/teams.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/rules/teams.json", "r+", encoding='utf-8') as f:
         rules_teams = json.load(f)
-    with open("data/update/rules/teammates.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/rules/teammates.json", "r+", encoding='utf-8') as f:
         rules_teammates = json.load(f)
-    with open("data/update/rules/roles.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/rules/roles.json", "r+", encoding='utf-8') as f:
         rules_roles = json.load(f)
-    with open("data/update/rules/countries.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/rules/countries.json", "r+", encoding='utf-8') as f:
         rules_countries = json.load(f)
-    with open("data/update/rules/finalists.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/rules/finalists.json", "r+", encoding='utf-8') as f:
         rules_finalists = json.load(f)
-    with open("data/update/rules/worlds_participants.json", "r+", encoding='utf-8') as f:
+    with open(f"data/{time_path}/rules/worlds_participants.json", "r+", encoding='utf-8') as f:
         rules_worlds_participants = json.load(f)
     
     new_rules = {
@@ -333,26 +332,26 @@ def generate_update_sql():
         "rem": rules_teams["rem"] + rules_teammates["rem"] + rules_roles["rem"] + rules_countries["rem"] + rules_finalists["rem"] + rules_worlds_participants["rem"],
         }
     
-    os.makedirs("data/update/scripts", exist_ok=True)
+    os.makedirs(f"data/{time_path}/scripts", exist_ok=True)
     ## Players
     # players_sql, players_sql_undo = generate_players_sql(old_players, new_players)
     plr_sql, plr_sql_rem = generate_players_sql_new(new_players, old_players)
 
-    with open("data/update/scripts/update_players.sql", 'w+', encoding='utf-8') as f:
+    with open(f"data/{time_path}/scripts/update_players.sql", 'w+', encoding='utf-8') as f:
         f.write(plr_sql)
-    with open("data/update/scripts/update_players_restore.sql", 'w+', encoding='utf-8') as f:
+    with open(f"data/{time_path}/scripts/update_players_restore.sql", 'w+', encoding='utf-8') as f:
         f.write(plr_sql_rem)
     ## Teams
     teams_sql, teams_sql_undo = generate_teams_sql_new(new_teams, old_teams)
-    with open("data/update/scripts/update_teams.sql", 'w+', encoding='utf-8') as f:
+    with open(f"data/{time_path}/scripts/update_teams.sql", 'w+', encoding='utf-8') as f:
         f.write(teams_sql)
-    with open("data/update/scripts/update_teams_restore.sql", 'w+', encoding='utf-8') as f:
+    with open(f"data/{time_path}/scripts/update_teams_restore.sql", 'w+', encoding='utf-8') as f:
         f.write(teams_sql_undo)
     ## Rules
     rules_sql, rules_sql_undo = generate_rules_sql(new_rules, old_rules)
-    with open("data/update/scripts/update_rules.sql", 'w+', encoding='utf-8') as f:
+    with open(f"data/{time_path}/scripts/update_rules.sql", 'w+', encoding='utf-8') as f:
         f.write(rules_sql)
-    with open("data/update/scripts/update_rules_restore.sql", 'w+', encoding='utf-8') as f:
+    with open(f"data/{time_path}/scripts/update_rules_restore.sql", 'w+', encoding='utf-8') as f:
         f.write(rules_sql_undo)
     
     

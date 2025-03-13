@@ -11,9 +11,9 @@ def get_tournament_results(site: EsportsClient, write=True):
         where="TResults.Event LIKE '%Worlds%' AND T.TournamentLevel='Primary'"
     )
     if write:
-        loc = write_to_json_file("data/raw", "raw_results", responses, delimit=True, list_delimiter=';;')
+        loc = write_to_json_file("data/raw", "raw_results", responses, delimit=True, list_delimiter=';;', list_fields=["RosterLinks", "Roles"])
         with open(loc, 'r+', encoding='utf-8') as f:
             saved_obj = json.load(f)
         return saved_obj
     else:
-        return format_raw_data(responses, True, ';;')
+        return format_raw_data(responses, True, ';;', ["RosterLinks", "Roles"])

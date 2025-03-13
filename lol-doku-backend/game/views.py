@@ -57,7 +57,7 @@ def get_or_create_game(request: HttpRequest):
     for i in range(len(puzzle_rules)):
         rule = puzzle_rules[i].rule
         if rule.rule_type == "team":
-            team = Team.objects.get(name=rule.key)
+            team = Team.objects.get(op=rule.key)
             data["puzzle"]["rules"][i]["other_names"] = [an.alternate_name for an in team.alternate_names.all()]
         elif rule.rule_type == "teammate":
             player = Player.objects.get(display_name=rule.key)

@@ -72,30 +72,30 @@ def get_player_key(cooked_players, player_name):
     else:
         return keys[0]
 
-def format_raw_data(objects, delimit=False, list_delimiter=','):
+def format_raw_data(objects, delimit=False, list_delimiter=',', list_fields=[]):
     res_copy = []
     for obj in objects:
         obj_copy = {}
         for key in obj:
             val = none_to_blank(obj[key])
-            if list_delimiter in val and delimit:
+            if delimit and key in list_fields:
                 obj_copy[key] = val.split(list_delimiter)
             else:
                 obj_copy[key] = val
         res_copy.append(obj_copy)
     return res_copy
 
-def write_to_json_file(dir, file_name, objects, format=True, delimit=False, list_delimiter=','):
+def write_to_json_file(dir, file_name, objects, format=True, delimit=False, list_delimiter=',', list_fields=[]):
     object_to_save = objects
     if format:
-        object_to_save = format_raw_data(objects, delimit, list_delimiter)
+        object_to_save = format_raw_data(objects, delimit, list_delimiter, list_fields)
     os.makedirs(dir, exist_ok=True)
     file_loc = f'{dir}/{file_name}.json'
     with open(file_loc, 'w+', encoding='utf-8') as f:
         json.dump(object_to_save, f, ensure_ascii=False, indent=4, sort_keys=True, default=lambda o: list(o))
     return file_loc
 
-def get_response(site: EsportsClient, tables: str, fields: str, offset: int, join_on: str = None, group_by: str = None, where: str = None):
+def get_response(site: EsportsClient, tables: str, fields: str, offset: int, join_on: str = None, group_by: str = None, where: str = None, having: str = ""):
     if join_on is not None and group_by is not None and where is not None: # 1 1 1
         return site.cargo_client.query(
             tables=tables,
@@ -104,6 +104,7 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             group_by=group_by,
             where=where,
             offset=offset,
+            having=having,
             limit=500
         )
     elif join_on is not None and group_by is not None and where is None: # 1 1 0
@@ -113,6 +114,7 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             fields=fields,
             group_by=group_by,
             offset=offset,
+            having=having,
             limit=500
         )
     elif join_on is not None and group_by is None and where is None: # 1 0 0
@@ -121,6 +123,7 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             join_on=join_on,
             fields=fields,
             offset=offset,
+            having=having,
             limit=500
         )
     elif join_on is None and group_by is None and where is None: # 0 0 0
@@ -128,6 +131,7 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             tables=tables,
             fields=fields,
             offset=offset,
+            having=having,
             limit=500
         )
     elif join_on is not None and group_by is None and where is not None: # 1 0 1
@@ -137,6 +141,7 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             fields=fields,
             where=where,
             offset=offset,
+            having=having,
             limit=500
         )
     elif join_on is None and group_by is not None and where is not None: # 0 1 1
@@ -147,6 +152,7 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             group_by=group_by,
             where=where,
             offset=offset,
+            having=having,
             limit=500
         )
     elif join_on is None and group_by is None and where is not None: # 0 0 1
@@ -156,6 +162,7 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             fields=fields,
             where=where,
             offset=offset,
+            having=having,
             limit=500
         )
     elif join_on is None and group_by is not None and where is None: # 0 1 0
@@ -165,18 +172,19 @@ def get_response(site: EsportsClient, tables: str, fields: str, offset: int, joi
             fields=fields,
             group_by=group_by,
             offset=offset,
+            having=having,
             limit=500
         )
     raise Exception("Could not determine which query to make")
 
-def read_all_from_table(site: EsportsClient, tables: str, fields: str, join_on: str = None, group_by: str = None, where: str = None, display_progress=True):
+def read_all_from_table(site: EsportsClient, tables: str, fields: str, join_on: str = None, group_by: str = None, where: str = None, having: str = "", display_progress=True):
     responses = []
     offset = 0
     page = 1
     while True:
         if display_progress:
             print("\rPage {}".format(page), sep=' ', end='', flush=True)
-        response = get_response(site, tables, fields, offset, join_on, group_by, where)
+        response = get_response(site, tables, fields, offset, join_on, group_by, where, having)
         if len(response) == 0:
             break
         responses += response

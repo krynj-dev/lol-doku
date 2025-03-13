@@ -13,7 +13,7 @@ from mwrogue.esports_client import EsportsClient
 site = EsportsClient("lol")
 
 if "--update" in sys.argv:
-    perform_data_update(site, time=dt.datetime(2024, 1, 1))
+    perform_data_update(site, time=dt.datetime(2024, 5, 14))
     quit()
 
 if "--update-img" in sys.argv:

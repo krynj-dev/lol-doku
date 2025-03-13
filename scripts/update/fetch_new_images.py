@@ -34,9 +34,15 @@ def fetch_player_images(site: EsportsClient, rosters):
 def update_images(site: EsportsClient, time=datetime(datetime.now().year-1, 1, 1)):
 
     teams = get_teams(site, write=False)
-    retrieve_team_images(site, teams)
-    all_rosters = get_rosters(site, write=False)
-    new_rosters = list(filter(lambda x: x['Date'] == '' or datetime.strptime(x['Date'], "%Y-%m-%d")>=time, all_rosters))
-    players, images = fetch_player_images(site, new_rosters)
-    new_players = cook_players_data(site, players, images, write=False)
+    with open("data/cooked/teams.json", "r+", encoding='utf-8') as f:
+        old_teams = json.load(f)
+    team_names = set(old_teams.keys()) | set([t["OverviewPage"] for t in teams])
+    for t in old_teams.values():
+        for n in t["other_names"] + t["sister_teams"]:
+            team_names.add(n)
+    retrieve_team_images(site, team_names)
+    # all_rosters = get_rosters(site, write=False)
+    # new_rosters = list(filter(lambda x: x['Date'] == '' or datetime.strptime(x['Date'], "%Y-%m-%d")>=time, all_rosters))
+    # players, images = fetch_player_images(site, new_rosters)
+    # new_players = cook_players_data(site, players, images, write=False)
     return

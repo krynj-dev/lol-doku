@@ -22,17 +22,30 @@ def get_players(site: EsportsClient, names_to_get: list, write=True):
 def get_players_champs(site: EsportsClient, champions_to_get: list, names_to_get: list, write=True):
     all_responses = []
     name_str = ','.join([f"'{n}'" for n in names_to_get])
-    for champ in [html.unescape(c["Name"]) for c in champions_to_get]:
-        if champ == "Nunu & Willump":
-            champ = "Nunu"
-        champ_sql = champ.replace('\'', '\'\'')
+    # for champ in [html.unescape(c["Name"]) for c in champions_to_get]:
+    #     if champ == "Nunu & Willump":
+    #         champ = "Nunu"
+    #     champ_sql = champ.replace('\'', '\'\'')
+    #     responses = read_all_from_table(
+    #         site=site,
+    #         tables="ScoreboardGames=SG,Tournaments=To, ScoreboardPlayers=SP, PlayerRedirects=PR, TeamRedirects=TRed, Players=P",
+    #         join_on="SG.GameId=SP.GameId, To.OverviewPage=SG.OverviewPage, SP.Link=PR.AllName, SP.Team=TRed.AllName, PR.OverviewPage=P.OverviewPage",
+    #         fields="P.OverviewPage, SP.Champion, To.TournamentLevel, COUNT(SP.Champion)=GameCount, SP.Link",
+    #         group_by="SP.Champion, To.TournamentLevel, PR.OverviewPage, SP.Link",
+    #         where=f"To.TournamentLevel='Primary' AND SP.Champion='{champ_sql}' AND PR.OverviewPage IN ({name_str})",
+    #         display_progress=False
+    #     )
+    #     all_responses += responses
+    for i in range(ord("A"), ord("Z")+1):
+        c = chr(i)
         responses = read_all_from_table(
             site=site,
             tables="ScoreboardGames=SG,Tournaments=To, ScoreboardPlayers=SP, PlayerRedirects=PR, TeamRedirects=TRed, Players=P",
             join_on="SG.GameId=SP.GameId, To.OverviewPage=SG.OverviewPage, SP.Link=PR.AllName, SP.Team=TRed.AllName, PR.OverviewPage=P.OverviewPage",
             fields="P.OverviewPage, SP.Champion, To.TournamentLevel, COUNT(SP.Champion)=GameCount, SP.Link",
             group_by="SP.Champion, To.TournamentLevel, PR.OverviewPage, SP.Link",
-            where=f"To.TournamentLevel='Primary' AND SP.Champion='{champ_sql}' AND PR.OverviewPage IN ({name_str})",
+            where=f"To.TournamentLevel='Primary' AND SP.Champion LIKE '{c}%'",
+            having="COUNT(SP.Champion)>=40",
             display_progress=False
         )
         all_responses += responses

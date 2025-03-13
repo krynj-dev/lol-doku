@@ -5,22 +5,21 @@ import urllib.request
 import os, json, time
 from datetime import datetime as dt
 
-def retrieve_team_images(site: EsportsClient, teams: list):
+def retrieve_team_images(site: EsportsClient, teams: set[str]):
     i = 1
     failures = []
     for team in teams:
-        team_key = team["OverviewPage"]
         print(f"\r{i+1}/{len(teams)}", sep=" ", end="", flush=True)
-        team_file_name = f'data/images/teams/{team["OverviewPage"]}.webp'
+        team_file_name = f'data/images/teams/{team}.webp'
         if os.path.isfile(team_file_name):
             continue
         try:
-            url = get_filename_url_to_open(site, team["Image"])
+            url = get_filename_url_to_open(site, f"{team}logo square.png")
             if url is not None:
                 url = url.split("/revision/")[0]
                 os.makedirs("data/images/temp", exist_ok=True)
                 os.makedirs("data/images/teams", exist_ok=True)
-                temp_file = f"data/images/temp/{team_key}.{url.split('.')[-1]}"
+                temp_file = f"data/images/temp/{team}.{url.split('.')[-1]}"
                 urllib.request.urlretrieve(url, temp_file)
 
                 im = Image.open(temp_file)
@@ -37,5 +36,6 @@ def retrieve_team_images(site: EsportsClient, teams: list):
                 pass
         except Exception as e:
             # print(f"\rfailed for {player_key}", str(e), flush=True)
-            failures.append((team_key, e))
+            failures.append((team, e))
         i += 1
+    print("\n".join([f"{t} failed: {e}"] for t,e in failures))

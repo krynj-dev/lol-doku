@@ -2,7 +2,7 @@ import json
 from shared import read_all_from_table, write_to_json_file, format_raw_data
 from mwrogue.esports_client import EsportsClient
 
-def get_rosters(site: EsportsClient, write=True, date=None):
+def get_rosters(site: EsportsClient, write=True, write_loc=None, date=None):
     where_clause = "T.TournamentLevel='Primary'"
     if (date is not None):
         where_clause = f"{where_clause} AND T.Date IS NULL OR T.Date>'{date}'"
@@ -14,9 +14,10 @@ def get_rosters(site: EsportsClient, write=True, date=None):
         where=where_clause
     )
     if write:
-        loc = write_to_json_file("data/raw", "raw_rosters", responses, delimit=True, list_delimiter=';;')
+        dest = "data/raw" if write_loc is None else write_loc
+        loc = write_to_json_file(dest, "raw_rosters", responses, delimit=True, list_delimiter=';;', list_fields=["RosterLinks", "Roles", "Flags"])
         with open(loc, 'r+', encoding='utf-8') as f:
             saved_obj = json.load(f)
         return saved_obj
     else:
-        return format_raw_data(responses, True, ';;')
+        return format_raw_data(responses, True, ';;', ["RosterLinks", "Roles", "Flags"])

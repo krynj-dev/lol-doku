@@ -78,21 +78,21 @@ def compare_teams_new(old_teams: dict, new_teams: dict):
         ov = old_teams[k]
         diff = {}
         if v["becomes"] != ov["becomes"]:
-            diff["becomes"] = ov["becomes"]
+            diff["becomes"] = v["becomes"]
         if v["came_from"] != ov["came_from"]:
-            diff["came_from"] = ov["came_from"]
+            diff["came_from"] = v["came_from"]
         if v["highest_level"] != ov["highest_level"]:
-            diff["highest_level"] = ov["highest_level"]
+            diff["highest_level"] = v["highest_level"]
         if v["image"] != ov["image"]:
-            diff["image"] = ov["image"]
+            diff["image"] = v["image"]
         if v["name"] != ov["name"]:
-            diff["name"] = ov["name"]
+            diff["name"] = v["name"]
         if v["op"] != ov["op"]:
-            diff["op"] = ov["op"]
+            diff["op"] = v["op"]
         if v["region"] != ov["region"]:
-            diff["region"] = ov["region"]
+            diff["region"] = v["region"]
         if v["short"] != ov["short"]:
-            diff["short"] = ov["short"]
+            diff["short"] = v["short"]
         if len(set(v["other_names"]) - set(ov["other_names"])) > 0:
             diff["other_names"] = set(v["other_names"]) - set(ov["other_names"])
         if len(set(v["sister_teams"]) - set(ov["sister_teams"])) > 0:
@@ -236,11 +236,13 @@ def compare_rules(old_rules, new_rules, player_evos, compare_key=lambda x: (None
     return adds, changes, deactives
 
 def compare_rules_new(old_rules, new_rules, player_evos, compare_key=lambda x: (None, x)):
-    adds = {k:v for k,v in new_rules.items() if k not in old_rules}
-    deactives = set([k for k in old_rules.keys() if k not in new_rules and compare_key(k) != k])
+    compares = [compare_key(k)[1] for k in old_rules.keys() if compare_key(k)[0] is not None]
+    adds = {k:v for k,v in new_rules.items() if k not in old_rules and k not in compares}
+    deactives = set([k for k in old_rules.keys() if k not in new_rules and compare_key(k)[0] == "rem"])
     changes = {}
     for k,v in {k:v for k,v in new_rules.items() if k not in set(adds.keys()) | deactives}.items():
-        ov = old_rules[k]
+        ok = next((g for g in old_rules.keys() if compare_key(g)[1] == k ), k)
+        ov = old_rules[ok]
         adjusted_players = []
         for p in ov["valid_players"]:
             if p in player_evos:
@@ -250,8 +252,10 @@ def compare_rules_new(old_rules, new_rules, player_evos, compare_key=lambda x: (
         diff = {}
         if len(set(v["valid_players"]) - set(adjusted_players)) > 0:
             diff["valid_players"] = set(v["valid_players"]) - set(adjusted_players)
+        if ok != k:
+            diff["key"] = k
         if diff != {}:
-            changes[k] = diff
+            changes[ok] = diff
     for k in [l for l in deactives if compare_key(l) is not None]:
         if compare_key(k) in adds:
             adds[compare_key(k)]["valid_players"] = set(adds[compare_key(k)]["valid_players"]) | set(old_rules[k]['valid_players'])
@@ -304,20 +308,104 @@ def get_player_key_compare(new_players, player_evos, player_rems):
             return (None, player_key)
     return compare_players
 
+def apply_update(base: dict, update: dict, players=None):
+    if players is not None:
+        for k,v in base.items():
+            if "valid_players" in v:
+                base[k]["valid_players"] = [p if p not in players["evo"] or "display_name" not in players["evo"][p] else players["evo"][p]["display_name"] for p in base[k]["valid_players"]]
+        # base = {k if k not in players["evo"] or "display_name" not in players["evo"][k] else players["evo"][k]["display_name"]:v for k,v in base.items()}
+    base |= update["add"]
+    for k, v in update["evo"].items():
+        for k2, v2 in v.items():
+            if isinstance(v2, list):
+                base[k][k2] = list(set(base[k][k2]) | set(v2))
+            else:
+                base[k][k2] = v2
+        if "display_name" in v:
+            base[v["display_name"]] = base[k]
+            del(base[k])
+        if "op" in v:
+            base[v["op"]] = base[k]
+            del(base[k])
+        if "key" in v:
+            base[v["key"]] = base[k]
+            del(base[k])
+    for n in update["rem"]:
+        del(base[n])
+    return base
+
+def load_most_recent_data(strip:int = 0):
+    # Open old teams
+    with open("data/initial/cooked/teams.json", "r+", encoding='utf-8') as f:
+        teams = json.load(f)
+    # Open old players
+    with open("data/initial/cooked/players.json", "r+", encoding='utf-8') as f:
+        players = json.load(f)
+    ## Load old rules
+    with open(f"data/initial/rules/teams.json", "r+", encoding='utf-8') as f:
+        team_rules = json.load(f)
+    with open(f"data/initial/rules/teammates.json", "r+", encoding='utf-8') as f:
+        teammates_rules = json.load(f)
+    with open(f"data/initial/rules/roles.json", "r+", encoding='utf-8') as f:
+        roles_rules = json.load(f)
+    with open(f"data/initial/rules/finalists.json", "r+", encoding='utf-8') as f:
+        finalists_rules = json.load(f)
+    with open(f"data/initial/rules/worlds_participants.json", "r+", encoding='utf-8') as f:
+        worlds_participants_rules = json.load(f)
+    with open(f"data/initial/rules/countries.json", "r+", encoding='utf-8') as f:
+        countries_rules = json.load(f)
+    with open(f"data/initial/rules/champion_counts.json", "r+", encoding='utf-8') as f:
+        champion_rules = json.load(f)
+    # Sort updates
+    list_subfolders_with_paths = [f.name for f in os.scandir("data") if f.is_dir()]
+    reg = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+    list_subfolders_with_paths = list(filter(reg.search, list_subfolders_with_paths))
+    list_subfolders_with_paths.sort(key=lambda x: dt.datetime.strptime(x, "%Y-%m-%d"))
+    # apply each update
+    other_updates = [
+        ("/cooked/teams.json", teams),
+        ("/cooked/players.json", players),
+        ]
+    rules_updates = [
+        ("/rules/teams.json", team_rules),
+        ("/rules/teammates.json", teammates_rules),
+        ("/rules/roles.json", roles_rules),
+        ("/rules/finalists.json", finalists_rules),
+        ("/rules/worlds_participants.json", worlds_participants_rules),
+        ("/rules/countries.json", countries_rules),
+        # ("/rules/champion_counts.json", champion_rules),
+        ]
+    for dirpath in list_subfolders_with_paths[:len(list_subfolders_with_paths)-strip]:
+        print(f"Applying update {dirpath}")
+        update_file = f"data/{dirpath}/cooked/players.json"
+        with open(update_file, "r+", encoding='utf-8') as f:
+            plr_update = json.load(f)
+        for f, b in other_updates:
+            update_file = f"data/{dirpath}{f}"
+            with open(update_file, "r+", encoding='utf-8') as f:
+                update = json.load(f)
+            apply_update(b, update)
+        for f, b in rules_updates:
+            update_file = f"data/{dirpath}{f}"
+            with open(update_file, "r+", encoding='utf-8') as f:
+                update = json.load(f)
+            apply_update(b, update, plr_update)
+    # Update player names
+
+
+    return teams, players, team_rules, teammates_rules, roles_rules, finalists_rules, worlds_participants_rules, countries_rules, champion_rules
+
 def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().year-1, 1, 1)):
+    time_path = dt.datetime.strftime(dt.datetime.now(), "%Y-%m-%d")
+    # Load old data
+    old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules, old_worlds_participants_rules, old_countries_rules, old_champion_rules = load_most_recent_data()
     ## Grab new rosters
-    all_rosters = get_rosters(site, write=False)
-    ## Load old teams
-    with open("data/cooked/teams.json", "r+", encoding='utf-8') as f:
-        old_teams = json.load(f)
+    all_rosters = get_rosters(site, write=True, write_loc=f"data/{time_path}/raw")
     ## Grab new teams data
     players, champs, champ_players, urls = get_fresh_players_data(site, all_rosters)
     sister_teams, teams, team_redirects, team_renames = get_fresh_teams_data(site, time)
     new_teams = cook_teams_data(teams, sister_teams, team_renames, team_redirects, all_rosters, write=False)
     team_adds, team_evos, team_rems = compare_teams_new(old_teams, new_teams)
-    ## Load old players
-    with open("data/cooked/players.json", "r+", encoding='utf-8') as f:
-        old_players = json.load(f)
     ## Grab new players data
     new_players = cook_players_data(site, players, [], write=False)
     player_adds, player_evos, player_rems = compare_players(old_players, new_players)
@@ -325,27 +413,13 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     new_tournament_results = get_tournament_results(site, write=False)
     ##### RULES ######
     ## Create new rules
-    new_rosters = list(filter(lambda x: x['Date'] == '' or dt.datetime.strptime(x['Date'], "%Y-%m-%d")>=time, all_rosters))
+    # new_rosters = list(filter(lambda x: x['Date'] == '' or dt.datetime.strptime(x['Date'], "%Y-%m-%d")>=time, all_rosters))
+    new_rosters = all_rosters
     new_team_rules, new_teammate_rules, new_role_rules = create_team_teammate_role_rules(new_teams, new_players, new_rosters, write=False)
     new_finalists_rules = create_worlds_finalist_rules(new_players, new_tournament_results, write=False)
     new_worlds_participant_rules = create_worlds_participant_rules(new_players, new_tournament_results, write=False)
     new_countries_rules = create_country_rules(new_players, write=False)
     new_champions_rules = create_champion_rules(new_players, champ_players, write=False)
-    ## Load old rules
-    with open(f"data/rules/teams.json", "r+", encoding='utf-8') as f:
-        old_team_rules = json.load(f)
-    with open(f"data/rules/teammates.json", "r+", encoding='utf-8') as f:
-        old_teammates_rules = json.load(f)
-    with open(f"data/rules/roles.json", "r+", encoding='utf-8') as f:
-        old_roles_rules = json.load(f)
-    with open(f"data/rules/finalists.json", "r+", encoding='utf-8') as f:
-        old_finalists_rules = json.load(f)
-    with open(f"data/rules/worlds_participants.json", "r+", encoding='utf-8') as f:
-        old_worlds_participants_rules = json.load(f)
-    with open(f"data/rules/countries.json", "r+", encoding='utf-8') as f:
-        old_countries_rules = json.load(f)
-    with open(f"data/rules/champion_counts.json", "r+", encoding='utf-8') as f:
-        old_champion_rules = json.load(f)
     ## Generate rule update files
     team_rule_adds, team_rule_evos, team_rule_rems = compare_rules(old_team_rules, new_team_rules, player_evos, compare_key=get_team_key_compare(new_teams, team_evos, team_rems))
     teammate_rule_adds, teammate_rule_evos, teammate_rule_rems = compare_rules(old_teammates_rules, new_teammate_rules, player_evos, compare_key=get_player_key_compare(new_players, player_evos, player_rems))
@@ -355,47 +429,47 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     countries_rule_adds, countries_rule_evos, countries_rule_rems = compare_rules_new(old_countries_rules, new_countries_rules, player_evos)
     champions_rule_adds, champions_rule_evos, champions_rule_rems = compare_rules_new(old_champion_rules, new_champions_rules, player_evos)
     ## Save update files
-    write_to_json_file("data/update/cooked", "players", {
+    write_to_json_file(f"data/{time_path}/cooked", "players", {
         "add": player_adds,
         "evo": player_evos,
         "rem": player_rems
     }, format=False)
-    write_to_json_file("data/update/cooked", "teams", {
+    write_to_json_file(f"data/{time_path}/cooked", "teams", {
         "add": team_adds,
         "evo": team_evos,
         "rem": team_rems
     }, format=False)
-    write_to_json_file("data/update/rules", "teams", {
+    write_to_json_file(f"data/{time_path}/rules", "teams", {
         "add": team_rule_adds,
         "evo": team_rule_evos,
         "rem": team_rule_rems
     }, format=False)
-    write_to_json_file("data/update/rules", "teammates", {
+    write_to_json_file(f"data/{time_path}/rules", "teammates", {
         "add": teammate_rule_adds,
         "evo": teammate_rule_evos,
         "rem": teammate_rule_rems
     }, format=False)
-    write_to_json_file("data/update/rules", "roles", {
+    write_to_json_file(f"data/{time_path}/rules", "roles", {
         "add": roles_rule_adds,
         "evo": roles_rule_evos,
         "rem": roles_rule_rems
     }, format=False)
-    write_to_json_file("data/update/rules", "finalists", {
+    write_to_json_file(f"data/{time_path}/rules", "finalists", {
         "add": finalists_rule_adds,
         "evo": finalists_rule_evos,
         "rem": finalists_rule_rems
     }, format=False)
-    write_to_json_file("data/update/rules", "worlds_participants", {
+    write_to_json_file(f"data/{time_path}/rules", "worlds_participants", {
         "add": worlds_participants_rule_adds,
         "evo": worlds_participants_rule_evos,
         "rem": worlds_participants_rule_rems
     }, format=False)
-    write_to_json_file("data/update/rules", "countries", {
+    write_to_json_file(f"data/{time_path}/rules", "countries", {
         "add": countries_rule_adds,
         "evo": countries_rule_evos,
         "rem": countries_rule_rems
     }, format=False)
-    write_to_json_file("data/update/rules", "champion_counts", {
+    write_to_json_file(f"data/{time_path}/rules", "champion_counts", {
         "add": champions_rule_adds,
         "evo": champions_rule_evos,
         "rem": champions_rule_rems

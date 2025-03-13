@@ -222,7 +222,8 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:5173',
-    'https://loldoku-20a39.web.app'
+    'https://loldoku-20a39.web.app',
+    'https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app'
 ]
 
 CORS_ALLOW_HEADERS = [
@@ -238,7 +239,8 @@ CORS_ALLOW_HEADERS = [
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',
     'http://localhost',
-    'https://loldoku-20a39.web.app'
+    'https://loldoku-20a39.web.app',
+    'https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app'
 ]
 
 CORS_ALLOW_CREDENTIALS = True

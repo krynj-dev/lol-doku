@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpRequest, JsonResponse
-import json
+import datetime
 from meta.models import DataUpdate
 from meta.serializers import DataUpdateSerializer
 from rest_framework.response import Response
@@ -13,7 +13,9 @@ from django.contrib.auth import authenticate
 def get_metadata(request: HttpRequest):
     metadata = DataUpdate.objects.all().order_by('-date').first()
     gs = DataUpdateSerializer(metadata, context={'request': request})
-    response = JsonResponse(gs.data)  
+    response = JsonResponse(gs.data | {
+        "server_time": datetime.datetime.now()
+    })  
     return response
 
 class UserLoginView(APIView):

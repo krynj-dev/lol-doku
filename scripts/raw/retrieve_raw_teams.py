@@ -9,12 +9,12 @@ def get_sister_teams(site: EsportsClient, write=True):
         fields="S.Team, S.AllTeams",
     )
     if write:
-        loc = write_to_json_file("data/raw", "raw_teams_sister", responses, delimit=True, list_delimiter=',')
+        loc = write_to_json_file("data/raw", "raw_teams_sister", responses, delimit=True, list_delimiter=',', list_fields=["AllTeams"])
         with open(loc, 'r+', encoding='utf-8') as f:
             saved_obj = json.load(f)
         return saved_obj
     else:
-        return format_raw_data(responses, True, ',')
+        return format_raw_data(responses, True, ',', ["AllTeams"])
 
 def get_teams(site: EsportsClient, write=True):
     responses = read_all_from_table(

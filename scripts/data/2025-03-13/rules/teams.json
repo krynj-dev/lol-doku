@@ -1,0 +1,112 @@
+{
+    "add": {
+        "Evil Geniuses.NA": {
+            "exclusive_crosses": [],
+            "key": "Evil Geniuses.NA",
+            "regions": [
+                "Europe",
+                "North America",
+                "NA"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Ken (Kenneth Tang)",
+                "ROBERTxLEE",
+                "ShorterACE",
+                "Inspired",
+                "Impact",
+                "Armao",
+                "Thinkcard",
+                "Shacker",
+                "Vulcan (Philippe Laflamme)",
+                "Eyla",
+                "Flaresz",
+                "Yellowpete",
+                "Ssumday",
+                "Innox",
+                "Snoopeh",
+                "Kaori",
+                "FBI",
+                "Yolo (Jang Hyeon-su)",
+                "Svenskeren",
+                "UNF0RGIVEN",
+                "Altec",
+                "Danny (Kyle Sakamaki)",
+                "Bang",
+                "IgNar",
+                "Avalon",
+                "Gleeb",
+                "Kumo",
+                "Jojopyun",
+                "Zeyzal",
+                "Deftly",
+                "Huni",
+                "Pobelter",
+                "Wickd",
+                "Ryoma",
+                "Goldenglue",
+                "Krepo",
+                "Helios (Shin Dong-jin)",
+                "Froggen",
+                "Revenge (Mohamed Kaddoura)",
+                "Contractz",
+                "Jiizuke",
+                "Paragon",
+                "Sheiden"
+            ]
+        }
+    },
+    "evo": {
+        "5 Ronin": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Antic Esports": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Astralis": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Bren Esports": {
+            "key": "Bren Esports"
+        },
+        "Dire Wolves": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Galakticos": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Golden Guardians": {
+            "valid_players": [
+                "Young (Young Choi)"
+            ]
+        },
+        "J Team": {
+            "valid_players": [
+                "RYue"
+            ]
+        },
+        "Ultra Prime": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Young Miracles": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        }
+    },
+    "rem": [
+        "Winterfox"
+    ]
+}

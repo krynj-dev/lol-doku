@@ -1,0 +1,1908 @@
+{
+    "Aatrox 40+": {
+        "exclusive_crosses": [],
+        "key": "Aatrox 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Acce",
+            "Summit",
+            "369",
+            "Hasmed",
+            "Kingen",
+            "Ssumday",
+            "Doran (Choi Hyeon-joon)",
+            "Kiin",
+            "Khan",
+            "TheShy"
+        ]
+    },
+    "Ahri 40+": {
+        "exclusive_crosses": [],
+        "key": "Ahri 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Faker",
+            "Rookie",
+            "Knight (Zhuo Ding)",
+            "Yagao",
+            "Creme"
+        ]
+    },
+    "Akali 40+": {
+        "exclusive_crosses": [],
+        "key": "Akali 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Creme"
+        ]
+    },
+    "Alistar 40+": {
+        "exclusive_crosses": [],
+        "key": "Alistar 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Crisp",
+            "RedBert",
+            "Hylissang",
+            "Baolan",
+            "COLD",
+            "MadLife",
+            "Olleh",
+            "ShiauC",
+            "IgNar",
+            "Wolf (Lee Jae-wan)",
+            "Ysera",
+            "Lehends",
+            "Slow",
+            "ViviD",
+            "Mithy",
+            "Mata",
+            "Ming (Shi Sen-Ming)",
+            "Smoothie",
+            "SwordArt",
+            "TusiN",
+            "RonOP",
+            "Wraith",
+            "Aphromoo",
+            "Koala (Lin Chih-Chiang)",
+            "Rogue (Jake Sharwood)",
+            "GorillA",
+            "SnowFlower",
+            "Duan",
+            "Wos",
+            "BeryL",
+            "MISSING",
+            "Secret (Park Ki-sun)",
+            "Vander",
+            "Destiny (Mitchell Shaw)",
+            "Mor",
+            "VULCAN (Philippe Laflamme)",
+            "Effort",
+            "Pyl (Chen Bo)",
+            "LvMao",
+            "Meiko",
+            "Chei"
+        ]
+    },
+    "Anivia 40+": {
+        "exclusive_crosses": [],
+        "key": "Anivia 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Froggen"
+        ]
+    },
+    "Annie 40+": {
+        "exclusive_crosses": [],
+        "key": "Annie 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Meiko"
+        ]
+    },
+    "Any Champion 75+": {
+        "exclusive_crosses": [],
+        "key": "Any Champion 75+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Odoamne",
+            "Lwx",
+            "IBoy",
+            "Karsa",
+            "Jensen",
+            "Viper (Park Do-hyeon)",
+            "Light (Wang Guang-Yu)",
+            "Bdd",
+            "Rookie",
+            "Hylissang",
+            "Flandre",
+            "Canyon",
+            "Crisp",
+            "Baolan",
+            "COLD",
+            "Scout",
+            "Jankos",
+            "CoreJJ",
+            "Xiaohu",
+            "Kaiwing",
+            "Mystic",
+            "Evi",
+            "Slayder",
+            "Deft",
+            "PraY",
+            "IgNar",
+            "Wolf (Lee Jae-wan)",
+            "Chovy",
+            "Xiye",
+            "JackeyLove",
+            "GALA",
+            "Betty",
+            "Imp",
+            "Mata",
+            "Edward",
+            "Ming (Shi Sen-Ming)",
+            "Bang",
+            "Score",
+            "Kanavi",
+            "SofM",
+            "Rekkles",
+            "SwordArt",
+            "Svenskeren",
+            "Aphromoo",
+            "Teddy",
+            "Huni",
+            "PowerOfEvil",
+            "GorillA",
+            "Faker",
+            "Peanut",
+            "Morgan",
+            "FoFo",
+            "Maple (Huang Yi-Tang)",
+            "Bjergsen",
+            "Able",
+            "Mark (Ling Xu)",
+            "H4cker",
+            "Doinb",
+            "Uzi (Jian Zi-Hao)",
+            "Ruler",
+            "Mor",
+            "Xmithie",
+            "Elk",
+            "Clid",
+            "Mikyx",
+            "Tian",
+            "Delight",
+            "Pyl (Chen Bo)",
+            "Meiko",
+            "Kramer",
+            "Aiming"
+        ]
+    },
+    "Aphelios 40+": {
+        "exclusive_crosses": [],
+        "key": "Aphelios 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Doggo",
+            "Lwx",
+            "IBoy",
+            "Huanfeng",
+            "Light (Wang Guang-Yu)",
+            "Viper (Park Do-hyeon)",
+            "Hope (Wang Jie)",
+            "Praedyth",
+            "Deft",
+            "Wako",
+            "Shogun (Nguyễn Văn Huy)",
+            "JackeyLove",
+            "GALA",
+            "Gumayusi",
+            "Photic",
+            "Unified",
+            "Teddy",
+            "Deokdam",
+            "Hans Sama",
+            "Upset",
+            "FBI",
+            "MnM (Wong Ka Chun)",
+            "Able",
+            "Peyz",
+            "Artemis (Trần Quốc Hưng)",
+            "Raes",
+            "Ruler",
+            "Elk",
+            "Hena",
+            "Puff (Ding Wang)",
+            "Aiming"
+        ]
+    },
+    "Ashe 40+": {
+        "exclusive_crosses": [],
+        "key": "Ashe 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "An",
+            "Sneaky",
+            "LokeN",
+            "Mystic",
+            "Deft",
+            "PraY",
+            "Doublelift",
+            "Jinjiao",
+            "Betty",
+            "Bang",
+            "WildTurtle",
+            "MicaO",
+            "Ghost (Jang Yong-jun)",
+            "Breeze",
+            "Uzi (Jian Zi-Hao)",
+            "Ruler",
+            "Elk",
+            "Sangyoon",
+            "Kramer"
+        ]
+    },
+    "Azir 40+": {
+        "exclusive_crosses": [],
+        "key": "Azir 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "FATE (Yoo Su-hyeok)",
+            "Jensen",
+            "Clozer",
+            "Karis",
+            "Bdd",
+            "Rookie",
+            "Scout",
+            "Ucal",
+            "Xiaohu",
+            "DyNquedo",
+            "Chovy",
+            "Tinowns",
+            "Icon",
+            "Abbedagge",
+            "Zeka (Kim Geon-woo)",
+            "Humanoid",
+            "Mission",
+            "PowerOfEvil",
+            "Faker",
+            "FoFo",
+            "FEBIVEN",
+            "Bjergsen",
+            "Maple (Huang Yi-Tang)",
+            "Perkz",
+            "Dove",
+            "Larssen",
+            "ShowMaker",
+            "Seiya",
+            "Shanks",
+            "Artifact",
+            "Yagao",
+            "Kuro"
+        ]
+    },
+    "Bard 40+": {
+        "exclusive_crosses": [],
+        "key": "Bard 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Aphromoo"
+        ]
+    },
+    "Braum 40+": {
+        "exclusive_crosses": [],
+        "key": "Braum 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Crisp",
+            "RedBert",
+            "Hylissang",
+            "Baolan",
+            "COLD",
+            "Baula",
+            "MadLife",
+            "CoreJJ",
+            "Kaiwing",
+            "Enty",
+            "Decoy",
+            "Wolf (Lee Jae-wan)",
+            "Hakuho",
+            "Slow",
+            "ViviD",
+            "Mithy",
+            "Biofrost",
+            "Mata",
+            "Life",
+            "Ming (Shi Sen-Ming)",
+            "Smoothie",
+            "SwordArt",
+            "Arce",
+            "Bie",
+            "TusiN",
+            "Aphromoo",
+            "Koala (Lin Chih-Chiang)",
+            "Rogue (Jake Sharwood)",
+            "GorillA",
+            "Road (Yun Han-gil)",
+            "Jayke",
+            "SnowFlower",
+            "Key",
+            "Kitties",
+            "Dreamer",
+            "Duan",
+            "Professor",
+            "Xpecial",
+            "Ben",
+            "MISSING",
+            "Palette",
+            "Rogu",
+            "Newbie",
+            "Vander",
+            "Zero (Yoon Kyung-sup)",
+            "K",
+            "Mor",
+            "ThintoN",
+            "Pyl (Chen Bo)",
+            "Mikyx",
+            "LvMao",
+            "Meiko"
+        ]
+    },
+    "Caitlyn 40+": {
+        "exclusive_crosses": [],
+        "key": "Caitlyn 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Doublelift",
+            "Uzi (Jian Zi-Hao)",
+            "Apollo (Apollo Price)",
+            "Smlz",
+            "Piglet",
+            "WildTurtle",
+            "Stixxay",
+            "Mystic",
+            "Imp",
+            "Deft"
+        ]
+    },
+    "Camille 40+": {
+        "exclusive_crosses": [],
+        "key": "Camille 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Chippys",
+            "Rascal"
+        ]
+    },
+    "Cassiopeia 40+": {
+        "exclusive_crosses": [],
+        "key": "Cassiopeia 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Jensen",
+            "Apex (Hsieh Chia-Wei)"
+        ]
+    },
+    "Corki 40+": {
+        "exclusive_crosses": [],
+        "key": "Corki 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Mission",
+            "Faker",
+            "Xiye",
+            "FoFo",
+            "Xiaohu",
+            "Kuro",
+            "Deft",
+            "PraY"
+        ]
+    },
+    "Elise 40+": {
+        "exclusive_crosses": [],
+        "key": "Elise 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Svenskeren",
+            "Karsa",
+            "Amazing (Maurice Stückenschneider)",
+            "Meteos",
+            "Mlxg",
+            "Spirit",
+            "Peanut",
+            "DanDy",
+            "Xmithie",
+            "Jankos",
+            "Bengi",
+            "Lira",
+            "Score",
+            "KaKAO"
+        ]
+    },
+    "Evelynn 40+": {
+        "exclusive_crosses": [],
+        "key": "Evelynn 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Clearlove"
+        ]
+    },
+    "Ezreal 40+": {
+        "exclusive_crosses": [],
+        "key": "Ezreal 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Lwx",
+            "IBoy",
+            "Ruvelius",
+            "Viper (Park Do-hyeon)",
+            "Smlz",
+            "Rekkles",
+            "Kobbe",
+            "Sneaky",
+            "LokeN",
+            "Mystic",
+            "WARANGELUS",
+            "Celebrity",
+            "Deft",
+            "PraY",
+            "Slayder",
+            "Yutapon",
+            "Zven",
+            "Doublelift",
+            "JackeyLove",
+            "Lilv",
+            "Raid",
+            "Betty",
+            "K1ng",
+            "Carzzy",
+            "Ssol",
+            "Bang",
+            "Unified",
+            "Arrow",
+            "Deokdam",
+            "Teddy",
+            "Upset",
+            "WildTurtle",
+            "MicaO",
+            "FBI",
+            "Stixxay",
+            "Ghost (Jang Yong-jun)",
+            "Moyashi",
+            "Raes",
+            "Crownie",
+            "Breeze",
+            "Uzi (Jian Zi-Hao)",
+            "Ruler",
+            "Zeitnot",
+            "Elk",
+            "Sangyoon",
+            "Imp",
+            "Pilot (Na Woo-hyung)",
+            "Kramer",
+            "Aiming"
+        ]
+    },
+    "Galio 40+": {
+        "exclusive_crosses": [],
+        "key": "Galio 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Doinb",
+            "Faker",
+            "Yagao",
+            "Xiaohu",
+            "Froggy"
+        ]
+    },
+    "Gangplank 40+": {
+        "exclusive_crosses": [],
+        "key": "Gangplank 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "ADD",
+            "GimGoon",
+            "Impact",
+            "CuVee",
+            "369",
+            "Zoom",
+            "Alphari",
+            "Kiin",
+            "Hanabi (Su Chia-Hsiang)"
+        ]
+    },
+    "Gnar 40+": {
+        "exclusive_crosses": [],
+        "key": "Gnar 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Odoamne",
+            "CuVee",
+            "Armut",
+            "Kinatu",
+            "HOYA",
+            "Paz",
+            "Flandre",
+            "Summit",
+            "ApaMEN",
+            "Zeus",
+            "Evi",
+            "TheShy",
+            "Impact",
+            "Rest",
+            "Hanabi (Su Chia-Hsiang)",
+            "3z",
+            "Huni",
+            "Duke (Lee Ho-seong)",
+            "Alphari",
+            "Ziv (Chen Yi)",
+            "Bin (Chen Ze-Bin)",
+            "Doran (Choi Hyeon-joon)",
+            "Kingen",
+            "Kiin",
+            "MaRin",
+            "Smeb",
+            "Vizicsacsi",
+            "957",
+            "Buggax",
+            "Ssumday",
+            "Canna"
+        ]
+    },
+    "Gragas 40+": {
+        "exclusive_crosses": [],
+        "key": "Gragas 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Karsa",
+            "Xerxe",
+            "Amazing (Maurice Stückenschneider)",
+            "Meteos",
+            "Swift",
+            "Cuzz",
+            "Kold",
+            "Jankos",
+            "Blank (Kang Sun-gu)",
+            "Eimy",
+            "Spirit",
+            "SofM",
+            "Score",
+            "Svenskeren",
+            "Reignover",
+            "Mlxg",
+            "Clearlove",
+            "Condi",
+            "Ning",
+            "Stomaged",
+            "Oddie",
+            "Spookz",
+            "Dardoch",
+            "Mountain (Xue Zhao-Hong)",
+            "Xmithie",
+            "Ambition"
+        ]
+    },
+    "Graves 40+": {
+        "exclusive_crosses": [],
+        "key": "Graves 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Svenskeren",
+            "Peanut",
+            "Karsa",
+            "SofM"
+        ]
+    },
+    "Gwen 40+": {
+        "exclusive_crosses": [],
+        "key": "Gwen 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Bin (Chen Ze-Bin)",
+            "Hasmed"
+        ]
+    },
+    "Irelia 40+": {
+        "exclusive_crosses": [],
+        "key": "Irelia 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Wickd"
+        ]
+    },
+    "Janna 40+": {
+        "exclusive_crosses": [],
+        "key": "Janna 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Ella",
+            "Kitties"
+        ]
+    },
+    "Jarvan IV 40+": {
+        "exclusive_crosses": [],
+        "key": "Jarvan IV 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Karsa",
+            "Flawless",
+            "Clearlove",
+            "Spirit",
+            "Malrang",
+            "Xmithie",
+            "Clid",
+            "Jankos",
+            "Ning",
+            "SofM"
+        ]
+    },
+    "Jax 40+": {
+        "exclusive_crosses": [],
+        "key": "Jax 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Bin (Chen Ze-Bin)",
+            "Ale",
+            "Zika",
+            "Kiaya"
+        ]
+    },
+    "Jayce 40+": {
+        "exclusive_crosses": [],
+        "key": "Jayce 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Rookie",
+            "Flandre",
+            "Summit",
+            "369",
+            "Nuguri",
+            "Scout",
+            "Xiaohu",
+            "Doran (Choi Hyeon-joon)",
+            "Kiin",
+            "Khan",
+            "Canna",
+            "TheShy"
+        ]
+    },
+    "Jhin 40+": {
+        "exclusive_crosses": [],
+        "key": "Jhin 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Jinjiao",
+            "Ruler",
+            "Smlz",
+            "Rekkles",
+            "Kobbe",
+            "Sneaky",
+            "WildTurtle",
+            "LokeN",
+            "PraY"
+        ]
+    },
+    "Jinx 40+": {
+        "exclusive_crosses": [],
+        "key": "Jinx 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Hans Sama",
+            "Ruler",
+            "GALA",
+            "Elk",
+            "Gumayusi",
+            "Deft"
+        ]
+    },
+    "K'Sante 40+": {
+        "exclusive_crosses": [],
+        "key": "K'Sante 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Shanji"
+        ]
+    },
+    "Kai'Sa 40+": {
+        "exclusive_crosses": [],
+        "key": "Kai'Sa 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Lwx",
+            "IBoy",
+            "Viper (Park Do-hyeon)",
+            "Bigkoro",
+            "LokeN",
+            "Nuclear",
+            "Slayder",
+            "Deft",
+            "Zven",
+            "JackeyLove",
+            "GALA",
+            "Betty",
+            "Teddy",
+            "Upset",
+            "FBI",
+            "MnM (Wong Ka Chun)",
+            "Ghost (Jang Yong-jun)",
+            "Artemis (Trần Quốc Hưng)",
+            "Uzi (Jian Zi-Hao)",
+            "Ruler",
+            "Elk",
+            "Imp",
+            "Aiming"
+        ]
+    },
+    "Kalista 40+": {
+        "exclusive_crosses": [],
+        "key": "Kalista 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Lwx",
+            "IBoy",
+            "Arrow",
+            "Teddy",
+            "Hans Sama",
+            "Kramer",
+            "Ruler",
+            "An",
+            "PraY",
+            "Betty",
+            "Sangyoon",
+            "LokeN",
+            "Mystic",
+            "Imp",
+            "Bang",
+            "Deft",
+            "Ghost (Jang Yong-jun)",
+            "Zven"
+        ]
+    },
+    "Karma 40+": {
+        "exclusive_crosses": [],
+        "key": "Karma 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Doinb",
+            "GorillA",
+            "Biofrost",
+            "Mata",
+            "Ming (Shi Sen-Ming)"
+        ]
+    },
+    "Kennen 40+": {
+        "exclusive_crosses": [],
+        "key": "Kennen 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "369",
+            "CuVee",
+            "TheShy"
+        ]
+    },
+    "Kindred 40+": {
+        "exclusive_crosses": [],
+        "key": "Kindred 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Peanut"
+        ]
+    },
+    "Kog'Maw 40+": {
+        "exclusive_crosses": [],
+        "key": "Kog'Maw 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Imp",
+            "Arrow",
+            "Deft"
+        ]
+    },
+    "LeBlanc 40+": {
+        "exclusive_crosses": [],
+        "key": "LeBlanc 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Caps",
+            "Jensen",
+            "Chovy",
+            "Faker",
+            "Xiye",
+            "Rookie",
+            "FoFo",
+            "Yagao",
+            "Scout",
+            "Bjergsen",
+            "Maple (Huang Yi-Tang)",
+            "Xiaohu",
+            "Icon",
+            "Kuro",
+            "ShowMaker"
+        ]
+    },
+    "Lee Sin 40+": {
+        "exclusive_crosses": [],
+        "key": "Lee Sin 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Karsa",
+            "Levi",
+            "Amazing (Maurice Stückenschneider)",
+            "Swift",
+            "Canyon",
+            "Jankos",
+            "Watch",
+            "Lira",
+            "Xiaopeng",
+            "OnFleek",
+            "Crash",
+            "Pyosik",
+            "Mir (Park Mi-reu)",
+            "Helios (Shin Dong-jin)",
+            "Spirit",
+            "Dread (Lee Jin-hyeok)",
+            "Blaber",
+            "Malrang",
+            "Wei (Yan Yang-Wei)",
+            "Solid (Diego Vallejo)",
+            "Oner",
+            "InSec",
+            "Kanavi",
+            "SofM",
+            "Diamondprox",
+            "Gemini",
+            "Svenskeren",
+            "Shook",
+            "Mlxg",
+            "Clearlove",
+            "Condi",
+            "Once",
+            "Peanut",
+            "Broxah",
+            "Ning",
+            "Oddie",
+            "KaKAO",
+            "LoveLing",
+            "Tbq",
+            "Contractz",
+            "H4cker",
+            "Closer (Can Çelik)",
+            "UmTi",
+            "Tarzan (Lee Seung-yong)",
+            "Josedeodo",
+            "Killerqueen",
+            "Clid",
+            "Tian",
+            "JieJie",
+            "Xmithie",
+            "Bengi",
+            "Tussle"
+        ]
+    },
+    "Leona 40+": {
+        "exclusive_crosses": [],
+        "key": "Leona 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Crisp",
+            "Kaiwing",
+            "Lehends",
+            "Ming (Shi Sen-Ming)",
+            "Kaiser",
+            "SwordArt",
+            "Hang",
+            "Kellin",
+            "Mark (Ling Xu)",
+            "BeryL",
+            "Huhi",
+            "MISSING",
+            "VULCAN (Philippe Laflamme)",
+            "Delight",
+            "Effort",
+            "LvMao",
+            "Meiko",
+            "Ppgod",
+            "NRated"
+        ]
+    },
+    "Lissandra 40+": {
+        "exclusive_crosses": [],
+        "key": "Lissandra 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Xiaohu",
+            "Faker"
+        ]
+    },
+    "Lucian 40+": {
+        "exclusive_crosses": [],
+        "key": "Lucian 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Lwx",
+            "Viper (Park Do-hyeon)",
+            "Smlz",
+            "Rekkles",
+            "Sneaky",
+            "Hope (Wang Jie)",
+            "Mystic",
+            "Celebrity",
+            "Deft",
+            "Doublelift",
+            "JackeyLove",
+            "Bang",
+            "MrRallez",
+            "WildTurtle",
+            "Stixxay",
+            "WhiteLotus",
+            "NaMei",
+            "San (Guo Jun-Liang)",
+            "FORG1VEN",
+            "Uzi (Jian Zi-Hao)",
+            "Zeitnot",
+            "Sangyoon",
+            "Imp",
+            "Kramer"
+        ]
+    },
+    "Lulu 40+": {
+        "exclusive_crosses": [],
+        "key": "Lulu 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Lustboy",
+            "Meiko"
+        ]
+    },
+    "Maokai 40+": {
+        "exclusive_crosses": [],
+        "key": "Maokai 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Mouse",
+            "Odoamne",
+            "Korol",
+            "CuVee",
+            "Duke (Lee Ho-seong)",
+            "957",
+            "Xiyang",
+            "Swip3rR",
+            "Flandre",
+            "Balls",
+            "V",
+            "Looper",
+            "Ziv (Chen Yi)",
+            "Ssumday",
+            "MaRin",
+            "Smeb"
+        ]
+    },
+    "Morgana 40+": {
+        "exclusive_crosses": [],
+        "key": "Morgana 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "SwordArt",
+            "Aphromoo",
+            "Olleh",
+            "LemonNation"
+        ]
+    },
+    "Nami 40+": {
+        "exclusive_crosses": [],
+        "key": "Nami 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Wolf (Lee Jae-wan)",
+            "Meiko"
+        ]
+    },
+    "Nautilus 40+": {
+        "exclusive_crosses": [],
+        "key": "Nautilus 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Crisp",
+            "RedBert",
+            "COLD",
+            "Ceos",
+            "CoreJJ",
+            "Kaiwing",
+            "Jojo (Gabriel Dzelme)",
+            "Zhuo",
+            "Lehends",
+            "Jinjiao",
+            "Iwandy",
+            "QiuQiu (Zhang Ming)",
+            "Life",
+            "Kaiser",
+            "Ming (Shi Sen-Ming)",
+            "Damage",
+            "SwordArt",
+            "Bie",
+            "Hang",
+            "Keria",
+            "Koala (Lin Chih-Chiang)",
+            "ON",
+            "BeryL",
+            "Mark (Ling Xu)",
+            "Yuyanjia",
+            "MISSING",
+            "Palette",
+            "VULCAN (Philippe Laflamme)",
+            "Effort",
+            "Mikyx",
+            "LvMao",
+            "Meiko",
+            "Ppgod",
+            "ShiauC"
+        ]
+    },
+    "Nidalee 40+": {
+        "exclusive_crosses": [],
+        "key": "Nidalee 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Leyan",
+            "Spirit",
+            "Peanut"
+        ]
+    },
+    "Olaf 40+": {
+        "exclusive_crosses": [],
+        "key": "Olaf 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Beishang",
+            "Peanut",
+            "Tarzan (Lee Seung-yong)"
+        ]
+    },
+    "Orianna 40+": {
+        "exclusive_crosses": [],
+        "key": "Orianna 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Jensen",
+            "Bdd",
+            "Rookie",
+            "Scout",
+            "Xiaohu",
+            "Ryu",
+            "GodV (Wei Zhen)",
+            "Fly (Song Yong-jun)",
+            "Hai",
+            "Humanoid",
+            "Mission",
+            "PowerOfEvil",
+            "Faker",
+            "Cool",
+            "Pake",
+            "FoFo",
+            "Bjergsen",
+            "Perkz",
+            "Seiya",
+            "Envy (Bruno Farias)",
+            "Doinb",
+            "Knight (Zhuo Ding)"
+        ]
+    },
+    "Ornn 40+": {
+        "exclusive_crosses": [],
+        "key": "Ornn 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Impact",
+            "BioPanther",
+            "Rascal",
+            "PK",
+            "Acce",
+            "369",
+            "Zoom",
+            "Langx",
+            "Hanabi (Su Chia-Hsiang)"
+        ]
+    },
+    "Rakan 40+": {
+        "exclusive_crosses": [],
+        "key": "Rakan 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Crisp",
+            "Hylissang",
+            "Baolan",
+            "CoreJJ",
+            "Kaiwing",
+            "Decoy",
+            "IgNar",
+            "Lehends",
+            "Iwandy",
+            "Biofrost",
+            "Life",
+            "Ming (Shi Sen-Ming)",
+            "TusiN",
+            "SwordArt",
+            "Bie",
+            "Hang",
+            "Koala (Lin Chih-Chiang)",
+            "ON",
+            "Mark (Ling Xu)",
+            "MISSING",
+            "Palette",
+            "Destiny (Mitchell Shaw)",
+            "VULCAN (Philippe Laflamme)",
+            "Delight",
+            "Effort",
+            "Mikyx",
+            "LvMao",
+            "Meiko",
+            "Ppgod"
+        ]
+    },
+    "Rek'Sai 40+": {
+        "exclusive_crosses": [],
+        "key": "Rek'Sai 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Svenskeren",
+            "Karsa",
+            "Reignover",
+            "Meteos",
+            "Mlxg",
+            "Clearlove",
+            "Condi",
+            "Swift",
+            "Xmithie",
+            "Kold",
+            "Jankos",
+            "Santorin",
+            "Lira",
+            "Score",
+            "Ambition"
+        ]
+    },
+    "Renekton 40+": {
+        "exclusive_crosses": [],
+        "key": "Renekton 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Odoamne",
+            "Robo",
+            "Canna",
+            "Ale",
+            "Zoom",
+            "Nap",
+            "Impact",
+            "Rest",
+            "369",
+            "Langx",
+            "Hanabi (Su Chia-Hsiang)",
+            "Biubiu",
+            "Cube (Dai Yi)",
+            "Morgan",
+            "Ziv (Chen Yi)",
+            "Bin (Chen Ze-Bin)",
+            "Breathe",
+            "Kiin",
+            "Sparda",
+            "Rascal",
+            "Ssumday",
+            "Kiaya"
+        ]
+    },
+    "Rumble 40+": {
+        "exclusive_crosses": [],
+        "key": "Rumble 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Odoamne",
+            "Huni",
+            "Balls",
+            "Looper",
+            "MaRin",
+            "Smeb"
+        ]
+    },
+    "Ryze 40+": {
+        "exclusive_crosses": [],
+        "key": "Ryze 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Yado",
+            "Doinb",
+            "Faker",
+            "Xiye",
+            "Bdd",
+            "Artifact",
+            "Rookie",
+            "Yagao",
+            "Scout",
+            "Kati",
+            "Maple (Huang Yi-Tang)",
+            "Perkz",
+            "Xiaohu",
+            "Icon"
+        ]
+    },
+    "Sejuani 40+": {
+        "exclusive_crosses": [],
+        "key": "Sejuani 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Karsa",
+            "Cuzz",
+            "Canyon",
+            "Jankos",
+            "Blank (Kang Sun-gu)",
+            "Alex",
+            "Santorin",
+            "SofM",
+            "Score",
+            "Gemini",
+            "Peanut",
+            "Ning",
+            "Oddie",
+            "H4cker",
+            "Sorn",
+            "UmTi",
+            "Tarzan (Lee Seung-yong)",
+            "Xmithie",
+            "Clid",
+            "Tian"
+        ]
+    },
+    "Shen 40+": {
+        "exclusive_crosses": [],
+        "key": "Shen 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "SOAZ",
+            "Impact",
+            "Vizicsacsi",
+            "Ssumday"
+        ]
+    },
+    "Sivir 40+": {
+        "exclusive_crosses": [],
+        "key": "Sivir 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Happy",
+            "Arrow",
+            "Doublelift",
+            "Hjarnan",
+            "Jinjiao",
+            "Apollo (Apollo Price)",
+            "Smlz",
+            "Uzi (Jian Zi-Hao)",
+            "Rekkles",
+            "Sneaky",
+            "WildTurtle",
+            "Nuclear",
+            "Mystic",
+            "Imp",
+            "Bang",
+            "Deft",
+            "PraY",
+            "Zven"
+        ]
+    },
+    "Sona 40+": {
+        "exclusive_crosses": [],
+        "key": "Sona 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Edward",
+            "Xpecial"
+        ]
+    },
+    "Sylas 40+": {
+        "exclusive_crosses": [],
+        "key": "Sylas 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Chovy",
+            "Scout",
+            "Knight (Zhuo Ding)"
+        ]
+    },
+    "Syndra 40+": {
+        "exclusive_crosses": [],
+        "key": "Syndra 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Caps",
+            "Jensen",
+            "Mission",
+            "PowerOfEvil",
+            "Bdd",
+            "Rookie",
+            "Knight (Zhuo Ding)",
+            "Yagao",
+            "Scout",
+            "Bjergsen",
+            "Kati",
+            "Ryoma",
+            "Uniboy",
+            "Xiaohu",
+            "ShowMaker"
+        ]
+    },
+    "Tahm Kench 40+": {
+        "exclusive_crosses": [],
+        "key": "Tahm Kench 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Killua",
+            "Crisp",
+            "Hylissang",
+            "Baolan",
+            "COLD",
+            "CoreJJ",
+            "Kaiwing",
+            "Enty",
+            "Wolf (Lee Jae-wan)",
+            "Ysera",
+            "Lehends",
+            "Mithy",
+            "Biofrost",
+            "Mata",
+            "Life",
+            "Ming (Shi Sen-Ming)",
+            "TusiN",
+            "SwordArt",
+            "Keria",
+            "Koala (Lin Chih-Chiang)",
+            "GorillA",
+            "SnowFlower",
+            "Key",
+            "Kellin",
+            "BeryL",
+            "Wadid",
+            "Palette",
+            "Yoon",
+            "K",
+            "VULCAN (Philippe Laflamme)",
+            "Effort",
+            "Pyl (Chen Bo)",
+            "LvMao",
+            "Meiko"
+        ]
+    },
+    "Taliyah 40+": {
+        "exclusive_crosses": [],
+        "key": "Taliyah 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Bdd",
+            "Rookie",
+            "Yagao",
+            "Scout",
+            "Maple (Huang Yi-Tang)",
+            "Xiaohu"
+        ]
+    },
+    "Thresh 40+": {
+        "exclusive_crosses": [],
+        "key": "Thresh 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Crisp",
+            "Hylissang",
+            "MadLife",
+            "COLD",
+            "Kaiwing",
+            "Enty",
+            "Olleh",
+            "IgNar",
+            "Wolf (Lee Jae-wan)",
+            "Ley",
+            "Ysera",
+            "Slow",
+            "Zergsting",
+            "CBL",
+            "Kasing",
+            "Mata",
+            "Edward",
+            "Ming (Shi Sen-Ming)",
+            "X1u",
+            "SwordArt",
+            "Bie",
+            "RonOP",
+            "Aphromoo",
+            "Keria",
+            "Koala (Lin Chih-Chiang)",
+            "Rogue (Jake Sharwood)",
+            "GorillA",
+            "Albis",
+            "SnowFlower",
+            "Key",
+            "Ella",
+            "Kitties",
+            "LemonNation",
+            "Nyph",
+            "Xpecial",
+            "MISSING",
+            "Vander",
+            "Zero (Yoon Kyung-sup)",
+            "Pyl (Chen Bo)",
+            "Mikyx",
+            "LvMao",
+            "Meiko",
+            "ShiauC"
+        ]
+    },
+    "Tristana 40+": {
+        "exclusive_crosses": [],
+        "key": "Tristana 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Doublelift",
+            "Sneaky",
+            "Rekkles",
+            "Celebrity",
+            "Bang"
+        ]
+    },
+    "Trundle 40+": {
+        "exclusive_crosses": [],
+        "key": "Trundle 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Peanut",
+            "H4cker",
+            "Santorin"
+        ]
+    },
+    "Twitch 40+": {
+        "exclusive_crosses": [],
+        "key": "Twitch 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Imp"
+        ]
+    },
+    "Varus 40+": {
+        "exclusive_crosses": [],
+        "key": "Varus 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Lwx",
+            "IBoy",
+            "Viper (Park Do-hyeon)",
+            "Light (Wang Guang-Yu)",
+            "Smlz",
+            "An",
+            "LokeN",
+            "Deft",
+            "PraY",
+            "Zven",
+            "Jinjiao",
+            "JackeyLove",
+            "GALA",
+            "Betty",
+            "Bang",
+            "Unified",
+            "Teddy",
+            "Hans Sama",
+            "Apollo (Apollo Price)",
+            "WildTurtle",
+            "Stixxay",
+            "FBI",
+            "Ghost (Jang Yong-jun)",
+            "Moyashi",
+            "Uzi (Jian Zi-Hao)",
+            "Ruler",
+            "Elk",
+            "Hena",
+            "Kramer",
+            "Aiming"
+        ]
+    },
+    "Vayne 40+": {
+        "exclusive_crosses": [],
+        "key": "Vayne 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Imp",
+            "Piglet",
+            "Doublelift",
+            "Uzi (Jian Zi-Hao)"
+        ]
+    },
+    "Vi 40+": {
+        "exclusive_crosses": [],
+        "key": "Vi 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Xun",
+            "Peanut"
+        ]
+    },
+    "Viego 40+": {
+        "exclusive_crosses": [],
+        "key": "Viego 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Cuzz",
+            "Wei (Yan Yang-Wei)",
+            "Tian",
+            "Oner",
+            "Kanavi"
+        ]
+    },
+    "Viktor 40+": {
+        "exclusive_crosses": [],
+        "key": "Viktor 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Mission",
+            "Doinb",
+            "PowerOfEvil",
+            "Faker",
+            "Rookie",
+            "Crown",
+            "Kuro"
+        ]
+    },
+    "Wukong 40+": {
+        "exclusive_crosses": [],
+        "key": "Wukong 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Xun",
+            "Levi",
+            "Aki (Mao An)",
+            "Wei (Yan Yang-Wei)",
+            "Kanavi"
+        ]
+    },
+    "Xayah 40+": {
+        "exclusive_crosses": [],
+        "key": "Xayah 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "IBoy",
+            "Viper (Park Do-hyeon)",
+            "Bigkoro",
+            "Rekkles",
+            "Kobbe",
+            "LokeN",
+            "Mystic",
+            "Slayder",
+            "Deft",
+            "Doublelift",
+            "Jinjiao",
+            "JackeyLove",
+            "GALA",
+            "Gumayusi",
+            "Teddy",
+            "Hans Sama",
+            "WildTurtle",
+            "Ghost (Jang Yong-jun)",
+            "Artemis (Trần Quốc Hưng)",
+            "Raes",
+            "Uzi (Jian Zi-Hao)",
+            "Ruler",
+            "Elk"
+        ]
+    },
+    "Xin Zhao 40+": {
+        "exclusive_crosses": [],
+        "key": "Xin Zhao 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Xun",
+            "Aki (Mao An)",
+            "H4cker",
+            "Xiaohao"
+        ]
+    },
+    "Yuumi 40+": {
+        "exclusive_crosses": [],
+        "key": "Yuumi 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Lehends"
+        ]
+    },
+    "Zeri 40+": {
+        "exclusive_crosses": [],
+        "key": "Zeri 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Viper (Park Do-hyeon)",
+            "Light (Wang Guang-Yu)",
+            "Ruler",
+            "Elk",
+            "Aiming"
+        ]
+    },
+    "Ziggs 40+": {
+        "exclusive_crosses": [],
+        "key": "Ziggs 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Ceros"
+        ]
+    },
+    "Zilean 40+": {
+        "exclusive_crosses": [],
+        "key": "Zilean 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Bjergsen"
+        ]
+    },
+    "Zoe 40+": {
+        "exclusive_crosses": [],
+        "key": "Zoe 40+",
+        "regions": [
+            "World"
+        ],
+        "type": "champion",
+        "valid_players": [
+            "Mole",
+            "Fly (Song Yong-jun)",
+            "Chovy",
+            "Bdd",
+            "Angel (Xiang Tao)",
+            "Knight (Zhuo Ding)",
+            "FoFo",
+            "Nisqy",
+            "Yagao",
+            "Scout",
+            "Maple (Huang Yi-Tang)",
+            "Uniboy",
+            "Xiaohu",
+            "Naul",
+            "ShowMaker"
+        ]
+    }
+}

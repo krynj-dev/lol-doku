@@ -1,0 +1,63 @@
+{
+    "add": {
+        "Guns": {
+            "age": "",
+            "alternate_names": [
+                "Guns"
+            ],
+            "country": "Tunisia",
+            "display_name": "Guns",
+            "image": "",
+            "name": "Aymen Rahmani",
+            "residency": "EMEA"
+        }
+    },
+    "evo": {
+        "Bisbo": {
+            "age": "23",
+            "display_name": "Biob",
+            "residency": "Asia Pacific"
+        },
+        "Bunn": {
+            "display_name": "Seebulabu",
+            "residency": "Asia Pacific"
+        },
+        "M1lo": {
+            "display_name": "Kuroko1"
+        },
+        "Nogo": {
+            "age": "20",
+            "display_name": "Zzeta",
+            "residency": "Asia Pacific"
+        },
+        "Pain (Lê Quốc Anh)": {
+            "age": "20",
+            "display_name": "Pain5"
+        },
+        "Sanji (Tô Hoàng Đăng Phương)": {
+            "display_name": "Dipi",
+            "name": "Tô Hoàng Đăng Phương",
+            "residency": "Asia Pacific"
+        },
+        "Seraph": {
+            "age": "30",
+            "alternate_names": [
+                "SERAPH"
+            ],
+            "display_name": "SERAPH",
+            "residency": "Americas"
+        },
+        "Tomrio": {
+            "age": "21",
+            "alternate_names": [
+                "TomRio"
+            ],
+            "display_name": "TomRio",
+            "residency": "Asia Pacific"
+        },
+        "VIN (Trần Hoài Vinh)": {
+            "display_name": "Vin (Trần Hoài Vinh)"
+        }
+    },
+    "rem": []
+}

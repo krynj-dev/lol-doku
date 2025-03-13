@@ -1,0 +1,533 @@
+{
+    "add": {
+        "Fiji": {
+            "exclusive_crosses": [],
+            "key": "Fiji",
+            "regions": [
+                "Americas"
+            ],
+            "type": "teammate",
+            "valid_players": [
+                "Risk (Thanawat Bualuang)"
+            ]
+        },
+        "Getback": {
+            "exclusive_crosses": [],
+            "key": "Getback",
+            "regions": [
+                "Asia Pacific",
+                "Americas"
+            ],
+            "type": "teammate",
+            "valid_players": [
+                "Katsurii",
+                "Udysof",
+                "Pabu",
+                "Raise",
+                "Corporal",
+                "Totoro (Eun Jong-seop)",
+                "Praedyth",
+                "Rogue (Jake Sharwood)",
+                "Anderu",
+                "BioPanther",
+                "Souli"
+            ]
+        },
+        "Guns": {
+            "exclusive_crosses": [],
+            "key": "Guns",
+            "regions": [
+                "EMEA"
+            ],
+            "type": "teammate",
+            "valid_players": [
+                "Shadow (Abderrahmen Smati)"
+            ]
+        },
+        "Hypnos": {
+            "exclusive_crosses": [],
+            "key": "Hypnos",
+            "regions": [
+                "EMEA"
+            ],
+            "type": "teammate",
+            "valid_players": [
+                "Ruvelius",
+                "XnS",
+                "Noki",
+                "On1",
+                "Kebap",
+                "COldMemo",
+                "Unmngeable",
+                "Skewer",
+                "LVS",
+                "SPARKLE",
+                "UNZY",
+                "EL (Jeon Seong-hyeon)",
+                "ShawiKatami",
+                "Tatum"
+            ]
+        },
+        "Toaster": {
+            "exclusive_crosses": [],
+            "key": "Toaster",
+            "regions": [
+                "EMEA"
+            ],
+            "type": "teammate",
+            "valid_players": [
+                "FORG1VEN",
+                "Hybrid (Glenn Doornenbal)",
+                "PowerOfEvil",
+                "Amazing (Maurice Stückenschneider)",
+                "SOAZ"
+            ]
+        },
+        "Young (Young Choi)": {
+            "exclusive_crosses": [],
+            "key": "Young (Young Choi)",
+            "regions": [
+                "North America",
+                "Americas"
+            ],
+            "type": "teammate",
+            "valid_players": [
+                "Licorice",
+                "River (Kim Dong-woo)",
+                "Stixxay",
+                "Huhi",
+                "Gori"
+            ]
+        }
+    },
+    "evo": {
+        "Amazing (Maurice Stückenschneider)": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Anderu": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "BaRoiBeo": {
+            "valid_players": [
+                "Yoshino",
+                "Slowz",
+                "Hiro02",
+                "Taki (Đinh Anh Tài)"
+            ]
+        },
+        "BioPanther": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Bisbo": {
+            "key": "Biob"
+        },
+        "Bruce": {
+            "valid_players": [
+                "RYue"
+            ]
+        },
+        "Bunn": {
+            "key": "Seebulabu"
+        },
+        "C7N": {
+            "valid_players": [
+                "TomRio",
+                "Gury",
+                "Jane",
+                "Qiang"
+            ]
+        },
+        "COldMemo": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Corporal": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "EL (Jeon Seong-hyeon)": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Enso": {
+            "valid_players": [
+                "RYue"
+            ]
+        },
+        "FORG1VEN": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Famingjia": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Gori": {
+            "valid_players": [
+                "Young (Young Choi)"
+            ]
+        },
+        "Gury": {
+            "valid_players": [
+                "C7N",
+                "TomRio",
+                "Jane",
+                "Qiang"
+            ]
+        },
+        "H4cker": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Heng": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Hery": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Hiro02": {
+            "valid_players": [
+                "Yoshino",
+                "Slowz",
+                "BaRoiBeo"
+            ]
+        },
+        "Huhi": {
+            "valid_players": [
+                "Young (Young Choi)"
+            ]
+        },
+        "Hybrid (Glenn Doornenbal)": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Insulator": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Irma": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Jane": {
+            "valid_players": [
+                "C7N",
+                "Gury",
+                "TomRio",
+                "Qiang"
+            ]
+        },
+        "Katsurii": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Ke": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Kebap": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "LVS": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Lauva": {
+            "valid_players": [
+                "RYue"
+            ]
+        },
+        "Licorice": {
+            "valid_players": [
+                "Young (Young Choi)"
+            ]
+        },
+        "Long": {
+            "valid_players": [
+                "RYue"
+            ]
+        },
+        "M1lo": {
+            "key": "Kuroko1"
+        },
+        "Miaoniu": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Minji": {
+            "valid_players": [
+                "RYue"
+            ]
+        },
+        "Nogo": {
+            "key": "Zzeta"
+        },
+        "Noki": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "On1": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Pabu": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Pain (Lê Quốc Anh)": {
+            "key": "Pain5"
+        },
+        "PowerOfEvil": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Pqy": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Praedyth": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Qiang": {
+            "valid_players": [
+                "C7N",
+                "Gury",
+                "TomRio",
+                "Jane"
+            ]
+        },
+        "Qingtian": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "RYue": {
+            "valid_players": [
+                "Enso",
+                "Bruce",
+                "Minji",
+                "Long",
+                "Lauva"
+            ]
+        },
+        "Raise": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Risk (Thanawat Bualuang)": {
+            "valid_players": [
+                "Fiji"
+            ]
+        },
+        "River (Kim Dong-woo)": {
+            "valid_players": [
+                "Young (Young Choi)"
+            ]
+        },
+        "Rogue (Jake Sharwood)": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Ruvelius": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "SOAZ": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "SPARKLE": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Sanji (Tô Hoàng Đăng Phương)": {
+            "key": "Dipi"
+        },
+        "Seraph": {
+            "key": "SERAPH"
+        },
+        "Shadow (Abderrahmen Smati)": {
+            "valid_players": [
+                "Guns"
+            ]
+        },
+        "ShawiKatami": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "ShiauC": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Skewer": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Slowz": {
+            "valid_players": [
+                "Yoshino",
+                "Hiro02",
+                "BaRoiBeo",
+                "Taki (Đinh Anh Tài)"
+            ]
+        },
+        "Smlz": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Souli": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Stixxay": {
+            "valid_players": [
+                "Young (Young Choi)"
+            ]
+        },
+        "Taki (Đinh Anh Tài)": {
+            "valid_players": [
+                "Yoshino",
+                "Slowz",
+                "BaRoiBeo"
+            ]
+        },
+        "Tatum": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Tomrio": {
+            "key": "TomRio",
+            "valid_players": [
+                "C7N",
+                "Gury",
+                "Jane",
+                "Qiang"
+            ]
+        },
+        "Totoro (Eun Jong-seop)": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "UNZY": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Udysof": {
+            "valid_players": [
+                "Getback"
+            ]
+        },
+        "Unmngeable": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "VIN (Trần Hoài Vinh)": {
+            "key": "Vin (Trần Hoài Vinh)"
+        },
+        "Whisper (Zhang Yun-Hua)": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "XPeke": {
+            "valid_players": [
+                "Toaster"
+            ]
+        },
+        "Xiaocaobao": {
+            "valid_players": [
+                "Ke",
+                "Heng",
+                "Zs",
+                "Irma",
+                "Pqy",
+                "Smlz",
+                "Insulator",
+                "Miaoniu",
+                "Qingtian",
+                "Yekai",
+                "ShiauC",
+                "H4cker",
+                "Famingjia",
+                "Xing (Liu Jia-Xing)",
+                "Hery",
+                "Whisper (Zhang Yun-Hua)"
+            ]
+        },
+        "Xing (Liu Jia-Xing)": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "XnS": {
+            "valid_players": [
+                "Hypnos"
+            ]
+        },
+        "Yekai": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        },
+        "Yoshino": {
+            "valid_players": [
+                "Hiro02",
+                "Slowz",
+                "BaRoiBeo",
+                "Taki (Đinh Anh Tài)"
+            ]
+        },
+        "Zs": {
+            "valid_players": [
+                "Xiaocaobao"
+            ]
+        }
+    },
+    "rem": []
+}

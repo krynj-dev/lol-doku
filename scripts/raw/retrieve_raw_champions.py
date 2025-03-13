@@ -10,7 +10,7 @@ def get_champions(site: EsportsClient, save=True):
     )
     formatted_object = None
     if save:
-        loc = write_to_json_file("data/raw", "raw_players", responses, delimit=True, list_delimiter='\n')
+        loc = write_to_json_file("data/raw", "raw_champions", responses, delimit=True, list_delimiter='\n')
         with open(loc, 'r+', encoding='utf-8') as f:
             formatted_object = json.load(f)
     else:
