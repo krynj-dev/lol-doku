@@ -25,7 +25,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 # [START cloudrun_django_secret_config]
 # SECURITY WARNING: don't run with debug turned on in production!
 # Change this to "False" when you are ready for production
-env = environ.Env(DEBUG=(bool, False))
+env = environ.Env(DEBUG=(bool, True))
 env_file = os.path.join(BASE_DIR, ".env")
 
 # Attempt to load the Project ID into the environment, safely failing on error.
@@ -97,6 +97,7 @@ INSTALLED_APPS = [
     'players.apps.PlayersConfig',
     'rules.apps.RulesConfig',
     'teams.apps.TeamsConfig',
+    'pro2pro.apps.Pro2ProConfig',
     'game.apps.GameConfig',
     'stats.apps.StatsConfig',
     'meta.apps.MetaConfig',
@@ -159,7 +160,17 @@ WSGI_APPLICATION = 'lol_doku_backend.wsgi.application'
 #         'PORT': '5432',       # Default PostgreSQL port
 #     }
 # }
-DATABASES = {"default": env.db()}
+# DATABASES = {"default": env.db()}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'lolprogrid',
+        'USER': 'postgres',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
+        'PORT': '5432',       # Default PostgreSQL port
+    }
+}
 
 
 

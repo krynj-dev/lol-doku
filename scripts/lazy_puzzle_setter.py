@@ -31,7 +31,7 @@ token_res = requests.post(base_url+login, json={
 token = json.loads(token_res.text)["token"]
 game_daily = "/game/daily/"
 puzzles = "/puzzles/{}/"
-offset = 20
+offset = 44
 for i in range(days):
     day = date.today() + timedelta(days=i) + timedelta(days=4)
     # Ensure day isn't already set

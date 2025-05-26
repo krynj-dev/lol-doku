@@ -23,6 +23,7 @@ from teams.views import TeamViewSet, TeamAlternateNameViewSet, TeamSisterTeamVie
 from rules.views import RuleViewSet, ValidCrossesViewSet
 from puzzles.views import PuzzleViewSet
 from game.views import GameRosterViewSet, GameViewSet
+from pro2pro.views import RosterLinkViewSet, RosterViewSet, TournamentViewSet
 
 # Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter()
@@ -36,6 +37,9 @@ router.register(r'validcrosses', ValidCrossesViewSet)
 router.register(r'puzzles', PuzzleViewSet)
 router.register(r'game/daily', GameRosterViewSet)
 router.register(r'game', GameViewSet)
+router.register(r'roster-links', RosterLinkViewSet)
+router.register(r'rosters', RosterViewSet)
+router.register(r'tournaments', TournamentViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.

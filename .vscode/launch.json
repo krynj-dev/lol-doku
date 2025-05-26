@@ -5,6 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "npm run dev",
+            "name": "FE: start",
+            "request": "launch",
+            "type": "node-terminal",
+            "cwd": "${workspaceFolder}/lol-doku-frontend",
+        },
+        {
+            "name": "Python: Main Script (pro2pro)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/pro2pro.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/scripts",
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",

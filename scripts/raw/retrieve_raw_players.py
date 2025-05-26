@@ -3,13 +3,13 @@ from shared import read_all_from_table, write_to_json_file, format_raw_data
 from mwrogue.esports_client import EsportsClient
 
 def get_players(site: EsportsClient, names_to_get: list, write=True):
-    name_str = ','.join([f"'{n}'" for n in names_to_get])
+    where = "" if names_to_get is None else "PR.AllName IN ({name_str})".format(','.join([f"'{n}'" for n in names_to_get]))
     responses = read_all_from_table(
         site=site,
         tables="Players=P, PlayerRedirects=PR",
         join_on="P.OverviewPage=PR.OverviewPage",
         fields="PR.AllName, PR.ID, PR.OverviewPage, P.Name, P.Country, P.Age, P.Residency, P.Image",
-        where=f"PR.AllName IN ({name_str})"
+        where=where
     )
     if write:
         loc = write_to_json_file("data/raw", "raw_players", responses, delimit=True, list_delimiter='\n')

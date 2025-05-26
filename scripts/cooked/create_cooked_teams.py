@@ -407,7 +407,7 @@ def format_for_save(teams_sets: dict, roster_recency: dict):
     for k in teams_sets.keys():
         teams_sets[k]["other_names"] = sorted(teams_sets[k]["other_names"])
         teams_sets[k]["sister_teams"] = sorted(teams_sets[k]["sister_teams"])
-        teams_sets[k]["highest_level"] = roster_recency[k][1]
+        teams_sets[k]["highest_level"] = '' if k not in roster_recency else roster_recency[k][1]
     return teams_sets
 
 def resolve_renames(teams_sets: dict):
@@ -434,11 +434,25 @@ def resolve_renames(teams_sets: dict):
                 prev = nxt
     return teams_sets
 
+def populate_redirects(teams_sets: dict, raw_teams_redirects: list):
+    for redir in raw_teams_redirects:
+        a_name = redir["AllName"]
+        p_name = redir["PageName"]
+        if a_name == p_name or (a_name in teams_sets and p_name in teams_sets):
+            if a_name != p_name and (a_name in teams_sets and p_name in teams_sets):
+                pass # SANITY CHECK: Ensures all the teams we are adding in don't have an entry of their own. As of this comments writing, the code never reaches here
+            continue
+        if p_name in teams_sets:
+            teams_sets[p_name]["other_names"].add(a_name)
+            pass
+            
+    return teams_sets
 
 def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: list, raw_teams_redirects: list, raw_rosters: list, write=True):
     teams_sets = {}
     teams_sets = add_all_teams(teams_sets, raw_teams)
     print(1, "Evil Geniuses.NA" in teams_sets.keys())
+    teams_sets = populate_redirects(teams_sets, raw_teams_redirects)
     teams_sets = populate_renames(teams_sets, raw_teams_renames)
     print(2, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = populate_sister_teams(teams_sets, raw_teams_sister)
@@ -451,10 +465,10 @@ def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: 
     print(5, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_subset_teams(teams_sets, roster_recency, level_prio) 
     print(6, "Evil Geniuses.NA" in teams_sets.keys())
-    teams_sets = delete_rosterless_teams(teams_sets, roster_recency)
+    # teams_sets = delete_rosterless_teams(teams_sets, roster_recency)
     print(7, "Evil Geniuses.NA" in teams_sets.keys())
     has_child_set = get_has_child_set(teams_sets)
-    teams_sets = bubble_sisters_to_parents_then_delete_child(teams_sets, roster_recency, level_prio, has_child_set) ## May need checking for EG
+    teams_sets = bubble_sisters_to_parents_then_delete_child(teams_sets, roster_recency, level_prio, has_child_set)
     print(8, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_quirky_teams(teams_sets, roster_recency, raw_teams_redirects)
     print(9, "Evil Geniuses.NA" in teams_sets.keys())

@@ -12,7 +12,7 @@ _country_codes.subscribe((v) => (country_codes = v));
 export async function get_player_image_src(player_key: string) {
     let res = await fetch(`img/players/${player_key}.webp`);
     if (res.status == 200) return `img/players/${player_key}.webp`;
-    return "img/players/missing_image.svg";
+    return `img/players/missing_image.svg`;
 }
 
 export async function get_rule_image_src(rule_key: string, rule_type: string) {

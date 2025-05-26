@@ -15,6 +15,7 @@
 	const tabs = ['Home', 'Puzzle Builder', 'Endless'];
 
 	let current_tab = 'Home';
+	// let showModal: boolean;
 
 	let failed_load: FailResponse | undefined;
 	_failed_load.subscribe((value) => {

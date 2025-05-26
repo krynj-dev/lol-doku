@@ -6,6 +6,7 @@ import { _correct, _finalised, _lives, _puzzle, _selected_players, _failed_load 
 import { get } from 'svelte/store'
 import { type Player } from "$lib/models/new/Player";
 import { type FailResponse } from "$lib/models/FailResponse";
+import { type RosterResponse, type Roster, type RosterLinksResponse } from "$lib/models/pro2pro/RosterLinks";
 
 export interface Metadata {
     data_update_date: string
@@ -164,4 +165,17 @@ export async function get_rule(key: string): Promise<Rule> {
     return rule_res[0] as Rule;
 }
 
+export async function get_roster_links(player_key: string): Promise<RosterLinksResponse> {
+    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/roster-links/?player__display_name=${encodeURIComponent(player_key)}&ordering=-roster__tournament__date&limit=100`, { credentials: "include" }).then((r) => r.json());
+    return rule_res as RosterLinksResponse;
+}
 
+export async function get_roster_by_id(roster_id: string): Promise<Roster> {
+    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rosters/${roster_id}`, { credentials: "include" }).then((r) => r.json());
+    return rule_res as Roster;
+}
+
+export async function get_roster_by_name(roster: string, team: string): Promise<RosterResponse> {
+    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rosters/?tournament__name=${encodeURIComponent(roster)}&team__alternate_name=${encodeURIComponent(team)}&limit=100`, { credentials: "include" }).then((r) => r.json());
+    return rule_res as RosterResponse;
+}
