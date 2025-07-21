@@ -22,7 +22,7 @@ def fetch_raw(site: EsportsClient):
 
     players = get_players(site, list(player_set), write=False) #2
 
-    player_imgs = get_player_image_urls(site, list(player_set), write=False) # 2.1
+    # player_imgs = get_player_image_urls(site, list(player_set), write=False) # 2.1
 
     champions = get_champions(site, False) #2.5
 

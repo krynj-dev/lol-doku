@@ -181,16 +181,24 @@ def read_all_from_table(site: EsportsClient, tables: str, fields: str, join_on: 
     responses = []
     offset = 0
     page = 1
+    sleep_time = 0.01
     while True:
         if display_progress:
             print("\rPage {}".format(page), sep=' ', end='', flush=True)
-        response = get_response(site, tables, fields, offset, join_on, group_by, where, having)
-        if len(response) == 0:
-            break
-        responses += response
-        offset += 500
-        page += 1
-        time.sleep(0.01)
+        try:
+            response = get_response(site, tables, fields, offset, join_on, group_by, where, having)
+            if len(response) == 0:
+                break
+            responses += response
+            offset += 500
+            page += 1
+            sleep_time = max(0.01, sleep_time / 2)
+        except Exception as ex:
+            # print(ex)
+            sleep_time *= 2
+        time.sleep(sleep_time)
+        
+
     if display_progress:
         print('\n')
     return responses

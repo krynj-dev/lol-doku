@@ -37,10 +37,11 @@ def get_fresh_players_data(site: EsportsClient, rosters):
 
     players = get_players(site, None, write=False) #2
 
-    player_imgs = get_player_image_urls(site, None, write=False) # 2.1
+    # player_imgs = get_player_image_urls(site, None, write=False) # 2.1
 
 
-    link_count = Counter([k["Link"] for k in player_imgs])
+    # link_count = Counter([k["Link"] for k in player_imgs])
+    player_imgs = {}
 
     # champions = get_champions(site, False) #2.5
     champions = {}
@@ -401,7 +402,7 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     # Load old data
     old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules, old_worlds_participants_rules, old_countries_rules, old_champion_rules = load_most_recent_data()
     ## Grab new rosters
-    all_rosters = get_rosters(site, write=True, write_loc=f"data/{time_path}/raw", levels=['Primary', 'Secondary', 'Showmatch', ''])
+    all_rosters = get_rosters(site, write=True, write_loc=f"data/{time_path}/raw", levels=['Primary', 'Secondary', 'Showmatch', '']) # Fix results of only getting new rosters with regards to team removal
     ## Grab new teams data
     players, champs, champ_players, urls = get_fresh_players_data(site, all_rosters)
     sister_teams, teams, team_redirects, team_renames = get_fresh_teams_data(site, time)
