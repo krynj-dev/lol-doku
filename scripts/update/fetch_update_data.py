@@ -1,5 +1,6 @@
 import datetime as dt
 import re
+import time as timelib
 from raw import *
 from mwrogue.esports_client import EsportsClient
 from cooked import *
@@ -26,16 +27,16 @@ def get_fresh_teams_data(site: EsportsClient, time):
 
 def get_fresh_players_data(site: EsportsClient, rosters):
     player_set = set()
-    # acceptable_roles = [ "Top", "Jungle", "Mid", "Bot", "Support" ]
-    # for roster in rosters:
-    #     if roster["Roles"] is not None and roster["RosterLinks"]:
-    #         if len(roster["Roles"]) != len(roster["RosterLinks"]):
-    #             continue
-    #         players = [roster["RosterLinks"][i] for i in range(len(roster["RosterLinks"])) if any(r in acceptable_roles for r in roster["Roles"][i].split(','))]
-    #         for plr in players:
-    #             player_set.add(plr)
+    acceptable_roles = [ "Top", "Jungle", "Mid", "Bot", "Support" ]
+    for roster in rosters:
+        if roster["Roles"] is not None and roster["RosterLinks"]:
+            if len(roster["Roles"]) != len(roster["RosterLinks"]):
+                continue
+            players = [roster["RosterLinks"][i] for i in range(len(roster["RosterLinks"])) if any(r in acceptable_roles for r in roster["Roles"][i].split(','))]
+            for plr in players:
+                player_set.add(plr)
 
-    players = get_players(site, None, write=False) #2
+    players = get_players(site, player_set, write=False) #2
 
     # player_imgs = get_player_image_urls(site, None, write=False) # 2.1
 
@@ -46,8 +47,8 @@ def get_fresh_players_data(site: EsportsClient, rosters):
     # champions = get_champions(site, False) #2.5
     champions = {}
 
-    # champ_players = get_players_champs(site, champions, list(player_set), write=False) #3
-    champ_players = {}
+    champ_players = get_players_champs(site, champions, list(player_set), write=False) #3
+    # champ_players = {}
 
     return players, champions, champ_players, player_imgs
 
@@ -74,7 +75,9 @@ def compare_teams(old_teams: dict, new_teams: dict):
 
 def compare_teams_new(old_teams: dict, new_teams: dict):
     adds = {k:v for k,v in new_teams.items() if k not in old_teams}
-    deactives = set([k for k in old_teams.keys() if get_team_key(old_teams, k) != get_team_key(new_teams, k)])
+    deactives = set([k for k in old_teams.keys() if get_team_key(old_teams, k) != get_team_key(new_teams, k) and (
+        "active" not in old_teams[k] or old_teams[k]["active"] != False
+    )])
     changes = {}
     for k,v in {k:v for k,v in new_teams.items() if k not in set(adds.keys()) | deactives}.items():
         ov = old_teams[k]
@@ -99,6 +102,8 @@ def compare_teams_new(old_teams: dict, new_teams: dict):
             diff["other_names"] = set(v["other_names"]) - set(ov["other_names"])
         if len(set(v["sister_teams"]) - set(ov["sister_teams"])) > 0:
             diff["sister_teams"] = set(v["sister_teams"]) - set(ov["sister_teams"])
+        if "active" in ov:
+            diff["active"] = True
         if diff != {}:
             changes[k] = diff
     return adds, changes, deactives
@@ -173,7 +178,7 @@ def compare_rules(old_rules, new_rules, player_evos, compare_key=lambda x: (None
         for f in v.keys():
             if f == "regions":
                 continue
-            if f not in ["exclusive_crosses", "valid_players"] and v[f] != nv[f]:
+            if f not in ["exclusive_crosses", "valid_players", "active"] and v[f] != nv[f]:
                 diff[f] = nv[f]
             elif f == "exclusive_crosses" and len(set(nv[f]) - set(v[f])) > 0:
                 diff[f] = set(nv[f]) - set(v[f])
@@ -187,6 +192,8 @@ def compare_rules(old_rules, new_rules, player_evos, compare_key=lambda x: (None
                 plr_diff = set(nv[f]) - adjusted_players
                 if len(plr_diff) > 0:
                     diff[f] = plr_diff
+            elif f == "active":
+                diff[f] = True
         if diff != {}:
             changes[k] = diff
     adds = {k:v for k,v in new_rules.items() if k not in seen}
@@ -310,6 +317,9 @@ def get_player_key_compare(new_players, player_evos, player_rems):
             return (None, player_key)
     return compare_players
 
+def compare_remove_old(rule_key):
+    return ("rem", None)
+
 def apply_update(base: dict, update: dict, players=None):
     if players is not None:
         for k,v in base.items():
@@ -333,8 +343,15 @@ def apply_update(base: dict, update: dict, players=None):
             base[v["key"]] = base[k]
             del(base[k])
     for n in update["rem"]:
-        del(base[n])
+        base[n]["active"] = False
     return base
+
+def open_or_empty(filename: str):
+    try:
+        with open(filename, "r+", encoding='utf-8') as f:
+           return json.load(f)
+    except FileNotFoundError:
+        return {}
 
 def load_most_recent_data(strip:int = 0):
     # Open old teams
@@ -358,6 +375,8 @@ def load_most_recent_data(strip:int = 0):
         countries_rules = json.load(f)
     with open(f"data/initial/rules/champion_counts.json", "r+", encoding='utf-8') as f:
         champion_rules = json.load(f)
+    pentakill_rules = open_or_empty("data/initial/rules/pentakills.json")
+    league_winner_rules = open_or_empty("data/initial/rules/winners.json")
     # Sort updates
     list_subfolders_with_paths = [f.name for f in os.scandir("data") if f.is_dir()]
     reg = re.compile(r'^\d{4}-\d{2}-\d{2}$')
@@ -375,6 +394,8 @@ def load_most_recent_data(strip:int = 0):
         ("/rules/finalists.json", finalists_rules),
         ("/rules/worlds_participants.json", worlds_participants_rules),
         ("/rules/countries.json", countries_rules),
+        ("/rules/pentakills.json", pentakill_rules),
+        ("/rules/winners.json", pentakill_rules),
         # ("/rules/champion_counts.json", champion_rules),
         ]
     for dirpath in list_subfolders_with_paths[:len(list_subfolders_with_paths)-strip]:
@@ -389,20 +410,23 @@ def load_most_recent_data(strip:int = 0):
             apply_update(b, update)
         for f, b in rules_updates:
             update_file = f"data/{dirpath}{f}"
-            with open(update_file, "r+", encoding='utf-8') as f:
-                update = json.load(f)
-            apply_update(b, update, plr_update)
+            try:
+                with open(update_file, "r+", encoding='utf-8') as f:
+                    update = json.load(f)
+                apply_update(b, update, plr_update)
+            except FileNotFoundError:
+                pass
     # Update player names
 
-
-    return teams, players, team_rules, teammates_rules, roles_rules, finalists_rules, worlds_participants_rules, countries_rules, champion_rules
+    return teams, players, team_rules, teammates_rules, roles_rules, finalists_rules, worlds_participants_rules, countries_rules, champion_rules, pentakill_rules, league_winner_rules
 
 def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().year-1, 1, 1)):
     time_path = dt.datetime.strftime(dt.datetime.now(), "%Y-%m-%d")
     # Load old data
-    old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules, old_worlds_participants_rules, old_countries_rules, old_champion_rules = load_most_recent_data()
-    ## Grab new rosters
-    all_rosters = get_rosters(site, write=True, write_loc=f"data/{time_path}/raw", levels=['Primary', 'Secondary', 'Showmatch', '']) # Fix results of only getting new rosters with regards to team removal
+    (old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules,
+        old_worlds_participants_rules, old_countries_rules, old_champion_rules, old_pentakill_rules, old_winner_rules) = load_most_recent_data()
+    ## Grab rosters
+    all_rosters = get_rosters(site, write=True, write_loc=f"data/{time_path}/raw", levels=['Primary'])
     ## Grab new teams data
     players, champs, champ_players, urls = get_fresh_players_data(site, all_rosters)
     sister_teams, teams, team_redirects, team_renames = get_fresh_teams_data(site, time)
@@ -412,24 +436,29 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     new_players = cook_players_data(site, players, [], write=False)
     player_adds, player_evos, player_rems = compare_players(old_players, new_players)
     ## Grab tournament results
-    new_tournament_results = get_tournament_results(site, write=False)
+    new_tournament_results = get_all_tournament_results(site, write=True, write_loc=f"data/{time_path}/raw")
+    ## Grab new data
+    pentakills = get_pentakills(site, write=True, write_loc=f"data/{time_path}/raw")
     ##### RULES ######
     ## Create new rules
-    # new_rosters = list(filter(lambda x: x['Date'] == '' or dt.datetime.strptime(x['Date'], "%Y-%m-%d")>=time, all_rosters))
     new_rosters = [r for r in all_rosters if r["TournamentLevel"] == 'Primary']
-    new_team_rules, new_teammate_rules, new_role_rules = create_team_teammate_role_rules(new_teams, new_players, new_rosters, write=False)
-    new_finalists_rules = create_worlds_finalist_rules(new_players, new_tournament_results, write=False)
-    new_worlds_participant_rules = create_worlds_participant_rules(new_players, new_tournament_results, write=False)
+    new_tournament_results_rules = create_league_finalist_rules(new_players, new_tournament_results, write=False)
     new_countries_rules = create_country_rules(new_players, write=False)
     new_champions_rules = create_champion_rules(new_players, champ_players, write=False)
+    new_pentakill_rules = create_pentakill_rules(new_players, pentakills, write=False)
+    new_team_rules, new_teammate_rules, new_role_rules = create_team_teammate_role_rules(new_teams, new_players, new_rosters, write=False)
     ## Generate rule update files
     team_rule_adds, team_rule_evos, team_rule_rems = compare_rules(old_team_rules, new_team_rules, player_evos, compare_key=get_team_key_compare(new_teams, team_evos, team_rems))
     teammate_rule_adds, teammate_rule_evos, teammate_rule_rems = compare_rules(old_teammates_rules, new_teammate_rules, player_evos, compare_key=get_player_key_compare(new_players, player_evos, player_rems))
     roles_rule_adds, roles_rule_evos, roles_rule_rems = compare_rules_new(old_roles_rules, new_role_rules, player_evos)
-    finalists_rule_adds, finalists_rule_evos, finalists_rule_rems = compare_rules_new(old_finalists_rules, new_finalists_rules, player_evos)
-    worlds_participants_rule_adds, worlds_participants_rule_evos, worlds_participants_rule_rems = compare_rules_new(old_worlds_participants_rules, new_worlds_participant_rules, player_evos)
+    finalists_rule_adds, finalists_rule_evos, finalists_rule_rems = compare_rules_new(old_finalists_rules, {k:r for k, r in new_tournament_results_rules.items() if 'Finalist' in r['key']}, player_evos, compare_remove_old)
+    worlds_participants_rule_adds, worlds_participants_rule_evos, worlds_participants_rule_rems = compare_rules_new(old_worlds_participants_rules,
+        {k:r for k, r in new_tournament_results_rules.items() if re.search(r'World.+Participant', r['key']) is not None}, player_evos)
+    league_winner_rule_adds, league_winner_rule_evos, league_winner_rule_rems = compare_rules_new(old_winner_rules,
+        {k:r for k, r in new_tournament_results_rules.items() if 'Winner' in r['key']}, player_evos)
     countries_rule_adds, countries_rule_evos, countries_rule_rems = compare_rules_new(old_countries_rules, new_countries_rules, player_evos)
-    champions_rule_adds, champions_rule_evos, champions_rule_rems = compare_rules_new(old_champion_rules, new_champions_rules, player_evos)
+    champions_rule_adds, champions_rule_evos, champions_rule_rems = compare_rules_new(old_champion_rules, new_champions_rules, player_evos, compare_remove_old)
+    pentakill_rule_adds, pentakill_rule_evos, pentakill_rule_rems = compare_rules_new(old_pentakill_rules, new_pentakill_rules, player_evos, compare_remove_old)
     ## Save update files
     write_to_json_file(f"data/{time_path}/cooked", "players", {
         "add": player_adds,
@@ -475,5 +504,15 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
         "add": champions_rule_adds,
         "evo": champions_rule_evos,
         "rem": champions_rule_rems
+    }, format=False)
+    write_to_json_file(f"data/{time_path}/rules", "pentakills", {
+        "add": pentakill_rule_adds,
+        "evo": pentakill_rule_evos,
+        "rem": pentakill_rule_rems
+    }, format=False)
+    write_to_json_file(f"data/{time_path}/rules", "winners", {
+        "add": league_winner_rule_adds,
+        "evo": league_winner_rule_evos,
+        "rem": league_winner_rule_rems
     }, format=False)
     return

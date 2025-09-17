@@ -176,24 +176,27 @@ def get_formatted_roster_data(teams_sets: dict, raw_rosters: list, level_prio: l
         team_key = get_team_key(teams_sets, team_name)
         roster_level = roster["TournamentLevel"]
         roster_date = roster["Date"]
+        is_premier = any([x in roster["Name"] for x in ['LEC', 'LPL', 'LTA', 'LCK', 'LCP']])
         if roster_date is not None and roster_date != "":
             if team_key is None:
                 team_key = team_name
             if roster_level not in level_prio:
                 roster_level = ""
             if team_key not in roster_last_played.keys():
-                roster_last_played[team_key] = (roster_date, roster_level)
+                roster_last_played[team_key] = (roster_date, roster_level, is_premier)
             else:
                 if roster_last_played[team_key][1] in level_prio and level_prio.index(roster_last_played[team_key][1]) > level_prio.index(roster_level):
-                    roster_last_played[team_key] = (roster_date, roster_level)
+                    roster_last_played[team_key] = (roster_date, roster_level, is_premier)
                 elif dt.datetime.strptime(roster_last_played[team_key][0], "%Y-%m-%d") < dt.datetime.strptime(roster_date, "%Y-%m-%d"):
-                    roster_last_played[team_key] = (roster_date, roster_level)
+                    roster_last_played[team_key] = (roster_date, roster_level, is_premier)
     return roster_last_played
 
 def delete_subordinate_sister_teams(teams_sets: dict, roster_recency: dict, level_prio: list):
     never_prim = set()
     not_main = set()
     for key in teams_sets.keys():
+        if (key == 'G2 Esports' or key == 'G2 Hel'):
+            pass
         if len(teams_sets[key]["sister_teams"]) > 0:
             sister_group = [(t, roster_recency[t]) for t in teams_sets[key]["sister_teams"].union({key}) if t in roster_recency.keys() and roster_recency[t] != ""]
             sister_group = sorted(sister_group, key=lambda x: x[0]) # Alphabetical
@@ -448,37 +451,28 @@ def populate_redirects(teams_sets: dict, raw_teams_redirects: list):
             
     return teams_sets
 
-def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: list, raw_teams_redirects: list, raw_rosters: list, write=True):
+def cook_teams_data(raw_teams: list, raw_teams_sister: list, raw_teams_renames: list, raw_teams_redirects: list, raw_rosters: list, write=True, write_loc=None):
     teams_sets = {}
     teams_sets = add_all_teams(teams_sets, raw_teams)
-    print(1, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = populate_redirects(teams_sets, raw_teams_redirects)
     teams_sets = populate_renames(teams_sets, raw_teams_renames)
-    print(2, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = populate_sister_teams(teams_sets, raw_teams_sister)
-    print(3, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = bubble_other_names_to_parents_and_siblings(teams_sets)
-    print(4, "Evil Geniuses.NA" in teams_sets.keys())
     level_prio = ["Primary", "Secondary", "Showmatch", ""]
+    uber_leagues = ["LPL ", "LCK ", "LEC ", "LCP ", "LTA "]
     roster_recency = get_formatted_roster_data(teams_sets, raw_rosters, level_prio)
     teams_sets = delete_subordinate_sister_teams(teams_sets, roster_recency, level_prio)
-    print(5, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_subset_teams(teams_sets, roster_recency, level_prio) 
-    print(6, "Evil Geniuses.NA" in teams_sets.keys())
-    # teams_sets = delete_rosterless_teams(teams_sets, roster_recency)
-    print(7, "Evil Geniuses.NA" in teams_sets.keys())
+    teams_sets = delete_rosterless_teams(teams_sets, roster_recency)
     has_child_set = get_has_child_set(teams_sets)
     teams_sets = bubble_sisters_to_parents_then_delete_child(teams_sets, roster_recency, level_prio, has_child_set)
-    print(8, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = delete_quirky_teams(teams_sets, roster_recency, raw_teams_redirects)
-    print(9, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = remove_secondary_names(teams_sets, roster_recency)
-    print(10, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = resolve_renames(teams_sets)
-    print(11, "Evil Geniuses.NA" in teams_sets.keys())
     teams_sets = format_for_save(teams_sets, roster_recency)
     if write:
-        loc = write_to_json_file("data/cooked", "teams", teams_sets, format=False)
+        w_loc = write_loc if write_loc is not None else "data/cooked"
+        loc = write_to_json_file(w_loc, "teams", teams_sets, format=False)
         with open(loc, 'r+', encoding='utf-8') as f:
             saved_obj = json.load(f)
         return saved_obj

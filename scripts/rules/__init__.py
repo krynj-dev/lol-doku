@@ -3,3 +3,4 @@ from .championplayer_rules import *
 from .country_rules import *
 from .rule_crosses import *
 from .worlds_finalist_rules import *
+from .misc_rules import *

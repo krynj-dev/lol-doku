@@ -1,16 +1,20 @@
-import json
-from shared.util import write_to_json_file, get_team_key, get_player_key
+import json, time
+from shared.util import write_to_json_file, get_team_key_cached, get_player_key_cached
 
+## THIS BOTTLENECK MUST BE FIXED
 def create_team_teammate_role_rules(cooked_teams: dict, cooked_players: dict, raw_rosters: list, write=True):
     team_rules = {}
     teammate_rules = {}
     role_rules = {}
     player_roles = ["Top", "Jungle", "Mid", "Bot", "Support"]
+    p_cache = {}
+    t_cache = {}
     roster_no = 0
+    bm = []
     for roster in raw_rosters:
         roster_no += 1
         print(f"\rRoster {roster_no}/{len(raw_rosters)}", sep=' ', end='', flush=True)
-        team_key = get_team_key(cooked_teams, roster["Team"])
+        team_key = get_team_key_cached(cooked_teams, roster["Team"], t_cache)
         if roster["Roles"] is None or roster["RosterLinks"] is None or len(roster["Roles"]) != len(roster["RosterLinks"]):
             continue
         if team_key is not None:
@@ -24,7 +28,7 @@ def create_team_teammate_role_rules(cooked_teams: dict, cooked_players: dict, ra
 
         for i in range(len(roster["RosterLinks"])):
             player_name = roster["RosterLinks"][i]
-            player_key = get_player_key(cooked_players, player_name)
+            player_key = get_player_key_cached(cooked_players, player_name, p_cache)
             if player_key is None:
                 continue
             for role in roster["Roles"][i].split(','):
@@ -74,7 +78,7 @@ def create_team_teammate_role_rules(cooked_teams: dict, cooked_players: dict, ra
                         "exclusive_crosses": set()
                     }
                 teammate_rules[player_key]["valid_players"] |= set(
-                    [get_player_key(cooked_players, roster["RosterLinks"][i]) for i in range(len(roster["RosterLinks"])) if roster["Roles"][i] in player_roles and player_name != roster["RosterLinks"][i] and get_player_key(cooked_players, roster["RosterLinks"][i]) is not None]
+                    [get_player_key_cached(cooked_players, roster["RosterLinks"][i], p_cache) for i in range(len(roster["RosterLinks"])) if roster["Roles"][i] in player_roles and player_name != roster["RosterLinks"][i] and get_player_key_cached(cooked_players, roster["RosterLinks"][i], p_cache) is not None]
                     )
                 teammate_rules[player_key]["regions"] |= player_regions
     if write:

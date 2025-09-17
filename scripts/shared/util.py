@@ -72,6 +72,20 @@ def get_player_key(cooked_players, player_name):
     else:
         return keys[0]
 
+def get_player_key_cached(cooked_players: dict, player_name: str, cache: dict):
+    if player_name in cache:
+        return cache[player_name]
+    res = get_player_key(cooked_players, player_name)
+    cache[player_name] = res
+    return res
+
+def get_team_key_cached(cooked_teams: dict, team_name: str, cache: dict):
+    if team_name in cache:
+        return cache[team_name]
+    res = get_team_key(cooked_teams, team_name)
+    cache[team_name] = res
+    return res
+
 def format_raw_data(objects, delimit=False, list_delimiter=',', list_fields=[]):
     res_copy = []
     for obj in objects:

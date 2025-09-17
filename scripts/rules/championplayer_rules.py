@@ -14,8 +14,8 @@ def create_champion_rules(cooked_players: dict, raw_player_champions: list, writ
                 cumulative_counts[player_key][champion_key] = 0
             cumulative_counts[player_key][champion_key] += int(player_champ["GameCount"])
             # Add to rules
-            champ_40_key = f"{champion_key} 40+"
-            if cumulative_counts[player_key][champion_key] >= 40:
+            champ_40_key = f"{champion_key} 25+"
+            if cumulative_counts[player_key][champion_key] >= 25:
                 if champ_40_key not in champion_rules.keys():
                     champion_rules[champ_40_key] = {
                         "key": champ_40_key,

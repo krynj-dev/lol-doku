@@ -2,8 +2,8 @@ import json, html
 from shared import read_all_from_table, write_to_json_file, format_raw_data
 from mwrogue.esports_client import EsportsClient
 
-def get_players(site: EsportsClient, names_to_get: list, write=True):
-    where = "" if names_to_get is None else "PR.AllName IN ({name_str})".format(','.join([f"'{n}'" for n in names_to_get]))
+def get_players(site: EsportsClient, names_to_get: list, write=True, write_loc=None):
+    where = "" if names_to_get is None else "PR.AllName IN ({})".format(','.join([f"'{n}'" for n in names_to_get]))
     responses = read_all_from_table(
         site=site,
         tables="Players=P, PlayerRedirects=PR",
@@ -12,7 +12,8 @@ def get_players(site: EsportsClient, names_to_get: list, write=True):
         where=where
     )
     if write:
-        loc = write_to_json_file("data/raw", "raw_players", responses, delimit=True, list_delimiter='\n')
+        dest = "data/raw" if write_loc is None else write_loc
+        loc = write_to_json_file(dest, "raw_players", responses, delimit=True, list_delimiter='\n')
         with open(loc, 'r+', encoding='utf-8') as f:
             saved_obj = json.load(f)
         return saved_obj
@@ -40,12 +41,12 @@ def get_players_champs(site: EsportsClient, champions_to_get: list, names_to_get
         c = chr(i)
         responses = read_all_from_table(
             site=site,
-            tables="ScoreboardGames=SG,Tournaments=To, ScoreboardPlayers=SP, PlayerRedirects=PR, TeamRedirects=TRed, Players=P",
-            join_on="SG.GameId=SP.GameId, To.OverviewPage=SG.OverviewPage, SP.Link=PR.AllName, SP.Team=TRed.AllName, PR.OverviewPage=P.OverviewPage",
+            tables="Tournaments=To, ScoreboardPlayers=SP, PlayerRedirects=PR,Players=P",
+            join_on="To.OverviewPage=SP.OverviewPage, SP.Link=PR.AllName, PR.OverviewPage=P.OverviewPage",
             fields="P.OverviewPage, SP.Champion, To.TournamentLevel, COUNT(SP.Champion)=GameCount, SP.Link",
             group_by="SP.Champion, To.TournamentLevel, PR.OverviewPage, SP.Link",
             where=f"To.TournamentLevel='Primary' AND SP.Champion LIKE '{c}%'",
-            having="COUNT(SP.Champion)>=40",
+            having="COUNT(SP.Champion)>=25",
             display_progress=False
         )
         all_responses += responses
@@ -55,4 +56,23 @@ def get_players_champs(site: EsportsClient, champions_to_get: list, names_to_get
             saved_obj = json.load(f)
         return saved_obj
     else:
-        return format_raw_data(responses)
+        return format_raw_data(all_responses)
+
+def get_pentakills(site: EsportsClient, levels=['Primary'], write=True, write_loc=None):
+    responses = read_all_from_table(
+        site=site,
+        tables="Pentakills=P, Tournaments=T",
+        join_on="P.OverviewPage=T.OverviewPage",
+        fields="P.Name, P.Link, T.OverviewPage, T.TournamentLevel, COUNT(P.Link)",
+        where="T.TournamentLevel IN ({})".format(', '.join([f"'{l}'" for l in levels])),
+        group_by="P.Link"
+        # having="COUNT(P.Link)>2"
+    )
+    if write:
+        dest = "data/raw" if write_loc is None else write_loc
+        loc = write_to_json_file(dest, "raw_pentas", responses, delimit=True, list_delimiter='\n')
+        with open(loc, 'r+', encoding='utf-8') as f:
+            saved_obj = json.load(f)
+        return saved_obj
+    else:
+        return format_raw_data(responses, True, '\n')

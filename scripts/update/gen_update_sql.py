@@ -22,6 +22,25 @@ def parse_varchar(val, allow_blank=False):
     new_val = new_val.replace('\'', '\'\'')
     return f"'{new_val}'"
 
+def parse_bool(val: bool):
+    if val:
+        return "TRUE"
+    else:
+        return "FALSE"
+
+def parse_varchar_with_blank(val):
+    return parse_varchar(val, True)
+
+_parse_map_player = {
+    "age": parse_int,
+    "active": parse_bool
+}
+
+def get_parse_func(key: str):
+    if key in _parse_map_player:
+        return _parse_map_player[key]
+    return parse_varchar_with_blank
+
 def generate_players_sql_new(new_players: dict, old_players: dict):
     migrate_sql = """BEGIN;
 -- Update metadata --
@@ -69,8 +88,10 @@ COMMIT;"""
     for k,v in updated_players.items():
         updating_fields = {(a, "real_name")[a=="name"]:b for a,b in v.items() if a != "alternate_names"}
         if len(updating_fields) > 0:
-            set_sql = ["{field}={value}".format(field=k, value=parse_varchar(v, True)) if k != "age" else "{field}={value}".format(field=k, value=parse_int(v)) for k,v in updating_fields.items()]
-            unset_sql = ["{field}={value}".format(field=a, value=parse_varchar(old_players[k][(a, "name")[a=="real_name"]], True)) if a != "age" else "{field}={value}".format(field=a, value=parse_int(old_players[k][a])) for a,_ in updating_fields.items()]
+            # set_sql = ["{field}={value}".format(field=k, value=parse_varchar(v, True)) if k != "age" else "{field}={value}".format(field=k, value=parse_int(v)) for k,v in updating_fields.items()]
+            # unset_sql = ["{field}={value}".format(field=a, value=parse_varchar(old_players[k][(a, "name")[a=="real_name"]], True)) if a != "age" else "{field}={value}".format(field=a, value=parse_int(old_players[k][a])) for a,_ in updating_fields.items()]
+            set_sql = ["{field}={value}".format(field=k, value=get_parse_func(k)(v)) for k,v in updating_fields.items()]
+            unset_sql = ["{field}={value}".format(field=a, value=get_parse_func(a)(old_players[k][(a, "name")[a=="real_name"]])) for a,_ in updating_fields.items()]
             updates.append(update_sql.format(
                 changes=', '.join(set_sql), old_key=parse_varchar(k)
             ))
@@ -112,15 +133,23 @@ INSERT INTO teams_teamalternatename (alternate_name, team_op_id) VALUES
 -- Inserting all new sister teams --
 INSERT INTO teams_teamsisterteam (sister_team_name, team_op_id) VALUES
 {sql_sister_teams};
--- Deactivate redendant teams
+-- Deactivate redundant teams
 UPDATE teams_team SET active=FALSE WHERE op in (
 {sql_deactivate}
+);
+-- Reactivate readded teams
+UPDATE teams_team SET active=TRUE WHERE op in (
+{sql_reactivate}
 );
 COMMIT;"""
     restore_sql = """BEGIN;
 -- Restore metadata --
 DELETE FROM meta_dataupdate WHERE id in (SELECT id FROM meta_dataupdate WHERE app='teams' ORDER BY date DESC LIMIT 1);
--- Reactivate redendant teams
+-- Deactivate readded teams
+UPDATE teams_team SET active=FALSE WHERE op in (
+{sql_deactivate}
+);
+-- Reactivate redundant teams
 UPDATE teams_team SET active=TRUE WHERE op in (
 {sql_reactivate}
 );
@@ -154,25 +183,29 @@ COMMIT;"""
     sql_adds = ",\n".join(insertions)
     sql_removes = ',\n'.join([parse_varchar(k) for k in added_teams.keys()])
     ## Prepare sql_updates
+    reactivated = set()
     updated_teams: dict = new_teams["evo"]
     update_sql = "UPDATE teams_team SET {changes} WHERE op={old_key};"
     updates = []
     downdates = []
     for k,v in updated_teams.items():
-        updating_fields = {a:b for a,b in v.items() if a not in ["other_names", "sister_teams"]}
+        key_to_be = k if "op" not in v else v["op"]
+        updating_fields = {a:b for a,b in v.items() if a not in ["other_names", "sister_teams", "active"]}
         if len(updating_fields) > 0:
-            set_sql = ["{field}={value}".format(field=a, value=parse_varchar(b, True)) for a,b in updating_fields.items()]
-            unset_sql = ["{field}={value}".format(field=a, value=parse_varchar(old_teams[k][a], True)) for a,_ in updating_fields.items()]
+            set_sql = ["{field}={value}".format(field=a, value=get_parse_func(a)(b)) for a,b in updating_fields.items()]
+            unset_sql = ["{field}={value}".format(field=a, value=get_parse_func(a)(old_teams[k][a])) for a,_ in updating_fields.items()]
             updates.append(update_sql.format(
                 changes=', '.join(set_sql), old_key=parse_varchar(k)
             ))
             downdates.append(update_sql.format(
-                changes=', '.join(unset_sql), old_key=parse_varchar(k if "op" not in v else v["op"])
+                changes=', '.join(unset_sql), old_key=parse_varchar(key_to_be)
             ))
         if "other_names" in v:
-            alt_names[k if "op" not in v else v["op"]] = v["other_names"]
+            alt_names[key_to_be] = v["other_names"]
         if "sister_teams" in v:
-            sister_teams[k if "op" not in v else v["op"]] = v["sister_teams"]
+            sister_teams[key_to_be] = v["sister_teams"]
+        if "active" in v and v["active"]:
+            reactivated.add(key_to_be)
     sql_updates = "\n".join(updates)
     sql_downdates = "\n".join(downdates)
     ## Prepare sql_alt_names
@@ -205,11 +238,12 @@ COMMIT;"""
     removed_teams = ""
     if "rem" in new_teams:
         removed_teams = ",\n".join([parse_varchar(k) for k in new_teams["rem"]])
+    readded_teams = ",\n".join([parse_varchar(k) for k in reactivated])
     
     return (migrate_sql.format(sql_adds=sql_adds, sql_updates=sql_updates, sql_alt_names=sql_alt_names,
-    date=parse_varchar(datetime.now().strftime("%Y-%m-%d")), sql_sister_teams=sql_sister_teams, sql_deactivate=removed_teams),
+    date=parse_varchar(datetime.now().strftime("%Y-%m-%d")), sql_sister_teams=sql_sister_teams, sql_deactivate=removed_teams, sql_reactivate=readded_teams),
         restore_sql.format(sql_removes=sql_removes, sql_downdates=sql_downdates,
-        sql_alt_names=sql_del_names, sql_del_sisters=sql_del_sisters, sql_reactivate=removed_teams))
+        sql_alt_names=sql_del_names, sql_del_sisters=sql_del_sisters, sql_reactivate=removed_teams, sql_deactivate=readded_teams))
 
 def generate_rules_sql(new_rules: dict, old_rules: dict):
     migrate_sql = """BEGIN;
@@ -223,14 +257,22 @@ INSERT INTO rules_rule (key, rule_type) VALUES
 -- Inserting all new valid players --
 INSERT INTO rules_rule_valid_players (player_id, rule_id) VALUES
 {sql_alt_names};
--- Deactivate redendant teams
+-- Deactivate redundant teams
 UPDATE rules_rule SET active=FALSE WHERE key in (
 {sql_deactivate}
+);
+-- Reactivate readded teams
+UPDATE rules_rule SET active=TRUE WHERE key in (
+{sql_reactivate}
 );
 COMMIT;"""
     restore_sql = """BEGIN;
 -- Restore metadata --
 DELETE FROM meta_dataupdate WHERE id in (SELECT id FROM meta_dataupdate WHERE app='rules' ORDER BY date DESC LIMIT 1);
+-- Deactivate teams
+UPDATE rules_rule SET active=FALSE WHERE key in (
+{sql_deactivate}
+);
 -- Reactivate teams --
 UPDATE rules_rule SET active=TRUE WHERE key in (
 {sql_reactivate}
@@ -259,23 +301,27 @@ COMMIT;"""
     sql_adds = ",\n".join(insertions)
     sql_removes = ',\n'.join([parse_varchar(k) for k in added_rules.keys()])
     ## Prepare sql_updates
+    readded_rules = set()
     updated_rules: dict = new_rules["evo"]
     update_sql = "UPDATE rules_rule SET {changes} WHERE key={old_key};"
     updates = []
     downdates = []
     for k,v in updated_rules.items():
-        updating_fields = {a:b for a,b in v.items() if a not in ["exclusive_crosses", "valid_players"]}
+        key_to_be = k if "key" not in v else v["key"]
+        updating_fields = {a:b for a,b in v.items() if a not in ["exclusive_crosses", "valid_players", "active"]}
         if len(updating_fields) > 0:
-            set_sql = ["{field}={value}".format(field=k, value=parse_varchar(v, True)) for k,v in updating_fields.items()]
-            unset_sql = ["{field}={value}".format(field=a, value=parse_varchar(old_rules[k][a], True)) for a,_ in updating_fields.items()]
+            set_sql = ["{field}={value}".format(field=k, value=get_parse_func(k)(v)) for k,v in updating_fields.items()]
+            unset_sql = ["{field}={value}".format(field=a, value=get_parse_func(a)(old_rules[k][a])) for a,_ in updating_fields.items()]
             updates.append(update_sql.format(
                 changes=', '.join(set_sql), old_key=parse_varchar(k)
             ))
             downdates.append(update_sql.format(
-                changes=', '.join(unset_sql), old_key=parse_varchar(k if "key" not in v else v["key"])
+                changes=', '.join(unset_sql), old_key=parse_varchar(key_to_be)
             ))
         if "valid_players" in v:
-            valid_players[k if "key" not in v else v["key"]] = v["valid_players"]
+            valid_players[key_to_be] = v["valid_players"]
+        if "active" in v:
+            readded_rules.add(key_to_be)
     sql_updates = "\n".join(updates)
     sql_downdates = "\n".join(downdates)
     ## Prepare valid players
@@ -296,18 +342,20 @@ COMMIT;"""
     removed_rules = ""
     if "rem" in new_rules:
         removed_rules = ",\n".join([parse_varchar(k) for k in new_rules["rem"]])
+    readd_rules = ",\n".join([parse_varchar(k) for k in readded_rules])
     
     return (migrate_sql.format(sql_adds=sql_adds, sql_updates=sql_updates, sql_alt_names=sql_alt_names,
-    date=parse_varchar(datetime.now().strftime("%Y-%m-%d")), sql_deactivate=removed_rules),
+    date=parse_varchar(datetime.now().strftime("%Y-%m-%d")), sql_deactivate=removed_rules, sql_reactivate=readd_rules),
         restore_sql.format(sql_removes=sql_removes, sql_downdates=sql_downdates,
-        sql_alt_names=sql_del_names, sql_del_players=sql_del_names, sql_reactivate=removed_rules))
+        sql_alt_names=sql_del_names, sql_del_players=sql_del_names, sql_reactivate=removed_rules, sql_deactivate=readd_rules))
 
 def generate_update_sql():
     ## Read in existing files
     time_path = datetime.strftime(datetime.now()-timedelta(days=0), "%Y-%m-%d")
     # Load old data
-    old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules, old_worlds_participants_rules, old_countries_rules, old_champion_rules = load_most_recent_data(1)
-    old_rules = old_team_rules | old_teammates_rules | old_roles_rules | old_finalists_rules | old_worlds_participants_rules | old_countries_rules | old_champion_rules
+    (old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules,
+        old_worlds_participants_rules, old_countries_rules, old_champion_rules, old_pentakill_rules, old_winner_rules) = load_most_recent_data(1)
+    old_rules = old_team_rules | old_teammates_rules | old_roles_rules | old_finalists_rules | old_worlds_participants_rules | old_countries_rules | old_champion_rules | old_pentakill_rules | old_winner_rules
     ## Read in update files
     with open(f"data/{time_path}/cooked/players.json", "r+", encoding='utf-8') as f:
         new_players = json.load(f)
@@ -325,11 +373,20 @@ def generate_update_sql():
         rules_finalists = json.load(f)
     with open(f"data/{time_path}/rules/worlds_participants.json", "r+", encoding='utf-8') as f:
         rules_worlds_participants = json.load(f)
+    with open(f"data/{time_path}/rules/champion_counts.json", "r+", encoding='utf-8') as f:
+        rules_champions = json.load(f)
+    with open(f"data/{time_path}/rules/pentakills.json", "r+", encoding='utf-8') as f:
+        rules_pentakills = json.load(f)
+    with open(f"data/{time_path}/rules/winners.json", "r+", encoding='utf-8') as f:
+        rules_league_winners = json.load(f)
     
     new_rules = {
-        "add": rules_teams["add"] | rules_teammates["add"] | rules_roles["add"] | rules_countries["add"] | rules_finalists["add"] | rules_worlds_participants["add"],
-        "evo": rules_teams["evo"] | rules_teammates["evo"] | rules_roles["evo"] | rules_countries["evo"] | rules_finalists["evo"] | rules_worlds_participants["evo"],
-        "rem": rules_teams["rem"] + rules_teammates["rem"] + rules_roles["rem"] + rules_countries["rem"] + rules_finalists["rem"] + rules_worlds_participants["rem"],
+        "add": rules_teams["add"] | rules_teammates["add"] | rules_roles["add"] |rules_countries["add"] |
+            rules_finalists["add"] | rules_worlds_participants["add"] | rules_champions["add"] | rules_pentakills["add"] | rules_league_winners["add"],
+        "evo": rules_teams["evo"] | rules_teammates["evo"] | rules_roles["evo"] | rules_countries["evo"] |
+            rules_finalists["evo"] | rules_worlds_participants["evo"] | rules_champions["evo"] | rules_pentakills["evo"] | rules_league_winners["evo"],
+        "rem": rules_teams["rem"] + rules_teammates["rem"] + rules_roles["rem"] + rules_countries["rem"] + rules_finalists["rem"] +
+            rules_worlds_participants["rem"] + rules_champions["rem"] + rules_pentakills["rem"] + rules_league_winners["rem"], 
         }
     
     os.makedirs(f"data/{time_path}/scripts", exist_ok=True)
