@@ -51,15 +51,27 @@ INSERT INTO players_player (display_name, real_name, age, country, residency) VA
 -- Updating players --
 {sql_updates}
 -- Inserting all new alternate names --
-INSERT INTO players_playeralternatename (alternate_name, player_name_id) VALUES
-{sql_alt_names};
+INSERT INTO players_playeralternatename (alternate_name, player_name_id)
+SELECT v.alt, p.id
+FROM players_player p
+JOIN (
+    VALUES
+        {sql_alt_names}
+) AS v(alt, display_name)
+  ON p.display_name = v.display_name;
 COMMIT;"""
     restore_sql = """BEGIN;
 -- Restore metadata --
 DELETE FROM meta_dataupdate WHERE id in (SELECT id FROM meta_dataupdate WHERE app='players' ORDER BY date DESC LIMIT 1);
 -- Removing all new alternate names --
-DELETE FROM players_playeralternatename WHERE id in (SELECT id FROM players_playeralternatename WHERE (
-{sql_alt_names}));
+DELETE FROM players_playeralternatename pa
+USING players_player p,
+     (VALUES
+        {sql_alt_names}
+     ) AS v(display_name, alt)
+WHERE pa.alternate_name = v.alt
+  AND p.display_name = v.display_name
+  AND pa.player_name_id = p.id;
 -- Downdating players --
 {sql_downdates}
 -- Removing new players --
@@ -75,9 +87,9 @@ COMMIT;"""
     insertions = []
     for k,v in added_players.items():
         insertions.append(insertion_sql.format(
-            parse_varchar(k), parse_varchar(v["name"]), parse_int(v["age"]), parse_varchar(v["country"], True), parse_varchar(v["residency"], True)
+            parse_varchar(k), parse_varchar(v["name"], True), parse_int(v["age"]), parse_varchar(v["country"], True), parse_varchar(v["residency"], True)
         ))
-        alt_names[k] = v["alternate_names"]
+        alt_names[k] = set(v["alternate_names"])
     sql_adds = ",\n".join(insertions)
     sql_removes = ',\n'.join([parse_varchar(k) for k in added_players.keys()])
     ## Prepare sql_updates
@@ -99,22 +111,20 @@ COMMIT;"""
                 changes=', '.join(unset_sql), old_key=parse_varchar(k if "display_name" not in v else v["display_name"])
             ))
         if "alternate_names" in v:
-            alt_names[k if "display_name" not in v else v["display_name"]] = v["alternate_names"]
+            alt_names[k if "display_name" not in v else v["display_name"]] = set(v["alternate_names"])
     sql_updates = "\n".join(updates)
     sql_downdates = "\n".join(downdates)
     ## Prepare sql_alt_names
-    name_insertion_sql = "({alt_name}, (SELECT id FROM players_player WHERE display_name={main_key}))"
-    name_deletion_sql = "(player_name_id=(SELECT id FROM players_player WHERE display_name={main_key}) AND alternate_name IN ({alt_names}))"
+    name_insertion_sql = "({alt_name}, {main_key})"
+    name_deletion_sql = "({main_key},{alt_name})"
     new_names = []
     del_names = []
     for k,v in alt_names.items():
         for n in v:
             new_names.append(name_insertion_sql.format(alt_name=parse_varchar(n), main_key=parse_varchar(k)))
-        del_names.append(name_deletion_sql.format(main_key=parse_varchar(k), alt_names=", ".join([
-            parse_varchar(n) for n in v
-        ])))
+            del_names.append(name_deletion_sql.format(alt_name=parse_varchar(n), main_key=parse_varchar(k)))
     sql_alt_names = ",\n".join(new_names)
-    sql_del_names = " OR\n".join(del_names)
+    sql_del_names = ",\n".join(del_names)
     return (migrate_sql.format(sql_adds=sql_adds, sql_updates=sql_updates, sql_alt_names=sql_alt_names, date=parse_varchar(datetime.now().strftime("%Y-%m-%d"))),
         restore_sql.format(sql_removes=sql_removes, sql_downdates=sql_downdates, sql_alt_names=sql_del_names))
 
@@ -255,8 +265,14 @@ INSERT INTO rules_rule (key, rule_type) VALUES
 -- Updating rules --
 {sql_updates}
 -- Inserting all new valid players --
-INSERT INTO rules_rule_valid_players (player_id, rule_id) VALUES
-{sql_alt_names};
+INSERT INTO rules_rule_valid_players (player_id, rule_id) 
+SELECT p.id, r.id
+FROM (
+    VALUES
+    {sql_alt_names}
+)AS v(display_name, rule_key)
+JOIN players_player p ON p.display_name = v.display_name
+JOIN rules_rule r ON r.key = v.rule_key;
 -- Deactivate redundant teams
 UPDATE rules_rule SET active=FALSE WHERE key in (
 {sql_deactivate}
@@ -278,8 +294,15 @@ UPDATE rules_rule SET active=TRUE WHERE key in (
 {sql_reactivate}
 );
 -- Delete all new valid players --
-DELETE FROM rules_rule_valid_players WHERE id in (SELECT id FROM rules_rule_valid_players WHERE (
-{sql_del_players}));
+DELETE FROM rules_rule_valid_players rp
+USING (
+    VALUES
+        {sql_del_players}
+) AS v(rule_key, display_name)
+JOIN rules_rule r ON r.key = v.rule_key
+JOIN players_player p ON p.display_name = v.display_name
+WHERE rp.rule_id = r.id
+  AND rp.player_id = p.id;
 -- Downdate rules --
 {sql_downdates}
 -- Remove new rules --
@@ -325,19 +348,16 @@ COMMIT;"""
     sql_updates = "\n".join(updates)
     sql_downdates = "\n".join(downdates)
     ## Prepare valid players
-    player_insertion_sql = "((SELECT id FROM players_player WHERE display_name={player_name}), (SELECT id FROM rules_rule WHERE key={rule_key}))"
-    player_deletion_sql = "(rule_id=(SELECT id FROM rules_rule WHERE key={rule_key}) AND player_id IN (SELECT id FROM players_player WHERE display_name IN ({player_names})))"
+    player_insertion_sql = "({player_name}, {rule_key})"
+    player_deletion_sql = "({rule_key}, {player_name})"
     new_players = []
     del_players = []
     for k,v in valid_players.items():
         for n in v:
             new_players.append(player_insertion_sql.format(player_name=parse_varchar(n), rule_key=parse_varchar(k)))
-        if len(v) > 0:
-            del_players.append(player_deletion_sql.format(rule_key=parse_varchar(k), player_names=", ".join([
-                parse_varchar(n) for n in v
-            ])))
+            del_players.append(player_deletion_sql.format(player_name=parse_varchar(n), rule_key=parse_varchar(k)))
     sql_alt_names = ",\n".join(new_players)
-    sql_del_names = " OR\n".join(del_players)
+    sql_del_names = ",\n".join(del_players)
     ## Prepare deactivations
     removed_rules = ""
     if "rem" in new_rules:

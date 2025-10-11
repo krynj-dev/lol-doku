@@ -36,18 +36,21 @@ def get_fresh_players_data(site: EsportsClient, rosters):
             for plr in players:
                 player_set.add(plr)
 
-    players = get_players(site, player_set, write=False) #2
-
+    players = get_players(site, None, write=False) #2
     # player_imgs = get_player_image_urls(site, None, write=False) # 2.1
 
 
     # link_count = Counter([k["Link"] for k in player_imgs])
     player_imgs = {}
 
-    # champions = get_champions(site, False) #2.5
-    champions = {}
+    champions = get_champions(site, False) #2.5
+    # champions = {}
 
-    champ_players = get_players_champs(site, champions, list(player_set), write=False) #3
+    s = time.perf_counter()
+    # champ_players = get_players_champs(site, champions, list(player_set), write=False) #3
+    champ_players = get_champ_counts_mp(site, champions, list(player_set), write=False) #3
+    e = time.perf_counter()
+    print(f"Time to get champs: {(e-s)}")
     # champ_players = {}
 
     return players, champions, champ_players, player_imgs
@@ -395,8 +398,8 @@ def load_most_recent_data(strip:int = 0):
         ("/rules/worlds_participants.json", worlds_participants_rules),
         ("/rules/countries.json", countries_rules),
         ("/rules/pentakills.json", pentakill_rules),
-        ("/rules/winners.json", pentakill_rules),
-        # ("/rules/champion_counts.json", champion_rules),
+        ("/rules/winners.json", league_winner_rules),
+        ("/rules/champion_counts.json", champion_rules),
         ]
     for dirpath in list_subfolders_with_paths[:len(list_subfolders_with_paths)-strip]:
         print(f"Applying update {dirpath}")
@@ -416,37 +419,70 @@ def load_most_recent_data(strip:int = 0):
                 apply_update(b, update, plr_update)
             except FileNotFoundError:
                 pass
+        pass
     # Update player names
 
     return teams, players, team_rules, teammates_rules, roles_rules, finalists_rules, worlds_participants_rules, countries_rules, champion_rules, pentakill_rules, league_winner_rules
 
 def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().year-1, 1, 1)):
     time_path = dt.datetime.strftime(dt.datetime.now(), "%Y-%m-%d")
+    sa = timelib.perf_counter()
     # Load old data
+    timer = timelib.perf_counter()
     (old_teams, old_players, old_team_rules, old_teammates_rules, old_roles_rules, old_finalists_rules,
         old_worlds_participants_rules, old_countries_rules, old_champion_rules, old_pentakill_rules, old_winner_rules) = load_most_recent_data()
+    print(f"Time to load existing data: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     ## Grab rosters
-    all_rosters = get_rosters(site, write=True, write_loc=f"data/{time_path}/raw", levels=['Primary'])
+    all_rosters = get_rosters(site, write=True, write_loc=f"data/{time_path}/raw", levels=['Primary', 'Secondary'])
+    print(f"Time to get rosters: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     ## Grab new teams data
     players, champs, champ_players, urls = get_fresh_players_data(site, all_rosters)
+    print(f"Time to get players: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     sister_teams, teams, team_redirects, team_renames = get_fresh_teams_data(site, time)
+    print(f"Time to get teams: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     new_teams = cook_teams_data(teams, sister_teams, team_renames, team_redirects, all_rosters, write=False)
+    print(f"Time to cook teams: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     team_adds, team_evos, team_rems = compare_teams_new(old_teams, new_teams)
+    print(f"Time to compare teams: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     ## Grab new players data
     new_players = cook_players_data(site, players, [], write=False)
+    print(f"Time to cook players: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     player_adds, player_evos, player_rems = compare_players(old_players, new_players)
+    print(f"Time to compare players: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     ## Grab tournament results
     new_tournament_results = get_all_tournament_results(site, write=True, write_loc=f"data/{time_path}/raw")
+    print(f"Time to get tournament results: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     ## Grab new data
     pentakills = get_pentakills(site, write=True, write_loc=f"data/{time_path}/raw")
+    print(f"Time to get pentakills: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     ##### RULES ######
     ## Create new rules
-    new_rosters = [r for r in all_rosters if r["TournamentLevel"] == 'Primary']
+    # new_rosters = [r for r in all_rosters if r["TournamentLevel"] == 'Primary']
     new_tournament_results_rules = create_league_finalist_rules(new_players, new_tournament_results, write=False)
+    print(f"Time to make tournament rules: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     new_countries_rules = create_country_rules(new_players, write=False)
+    print(f"Time to make country rules: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     new_champions_rules = create_champion_rules(new_players, champ_players, write=False)
+    print(f"Time to make champion rules: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     new_pentakill_rules = create_pentakill_rules(new_players, pentakills, write=False)
-    new_team_rules, new_teammate_rules, new_role_rules = create_team_teammate_role_rules(new_teams, new_players, new_rosters, write=False)
+    print(f"Time to make pentakill rules: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
+    new_team_rules, new_teammate_rules, new_role_rules = create_team_teammate_role_rules_mp(new_teams, new_players, all_rosters, write=False)
+    print(f"Time to process rosters: {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
     ## Generate rule update files
     team_rule_adds, team_rule_evos, team_rule_rems = compare_rules(old_team_rules, new_team_rules, player_evos, compare_key=get_team_key_compare(new_teams, team_evos, team_rems))
     teammate_rule_adds, teammate_rule_evos, teammate_rule_rems = compare_rules(old_teammates_rules, new_teammate_rules, player_evos, compare_key=get_player_key_compare(new_players, player_evos, player_rems))
@@ -459,6 +495,10 @@ def perform_data_update(site: EsportsClient, time=dt.datetime(dt.datetime.now().
     countries_rule_adds, countries_rule_evos, countries_rule_rems = compare_rules_new(old_countries_rules, new_countries_rules, player_evos)
     champions_rule_adds, champions_rule_evos, champions_rule_rems = compare_rules_new(old_champion_rules, new_champions_rules, player_evos, compare_remove_old)
     pentakill_rule_adds, pentakill_rule_evos, pentakill_rule_rems = compare_rules_new(old_pentakill_rules, new_pentakill_rules, player_evos, compare_remove_old)
+    print(f"Time to make comparison objects (all): {(timelib.perf_counter()-timer)}")
+    timer = timelib.perf_counter()
+    ea = timelib.perf_counter()
+    print(f"Time to process all data: {(ea-sa)}")
     ## Save update files
     write_to_json_file(f"data/{time_path}/cooked", "players", {
         "add": player_adds,

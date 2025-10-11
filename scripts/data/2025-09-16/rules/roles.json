@@ -1,0 +1,63 @@
+{
+    "add": {},
+    "evo": {
+        "Bot": {
+            "valid_players": [
+                "SPOILER",
+                "Keduii",
+                "Lotus (Mihir Ranjan)",
+                "Smash (Shin Geum-jae)",
+                "Rabelo",
+                "Pillow (Nutthanon Bumrungchawkasem)",
+                "Rowlio"
+            ]
+        },
+        "Jungle": {
+            "valid_players": [
+                "DOOM",
+                "Thayger",
+                "Boukada",
+                "Yuuji",
+                "Infi",
+                "Ankorr",
+                "Gryffinn",
+                "Fready"
+            ]
+        },
+        "Mid": {
+            "valid_players": [
+                "Mago",
+                "Neulguri",
+                "Nervarien",
+                "Dioge (Diogenes Barbosa)",
+                "Kat Bot",
+                "DARKWINGS"
+            ]
+        },
+        "Support": {
+            "valid_players": [
+                "NicoThePico",
+                "Gos",
+                "Malrang",
+                "Tibbers",
+                "It Yummy",
+                "Parukia",
+                "Nisqy"
+            ]
+        },
+        "Top": {
+            "valid_players": [
+                "Zamudo",
+                "Cruise",
+                "Rod",
+                "Nackbkk",
+                "TurtleGG",
+                "Bejjaniii",
+                "Curty",
+                "Pillow (Nutthanon Bumrungchawkasem)",
+                "Gakgos"
+            ]
+        }
+    },
+    "rem": []
+}

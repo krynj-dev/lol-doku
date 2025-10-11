@@ -1,0 +1,123 @@
+{
+    "add": {
+        "Mongolia": {
+            "exclusive_crosses": [],
+            "key": "Mongolia",
+            "regions": [
+                "World"
+            ],
+            "type": "country",
+            "valid_players": [
+                "Yuuji"
+            ]
+        }
+    },
+    "evo": {
+        "Argentina": {
+            "valid_players": [
+                "Tibbers"
+            ]
+        },
+        "Australia": {
+            "valid_players": [
+                "Yojin"
+            ]
+        },
+        "Brazil": {
+            "valid_players": [
+                "DOOM",
+                "Mago",
+                "Rabelo",
+                "Dioge (Diogenes Barbosa)",
+                "Curty"
+            ]
+        },
+        "Canada": {
+            "valid_players": [
+                "Zamudo"
+            ]
+        },
+        "Chile": {
+            "valid_players": [
+                "TurtleGG"
+            ]
+        },
+        "China": {
+            "valid_players": [
+                "Parukia"
+            ]
+        },
+        "France": {
+            "valid_players": [
+                "Boukada"
+            ]
+        },
+        "Germany": {
+            "valid_players": [
+                "Keduii"
+            ]
+        },
+        "India": {
+            "valid_players": [
+                "Infi",
+                "Kat Bot",
+                "Lotus (Mihir Ranjan)"
+            ]
+        },
+        "Norway": {
+            "valid_players": [
+                "NicoThePico"
+            ]
+        },
+        "Philippines": {
+            "valid_players": [
+                "Cruise"
+            ]
+        },
+        "Poland": {
+            "valid_players": [
+                "Nervarien"
+            ]
+        },
+        "South Korea": {
+            "valid_players": [
+                "Smash (Shin Geum-jae)"
+            ]
+        },
+        "Spain": {
+            "valid_players": [
+                "Thayger"
+            ]
+        },
+        "Thailand": {
+            "valid_players": [
+                "Neulguri",
+                "Nackbkk",
+                "It Yummy",
+                "Pillow (Nutthanon Bumrungchawkasem)",
+                "Fready"
+            ]
+        },
+        "Tunisia": {
+            "valid_players": [
+                "SPOILER"
+            ]
+        },
+        "Turkey": {
+            "valid_players": [
+                "Gakgos"
+            ]
+        },
+        "United States": {
+            "valid_players": [
+                "Gryffinn"
+            ]
+        },
+        "Venezuela": {
+            "valid_players": [
+                "Bejjaniii"
+            ]
+        }
+    },
+    "rem": []
+}

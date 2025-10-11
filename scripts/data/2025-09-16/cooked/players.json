@@ -1,0 +1,490 @@
+{
+    "add": {
+        "Bejjaniii": {
+            "age": "25",
+            "alternate_names": [
+                "Yayo"
+            ],
+            "country": "Venezuela",
+            "display_name": "Bejjaniii",
+            "image": "",
+            "name": "Gerardo&amp;nbsp;Andres Leon Bijani",
+            "residency": "Americas"
+        },
+        "Boukada": {
+            "age": "22",
+            "alternate_names": [
+                "Boukada"
+            ],
+            "country": "France",
+            "display_name": "Boukada",
+            "image": "",
+            "name": "Mehdi Lahlou",
+            "residency": "EMEA"
+        },
+        "Cruise": {
+            "age": "24",
+            "alternate_names": [
+                "Cruise"
+            ],
+            "country": "Philippines",
+            "display_name": "Cruise",
+            "image": "",
+            "name": "Cruise June S. Tilos",
+            "residency": "Asia Pacific"
+        },
+        "Curty": {
+            "age": "18",
+            "alternate_names": [
+                "Curty"
+            ],
+            "country": "Brazil",
+            "display_name": "Curty",
+            "image": "",
+            "name": "Pedro Curty",
+            "residency": "Americas"
+        },
+        "DARKWINGS": {
+            "age": "25",
+            "alternate_names": [
+                "DARKWINGS"
+            ],
+            "country": "",
+            "display_name": "DARKWINGS",
+            "image": "",
+            "name": "Isaac Chou",
+            "residency": "Americas"
+        },
+        "DOOM": {
+            "age": "20",
+            "alternate_names": [
+                "DOOM"
+            ],
+            "country": "Brazil",
+            "display_name": "DOOM",
+            "image": "",
+            "name": "Raí Yamada",
+            "residency": "Americas"
+        },
+        "Dioge (Diogenes Barbosa)": {
+            "age": "23",
+            "alternate_names": [
+                "Dioge (Diogenes Barbosa)"
+            ],
+            "country": "Brazil",
+            "display_name": "Dioge (Diogenes Barbosa)",
+            "image": "",
+            "name": "Diogenes Barbosa Bispo",
+            "residency": "Americas"
+        },
+        "Fready": {
+            "age": "",
+            "alternate_names": [
+                "Fready"
+            ],
+            "country": "Thailand",
+            "display_name": "Fready",
+            "image": "",
+            "name": "Thaikōe Chon",
+            "residency": "Asia Pacific"
+        },
+        "Gakgos": {
+            "age": "17",
+            "alternate_names": [
+                "Gakgos"
+            ],
+            "country": "Turkey",
+            "display_name": "Gakgos",
+            "image": "",
+            "name": "İbrahim Samet Bulut",
+            "residency": "EMEA"
+        },
+        "Gryffinn": {
+            "age": "18",
+            "alternate_names": [
+                "Gryffinn"
+            ],
+            "country": "United States",
+            "display_name": "Gryffinn",
+            "image": "",
+            "name": "Johnson Le",
+            "residency": "Americas"
+        },
+        "Infi": {
+            "age": "",
+            "alternate_names": [
+                "Infi"
+            ],
+            "country": "India",
+            "display_name": "Infi",
+            "image": "",
+            "name": "Aakash Shandilya",
+            "residency": "Asia Pacific"
+        },
+        "It Yummy": {
+            "age": "22",
+            "alternate_names": [
+                "It Yummy"
+            ],
+            "country": "Thailand",
+            "display_name": "It Yummy",
+            "image": "",
+            "name": "Phumiphat Boonta",
+            "residency": "Asia Pacific"
+        },
+        "Kat Bot": {
+            "age": "",
+            "alternate_names": [
+                "Katarina Bot"
+            ],
+            "country": "India",
+            "display_name": "Kat Bot",
+            "image": "",
+            "name": "Akshaj Shenoy",
+            "residency": "Asia Pacific"
+        },
+        "Keduii": {
+            "age": "24",
+            "alternate_names": [
+                "Keduii"
+            ],
+            "country": "Germany",
+            "display_name": "Keduii",
+            "image": "",
+            "name": "Tim Willers",
+            "residency": "EMEA"
+        },
+        "Lotus (Mihir Ranjan)": {
+            "age": "",
+            "alternate_names": [
+                "Lotus (Mihir Ranjan)"
+            ],
+            "country": "India",
+            "display_name": "Lotus (Mihir Ranjan)",
+            "image": "",
+            "name": "Mihir Ranjan",
+            "residency": "Asia Pacific"
+        },
+        "Mago": {
+            "age": "21",
+            "alternate_names": [
+                "Mago"
+            ],
+            "country": "Brazil",
+            "display_name": "Mago",
+            "image": "",
+            "name": "Jean&amp;nbsp;Carlo Dias",
+            "residency": "Americas"
+        },
+        "Nackbkk": {
+            "age": "",
+            "alternate_names": [
+                "Nackbkk"
+            ],
+            "country": "Thailand",
+            "display_name": "Nackbkk",
+            "image": "",
+            "name": "Pakorn Chantarakomol",
+            "residency": "Asia Pacific"
+        },
+        "Nervarien": {
+            "age": "",
+            "alternate_names": [
+                "Hrabia Nervarien"
+            ],
+            "country": "Poland",
+            "display_name": "Nervarien",
+            "image": "",
+            "name": "Damian Ziaja",
+            "residency": "EMEA"
+        },
+        "Neulguri": {
+            "age": "25",
+            "alternate_names": [
+                "Neulnnyr"
+            ],
+            "country": "Thailand",
+            "display_name": "Neulguri",
+            "image": "",
+            "name": "Chirapat Eyesong",
+            "residency": "Asia Pacific"
+        },
+        "NicoThePico": {
+            "age": "33",
+            "alternate_names": [
+                "NicoThePico"
+            ],
+            "country": "Norway",
+            "display_name": "NicoThePico",
+            "image": "NiP Nicothepico 2017 Summer.jpg",
+            "name": "Nicholas Korsgård",
+            "residency": "Europe"
+        },
+        "Parukia": {
+            "age": "18",
+            "alternate_names": [
+                "Parukia"
+            ],
+            "country": "China",
+            "display_name": "Parukia",
+            "image": "",
+            "name": "Wang Ping-Yang",
+            "residency": "China"
+        },
+        "Pillow (Nutthanon Bumrungchawkasem)": {
+            "age": "28",
+            "alternate_names": [
+                "Pillow (Nutthanon Bumrungchawkasem)"
+            ],
+            "country": "Thailand",
+            "display_name": "Pillow (Nutthanon Bumrungchawkasem)",
+            "image": "",
+            "name": "Nutthanon Wkasem Bumrungchawkasem",
+            "residency": "Asia Pacific"
+        },
+        "Rabelo": {
+            "age": "21",
+            "alternate_names": [
+                "Rabelo"
+            ],
+            "country": "Brazil",
+            "display_name": "Rabelo",
+            "image": "",
+            "name": "Guilherme Rabelo Muniz",
+            "residency": "Americas"
+        },
+        "SPOILER": {
+            "age": "22",
+            "alternate_names": [
+                "Man like spoiler"
+            ],
+            "country": "Tunisia",
+            "display_name": "SPOILER",
+            "image": "",
+            "name": "Meher Mchirghi",
+            "residency": "EMEA"
+        },
+        "Smash (Shin Geum-jae)": {
+            "age": "19",
+            "alternate_names": [
+                "Smash (Shin Geum-jae)"
+            ],
+            "country": "South Korea",
+            "display_name": "Smash (Shin Geum-jae)",
+            "image": "",
+            "name": "Shin Geum-jae",
+            "residency": "Korea"
+        },
+        "Thayger": {
+            "age": "23",
+            "alternate_names": [
+                "Thayger"
+            ],
+            "country": "Spain",
+            "display_name": "Thayger",
+            "image": "",
+            "name": "Francisco Mazo Sánchez",
+            "residency": "EMEA"
+        },
+        "Tibbers": {
+            "age": "",
+            "alternate_names": [
+                "Tibbers"
+            ],
+            "country": "Argentina",
+            "display_name": "Tibbers",
+            "image": "",
+            "name": "Thomas Hulton",
+            "residency": "LAS"
+        },
+        "TurtleGG": {
+            "age": "",
+            "alternate_names": [
+                "Tortugacrack"
+            ],
+            "country": "Chile",
+            "display_name": "TurtleGG",
+            "image": "",
+            "name": "Cristóbal Barra",
+            "residency": "LAS"
+        },
+        "Yuuji": {
+            "age": "22",
+            "alternate_names": [
+                "Yuuji"
+            ],
+            "country": "Mongolia",
+            "display_name": "Yuuji",
+            "image": "",
+            "name": "Ganbat Ulziidelger",
+            "residency": "EMEA"
+        },
+        "Zamudo": {
+            "age": "21",
+            "alternate_names": [
+                "Zamudo"
+            ],
+            "country": "Canada",
+            "display_name": "Zamudo",
+            "image": "",
+            "name": "Frankie Lin",
+            "residency": "Americas"
+        }
+    },
+    "evo": {
+        "Alex": {
+            "age": "25",
+            "alternate_names": [
+                "Alex (Chen Yu-Ming)"
+            ],
+            "display_name": "Alex (Chen Yu-Ming)"
+        },
+        "Andre (Andre Culham)": {
+            "age": "29",
+            "display_name": "Bacon (Andre Culham)",
+            "residency": "Asia Pacific"
+        },
+        "Beni": {
+            "age": "31",
+            "alternate_names": [
+                "Beni (Ryohei Tsuji)"
+            ],
+            "display_name": "Beni (Ryohei Tsuji)"
+        },
+        "Blazes": {
+            "age": "26",
+            "alternate_names": [
+                "BlazeS"
+            ],
+            "display_name": "Himmel",
+            "residency": "Asia Pacific"
+        },
+        "Chosen": {
+            "age": "24",
+            "alternate_names": [
+                "Chosen (Yunus Baş)"
+            ],
+            "display_name": "Chosen (Yunus Baş)"
+        },
+        "Dante (Lê Văn Dự)": {
+            "age": "21",
+            "display_name": "Bojji (Lê Văn Dự)",
+            "residency": "Asia Pacific"
+        },
+        "EnHoa": {
+            "age": "22",
+            "display_name": "EN"
+        },
+        "Jaeger": {
+            "age": "29",
+            "display_name": "Jaeger (Lennart Warkus)"
+        },
+        "Jingtian": {
+            "alternate_names": [
+                "JingTian"
+            ],
+            "display_name": "JT (Liang Shi-Hui)"
+        },
+        "K1thy1": {
+            "age": "25",
+            "alternate_names": [
+                "K1THY1"
+            ],
+            "display_name": "Thorfin",
+            "residency": "Asia Pacific"
+        },
+        "Krastymel": {
+            "age": "26",
+            "display_name": "Krastyel"
+        },
+        "Kratos": {
+            "age": "20",
+            "alternate_names": [
+                "Kratos (Ngô Đức Khánh)"
+            ],
+            "display_name": "Kratos (Ngô Đức Khánh)",
+            "residency": "Asia Pacific"
+        },
+        "Lago": {
+            "alternate_names": [
+                "Lago (Lee Tae-woon)"
+            ],
+            "display_name": "Lago (Lee Tae-woon)"
+        },
+        "Ljun": {
+            "alternate_names": [
+                "Ljun"
+            ],
+            "display_name": "Echo (Liu Jun)"
+        },
+        "Lost": {
+            "age": "26",
+            "alternate_names": [
+                "Lost (Lawrence Hui)"
+            ],
+            "display_name": "Lost (Lawrence Hui)"
+        },
+        "MG (Lee Ji-hoon)": {
+            "age": "23",
+            "display_name": "M G (Lee Ji-hoon)"
+        },
+        "Mai": {
+            "alternate_names": [
+                "Mai (Wei Hong-Xiang)"
+            ],
+            "display_name": "Mai (Wei Hong-Xiang)"
+        },
+        "Murier": {
+            "age": "25",
+            "display_name": "Cynthia",
+            "residency": "Asia Pacific"
+        },
+        "Pako": {
+            "age": "24",
+            "display_name": "Mako (Okan Öztopaç)"
+        },
+        "Ranchen": {
+            "display_name": "Rcg"
+        },
+        "Richard I": {
+            "age": "20",
+            "display_name": "AisyL",
+            "residency": "Asia Pacific"
+        },
+        "Ripper": {
+            "alternate_names": [
+                "Ripper (Park Jae-hyun)"
+            ],
+            "display_name": "Ripper (Park Jae-hyun)"
+        },
+        "Ryuk": {
+            "age": "22",
+            "alternate_names": [
+                "Ryuk (Võ Hoàng Lê Khang)"
+            ],
+            "display_name": "Ryuk (Võ Hoàng Lê Khang)"
+        },
+        "ShawiKatami": {
+            "age": "26",
+            "display_name": "Shawi"
+        },
+        "Sjw": {
+            "age": "23",
+            "display_name": "LDK",
+            "residency": "Asia Pacific"
+        },
+        "Something": {
+            "age": "25",
+            "display_name": "Beumchan Lee"
+        },
+        "TomRio": {
+            "age": "22",
+            "display_name": "Tomrio"
+        },
+        "Wet": {
+            "age": "22",
+            "display_name": "Winner (Woo Joo-sung)"
+        }
+    },
+    "rem": []
+}

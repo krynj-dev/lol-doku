@@ -12,6 +12,8 @@ supabase: Client = create_client(url, key)
 
 
 days: int = int(input("How many days to set? "))
+offset: int = int(input("Puzzle ID offset? "))
+days_offset: int = int(input("Days offset? "))
 un: str = input("username? ")
 pw: str = input("password ")
 
@@ -31,9 +33,8 @@ token_res = requests.post(base_url+login, json={
 token = json.loads(token_res.text)["token"]
 game_daily = "/game/daily/"
 puzzles = "/puzzles/{}/"
-offset = 44
 for i in range(days):
-    day = date.today() + timedelta(days=i) + timedelta(days=4)
+    day = date.today() + timedelta(days=i) + timedelta(days=days_offset)
     # Ensure day isn't already set
     day_response = supabase.table("game_gameroster").select("*").eq('date', day).execute()
     if len(day_response.data) > 0:

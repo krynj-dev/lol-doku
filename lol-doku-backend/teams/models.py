@@ -13,8 +13,8 @@ class Team(models.Model):
 
 class TeamAlternateName(models.Model):
     team_op = models.ForeignKey(Team, on_delete=models.CASCADE, related_name='alternate_names')
-    alternate_name = models.CharField(max_length=50)
+    alternate_name = models.CharField(max_length=100)
 
 class TeamSisterTeam(models.Model):
     team_op = models.ForeignKey(Team, on_delete=models.CASCADE, related_name='sister_teams')
-    sister_team_name = models.CharField(max_length=50)
+    sister_team_name = models.CharField(max_length=100)

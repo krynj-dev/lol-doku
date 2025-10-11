@@ -11,7 +11,7 @@ INSERT INTO rules_rule (key, rule_type) VALUES
 ('Toaster', 'teammate'),
 ('Young (Young Choi)', 'teammate');
 -- Updating rules --
-UPDATE rules_rule SET key='Bren Esports' WHERE key='Bren Esports';
+UPDATE rules_rule SET key='Bren Esports' WHERE key='ISC Pro Team';
 UPDATE rules_rule SET key='Biob' WHERE key='Bisbo';
 UPDATE rules_rule SET key='Seebulabu' WHERE key='Bunn';
 UPDATE rules_rule SET key='Kuroko1' WHERE key='M1lo';

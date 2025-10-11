@@ -1,0 +1,2977 @@
+[
+    {
+        "Link": "2T",
+        "Link)": "1",
+        "Name": "2T",
+        "OverviewPage": "VCS/2024 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "369",
+        "Link)": "1",
+        "Name": "369",
+        "OverviewPage": "LPL/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "5kid",
+        "Link)": "3",
+        "Name": "5kid",
+        "OverviewPage": "LLA/2022 Season/Closing Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "665",
+        "Link)": "1",
+        "Name": "665",
+        "OverviewPage": "PCS/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Able",
+        "Link)": "1",
+        "Name": "Able",
+        "OverviewPage": "Demacia Cup/2018 Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Adam (Adam Maanane)",
+        "Link)": "1",
+        "Name": "Adam",
+        "OverviewPage": "LEC/2024 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ahn (An Shan-Ye)",
+        "Link)": "1",
+        "Name": "Ahn",
+        "OverviewPage": "LPL/2023 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Aiming",
+        "Link)": "6",
+        "Name": "Aiming",
+        "OverviewPage": "LCK/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ale",
+        "Link)": "1",
+        "Name": "Ale",
+        "OverviewPage": "LPL/2023 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Alex Ich",
+        "Link)": "2",
+        "Name": "Alex Ich",
+        "OverviewPage": "IGN ProLeague Season 5",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Alive",
+        "Link)": "1",
+        "Name": "Alive",
+        "OverviewPage": "TCL/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Altec",
+        "Link)": "4",
+        "Name": "Altec",
+        "OverviewPage": "NA LCS/2017 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "AmazingJ",
+        "Link)": "1",
+        "Name": "AmazingJ",
+        "OverviewPage": "LPL/2014 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ambition",
+        "Link)": "1",
+        "Name": "Ambition",
+        "OverviewPage": "Champions/2013 Season/Spring",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "AN",
+        "Link)": "2",
+        "Name": "AN",
+        "OverviewPage": "LMS/2015 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Anechek",
+        "Link)": "1",
+        "Name": "Anechek",
+        "OverviewPage": "LCL/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Angel (Xiang Tao)",
+        "Link)": "2",
+        "Name": "Angel",
+        "OverviewPage": "LPL/2018 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Aomine",
+        "Link)": "2",
+        "Name": "Aomine",
+        "OverviewPage": "VCS/2021 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "APA (Eain Stearns)",
+        "Link)": "1",
+        "Name": "APA",
+        "OverviewPage": "LCS/2024 Season/Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "apaMen",
+        "Link)": "1",
+        "Name": "apaMen",
+        "OverviewPage": "LJL/2019 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Apex (Hsieh Chia-Wei)",
+        "Link)": "1",
+        "Name": "Apex",
+        "OverviewPage": "LMS/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Apollo (Apollo Price)",
+        "Link)": "2",
+        "Name": "Apollo",
+        "OverviewPage": "LCS/2019 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Archie (Trần Minh Nhựt)",
+        "Link)": "1",
+        "Name": "Archie",
+        "OverviewPage": "2014 GPL Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Aria (Lee Ga-eul)",
+        "Link)": "2",
+        "Name": "Aria",
+        "OverviewPage": "LJL/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Arrow",
+        "Link)": "2",
+        "Name": "Arrow",
+        "OverviewPage": "Champions/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Artemis (Trần Quốc Hưng)",
+        "Link)": "3",
+        "Name": "Artemis",
+        "OverviewPage": "VCS/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Artifact",
+        "Link)": "2",
+        "Name": "Artifact",
+        "OverviewPage": "VCS/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Assassin",
+        "Link)": "1",
+        "Name": "Assassin",
+        "OverviewPage": "LPL/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Assum",
+        "Link)": "1",
+        "Name": "Assum",
+        "OverviewPage": "LPL/2025 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Avenuee",
+        "Link)": "1",
+        "Name": "Avenuee",
+        "OverviewPage": "TCL/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Balls",
+        "Link)": "1",
+        "Name": "Balls",
+        "OverviewPage": "2015 Season World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Bang",
+        "Link)": "4",
+        "Name": "Bang",
+        "OverviewPage": "Champions/2014 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Bankai (Felipe Boal)",
+        "Link)": "1",
+        "Name": "Bankai",
+        "OverviewPage": "CBLOL/2020 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Barrett",
+        "Link)": "1",
+        "Name": "Barrett",
+        "OverviewPage": "LPL/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Bdd",
+        "Link)": "2",
+        "Name": "Bdd",
+        "OverviewPage": "LCK/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "BeanJ",
+        "Link)": "1",
+        "Name": "BeanJ",
+        "OverviewPage": "VCS/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "bebe (Chang Bo-Wei)",
+        "Link)": "4",
+        "Name": "bebe",
+        "OverviewPage": "IGN ProLeague Season 5",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Berserker (Kim Min-cheol)",
+        "Link)": "3",
+        "Name": "Berserker",
+        "OverviewPage": "LCS/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Betty",
+        "Link)": "6",
+        "Name": "Betty",
+        "OverviewPage": "LMS/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Bigkoro",
+        "Link)": "1",
+        "Name": "Bigkoro",
+        "OverviewPage": "VCS/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Bin (Chen Ze-Bin)",
+        "Link)": "1",
+        "Name": "Bin",
+        "OverviewPage": "2020 Season World Championship/Main Event",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Bjergsen",
+        "Link)": "5",
+        "Name": "Bjergsen",
+        "OverviewPage": "NA LCS/2017 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Brance",
+        "Link)": "2",
+        "Name": "Brance",
+        "OverviewPage": "CBLOL/2024 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Breaker",
+        "Link)": "1",
+        "Name": "Breaker",
+        "OverviewPage": "LMS/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "BrokenBlade",
+        "Link)": "1",
+        "Name": "BrokenBlade",
+        "OverviewPage": "LEC/2021 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "brTT",
+        "Link)": "2",
+        "Name": "brTT",
+        "OverviewPage": "Gamescom 2013/International Wildcard Tournament",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "BuLLDoG (Lee Tae-young)",
+        "Link)": "1",
+        "Name": "BuLLDoG",
+        "OverviewPage": "LCK/2024 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Bvoy",
+        "Link)": "1",
+        "Name": "Bvoy",
+        "OverviewPage": "CBLOL/2023 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Canyon",
+        "Link)": "2",
+        "Name": "Canyon",
+        "OverviewPage": "LCK/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Caps",
+        "Link)": "6",
+        "Name": "Caps",
+        "OverviewPage": "2019 Mid-Season Invitational/Main Event",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Carzzy",
+        "Link)": "2",
+        "Name": "Carzzy",
+        "OverviewPage": "LEC/2023 Season/Season Finals",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Celebrity",
+        "Link)": "10",
+        "Name": "Celebrity",
+        "OverviewPage": "2015 GPL Spring",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "CEO",
+        "Link)": "2",
+        "Name": "CEO",
+        "OverviewPage": "LLA/2021 Season/Closing Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Cepted",
+        "Link)": "1",
+        "Name": "Cepted",
+        "OverviewPage": "2017 LoL KeSPA Cup",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ceros",
+        "Link)": "1",
+        "Name": "Ceros",
+        "OverviewPage": "2015 International Wildcard Tournament/Turkey",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Chawy",
+        "Link)": "1",
+        "Name": "Chawy",
+        "OverviewPage": "IEM Season IX - Taipei",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Chayon",
+        "Link)": "1",
+        "Name": "Chayon",
+        "OverviewPage": "LCO/2022 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Chelly (Li Yu-Zhou)",
+        "Link)": "1",
+        "Name": "Chelly",
+        "OverviewPage": "Demacia Cup 2019",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "chenyboy",
+        "Link)": "1",
+        "Name": "chenyboy",
+        "OverviewPage": "OPL/2015 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "ChiCh1",
+        "Link)": "1",
+        "Name": "ChiCh1",
+        "OverviewPage": "PCS/2024 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Chippys",
+        "Link)": "2",
+        "Name": "Chippys",
+        "OverviewPage": "OPL/2017 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "chirchri",
+        "Link)": "1",
+        "Name": "chirchri",
+        "OverviewPage": "2015 Demacia Cup/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Chovy",
+        "Link)": "3",
+        "Name": "Chovy",
+        "OverviewPage": "LCK/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Chuuper",
+        "Link)": "1",
+        "Name": "Chuuper",
+        "OverviewPage": "NA LCS/Season 3/Spring Qualifiers",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Claire",
+        "Link)": "1",
+        "Name": "Claire",
+        "OverviewPage": "OPL/2018 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Clearlove",
+        "Link)": "1",
+        "Name": "Clearlove",
+        "OverviewPage": "Demacia Cup/2016 Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "CndyPnda",
+        "Link)": "1",
+        "Name": "CndyPnda",
+        "OverviewPage": "Season 1 World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Coated",
+        "Link)": "1",
+        "Name": "Coated",
+        "OverviewPage": "VCS/2021 Season/Winter Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Cody Sun",
+        "Link)": "1",
+        "Name": "Cody Sun",
+        "OverviewPage": "NA LCS/2018 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Comp",
+        "Link)": "5",
+        "Name": "Comp",
+        "OverviewPage": "LEC/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Condi",
+        "Link)": "1",
+        "Name": "Condi",
+        "OverviewPage": "LPL/2016 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Cool",
+        "Link)": "1",
+        "Name": "Cool",
+        "OverviewPage": "LPL/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Cop",
+        "Link)": "1",
+        "Name": "Cop",
+        "OverviewPage": "NA LCS/Season 3/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Crash",
+        "Link)": "1",
+        "Name": "Crash",
+        "OverviewPage": "LMS/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Creme",
+        "Link)": "1",
+        "Name": "Creme",
+        "OverviewPage": "LPL/2024 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Crown",
+        "Link)": "2",
+        "Name": "Crown",
+        "OverviewPage": "LCK/2016 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Crownie",
+        "Link)": "3",
+        "Name": "Crownie",
+        "OverviewPage": "LEC/2023 Season/Spring Groups",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Cryin",
+        "Link)": "2",
+        "Name": "Cryin",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Dade",
+        "Link)": "1",
+        "Name": "Dade",
+        "OverviewPage": "2015 Demacia Cup/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Danny (Kyle Sakamaki)",
+        "Link)": "4",
+        "Name": "Danny",
+        "OverviewPage": "LCS/2022 Season/Lock In",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Deft",
+        "Link)": "4",
+        "Name": "Deft",
+        "OverviewPage": "2015 Demacia Cup/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Demunlul",
+        "Link)": "1",
+        "Name": "Demunlul",
+        "OverviewPage": "NA LCS/Season 3/Spring Qualifiers",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "deokdam",
+        "Link)": "1",
+        "Name": "deokdam",
+        "OverviewPage": "LCK/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "DeuL",
+        "Link)": "1",
+        "Name": "DeuL",
+        "OverviewPage": "LMS/2018 Season/Regional Finals",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Dia1",
+        "Link)": "1",
+        "Name": "Dia1",
+        "OverviewPage": "VCS/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Diable",
+        "Link)": "1",
+        "Name": "Diable",
+        "OverviewPage": "LCK/2025 Season/Rounds 1-2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Divkid",
+        "Link)": "2",
+        "Name": "Divkid",
+        "OverviewPage": "VCS/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "DNK",
+        "Link)": "1",
+        "Name": "DNK",
+        "OverviewPage": "VCS/2018 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Doggo",
+        "Link)": "3",
+        "Name": "Doggo",
+        "OverviewPage": "LPL/2023 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Doggy",
+        "Link)": "1",
+        "Name": "Doggy",
+        "OverviewPage": "PCS/2024 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Doinb",
+        "Link)": "4",
+        "Name": "Doinb",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Don Cholo (Sergio Salas)",
+        "Link)": "1",
+        "Name": "Don Cholo",
+        "OverviewPage": "Latin America Cup 2015/LAN/Closing Cup/Regular Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "DONGGY",
+        "Link)": "1",
+        "Name": "DONGGY",
+        "OverviewPage": "LCO/2023 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Doublelift",
+        "Link)": "9",
+        "Name": "Doublelift",
+        "OverviewPage": "IGN ProLeague Season 5",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "dresscode",
+        "Link)": "1",
+        "Name": "dresscode",
+        "OverviewPage": "LJL/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Driver",
+        "Link)": "1",
+        "Name": "Driver",
+        "OverviewPage": "PCS/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "dyNquedo",
+        "Link)": "2",
+        "Name": "dyNquedo",
+        "OverviewPage": "CBLOL/2020 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Easyhoon",
+        "Link)": "1",
+        "Name": "Easyhoon",
+        "OverviewPage": "LPL/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Eddie",
+        "Link)": "3",
+        "Name": "Eddie",
+        "OverviewPage": "VCS/2022 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Elk",
+        "Link)": "5",
+        "Name": "Elk",
+        "OverviewPage": "LPL/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "EMENES",
+        "Link)": "1",
+        "Name": "EMENES",
+        "OverviewPage": "TCL/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Emperor (Kim Jin-hyun)",
+        "Link)": "1",
+        "Name": "Emperor",
+        "OverviewPage": "Champions/2014 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Endless (Xu Hao)",
+        "Link)": "1",
+        "Name": "Endless",
+        "OverviewPage": "LPL/2016 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Envy (Bruno Farias)",
+        "Link)": "1",
+        "Name": "Envy",
+        "OverviewPage": "CBLOL/2019 Season/Split 1 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "EvanRL",
+        "Link)": "1",
+        "Name": "EvanRL",
+        "OverviewPage": "Latin America Cup/LAN/2016 Season/Closing Cup/Regular Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Exo (Eric Gubatan)",
+        "Link)": "1",
+        "Name": "Exo",
+        "OverviewPage": "2015 GPL Spring",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Expect",
+        "Link)": "1",
+        "Name": "Expect",
+        "OverviewPage": "EU LCS/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Happy",
+        "Link)": "1",
+        "Name": "F1sh",
+        "OverviewPage": "LPL/2013 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "fabFabulous",
+        "Link)": "1",
+        "Name": "fabFabulous",
+        "OverviewPage": "Gamescom 2013/International Wildcard Tournament",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Faker",
+        "Link)": "2",
+        "Name": "Faker",
+        "OverviewPage": "Champions/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "FATE (Yoo Su-hyeok)",
+        "Link)": "2",
+        "Name": "FATE",
+        "OverviewPage": "LCK/2024 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "FBI",
+        "Link)": "2",
+        "Name": "FBI",
+        "OverviewPage": "LCS/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Febiven",
+        "Link)": "1",
+        "Name": "Febiven",
+        "OverviewPage": "NA LCS/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Feng (Chen Chun-Feng)",
+        "Link)": "1",
+        "Name": "Feng",
+        "OverviewPage": "PCS/2023 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "FengJi",
+        "Link)": "1",
+        "Name": "FengJi",
+        "OverviewPage": "2015 Demacia Cup/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Flakked",
+        "Link)": "1",
+        "Name": "Flakked",
+        "OverviewPage": "LEC/2025 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Flandre",
+        "Link)": "2",
+        "Name": "Flandre",
+        "OverviewPage": "National Electronic Sports Tournament 2014",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Fly (Song Yong-jun)",
+        "Link)": "1",
+        "Name": "Fly",
+        "OverviewPage": "NA LCS/2018 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "fNb",
+        "Link)": "1",
+        "Name": "fNb",
+        "OverviewPage": "CBLOL/2022 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Focho",
+        "Link)": "1",
+        "Name": "Focho",
+        "OverviewPage": "CLS/2017 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Focus",
+        "Link)": "1",
+        "Name": "Focus",
+        "OverviewPage": "TCL/2022 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "FoFo",
+        "Link)": "1",
+        "Name": "FoFo",
+        "OverviewPage": "LPL/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Forg1ven",
+        "Link)": "1",
+        "Name": "Forg1ven",
+        "OverviewPage": "EU LCS/2014 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "GALA",
+        "Link)": "10",
+        "Name": "GALA",
+        "OverviewPage": "LPL/2021 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Gango",
+        "Link)": "1",
+        "Name": "Gango",
+        "OverviewPage": "LJL/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Garo",
+        "Link)": "1",
+        "Name": "Garo",
+        "OverviewPage": "CBLOL/2020 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Gavotto",
+        "Link)": "1",
+        "Name": "Gavotto",
+        "OverviewPage": "LLA/2022 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Genja",
+        "Link)": "1",
+        "Name": "Genja",
+        "OverviewPage": "EU LCS/2014 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Getback",
+        "Link)": "1",
+        "Name": "Getback",
+        "OverviewPage": "OPL/2020 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ggoong",
+        "Link)": "1",
+        "Name": "Ggoong",
+        "OverviewPage": "2014 Season Korea Regional Finals",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ghost (Jang Yong-jun)",
+        "Link)": "5",
+        "Name": "Ghost",
+        "OverviewPage": "LCK/2018 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "GIDEON",
+        "Link)": "1",
+        "Name": "GIDEON",
+        "OverviewPage": "LCK/2025 Season/Rounds 1-2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Godbro Sama",
+        "Link)": "1",
+        "Name": "Godbro Sama",
+        "OverviewPage": "TCL/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "GoDJJ",
+        "Link)": "1",
+        "Name": "GoDJJ",
+        "OverviewPage": "LMS/2015 Season/Spring Qualifiers",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "GODV (Wei Zhen)",
+        "Link)": "1",
+        "Name": "GODV",
+        "OverviewPage": "LPL/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Goku",
+        "Link)": "1",
+        "Name": "Goku",
+        "OverviewPage": "CBLOL/2018 Season/Split 1 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Gori",
+        "Link)": "2",
+        "Name": "Gori",
+        "OverviewPage": "LCS/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Grevthar",
+        "Link)": "1",
+        "Name": "Grevthar",
+        "OverviewPage": "CBLOL/2023 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Guigo",
+        "Link)": "1",
+        "Name": "Guigo",
+        "OverviewPage": "CBLOL/2022 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Gumayusi",
+        "Link)": "3",
+        "Name": "Gumayusi",
+        "OverviewPage": "LCK/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Guoguo",
+        "Link)": "1",
+        "Name": "Guoguo",
+        "OverviewPage": "LPL/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hades (Volkan Dinçer)",
+        "Link)": "1",
+        "Name": "Hades",
+        "OverviewPage": "TCL/2019 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hai",
+        "Link)": "1",
+        "Name": "Hai",
+        "OverviewPage": "NA LCS/2017 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "haichao",
+        "Link)": "1",
+        "Name": "haichao",
+        "OverviewPage": "LPL/2025 Season/Split 3",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hanabi (Su Chia-Hsiang)",
+        "Link)": "1",
+        "Name": "Hanabi",
+        "OverviewPage": "LMS/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hans Sama",
+        "Link)": "5",
+        "Name": "Hans Sama",
+        "OverviewPage": "EU LCS/2017 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hatrixx",
+        "Link)": "1",
+        "Name": "Hatrixx",
+        "OverviewPage": "TCL/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hermes (Kim Kang-hwan)",
+        "Link)": "1",
+        "Name": "Hermes",
+        "OverviewPage": "Champions/2013 Season/Winter",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hetong",
+        "Link)": "1",
+        "Name": "Hetong",
+        "OverviewPage": "LPL/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hiro (Lee Woo-suk)",
+        "Link)": "1",
+        "Name": "Hiro",
+        "OverviewPage": "Champions/2012 Season/Spring",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hollow",
+        "Link)": "1",
+        "Name": "Hollow",
+        "OverviewPage": "LJL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "HolyPhoenix",
+        "Link)": "8",
+        "Name": "HolyPhoenix",
+        "OverviewPage": "2014 Season International Wild Card Tournament",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Honey (Park Bo-heon)",
+        "Link)": "1",
+        "Name": "Honey",
+        "OverviewPage": "LJL/2023 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hope (Wang Jie)",
+        "Link)": "3",
+        "Name": "Hope",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "HowLa",
+        "Link)": "1",
+        "Name": "HowLa",
+        "OverviewPage": "LJL/2024 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "hu1",
+        "Link)": "1",
+        "Name": "hu1",
+        "OverviewPage": "LPL/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "huanfeng",
+        "Link)": "2",
+        "Name": "huanfeng",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Huni",
+        "Link)": "2",
+        "Name": "Huni",
+        "OverviewPage": "NA LCS/2016 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "HyBriD (Lee Woo-jin)",
+        "Link)": "3",
+        "Name": "HyBriD",
+        "OverviewPage": "LCK/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Hype (Byeon Jeong-hyeon)",
+        "Link)": "1",
+        "Name": "Hype",
+        "OverviewPage": "LCK/2025 Season/Rounds 1-2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "iBoy",
+        "Link)": "3",
+        "Name": "iBoy",
+        "OverviewPage": "LPL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ice (Yoon Sang-hoon)",
+        "Link)": "3",
+        "Name": "Ice",
+        "OverviewPage": "LEC/2024 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "icon",
+        "Link)": "1",
+        "Name": "icon",
+        "OverviewPage": "LPL/2017 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "ikssu",
+        "Link)": "1",
+        "Name": "ikssu",
+        "OverviewPage": "LCK/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Immortoru",
+        "Link)": "2",
+        "Name": "Immortoru",
+        "OverviewPage": "IEM Season 11/Challenger",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "imp",
+        "Link)": "4",
+        "Name": "imp",
+        "OverviewPage": "2014 Season World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Impact",
+        "Link)": "1",
+        "Name": "Impact",
+        "OverviewPage": "LCS/2022 Season/Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "inSec",
+        "Link)": "1",
+        "Name": "inSec",
+        "OverviewPage": "LPL/2014 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Inspired",
+        "Link)": "2",
+        "Name": "Inspired",
+        "OverviewPage": "LEC/2021 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Instinct (Tony Ng)",
+        "Link)": "1",
+        "Name": "Instinct",
+        "OverviewPage": "LCS/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ippon",
+        "Link)": "1",
+        "Name": "Ippon",
+        "OverviewPage": "LCL/2018 Season/Summer Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Iruga",
+        "Link)": "2",
+        "Name": "Iruga",
+        "OverviewPage": "Latin America Cup/LAN/2016 Season/Closing Cup/Regular Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "JackeyLove",
+        "Link)": "4",
+        "Name": "JackeyLove",
+        "OverviewPage": "LPL/2019 Season/Regional Finals",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "JaeYoong",
+        "Link)": "1",
+        "Name": "JaeYoong",
+        "OverviewPage": "2015 GPL Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "JaeYoongJo",
+        "Link)": "1",
+        "Name": "JaeYoongJo",
+        "OverviewPage": "2015 GPL Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Jay (Chen Bo)",
+        "Link)": "1",
+        "Name": "Jay",
+        "OverviewPage": "LPL/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Jensen",
+        "Link)": "2",
+        "Name": "Jensen",
+        "OverviewPage": "NA LCS/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Jestkui Max",
+        "Link)": "1",
+        "Name": "Jestkui Max",
+        "OverviewPage": "LCL/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Jezu",
+        "Link)": "1",
+        "Name": "Jezu",
+        "OverviewPage": "LEC/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Jiejie",
+        "Link)": "1",
+        "Name": "Jiejie",
+        "OverviewPage": "LPL/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "JimieN",
+        "Link)": "1",
+        "Name": "JimieN",
+        "OverviewPage": "PCS/2021 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Jinky",
+        "Link)": "1",
+        "Name": "Jinky",
+        "OverviewPage": "2015 GPL Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Jiumeng",
+        "Link)": "1",
+        "Name": "Jiumeng",
+        "OverviewPage": "LPL/2020 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Johnsun",
+        "Link)": "1",
+        "Name": "Johnsun",
+        "OverviewPage": "LCS/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Josedeodo",
+        "Link)": "1",
+        "Name": "Josedeodo",
+        "OverviewPage": "LLA/2024 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "JunJia",
+        "Link)": "2",
+        "Name": "JunJia",
+        "OverviewPage": "PCS/2023 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "k1ng",
+        "Link)": "2",
+        "Name": "k1ng",
+        "OverviewPage": "OPL/2018 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kanavi",
+        "Link)": "1",
+        "Name": "Kanavi",
+        "OverviewPage": "LPL/2025 Season/Split 3",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Katsurii",
+        "Link)": "3",
+        "Name": "Katsurii",
+        "OverviewPage": "OPL/2019 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Khan",
+        "Link)": "3",
+        "Name": "Khan",
+        "OverviewPage": "LCK/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Khynm",
+        "Link)": "1",
+        "Name": "Khynm",
+        "OverviewPage": "CLS/2018 Season/Closing Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kiaya",
+        "Link)": "1",
+        "Name": "Kiaya",
+        "OverviewPage": "VCS/2023 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kid",
+        "Link)": "1",
+        "Name": "Kid",
+        "OverviewPage": "LPL/2015 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kindless",
+        "Link)": "1",
+        "Name": "Kindless",
+        "OverviewPage": "CLS/2018 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kinzu",
+        "Link)": "2",
+        "Name": "Kinzu",
+        "OverviewPage": "LCL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "knight (Zhuo Ding)",
+        "Link)": "1",
+        "Name": "knight",
+        "OverviewPage": "LPL/2024 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kobbe",
+        "Link)": "2",
+        "Name": "Kobbe",
+        "OverviewPage": "EU LCS/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kongyue",
+        "Link)": "2",
+        "Name": "Kongyue",
+        "OverviewPage": "LMS/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kramer",
+        "Link)": "1",
+        "Name": "Kramer",
+        "OverviewPage": "LCK/2017 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "kRYST4L",
+        "Link)": "2",
+        "Name": "kRYST4L",
+        "OverviewPage": "LPL/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ksaez",
+        "Link)": "1",
+        "Name": "Ksaez",
+        "OverviewPage": "TCL/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Kubon",
+        "Link)": "1",
+        "Name": "Kubon",
+        "OverviewPage": "IEM Season VII - Global Challenge Singapore",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lamia",
+        "Link)": "1",
+        "Name": "Lamia",
+        "OverviewPage": "IEM Season VI - World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lava",
+        "Link)": "2",
+        "Name": "Lava",
+        "OverviewPage": "LCK/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Leaper",
+        "Link)": "1",
+        "Name": "Leaper",
+        "OverviewPage": "LCK/2024 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Leave",
+        "Link)": "2",
+        "Name": "Leave",
+        "OverviewPage": "LPL/2025 Season/Split 2 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "leemas",
+        "Link)": "1",
+        "Name": "leemas",
+        "OverviewPage": "LCO/2024 Season/Split 1 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Light (Kwon Sun-ho)",
+        "Link)": "1",
+        "Name": "Light",
+        "OverviewPage": "LCK/2020 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Light (Wang Guang-Yu)",
+        "Link)": "4",
+        "Name": "Light",
+        "OverviewPage": "LPL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lilv",
+        "Link)": "3",
+        "Name": "Lilv",
+        "OverviewPage": "LMS/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lloyd",
+        "Link)": "3",
+        "Name": "Lloyd",
+        "OverviewPage": "2015 GPL Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Locodoco",
+        "Link)": "1",
+        "Name": "Locodoco",
+        "OverviewPage": "Champions/2012 Season/Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lodik",
+        "Link)": "1",
+        "Name": "Lodik",
+        "OverviewPage": "Rift Rivals 2018/LCL-TCL-VCS",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "LokeN",
+        "Link)": "2",
+        "Name": "LokeN",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lost (Lawrence Hui)",
+        "Link)": "1",
+        "Name": "Lost",
+        "OverviewPage": "LCS/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lovida",
+        "Link)": "1",
+        "Name": "Lovida",
+        "OverviewPage": "2015 GPL Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "LP",
+        "Link)": "1",
+        "Name": "LP",
+        "OverviewPage": "LPL/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Luana",
+        "Link)": "1",
+        "Name": "Luana",
+        "OverviewPage": "TCL/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Lucid (Choi Yong-hyeok)",
+        "Link)": "1",
+        "Name": "Lucid",
+        "OverviewPage": "LCK/2025 Season/Rounds 1-2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "lwx",
+        "Link)": "4",
+        "Name": "lwx",
+        "OverviewPage": "LPL/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "M1ssion",
+        "Link)": "1",
+        "Name": "M1ssion",
+        "OverviewPage": "LMS/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Makes",
+        "Link)": "1",
+        "Name": "Makes",
+        "OverviewPage": "CBLOL/2024 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Manu",
+        "Link)": "1",
+        "Name": "Manu",
+        "OverviewPage": "LLN/2017 Season/Closing Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Maoan",
+        "Link)": "1",
+        "Name": "Maoan",
+        "OverviewPage": "PCS/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Maple (Huang Yi-Tang)",
+        "Link)": "4",
+        "Name": "Maple",
+        "OverviewPage": "LMS/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Marble",
+        "Link)": "2",
+        "Name": "Marble",
+        "OverviewPage": "LJL/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Marky (Marc Ilagan)",
+        "Link)": "1",
+        "Name": "Marky",
+        "OverviewPage": "LST/2019 Season/Spring Qualifier/Philippines/National Qualifier",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Matsukaze",
+        "Link)": "3",
+        "Name": "Matsukaze",
+        "OverviewPage": "CBLOL/2015 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Meaning",
+        "Link)": "1",
+        "Name": "Meaning",
+        "OverviewPage": "LLA/2023 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "MidKing",
+        "Link)": "1",
+        "Name": "MidKing",
+        "OverviewPage": "IEM Season VII - World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Minas",
+        "Link)": "3",
+        "Name": "Minas",
+        "OverviewPage": "2015 GPL Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Mission",
+        "Link)": "1",
+        "Name": "Mission",
+        "OverviewPage": "PCS/2020 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "MnM (Wong Ka Chun)",
+        "Link)": "1",
+        "Name": "MnM",
+        "OverviewPage": "PCS/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Mountain (Xue Zhao-Hong)",
+        "Link)": "1",
+        "Name": "Mountain",
+        "OverviewPage": "LMS/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Mystic",
+        "Link)": "3",
+        "Name": "Mystic",
+        "OverviewPage": "LPL/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Mytant",
+        "Link)": "1",
+        "Name": "Mytant",
+        "OverviewPage": "LCL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nagne",
+        "Link)": "1",
+        "Name": "Nagne",
+        "OverviewPage": "Champions/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "naiyou",
+        "Link)": "1",
+        "Name": "naiyou",
+        "OverviewPage": "LPL/2025 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "NaMei",
+        "Link)": "2",
+        "Name": "NaMei",
+        "OverviewPage": "LPL/2016 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nemesis",
+        "Link)": "1",
+        "Name": "Nemesis",
+        "OverviewPage": "LEC/2019 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Neo (Toàn Trần)",
+        "Link)": "1",
+        "Name": "Neo",
+        "OverviewPage": "LCS/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nestea",
+        "Link)": "1",
+        "Name": "Nestea",
+        "OverviewPage": "PCS/2023 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Netuno",
+        "Link)": "1",
+        "Name": "Netuno",
+        "OverviewPage": "CBLOL/2024 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ninja",
+        "Link)": "1",
+        "Name": "Ninja",
+        "OverviewPage": "LPL/2014 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "NinjaKiwi",
+        "Link)": "2",
+        "Name": "NinjaKiwi",
+        "OverviewPage": "CBLOL/2022 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nisqy",
+        "Link)": "1",
+        "Name": "Nisqy",
+        "OverviewPage": "LEC/2023 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "NL (Hsiung Wen-An)",
+        "Link)": "2",
+        "Name": "NL",
+        "OverviewPage": "LMS/2016 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Noah (Oh Hyeon-taek)",
+        "Link)": "2",
+        "Name": "Noah",
+        "OverviewPage": "LEC/2024 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nomanz",
+        "Link)": "2",
+        "Name": "Nomanz",
+        "OverviewPage": "LCL/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "North (Zhang Yu-Ze)",
+        "Link)": "1",
+        "Name": "North",
+        "OverviewPage": "2015 Demacia Cup/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nothing",
+        "Link)": "1",
+        "Name": "Nothing",
+        "OverviewPage": "CLS/2018 Season/Closing Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "nuc",
+        "Link)": "1",
+        "Name": "nuc",
+        "OverviewPage": "LEC/2024 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nuclear",
+        "Link)": "1",
+        "Name": "Nuclear",
+        "OverviewPage": "2015 LoL KeSPA Cup",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Nukeduck",
+        "Link)": "1",
+        "Name": "Nukeduck",
+        "OverviewPage": "EU LCS/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Odoamne",
+        "Link)": "1",
+        "Name": "Odoamne",
+        "OverviewPage": "LEC/2019 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "OnFleek",
+        "Link)": "1",
+        "Name": "OnFleek",
+        "OverviewPage": "2019 LoL KeSPA Cup",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Oscarinin",
+        "Link)": "1",
+        "Name": "Oscarinin",
+        "OverviewPage": "LEC/2023 Season/Season Finals",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "padden",
+        "Link)": "1",
+        "Name": "padden",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Pain5",
+        "Link)": "1",
+        "Name": "Pain5",
+        "OverviewPage": "VCS/2024 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Pake",
+        "Link)": "1",
+        "Name": "Pake",
+        "OverviewPage": "VCS/2018 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Palafox",
+        "Link)": "1",
+        "Name": "Palafox",
+        "OverviewPage": "LTA North/2025 Season/Split 2 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "pan (Andres Bonilla)",
+        "Link)": "1",
+        "Name": "pan",
+        "OverviewPage": "LLA/2024 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "pbO",
+        "Link)": "2",
+        "Name": "pbO",
+        "OverviewPage": "CBLOL/2016 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "PDD",
+        "Link)": "1",
+        "Name": "PDD",
+        "OverviewPage": "LPL/2013 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Perkz",
+        "Link)": "1",
+        "Name": "Perkz",
+        "OverviewPage": "EU LCS/2018 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Peyz",
+        "Link)": "8",
+        "Name": "Peyz",
+        "OverviewPage": "LCK/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Photic",
+        "Link)": "4",
+        "Name": "Photic",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Pilot (Na Woo-hyung)",
+        "Link)": "4",
+        "Name": "Pilot",
+        "OverviewPage": "LCK/2016 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Plugo",
+        "Link)": "1",
+        "Name": "Plugo",
+        "OverviewPage": "LLA/2019 Season/Opening Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Police (Huỳnh Thiếc Tuấn)",
+        "Link)": "2",
+        "Name": "Police",
+        "OverviewPage": "VCS/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Polyokov",
+        "Link)": "1",
+        "Name": "Polyokov",
+        "OverviewPage": "TCL/2017 Season/Summer Qualifiers",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "PowerOfEvil",
+        "Link)": "1",
+        "Name": "PowerOfEvil",
+        "OverviewPage": "EU LCS/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Praedyth",
+        "Link)": "2",
+        "Name": "Praedyth",
+        "OverviewPage": "LCO/2021 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "PraY",
+        "Link)": "2",
+        "Name": "PraY",
+        "OverviewPage": "Champions/2014 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Prince (Lee Chae-hwan)",
+        "Link)": "3",
+        "Name": "Prince",
+        "OverviewPage": "LCK/2022 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "prodi",
+        "Link)": "1",
+        "Name": "prodi",
+        "OverviewPage": "CLS/2017 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Prototype",
+        "Link)": "1",
+        "Name": "Prototype",
+        "OverviewPage": "NA LCS/2015 Season/Spring Expansion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Puff (Ding Wang)",
+        "Link)": "2",
+        "Name": "Puff",
+        "OverviewPage": "LPL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Pyosik",
+        "Link)": "3",
+        "Name": "Pyosik",
+        "OverviewPage": "LCK/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Qing",
+        "Link)": "2",
+        "Name": "Qing",
+        "OverviewPage": "LPL/2023 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Qiuqiu (Zhang Ming)",
+        "Link)": "1",
+        "Name": "Qiuqiu",
+        "OverviewPage": "LPL/2017 Season/Summer Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Quad",
+        "Link)": "1",
+        "Name": "Quad",
+        "OverviewPage": "LCS/2024 Season/Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rabelo",
+        "Link)": "1",
+        "Name": "Rabelo",
+        "OverviewPage": "LTA South/2025 Season/Split 3",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Raes",
+        "Link)": "6",
+        "Name": "Raes",
+        "OverviewPage": "OPL/2017 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rain (Park Dan-won)",
+        "Link)": "1",
+        "Name": "Rain",
+        "OverviewPage": "Champions/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Raise",
+        "Link)": "1",
+        "Name": "Raise",
+        "OverviewPage": "OPL/2019 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rakin",
+        "Link)": "1",
+        "Name": "Rakin",
+        "OverviewPage": "CBLOL/2018 Season/Split 1 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rather",
+        "Link)": "1",
+        "Name": "Rather",
+        "OverviewPage": "LMS/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "RAV3N",
+        "Link)": "1",
+        "Name": "RAV3N",
+        "OverviewPage": "CBLOL/2023 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Raydere",
+        "Link)": "2",
+        "Name": "Raydere",
+        "OverviewPage": "OPL/2015 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Regi",
+        "Link)": "1",
+        "Name": "Regi",
+        "OverviewPage": "Latin America Cup 2015/LAS/Closing Cup/Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rekkles",
+        "Link)": "8",
+        "Name": "Rekkles",
+        "OverviewPage": "2014 Season World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Renyu",
+        "Link)": "2",
+        "Name": "Renyu",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Revenge (Mohamed Kaddoura)",
+        "Link)": "1",
+        "Name": "Revenge",
+        "OverviewPage": "LCS/2023 Season/Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rey",
+        "Link)": "1",
+        "Name": "Rey",
+        "OverviewPage": "LLA/2021 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ribena",
+        "Link)": "1",
+        "Name": "Ribena",
+        "OverviewPage": "LoL Championship Malaysia/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Riris",
+        "Link)": "1",
+        "Name": "Riris",
+        "OverviewPage": "Champions/2013 Season/Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "River (Kim Dong-woo)",
+        "Link)": "1",
+        "Name": "River",
+        "OverviewPage": "PCS/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Robo",
+        "Link)": "1",
+        "Name": "Robo",
+        "OverviewPage": "CBLOL/2016 Season/Split 1 Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rokenia",
+        "Link)": "1",
+        "Name": "Rokenia",
+        "OverviewPage": "LJL/2015 Season/Grand Finals",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Rookie",
+        "Link)": "2",
+        "Name": "Rookie",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Route",
+        "Link)": "1",
+        "Name": "Route",
+        "OverviewPage": "2023 Season World Championship/Play-In",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ruler",
+        "Link)": "11",
+        "Name": "Ruler",
+        "OverviewPage": "LCK/2018 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ruo (Teng Yang-Tian-Xia)",
+        "Link)": "1",
+        "Name": "Ruo",
+        "OverviewPage": "LPL/2014 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ruvelius376",
+        "Link)": "1",
+        "Name": "Ruvelius376",
+        "OverviewPage": "TCL/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "ry0ma",
+        "Link)": "1",
+        "Name": "ry0ma",
+        "OverviewPage": "Rift Rivals 2018/SEA-LJL-OPL",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ryu",
+        "Link)": "2",
+        "Name": "Ryu",
+        "OverviewPage": "NA LCS/2018 Season/Spring Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "S0NSTAR",
+        "Link)": "1",
+        "Name": "S0NSTAR",
+        "OverviewPage": "EU LCS/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "S1mlz",
+        "Link)": "1",
+        "Name": "S1mlz",
+        "OverviewPage": "LPL/2016 Season/Summer Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SAD (Nguyễn Minh Trung)",
+        "Link)": "1",
+        "Name": "SAD",
+        "OverviewPage": "2015 GPL Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SamD",
+        "Link)": "1",
+        "Name": "SamD",
+        "OverviewPage": "LPL/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "San (Guo Jun-Liang)",
+        "Link)": "1",
+        "Name": "San",
+        "OverviewPage": "LPL/2013 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Sangyoon",
+        "Link)": "1",
+        "Name": "Sangyoon",
+        "OverviewPage": "LCK/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Scorth",
+        "Link)": "1",
+        "Name": "Scorth",
+        "OverviewPage": "TCL/2022 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Scout",
+        "Link)": "2",
+        "Name": "Scout",
+        "OverviewPage": "LPL/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Sericus",
+        "Link)": "1",
+        "Name": "Sericus",
+        "OverviewPage": "LCL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Serin",
+        "Link)": "1",
+        "Name": "Serin",
+        "OverviewPage": "TCL/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Shaoye",
+        "Link)": "1",
+        "Name": "Shaoye",
+        "OverviewPage": "LPL/2025 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Shiganari",
+        "Link)": "2",
+        "Name": "Shiganari",
+        "OverviewPage": "LCL/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Shiphtur",
+        "Link)": "3",
+        "Name": "Shiphtur",
+        "OverviewPage": "NA LCS/2014 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Shogun (Nguyễn Văn Huy)",
+        "Link)": "6",
+        "Name": "Shogun",
+        "OverviewPage": "VCS/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "ShowMaker",
+        "Link)": "5",
+        "Name": "ShowMaker",
+        "OverviewPage": "LCK/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Shunn",
+        "Link)": "1",
+        "Name": "Shunn",
+        "OverviewPage": "PCS/2024 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Shyn",
+        "Link)": "1",
+        "Name": "Shyn",
+        "OverviewPage": "2015 GPL Summer",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Siwoo",
+        "Link)": "2",
+        "Name": "Siwoo",
+        "OverviewPage": "LCK/2025 Season/Rounds 1-2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Slayder",
+        "Link)": "4",
+        "Name": "Slayder",
+        "OverviewPage": "VCS/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Smeb",
+        "Link)": "1",
+        "Name": "Smeb",
+        "OverviewPage": "Champions/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Smiley (Ludvig Granquist)",
+        "Link)": "1",
+        "Name": "Smiley",
+        "OverviewPage": "CBLOL/2024 Season/Split 1 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SmLz",
+        "Link)": "4",
+        "Name": "SmLz",
+        "OverviewPage": "LPL/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Smurf (Russian)",
+        "Link)": "1",
+        "Name": "Smurf",
+        "OverviewPage": "LCL/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SNAKER",
+        "Link)": "4",
+        "Name": "SNAKER",
+        "OverviewPage": "LLA/2023 Season/Closing Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Sneaky",
+        "Link)": "3",
+        "Name": "Sneaky",
+        "OverviewPage": "IEM Season IX - San Jose",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Soaz",
+        "Link)": "1",
+        "Name": "Soaz",
+        "OverviewPage": "2015 Season World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SofM",
+        "Link)": "1",
+        "Name": "SofM",
+        "OverviewPage": "2015 Season Southeast Asia Regional Finals",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SoHwan",
+        "Link)": "1",
+        "Name": "SoHwan",
+        "OverviewPage": "LCK/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SONSTAR",
+        "Link)": "1",
+        "Name": "SONSTAR",
+        "OverviewPage": "Champions/2015 Season/Spring Qualifiers",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Spirit",
+        "Link)": "1",
+        "Name": "Spirit",
+        "OverviewPage": "2015 Demacia Cup/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Spot",
+        "Link)": "1",
+        "Name": "Spot",
+        "OverviewPage": "VCS/2019 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ssol",
+        "Link)": "2",
+        "Name": "Ssol",
+        "OverviewPage": "LJL/2023 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ssumday",
+        "Link)": "1",
+        "Name": "Ssumday",
+        "OverviewPage": "Champions/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SSUN (Kim Tae-yang)",
+        "Link)": "1",
+        "Name": "SSUN",
+        "OverviewPage": "LCK/2019 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Stark (Jason Au)",
+        "Link)": "1",
+        "Name": "Stark",
+        "OverviewPage": "OPL/2016 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "StarScreen",
+        "Link)": "1",
+        "Name": "StarScreen",
+        "OverviewPage": "TCL/2020 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Stitch",
+        "Link)": "3",
+        "Name": "Stitch",
+        "OverviewPage": "LCK/2016 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Stixxay",
+        "Link)": "3",
+        "Name": "Stixxay",
+        "OverviewPage": "LCS/2022 Season/Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Sty1e",
+        "Link)": "1",
+        "Name": "Sty1e",
+        "OverviewPage": "VCS/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Styz",
+        "Link)": "1",
+        "Name": "Styz",
+        "OverviewPage": "LPL/2014 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Supa",
+        "Link)": "2",
+        "Name": "Supa",
+        "OverviewPage": "LEC/2024 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SuperCleber",
+        "Link)": "1",
+        "Name": "SuperCleber",
+        "OverviewPage": "CBLOL/2024 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "SuwaKo",
+        "Link)": "1",
+        "Name": "SuwaKo",
+        "OverviewPage": "LMS/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Taeyoon",
+        "Link)": "1",
+        "Name": "Taeyoon",
+        "OverviewPage": "LCK/2023 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Tale",
+        "Link)": "1",
+        "Name": "Tale",
+        "OverviewPage": "LPL/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Tallywhacka",
+        "Link)": "1",
+        "Name": "Tallywhacka",
+        "OverviewPage": "OPL/2015 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Tatu (Pedro Seixas)",
+        "Link)": "1",
+        "Name": "Tatu",
+        "OverviewPage": "LTA South/2025 Season/Split 3",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Teddy",
+        "Link)": "2",
+        "Name": "Teddy",
+        "OverviewPage": "LCK/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "tei",
+        "Link)": "1",
+        "Name": "tei",
+        "OverviewPage": "LJL/2015 Season/Season 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Tempt",
+        "Link)": "1",
+        "Name": "Tempt",
+        "OverviewPage": "LCK/2017 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "TheFoxz",
+        "Link)": "1",
+        "Name": "TheFoxz",
+        "OverviewPage": "CBLOL/2015 Season/Split 2 Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "TheShy",
+        "Link)": "1",
+        "Name": "TheShy",
+        "OverviewPage": "LPL/2025 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Tian",
+        "Link)": "1",
+        "Name": "Tian",
+        "OverviewPage": "LPL/2024 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Tierwulf",
+        "Link)": "1",
+        "Name": "Tierwulf",
+        "OverviewPage": "CLS/2018 Season/Closing Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "tinowns",
+        "Link)": "1",
+        "Name": "tinowns",
+        "OverviewPage": "CBLOL/2024 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "TitaN",
+        "Link)": "3",
+        "Name": "TitaN",
+        "OverviewPage": "CBLOL/2021 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "TnT",
+        "Link)": "3",
+        "Name": "TnT",
+        "OverviewPage": "2015 Demacia Cup/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "tockers",
+        "Link)": "1",
+        "Name": "tockers",
+        "OverviewPage": "CBLOL/2018 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Tomo",
+        "Link)": "1",
+        "Name": "Tomo",
+        "OverviewPage": "LCS/2024 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Trigo (Matheus Trigo)",
+        "Link)": "2",
+        "Name": "Trigo",
+        "OverviewPage": "CBLOL/2022 Season/Split 2 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Triple",
+        "Link)": "1",
+        "Name": "Triple",
+        "OverviewPage": "OPL/2019 Season/Split 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "U",
+        "Link)": "2",
+        "Name": "U",
+        "OverviewPage": "National Electronic Sports Tournament 2015/Qualifiers",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "UmTi",
+        "Link)": "1",
+        "Name": "UmTi",
+        "OverviewPage": "LCS/2024 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "unho1y",
+        "Link)": "1",
+        "Name": "unho1y",
+        "OverviewPage": "LCL/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Unified",
+        "Link)": "3",
+        "Name": "Unified",
+        "OverviewPage": "LMS/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Unlimited (Fu Chin-Yu)",
+        "Link)": "1",
+        "Name": "Unlimited",
+        "OverviewPage": "LMS/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Untara",
+        "Link)": "1",
+        "Name": "Untara",
+        "OverviewPage": "TCL/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Upset",
+        "Link)": "2",
+        "Name": "Upset",
+        "OverviewPage": "LEC/2019 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Uri",
+        "Link)": "1",
+        "Name": "Uri",
+        "OverviewPage": "Latin America Cup/LAS/2016 Season/Closing Cup/Regular Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Uzi (Jian Zi-Hao)",
+        "Link)": "5",
+        "Name": "Uzi",
+        "OverviewPage": "LPL/2015 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "V",
+        "Link)": "1",
+        "Name": "V",
+        "OverviewPage": "LPL/2016 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Vasilie",
+        "Link)": "1",
+        "Name": "Vasilie",
+        "OverviewPage": "LST/2019 Season/Spring Qualifier/Malaysia and Singapore/National Qualifier",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Vasilii",
+        "Link)": "1",
+        "Name": "Vasilii",
+        "OverviewPage": "NA LCS/2014 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Violet (Ngô Mạnh Quyền)",
+        "Link)": "1",
+        "Name": "Violet",
+        "OverviewPage": "2015 GPL Spring",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Violet (Vincent Wong)",
+        "Link)": "3",
+        "Name": "Violet",
+        "OverviewPage": "LCO/2023 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Viper (Park Do-hyeon)",
+        "Link)": "6",
+        "Name": "Viper",
+        "OverviewPage": "LCK/2019 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "vital",
+        "Link)": "2",
+        "Name": "vital",
+        "OverviewPage": "LJL/2022 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "W0lv",
+        "Link)": "1",
+        "Name": "w0lv",
+        "OverviewPage": "CBLOL/2014 Season/Champions Series",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Wako",
+        "Link)": "1",
+        "Name": "Wako",
+        "OverviewPage": "PCS/2023 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Warangelus",
+        "Link)": "1",
+        "Name": "Warangelus",
+        "OverviewPage": "CLS/2018 Season/Opening Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Warzone",
+        "Link)": "1",
+        "Name": "Warzone",
+        "OverviewPage": "VCS/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Weiwei",
+        "Link)": "1",
+        "Name": "Weiwei",
+        "OverviewPage": "LPL/2021 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "WeiXiao",
+        "Link)": "1",
+        "Name": "WeiXiao",
+        "OverviewPage": "LPL/2014 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "West",
+        "Link)": "1",
+        "Name": "West",
+        "OverviewPage": "LPL/2017 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Whale",
+        "Link)": "1",
+        "Name": "Whale",
+        "OverviewPage": "PCS/2022 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "WhiteKnight",
+        "Link)": "1",
+        "Name": "WhiteKnight",
+        "OverviewPage": "LEC/2021 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "WhiteLotus",
+        "Link)": "1",
+        "Name": "WhiteLotus",
+        "OverviewPage": "2017 Season World Championship/Play-In",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "WildTurtle",
+        "Link)": "5",
+        "Name": "WildTurtle",
+        "OverviewPage": "NA LCS/2015 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Wizer",
+        "Link)": "1",
+        "Name": "Wizer",
+        "OverviewPage": "CBLOL/2022 Season/Split 2 Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Woong (Jang Gun-woong)",
+        "Link)": "1",
+        "Name": "Woong",
+        "OverviewPage": "IEM Season VII - World Championship",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Wunder",
+        "Link)": "1",
+        "Name": "Wunder",
+        "OverviewPage": "2019 Mid-Season Invitational/Main Event",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Wyvern",
+        "Link)": "1",
+        "Name": "Wyvern",
+        "OverviewPage": "LJL/2019 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Xiaohu",
+        "Link)": "2",
+        "Name": "Xiaohu",
+        "OverviewPage": "LPL/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "XiaoWeiXiao",
+        "Link)": "1",
+        "Name": "XiaoWeiXiao",
+        "OverviewPage": "NA LCS/2014 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Xico",
+        "Link)": "1",
+        "Name": "Xico",
+        "OverviewPage": "TCL/2017 Season/Winter Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "xiye",
+        "Link)": "3",
+        "Name": "xiye",
+        "OverviewPage": "LPL/2017 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "y4",
+        "Link)": "1",
+        "Name": "y4",
+        "OverviewPage": "National Electronic Sports Tournament 2015/Qualifiers",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yashiro (Lê Viết Huy)",
+        "Link)": "2",
+        "Name": "Yashiro",
+        "OverviewPage": "VCS/2021 Season/Summer Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "YasugaKazama",
+        "Link)": "1",
+        "Name": "YasugaKazama",
+        "OverviewPage": "2018 Asian Games/South Asia Qualifier",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yeon (Sean Sung)",
+        "Link)": "1",
+        "Name": "Yeon",
+        "OverviewPage": "LCS/2024 Season/Spring Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yike",
+        "Link)": "1",
+        "Name": "Yike",
+        "OverviewPage": "LEC/2024 Season/Winter Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Ylj",
+        "Link)": "1",
+        "Name": "Ylj",
+        "OverviewPage": "National Electronic Sports Tournament 2020",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yoshino",
+        "Link)": "1",
+        "Name": "Yoshino",
+        "OverviewPage": "VCS/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Dream (Dai Wen-Jie)",
+        "Link)": "1",
+        "Name": "youmeng",
+        "OverviewPage": "LPL/2013 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yuri (Cha Hee-min)",
+        "Link)": "1",
+        "Name": "Yuri",
+        "OverviewPage": "CBLOL/2021 Season/Split 2",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yutapon",
+        "Link)": "3",
+        "Name": "Yutapon",
+        "OverviewPage": "LJL/2018 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yutapongo",
+        "Link)": "1",
+        "Name": "Yutapongo",
+        "OverviewPage": "LJL/2015 Season/Season 1",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "YutoriMoyashi",
+        "Link)": "1",
+        "Name": "YutoriMoyashi",
+        "OverviewPage": "LJL/2016 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yuuki (Hu Hao-Ming)",
+        "Link)": "1",
+        "Name": "Yuuki",
+        "OverviewPage": "LPL/2020 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Yuuki60",
+        "Link)": "2",
+        "Name": "Yuuki60",
+        "OverviewPage": "EU LCS/2017 Season/Summer Promotion",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Zeitnot",
+        "Link)": "3",
+        "Name": "Zeitnot",
+        "OverviewPage": "2018 Season World Championship/Play-In",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Zeka (Kim Geon-woo)",
+        "Link)": "2",
+        "Name": "Zeka",
+        "OverviewPage": "LCK/2025 Season/Cup",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Zeros",
+        "Link)": "1",
+        "Name": "Zeros",
+        "OverviewPage": "VCS/2020 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Zeus",
+        "Link)": "1",
+        "Name": "Zeus",
+        "OverviewPage": "LCK/2024 Season/Summer Playoffs",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "zhiqiuyi",
+        "Link)": "1",
+        "Name": "zhiqiuyi",
+        "OverviewPage": "LPL/2023 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Zven",
+        "Link)": "7",
+        "Name": "Zven",
+        "OverviewPage": "EU LCS/2017 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "ZWuji",
+        "Link)": "1",
+        "Name": "ZWuji",
+        "OverviewPage": "LPL/2019 Season/Spring Season",
+        "TournamentLevel": "Primary"
+    },
+    {
+        "Link": "Zz1tai",
+        "Link)": "1",
+        "Name": "Zz1tai",
+        "OverviewPage": "LPL/2018 Season/Summer Season",
+        "TournamentLevel": "Primary"
+    }
+]

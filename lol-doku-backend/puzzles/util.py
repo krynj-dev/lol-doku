@@ -1,10 +1,9 @@
-from rules.models import Rule, ValidCrosses
+from rules.models import Rule
 from teams.models import Team
 from players.models import Player
-from django.db.models import Count, F
-from rules.serializers import RuleSerializer
+from django.db.models import Count
 from numpy import random
-import time
+from django.core.exceptions import BadRequest
 
 def get_crosses_new(key, count):
     return (
@@ -280,8 +279,11 @@ def create_puzzle(min_answers=1, allowed_regions=["EU", "EMEA", "", "World", "No
     rule_set = [x for x in (Rule.objects.all())]
     get_valid_options = candidate_selector_func(min_answers, get_rule_type_min_restriction_funcs(rule_type_minimums))
 
-    start_rows = [Rule.objects.get(key=x) for x in included_rules["rows"]]
-    start_columns = [Rule.objects.get(key=x) for x in included_rules["columns"]]
+    try:
+        start_rows = [Rule.objects.get(key=x) for x in included_rules["rows"]]
+        start_columns = [Rule.objects.get(key=x) for x in included_rules["columns"]]
+    except Rule.DoesNotExist as e:
+        raise BadRequest("Invalid Key") from e
 
     rows, columns = find_puzzle(start_rows, start_columns, get_valid_options, rule_set)
     if rows is None or columns is None:

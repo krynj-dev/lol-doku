@@ -1,0 +1,33 @@
+{
+    "add": {},
+    "evo": {
+        "LCPW Winner": {
+            "valid_players": [
+                "Aqua Regia",
+                "BornThisWay",
+                "Celest",
+                "Not today bruh"
+            ]
+        },
+        "PCL Winner": {
+            "valid_players": [
+                "BiIIy",
+                "Hasu7",
+                "Herma",
+                "Kino"
+            ]
+        },
+        "PCS Winner": {
+            "valid_players": [
+                "Flauren",
+                "XiaoXiang (Liao Yi-Xiang)"
+            ]
+        },
+        "TCL Winner": {
+            "valid_players": [
+                "Batuuu"
+            ]
+        }
+    },
+    "rem": []
+}

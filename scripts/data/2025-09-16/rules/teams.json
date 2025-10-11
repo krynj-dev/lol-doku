@@ -1,0 +1,315 @@
+{
+    "add": {
+        "Natus Vincere": {
+            "exclusive_crosses": [],
+            "key": "Natus Vincere",
+            "regions": [
+                "EMEA"
+            ],
+            "type": "team",
+            "valid_players": [
+                "Antogyn",
+                "Adam (Adam Maanane)",
+                "Piter Pokir",
+                "SAND (Philipp Bennek)",
+                "NesrilaS",
+                "Lasagna",
+                "Doxy",
+                "Skash",
+                "DoubleAiM",
+                "Zvene",
+                "Larssen",
+                "Onesh0tiq",
+                "Saulius",
+                "Kottenx",
+                "Aoi Haru",
+                "Thayger",
+                "Malrang",
+                "CitizenWayne",
+                "VincentVega",
+                "NiQ",
+                "Hans SamD",
+                "Gumbeq"
+            ]
+        }
+    },
+    "evo": {
+        "100 Thieves": {
+            "valid_players": [
+                "Dhokla"
+            ]
+        },
+        "Astralis": {
+            "valid_players": [
+                "NicoThePico"
+            ]
+        },
+        "Azules Esports": {
+            "active": true
+        },
+        "Bilibili Gaming": {
+            "valid_players": [
+                "Beichuan",
+                "Shad0w"
+            ]
+        },
+        "ChiLeanFivE": {
+            "valid_players": [
+                "TurtleGG"
+            ]
+        },
+        "Chiefs Esports Club": {
+            "valid_players": [
+                "Slayder",
+                "Husha",
+                "Violet (Vincent Wong)",
+                "Whynot",
+                "Zorenous"
+            ]
+        },
+        "DetonatioN FocusMe": {
+            "valid_players": [
+                "Citrus"
+            ]
+        },
+        "Dignitas": {
+            "valid_players": [
+                "Photon"
+            ]
+        },
+        "Disguised": {
+            "valid_players": [
+                "Rahel",
+                "DARKWINGS"
+            ]
+        },
+        "EDward Gaming": {
+            "valid_players": [
+                "Ahn",
+                "Parukia"
+            ]
+        },
+        "Estral Esports": {
+            "active": true
+        },
+        "Fluxo W7M": {
+            "valid_players": [
+                "ProDelta",
+                "Curty",
+                "Yampi",
+                "Ganks"
+            ]
+        },
+        "FlyQuest": {
+            "valid_players": [
+                "Gakgos"
+            ]
+        },
+        "Fnatic": {
+            "valid_players": [
+                "Poby"
+            ]
+        },
+        "Force Of Nature (Latin American Team)": {
+            "valid_players": [
+                "Tibbers"
+            ]
+        },
+        "Fukuoka SoftBank HAWKS gaming": {
+            "valid_players": [
+                "Yohan"
+            ]
+        },
+        "FunPlus Phoenix": {
+            "valid_players": [
+                "JiaQi",
+                "Assum",
+                "Jiejie"
+            ]
+        },
+        "Furious Gaming": {
+            "valid_players": [
+                "Rod"
+            ]
+        },
+        "GIANTX": {
+            "valid_players": [
+                "ISMA"
+            ]
+        },
+        "INTZ": {
+            "valid_players": [
+                "Dioge (Diogenes Barbosa)"
+            ]
+        },
+        "Invictus Gaming": {
+            "valid_players": [
+                "Wei (Yan Yang-Wei)"
+            ]
+        },
+        "Isurus": {
+            "active": true,
+            "valid_players": [
+                "Snaker",
+                "Zamudo",
+                "Josedeodo",
+                "ZOEN (Enzo Ganino)",
+                "Loopy",
+                "Burdol",
+                "Mireu",
+                "Leza",
+                "Summit",
+                "Ackerman (Gabriel Aparicio)"
+            ]
+        },
+        "JD Gaming": {
+            "valid_players": [
+                "Wink",
+                "Xiaoxu",
+                "Zhuo"
+            ]
+        },
+        "LGD Gaming": {
+            "valid_players": [
+                "Naiyou"
+            ]
+        },
+        "LNG Esports": {
+            "valid_players": [
+                "Xiaofang"
+            ]
+        },
+        "LOUD": {
+            "valid_players": [
+                "Jool",
+                "Shini",
+                "Gryffinn"
+            ]
+        },
+        "LYON (2024 American Team)": {
+            "valid_players": [
+                "Srtty",
+                "Bejjaniii"
+            ]
+        },
+        "Leviatan": {
+            "valid_players": [
+                "Hauz",
+                "TopLop"
+            ]
+        },
+        "Ninjas in Pyjamas.CN": {
+            "valid_players": [
+                "Naiyou",
+                "Solokill",
+                "Niket"
+            ]
+        },
+        "Nongshim RedForce": {
+            "valid_players": [
+                "Trigger (Kim Eui-joo)"
+            ]
+        },
+        "OKSavingsBank BRION": {
+            "valid_players": [
+                "Ellim"
+            ]
+        },
+        "Oh My God": {
+            "valid_players": [
+                "Beishang"
+            ]
+        },
+        "One More Esports": {
+            "valid_players": [
+                "Alphen"
+            ]
+        },
+        "PaiN Gaming": {
+            "valid_players": [
+                "Roamer"
+            ]
+        },
+        "RED Canids": {
+            "valid_players": [
+                "DOOM",
+                "Kaze (Lucas Fe)",
+                "Mago",
+                "Rabelo"
+            ]
+        },
+        "Rogue (European Team)": {
+            "valid_players": [
+                "Trick"
+            ]
+        },
+        "SK Gaming": {
+            "valid_players": [
+                "Skeanz",
+                "Keduii",
+                "Abbedagge",
+                "DnDn",
+                "Boukada"
+            ]
+        },
+        "Shopify Rebellion": {
+            "valid_players": [
+                "Ceos"
+            ]
+        },
+        "T1": {
+            "valid_players": [
+                "Smash (Shin Geum-jae)"
+            ]
+        },
+        "Team BDS": {
+            "valid_players": [
+                "Boukada",
+                "Rooster"
+            ]
+        },
+        "Team Liquid": {
+            "valid_players": [
+                "Yuuji"
+            ]
+        },
+        "Team Secret Whales": {
+            "valid_players": [
+                "Pun"
+            ]
+        },
+        "Team Vitality": {
+            "valid_players": [
+                "Nisqy",
+                "Fleshy"
+            ]
+        },
+        "ThunderTalk Gaming": {
+            "valid_players": [
+                "Aki (Mao An)"
+            ]
+        },
+        "Top Esports": {
+            "valid_players": [
+                "Hang"
+            ]
+        },
+        "Ultra Prime": {
+            "valid_players": [
+                "Baiye",
+                "Xiaoxia"
+            ]
+        },
+        "Vivo Keyd Stars": {
+            "valid_players": [
+                "Scamber",
+                "Mireu"
+            ]
+        }
+    },
+    "rem": [
+        "Ultimate",
+        "Isurus Estral",
+        "Natus Vincere.CIS"
+    ]
+}

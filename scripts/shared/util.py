@@ -106,7 +106,8 @@ def write_to_json_file(dir, file_name, objects, format=True, delimit=False, list
     os.makedirs(dir, exist_ok=True)
     file_loc = f'{dir}/{file_name}.json'
     with open(file_loc, 'w+', encoding='utf-8') as f:
-        json.dump(object_to_save, f, ensure_ascii=False, indent=4, sort_keys=True, default=lambda o: list(o))
+        json.dump(object_to_save, f, ensure_ascii=False, indent=4, sort_keys=True,
+            default=lambda o: sorted(o) if isinstance(o, set) else list(o))
     return file_loc
 
 def get_response(site: EsportsClient, tables: str, fields: str, offset: int, join_on: str = None, group_by: str = None, where: str = None, having: str = ""):
@@ -208,7 +209,8 @@ def read_all_from_table(site: EsportsClient, tables: str, fields: str, join_on: 
             page += 1
             sleep_time = max(0.01, sleep_time / 2)
         except Exception as ex:
-            # print(ex)
+            if ex.code != 'ratelimited':
+                print(ex)
             sleep_time *= 2
         time.sleep(sleep_time)
         

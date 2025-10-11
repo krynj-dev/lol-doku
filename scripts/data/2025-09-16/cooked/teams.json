@@ -1,0 +1,94 @@
+{
+    "add": {
+        "Dragons Esports": {
+            "becomes": null,
+            "came_from": null,
+            "highest_level": "Primary",
+            "image": "Dragons Esportslogo square.png",
+            "name": "Dragons Esports",
+            "op": "Dragons Esports",
+            "other_names": [
+                "Dragons Esports"
+            ],
+            "region": "EMEA",
+            "renamed_to": "",
+            "short": "DRAG",
+            "sister_teams": []
+        },
+        "Natus Vincere": {
+            "becomes": null,
+            "came_from": null,
+            "highest_level": "Primary",
+            "image": "Natus Vincerelogo square.png",
+            "name": "Natus Vincere",
+            "op": "Natus Vincere",
+            "other_names": [
+                "Natus Vincere",
+                "Natus Vincere.CIS"
+            ],
+            "region": "EMEA",
+            "renamed_to": "",
+            "short": "NAVI",
+            "sister_teams": [
+                "Natus Vincere.CIS"
+            ]
+        }
+    },
+    "evo": {
+        "Anyone's Legend": {
+            "other_names": [
+                "AG.AL"
+            ]
+        },
+        "Azules Esports": {
+            "active": true,
+            "region": "Americas"
+        },
+        "Coscu Army": {
+            "region": "Americas"
+        },
+        "E-Champ Gaming": {
+            "sister_teams": [
+                "E-Champ Gaming"
+            ]
+        },
+        "Estral Esports": {
+            "active": true,
+            "region": "Americas"
+        },
+        "Fluxo W7M": {
+            "short": "FXW7"
+        },
+        "Isurus": {
+            "active": true,
+            "came_from": "Isurus Estral",
+            "image": "Isuruslogo square.png",
+            "other_names": [
+                "Isurus Estral"
+            ],
+            "region": "Americas"
+        },
+        "MGN Vikings Esports": {
+            "sister_teams": [
+                "MGN Vikings Esports"
+            ]
+        },
+        "Sengoku Gaming": {
+            "becomes": "QT DIG",
+            "image": null,
+            "region": null,
+            "short": null
+        },
+        "TALON (Hong Kong Team)": {
+            "image": null,
+            "name": "TALON (Hong Kong Team)",
+            "region": null,
+            "short": null
+        }
+    },
+    "rem": [
+        "Ultimate",
+        "Isurus Estral",
+        "Natus Vincere.CIS"
+    ]
+}

@@ -79,15 +79,17 @@ CLOUDRUN_SERVICE_URL = env("CLOUDRUN_SERVICE_URL", default=None)
 if CLOUDRUN_SERVICE_URL:
     ALLOWED_HOSTS = [
         urlparse(CLOUDRUN_SERVICE_URL).netloc,
-        'loldoku-20a39.web.app']
+        'loldoku-20a39.web.app', 'lolprogrid.com', 'www.lolprogrid.com']
     CSRF_TRUSTED_ORIGINS = [
         CLOUDRUN_SERVICE_URL,
-        'https://loldoku-20a39.web.app'
+        'https://loldoku-20a39.web.app',
+        'https://lolprogrid.com',
+        'https://www.lolprogrid.com',
     ]
     SECURE_SSL_REDIRECT = True
     SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 else:
-    ALLOWED_HOSTS = ["*", "loldoku-20a39.web.app"]
+    ALLOWED_HOSTS = ["*", "loldoku-20a39.web.app", "www.lolprogrid.com", 'lolprogrid.com']
 # [END cloudrun_django_csrf]
 
 # Application definition
@@ -160,17 +162,17 @@ WSGI_APPLICATION = 'lol_doku_backend.wsgi.application'
 #         'PORT': '5432',       # Default PostgreSQL port
 #     }
 # }
-# DATABASES = {"default": env.db()}
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lolprogrid',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
-        'PORT': '5432',       # Default PostgreSQL port
-    }
-}
+DATABASES = {"default": env.db()}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'lolprogrid',
+#         'USER': 'postgres',
+#         'PASSWORD': 'password',
+#         'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
+#         'PORT': '5432',       # Default PostgreSQL port
+#     }
+# }
 
 
 
@@ -199,7 +201,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Australia/Sydney'
 
 USE_I18N = True
 
@@ -234,6 +236,8 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:5173',
     'https://loldoku-20a39.web.app',
+    'https://lolprogrid.com',
+    'https://www.lolprogrid.com',
     'https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app'
 ]
 
@@ -251,6 +255,8 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',
     'http://localhost',
     'https://loldoku-20a39.web.app',
+    'https://www.lolprogrid.com',
+    'https://lolprogrid.com',
     'https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app'
 ]
 
