@@ -1,0 +1,54 @@
+{
+    "game/session": [{"message": "session retrieved"}],
+    "meta/latest": {"data_update_date": "2025-09-19", "server_time": "2025-10-10T15:39:15.861"},
+    "game/today": {
+        "remaining_guesses": 1,
+        "puzzle": {
+            "date": "2025-10-10",
+            "rules": [
+                {
+                    "axis": "x",
+                    "index": 0,
+                    "key": "Team Vitality",
+                    "rule_type": "team",
+                    "other_names": ["Team Vitality"]
+                },
+                {
+                    "axis": "x",
+                    "index": 1,
+                    "url": "http://localhost:8000/rules/4265/",
+                    "key": "Jungle",
+                    "rule_type": "role"
+                },
+                {
+                    "axis": "x",
+                    "index": 2,
+                    "url": "http://localhost:8000/rules/4265/",
+                    "key": "Jungle",
+                    "rule_type": "role"
+                },
+                {
+                    "axis": "y",
+                    "index": 0,
+                    "url": "http://localhost:8000/rules/4265/",
+                    "key": "Jungle",
+                    "rule_type": "role"
+                },
+                {
+                    "axis": "y",
+                    "index": 1,
+                    "url": "http://localhost:8000/rules/4265/",
+                    "key": "Jungle",
+                    "rule_type": "role"
+                },
+                {
+                    "axis": "y",
+                    "index": 2,
+                    "url": "http://localhost:8000/rules/4265/",
+                    "key": "Jungle",
+                    "rule_type": "role"
+                }
+            ]
+        }
+    }
+}
