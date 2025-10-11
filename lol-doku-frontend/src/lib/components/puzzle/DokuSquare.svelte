@@ -14,14 +14,14 @@
 	import RuleTile from './RuleTile.svelte';
 	import { calculate_unique_score } from '$lib/shared/util';
 
-	let puzzle: Puzzle;
-	$: rows = (puzzle ? puzzle.rules.filter(r => r.axis == 'x').sort((a, b) => a.index - b.index): []);
-	$: columns = (puzzle ? puzzle.rules.filter(r => r.axis == 'y').sort((a, b) => a.index - b.index): []);
-	let lives: number;
-	let correct: number;
+	let puzzle: Puzzle = $state();
+	let rows = ($derived(puzzle ? puzzle.rules.filter(r => r.axis == 'x').sort((a, b) => a.index - b.index): []));
+	let columns = ($derived(puzzle ? puzzle.rules.filter(r => r.axis == 'y').sort((a, b) => a.index - b.index): []));
+	let lives: number = $state();
+	let correct: number = $state();
 	let modal_shown: boolean = false;
-	let showModal: boolean = false;
-	let score: number = 900;
+	let showModal: boolean = $state(false);
+	let score: number = $state(900);
 
 	_puzzle.subscribe((value) => {
 		puzzle = value;
@@ -43,7 +43,9 @@
 </script>
 
 <Modal bind:showModal>
-	<h4 class="ending-modal-title" slot="title">Thank you for playing!</h4>
+	{#snippet title()}
+		<h4 class="ending-modal-title" >Thank you for playing!</h4>
+	{/snippet}
 	<div class="ending-modal">
 		<div class="ending-modal-row-2">
 			<p>{`Correct guesses:`}</p>
@@ -63,21 +65,21 @@
 		<div class="column-span">
 			{#each puzzle.rules.filter((c) => c.axis == 'x') as col (col.index)}
 				<div class="info-tile">
-				<RuleTile bind:rule={col} />
+				<RuleTile rule={col} />
 				</div>
 			{/each}
 		</div>
 		<div class="row-span">
 			{#each puzzle.rules.filter((r) => r.axis == 'y') as row (row.index)}
 				<div class="info-tile">
-					<RuleTile bind:rule={row} />
+					<RuleTile rule={row} />
 				</div>
 			{/each}
 		</div>
 		<div class="select-tile-span lol-border">
 			{#each rows as row (row.index)}
 				{#each columns as col (col.index)}
-					<DokuTile index={row.index * 3 + col.index} bind:rule1={col} bind:rule2={row} />
+					<DokuTile index={row.index * 3 + col.index} rule1={col} rule2={row} />
 				{/each}
 			{/each}
 		</div>

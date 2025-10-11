@@ -1,11 +1,16 @@
 <script lang="ts">
-    export let variant: 'light' | 'dark' = 'dark';
-    let clazz: string = '';
-    export { clazz as class };
+    interface Props {
+        variant?: 'light' | 'dark';
+        class?: string;
+        children?: import('svelte').Snippet;
+    }
+
+    let { variant = 'dark', class: clazz = '', children }: Props = $props();
+    
 </script>
 
 <div class="tile-container lol-border {variant} {clazz}">
-    <slot />
+    {@render children?.()}
 </div>
 
 <style>

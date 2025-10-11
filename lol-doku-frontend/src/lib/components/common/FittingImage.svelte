@@ -1,9 +1,18 @@
 <script lang="ts">
-    export let src: string;
-    export let alt: string;
-    let clazz = "";
-    export { clazz as class };
-    export let variant: 'cover' | 'scale-down' = 'scale-down';
+    
+    interface Props {
+        src: string;
+        alt: string;
+        class?: string;
+        variant?: 'cover' | 'scale-down';
+    }
+
+    let {
+        src,
+        alt,
+        class: clazz = "",
+        variant = 'scale-down'
+    }: Props = $props();
 </script>
 
 <div class={`img-container ${clazz || ''}`}>

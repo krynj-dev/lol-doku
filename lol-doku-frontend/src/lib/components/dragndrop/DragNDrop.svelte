@@ -6,10 +6,9 @@
 
     export const key = uuidv4();
 
-    let clazz = '';
-	export { clazz as class };
+	
 
-    let container;
+    let container = $state();
     const buckets_store = writable({} as {
         [key: string]: Bucket
     });
@@ -19,14 +18,20 @@
         getKey: () => key
     })
 
-    export let buckets: {
+    interface Props {
+        class?: string;
+        buckets?: {
         [key: string]: Bucket
-    } = {};
+    };
+        children?: import('svelte').Snippet;
+    }
+
+    let { class: clazz = '', buckets = $bindable({}), children }: Props = $props();
 
     buckets_store.subscribe(v => buckets = v)
 </script>
 
 <div class={clazz} bind:this={container}>
-    <slot />
-    <button on:click={e => console.log(buckets)}>Log Buckets</button>
+    {@render children?.()}
+    <button onclick={e => console.log(buckets)}>Log Buckets</button>
 </div>

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import _team_image_data from '$lib/data/team_images.json';
 	import { read_rule } from '$lib/shared/puzzle_util';
 	import type { Rule } from '$lib/models/new/Rule';
@@ -11,13 +13,17 @@
 	import Modal from '../modal/Modal.svelte';
 	import ColorToggle from '../vector-image/ColorToggle.svelte';
 
-	export let rule: Rule;
-	let showModal = false;
-	let image: string;
+	interface Props {
+		rule: Rule;
+	}
+
+	let { rule }: Props = $props();
+	let showModal = $state(false);
+	let image: string = $state();
 
 	let country_codes: object;
 
-	let alt_images: any = {};
+	let alt_images: any = $state({});
 
 	_country_codes.subscribe((v) => (country_codes = v));
 
@@ -29,9 +35,9 @@
 		}
 	}
 
-	$: filtered_alt_names = rule.other_names?.filter(
+	let filtered_alt_names = $derived(rule.other_names?.filter(
 		(n) => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase()
-	);
+	));
 
 	const get_champion_count_number = (rule_key: string) => {
 		let count_regex = new RegExp('^.+ (\\d+\\+)$');
@@ -48,14 +54,15 @@
 			let src = await get_rule_image_src(n, rule.rule_type);
 			obj[n] = src;
 		}
-		console.log(obj);
 		return obj;
 	};
 
-	$: getimgs(filtered_alt_names).then(o => {alt_images = o})
+	run(() => {
+		getimgs(filtered_alt_names).then(o => {alt_images = o})
+	});
 
-	let modalLight = false;
-	let modalLightFill = 'var(--lol-doku-white-1)';
+	let modalLight = $state(false);
+	let modalLightFill = $state('var(--lol-doku-white-1)');
 
 	let toggleModalLight = () => {
 		if (modalLight) {
@@ -85,18 +92,20 @@
 		class="rule-tile-button"
 		role="button"
 		tabindex="0"
-		on:click={toggleModal}
-		on:keyup={toggleModal}
+		onclick={toggleModal}
+		onkeyup={toggleModal}
 	>
 		<Modal bind:showModal>
-			<h4 class="rule-modal-title" slot="title">{rule.key}</h4>
+			{#snippet title()}
+						<h4 class="rule-modal-title" >{rule.key}</h4>
+					{/snippet}
 			<div class="rule-modal">
 				<div class={`rule-image-container lol-border${modalLight ? ' white-bg' : ''}`}>
 					<img class="rule-image" src={image} alt={rule.key} />
 					<div class="button-modal-container">
 						<button
 							class={`button-modal-light-toggle${modalLight ? ' rotate-180-deg' : ''}`}
-							on:click={toggleModalLight}
+							onclick={toggleModalLight}
 						>
 							<ColorToggle fill={modalLightFill} />
 						</button>

@@ -1,5 +1,9 @@
 <script lang="ts">
-    export let fill = "#000000";
+    interface Props {
+        fill?: string;
+    }
+
+    let { fill = "#000000" }: Props = $props();
 </script>
 
 <div class="worlds-svg-container">

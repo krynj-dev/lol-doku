@@ -36,7 +36,6 @@ async function init_puzzle(): Promise<GameState> {
             } as FailResponse)
             throw new Error("Failed to retrieve todays game")
         });
-    console.log(game_res);
     let game_state = game_res as GameState;
     return game_state;
 }
@@ -59,7 +58,6 @@ export async function get_metadata(): Promise<Metadata> {
         .catch(e => {
             console.error(e)
         });
-    console.log(metadata_res);
     let metadata = metadata_res as Metadata;
     return metadata;
 }
@@ -110,7 +108,6 @@ export async function finalise_game() {
 export async function refresh_state() {
     init_puzzle().then((game_state) => {
         _puzzle.set(game_state.puzzle);
-        console.log(game_state);
         _finalised.set(game_state.status == 'finalised');
         game_state.guesses.forEach(g => {
             let selected_players = get(_selected_players);

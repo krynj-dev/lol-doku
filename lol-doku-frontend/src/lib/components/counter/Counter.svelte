@@ -19,7 +19,7 @@
     }
 
     let base_date: Date;
-    let cur_time = 0;
+    let cur_time = $state(0);
     
 </script>
 

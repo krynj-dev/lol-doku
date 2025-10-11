@@ -1,16 +1,20 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import { browser } from '$app/environment';
 	import Modal from "./modal/Modal.svelte";
 	import Info from './vector-image/Info.svelte';
 	import Worlds from './vector-image/Worlds.svelte';
-	import MediaQuery from './media-query/MediaQuery.svelte';
-	import { onMount } from 'svelte';
 
-	export let tabs: string[];
-	export let selected: string | undefined;
+	interface Props {
+		tabs: string[];
+		selected: string | undefined;
+	}
+
+	let { tabs, selected = $bindable() }: Props = $props();
 	
-	let showModal = true;
-	let dialog: HTMLDialogElement;
+	let showModal = $state(true);
+	let dialog: HTMLDialogElement | undefined = $state();
 
 	function update_selected(e: Event) {
 		e.preventDefault();
@@ -19,7 +23,7 @@
 		}
 	}
 
-	$: {
+	run(() => {
 		if (browser) {
 			let welcome_seen = localStorage.getItem("welcome_seen");
 			if (welcome_seen == null) {
@@ -27,23 +31,13 @@
 				localStorage.setItem("welcome_seen", "1");
 			}
 		}
-	}
-
-	let kofi: any;
-	let kofiHtml: string;
-	let kofiHtmlSmall: string;
-
-	onMount(() => {
-		kofi = (window as any).kofiwidget2;
-		kofi.init('Donate a coffee to me on Ko-fi', 'var(--lol-blue-4)', 'T6T61A5K5H');
-		kofiHtml = kofi.getHTML();
-		kofi.init('', 'var(--lol-blue-4)', 'T6T61A5K5H');
-		kofiHtmlSmall = kofi.getHTML();
-	})
+	});
 </script>
 
 <Modal bind:showModal bind:dialog size=600>
-	<h3 class="info-title" slot="title">Welcome to LoLProGrid!</h3>
+	{#snippet title()}
+		<h3 class="info-title" >Welcome to LoLProGrid!</h3>
+	{/snippet}
 	<div class="info-modal">
 		<p>Fill the grid with professional LoL players who fit in the categories!</p>
 		<p>Only games played in primary-level tournaments count towards a player's membership of a given category.<br>
@@ -105,25 +99,14 @@
 	<div class="header">
 		<div class="site-title-container header-border">
 			<div class="header-tab">
-				<h2>LoLProGrid</h2>
+				<h2 class="h3">LoLProGrid</h2>
 			</div>
 		</div>
 		<div class="header-tabs-container header-border">
-			<!-- {#each tabs as tab}
-				<button tabindex="0" class="header-tab header-tab-hover" on:click={(e) => update_selected(e)} data-tab-name={tab}>{tab}</button>
-			{/each} -->
-			{#if kofi}
-				<MediaQuery query="(min-width: 1000px)" let:matches>
-					{#if matches}
-						<div class="header-tab">
-							{@html kofiHtml}
-						</div>
-					{/if}
-				</MediaQuery>
-			{/if}
+			
 		</div>
 		<div class="thing-on-right header-border">
-			<button class="info-button" on:click={() => showModal = true}><Info fill="var(--lol-gold-1)" /></button>
+			<button class="info-button" onclick={() => showModal = true}><Info fill="var(--lol-gold-1)" /></button>
 		</div>
 	</div>
 </nav>
@@ -133,7 +116,7 @@
 	.header-container {
 		display: block;
 		padding: 0;
-		height: 80px;
+		height: 45px;
 		color: var(--lol-gold-1);
 		background-color: var(--lol-hextech-black);
 		border-bottom: 2px solid var(--lol-gold-4);
@@ -148,7 +131,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		height: 80px;
+		height: 45px;
 		box-sizing: border-box;
 		width: 100vw;
 	}
@@ -195,7 +178,7 @@
 
 	.thing-on-right {
 		height: 100%;
-		padding: 15px;
+		padding: 5px;
 		box-sizing: border-box;
 		display: flex;
 		width: max-content;
@@ -285,6 +268,7 @@
 
 	.info-button {
 		height: 100%;
+		width: 100%;
 		background-color: inherit;
 		border: 0;
 		padding: 0;

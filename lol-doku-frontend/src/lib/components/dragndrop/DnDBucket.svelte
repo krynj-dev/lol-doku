@@ -5,8 +5,7 @@
 	import DragNDrop from './DragNDrop.svelte';
 	import { writable, type Writable } from 'svelte/store';
 
-	let clazz = '';
-	export { clazz as class };
+	
 
 	const { getBucketsStore, getKey } = getContext<DragNDrop>('dnd');
 	const buckets_store: Writable<{ [key: string]: Bucket }> = getBucketsStore();
@@ -16,9 +15,21 @@
 
 	buckets_store.subscribe((v) => (buckets = v));
 
-	export let bucket_key: string;
-	export let max_size: number;
-    export let callback = (items: any[], bucketKey: string) => {}
+	interface Props {
+		class?: string;
+		bucket_key: string;
+		max_size: number;
+		callback?: any;
+		children?: import('svelte').Snippet;
+	}
+
+	let {
+		class: clazz = '',
+		bucket_key,
+		max_size,
+		callback = (items: any[], bucketKey: string) => {},
+		children
+	}: Props = $props();
 
 	setContext('dnd-bucket', {
 		getItemsStore: () => item_store,
@@ -28,7 +39,7 @@
 
 	const item_store = writable([] as any[]);
 
-	let items: any[] = [];
+	let items: any[] = $state([]);
 	const dndKey = getKey();
 
 	item_store.subscribe((v) => {
@@ -36,14 +47,14 @@
 		items = v;
 	});
 
-	let hovering_over = false;
+	let hovering_over = $state(false);
 
-	$: bucket = {
+	let bucket = $derived({
 		key: bucket_key,
 		max_size: max_size,
 		items: item_store,
 		class: clazz
-	};
+	});
 
 	function handleDrop(event: DragEvent) {
 		hovering_over = false;
@@ -83,19 +94,19 @@
 	});
 </script>
 
-<slot />
+{@render children?.()}
 <div
 	class={clazz}
 	class:hovering={hovering_over}
-	on:dragenter={() => (hovering_over = true)}
-	on:dragleave={() => (hovering_over = false)}
-	on:drop={(event) => handleDrop(event)}
-	on:dragover={(event) => event.preventDefault()}
+	ondragenter={() => (hovering_over = true)}
+	ondragleave={() => (hovering_over = false)}
+	ondrop={(event) => handleDrop(event)}
+	ondragover={(event) => event.preventDefault()}
 	role="listitem"
 >
 	{#each items as item, itemIndex (item)}
 		<div
-			on:dragstart={(e) => handleDragStart(e, itemIndex, dndKey)}
+			ondragstart={(e) => handleDragStart(e, itemIndex, dndKey)}
 			role="listitem"
 			style="cursor: pointer; display: inline-block"
 			draggable={true}

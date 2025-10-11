@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import _playerList from '$lib/data/players.json';
 	import type { Player } from '$lib/models/new/Player';
 	import type { Puzzle } from '$lib/models/new/Puzzle';
@@ -8,20 +10,30 @@
 	import { _correct, _lives, _puzzle, _selected_players } from '../../../stores';
 	import Modal from './Modal.svelte';
 
-	export let showModal: Boolean; // boolean
-	export let index: number;
-	export let loading: boolean = false;
-	export let error_flashing: boolean = false;
-	export let ref: HTMLElement | null = null;
+	interface Props {
+		showModal: Boolean;
+		index: number;
+		loading?: boolean;
+		error_flashing?: boolean;
+		ref?: HTMLElement | null;
+	}
 
-	let playerList: Player[] = [];
-	let player_image_srcs: any = {};
+	let {
+		showModal = $bindable(),
+		index,
+		loading = $bindable(false),
+		error_flashing = $bindable(false),
+		ref = $bindable(null)
+	}: Props = $props();
+
+	let playerList: Player[] = $state([]);
+	let player_image_srcs: any = $state({});
 
 	let cached_filter = '';
 	let cached_player_list: any[] = [];
 
-	let selectedPlayers: SlotGuess[];
-	let lives: number;
+	let selectedPlayers: SlotGuess[] = $state();
+	let lives: number = $state();
 	let selectedPlayer: SlotGuess;
 	let puzzle: Puzzle;
 
@@ -41,7 +53,6 @@
 	let clean_name = (name: string): string | undefined => {
 		let expr = /(.+)\s+\(.*\)/g;
 		let name_only = expr.exec(name)?.[1];
-		console.log("exr", expr.exec(name));
 		return name_only ? name_only : name;
 	}
 
@@ -50,9 +61,9 @@
 		return new_name;
 	}
 
-	let filter = '';
+	let filter = $state('');
 
-	$: {
+	run(() => {
 		if (filter.length >= 2) {
 			get_players(filter, 20).then((res) => {
 				let results = res.results;
@@ -70,11 +81,13 @@
 		} else {
 			playerList = [];
 		}
-	}
+	});
 
-	let dialog: HTMLDialogElement; // HTMLDialogElement
+	let dialog: HTMLDialogElement = $state(); // HTMLDialogElement
 
-	$: if (dialog && showModal) dialog.showModal();
+	run(() => {
+		if (dialog && showModal) dialog.showModal();
+	});
 
 	let rulesFromIndex = (index: number) => {
 		let x = index % 3;
@@ -88,9 +101,9 @@
 		return [];
 	};
 
-	$: rules = rulesFromIndex(index);
+	let rules = $derived(rulesFromIndex(index));
 
-	let handleModalClose = (event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {
+	let handleModalClose = $state((event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {
 		let player_string =
 			event.currentTarget.returnValue &&
 			(!selectedPlayer ||
@@ -109,7 +122,7 @@
 			});
 		}
 		filter = '';
-	};
+	});
 
 	function handlePlayerSelection(event: Event, clickedPlayer: string) {
 		dialog.close(clickedPlayer);
@@ -117,25 +130,27 @@
 </script>
 
 <Modal bind:showModal bind:modalCloseCallback={handleModalClose} bind:dialog size="600">
-	<div class="rule-cross-title" slot="title">
-		{#if rules.length > 0}
-			<h3>{rules[0].key} X {rules[1].key}</h3>
-		{/if}
-	</div>
+	{#snippet title()}
+		<div class="rule-cross-title" >
+			{#if rules.length > 0}
+				<h3>{rules[0].key} X {rules[1].key}</h3>
+			{/if}
+		</div>
+	{/snippet}
 	<hr />
 	<div>
 		<p class="input-label">Search Player:</p>
-		<!-- svelte-ignore a11y-autofocus -->
+		<!-- svelte-ignore a11y_autofocus -->
 		<input bind:value={filter} bind:this={ref} autofocus />
 	</div>
 	<hr />
 	<div class="player-button-box">
-		{#each playerList.sort((a, b) => a.display_name
+		{#each playerList.toSorted((a, b) => a.display_name
 				.toLowerCase()
 				.localeCompare(b.display_name.toLowerCase())) as plr}
 			<button
 				class={`player-modal-button`}
-				on:click={(e) => handlePlayerSelection(e, plr.display_name)}
+				onclick={(e) => handlePlayerSelection(e, plr.display_name)}
 				disabled={lives <= 0 ||
 					selectedPlayers.find((p) => p.player === plr.display_name) != undefined}
 			>

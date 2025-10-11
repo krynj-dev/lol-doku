@@ -1,49 +1,67 @@
 <script lang="ts">
+	import { run, self, createBubbler, stopPropagation } from 'svelte/legacy';
+
+	const bubble = createBubbler();
 	import Cross from '../vector-image/Cross.svelte';
 
-	export let showModal: Boolean; // boolean
 
-	export let dialog: HTMLDialogElement | undefined = undefined; // HTMLDialogElement
 
-	export let modalCloseCallback = (
+
+	interface Props {
+		showModal: Boolean;
+		dialog?: HTMLDialogElement | undefined;
+		modalCloseCallback?: any;
+		size?: string;
+		title?: import('svelte').Snippet;
+		children?: import('svelte').Snippet;
+	}
+
+	let {
+		showModal = $bindable(),
+		dialog = $bindable(undefined),
+		modalCloseCallback = (
 		event: Event & { currentTarget: EventTarget & HTMLDialogElement }
-	) => {};
-
-	export let size: string = '500';
+	) => {},
+		size = '500',
+		title,
+		children
+	}: Props = $props();
 
 	let onClose = (event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {
 		modalCloseCallback(event);
 		showModal = false;
 	};
 
-	$: if (dialog && showModal) dialog.showModal();
+	run(() => {
+		if (dialog && showModal) dialog.showModal();
+	});
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
+<!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
 
 <dialog
 	bind:this={dialog}
-	on:click|self={() => {
+	onclick={self(() => {
 		if (dialog) dialog.close();
-	}}
-	on:close={onClose}
+	})}
+	onclose={onClose}
 	style={`--modal-width: ${size}px;`}
 >
-	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div class="modal" on:click|stopPropagation>
+	<!-- svelte-ignore a11y_no_static_element_interactions -->
+	<div class="modal" onclick={stopPropagation(bubble('click'))}>
 		<div class="modal-header">
 			<div class="modal-title-container">
-				<slot name="title" />
+				{@render title?.()}
 			</div>
 			<button
 				class="modal-cross"
-				on:click={() => {
+				onclick={() => {
 					if (dialog) dialog.close();
 				}}><Cross fill="var(--lol-gold-4)" /></button
 			>
 		</div>
 		<div class="modal-content">
-			<slot />
+			{@render children?.()}
 		</div>
 	</div>
 </dialog>

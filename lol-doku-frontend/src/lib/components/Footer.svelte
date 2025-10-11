@@ -1,14 +1,11 @@
 <script lang="ts">
-	import Info from './vector-image/Info.svelte';
-	import MediaQuery from './media-query/MediaQuery.svelte';
 	import { onMount } from 'svelte';
 	import { get_metadata } from '$lib/shared/api';
-	import { stringify } from 'uuid';
 
-	let kofi: any;
-	let kofiHtml: string;
+	let kofi: any = $state();
+	let kofiHtml: string = $state('');
 
-	$: data_update_date = undefined as string | undefined;
+	let data_update_date: string | undefined = $state('');
 
 	onMount(() => {
 		kofi = (window as any).kofiwidget2;
@@ -16,7 +13,6 @@
 		kofiHtml = kofi.getHTML();
 
 		get_metadata().then(res => {
-			console.log("fetched", res);
 			data_update_date = res.data_update_date;
 		})
 	});
@@ -35,13 +31,9 @@
 		</div>
 		<div>
 			{#if kofi}
-				<MediaQuery query="(max-width: 999px)" let:matches>
-					{#if matches}
-						<div class="footer-tab">
-							{@html kofiHtml}
-						</div>
-					{/if}
-				</MediaQuery>
+				<div class="footer-tab">
+					{@html kofiHtml}
+				</div>
 			{/if}
 		</div>
 </div>

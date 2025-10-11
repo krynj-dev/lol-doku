@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import { onMount } from 'svelte';
 	import { _finalised } from '../../../stores';
 	import Modal from './Modal.svelte';
@@ -7,24 +9,28 @@
 	import { decimal_number } from '$lib/shared/util';
 	import { get_player_image_src } from '$lib/shared/img';
 
-	export let slot: number;
 
-	let dialog: HTMLDialogElement;
+	let dialog: HTMLDialogElement = $state();
 
-	export let showModal = false;
-	let allowToggle = false;
+	interface Props {
+		slot: number;
+		showModal?: boolean;
+	}
+
+	let { slot, showModal = $bindable(false) }: Props = $props();
+	let allowToggle = $state(false);
 
 	_finalised.subscribe((v) => (allowToggle = v));
 
-	let stats: GuessStats;
+	let stats: GuessStats = $state();
 
-	let alt_names: any = {};
+	let alt_names: any = $state({});
 
-	let player_image_srcs: any = {};
+	let player_image_srcs: any = $state({});
 
-	let percentage_correct = '100.0';
+	let percentage_correct = $state('100.0');
 
-	$: {
+	run(() => {
 		if (allowToggle && stats && showModal) {
 			stats.results.forEach((stat) => {
 				get_player_image_src(stat.player).then((res) => {
@@ -34,7 +40,7 @@
 				});
 			});
 		}
-	}
+	});
 
 	onMount(() => {
 		get_player_stats(slot).then((res_obj) => {
@@ -56,13 +62,15 @@
 
 {#if allowToggle}
 	<Modal bind:showModal size="600" bind:dialog>
-		<div slot="title">
-			{#if stats}
-				<h4 class="rule-cross-tile-title">{stats.x} / {stats.y}</h4>
-				<h5 class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</h5>
-				<hr />
-			{/if}
-		</div>
+		{#snippet title()}
+				<div >
+				{#if stats}
+					<h4 class="rule-cross-tile-title">{stats.x} / {stats.y}</h4>
+					<h5 class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</h5>
+					<hr />
+				{/if}
+			</div>
+			{/snippet}
 		{#if stats}
 			<div class="player-stat-container">
 				{#each stats.results as player_stat}
