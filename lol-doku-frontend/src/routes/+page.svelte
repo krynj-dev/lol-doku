@@ -38,7 +38,10 @@
 		<h2>Puzzle failed to load.</h2>
 		<p>{failed_load.reason}</p>
 	{:else if puzzle}
-		<DokuSquare />
+
+		<div class="doku-container">
+			<DokuSquare />
+		</div>
 		<button class="giveup-button lol-border" onclick={() => {
 			finalise_game().then(r => {
                 _finalised.set(true);
@@ -52,13 +55,22 @@
 
 <style>
 	.content {
-		width: 100vw;
-		padding: 2rem 5px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		box-sizing: border-box;
 		gap: 30px;
+	}
+
+	.doku-container {
+			box-sizing: content-box;
+			width: 100%;
+		}
+
+	@media only screen and (min-width: 841px) {
+		.doku-container {
+			width: 840px;
+		}
 	}
 
 	.giveup-button {

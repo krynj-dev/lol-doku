@@ -6,6 +6,7 @@
 	import StatModal from '../modal/StatModal.svelte';
 	import Spinner from '../spinner/Spinner.svelte';
 	import PlayerModal from '../modal/PlayerModal.svelte';
+	import FittingImage from '../common/FittingImage.svelte';
 	export let index: number;
 	let lives: number;
 	let correct: number;
@@ -135,7 +136,7 @@
 	on:click={toggleModal}
 	on:keyup={toggleModal}
 	style="--tile-color: {tile_color};"
-	class={`doku-tile lol-border-small${error_flashing ? ' error-flash' : ''}${transitoning ? ' transition-2s' : ''} ${rarity_class}`}
+	class={`doku-tile lol-outline-small${error_flashing ? ' error-flash' : ''}${transitoning ? ' transition-2s' : ''} ${rarity_class}`}
 >
 	{#if !finalised}
 		<PlayerModal bind:showModal bind:index bind:loading bind:error_flashing />
@@ -145,9 +146,9 @@
 	{#if loading}
 		<div class="spinner-container"><Spinner /></div>
 	{:else if selectedPlayer}
-		<div class="img-container">
+	<div class="img-container">
 			<p class="text-overlay percentage">{getPercentage()}%</p>
-			<img class="tile-img" src={image_src} alt={selectedPlayer.player} />
+			<FittingImage src={image_src!} alt={selectedPlayer.player} variant='cover' />
 			<p class="text-overlay name">{selectedPlayer.player}</p>
 		</div>
 	{/if}
@@ -161,8 +162,10 @@
 		justify-content: center;
 		text-align: center;
 		max-height: 100%;
+		aspect-ratio: 1/1;
 		overflow: hidden;
 		cursor: pointer;
+		box-sizing: border-box;
 	}
 	.doku-tile:hover {
 		background-color: var(--lol-grey-cool);
@@ -222,6 +225,7 @@
 		background-color: rgba(0, 0, 0, 0.8);
 		color: white;
 		font-size: 0.8rem;
+		z-index: 1;
 	}
 
 	.rainbow-text {

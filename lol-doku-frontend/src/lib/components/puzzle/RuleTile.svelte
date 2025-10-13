@@ -167,7 +167,9 @@
 				</div>
 			{/if}
 		{:else}
+		<div style="grid-area: span 2" class="caption">
 			<p>{rule.key}</p>
+		</div>
 		{/if}
 	</div>
 </div>
@@ -252,12 +254,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 25px;
 	}
 
 	.caption p {
 		text-align: center;
-		padding: 0;
+		padding: 0 0 5px 0;
 		margin: 0 10px;
 		font-size: 0.8rem;
 		font-weight: bold;
@@ -338,7 +339,7 @@
 	@media only screen and (min-width: 769px) {
 		.rule-tile-button {
 			display: grid;
-			grid-template-rows: auto 30px;
+			grid-template-rows: auto 36px;
 			gap: 2px;
 		}
 

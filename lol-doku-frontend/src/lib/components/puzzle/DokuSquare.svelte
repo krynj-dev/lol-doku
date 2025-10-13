@@ -62,44 +62,39 @@
 </Modal>
 {#if puzzle}
 	<div class="doku-grid">
-		<div class="column-span">
 			{#each puzzle.rules.filter((c) => c.axis == 'x') as col (col.index)}
-				<div class="info-tile">
+				<div class="info-tile" style="grid-area: x{col.index}">
 				<RuleTile rule={col} />
 				</div>
 			{/each}
-		</div>
-		<div class="row-span">
 			{#each puzzle.rules.filter((r) => r.axis == 'y') as row (row.index)}
-				<div class="info-tile">
+				<div class="info-tile" style="grid-area: y{row.index}">
 					<RuleTile rule={row} />
 				</div>
 			{/each}
-		</div>
-		<div class="select-tile-span lol-border">
 			{#each rows as row (row.index)}
 				{#each columns as col (col.index)}
-					<DokuTile index={row.index * 3 + col.index} rule1={col} rule2={row} />
+					<div class="answer-tile" style="grid-area: r{col.index}{row.index}">
+						<DokuTile index={row.index * 3 + col.index} rule1={col} rule2={row}  />
+					</div>
 				{/each}
 			{/each}
-		</div>
-		<div class="score-span">
-			<div class="info-tile">
+			<div class="info-tile" style="grid-area: s0">
 				<div class="score-tile">
 					<p>Uniqueness Rating: {score}</p>
 				</div>
 			</div>
-			<div class="info-tile">
+			<div class="info-tile"  style="grid-area: s1">
 				<div class="score-tile">
 					<p>Correct Guesses: {correct}/9</p>
 				</div>
 			</div>
-			<div class="info-tile">
+			<div class="info-tile"  style="grid-area: s2">
 				<div class="score-tile">
 					<p>Guesses Remaining: {lives}/10</p>
 				</div>
 			</div>
-		</div>
+			<div class="answer-grid"></div>
 	</div>
 {:else}
 	<div></div>
@@ -107,75 +102,57 @@
 
 <style>
 	.doku-grid {
-		display: grid;
-		margin: 0;
-		grid-template-columns: repeat(4, calc((100vw - 12px) / 4));
-		grid-template-rows: repeat(5, calc((100vw - 12px) / 4));
+		width: 100%;
+        aspect-ratio: 4 / 5;
+		grid-template-columns: repeat(4, 25%);
+		grid-template-rows: repeat(5, 20%);
+        display: grid;
+        grid-template-areas: 
+			". x0 x1 x2"
+			"y0 r00 r01 r02"
+			"y1 r10 r11 r12"
+			"y2 r20 r21 r22"
+			". s0 s1 s2";
+        box-sizing: border-box;
+	}
+
+	.doku-grid > * {
+		padding: 3px;
 	}
 	
 	.info-tile {
-		height: calc((100vw - 12px) / 4);
-		width: calc((100vw - 12px) / 4);
+		width: 100%;
+		aspect-ratio: 1 / 1;
 		display: flex;
 		justify-content: center;
+		box-sizing: border-box;
 	}
 
-	.select-tile-span {
-		grid-area: span 3 / span 3 / span 3 / span 3;
-		display: grid;
-		grid-template-columns: repeat(3, calc((100vw - 12px) / 4 - 8px));
-		grid-template-rows: repeat(3, calc((100vw - 12px) / 4 - 8px));
-		overflow: hidden;
-		padding: 6px;
-		gap: 4px;
-		background-color: var(--lol-hextech-black);
-	}
-
-	.column-span {
-		grid-column: 2 / span 3;
-		display: flex;
-		justify-content: space-around;
-	}
-
-	.row-span {
-		grid-row: span 3;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		grid-column-start: 1;
-	}
-
-	.score-span {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		grid-row-start: 5;
-		grid-column: 2 / span 3;
+	.answer-grid {
+		position: relative;
+		z-index: -1;
+		background: var(--lol-hextech-black);
+		box-shadow: 0 0 0 6px var(--lol-gold-4);
+		outline: 4px solid var(--lol-hextech-black);
+		grid-area: 2 / 2 / span 3 / span 3;
+		height: 100%;
+		width: 100%;
+		box-sizing: border-box;
 	}
 
 	@media only screen and (min-width: 841px) {
 		.doku-grid {
-			grid-template-columns: repeat(5, 168px);
-			grid-template-rows: repeat(4, 168px);
+			aspect-ratio: 5 / 4;
+			grid-template-columns: repeat(5, 20%);
+			grid-template-rows: repeat(4, 25%);
+			grid-template-areas: 
+				". x0 x1 x2 ."
+				"y0 r00 r01 r02 s0"
+				"y1 r10 r11 r12 s1"
+				"y2 r20 r21 r22 s2";
+			box-sizing: border-box;
 		}
 
-		.info-tile {
-			height: 160px;
-			width: 160px;
-		}
-
-		.select-tile-span {
-			grid-template-columns: repeat(3, 160px);
-			grid-template-rows: repeat(3, 160px);
-		}
-
-		.score-span {
-			grid-row: span 3;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-around;
-			grid-column-start: 5;
-		}
 	}
 
 

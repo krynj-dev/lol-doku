@@ -10,5 +10,13 @@ let current_tab = 'Home';
 </script>
 
 <Header {tabs} bind:selected={current_tab} />
-{@render children()}
+<div class="page-content">
+    {@render children()}
+</div>
 <Footer />
+
+<style>
+    .page-content {
+        padding: 1rem 2rem;
+    }
+</style>

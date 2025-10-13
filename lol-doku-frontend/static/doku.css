@@ -2,8 +2,16 @@
     border: 2px solid var(--lol-gold-4);
 }
 
+.lol-outline {
+    outline: 2px solid var(--lol-gold-4);
+}
+
 .lol-border-small {
     border: 1px solid var(--lol-gold-4);
+}
+
+.lol-outline-small {
+    outline: 1px solid var(--lol-gold-4);
 }
 
 @property --lol-doku-white-1 {
