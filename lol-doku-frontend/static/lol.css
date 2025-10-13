@@ -93,6 +93,15 @@ h5 {
     font-weight: bold;
 }
 
+p.sm {
+    font-size: 0.8rem;
+}
+
+p.inline {
+    display: inline;
+    margin: 0;
+}
+
 .h1 {
     font-size: 2.85rem;
 }

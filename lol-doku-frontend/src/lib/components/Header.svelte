@@ -5,6 +5,7 @@
 	import Modal from "./modal/Modal.svelte";
 	import Info from './vector-image/Info.svelte';
 	import Worlds from './vector-image/Worlds.svelte';
+	import PuzzleCountdown from './PuzzleCountdown.svelte';
 
 	interface Props {
 		tabs: string[];
@@ -103,10 +104,8 @@
 			</div>
 		</div>
 		<div class="header-tabs-container header-border">
-			
-		</div>
-		<div class="thing-on-right header-border">
-			<button class="info-button" onclick={() => showModal = true}><Info fill="var(--lol-gold-1)" /></button>
+			<PuzzleCountdown />
+			<button class="info-button header-tab h4" onclick={() => showModal = true}>Info</button>
 		</div>
 	</div>
 </nav>
@@ -148,6 +147,7 @@
 		flex-grow: 1;
 		padding: 0;
 		justify-content: right;
+		padding-right: 18px;
 	}
 
 	.header-tab {
@@ -267,11 +267,9 @@
 	}
 
 	.info-button {
-		height: 100%;
-		width: 100%;
 		background-color: inherit;
 		border: 0;
-		padding: 0;
+		padding: 0 5px;
 		display: flex;
 		box-sizing: border-box;
 	}

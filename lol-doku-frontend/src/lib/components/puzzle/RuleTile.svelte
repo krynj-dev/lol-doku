@@ -336,7 +336,7 @@
 		transform: rotate(180deg);
 	}
 
-	@media only screen and (min-width: 769px) {
+	@media only screen and (min-width: 768px) {
 		.rule-tile-button {
 			display: grid;
 			grid-template-rows: auto 36px;

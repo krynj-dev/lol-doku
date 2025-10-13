@@ -57,7 +57,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 60px;
+		min-height: 60px;
 		box-sizing: border-box;
 		width: 100vw;
 	}
