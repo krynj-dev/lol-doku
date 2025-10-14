@@ -35,14 +35,14 @@
 		}
 	}
 
-	let filtered_alt_names = $derived(rule.other_names?.filter(
-		(n) => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase()
-	));
+	let filtered_alt_names = $derived(
+		rule.other_names?.filter((n) => n.toLocaleLowerCase() != rule.key.toLocaleLowerCase())
+	);
 
 	const get_champion_count_number = (rule_key: string) => {
 		let count_regex = new RegExp('^.+ (\\d+\\+)$');
 		return count_regex.exec(rule_key)?.[1];
-	}
+	};
 
 	const getimgs = async (names: string[]) => {
 		if (!names) return;
@@ -58,7 +58,9 @@
 	};
 
 	run(() => {
-		getimgs(filtered_alt_names).then(o => {alt_images = o})
+		getimgs(filtered_alt_names).then((o) => {
+			alt_images = o;
+		});
 	});
 
 	let modalLight = $state(false);
@@ -97,8 +99,8 @@
 	>
 		<Modal bind:showModal>
 			{#snippet title()}
-						<h4 class="rule-modal-title" >{rule.key}</h4>
-					{/snippet}
+				<h4 class="rule-modal-title">{rule.key}</h4>
+			{/snippet}
 			<div class="rule-modal">
 				<div class={`rule-image-container lol-border${modalLight ? ' white-bg' : ''}`}>
 					<img class="rule-image" src={image} alt={rule.key} />
@@ -112,27 +114,32 @@
 					</div>
 				</div>
 				{#if alt_images && Object.keys(alt_images).length > 0}
-				<h5>Also Known As</h5>
-				<div class="alt-container lol-border">
-					{#each Object.entries(alt_images) as [key, value]}
-						<div class={`alt-img-container lol-border-small`}>
-							<div class={`lol-border-small another-container${modalLight ? ' white-bg' : ''}`} style="padding: 5px"><img class="rule-tile-img" src={String(value)} alt={key} /></div>
-							<div>
-								<p class="alt-name-caption h6">{key}</p>
+					<h5>Also Known As</h5>
+					<div class="alt-container lol-border">
+						{#each Object.entries(alt_images) as [key, value]}
+							<div class={`alt-img-container lol-border-small`}>
+								<div
+									class={`lol-border-small another-container${modalLight ? ' white-bg' : ''}`}
+									style="padding: 5px"
+								>
+									<img class="rule-tile-img" src={String(value)} alt={key} />
+								</div>
+								<div>
+									<p class="alt-name-caption h6">{key}</p>
+								</div>
 							</div>
-						</div>
-					{/each}
-				</div>
+						{/each}
+					</div>
 				{:else if filtered_alt_names && filtered_alt_names.length > 0}
-				<h5>Also Known As</h5>
-				<div>
-					{#each filtered_alt_names as alt_name}
-						<div class={`alt-img-container lol-border-small`}>
-							<div>
-								<p class="alt-name-caption h6">{alt_name}</p>
+					<h5>Also Known As</h5>
+					<div>
+						{#each filtered_alt_names as alt_name}
+							<div class={`alt-img-container lol-border-small`}>
+								<div>
+									<p class="alt-name-caption h6">{alt_name}</p>
+								</div>
 							</div>
-						</div>
-					{/each}
+						{/each}
 					</div>
 				{/if}
 			</div>
@@ -152,9 +159,9 @@
 					alt={rule.key}
 				/>
 				{#if rule.rule_type == 'champion'}
-				<div class="champion-rule-overlay-container">
-					<p class="h2 champion-rule-overlay">{get_champion_count_number(rule.key)}</p>
-				</div>
+					<div class="champion-rule-overlay-container">
+						<p class="h2 champion-rule-overlay">{get_champion_count_number(rule.key)}</p>
+					</div>
 				{/if}
 			</div>
 			{#if rule.rule_type == 'teammate'}
@@ -167,9 +174,9 @@
 				</div>
 			{/if}
 		{:else}
-		<div style="grid-area: span 2" class="caption">
-			<p>{rule.key}</p>
-		</div>
+			<div style="grid-area: span 2" class="caption">
+				<p>{rule.key}</p>
+			</div>
 		{/if}
 	</div>
 </div>

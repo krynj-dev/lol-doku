@@ -55,21 +55,21 @@
 		let expr = /(.+)\s+\(.*\)/g;
 		let name_only = expr.exec(name)?.[1];
 		return name_only ? name_only : name;
-	}
+	};
 
 	let process_name = (name: string): string | undefined => {
-		let new_name = name.replace("&amp;nbsp;", "&nbsp;");
+		let new_name = name.replace('&amp;nbsp;', '&nbsp;');
 		return new_name;
-	}
+	};
 
 	let filter = $state('');
 	let timer: number | undefined = $state();
 
-	  // Mock search function
+	// Mock search function
 	async function performSearch(fltr: string) {
 		if (fltr.length >= 2) {
 			get_players(fltr, 20).then((res) => {
-				console.log(res.results)
+				console.log(res.results);
 				let results = res.results;
 				playerList = results;
 				results.forEach((player) => {
@@ -88,13 +88,13 @@
 	}
 
 	// Called whenever the input changes
-	function handleInput(event: InputEvent & {target: HTMLInputElement}) {
+	function handleInput(event: InputEvent & { target: HTMLInputElement }) {
 		filter = event?.target?.value;
 
 		// Reset the debounce timer
 		if (timer) {
-			clearTimeout(timer)
-		};
+			clearTimeout(timer);
+		}
 
 		// Start a new timer
 		timer = setTimeout(() => {
@@ -104,7 +104,6 @@
 
 	// Cleanup on destroy
 	onDestroy(() => clearTimeout(timer));
-
 
 	let dialog: HTMLDialogElement = $state(); // HTMLDialogElement
 
@@ -126,26 +125,28 @@
 
 	let rules = $derived(rulesFromIndex(index));
 
-	let handleModalClose = $state((event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {
-		let player_string =
-			event.currentTarget.returnValue &&
-			(!selectedPlayer ||
-				(selectedPlayer && event.currentTarget.returnValue !== selectedPlayer.player))
-				? playerList.map((p) => p.display_name).find((p) => p == event.currentTarget.returnValue)
-				: undefined;
-		if (player_string) {
-			loading = true;
-			submit_guess(index, player_string).then((res) => {
-				if (!res.correct) {
-					dialog.returnValue = '';
-					error_flashing = true;
-					setTimeout(() => (error_flashing = false), 200);
-				}
-				loading = false;
-			});
+	let handleModalClose = $state(
+		(event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {
+			let player_string =
+				event.currentTarget.returnValue &&
+				(!selectedPlayer ||
+					(selectedPlayer && event.currentTarget.returnValue !== selectedPlayer.player))
+					? playerList.map((p) => p.display_name).find((p) => p == event.currentTarget.returnValue)
+					: undefined;
+			if (player_string) {
+				loading = true;
+				submit_guess(index, player_string).then((res) => {
+					if (!res.correct) {
+						dialog.returnValue = '';
+						error_flashing = true;
+						setTimeout(() => (error_flashing = false), 200);
+					}
+					loading = false;
+				});
+			}
+			filter = '';
 		}
-		filter = '';
-	});
+	);
 
 	function handlePlayerSelection(event: Event, clickedPlayer: string) {
 		dialog.close(clickedPlayer);
@@ -154,7 +155,7 @@
 
 <Modal bind:showModal bind:modalCloseCallback={handleModalClose} bind:dialog size="600">
 	{#snippet title()}
-		<div class="rule-cross-title" >
+		<div class="rule-cross-title">
 			{#if rules.length > 0}
 				<h3>{rules[0].key} X {rules[1].key}</h3>
 			{/if}
@@ -209,7 +210,7 @@
 		grid-template-columns: 80px auto;
 		background-color: #eeeeee;
 	}
-	.player-modal-button:not(:last-child) {	
+	.player-modal-button:not(:last-child) {
 		margin-bottom: 2px;
 	}
 	.player-modal-button:hover {

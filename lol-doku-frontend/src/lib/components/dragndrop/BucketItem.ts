@@ -1,5 +1,5 @@
 export interface BucketItem {
-    display_text: string
-    class?: string
-    [key: string]: any
+	display_text: string;
+	class?: string;
+	[key: string]: any;
 }

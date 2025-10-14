@@ -4,9 +4,6 @@
 	const bubble = createBubbler();
 	import Cross from '../vector-image/Cross.svelte';
 
-
-
-
 	interface Props {
 		showModal: Boolean;
 		dialog?: HTMLDialogElement | undefined;
@@ -19,9 +16,7 @@
 	let {
 		showModal = $bindable(),
 		dialog = $bindable(undefined),
-		modalCloseCallback = (
-		event: Event & { currentTarget: EventTarget & HTMLDialogElement }
-	) => {},
+		modalCloseCallback = (event: Event & { currentTarget: EventTarget & HTMLDialogElement }) => {},
 		size = '500',
 		title,
 		children

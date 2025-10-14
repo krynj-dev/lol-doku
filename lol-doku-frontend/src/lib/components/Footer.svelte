@@ -13,9 +13,9 @@
 		kofi.init('Donate on Ko-fi', 'var(--lol-blue-4)', 'T6T61A5K5H');
 		kofiHtml = kofi.getHTML();
 
-		get_metadata().then(res => {
+		get_metadata().then((res) => {
 			data_update_date = res.data_update_date;
-		})
+		});
 	});
 </script>
 
@@ -23,8 +23,8 @@
 	<div class="footer">
 		<div class="footer-tab">
 			<p class="credits">
-				Created by Hayden. Data sourced from 
-				<a href='https://lol.fandom.com/wiki/League_of_Legends_Esports_Wiki'>Leaguepedia</a>
+				Created by Hayden. Data sourced from
+				<a href="https://lol.fandom.com/wiki/League_of_Legends_Esports_Wiki">Leaguepedia</a>
 			</p>
 			{#if data_update_date}
 				<p class="data-update">Last updated {data_update_date}</p>
@@ -39,9 +39,11 @@
 		</div>
 		<div class="footer-tab">
 			<p class="credits">Issue? Let me know:</p>
-			<div class="socials-bar"><a href="https://x.com/Krynj_" target="_blank" class="social-container"><X /></a></div>
+			<div class="socials-bar">
+				<a href="https://x.com/Krynj_" target="_blank" class="social-container"><X /></a>
+			</div>
 		</div>
-</div>
+	</div>
 </div>
 
 <style>

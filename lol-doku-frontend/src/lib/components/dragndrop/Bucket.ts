@@ -1,8 +1,8 @@
-import { Writable } from "svelte/store"
+import { Writable } from 'svelte/store';
 
 export interface Bucket {
-    key: string
-    max_size: number
-    items: Writable<any[]>
-    class: string
+	key: string;
+	max_size: number;
+	items: Writable<any[]>;
+	class: string;
 }

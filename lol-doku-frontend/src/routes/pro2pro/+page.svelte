@@ -8,7 +8,7 @@
 	import { get_player_image_src } from '$lib/shared/img';
 	import { get_roster_by_name, get_roster_by_id, get_roster_links } from '$lib/shared/api';
 	import {
-	RosterLinkRole,
+		RosterLinkRole,
 		type ReducedRosterLink,
 		type Roster,
 		type RosterLink,
@@ -42,7 +42,9 @@
 
 	let guess_stack;
 	run(() => {
-		guess_stack = [{ name: 'Worlds 2024 Main Event', type: 'roster', team: 'G2 Esports' }] as Guess[];
+		guess_stack = [
+			{ name: 'Worlds 2024 Main Event', type: 'roster', team: 'G2 Esports' }
+		] as Guess[];
 	});
 
 	let player_key;
@@ -72,12 +74,12 @@
 
 	let button_handler = () => {
 		if (guess_stack[0].team == 'G2 Esports') {
-			guess_stack = [to]
+			guess_stack = [to];
 		} else {
-			guess_stack = [from]
+			guess_stack = [from];
 		}
 		refresh_data();
-	}
+	};
 
 	let role_image = (role: string) => {
 		switch (role) {
@@ -94,7 +96,7 @@
 			default:
 				return 'middle';
 		}
-	}
+	};
 
 	let map_player = (link: RosterLink): ButtonInfo => ({
 		text: `${link.roster.tournament.name}`,
@@ -176,7 +178,7 @@
 		<Tile>
 			<div class="player-portrait-container">
 				<div class="player-portrait-image-container lol-border-small">
-					<FittingImage src="img/teams/G2 Esports.webp" alt="G2 Esports" variant='scale-down' />
+					<FittingImage src="img/teams/G2 Esports.webp" alt="G2 Esports" variant="scale-down" />
 				</div>
 				<div class="caption-container lol-border-small">
 					<p class="h5 player-caption text-center">G2 Esports</p>
@@ -188,7 +190,7 @@
 		<Tile>
 			<div class="player-portrait-container">
 				<div class="player-portrait-image-container lol-border-small">
-					<FittingImage src="img/teams/Team AURORA.webp" alt="Team AURORA" variant='scale-down' />
+					<FittingImage src="img/teams/Team AURORA.webp" alt="Team AURORA" variant="scale-down" />
 				</div>
 				<div class="caption-container lol-border-small">
 					<p class="h5 player-caption text-center">Team AURORA</p>
@@ -276,14 +278,14 @@
 	}
 
 	.player-portrait-image-container {
-        width: 20vh;
+		width: 20vh;
 		background-color: var(--lol-doku-white-1);
-    }
+	}
 
 	.player-portrait-container {
-        display: grid;
-        grid-template-rows: 20vh auto;
-        padding: 4px;
+		display: grid;
+		grid-template-rows: 20vh auto;
+		padding: 4px;
 		gap: 2px;
 	}
 
@@ -298,7 +300,7 @@
 		gap: 5px;
 	}
 
-	@media(min-width: 1200px){
+	@media (min-width: 1200px) {
 		.content {
 			padding: 2rem 20vw;
 		}

@@ -27,22 +27,17 @@ export async function read_rules(key: string): Promise<{ [key: string]: Rule }> 
 
 export function get_key_letters(): string[] {
 	let letters: Set<string> = new Set();
-	Object.keys(players).forEach(key => {
+	Object.keys(players).forEach((key) => {
 		letters.add(key.toLocaleUpperCase()[0]);
-	})
+	});
 	return [...letters];
 }
-
 
 export function zip(a1: any[], a2: any[]) {
 	return a1.map((x, i) => [x, a2[i]]);
 }
 
-export function is_valid(
-	rule_one: Rule,
-	rule_two: Rule,
-	player: string | null
-): number {
+export function is_valid(rule_one: Rule, rule_two: Rule, player: string | null): number {
 	if (player) {
 		// Get player alt name list
 		let player_key = player;
@@ -72,6 +67,8 @@ export function is_valid(
 
 export function getPlayerListKey(player: string) {
 	return Object.keys(players).find((p: string) =>
-		players[p].alternate_names.map((s) => s.toLocaleLowerCase()).includes(player.toLocaleLowerCase())
+		players[p].alternate_names
+			.map((s) => s.toLocaleLowerCase())
+			.includes(player.toLocaleLowerCase())
 	);
 }

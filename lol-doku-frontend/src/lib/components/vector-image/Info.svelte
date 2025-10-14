@@ -32,10 +32,10 @@
 </div>
 
 <style>
-    .info-svg-container {
-        height: 100%;
-        width: 100%;
-    }
+	.info-svg-container {
+		height: 100%;
+		width: 100%;
+	}
 	.info-svg-container * {
 		fill: var(--info-svg-fill);
 	}

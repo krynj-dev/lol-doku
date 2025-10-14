@@ -6,8 +6,6 @@
 	import DnDBucket from './DnDBucket.svelte';
 	import type { BucketItem } from './BucketItem';
 
-	
-
 	const { getItemsStore, getCallback, getBucketKey } = getContext<DnDBucket>('dnd-bucket');
 	const { getBucketsStore } = getContext<DragNDrop>('dnd');
 
@@ -22,11 +20,11 @@
 	onMount(() => {
 		const item = {
 			key: item_key,
-            data: item_data
+			data: item_data
 		};
 
 		getItemsStore().update((v: any[]) => {
-			let new_v = [...v, item]
+			let new_v = [...v, item];
 			getCallback()(new_v, getBucketKey());
 			return new_v;
 		});

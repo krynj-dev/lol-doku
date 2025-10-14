@@ -146,9 +146,9 @@
 	{#if loading}
 		<div class="spinner-container"><Spinner /></div>
 	{:else if selectedPlayer}
-	<div class="img-container">
+		<div class="img-container">
 			<p class="text-overlay percentage">{getPercentage()}%</p>
-			<FittingImage src={image_src!} alt={selectedPlayer.player} variant='cover' />
+			<FittingImage src={image_src!} alt={selectedPlayer.player} variant="cover" />
 			<p class="text-overlay name">{selectedPlayer.player}</p>
 		</div>
 	{/if}

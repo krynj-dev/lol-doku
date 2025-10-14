@@ -1,6 +1,14 @@
 <script lang="ts">
 	import DokuSquare from '$lib/components/puzzle/DokuSquare.svelte';
-	import { _puzzle, _lives, _correct, _selected_players, _players, _finalised, _failed_load } from '../stores';
+	import {
+		_puzzle,
+		_lives,
+		_correct,
+		_selected_players,
+		_players,
+		_finalised,
+		_failed_load
+	} from '../stores';
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 
@@ -38,15 +46,17 @@
 		<h2>Puzzle failed to load.</h2>
 		<p>{failed_load.reason}</p>
 	{:else if puzzle}
-
 		<div class="doku-container">
 			<DokuSquare />
 		</div>
-		<button class="giveup-button lol-border" onclick={() => {
-			finalise_game().then(r => {
-                _finalised.set(true);
-            })
-		}}>Give Up</button>
+		<button
+			class="giveup-button lol-border"
+			onclick={() => {
+				finalise_game().then((r) => {
+					_finalised.set(true);
+				});
+			}}>Give Up</button
+		>
 	{:else}
 		<div class="spinner-container"><Spinner /></div>
 		<p class="h2" style="text-align: center;">Loading puzzle. Please wait...</p>
@@ -63,9 +73,9 @@
 	}
 
 	.doku-container {
-			box-sizing: content-box;
-			width: 100%;
-		}
+		box-sizing: content-box;
+		width: 100%;
+	}
 
 	@media only screen and (min-width: 841px) {
 		.doku-container {

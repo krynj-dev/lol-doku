@@ -9,7 +9,6 @@
 	import { decimal_number } from '$lib/shared/util';
 	import { get_player_image_src } from '$lib/shared/img';
 
-
 	let dialog: HTMLDialogElement = $state();
 
 	interface Props {
@@ -47,7 +46,10 @@
 			let new_stats = res_obj as GuessStats;
 			new_stats.results.sort((a, b) => b.guesses - a.guesses);
 			stats = new_stats;
-			percentage_correct = decimal_number((new_stats.total_guesses * 100) / new_stats.total_games, 1);
+			percentage_correct = decimal_number(
+				(new_stats.total_guesses * 100) / new_stats.total_games,
+				1
+			);
 			stats.results.forEach((plr_guess) => {
 				let plr_key = plr_guess.player;
 				get_players(plr_key, 1).then((plr) => {
@@ -63,14 +65,14 @@
 {#if allowToggle}
 	<Modal bind:showModal size="600" bind:dialog>
 		{#snippet title()}
-				<div >
+			<div>
 				{#if stats}
 					<h4 class="rule-cross-tile-title">{stats.x} / {stats.y}</h4>
 					<h5 class="rule-cross-tile-percentage">Percentage correct: {percentage_correct}%</h5>
 					<hr />
 				{/if}
 			</div>
-			{/snippet}
+		{/snippet}
 		{#if stats}
 			<div class="player-stat-container">
 				{#each stats.results as player_stat}
@@ -80,13 +82,13 @@
 						</div>
 						<div class="player-stat-name-container">
 							<h5 class="player-stat-name">{player_stat.player}</h5>
-                            {#if alt_names[player_stat.player]}
-                                <div class="player-stat-subtitle">
-                                    {#each alt_names[player_stat.player] as alt_name}
-                                        <p class="player-stat-alt-name">{alt_name}</p>
-                                    {/each}
-                                </div>
-                            {/if}
+							{#if alt_names[player_stat.player]}
+								<div class="player-stat-subtitle">
+									{#each alt_names[player_stat.player] as alt_name}
+										<p class="player-stat-alt-name">{alt_name}</p>
+									{/each}
+								</div>
+							{/if}
 						</div>
 						<div class="player-stat-stats">
 							<p>{decimal_number((player_stat.guesses * 100) / stats.total_guesses, 1)}%</p>
@@ -108,7 +110,7 @@
 
 	.player-stat-item {
 		display: grid;
-        grid-template-columns: 100px auto auto;
+		grid-template-columns: 100px auto auto;
 		height: 100px;
 	}
 
@@ -119,17 +121,17 @@
 
 	.player-stat-name-container {
 		text-align: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		box-sizing: border-box;
 		padding: 0 10px;
 	}
 
-    .player-stat-name {
-        margin: 5px 0;
-        width: 100%;
-    }
+	.player-stat-name {
+		margin: 5px 0;
+		width: 100%;
+	}
 
 	.player-stat-item img {
 		height: 100%;
@@ -153,31 +155,31 @@
 		margin: 1rem 0;
 	}
 
-    .player-stat-stats {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+	.player-stat-stats {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 
 	.player-stat-stats p {
 		margin: 5px 0;
 		text-align: right;
 	}
 
-    p.player-stat-alt-name {
-        font-size: 0.9rem;
-        color: #595959;
-        margin: 0 0 4px 0;
-        padding: 0px;
-    }
+	p.player-stat-alt-name {
+		font-size: 0.9rem;
+		color: #595959;
+		margin: 0 0 4px 0;
+		padding: 0px;
+	}
 
-    .player-stat-alt-name:not(:last-child) {
-        margin-right: 10px;
-    }
+	.player-stat-alt-name:not(:last-child) {
+		margin-right: 10px;
+	}
 
-    .player-stat-subtitle {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-    }
+	.player-stat-subtitle {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+	}
 </style>

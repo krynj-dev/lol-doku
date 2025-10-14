@@ -1,178 +1,223 @@
-import { type GameState } from "$lib/models/new/GameState";
-import { type GuessStats } from "$lib/models/new/GuessStats";
-import { type Rule } from "$lib/models/new/Rule";
-import { type SlotGuess } from "$lib/models/new/SlotGuess";
-import { _correct, _finalised, _lives, _puzzle, _selected_players, _failed_load } from "../../stores";
-import { get } from 'svelte/store'
-import { type Player } from "$lib/models/new/Player";
-import { type FailResponse } from "$lib/models/FailResponse";
-import { type RosterResponse, type Roster, type RosterLinksResponse } from "$lib/models/pro2pro/RosterLinks";
+import { type GameState } from '$lib/models/new/GameState';
+import { type GuessStats } from '$lib/models/new/GuessStats';
+import { type Rule } from '$lib/models/new/Rule';
+import { type SlotGuess } from '$lib/models/new/SlotGuess';
+import {
+	_correct,
+	_finalised,
+	_lives,
+	_puzzle,
+	_selected_players,
+	_failed_load
+} from '../../stores';
+import { get } from 'svelte/store';
+import { type Player } from '$lib/models/new/Player';
+import { type FailResponse } from '$lib/models/FailResponse';
+import {
+	type RosterResponse,
+	type Roster,
+	type RosterLinksResponse
+} from '$lib/models/pro2pro/RosterLinks';
 
 export interface Metadata {
-    data_update_date: string
+	data_update_date: string;
 }
 
-
 async function init_puzzle(): Promise<GameState> {
-    // Get Session
-    let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json())
-        .catch(e => {
-            console.error(e)
-            _failed_load.set({
-                "reason": "Failed to retrieve session."
-            } as FailResponse)
-            throw new Error("Failed to retrieve session")
-        });
-    // Get Game
-    let game_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/today`, { credentials: "include" })
-        .then((r) => {
-            _failed_load.set(undefined);
-            return r.json();
-        })
-        .catch(e => {
-            console.error(e)
-            _failed_load.set({
-                "reason": "Failed to retrieve game for today."
-            } as FailResponse)
-            throw new Error("Failed to retrieve todays game")
-        });
-    let game_state = game_res as GameState;
-    return game_state;
+	// Get Session
+	let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, {
+		credentials: 'include'
+	})
+		.then((r) => r.json())
+		.catch((e) => {
+			console.error(e);
+			_failed_load.set({
+				reason: 'Failed to retrieve session.'
+			} as FailResponse);
+			throw new Error('Failed to retrieve session');
+		});
+	// Get Game
+	let game_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/today`, {
+		credentials: 'include'
+	})
+		.then((r) => {
+			_failed_load.set(undefined);
+			return r.json();
+		})
+		.catch((e) => {
+			console.error(e);
+			_failed_load.set({
+				reason: 'Failed to retrieve game for today.'
+			} as FailResponse);
+			throw new Error('Failed to retrieve todays game');
+		});
+	let game_state = game_res as GameState;
+	return game_state;
 }
 
 export async function get_metadata(): Promise<Metadata> {
-    // Get Session
-    let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, { credentials: "include" }).then((r) => r.json())
-        .catch(e => {
-            console.error(e)
-            _failed_load.set({
-                "reason": "Failed to retrieve session."
-            } as FailResponse)
-            throw new Error("Failed to retrieve session")
-        });
-    // Get Metadata
-    let metadata_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/meta/latest`, { credentials: "include" })
-        .then((r) => {
-            return r.json();
-        })
-        .catch(e => {
-            console.error(e)
-        });
-    let metadata = metadata_res as Metadata;
-    return metadata;
+	// Get Session
+	let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, {
+		credentials: 'include'
+	})
+		.then((r) => r.json())
+		.catch((e) => {
+			console.error(e);
+			_failed_load.set({
+				reason: 'Failed to retrieve session.'
+			} as FailResponse);
+			throw new Error('Failed to retrieve session');
+		});
+	// Get Metadata
+	let metadata_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/meta/latest`, {
+		credentials: 'include'
+	})
+		.then((r) => {
+			return r.json();
+		})
+		.catch((e) => {
+			console.error(e);
+		});
+	let metadata = metadata_res as Metadata;
+	return metadata;
 }
 
 export async function get_player_stats(slot: number) {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/stats/today`, {
-        credentials: "include",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        method: "POST",
-        body: JSON.stringify({
-            x: slot % 3,
-            y: Math.floor(slot / 3)
-        })
-    }).then((r) => r.json());
-    return res;
+	let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/stats/today`, {
+		credentials: 'include',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		method: 'POST',
+		body: JSON.stringify({
+			x: slot % 3,
+			y: Math.floor(slot / 3)
+		})
+	}).then((r) => r.json());
+	return res;
 }
 
-export async function get_players(player_name: string, limit: number): Promise<{
-    count: number
-    next?: any
-    previous?: any
-    results: Player[]
+export async function get_players(
+	player_name: string,
+	limit: number
+): Promise<{
+	count: number;
+	next?: any;
+	previous?: any;
+	results: Player[];
 }> {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/players/?search='${encodeURIComponent(player_name)}'&limit=${limit}`, {
-        credentials: "include"
-    }).then((r) => r.json());
-    return res;
-    //TODO: Change the call to this in the search tab to cache all results on two letters maybe?
+	let res = fetch(
+		`${import.meta.env.VITE_BACKEND_ENDPOINT}/players/?search='${encodeURIComponent(player_name)}'&limit=${limit}`,
+		{
+			credentials: 'include'
+		}
+	).then((r) => r.json());
+	return res;
+	//TODO: Change the call to this in the search tab to cache all results on two letters maybe?
 }
 
 export async function get_team(team: string) {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/teams/?search='${encodeURIComponent(team)}'`, {
-        credentials: "include"
-    }).then((r) => r.json());
-    return res;
+	let res = fetch(
+		`${import.meta.env.VITE_BACKEND_ENDPOINT}/teams/?search='${encodeURIComponent(team)}'`,
+		{
+			credentials: 'include'
+		}
+	).then((r) => r.json());
+	return res;
 }
 
 export async function finalise_game() {
-    let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/finalise/today`, {
-        credentials: "include",
-        method: "POST"
-    }).then((r) => r.json());
-    return res;
+	let res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/finalise/today`, {
+		credentials: 'include',
+		method: 'POST'
+	}).then((r) => r.json());
+	return res;
 }
 
 export async function refresh_state() {
-    init_puzzle().then((game_state) => {
-        _puzzle.set(game_state.puzzle);
-        _finalised.set(game_state.status == 'finalised');
-        game_state.guesses.forEach(g => {
-            let selected_players = get(_selected_players);
-            let idx = selected_players.findIndex(p => p.slot == g.slot);
-            if ((idx == -1 || g.player != selected_players[idx].player) && g.correct) {
-                get_player_stats(g.slot).then((stats: GuessStats) => {
-                    let selected: SlotGuess = {
-                        player: g.player,
-                        slot: g.slot,
-                        correct: g.correct,
-                        guess: stats
-                    }
-                    _selected_players.update(o => {
-                        let idx = o.findIndex(p => p.slot == g.slot);
-                        if (idx == -1) {
-                            o.push(selected);
-                        } else {
-                            o[idx] = selected;
-                        }
-                        return o;
-                    })
-                })
-            }
-        })
-        _correct.set(game_state.guesses.reduce((acc, g) => g.correct ? acc + 1 : acc, 0));
-        _lives.set(game_state.remaining_guesses);
-        if (game_state.status != "finalised" && (game_state.remaining_guesses == 0 || game_state.guesses.reduce((acc, n) => acc + (n.correct ? 1 : 0), 0) == 9)) {
-            finalise_game().then(r => {
-                _finalised.set(true);
-            })
-        }
-    })
-        .catch(e => console.error(e));
+	init_puzzle()
+		.then((game_state) => {
+			_puzzle.set(game_state.puzzle);
+			_finalised.set(game_state.status == 'finalised');
+			game_state.guesses.forEach((g) => {
+				let selected_players = get(_selected_players);
+				let idx = selected_players.findIndex((p) => p.slot == g.slot);
+				if ((idx == -1 || g.player != selected_players[idx].player) && g.correct) {
+					get_player_stats(g.slot).then((stats: GuessStats) => {
+						let selected: SlotGuess = {
+							player: g.player,
+							slot: g.slot,
+							correct: g.correct,
+							guess: stats
+						};
+						_selected_players.update((o) => {
+							let idx = o.findIndex((p) => p.slot == g.slot);
+							if (idx == -1) {
+								o.push(selected);
+							} else {
+								o[idx] = selected;
+							}
+							return o;
+						});
+					});
+				}
+			});
+			_correct.set(game_state.guesses.reduce((acc, g) => (g.correct ? acc + 1 : acc), 0));
+			_lives.set(game_state.remaining_guesses);
+			if (
+				game_state.status != 'finalised' &&
+				(game_state.remaining_guesses == 0 ||
+					game_state.guesses.reduce((acc, n) => acc + (n.correct ? 1 : 0), 0) == 9)
+			) {
+				finalise_game().then((r) => {
+					_finalised.set(true);
+				});
+			}
+		})
+		.catch((e) => console.error(e));
 }
 
 export async function submit_guess(slot: number, player_key: string) {
-    let guess_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/guess/today`, {
-        credentials: "include",
-        method: "POST",
-        body: JSON.stringify({
-            x: slot % 3,
-            y: Math.floor(slot / 3),
-            player: player_key
-        })
-    })
-    refresh_state();
-    return guess_res.json();
+	let guess_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/guess/today`, {
+		credentials: 'include',
+		method: 'POST',
+		body: JSON.stringify({
+			x: slot % 3,
+			y: Math.floor(slot / 3),
+			player: player_key
+		})
+	});
+	refresh_state();
+	return guess_res.json();
 }
 
 export async function get_rule(key: string): Promise<Rule> {
-    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rules/?search="${encodeURIComponent(key)}"`, { credentials: "include" }).then((r) => r.json());
-    return rule_res[0] as Rule;
+	let rule_res = await fetch(
+		`${import.meta.env.VITE_BACKEND_ENDPOINT}/rules/?search="${encodeURIComponent(key)}"`,
+		{ credentials: 'include' }
+	).then((r) => r.json());
+	return rule_res[0] as Rule;
 }
 
 export async function get_roster_links(player_key: string): Promise<RosterLinksResponse> {
-    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/roster-links/?player__display_name=${encodeURIComponent(player_key)}&ordering=-roster__tournament__date&limit=100`, { credentials: "include" }).then((r) => r.json());
-    return rule_res as RosterLinksResponse;
+	let rule_res = await fetch(
+		`${import.meta.env.VITE_BACKEND_ENDPOINT}/roster-links/?player__display_name=${encodeURIComponent(player_key)}&ordering=-roster__tournament__date&limit=100`,
+		{ credentials: 'include' }
+	).then((r) => r.json());
+	return rule_res as RosterLinksResponse;
 }
 
 export async function get_roster_by_id(roster_id: string): Promise<Roster> {
-    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rosters/${roster_id}`, { credentials: "include" }).then((r) => r.json());
-    return rule_res as Roster;
+	let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rosters/${roster_id}`, {
+		credentials: 'include'
+	}).then((r) => r.json());
+	return rule_res as Roster;
 }
 
 export async function get_roster_by_name(roster: string, team: string): Promise<RosterResponse> {
-    let rule_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/rosters/?tournament__name=${encodeURIComponent(roster)}&team__alternate_name=${encodeURIComponent(team)}&limit=100`, { credentials: "include" }).then((r) => r.json());
-    return rule_res as RosterResponse;
+	let rule_res = await fetch(
+		`${import.meta.env.VITE_BACKEND_ENDPOINT}/rosters/?tournament__name=${encodeURIComponent(roster)}&team__alternate_name=${encodeURIComponent(team)}&limit=100`,
+		{ credentials: 'include' }
+	).then((r) => r.json());
+	return rule_res as RosterResponse;
 }

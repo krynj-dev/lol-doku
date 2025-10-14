@@ -2,7 +2,7 @@
 	import { run } from 'svelte/legacy';
 
 	import { browser } from '$app/environment';
-	import Modal from "./modal/Modal.svelte";
+	import Modal from './modal/Modal.svelte';
 	import Info from './vector-image/Info.svelte';
 	import Worlds from './vector-image/Worlds.svelte';
 	import PuzzleCountdown from './PuzzleCountdown.svelte';
@@ -13,7 +13,7 @@
 	}
 
 	let { tabs, selected = $bindable() }: Props = $props();
-	
+
 	let showModal = $state(true);
 	let dialog: HTMLDialogElement | undefined = $state();
 
@@ -26,79 +26,132 @@
 
 	run(() => {
 		if (browser) {
-			let welcome_seen = localStorage.getItem("welcome_seen");
+			let welcome_seen = localStorage.getItem('welcome_seen');
 			if (welcome_seen == null) {
 				showModal = true;
-				localStorage.setItem("welcome_seen", "1");
+				localStorage.setItem('welcome_seen', '1');
 			}
 		}
 	});
 </script>
 
-<Modal bind:showModal bind:dialog size=600>
+<Modal bind:showModal bind:dialog size="600">
 	{#snippet title()}
-		<h3 class="info-title" >Welcome to LoLProGrid!</h3>
+		<h3 class="info-title">Welcome to LoLProGrid!</h3>
 	{/snippet}
 	<div class="info-modal">
 		<p>Fill the grid with professional LoL players who fit in the categories!</p>
-		<p>Only games played in primary-level or secondary-level tournaments count towards a player's membership of a given category.<br>
-		This includes typical premier tournaments such as LEC, LCS, LCK, LPL and all minor region equivalents as well as international events such as MSI, Worlds and even IEMs.
-		For secondary leagues, think LCKCL, NA Collegiate or ERLs.<br>
-		There are also some interesting inclusions such as Promotion tournaments and season open showmatches.</p>
+		<p>
+			Only games played in primary-level or secondary-level tournaments count towards a player's
+			membership of a given category.<br />
+			This includes typical premier tournaments such as LEC, LCS, LCK, LPL and all minor region equivalents
+			as well as international events such as MSI, Worlds and even IEMs. For secondary leagues, think
+			LCKCL, NA Collegiate or ERLs.<br />
+			There are also some interesting inclusions such as Promotion tournaments and season open showmatches.
+		</p>
 		<p>All cells in the grid contain at least five correct answers.</p>
 		<p>You get 10 guesses, that means one mulligan. Use it wisely!</p>
-		<p>You <span class="strong">are</span> allowed to change your answers but it will cost you a guess to do so.</p>
+		<p>
+			You <span class="strong">are</span> allowed to change your answers but it will cost you a guess
+			to do so.
+		</p>
 		<p>Any one player is only allowed to be used in one cell. No repeats.</p>
 		<hr />
 		<h4>The following categories may appear:</h4>
 		<ul class="category-list">
 			<li>
 				<h5 class="example-rule-title">Team</h5>
-				<p class="rule-description">Any player who has played at least <span class="strong">one</span> game for the team.
-					Click on the teams logo to see other names they played under.
+				<p class="rule-description">
+					Any player who has played at least <span class="strong">one</span> game for the team. Click
+					on the teams logo to see other names they played under.
 				</p>
 				<div class="example-rule-container">
-					<div class="example-rule"><img src="img/teams/Fnatic.webp" alt="Fnatic"/><p class="example-rule-caption">Fnatic</p></div>
+					<div class="example-rule">
+						<img src="img/teams/Fnatic.webp" alt="Fnatic" />
+						<p class="example-rule-caption">Fnatic</p>
+					</div>
 				</div>
 			</li>
 			<li>
 				<h5 class="example-rule-title">Teammate</h5>
-				<p class="rule-description">Any player who has been on the same roster as the specified player.
-					This does <span  class="strong">not</span> include players listed as substitutes (if a sub played a match they're typically briefly listed as a main player and <span class="strong">do</span> count).<br/>
+				<p class="rule-description">
+					Any player who has been on the same roster as the specified player. This does <span
+						class="strong">not</span
+					>
+					include players listed as substitutes (if a sub played a match they're typically briefly listed
+					as a main player and <span class="strong">do</span> count).<br />
 					Click on the player portrait to see other names they played under.
 				</p>
 				<div class="example-rule-container">
-					<div class="example-rule"><img src="img/players/Faker.webp" alt="Faker"/><p class="example-rule-caption">Faker Teammate</p></div>
+					<div class="example-rule">
+						<img src="img/players/Faker.webp" alt="Faker" />
+						<p class="example-rule-caption">Faker Teammate</p>
+					</div>
 				</div>
 			</li>
 			<li>
-				<h5 class="example-rule-title">Role</h5><p class="rule-description">Any player who has recorded at least one game on the specified role.</p>
+				<h5 class="example-rule-title">Role</h5>
+				<p class="rule-description">
+					Any player who has recorded at least one game on the specified role.
+				</p>
 				<div class="example-rule-container">
-					<div class="example-rule"><img src="img/roles/jungle.svg" alt="Jungle"/><p class="example-rule-caption">Jungle</p></div>
+					<div class="example-rule">
+						<img src="img/roles/jungle.svg" alt="Jungle" />
+						<p class="example-rule-caption">Jungle</p>
+					</div>
 				</div>
 			</li>
 			<li>
-				<h5 class="example-rule-title">Champion</h5><p class="rule-description">Any player who has recorded 40 or more official games on the specified champion <span class="strong">or</span> any player who has at least 75 games on any one champion.</p>
+				<h5 class="example-rule-title">Champion</h5>
+				<p class="rule-description">
+					Any player who has recorded 40 or more official games on the specified champion <span
+						class="strong">or</span
+					> any player who has at least 75 games on any one champion.
+				</p>
 				<div class="example-rule-container">
-					<div class="example-rule"><img src="img/champion/Kassadin.png" alt="Kassadin"/><p class="example-rule-caption">Kassadin 40+</p></div>
+					<div class="example-rule">
+						<img src="img/champion/Kassadin.png" alt="Kassadin" />
+						<p class="example-rule-caption">Kassadin 40+</p>
+					</div>
 				</div>
 			</li>
 			<li>
-				<h5 class="example-rule-title">Country</h5><p class="rule-description">Any player who's country of origin is the specified country. This is <span class="strong">not</span> the player's residency.</p>
+				<h5 class="example-rule-title">Country</h5>
+				<p class="rule-description">
+					Any player who's country of origin is the specified country. This is <span class="strong"
+						>not</span
+					> the player's residency.
+				</p>
 				<div class="example-rule-container">
-					<div class="example-rule"><img src="img/country/au.svg" alt="Australia"/><p class="example-rule-caption">Australia</p></div>
+					<div class="example-rule">
+						<img src="img/country/au.svg" alt="Australia" />
+						<p class="example-rule-caption">Australia</p>
+					</div>
 				</div>
 			</li>
 			<li>
-				<h5 class="example-rule-title">Tournament</h5><p class="rule-description">Any player who played at least one game in the specified tournament. For Worlds this only includes Group Stage onwards.</p>
+				<h5 class="example-rule-title">Tournament</h5>
+				<p class="rule-description">
+					Any player who played at least one game in the specified tournament. For Worlds this only
+					includes Group Stage onwards.
+				</p>
 				<div class="example-rule-container">
-					<div class="example-rule"><Worlds fill="var(--lol-gold-1)"/><p class="example-rule-caption">Worlds 2015 Participant</p></div>
+					<div class="example-rule">
+						<Worlds fill="var(--lol-gold-1)" />
+						<p class="example-rule-caption">Worlds 2015 Participant</p>
+					</div>
 				</div>
 			</li>
 			<li>
-				<h5 class="example-rule-title">Finalist</h5><p class="rule-description">Any player who played in the final series of the specified tournament.</p>
+				<h5 class="example-rule-title">Finalist</h5>
+				<p class="rule-description">
+					Any player who played in the final series of the specified tournament.
+				</p>
 				<div class="example-rule-container">
-					<div class="example-rule"><Worlds fill="var(--lol-gold-1)"/><p class="example-rule-caption">Worlds Finalist</p></div>
+					<div class="example-rule">
+						<Worlds fill="var(--lol-gold-1)" />
+						<p class="example-rule-caption">Worlds Finalist</p>
+					</div>
 				</div>
 			</li>
 		</ul>
@@ -113,13 +166,12 @@
 		</div>
 		<div class="header-tabs-container header-border">
 			<PuzzleCountdown />
-			<button class="info-button header-tab h4" onclick={() => showModal = true}>Info</button>
+			<button class="info-button header-tab h4" onclick={() => (showModal = true)}>Info</button>
 		</div>
 	</div>
 </nav>
 
 <style>
-
 	.header-container {
 		display: block;
 		padding: 0;
@@ -215,14 +267,14 @@
 		display: grid;
 		align-items: center;
 		grid-template-columns: 27% auto 15%;
-		grid-template-areas: "title desc image";
+		grid-template-areas: 'title desc image';
 		box-sizing: border-box;
 	}
 
 	@media only screen and (max-width: 769px) {
 		.category-list > li {
 			grid-template-columns: auto 25%;
-			grid-template-areas: "title image" "desc image";
+			grid-template-areas: 'title image' 'desc image';
 		}
 
 		.example-rule-title {

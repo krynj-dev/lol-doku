@@ -5,8 +5,6 @@
 	import DragNDrop from './DragNDrop.svelte';
 	import { writable, type Writable } from 'svelte/store';
 
-	
-
 	const { getBucketsStore, getKey } = getContext<DragNDrop>('dnd');
 	const buckets_store: Writable<{ [key: string]: Bucket }> = getBucketsStore();
 	let buckets: {
@@ -43,7 +41,7 @@
 	const dndKey = getKey();
 
 	item_store.subscribe((v) => {
-        callback(v, bucket_key);
+		callback(v, bucket_key);
 		items = v;
 	});
 
@@ -72,10 +70,10 @@
 			const [item] = from_items.splice(data.itemIndex, 1);
 
 			buckets[data.bucket_key].items.set(from_items);
-			if ((!max_size) || max_size === 0 || items.length < max_size) {
+			if (!max_size || max_size === 0 || items.length < max_size) {
 				item_store.update((i: any[]) => [...i, item]);
 			} else {
-                buckets[data.bucket_key].items.update((i: any[]) => [...i, items[0]])
+				buckets[data.bucket_key].items.update((i: any[]) => [...i, items[0]]);
 				item_store.update((i: any[]) => [...i.splice(1), item]);
 			}
 		}
@@ -110,8 +108,8 @@
 			role="listitem"
 			style="cursor: pointer; display: inline-block"
 			draggable={true}
-            class={item.data.class}
-		> 
+			class={item.data.class}
+		>
 			<span>{item.data.display_text}</span>
 		</div>
 	{/each}

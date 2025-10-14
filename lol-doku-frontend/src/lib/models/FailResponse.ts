@@ -1,3 +1,3 @@
 export interface FailResponse {
-    "reason": string;
+	reason: string;
 }
