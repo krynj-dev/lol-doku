@@ -15,6 +15,7 @@ class PlayerSerializer(serializers.ModelSerializer):
 
 
 
+
 class PlayerAlternateNameSerializer(serializers.ModelSerializer):
     class Meta:
         model = PlayerAlternateName

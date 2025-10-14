@@ -74,7 +74,7 @@
 			{/each}
 			{#each rows as row (row.index)}
 				{#each columns as col (col.index)}
-					<div class="answer-tile" style="grid-area: r{col.index}{row.index}">
+					<div class="answer-tile" style="grid-area: r{row.index}{col.index}">
 						<DokuTile index={row.index * 3 + col.index} rule1={col} rule2={row}  />
 					</div>
 				{/each}

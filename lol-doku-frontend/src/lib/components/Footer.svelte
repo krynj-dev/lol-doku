@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { get_metadata } from '$lib/shared/api';
+	import X from './vector-image/X.svelte';
 
 	let kofi: any = $state();
 	let kofiHtml: string = $state('');
@@ -35,6 +36,10 @@
 					{@html kofiHtml}
 				</div>
 			{/if}
+		</div>
+		<div class="footer-tab">
+			<p class="credits">Issue? Let me know:</p>
+			<div class="socials-bar"><a href="https://x.com/Krynj_" target="_blank" class="social-container"><X /></a></div>
 		</div>
 </div>
 </div>
@@ -126,5 +131,17 @@
 		max-height: 100%;
 		object-fit: scale-down;
 		box-sizing: border-box;
+	}
+
+	.social-container {
+		height: 100%;
+		aspect-ratio: 1 / 1;
+	}
+
+	.socials-bar {
+		display: flex;
+		width: 100%;
+		padding: 5px;
+		height: 28px;
 	}
 </style>

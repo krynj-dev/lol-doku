@@ -1,5 +1,6 @@
 from players.models import Player, PlayerAlternateName
 from rest_framework import permissions, viewsets, filters
+from django.contrib.postgres.aggregates import ArrayAgg
 
 from players.serializers import PlayerAlternateNameSerializer, PlayerSerializer
 
@@ -8,11 +9,17 @@ class PlayerViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = Player.objects.filter(active=True).order_by('display_name')
+    queryset = Player.objects.all()
     serializer_class = PlayerSerializer
     permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]
-    filter_backends = [filters.SearchFilter]
-    search_fields = ['display_name']
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        term = self.request.query_params.get("search")
+
+        if term:
+            qs = qs.search(term)
+        return qs
 
 
 class PlayerAlternateNameViewSet(viewsets.ModelViewSet):

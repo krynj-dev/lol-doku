@@ -41,10 +41,11 @@
 	{/snippet}
 	<div class="info-modal">
 		<p>Fill the grid with professional LoL players who fit in the categories!</p>
-		<p>Only games played in primary-level tournaments count towards a player's membership of a given category.<br>
-		This includes typical premier tournaments such as LEC, LCS, LCK, LPL and all minor region equivalents as well as international events such as MSI, Worlds and even IEMs.<br>
+		<p>Only games played in primary-level or secondary-level tournaments count towards a player's membership of a given category.<br>
+		This includes typical premier tournaments such as LEC, LCS, LCK, LPL and all minor region equivalents as well as international events such as MSI, Worlds and even IEMs.
+		For secondary leagues, think LCKCL, NA Collegiate or ERLs.<br>
 		There are also some interesting inclusions such as Promotion tournaments and season open showmatches.</p>
-		<p>All cells in the grid contain at least two correct answers.</p>
+		<p>All cells in the grid contain at least five correct answers.</p>
 		<p>You get 10 guesses, that means one mulligan. Use it wisely!</p>
 		<p>You <span class="strong">are</span> allowed to change your answers but it will cost you a guess to do so.</p>
 		<p>Any one player is only allowed to be used in one cell. No repeats.</p>
@@ -52,13 +53,20 @@
 		<h4>The following categories may appear:</h4>
 		<ul class="category-list">
 			<li>
-				<h5 class="example-rule-title">Team</h5><p class="rule-description">Any player who has played at least <span class="strong">one</span> game for the team.</p>
+				<h5 class="example-rule-title">Team</h5>
+				<p class="rule-description">Any player who has played at least <span class="strong">one</span> game for the team.
+					Click on the teams logo to see other names they played under.
+				</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><img src="img/teams/Fnatic.webp" alt="Fnatic"/><p class="example-rule-caption">Fnatic</p></div>
 				</div>
 			</li>
 			<li>
-				<h5 class="example-rule-title">Teammate</h5><p class="rule-description">Any player who has been on the same roster as the specified player. This does <span  class="strong">not</span> include players listed as substitutes (if a sub played a match they're typically briefly listed as a main player and <span class="strong">do</span> count)</p>
+				<h5 class="example-rule-title">Teammate</h5>
+				<p class="rule-description">Any player who has been on the same roster as the specified player.
+					This does <span  class="strong">not</span> include players listed as substitutes (if a sub played a match they're typically briefly listed as a main player and <span class="strong">do</span> count).<br/>
+					Click on the player portrait to see other names they played under.
+				</p>
 				<div class="example-rule-container">
 					<div class="example-rule"><img src="img/players/Faker.webp" alt="Faker"/><p class="example-rule-caption">Faker Teammate</p></div>
 				</div>

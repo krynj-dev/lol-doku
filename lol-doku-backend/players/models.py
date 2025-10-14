@@ -1,4 +1,5 @@
 from django.db import models
+from .managers import PersonQuerySet
 
 class Player(models.Model):
     display_name = models.CharField(max_length=50, unique=True)
@@ -7,6 +8,8 @@ class Player(models.Model):
     age = models.IntegerField(blank=True, null=True)
     residency = models.CharField(max_length=100)
     active = models.BooleanField(default=True, db_default=True)
+
+    objects = PersonQuerySet.as_manager()
 
     def __str__(self):
         return f'{self.display_name}'

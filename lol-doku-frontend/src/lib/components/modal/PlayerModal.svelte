@@ -9,6 +9,7 @@
 	import { get_player_image_src } from '$lib/shared/img';
 	import { _correct, _lives, _puzzle, _selected_players } from '../../../stores';
 	import Modal from './Modal.svelte';
+	import { onDestroy } from 'svelte';
 
 	interface Props {
 		showModal: Boolean;
@@ -62,10 +63,13 @@
 	}
 
 	let filter = $state('');
+	let timer: number | undefined = $state();
 
-	run(() => {
-		if (filter.length >= 2) {
-			get_players(filter, 20).then((res) => {
+	  // Mock search function
+	async function performSearch(fltr: string) {
+		if (fltr.length >= 2) {
+			get_players(fltr, 20).then((res) => {
+				console.log(res.results)
 				let results = res.results;
 				playerList = results;
 				results.forEach((player) => {
@@ -81,7 +85,26 @@
 		} else {
 			playerList = [];
 		}
-	});
+	}
+
+	// Called whenever the input changes
+	function handleInput(event: InputEvent & {target: HTMLInputElement}) {
+		filter = event?.target?.value;
+
+		// Reset the debounce timer
+		if (timer) {
+			clearTimeout(timer)
+		};
+
+		// Start a new timer
+		timer = setTimeout(() => {
+			performSearch(filter);
+		}, 300); // 300ms debounce delay
+	}
+
+	// Cleanup on destroy
+	onDestroy(() => clearTimeout(timer));
+
 
 	let dialog: HTMLDialogElement = $state(); // HTMLDialogElement
 
@@ -141,13 +164,11 @@
 	<div>
 		<p class="input-label">Search Player:</p>
 		<!-- svelte-ignore a11y_autofocus -->
-		<input bind:value={filter} bind:this={ref} autofocus />
+		<input bind:value={filter} bind:this={ref} oninput={handleInput} autofocus />
 	</div>
 	<hr />
 	<div class="player-button-box">
-		{#each playerList.toSorted((a, b) => a.display_name
-				.toLowerCase()
-				.localeCompare(b.display_name.toLowerCase())) as plr}
+		{#each playerList as plr}
 			<button
 				class={`player-modal-button`}
 				onclick={(e) => handlePlayerSelection(e, plr.display_name)}
