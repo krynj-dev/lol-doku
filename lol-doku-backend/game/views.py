@@ -69,17 +69,18 @@ def make_guess(request: HttpRequest):
     request_body = json.loads(request.body)
     session_id = request.COOKIES.get('loldoku_sessionid')
     if session_id is None:
-        return HttpResponse(status=400)
+        return HttpResponse(status=400, content="Missing session ID.")
     timenow = dt.date.today()
     # Create game using roster and session ID
     todays_puzzle = GameRoster.objects.get(date=timenow)
     try:
         game = Game.objects.get(sessionid=session_id, rostered_puzzle=todays_puzzle)
         player = Player.objects.get(display_name=request_body["player"])
-    except:
-        return HttpResponse(status=400)
+    except Exception as e:
+        
+        return HttpResponse(status=400, content="Error occurred processing request body.")
     if game.remaining_guesses == 0:
-        return HttpResponse(status=400)
+        return HttpResponse(status=400, content="No more guesses remaining.")
     # Check if guesses remaining
     # Change guess
     slot = 3*request_body["y"] + request_body["x"]

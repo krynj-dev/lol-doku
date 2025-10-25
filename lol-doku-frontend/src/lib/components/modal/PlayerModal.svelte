@@ -10,6 +10,7 @@
 	import { _correct, _lives, _puzzle, _selected_players } from '../../../stores';
 	import Modal from './Modal.svelte';
 	import { onDestroy } from 'svelte';
+	import { toast } from '@zerodevx/svelte-toast';
 
 	interface Props {
 		showModal: Boolean;
@@ -141,6 +142,9 @@
 						error_flashing = true;
 						setTimeout(() => (error_flashing = false), 200);
 					}
+				}).catch((err) => {
+					toast.push(`Something went wrong submitting your guess. Please try again.`);
+				}).finally(() => {
 					loading = false;
 				});
 			}

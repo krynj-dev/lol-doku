@@ -3,7 +3,6 @@
 
 	import { browser } from '$app/environment';
 	import Modal from './modal/Modal.svelte';
-	import Info from './vector-image/Info.svelte';
 	import Worlds from './vector-image/Worlds.svelte';
 	import PuzzleCountdown from './PuzzleCountdown.svelte';
 
@@ -12,8 +11,8 @@
 		selected: string | undefined;
 	}
 
-	let { tabs, selected = $bindable() }: Props = $props();
-
+	let { selected = $bindable() }: Props = $props();
+	
 	let showModal = $state(true);
 	let dialog: HTMLDialogElement | undefined = $state();
 

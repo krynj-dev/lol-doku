@@ -56,19 +56,6 @@ async function init_puzzle(): Promise<GameState> {
 }
 
 export async function get_metadata(): Promise<Metadata> {
-	// Get Session
-	let session_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/game/session`, {
-		credentials: 'include'
-	})
-		.then((r) => r.json())
-		.catch((e) => {
-			console.error(e);
-			_failed_load.set({
-				reason: 'Failed to retrieve session.'
-			} as FailResponse);
-			throw new Error('Failed to retrieve session');
-		});
-	// Get Metadata
 	let metadata_res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/meta/latest`, {
 		credentials: 'include'
 	})
