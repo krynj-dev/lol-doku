@@ -8,23 +8,48 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Puzzle',
+            name="Puzzle",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='PuzzleRule',
+            name="PuzzleRule",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('axis', models.TextField(choices=[('x', 'X'), ('y', 'Y')], max_length=1)),
-                ('index', models.IntegerField(default=0)),
-                ('puzzle', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='assoc_rules', to='puzzles.puzzle')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "axis",
+                    models.TextField(choices=[("x", "X"), ("y", "Y")], max_length=1),
+                ),
+                ("index", models.IntegerField(default=0)),
+                (
+                    "puzzle",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="assoc_rules",
+                        to="puzzles.puzzle",
+                    ),
+                ),
             ],
         ),
     ]

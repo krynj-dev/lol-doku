@@ -5,12 +5,13 @@ import urllib.request
 import os, json, time
 from datetime import datetime as dt
 
+
 def retrieve_team_images(site: EsportsClient, teams: set[str]):
     i = 1
     failures = []
     for team in teams:
         print(f"\r{i+1}/{len(teams)}", sep=" ", end="", flush=True)
-        team_file_name = f'data/images/teams/{team}.webp'
+        team_file_name = f"data/images/teams/{team}.webp"
         if os.path.isfile(team_file_name):
             continue
         try:
@@ -26,7 +27,7 @@ def retrieve_team_images(site: EsportsClient, teams: set[str]):
 
                 im.thumbnail((500, 500))
 
-                im.save(team_file_name, 'webp')
+                im.save(team_file_name, "webp")
 
                 im.close()
 
@@ -38,4 +39,4 @@ def retrieve_team_images(site: EsportsClient, teams: set[str]):
             # print(f"\rfailed for {player_key}", str(e), flush=True)
             failures.append((team, e))
         i += 1
-    print("\n".join([f"{t} failed: {e}"] for t,e in failures))
+    print("\n".join([f"{t} failed: {e}"] for t, e in failures))

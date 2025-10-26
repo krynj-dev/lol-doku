@@ -8,27 +8,47 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Player',
+            name="Player",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('display_name', models.CharField(max_length=50)),
-                ('real_name', models.CharField(max_length=100)),
-                ('country', models.CharField(max_length=100)),
-                ('age', models.IntegerField()),
-                ('residency', models.CharField(max_length=100)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("display_name", models.CharField(max_length=50)),
+                ("real_name", models.CharField(max_length=100)),
+                ("country", models.CharField(max_length=100)),
+                ("age", models.IntegerField()),
+                ("residency", models.CharField(max_length=100)),
             ],
         ),
         migrations.CreateModel(
-            name='PlayerAlternateName',
+            name="PlayerAlternateName",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('alternate_name', models.CharField(max_length=50)),
-                ('player_name', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='players.player')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("alternate_name", models.CharField(max_length=50)),
+                (
+                    "player_name",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="players.player"
+                    ),
+                ),
             ],
         ),
     ]

@@ -2,10 +2,12 @@
 import json
 from django.db import migrations, transaction, IntegrityError
 
+
 def int_or_none(n):
-    if n == '' or n is None:
+    if n == "" or n is None:
         return None
     return int(n)
+
 
 def load_teams(apps, schema_editor):
     missing_plr = set()
@@ -13,13 +15,13 @@ def load_teams(apps, schema_editor):
     TeamAlternateName = apps.get_model("teams", "TeamAlternateName")
     TeamSisterTeam = apps.get_model("teams", "TeamSisterTeam")
     data = None
-    with open("db_data/teams.json", 'r+', encoding='utf-8') as f:
+    with open("db_data/teams.json", "r+", encoding="utf-8") as f:
         data = json.load(f)
     if data is None:
         return
     i = 1
     for k in data.keys():
-        print(f"\rTeam {i}/{len(data.keys())}", flush=True, end='', sep='')
+        print(f"\rTeam {i}/{len(data.keys())}", flush=True, end="", sep="")
         i += 1
         team = data[k]
         try:
@@ -33,13 +35,12 @@ def load_teams(apps, schema_editor):
                     op=team["op"],
                     region=team["region"],
                     short=team["short"],
-                    )
+                )
                 db_team.save()
                 for other_name in team["other_names"]:
                     try:
                         db_oname = TeamAlternateName.objects.create(
-                            team_op=db_team,
-                            alternate_name=other_name
+                            team_op=db_team, alternate_name=other_name
                         )
                         db_oname.save()
                     except:
@@ -47,8 +48,7 @@ def load_teams(apps, schema_editor):
                 for sister_team in team["sister_teams"]:
                     try:
                         db_sister = TeamSisterTeam.objects.create(
-                            team_op=db_team,
-                            sister_team_name=sister_team
+                            team_op=db_team, sister_team_name=sister_team
                         )
                         db_sister.save()
                     except:
@@ -63,9 +63,7 @@ def load_teams(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('teams', '0003_alter_team_short'),
+        ("teams", "0003_alter_team_short"),
     ]
 
-    operations = [
-        migrations.RunPython(load_teams)
-    ]
+    operations = [migrations.RunPython(load_teams)]

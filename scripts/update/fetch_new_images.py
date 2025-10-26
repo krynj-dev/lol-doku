@@ -3,14 +3,19 @@ from cooked import cook_players_data
 from images import retrieve_player_images, retrieve_team_images
 from datetime import datetime
 
+
 def fetch_player_images(site: EsportsClient, rosters):
     player_set = set()
-    acceptable_roles = [ "Top", "Jungle", "Mid", "Bot", "Support" ]
+    acceptable_roles = ["Top", "Jungle", "Mid", "Bot", "Support"]
     for roster in rosters:
         if roster["Roles"] is not None and roster["RosterLinks"]:
             if len(roster["Roles"]) != len(roster["RosterLinks"]):
                 continue
-            players = [roster["RosterLinks"][i] for i in range(len(roster["RosterLinks"])) if any(r in acceptable_roles for r in roster["Roles"][i].split(','))]
+            players = [
+                roster["RosterLinks"][i]
+                for i in range(len(roster["RosterLinks"]))
+                if any(r in acceptable_roles for r in roster["Roles"][i].split(","))
+            ]
             for plr in players:
                 player_set.add(plr)
 
@@ -27,14 +32,14 @@ def fetch_player_images(site: EsportsClient, rosters):
     #         ok = revised_images[k["Link"]]
     #         if k["SortDate"] > ok["SortDate"] or k["DateStart"] > ok["DateStart"]:
     #             revised_images[k["Link"]] = k
-    
+
     return players, player_imgs
 
 
-def update_images(site: EsportsClient, time=datetime(datetime.now().year-1, 1, 1)):
+def update_images(site: EsportsClient, time=datetime(datetime.now().year - 1, 1, 1)):
 
     teams = get_teams(site, write=False)
-    with open("data/cooked/teams.json", "r+", encoding='utf-8') as f:
+    with open("data/cooked/teams.json", "r+", encoding="utf-8") as f:
         old_teams = json.load(f)
     team_names = set(old_teams.keys()) | set([t["OverviewPage"] for t in teams])
     for t in old_teams.values():

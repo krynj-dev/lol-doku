@@ -9,27 +9,35 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('game', '0001_initial'),
-        ('puzzles', '0001_initial'),
+        ("game", "0001_initial"),
+        ("puzzles", "0001_initial"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='gameroster',
-            name='puzzle',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='puzzle_roster', to='puzzles.puzzle'),
+            model_name="gameroster",
+            name="puzzle",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="puzzle_roster",
+                to="puzzles.puzzle",
+            ),
         ),
         migrations.AddField(
-            model_name='game',
-            name='rostered_puzzle',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='games', to='game.gameroster'),
+            model_name="game",
+            name="rostered_puzzle",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="games",
+                to="game.gameroster",
+            ),
         ),
         migrations.AlterUniqueTogether(
-            name='gameguess',
-            unique_together={('game', 'slot')},
+            name="gameguess",
+            unique_together={("game", "slot")},
         ),
         migrations.AlterUniqueTogether(
-            name='game',
-            unique_together={('rostered_puzzle', 'sessionid')},
+            name="game",
+            unique_together={("rostered_puzzle", "sessionid")},
         ),
     ]

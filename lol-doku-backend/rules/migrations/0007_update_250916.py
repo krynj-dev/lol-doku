@@ -2,28 +2,29 @@
 
 from django.db import migrations
 
+
 def load_update():
-    with open('db_data/update/250916/rules/update.sql', 'r+', encoding='utf-8') as f:
+    with open("db_data/update/250916/rules/update.sql", "r+", encoding="utf-8") as f:
         data = f.read()
     if data is None:
         return ""
     return data
 
+
 def load_update_reverse():
-    with open('db_data/update/250916/rules/reverse.sql', 'r+', encoding='utf-8') as f:
+    with open("db_data/update/250916/rules/reverse.sql", "r+", encoding="utf-8") as f:
         data = f.read()
     if data is None:
         return ""
     return data
+
 
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('rules', '0006_update_250313'),
-        ('players', '0009_update_250916'),
-        ('teams', '0008_update_250916'),
+        ("rules", "0006_update_250313"),
+        ("players", "0009_update_250916"),
+        ("teams", "0008_update_250916"),
     ]
 
-    operations = [
-        migrations.RunSQL(load_update(), reverse_sql=load_update_reverse())
-    ]
+    operations = [migrations.RunSQL(load_update(), reverse_sql=load_update_reverse())]

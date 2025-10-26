@@ -9,34 +9,84 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('players', '0005_load_player_data'),
+        ("players", "0005_load_player_data"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Game',
+            name="Game",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sessionid', models.CharField(max_length=64)),
-                ('remaining_guesses', models.IntegerField(default=10)),
-                ('status', models.CharField(choices=[('in_progress', 'In Progress'), ('finalised', 'Finalised')], default='in_progress', max_length=20)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("sessionid", models.CharField(max_length=64)),
+                ("remaining_guesses", models.IntegerField(default=10)),
+                (
+                    "status",
+                    models.CharField(
+                        choices=[
+                            ("in_progress", "In Progress"),
+                            ("finalised", "Finalised"),
+                        ],
+                        default="in_progress",
+                        max_length=20,
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='GameRoster',
+            name="GameRoster",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('date', models.DateField(unique=True)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("date", models.DateField(unique=True)),
             ],
         ),
         migrations.CreateModel(
-            name='GameGuess',
+            name="GameGuess",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('correct', models.BooleanField(default=False)),
-                ('slot', models.IntegerField()),
-                ('game', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='guesses', to='game.game')),
-                ('player', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='guesses', to='players.player')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("correct", models.BooleanField(default=False)),
+                ("slot", models.IntegerField()),
+                (
+                    "game",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="guesses",
+                        to="game.game",
+                    ),
+                ),
+                (
+                    "player",
+                    models.ForeignKey(
+                        blank=True,
+                        null=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="guesses",
+                        to="players.player",
+                    ),
+                ),
             ],
         ),
     ]

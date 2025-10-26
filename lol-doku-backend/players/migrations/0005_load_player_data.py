@@ -2,34 +2,36 @@
 import json
 from django.db import migrations, transaction, IntegrityError
 
+
 def int_or_none(n):
-    if n == '' or n is None:
+    if n == "" or n is None:
         return None
     return int(n)
+
 
 def load_players(apps, schema_editor):
     Player = apps.get_model("players", "Player")
     PlayerAlternateName = apps.get_model("players", "PlayerAlternateName")
     data = None
-    with open('db_data/players.json', 'r+', encoding='utf-8') as f:
+    with open("db_data/players.json", "r+", encoding="utf-8") as f:
         data = json.load(f)
     if data is None:
         return
     i = 1
     for k in data.keys():
-        print(f"\rPlayer {i}/{len(data.keys())}", flush=True, end='', sep='')
+        print(f"\rPlayer {i}/{len(data.keys())}", flush=True, end="", sep="")
         i += 1
         plr = data[k]
         try:
             with transaction.atomic():
                 db_plr = Player()
-                db_plr.display_name = plr['display_name']
-                db_plr.real_name = plr['name']
-                db_plr.country = plr['country']
-                db_plr.age = int_or_none(plr['age'])
-                db_plr.residency = plr['residency']
+                db_plr.display_name = plr["display_name"]
+                db_plr.real_name = plr["name"]
+                db_plr.country = plr["country"]
+                db_plr.age = int_or_none(plr["age"])
+                db_plr.residency = plr["residency"]
                 db_plr.save()
-                for alt_name in plr['alternate_names']:
+                for alt_name in plr["alternate_names"]:
                     try:
                         with transaction.atomic():
                             db_alt_name = PlayerAlternateName()
@@ -41,12 +43,11 @@ def load_players(apps, schema_editor):
         except IntegrityError:
             db_plr.delete()
 
+
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('players', '0004_alter_player_age'),
+        ("players", "0004_alter_player_age"),
     ]
 
-    operations = [
-        migrations.RunPython(load_players)
-    ]
+    operations = [migrations.RunPython(load_players)]

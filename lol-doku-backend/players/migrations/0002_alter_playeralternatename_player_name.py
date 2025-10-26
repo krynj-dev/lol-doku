@@ -7,13 +7,17 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('players', '0001_initial'),
+        ("players", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='playeralternatename',
-            name='player_name',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='alternate_names', to='players.player'),
+            model_name="playeralternatename",
+            name="player_name",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="alternate_names",
+                to="players.player",
+            ),
         ),
     ]

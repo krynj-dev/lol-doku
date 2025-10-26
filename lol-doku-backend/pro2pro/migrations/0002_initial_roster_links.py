@@ -2,6 +2,7 @@ import json
 from django.db.models import Q
 from django.db import migrations, models, transaction, IntegrityError
 
+
 def init_data(apps, schema_editor):
     Tournament: models.Model = apps.get_model("pro2pro", "Tournament")
     Roster: models.Model = apps.get_model("pro2pro", "Roster")
@@ -9,16 +10,21 @@ def init_data(apps, schema_editor):
     Player: models.Model = apps.get_model("players", "Player")
     TeamAlternateName: models.Model = apps.get_model("teams", "TeamAlternateName")
     # Open file
-    with open("db_data/pro2pro/initial/roster_links.json", 'r+', encoding='utf-8') as f:
+    with open("db_data/pro2pro/initial/roster_links.json", "r+", encoding="utf-8") as f:
         data: list[dict] = json.load(f)
     if data is None:
         return
     # Make links
     i = 1
-    print('')
+    print("")
     for link in data:
-        perc = int((i*100 // len(data)) // 5)
-        print("\r[{}] {}/{}".format("-"*perc + " "*(20-perc), i, len(data)), flush=True, end='', sep='')
+        perc = int((i * 100 // len(data)) // 5)
+        print(
+            "\r[{}] {}/{}".format("-" * perc + " " * (20 - perc), i, len(data)),
+            flush=True,
+            end="",
+            sep="",
+        )
         i += 1
         try:
             created_objects = []
@@ -30,28 +36,27 @@ def init_data(apps, schema_editor):
                 tournament_name = link["tournament"]
                 try:
                     p1 = Player.objects.get(display_name=player_one)
-                    team = TeamAlternateName.objects.filter(Q(alternate_name=team_name) | Q(alternate_name__iexact=team_name)).get(team_op__active=True)
+                    team = TeamAlternateName.objects.filter(
+                        Q(alternate_name=team_name)
+                        | Q(alternate_name__iexact=team_name)
+                    ).get(team_op__active=True)
                 except Exception as e:
-                    print("Exception processing", link, e, sep='\n')
+                    print("Exception processing", link, e, sep="\n")
                 # Get or create the relevant tournament
                 tournament, created = Tournament.objects.get_or_create(
-                    name=tournament_name,
-                    date=date if date != "" else None
+                    name=tournament_name, date=date if date != "" else None
                 )
                 if created:
                     created_objects.append(tournament)
                 # Get or create the relevant roster
                 roster, created = Roster.objects.get_or_create(
-                    team=team,
-                    tournament=tournament
+                    team=team, tournament=tournament
                 )
                 if created:
                     created_objects.append(roster)
                 # Create the link
                 roster_link, created = RosterLink.objects.get_or_create(
-                    player=p1,
-                    role=role_one,
-                    roster=roster
+                    player=p1, role=role_one, roster=roster
                 )
                 if created:
                     created_objects.append(roster_link)
@@ -59,8 +64,9 @@ def init_data(apps, schema_editor):
             print(e)
             for obj in created_objects:
                 obj.delete()
-    print('')
+    print("")
     return
+
 
 def reverse_data(apps, schema_editor):
     Tournament: models.Model = apps.get_model("pro2pro", "Tournament")
@@ -71,12 +77,11 @@ def reverse_data(apps, schema_editor):
     RosterLink.objects.all().delete()
     pass
 
+
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('pro2pro', '0001_initial'),
+        ("pro2pro", "0001_initial"),
     ]
 
-    operations = [
-        migrations.RunPython(init_data, reverse_code=reverse_data)
-    ]
+    operations = [migrations.RunPython(init_data, reverse_code=reverse_data)]

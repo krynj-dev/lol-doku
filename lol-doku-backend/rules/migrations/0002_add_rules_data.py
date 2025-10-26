@@ -2,30 +2,32 @@
 import json, glob
 from django.db import migrations, transaction, IntegrityError
 
+
 def int_or_none(n):
-    if n == '' or n is None:
+    if n == "" or n is None:
         return None
     return int(n)
+
 
 def load_rules(apps, schema_editor):
     missing_plr = set()
     Rule = apps.get_model("rules", "Rule")
     Player = apps.get_model("players", "Player")
     data = None
-    with open("db_data/rules.json", 'r+', encoding='utf-8') as f:
+    with open("db_data/rules.json", "r+", encoding="utf-8") as f:
         data = json.load(f)
     if data is None:
         return
     i = 0
     for k in data.keys():
-        print(f"\rRule {i}/{len(data.keys())}", flush=True, end='', sep='')
+        print(f"\rRule {i}/{len(data.keys())}", flush=True, end="", sep="")
         i += 1
         rle = data[k]
         try:
             with transaction.atomic():
-                db_rle = Rule.objects.create(key=rle['key'], rule_type=rle['type'])
+                db_rle = Rule.objects.create(key=rle["key"], rule_type=rle["type"])
                 db_rle.save()
-                for plr in rle['valid_players']:
+                for plr in rle["valid_players"]:
                     try:
                         db_plr = Player.objects.get(display_name=plr)
                         db_rle.valid_players.add(db_plr)
@@ -36,12 +38,11 @@ def load_rules(apps, schema_editor):
             db_rle.delete()
     print(f"missing players {missing_plr}")
 
+
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('rules', '0001_initial'),
+        ("rules", "0001_initial"),
     ]
 
-    operations = [
-        migrations.RunPython(load_rules)
-    ]
+    operations = [migrations.RunPython(load_rules)]

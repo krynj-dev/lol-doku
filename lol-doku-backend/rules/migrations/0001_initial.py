@@ -9,25 +9,58 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('players', '0005_load_player_data'),
+        ("players", "0005_load_player_data"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Rule',
+            name="Rule",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('key', models.CharField(max_length=50, unique=True)),
-                ('rule_type', models.CharField(max_length=50)),
-                ('valid_players', models.ManyToManyField(related_name='valid_rules', to='players.player')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("key", models.CharField(max_length=50, unique=True)),
+                ("rule_type", models.CharField(max_length=50)),
+                (
+                    "valid_players",
+                    models.ManyToManyField(
+                        related_name="valid_rules", to="players.player"
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='ValidCrosses',
+            name="ValidCrosses",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('crosses', models.ManyToManyField(related_name='valid_crosses', to='rules.rule')),
-                ('rule', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, related_name='rule_cross', to='rules.rule')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "crosses",
+                    models.ManyToManyField(
+                        related_name="valid_crosses", to="rules.rule"
+                    ),
+                ),
+                (
+                    "rule",
+                    models.OneToOneField(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="rule_cross",
+                        to="rules.rule",
+                    ),
+                ),
             ],
         ),
     ]

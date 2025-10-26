@@ -1,6 +1,7 @@
 import json
 from shared.util import write_to_json_file, get_player_key
 
+
 def create_pentakill_rules(cooked_players: dict, pentakills: list, write=True):
     pentakill_rules = {}
     for pentakill in pentakills:
@@ -17,7 +18,7 @@ def create_pentakill_rules(cooked_players: dict, pentakills: list, write=True):
                         "type": "pentakill",
                         "regions": set(["World"]),
                         "valid_players": set(),
-                        "exclusive_crosses": set([ keyf.format(2), "Has a Pentakill"])
+                        "exclusive_crosses": set([keyf.format(2), "Has a Pentakill"]),
                     }
                 pentakill_rules[key]["valid_players"].add(player_key)
             if count >= 2:
@@ -28,7 +29,7 @@ def create_pentakill_rules(cooked_players: dict, pentakills: list, write=True):
                         "type": "pentakill",
                         "regions": set(["World"]),
                         "valid_players": set(),
-                        "exclusive_crosses": set([ keyf.format(3), "Has a Pentakill"])
+                        "exclusive_crosses": set([keyf.format(3), "Has a Pentakill"]),
                     }
                 pentakill_rules[key]["valid_players"].add(player_key)
             key = "Has a Pentakill"
@@ -38,12 +39,14 @@ def create_pentakill_rules(cooked_players: dict, pentakills: list, write=True):
                     "type": "pentakill",
                     "regions": set(["World"]),
                     "valid_players": set(),
-                    "exclusive_crosses": set([ keyf.format(3), keyf.format(2)])
+                    "exclusive_crosses": set([keyf.format(3), keyf.format(2)]),
                 }
             pentakill_rules[key]["valid_players"].add(player_key)
     if write:
-        loc = write_to_json_file("data/rules", "pentakills", pentakill_rules, format=False)    
-        with open(loc, 'r+', encoding='utf-8') as f:
+        loc = write_to_json_file(
+            "data/rules", "pentakills", pentakill_rules, format=False
+        )
+        with open(loc, "r+", encoding="utf-8") as f:
             saved_obj = json.load(f)
         return saved_obj
     else:

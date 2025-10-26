@@ -4,6 +4,7 @@ from sqlite3 import IntegrityError
 from django.db import migrations, models, transaction
 from datetime import datetime
 
+
 def make_meta(apps, schema_editor):
     DataUpdate = apps.get_model("meta", "DataUpdate")
     for app in ["players", "teams", "rules"]:
@@ -11,11 +12,12 @@ def make_meta(apps, schema_editor):
             with transaction.atomic():
                 meta = DataUpdate()
                 # meta.data_update_date = datetime.today().strftime('%Y-%m-%d')
-                meta.date = '2024-05-14'
+                meta.date = "2024-05-14"
                 meta.app = app
                 meta.save()
         except IntegrityError:
             meta.delete()
+
 
 def delete_deta(apps, schema_editor):
     DataUpdate = apps.get_model("meta", "DataUpdate")
@@ -26,17 +28,24 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='DataUpdate',
+            name="DataUpdate",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('date', models.DateField()),
-                ('app', models.CharField(max_length=32)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("date", models.DateField()),
+                ("app", models.CharField(max_length=32)),
             ],
         ),
-        migrations.RunPython(make_meta, reverse_code=delete_deta)
+        migrations.RunPython(make_meta, reverse_code=delete_deta),
     ]

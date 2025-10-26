@@ -79,71 +79,79 @@ CLOUDRUN_SERVICE_URL = env("CLOUDRUN_SERVICE_URL", default=None)
 if CLOUDRUN_SERVICE_URL:
     ALLOWED_HOSTS = [
         urlparse(CLOUDRUN_SERVICE_URL).netloc,
-        'loldoku-20a39.web.app', 'lolprogrid.com', 'www.lolprogrid.com']
+        "loldoku-20a39.web.app",
+        "lolprogrid.com",
+        "www.lolprogrid.com",
+    ]
     CSRF_TRUSTED_ORIGINS = [
         CLOUDRUN_SERVICE_URL,
-        'https://loldoku-20a39.web.app',
-        'https://lolprogrid.com',
-        'https://www.lolprogrid.com',
+        "https://loldoku-20a39.web.app",
+        "https://lolprogrid.com",
+        "https://www.lolprogrid.com",
     ]
     SECURE_SSL_REDIRECT = True
     SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 else:
-    ALLOWED_HOSTS = ["*", "loldoku-20a39.web.app", "www.lolprogrid.com", 'lolprogrid.com']
+    ALLOWED_HOSTS = [
+        "*",
+        "loldoku-20a39.web.app",
+        "www.lolprogrid.com",
+        "lolprogrid.com",
+    ]
 # [END cloudrun_django_csrf]
 
 # Application definition
 
 INSTALLED_APPS = [
-    'puzzles.apps.PuzzlesConfig',
-    'players.apps.PlayersConfig',
-    'rules.apps.RulesConfig',
-    'teams.apps.TeamsConfig',
-    'pro2pro.apps.Pro2ProConfig',
-    'game.apps.GameConfig',
-    'stats.apps.StatsConfig',
-    'meta.apps.MetaConfig',
-    'django_filters',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework.authtoken',
+    "puzzles.apps.PuzzlesConfig",
+    "players.apps.PlayersConfig",
+    "rules.apps.RulesConfig",
+    "teams.apps.TeamsConfig",
+    "pro2pro.apps.Pro2ProConfig",
+    "game.apps.GameConfig",
+    "stats.apps.StatsConfig",
+    "meta.apps.MetaConfig",
+    "django_filters",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "rest_framework",
+    "rest_framework.authtoken",
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "django.contrib.messages.middleware.MessageMiddleware",
+    "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = 'lol_doku_backend.urls'
+ROOT_URLCONF = "lol_doku_backend.urls"
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
+        "BACKEND": "django.template.backends.django.DjangoTemplates",
+        "DIRS": [],
+        "APP_DIRS": True,
+        "OPTIONS": {
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.request",
+                "django.contrib.auth.context_processors.auth",
+                "django.contrib.messages.context_processors.messages",
             ],
         },
     },
 ]
 
-WSGI_APPLICATION = 'lol_doku_backend.wsgi.application'
+WSGI_APPLICATION = "lol_doku_backend.wsgi.application"
 
 
 # Database
@@ -175,23 +183,21 @@ DATABASES = {"default": env.db()}
 # }
 
 
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
 
@@ -199,9 +205,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = 'Australia/Sydney'
+TIME_ZONE = "Australia/Sydney"
 
 USE_I18N = True
 
@@ -211,53 +217,52 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Django REST Framework
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
-    'DEFAULT_PERMISSION_CLASSES': [
+    "DEFAULT_PERMISSION_CLASSES": [],
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+    "PAGE_SIZE": 20,
+    "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.TokenAuthentication",
+        "rest_framework.authentication.SessionAuthentication",
     ],
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 20,
-    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.TokenAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
-    ]
 }
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:5173',
-    'https://loldoku-20a39.web.app',
-    'https://lolprogrid.com',
-    'https://www.lolprogrid.com',
-    'https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app'
+    "http://localhost:5173",
+    "https://loldoku-20a39.web.app",
+    "https://lolprogrid.com",
+    "https://www.lolprogrid.com",
+    "https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app",
 ]
 
 CORS_ALLOW_HEADERS = [
-    'X-CSRFTOKEN',
-    'csrftoken',
-    'X-XSRF-TOKEN',
-    'content-type',
-    'x-requested-with',
-    'Authorization',
-    'Set-Cookie'
+    "X-CSRFTOKEN",
+    "csrftoken",
+    "X-XSRF-TOKEN",
+    "content-type",
+    "x-requested-with",
+    "Authorization",
+    "Set-Cookie",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:5173',
-    'http://localhost',
-    'https://loldoku-20a39.web.app',
-    'https://www.lolprogrid.com',
-    'https://lolprogrid.com',
-    'https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app'
+    "http://localhost:5173",
+    "http://localhost",
+    "https://loldoku-20a39.web.app",
+    "https://www.lolprogrid.com",
+    "https://lolprogrid.com",
+    "https://lol-doku-backend-service-s3hl4c5epa-ts.a.run.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True

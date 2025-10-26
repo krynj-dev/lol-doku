@@ -9,14 +9,18 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('puzzles', '0001_initial'),
-        ('rules', '0001_initial'),
+        ("puzzles", "0001_initial"),
+        ("rules", "0001_initial"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='puzzlerule',
-            name='rule',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='assoc_puzzles', to='rules.rule'),
+            model_name="puzzlerule",
+            name="rule",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="assoc_puzzles",
+                to="rules.rule",
+            ),
         ),
     ]

@@ -1,6 +1,7 @@
 import json
 from shared.util import write_to_json_file, get_player_key
 
+
 def create_champion_rules(cooked_players: dict, raw_player_champions: list, write=True):
     cumulative_counts = {}
     champion_rules = {}
@@ -12,7 +13,9 @@ def create_champion_rules(cooked_players: dict, raw_player_champions: list, writ
                 cumulative_counts[player_key] = {}
             if champion_key not in cumulative_counts[player_key].keys():
                 cumulative_counts[player_key][champion_key] = 0
-            cumulative_counts[player_key][champion_key] += int(player_champ["GameCount"])
+            cumulative_counts[player_key][champion_key] += int(
+                player_champ["GameCount"]
+            )
             # Add to rules
             champ_40_key = f"{champion_key} 25+"
             if cumulative_counts[player_key][champion_key] >= 25:
@@ -22,7 +25,7 @@ def create_champion_rules(cooked_players: dict, raw_player_champions: list, writ
                         "type": "champion",
                         "regions": set(["World"]),
                         "valid_players": set(),
-                        "exclusive_crosses": set()
+                        "exclusive_crosses": set(),
                     }
                 champion_rules[champ_40_key]["valid_players"].add(player_key)
             if cumulative_counts[player_key][champion_key] >= 75:
@@ -33,14 +36,15 @@ def create_champion_rules(cooked_players: dict, raw_player_champions: list, writ
                         "type": "champion",
                         "regions": set(["World"]),
                         "valid_players": set(),
-                        "exclusive_crosses": set()
+                        "exclusive_crosses": set(),
                     }
                 champion_rules[any_key]["valid_players"].add(player_key)
     if write:
-        loc = write_to_json_file("data/rules", "champion_counts", champion_rules, format=False)    
-        with open(loc, 'r+', encoding='utf-8') as f:
+        loc = write_to_json_file(
+            "data/rules", "champion_counts", champion_rules, format=False
+        )
+        with open(loc, "r+", encoding="utf-8") as f:
             saved_obj = json.load(f)
         return saved_obj
     else:
         return champion_rules
-                

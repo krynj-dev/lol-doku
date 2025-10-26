@@ -7,19 +7,27 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('players', '0008_update_250313'),
-        ('pro2pro', '0002_initial_roster_links'),
+        ("players", "0008_update_250313"),
+        ("pro2pro", "0002_initial_roster_links"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='rosterlink',
-            name='player',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='player_links', to='players.player'),
+            model_name="rosterlink",
+            name="player",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="player_links",
+                to="players.player",
+            ),
         ),
         migrations.AlterField(
-            model_name='rosterlink',
-            name='roster',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='roster_links', to='pro2pro.roster'),
+            model_name="rosterlink",
+            name="roster",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="roster_links",
+                to="pro2pro.roster",
+            ),
         ),
     ]

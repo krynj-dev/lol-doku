@@ -9,64 +9,166 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('players', '0008_update_250313'),
-        ('teams', '0007_update_250313'),
+        ("players", "0008_update_250313"),
+        ("teams", "0007_update_250313"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Pro2ProPlayerPuzzle',
+            name="Pro2ProPlayerPuzzle",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('player_from', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='player_from', to='players.player')),
-                ('player_to', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='player_to', to='players.player')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "player_from",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="player_from",
+                        to="players.player",
+                    ),
+                ),
+                (
+                    "player_to",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="player_to",
+                        to="players.player",
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='Roster',
+            name="Roster",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('team', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='teams.teamalternatename')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "team",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="teams.teamalternatename",
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='Pro2ProRosterPuzzle',
+            name="Pro2ProRosterPuzzle",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('roster_from', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='roster_from', to='pro2pro.roster')),
-                ('roster_to', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='roster_to', to='pro2pro.roster')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "roster_from",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="roster_from",
+                        to="pro2pro.roster",
+                    ),
+                ),
+                (
+                    "roster_to",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="roster_to",
+                        to="pro2pro.roster",
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='Tournament',
+            name="Tournament",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=128)),
-                ('date', models.DateField(blank=True, null=True)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=128)),
+                ("date", models.DateField(blank=True, null=True)),
             ],
             options={
-                'unique_together': {('name', 'date')},
+                "unique_together": {("name", "date")},
             },
         ),
         migrations.AddField(
-            model_name='roster',
-            name='tournament',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='pro2pro.tournament'),
+            model_name="roster",
+            name="tournament",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE, to="pro2pro.tournament"
+            ),
         ),
         migrations.CreateModel(
-            name='RosterLink',
+            name="RosterLink",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('role', models.CharField(choices=[('Top', 'Top'), ('Jungle', 'Jungle'), ('Mid', 'Middle'), ('Bot', 'Bottom'), ('Support', 'Support'), ('Substitute', 'Substitute'), ('Coach', 'Coach')], max_length=20)),
-                ('player', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='link', to='players.player')),
-                ('roster', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='pro2pro.roster')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "role",
+                    models.CharField(
+                        choices=[
+                            ("Top", "Top"),
+                            ("Jungle", "Jungle"),
+                            ("Mid", "Middle"),
+                            ("Bot", "Bottom"),
+                            ("Support", "Support"),
+                            ("Substitute", "Substitute"),
+                            ("Coach", "Coach"),
+                        ],
+                        max_length=20,
+                    ),
+                ),
+                (
+                    "player",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="link",
+                        to="players.player",
+                    ),
+                ),
+                (
+                    "roster",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="pro2pro.roster"
+                    ),
+                ),
             ],
             options={
-                'unique_together': {('roster', 'player', 'role')},
+                "unique_together": {("roster", "player", "role")},
             },
         ),
         migrations.AlterUniqueTogether(
-            name='roster',
-            unique_together={('team', 'tournament')},
+            name="roster",
+            unique_together={("team", "tournament")},
         ),
     ]

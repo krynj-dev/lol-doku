@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Team(models.Model):
     becomes = models.CharField(max_length=100, blank=True, null=True)
     came_from = models.CharField(max_length=100, blank=True, null=True)
@@ -11,10 +12,16 @@ class Team(models.Model):
     short = models.CharField(max_length=8, blank=True, null=True)
     active = models.BooleanField(default=True, db_default=True)
 
+
 class TeamAlternateName(models.Model):
-    team_op = models.ForeignKey(Team, on_delete=models.CASCADE, related_name='alternate_names')
+    team_op = models.ForeignKey(
+        Team, on_delete=models.CASCADE, related_name="alternate_names"
+    )
     alternate_name = models.CharField(max_length=100)
 
+
 class TeamSisterTeam(models.Model):
-    team_op = models.ForeignKey(Team, on_delete=models.CASCADE, related_name='sister_teams')
+    team_op = models.ForeignKey(
+        Team, on_delete=models.CASCADE, related_name="sister_teams"
+    )
     sister_team_name = models.CharField(max_length=100)

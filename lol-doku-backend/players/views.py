@@ -9,6 +9,7 @@ class PlayerViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
+
     queryset = Player.objects.all()
     serializer_class = PlayerSerializer
     permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]
@@ -26,6 +27,7 @@ class PlayerAlternateNameViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows groups to be viewed or edited.
     """
+
     queryset = PlayerAlternateName.objects.all()
     serializer_class = PlayerAlternateNameSerializer
     permission_classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]
